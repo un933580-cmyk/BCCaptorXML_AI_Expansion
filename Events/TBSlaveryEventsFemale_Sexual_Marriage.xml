@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_slavery_test</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualMarriage001}Your master orders you to submit before him and demonstrate what you have learned about being a slave.</Text>
+        <BackgroundName>BC_image_slavery_waiting_tile</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage007}Lovingly suckle your master's cock.</OptionText>
+                <RelationTotal>5</RelationTotal>
+                <RenownTotal>-20</RenownTotal>
+                <HealthTotal>100</HealthTotal>
+                <PregnancyRiskModifier>17</PregnancyRiskModifier>
+                <TriggerEventName>TB_slavery_eager_broken</TriggerEventName>
+                <ReqHeroSlaveLevelAbove>250</ReqHeroSlaveLevelAbove>
+                <ReqHeroCaptorRelationAbove>50</ReqHeroCaptorRelationAbove>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage008}Kiss your master's cock-head in submission.</OptionText>
+                <RelationTotal>R 1 5</RelationTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_x_cunni</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_use</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_lord_oral</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage009}Refuse to submit to your rapist.</OptionText>
+                <HealthTotal>R -5 -15</HealthTotal>
+                <TriggerEventName>TB_dream_lobby</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage0010}Take your chain and strangle him with it.</OptionText>
+                <RelationTotal>R -5 -10</RelationTotal>
+                <SlaveryTotal>R -40 -60</SlaveryTotal>
+                <EscapeChance>10</EscapeChance>
+                <HealthTotal>-50</HealthTotal>
+                <TriggerEventName>BC_slavery_training</TriggerEventName>
+                <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
+            </Option>
+        </Options>
+        <WeightedChanceOfOccuring>40</WeightedChanceOfOccuring>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_eager_broken</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualMarriage002}You gaze lovingly into your master's eyes, begging him to fill you and make you his, and his member hardens noticeably inside you. He thrusts into you, his thrusts grow more frenzied as you begin thrusting back, and the two of you share a thunderous climax, moaning in orgasmic chorus as his seed fills your womb. He kisses you, hard, and tells you that you are his, now and forever.</Text>
+        <BackgroundName>BC_image_sex_mf_cum_stomach</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage011}Swear to be his, forever.</OptionText>
+                <RelationTotal>R 10 30</RelationTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+                <HealthTotal>100</HealthTotal>
+                <PregnancyRiskModifier>17</PregnancyRiskModifier>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_marriage</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_broken_wife</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_broken_captor_not_noble</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <TriggerEventName>TB_slavery_marriage</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage012}Hide your shame as you smile and kiss him back.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+                <RelationTotal>R 1 5</RelationTotal>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage013}Try to rest.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+                <TriggerEventName>TB_dream_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualMarriage003}Your joining ceremony is beautiful, full of wine, song, and dance, and your outfit is gorgeous, thin and constricting.</Text>
+        <BackgroundName>BC_image_slavery_white_bondage_wedding_1</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>CaptiveLeaveSpouse</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage014}Submit to your master before the altar.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_submit</TriggerEventName>
+                <ClanOptions>
+                    <ClanOption Ref="Hero" Action="Join" Clan="Captor" HideNotification="false" />
+                </ClanOptions>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage015}Wait, no - you don't want this.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Concubine" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_broken_wife</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualMarriage004}Your master carefully binds you with your wedding dress, and you kneel before him, reliving the day you first pledged your life to him. He smiles possessively at you as you clean his cock, muttering that training you as his slave was the best decision he ever made.</Text>
+        <BackgroundName>BC_image_slavery_sub_dog_collar_group</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage016}Will you ever be free?</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_broken_captor_not_noble</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualMarriage005}Your master smiles possessively at you as you clean his cock, wistfully wishing he were a noble so that he could make you his submissive concubine.</Text>
+        <BackgroundName>BC_image_slavery_oral_looking_at</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage016}Will you ever be free?</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_submit</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualMarriage006}Your master pushes you down then spreads your legs open in front of the entire procession. You eagerly take shaft after shaft as he stuffs them inside you, eager to prove your devotion before the heavens, and he climaxes at your submission, coating your face with his sweet and salty seed. A lone tear rolls down your cheek, its passing a final farewell to any hope that you might ever be free.</Text>
+        <BackgroundName>BC_image_slavery_white_bondage_wedding_2</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualMarriage017}Your training is complete.</OptionText>
+                <SkillsToLevel>
+                    <Skill ByLevel="1" Id="Concubine" Ref="Hero" Color="Magenta"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

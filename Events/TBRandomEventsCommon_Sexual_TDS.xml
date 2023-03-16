@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_tds_help</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS001}You're out scouting by yourself when you hear the sounds of battle. Sneaking closer, you see a handsome, bare-chested man with an unusual weapon fighting viciously with a gang of deserters. He seems to be holding his own for now, but it's one against twelve, which seems rather poor odds, even for a master swordsman.</Text>
+        <BackgroundName>NK_tds_fighting</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS013}Assist him in his fight.</OptionText>
+                <RenownTotal>R -5 -10</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="OneHanded" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_tds_help_tds_win_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_tds_help_tds_win_f</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_tds_help_tds_lose_f</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_tds_help_tds_lose_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS014}Help the deserters.</OptionText>
+                <MoraleTotal>R 5 10</MoraleTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_tds_help_deserters_win</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_tds_help_deserters_lose_f</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_tds_help_deserters_lose_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="OneHanded" ByXP="250" Ref="Hero"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS015}Move along quietly.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="250" Ref="Hero"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_help_tds_win_f</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS002}The man seems surprised to see you, and even more to see you join the fray on his side. You fight valiantly, your skills on display as you move back-to-back with the swordsman, partners in a deadly and horrifying dance. Before long the few remaining foes flee for their lives, screaming about having fought a pair of demons, and you turn to find the swordsman smiling at you appreciatively. He bows curtly, telling you that your valor in combat has more than earned a favor from him, and asks what boon he might provide you. You feel your loins stir at the sight of his handsome face and chiseled chest...</Text>
+        <BackgroundName>NK_tds_together</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS016}Lay a hand on his groin.</OptionText>
+                <TriggerEventName>TB_tds_random_sex_favor_1</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS017}He'll owe you a favor.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="TDSFavor" ByLevel="1" Ref="Hero"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+         <SkillsRequired>
+                    <SkillRequired Id="OneHanded" Min="R 30 180" Ref="Hero"/>
+                </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_help_tds_win_m</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS003}The man seems surprised to see you, and even more to see you join the fray on his side. You fight valiantly, your skills on display as you move back-to-back with the swordsman, partners in a deadly and horrifying dance. Before long the few remaining foes flee for their lives, screaming about having fought a pair of demons, and you turn to find the swordsman smiling at you appreciatively. He bows curtly, telling you that your valor in combat has more than earned a favor from him, and asks what boon he might provide you.</Text>
+        <BackgroundName>NK_tds_victor</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS017}He'll owe you a favor.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="TDSFavor" ByLevel="1" Ref="Hero"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+         <SkillsRequired>
+        <SkillRequired Id="OneHanded" Min="R 30 180" Ref="Hero"/>
+                </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_help_tds_lose_m</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS004}The man seems surprised to see you, and even more to see you join the fray on his side. You fight valiantly, your skills on display as you move back-to-back with the swordsman, partners in a deadly and horrifying dance. Unfortunately you find yourself overpowered, and one of the deserters knocks you unconscious. To your surprise, you wake to find the stranger standing over you, nursing you back to health. He thanks you for your assistance, but recommends that you leave the fighting to someone who knows what they're about.</Text>
+        <BackgroundName>NK_tds_victor</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS018}What an arrogant man...</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <GoldTotal>-500</GoldTotal>
+                <RenownTotal>R 5 15</RenownTotal>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS019}Offer to pay him for his trouble.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_help_tds_lose_f</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS005}The man seems surprised to see you, and even more to see you join the fray on his side. You fight valiantly, your skills on display as you move back-to-back with the swordsman, partners in a deadly and horrifying dance. Unfortunately you find yourself overpowered, and one of the deserters knocks you unconscious. To your surprise, you wake to find the stranger standing over you, nursing you back to health. He thanks you for your assistance, but recommends that you leave the fighting to someone who knows what they're about. Despite his insults, his confidence and his bare chest are intoxicating, and you feel a stirring in your loins...</Text>
+        <BackgroundName>NK_tds_victor</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS018}What an arrogant man...</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <GoldTotal>-500</GoldTotal>
+                <RenownTotal>R 5 15</RenownTotal>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS019}Offer to pay him for his trouble.</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RenownTotal>R 5 15</RenownTotal>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS020}Offer to pleasure him for his trouble.</OptionText>
+                <TriggerEventName>TB_tds_random_sex_favor_1</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_help_deserters_lose_f</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS006}The man seems surprised to see you, and even more to see you join the fray against him. You fight valiantly, but the man is a demon, and your erstwhile allies soon flee in terror before his mighty sword. Too late, you realize your dilemma as he neatly disarms you, drawing his blade to your neck. He looks you up and down appreciatively, and you feel a tremor of fear and desire in your loins...</Text>
+        <BackgroundName>NK_tds_victor</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS021}Maybe that wasn't a great idea...</OptionText>
+                <TriggerEventName>TB_captor_tds_duel_lose_2</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_help_deserters_lose_m</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS007}The man seems surprised to see you, and even more to see you join the fray against him. You fight valiantly, but the man is a demon, and your erstwhile allies soon flee in terror before his mighty sword. Too late, you realize your dilemma as he neatly disarms you, drawing his blade to your neck. He comments that the victor in combat must take a forfeit from the loser. With that he neatly knocks you unconscious, and when you wake you find yourself short a hefty sum of gold.</Text>
+        <BackgroundName>NK_tds_farewell</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <GoldTotal>-1000</GoldTotal>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS022}Just a common thief, then...</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_help_deserters_win</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS008}The man seems surprised to see you, and even more to see you join the fray against him. You fight valiantly, your skills on display as your deadly dance dazzles the deserters. Before long you manage a clean strike, nicking the man's face, and he leaps backwards, shaking his head in disapproval. He bows curtly, telling you that your valor in combat has earned his forfeit, and drops a small pouch of gold at your feet before running off. You'd consider following, but you feel a sharp crack on your skull from behind and fall into unconsciousness...</Text>
+        <BackgroundName>NK_tds_refuse</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS023}But - you were helping them!</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_kidnapped_wilds
+                        </EventName>
+                        <EventWeight>1</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_tds_help_deserters_win_m
+                        </EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+         <SkillsRequired>
+            <SkillRequired Id="OneHanded" Min="R 30 180" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_help_deserters_win_m</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS009}When you wake, the deserters are gone, as is the pouch of gold.</Text>
+        <BackgroundName/>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS024}Ungrateful cowards.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_random_sex_favor_1</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS010}The swordsman smiles greedily, as though he already expected your surrender. He gently picks you up, massive arms caressing you as he carries you to a nearby clearing, and carefully places you on the ground. He sensually removes your clothes, briefly suckling at each of your nipples to harden them, then deftly removes his own. His manhood springs to attention and you feel your clit briefly twitch before he pounces atop you, shoving his head between your legs as he drags your groin upwards to meet his lips. His tongue zips around your sex like lightning, sending surges of pleasure down your spine, and you lose yourself in rapturous bliss as he mischievously edges you ever closer to climax, never quite letting you cum.</Text>
+        <BackgroundName>NK_tds_cunni</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS025}Beg him to let you come.</OptionText>
+                <TriggerEventName>TB_tds_random_sex_2</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 30" Ref="Hero" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_random_sex_2</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS011}As your insistent cries grow more desperate he stops, smiling at your distressed, needy expression, and drops your legs to the ground. The brief bite of pain as your ass lands is immediately overwhelmed by the sensation of rapturous climax as he enters you, the walls of your womanhood clenching around his iron rod hard enough that he grimaces in pleasure and pain. Before your orgasm can fade he pulls out slowly then pushes once more into you, rubbing against your insides with the gentlest of motions, and you feel your arousal growing once more. His thrusts grow faster as your body clenches over and over again. Wave after wave of bliss washes over you as the minutes go by, and yet still he shows no signs of getting tired...</Text>
+        <BackgroundName>NK_tds_doggy</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS026}How long can he go on?</OptionText>
+                <TriggerEventName>TB_tds_random_sex_3</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 30" Ref="Hero" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_tds_random_sex_3</Name>
+        <Text>{=TBRandomEventsCommon_Sexual_TDS012}It feels like hours since your first orgasm started, and you're still riding that wave - and your lover's cock. At last you feel his thrusts begin to slow, his breathing become ragged, and as you pant in exhaustion, your hips sore from bucking and your mouth growing dry, you feel him surge inside you, filling your womb with blissful warmth. He collapses against you as you continue bucking against him, your mind so far gone it doesn't even occur to you to stop, and as he cuddles against your shaking body you finally lose consciousness as your rapture continues in your dreams. When you wake, he is gone, leaving only a strange flower nestled between your breasts.</Text>
+        <BackgroundName>NK_tds_farewell</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCommon_Sexual_TDS027}Continue on your way.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 30" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <PregnancyRiskModifier>17</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

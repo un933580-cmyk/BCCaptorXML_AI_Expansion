@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_slavery_sold_caravan_witness</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualWitness001}A merchant in town sees one of the other prisoners being moved from one location to another and asks your guards if she is for sale. Curious, they begin haggling and quickly come to an acceptable price. He inspects her, examining her teeth and poking his fingers into her cunt, and seems satisfied. He explains that she is now his sex slave, and he expects her to eagerly serve any cock he deems worthy. She nods, obviously frightened, and is taken away...</Text>
+        <BackgroundName>BC_image_harem_present_back</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+            <RestrictedListOfFlags>VisitedByCaravan</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualWitness004}Watch sorrowfully as she becomes a slave...</OptionText>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualWitness005}Strangle him with your chains and yell for her to run.</OptionText>
+                <HealthTotal>R -20 -40</HealthTotal>
+                <TriggerEventName>TB_slavery_sold_caravan_bard_intervene</TriggerEventName>
+                <ReqHeroHealthAbovePercentage>50</ReqHeroHealthAbovePercentage>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>22</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroCaptorRelationBelow>20</ReqHeroCaptorRelationBelow>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_sold_caravan_bard_intervene</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualWitness002}The girl glances gratefully back at you as she flees, but your attempt to kill the man is less successful; the guards pull you off of him, and he scowls angrily at you, grasping at his neck. He smiles cruelly and decides to buy you instead; such a rebellious slave will be most entertaining to break. As the guards hold you still, he grasps your neck with both hands and you begin to choke...</Text>
+        <BackgroundName>BC_image_slavery_looking</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>SoldToCaravan</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualWitness006}Fall into unconsciousness.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+                <SlaveryTotal>R 10 25</SlaveryTotal>
+                <TriggerEventName>TB_dream_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bard_comfort_slave</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualWitness003}One of your captors orders you to hold down another slave. You think you've seen her before in another village. The man starts to removes his breeches and exposes his hardening cock...</Text>
+        <BackgroundName>BC_image_slaves_three</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualWitness007}Reluctantly do as you're told.</OptionText>
+                <RelationTotal>R 1 3</RelationTotal>
+                <TriggerEventName>TB_common_noncon_assisting_continue</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveLustV" Max="250" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualWitness008}Volunteer to take her place.</OptionText>
+                <RenownTotal>R 1 3</RenownTotal>
+                <HealthTotal>R 5 15</HealthTotal>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+                <TriggerEventName>TB_common_noncon_assisting_volunteer</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualWitness009}He can't stop both of you at the same time... Run for it!</OptionText>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveLustC" Max="250" Ref="Hero" />
+                </SkillsRequired>
+                <RelationTotal>R -1 -7</RelationTotal>
+                <EscapeChance>10</EscapeChance>
+                <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>13</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

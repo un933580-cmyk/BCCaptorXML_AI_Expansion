@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+  <EquipmentRoster id="npc_captive_f_equipment_template_nude">
+    <EquipmentSet>
+        <Equipment slot="Cape"
+                id="Item.no_item" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="npc_captive_f_equipment_template_t1">
+    <EquipmentSet civilian="true">
+        <Equipment slot="Cape"
+                id="Item.klbcloth4" />
+        <Equipment slot="Leg"
+                id="Item.klbcloth2" />
+        <Equipment slot="Gloves"
+                id="Item.klbcloth1" />
+                <Equipment slot="Item0"
+                        id="Item.horse_whip" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <!--<Equipment slot="Body"
+                 id="Item.burlap_sack_dress" />-->
+        <Equipment slot="Cape"
+                id="Item.klbcloth4" />
+        <Equipment slot="Leg"
+                id="Item.klbcloth2" />
+        <Equipment slot="Gloves"
+                id="Item.klbcloth1" />
+                <Equipment slot="Item0"
+                        id="Item.horse_whip" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="npc_captive_f_equipment_template_t2">
+    <EquipmentSet civilian="true">
+        <Equipment slot="Cape"
+                id="Item.klbcloth4" />
+        <Equipment slot="Leg"
+                id="Item.klbcloth2" />
+        <Equipment slot="Gloves"
+                id="Item.klbcloth1" />
+                <Equipment slot="Item0"
+                        id="Item.khuzait_mace_1_t2" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <!--<Equipment slot="Body"
+                 id="Item.burlap_sack_dress" />-->
+        <Equipment slot="Cape"
+                id="Item.klbcloth4" />
+        <Equipment slot="Leg"
+                id="Item.klbcloth2" />
+        <Equipment slot="Gloves"
+                id="Item.klbcloth1" />
+                <Equipment slot="Item0"
+                        id="Item.khuzait_mace_1_t2" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="npc_captive_f_equipment_template_t3">
+
+    <EquipmentSet civilian="true">
+        <Equipment slot="Cape"
+                id="Item.klbcloth4" />
+        <Equipment slot="Leg"
+                id="Item.klbcloth2" />
+        <Equipment slot="Gloves"
+                id="Item.klbcloth1" />
+                <Equipment slot="Item0"
+                        id="Item.khuzait_mace_1_t2" />
+    </EquipmentSet>
+    <EquipmentSet >
+      <Equipment slot="Cape"
+              id="Item.klbcloth4" />
+      <Equipment slot="Leg"
+              id="Item.klbcloth2" />
+      <Equipment slot="Gloves"
+              id="Item.klbcloth1" />
+      <Equipment slot="Item0" id="Item.vlandia_mace_1_t2" />
+      <Equipment slot="Item2" id="Item.throwing_stone" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="npc_captive_f_equipment_template_t4">
+        <EquipmentSet civilian="true">
+            <Equipment slot="Cape"
+                    id="Item.klbcloth4" />
+            <Equipment slot="Leg"
+                    id="Item.klbcloth2" />
+            <Equipment slot="Gloves"
+                    id="Item.klbcloth1" />
+                    <Equipment slot="Item0"
+                            id="Item.battania_mace_2_t2" />
+        </EquipmentSet>
+        <EquipmentSet >
+          <Equipment slot="Cape"
+                  id="Item.klbcloth4" />
+          <Equipment slot="Leg"
+                  id="Item.klbcloth2" />
+          <Equipment slot="Gloves"
+                  id="Item.klbcloth1" />
+          <Equipment slot="Item0"
+                            id="Item.battania_mace_2_t2" />
+          <Equipment slot="Item1" id="Item.bitch_fork" />
+          <Equipment slot="Horse" id="Item.empire_horse" />
+          <Equipment slot="HorseHarness" id="Item.light_harness" />
+        </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="npc_captive_f_equipment_template_mistress">
+    <EquipmentSet>
+      <Equipment slot="Body"
+                 id="Item.misstress_armor" />
+      <Equipment slot="Head"
+                 id="Item.aserai_female_civil_hscarf" />
+      <Equipment slot="Cape"
+              id="Item.klbcloth4" />
+      <Equipment slot="Leg"
+              id="Item.klbcloth2" />
+      <Equipment slot="Gloves"
+              id="Item.klbcloth1" />
+      <Equipment slot="Item0"
+                        id="Item.battania_mace_2_t2" />
+      <Equipment slot="Item1" id="Item.quarterstaff" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body"
+                 id="Item.misstress_armor" />
+      <Equipment slot="Head"
+                 id="Item.aserai_female_civil_hscarf" />
+      <Equipment slot="Cape"
+              id="Item.klbcloth4" />
+      <Equipment slot="Leg"
+              id="Item.klbcloth2" />
+      <Equipment slot="Gloves"
+              id="Item.klbcloth1" />
+      <Equipment slot="Item0"
+                        id="Item.battania_mace_2_t2" />
+      <Equipment slot="Item1" id="Item.quarterstaff" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="npc_captive_m_shirtless_ronin">
+    <EquipmentSet>
+      <Equipment slot="Body" 
+                id="Item.loverpants" />
+        <Equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <Equipment slot="Item0" id="Item.loverstaff" />
+        <Equipment slot="Horse" id="Item.empire_horse" />
+        <Equipment slot="HorseHarness" id="Item.light_harness" />
+      <!-- <Equipment slot="Horse" id="Item.early_retirement_2hsword_t3" />
+      <Equipment slot="Item2" id="Item.eastern_javelin_3_t4" /> -->
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+        <Equipment slot="Body" 
+                  id="Item.loverpants" />
+          <Equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <Equipment slot="Item0" id="Item.loverstaff" />
+        <!-- <Equipment slot="Item1" id="Item.early_retirement_2hsword_t3" /> -->
+        <!-- <Equipment slot="Item2" id="Item.throwing_stone" /> -->
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!-- Stripper Outfits Harem head=aserai_female_civil_hscarf
+        fine_southern_dress
+        desert_headdress , aserai_female_civil_hscarf_b
+        head_wrapped
+
+        higher - chained fur cloak, battanian_chainmail_shoulder_b
+
+        tartan cloak, tartan cape, woodland fur cloak, heavy tartan scarf, leopard pelt, 
+
+                LONG SLEEVED/BRONZE SCALE SHOULDER GUARDS : medallions
+        -->
+        
+   <EquipmentRoster id="npc_captive_f_equipment_template_stripper_01">
+        <EquipmentSet civilian="true">
+                <Equipment slot="Body" id="Item.0_shyr" />
+                <Equipment slot="Cape"
+                                id="Item.no_hood" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Body" id="Item.0_skull" />
+                <Equipment slot="Cape"
+                                id="Item.no_hood" />
+        </EquipmentSet>
+        <!-- <EquipmentSet civilian="true">
+                <Equipment slot="Body" id="Item.0_corset" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Body" id="Item.0_lace_corset" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Body" id="Item.0_casta_corset" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Body" id="Item.0_medusa_nude" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Body" id="Item.0_imperial_nude" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Body" id="Item.0_bikini" />
+        </EquipmentSet> -->
+        <EquipmentSet>
+          <Equipment slot="Cape"
+                     id="Item.battania_civil_cape" />
+                <Equipment slot="Body" id="Item.no_armor" />
+          <Equipment slot="Leg"
+                     id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Cape"
+                                id="Item.female_hood" />
+                                <!-- <Equipment slot="Body" id="Item.no_armor" /> -->
+                <Equipment slot="Gloves"
+                                id="Item.klbcloth1" />
+                <Equipment slot="Leg" 
+                                id="Item.klbcloth2" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Cape"
+                           id="Item.female_hood" />
+                <!-- <Equipment slot="Body" id="Item.no_armor" /> -->
+                <Equipment slot="Gloves"
+                        id="Item.klbcloth1" />
+                <Equipment slot="Leg" id="Item.1_high_boots" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Cape"
+                           id="Item.battanian_chainmail_shoulder_a" />
+                <!-- <Equipment slot="Body" id="Item.no_armor" /> -->
+                <Equipment slot="Gloves"
+                        id="Item.klbcloth1" />
+                <Equipment slot="Leg" id="Item.1_high_boots" />
+        </EquipmentSet>
+   </EquipmentRoster>
+   <EquipmentRoster id="npc_captive_f_equipment_template_stripper_02">
+        <EquipmentSet>
+          <Equipment slot="Cape"
+                     id="Item.battania_civil_cape" />
+          <Equipment slot="Leg"
+                     id="Item.ladys_shoe" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+                <Equipment slot="Head"
+                           id="Item.aserai_female_civil_hscarf" />
+                <Equipment slot="Cape"
+                           id="Item.battanian_chainmail_shoulder_b" />
+                <Equipment slot="Gloves"
+                        id="Item.klbcloth1" />
+                <Equipment slot="Leg" id="Item.1_high_boots" />
+        </EquipmentSet>
+   </EquipmentRoster>
+   <EquipmentRoster id="npc_captive_m_equipment_template_stripper_01">
+        <EquipmentSet civilian="true">
+                <Equipment slot="Cape"
+                           id="Item.bearskin" />
+                <Equipment slot="Leg"
+                        id="Item.klbcloth2" />
+                <Equipment slot="Gloves"
+                        id="Item.klbcloth1" />
+        </EquipmentSet>
+        <EquipmentSet>
+          <Equipment slot="Cape"
+                     id="Item.battania_cloak_furr" />
+          <Equipment slot="Leg"
+                     id="Item.ladys_shoe" />
+        </EquipmentSet>
+   </EquipmentRoster>
+</EquipmentRosters>

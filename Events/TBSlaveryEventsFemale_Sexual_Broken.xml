@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+  <CEEvent>
+    <Name>TB_slavery_status_broken</Name>
+    <Text>{=TBSlaveryEventsFemaleSexualBroken001}You smile, glassy-eyed, as you feel another man spurt inside of you. You can't remember a time when life was more than having your mouth and cunt filled by whoever wants to make use of you, and you've learned that while resistance only brings more pain, obedience sometimes brings the most delicious pleasure...</Text>
+    <BackgroundName>BC_image_sex_f_gang_toes</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken009}Check if your master needs his slave.</OptionText>
+        <RenownTotal>R -1 -3</RenownTotal>
+        <SlaveryTotal>R 2 9</SlaveryTotal>
+        <PregnancyRiskModifier>1</PregnancyRiskModifier>
+        <TriggerEventName>TB_slavery_anticipation</TriggerEventName>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken010}Try to get some sleep.</OptionText>
+        <HealthTotal>R 5 15</HealthTotal>
+        <SlaveryTotal>R 2 6</SlaveryTotal>
+        <TriggerEventName>TB_dream_lobby</TriggerEventName>
+        <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+      </Option>
+      <Option>
+        <Order>2</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken011}Try to escape.</OptionText>
+        <RelationTotal>R -3 -5</RelationTotal>
+        <EscapeChance>10</EscapeChance>
+        <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+    <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_cum_collector</Name>
+    <Text>{=TBSlaveryEventsFemaleSexualBroken002}Your master decides you need to be fattened up. He orders you to suck off every cock you can find and spit their semen in a bowl. You eagerly accept the task, happy to have any opportunity to avoid your master, and spend several hours finding every dusty, stinking cock you can until the bowl is filled and you return to your master. He glares at you; of course, you should know what to do.</Text>
+    <BackgroundName>BC_image_slavery_cum_bowl</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken012}Slurp up as much of the thick slime as you can stand.</OptionText>
+        <HealthTotal>R 15 30</HealthTotal>
+        <RenownTotal>R -3 -6</RenownTotal>
+        <SlaveryTotal>R 2 6</SlaveryTotal>
+        <TriggerEventName>TB_slavery_cum_affectionado</TriggerEventName>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken013}Dump it on yourself and try to act sexy.</OptionText>
+        <RenownTotal>R -1 -3</RenownTotal>
+        <SlaveryTotal>R 1 3</SlaveryTotal>
+        <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+      </Option>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken014}Bathe yourself in it. Push it into your skin.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <RenownTotal>R -1 -5</RenownTotal>
+        <SlaveryTotal>R 1 3</SlaveryTotal>
+        <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_cum_affectionado</Name>
+    <Text>{=TBSlaveryEventsFemaleSexualBroken003}You move towards the bowl, keeping your hands on the floor, and scarfing it down. It's the only meal you've had in days, and you hadn't dared to swallow any without your master's approval. You bloat yourself with the viscous mixture until the bile builds in your tum, and your master laughs, "Stop, pig; you've eaten enough".</Text>
+    <BackgroundName>BC_image_slavery_cum_lips</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken015}Thank your master for his merciful meal.</OptionText>
+        <RelationTotal>R 1 7</RelationTotal>
+        <SlaveryTotal>R 2 6</SlaveryTotal>
+      </Option>
+      <Option>
+        <Order>2</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken016}Beg your master to let you finish the bowl.</OptionText>
+        <HealthTotal>R -30 -80</HealthTotal>
+        <RelationTotal>15</RelationTotal>
+        <RenownTotal>R -5 -10</RenownTotal>
+        <SlaveryTotal>R 5 12</SlaveryTotal>
+        <TriggerEventName>TB_slavery_cum_addict</TriggerEventName>
+        <ReqHeroHealthAbovePercentage>30</ReqHeroHealthAbovePercentage>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_cum_addict</Name>
+    <Text>{=TBSlaveryEventsFemaleSexualBroken004}Your master's eyes widen as you continue slurping down the semen in the bowl, eagerly ingesting his men's seed. Your stomach gurgles and sputters, and you begin to feel queasy as you start to reach the bottom of the bowl. Your master has been masturbating furiously to your performance, and sprays over you as you finish. his jism scarcely adds to the heavy coating on your face and bloated belly as he tells you that you are a very good slave indeed.</Text>
+    <BackgroundName>BC_image_slavery_cum_gimp</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken017}Thank your master for his delicious gift.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" />
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <RelationTotal>2</RelationTotal>
+        <SlaveryTotal>R 2 6</SlaveryTotal>
+        <HealthTotal>R 10 30</HealthTotal>
+      </Option>
+      <Option>
+        <Order>2</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken018}Collapse.</OptionText>
+        <HealthTotal>R 8 20</HealthTotal>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustO" ByLevel="R 5 1" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <TriggerEventName>TB_dream_lobby</TriggerEventName>
+        <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_anticipation</Name>
+    <Text>{=TBSlaveryEventsFemaleSexualBroken005}Your master seems in poor spirits, distracted by some misfortune. Anticipating his need, you crawl up to him and soothe his worries with your body.</Text>
+    <BackgroundName>BC_image_slavery_waiting_tile</BackgroundName>
+    <Backgrounds>
+        <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
+        <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
+        <Background Name="BC_image_slavery_cell_stand"/>
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken019}Pull out his cock and start licking.</OptionText>
+        <HealthTotal>R 5 15</HealthTotal>
+        <RelationTotal>2</RelationTotal>
+        <SlaveryTotal>R 2 6</SlaveryTotal>
+        <TriggerEventName>TB_slavery_oral</TriggerEventName>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken020}Spread your legs and make master's favorite toy sticky wet.</OptionText>
+        <RelationTotal>R 1 3</RelationTotal>
+        <SlaveryTotal>R 2 6</SlaveryTotal>
+        <PregnancyRiskModifier>1</PregnancyRiskModifier>
+        <TriggerEventName>TB_slavery_vaginal</TriggerEventName>
+      </Option>
+      <Option>
+        <Order>2</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken021}Lay on your face and spread your ass.</OptionText>
+        <RelationTotal>2</RelationTotal>
+        <SlaveryTotal>R 2 6</SlaveryTotal>
+        <TriggerEventName>TB_slavery_anal</TriggerEventName>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_oral</Name>
+    <Text>{=TBSlaveryEventsFemaleSexualBroken006}You begin licking your master's cock, tickling the underside of the head, and rubbing under his testicles, and he grabs your hair, pushing past your tongue and fucking your pliant throat. You hold your breath, choking and spitting up on his cock, and it&quot;s enough for him to climax, filling your mouth with his thick load.</Text>
+    <BackgroundName>BC_image_sex_mf_oral_cum_head_back</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken022}Gulp down his gift and leave his cock spotless.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken022}Let his semen flow down to coat your breasts.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_vaginal</Name>
+    <Text>{=TBSlaveryEventsFemaleSexualBroken007}Your master splits you with his rough fingers, finding your wetness and slathering it around your steamy slit, before he pushes forcefully into you, restraining you in place in a way you find deeply arousing. As his pace quickens, he spits in your face, then again, then holds your mouth open to make sure he hits the mark. Your walls clench onto his iron rod, and you feel him flood you with hot semen before collapsing, exhausted atop you.</Text>    
+    <BackgroundName>BC_image_slavery_creampie</BackgroundName>    
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken024}Thank master for his seed and rub it back into yourself.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustV" ByLevel="R 15 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <PregnancyRiskModifier>1</PregnancyRiskModifier>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken025}Push back on master's cock until he falls asleep; or leaves you for a better cunt.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 50" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 50" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 10 -25" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <PregnancyRiskModifier>1</PregnancyRiskModifier>
+        <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_anal</Name>
+    <Text>{=TBSlaveryEventsFemaleSexualBroken008}You pinch your hole shut onto master's shaft as he takes your cheeks apart, forcefully plunging his cock at your tight ass. You scream in surrender at his deep and painful strokes, and he holds you in place as he fills your gut with sticky seed, then pulls it out and yanks your face down to his rank member.</Text>
+    <BackgroundName>BC_image_slavery_chained_anal_side</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken026}Taste your own asshole, mixed with master's cum.</OptionText>
+        <RelationTotal>R 1 3</RelationTotal>
+        <RenownTotal>R -1 -3</RenownTotal>
+        <HealthTotal>R 1 5</HealthTotal>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R -1 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBSlaveryEventsFemaleSexualBroken027}Clean the shiny slick on him, and yourself, with a rag.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <HealthTotal>R 5 15</HealthTotal>
+        <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+</CEEvents>

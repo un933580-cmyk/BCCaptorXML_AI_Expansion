@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <!-- Scene Integrations captivity.fire_event BC_event_scene_castle051
+
+            humping act_camel_rider_stand_lance_pace_4 - lifts UP for Horse!
+            arms down   act_defend_forward_staff_active_horseback
+                        act_defend_up_staff_active_horseback
+            arms cross, legs open act_ready_overswing_2h_horseback
+            sit act_sit_idle_on_floor_2
+
+
+                <SceneSettings TalkTo="random" SceneName="TheSlaveryScene" />
+
+
+        Series 4 ::: woman in-front, passive man
+        Series 5 ,,, woman enduring, active man
+            death2->scream  pretty wicked
+            scream          effortful grin
+            sneer               mean grin?
+            pain            is a good dead-face
+            *pain->furious   numb blinking!
+            lift->hitfaceup aggressive yes!      ; Lift is just teeth
+            yell            of pain?
+            *grunt           real good
+            shocked         surprisingly good
+            test2           very pleasant; long loop
+            *drink2          ""?
+            *complimented    happy smile
+            terrified        more 'spaced out'
+            convo_excited   BLISSFUL 
+            *hitfaceup       "omgomgomg"
+
+            idle_repulsed   trickface ; idle_lookaround LMAO ;
+            idle_old        stiff
+
+            *arrow_death_1    crying
+            *2                 lookaround, happy pop!
+            3                  slowww pop!
+                    4          workin' hard at it
+            5                  concentrating->disturbed!
+            6                  concentrating good
+            7                  eyes & mouth pop open
+            8                  mouth pops open
+            9                  kinda into it
+
+
+            Scene 3 is cowgirl, facing woman. Face is a bit dire but not enough in any one direction. Castle.
+            Scewne 2 "". Face is pleasurable. Tent bed.
+            21 - better position?
+            22 - face barely involved.\
+
+            in front under, tent
+            01 - no guy, arms X, dire face 
+            02 -    arms down
+            03  - v sad face ; male face PERFECT
+
+            04 - oblique pene angle
+
+            041 - woman pushing guy arms X ; good focus on player face!
+            042 - nice camera scan
+            043 - sad face                  ; BAD position on Maleplayer focus!
+            044 - penetration angle!!       ; ""
+
+            Side, no furniture
+            051 - not much Maleplayer face
+            501 - hand placement for him but more face
+            *503 - harder (hitfaceup)
+            *504 - v good (arrow_death_2)
+            505 - bad hands
+
+
+              03 - cowgirl castle
+            c 21 - cowgirl tent
+            C 41 - riding back
+            W 44 - pene angle - female only?
+            c 51 - pushing down tent
+
+                chainful
+            scn_bc_hangout
+            
+                demeaning
+            scn_bc_pro_oral face fucked in a tent
+            scn_bc_pro_grass knees outside a tent
+            scn_bc_paizu couch tent chesty
+            
+
+            TENT
+            scn_bc_oral     pleasing handsfree in a tent
+            scn_bc_cowgirl_front enjoyable in a tent
+            scn_bc_standup     enjoyable in a tent
+            scn_bc_half_bed     enjoy in a tent
+    -->
+    <!-- Test Scenes -->
+    <CEEvent>
+        <Name>BC_event_scene_vc3</Name>
+        <Text>Test Scene for BC scenes.</Text>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_scene_vc3</TriggerEventName>
+                <OptionText>Again.</OptionText>
+                <SceneToPlay>scn_bc_vc_03</SceneToPlay>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_scene_castle2</TriggerEventName>
+                <OptionText>Next.</OptionText>
+                <SceneToPlay>scn_bc_vc_03</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle2</Name>
+        <Text>Test Scene for BC scenes 2.</Text>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_kv_02</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle21</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle21</Name>
+        <Text>Test Scene for BC scenes 21.</Text>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_kv_021</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle22</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle22</Name>
+        <Text>Test Scene for BC scenes 22.</Text>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_kv_022</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_event_scene_castle01</Name>
+        <Text>Test Scene for BC scenes 01.</Text>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_01</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle02</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle02</Name>
+        <Text>Test Scene for BC scenes 02.</Text>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_02</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle03</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle03</Name>
+        <Text>Test Scene for BC scenes 03.</Text>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_03</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle041</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <CEEvent>
+        <Name>BC_event_scene_castle041</Name>
+        <Text>Test Scene for BC scenes 041.</Text>
+        <BackgroundName></BackgroundName>
+        <SoundName>captivity/event/chains</SoundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_041</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle042</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle042</Name>
+        <Text>Test Scene for BC scenes 042.</Text>
+        <BackgroundName></BackgroundName>
+        <SoundName>captivity/event/kisses</SoundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_042</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle043</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle043</Name>
+        <Text>Test Scene for BC scenes 043.</Text>
+        <BackgroundName></BackgroundName>
+        <SoundName>captivity/ui/kisses</SoundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_043</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle04</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle04</Name>
+        <Text>Test Scene for BC scenes 04.</Text>
+        <SoundName>captivity/ui/chains</SoundName>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_04</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_event_scene_castle051</Name>
+        <Text>Test Scene for BC scenes 051.</Text>
+        <SoundName>captivity/ui/chains</SoundName>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_scene_castle0501</TriggerEventName>
+                <OptionText>Test camera.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_051</SceneToPlay>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_scene_castle0511</TriggerEventName>
+                <OptionText>Test poses.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_051</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <CEEvent>
+        <Name>BC_event_scene_castle0501</Name>
+        <Text>Test Scene for BC scenes 0501.</Text>
+        <SoundName>captivity/ui/chains</SoundName>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_scene_castle0502</TriggerEventName>
+                <OptionText>Test poses.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_0501</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle0502</Name>
+        <Text>Test Scene for BC scenes 0502.</Text>
+        <SoundName>captivity/ui/chains</SoundName>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_scene_castle0503</TriggerEventName>
+                <OptionText>Test poses.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_0502</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle0503</Name>
+        <Text>Test Scene for BC scenes 0503.</Text>
+        <SoundName>captivity/ui/chains</SoundName>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_scene_castle0504</TriggerEventName>
+                <OptionText>Test poses.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_0503</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle0504</Name>
+        <Text>Test Scene for BC scenes 0504.</Text>
+        <SoundName>captivity/ui/chains</SoundName>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_scene_castle0505</TriggerEventName>
+                <OptionText>Test poses.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_0504</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle0505</Name>
+        <Text>Test Scene for BC scenes 0505.</Text>
+        <SoundName>captivity/ui/chains</SoundName>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <!-- <TriggerEventName>BC_event_scene_castle0502</TriggerEventName> -->
+                <OptionText>Test poses.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_0505</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_event_scene_castle0511</Name>
+        <Text>Test Scene for BC scenes 0511.</Text>
+        <SoundName>captivity/ui/chains</SoundName>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_scene_castle0512</TriggerEventName>
+                <OptionText>Test poses.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_0511</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle0512</Name>
+        <Text>Test Scene for BC scenes 0512.</Text>
+        <SoundName>captivity/ui/chains</SoundName>
+        <BackgroundName></BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <!-- <TriggerEventName>BC_event_scene_castle0513</TriggerEventName> -->
+                <OptionText>Test poses.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_bv_0512</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_event_scene_group</Name>
+        <Text>captivity.fire_event BC_event_scene_group</Text>
+        <BackgroundName></BackgroundName>
+        <SoundName>captivity/event/chains</SoundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Change Health.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_group</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle061</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_event_scene_castle061</Name>
+        <Text>Test Scene for BC scenes out.</Text>
+        <BackgroundName></BackgroundName>
+        <SoundName>captivity/event/chains</SoundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Test.</OptionText>
+                <HealthTotal>0</HealthTotal>
+                <SceneToPlay>scn_bc_half_bed</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle061</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>A.</OptionText>
+                <HealthTotal>0</HealthTotal>
+                <SceneToPlay>scn_bc_rough</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle061</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>B.</OptionText>
+                <HealthTotal>0</HealthTotal>
+                <SceneToPlay>scn_bc_face</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle061</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>C.</OptionText>
+                <HealthTotal>0</HealthTotal>
+                <SceneToPlay>scn_bc_chest</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle061</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>D.</OptionText>
+                <HealthTotal>0</HealthTotal>
+                <SceneToPlay>scn_bc_bv_whip_post</SceneToPlay>
+                <TriggerEventName>BC_event_scene_castle061</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>99</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Exit</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_castle062</Name>
+        <Text>Test Scene for BC scenes 062.</Text>
+        <BackgroundName></BackgroundName>
+        <SoundName>captivity/event/kisses</SoundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Again.</OptionText>
+                <TriggerEventName>BC_event_scene_castle061</TriggerEventName>
+                <HealthTotal>10</HealthTotal>
+                <SceneToPlay>scn_bc_chest</SceneToPlay>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_scene_test4</Name>
+        <Text>Test Scene for BC scenes 04.</Text>
+        <BackgroundName></BackgroundName>
+        <SoundName>captivity/event/kisses</SoundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>04.</OptionText>
+                <TriggerEventName>BC_event_scene_test4</TriggerEventName>
+                <SceneToPlay>scn_bc_bv_04</SceneToPlay>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>pro oral.</OptionText>
+                <TriggerEventName>BC_event_scene_test4</TriggerEventName>
+                <SceneToPlay>scn_bc_pro_oral</SceneToPlay>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>paizu.</OptionText>
+                <TriggerEventName>BC_event_scene_test4</TriggerEventName>
+                <SceneToPlay>scn_bc_paizu</SceneToPlay>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>pro back.</OptionText>
+                <TriggerEventName>BC_event_scene_test4</TriggerEventName>
+                <SceneToPlay>scn_bc_pro_back</SceneToPlay>
+            </Option>
+            <Option>
+                <Order>99</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Exit</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

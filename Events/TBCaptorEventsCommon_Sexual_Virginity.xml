@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+
+	<CEEvent>
+        <Name>TB_captor_take_virginity</Name>
+        <Text>{CAPTIVE_NAME} collapses in defeat as you deny her request, and begins gibbering in abject horror as you drag her to your bed. She briefly tries to fight back, but as you loose your breeches she stops, paralyzed by the sight of your manhood. She sobs quietly, her eyes closed, as you reach her untouched flower, but meets your gaze as you push deeper. As the tip of your sex meets the expected resistance she grimaces pleadingly, begging you not to do this.</Text>
+        <NotificationName>TB_thief_notification</NotificationName>
+        <BackgroundName>TB_scion_missionary_legup</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Take her gently.</OptionText>
+				<TriggerEventName>TB_captor_take_virginity_gentle</TriggerEventName>
+				<SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 10 30" Ref="Hero" Color="Cyan"/>
+					<Skill Id="CaptiveObedience" ByLevel="-50" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Break her mind and soul.</OptionText>
+				<TriggerEventName>TB_captor_take_virginity_break</TriggerEventName>
+				<SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="-50" Ref="Hero" Color="Cyan"/>
+					<Skill Id="CaptiveObedience" ByLevel="R 20 50" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_captor_take_virginity_gentle</Name>
+        <Text>You gently shush {CAPTIVE_NAME}, promising to be gentle, and she quiets down, watching you carefully. You push into her, gently relishing the feeling as her maidenhead breaks around your cock, and kiss her deeply as her eyes fill with tears. Your coitus goes on for hours as you gently coax her flower to arousal, and as she finally climaxes, panting and crying, her squeal of lust and surprise pushes you over the edge. As she shudders in unbridled ecstasy, you paint her virgin womb with your virile seed.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_missionary_held" UseConditions="BC_event_conditions_captive_female_default" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Kiss her exhausted body and get back to work.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_captor_take_virginity_break</Name>
+        <Text>Relishing {CAPTIVE_NAME}'s pleas for mercy, you offer her none, tearing into her defenseless maidenhead as she screams in agony. You decide to teach the girl a lesson, and continue your assault for hours, taking each of her holes in turn. Any hint of struggle is met with pain, and when finally her body begins to respond you take care not to allow her to climax. As you finally fall asleep, you see {CAPTIVE_NAME}'s body tremble beside yours, your cum glistening as it drips across her bruised skin. </Text>
+        <Backgrounds>
+            <Background Name="TB_scion_bed_used" UseConditions="BC_event_conditions_captive_female_default" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps you'll stalk her dreams tonight.</OptionText>
+				<TriggerEventName>TB_captor_captive_slavery_sex_broken</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_captor_troops_take_virginity</Name>
+        <Text>{CAPTIVE_NAME} screams in horror as you proclaim her fate, and scrambles to escape, but your troops seem quite eager to stop her. They push her to her knees and before long she's surrounded by a parade of tumescent flesh. She screams as the first of them claims her with a savage thrust; it takes mere minutes for him to come, grunting obscenely as he fills her with life-giving seed. Mere seconds pass before another man is inside her, and several more claim her hands and mouth.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_group_bound" UseConditions="BC_event_conditions_captive_female_default" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <PregnancyRiskModifier>17</PregnancyRiskModifier>
+                <OptionText>How long will she last?</OptionText>
+				<TriggerEventName>TB_captor_troops_take_virginity_2</TriggerEventName>
+				<SkillsToLevel>
+					<Skill Id="CaptiveObedience" ByLevel="100" Ref="Hero" Color="Magenta"/>
+					<Skill Id="CaptiveAffection" ByLevel="-100" Ref="Hero" Color="Magenta"/>
+                    <Skill Id="Broken" ByLevel="1" Ref="Hero" Color="Magenta"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <PregnancyRiskModifier>1</PregnancyRiskModifier>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_captor_troops_take_virginity_2</Name>
+        <Text>The timbre of {CAPTIVE_NAME}'s moans changes through the afternoon. At first they are muffled by the men raping her mouth, but then rise in pitch and urgency as her ass is filled as well. Over time her squeals grow slower, more muted, as she finally collapses in exhaustion. Your men continue taking their turns as she rests, and when she finally wakes her noises have become more resigned, her once-fiery eyes dim and exhausted despite her slumber. When the last of your men is spent, she collapses into a pool of salty slime, sobbing, but makes no move to clean herself.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_post_cum" UseConditions="BC_event_conditions_captive_female_default" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>A good way to raise morale.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_captor_sell_virginity</Name>
+        <Text>{CAPTIVE_NAME} screams in horror as you proclaim her fate, and scrambles to escape, but your troops waste no time in stopping her. Soon she is naked, displayed for your entire army to see, as you take bids to see who will win the claim to her maidenhead. She whimpers as the bids grow higher, and by the time the victor comes to claim his prize she's trembling in abject horror.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>What will he do with her?</OptionText>
+				<TriggerEventName>TB_captor_sell_virginity_taken</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_captor_sell_virginity_taken</Name>
+        <Text>The victor approaches {CAPTIVE_NAME} and bends her over right then and there. She whimpers as your troops gather to watch, taking bets on how long each of them will last. He briefly teases {CAPTIVE_NAME}'s sex with the tip of his shaft, letting his manhood rise to full hardness before ploughing into her with a single stroke. She screams, her tear-stained eyes disbelieving as the crowd cheers at her humiliation, and he plunges into her slowly, luxuriating in the feel of her sex, her frantic struggles, and the jealousy of the rest of your men. He briefly pulls out to show off the virgin's blood ringing his cock, then resumes taking his pleasure from her.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_doggy" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue.</OptionText>
+				<TriggerEventName>TB_captor_sell_virginity_taken_2</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_captor_sell_virginity_taken_2</Name>
+        <Text>The man continues fucking her for hours, stopping himself short from climax a dozen times as he teases her clit and massages her breasts with his muscled hands. At last her body begins to respond, panting and squealing as her arousal grows despite the fear and pain. His torturous attentions finally reach the desired end and she climaxes for all to see, panting and moaning as her tormentor finally allows himself to fill her womb with his sticky seed. He mutters to you that she'd make a great whore, what with all this free advertising...</Text>
+        <Backgrounds>
+            <Background Name="BC_captor_sex_f_butt_open" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Employ the former virgin as your army's whore.</OptionText>
+				<TriggerEventName>TB_captor_status_whore</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="IsProstitute" ByLevel="1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>You have... Other plans for her.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

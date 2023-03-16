@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+
+    <CEEvent>
+        <Name>TB_companion_broken_masochism_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual_Broken001}You hear a strange cacophony of screams and moans from nearby, and discover {COMPANION_NAME_1} being roughly fucked by a group of your troops. They slow down as you approach, and you hear his strained voice beg them to pound him harder, to choke him. They seem somewhat confused but quite enthusiastic, but one glimpse of his lifeless eyes is enough for you to realize he's not looking for pleasure, just begging for death... </Text>
+        <Backgrounds>
+            <Background Name="TB_scion_male_cowgirl"/>
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken006}Tell them to stop abusing him.</OptionText>
+                
+                <MoraleTotal>-5</MoraleTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <HealthTotal>-5</HealthTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" Color="Cyan" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken007}Ignore them.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <HealthTotal>-15</HealthTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken008}Join in the fun.</OptionText>
+                <MoraleTotal>10</MoraleTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <HealthTotal>-30</HealthTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_broken_m" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_broken_dirty_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual_Broken002}You notice {COMPANION_NAME_1} slowly plodding along with your party when she falls to the ground, and you realize she's coated from head to toe in cum, her hair disheveled, and she hasn't bothered to clothe herself. Her eyes are empty, and she seems to be ignoring the worried stares of the rest of your party. You're not sure whether she'd even react if you kicked her.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_sleeping_dirty"/>
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken009}Wash and clothe her.</OptionText>
+                <MoraleTotal>2</MoraleTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <HealthTotal>10</HealthTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" Color="Cyan" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken010}Ignore the wretch.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken011}Order her to her feet.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <HealthTotal>-10</HealthTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_broken_despondent_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_broken_dirty_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual_Broken003}You notice {COMPANION_NAME_1} slowly plodding along with your party when he falls to the ground, and you realize he's coated from head to toe in cum, his hair disheveled, and he hasn't bothered to clothe himself. His eyes are empty, and he seems to be ignoring the worried stares of the rest of your party. You're not sure whether he'd even react if you kicked him.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_male_bitch_dirty"/>
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken012}Wash and clothe him.</OptionText>
+                <MoraleTotal>2</MoraleTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <HealthTotal>10</HealthTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" Color="Cyan" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken010}Ignore the wretch.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken013}Order him to his feet.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <HealthTotal>-10</HealthTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_broken_despondent_m" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_broken_dying_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual_Broken004}You notice {COMPANION_NAME_1} slowly plodding along with your party when she falls to the ground, and you realize she's coated from head to toe in cum, her hair disheveled, and she hasn't bothered to clothe herself. Her eyes are empty, and she seems to be ignoring the worried stares of the rest of your party. You approach only to realize she isn't breathing, and realize you've neglected her for too long; she has at last found relief from her torment in death's cold embrace.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_sleeping_dirty"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken014}Bury her.</OptionText>
+                <MoraleTotal>-5</MoraleTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>KillCaptor</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken015}Let the crows feast on her corpse.</OptionText>
+                <MoraleTotal>-30</MoraleTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_broken_dying_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_broken_dying_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual_Broken005}You notice {COMPANION_NAME_1} slowly plodding along with your party when he falls to the ground, and you realize he's coated from head to toe in cum, his hair disheveled, and he hasn't bothered to clothe himself. His eyes are empty, and he seems to be ignoring the worried stares of the rest of your party. You approach only to realize he isn't breathing, and realize you've neglected him for too long; he has at last found relief from his torment in death's cold embrace.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_male_slave_submit"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken016}Bury him.</OptionText>
+                <MoraleTotal>-5</MoraleTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Broken017}Let the crows feast on his corpse.</OptionText>
+                <MoraleTotal>-30</MoraleTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_broken_dying_m" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

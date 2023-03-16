@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+      <NPCCharacter id="harem_aserai"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="1"
+            name="{=BCCaptor_peasant}Harem Fugitive"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_aserai_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="25" />
+                  <skill id="CaptiveLustT"
+                        value="25" />
+                  <skill id="CaptiveLustC"
+                        value="25" />
+                  <skill id="CaptiveLustA"
+                        value="25" />
+                  <skill id="CaptiveLustV"
+                        value="25" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_aserai_t2" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_battania"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="1"
+            name="{=BCCaptor_peasant}Harem Fugitive"
+            occupation="Bandit"
+            culture="Culture.battania"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_battania_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="25" />
+                  <skill id="CaptiveLustT"
+                        value="25" />
+                  <skill id="CaptiveLustC"
+                        value="25" />
+                  <skill id="CaptiveLustA"
+                        value="25" />
+                  <skill id="CaptiveLustV"
+                        value="25" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_battania_t2" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_empire"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="1"
+            name="{=BCCaptor_peasant}Harem Fugitive"
+            occupation="Bandit"
+            culture="Culture.empire"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_empire_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="25" />
+                  <skill id="CaptiveLustT"
+                        value="25" />
+                  <skill id="CaptiveLustC"
+                        value="25" />
+                  <skill id="CaptiveLustA"
+                        value="25" />
+                  <skill id="CaptiveLustV"
+                        value="25" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_empire_t2" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_khuzait"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="1"
+            name="{=BCCaptor_peasant}Harem Fugitive"
+            occupation="Bandit"
+            culture="Culture.khuzait"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_khuzait_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="25" />
+                  <skill id="CaptiveLustT"
+                        value="25" />
+                  <skill id="CaptiveLustC"
+                        value="25" />
+                  <skill id="CaptiveLustA"
+                        value="25" />
+                  <skill id="CaptiveLustV"
+                        value="25" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_khuzait_t2" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_sturgia"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="1"
+            name="{=BCCaptor_peasant}Harem Fugitive"
+            occupation="Bandit"
+            culture="Culture.sturgia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_sturgia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="25" />
+                  <skill id="CaptiveLustT"
+                        value="25" />
+                  <skill id="CaptiveLustC"
+                        value="25" />
+                  <skill id="CaptiveLustA"
+                        value="25" />
+                  <skill id="CaptiveLustV"
+                        value="25" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_sturgia_t2" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_vlandia"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="1"
+            name="{=BCCaptor_peasant}Harem Fugitive"
+            occupation="Bandit"
+            culture="Culture.vlandia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_vlandia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="25" />
+                  <skill id="CaptiveLustT"
+                        value="25" />
+                  <skill id="CaptiveLustC"
+                        value="25" />
+                  <skill id="CaptiveLustA"
+                        value="25" />
+                  <skill id="CaptiveLustV"
+                        value="25" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_vlandia_t2" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+
+      <NPCCharacter id="harem_jawwal"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="1"
+            name="{=BCCaptor_peasant}Harem Fugitive"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_jawwal_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="25" />
+                  <skill id="CaptiveLustT"
+                        value="25" />
+                  <skill id="CaptiveLustC"
+                        value="25" />
+                  <skill id="CaptiveLustA"
+                        value="25" />
+                  <skill id="CaptiveLustV"
+                        value="25" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_jawwal_t2" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t1" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+
+      <NPCCharacter id="harem_aserai_t2"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="6"
+            name="{=BCCaptor_peasant}Harem Beloved"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_aserai_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="40" />
+                  <skill id="Throwing"
+                        value="20" />
+                  <skill id="OneHanded"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="50" />
+                  <skill id="CaptiveLustT"
+                        value="50" />
+                  <skill id="CaptiveLustC"
+                        value="50" />
+                  <skill id="CaptiveLustA"
+                        value="50" />
+                  <skill id="CaptiveLustV"
+                        value="50" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_aserai_t3" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_battania_t2"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="6"
+            name="{=BCCaptor_peasant}Harem Beloved"
+            occupation="Bandit"
+            culture="Culture.battania"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_battania_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="40" />
+                  <skill id="Throwing"
+                        value="20" />
+                  <skill id="OneHanded"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="50" />
+                  <skill id="CaptiveLustT"
+                        value="50" />
+                  <skill id="CaptiveLustC"
+                        value="50" />
+                  <skill id="CaptiveLustA"
+                        value="50" />
+                  <skill id="CaptiveLustV"
+                        value="50" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_battania_t3" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_empire_t2"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="6"
+            name="{=BCCaptor_peasant}Harem Beloved"
+            occupation="Bandit"
+            culture="Culture.empire"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_empire_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="40" />
+                  <skill id="Throwing"
+                        value="20" />
+                  <skill id="OneHanded"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="50" />
+                  <skill id="CaptiveLustT"
+                        value="50" />
+                  <skill id="CaptiveLustC"
+                        value="50" />
+                  <skill id="CaptiveLustA"
+                        value="50" />
+                  <skill id="CaptiveLustV"
+                        value="50" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_empire_t3" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_khuzait_t2"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="6"
+            name="{=BCCaptor_peasant}Harem Beloved"
+            occupation="Bandit"
+            culture="Culture.khuzait"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_khuzait_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="40" />
+                  <skill id="Throwing"
+                        value="20" />
+                  <skill id="OneHanded"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="50" />
+                  <skill id="CaptiveLustT"
+                        value="50" />
+                  <skill id="CaptiveLustC"
+                        value="50" />
+                  <skill id="CaptiveLustA"
+                        value="50" />
+                  <skill id="CaptiveLustV"
+                        value="50" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_khuzait_t3" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_sturgia_t2"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="6"
+            name="{=BCCaptor_peasant}Harem Beloved"
+            occupation="Bandit"
+            culture="Culture.sturgia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_sturgia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="40" />
+                  <skill id="Throwing"
+                        value="20" />
+                  <skill id="OneHanded"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="50" />
+                  <skill id="CaptiveLustT"
+                        value="50" />
+                  <skill id="CaptiveLustC"
+                        value="50" />
+                  <skill id="CaptiveLustA"
+                        value="50" />
+                  <skill id="CaptiveLustV"
+                        value="50" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_sturgia_t3" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_vlandia_t2"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="6"
+            name="{=BCCaptor_peasant}Harem Beloved"
+            occupation="Bandit"
+            culture="Culture.vlandia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_vlandia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="40" />
+                  <skill id="Throwing"
+                        value="20" />
+                  <skill id="OneHanded"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="50" />
+                  <skill id="CaptiveLustT"
+                        value="50" />
+                  <skill id="CaptiveLustC"
+                        value="50" />
+                  <skill id="CaptiveLustA"
+                        value="50" />
+                  <skill id="CaptiveLustV"
+                        value="50" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_vlandia_t3" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_jawwal_t2"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="6"
+            name="{=BCCaptor_peasant}Harem Beloved"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_jawwal_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="40" />
+                  <skill id="Throwing"
+                        value="20" />
+                  <skill id="OneHanded"
+                        value="20" />
+                  <skill id="CaptiveLustO"
+                        value="50" />
+                  <skill id="CaptiveLustT"
+                        value="50" />
+                  <skill id="CaptiveLustC"
+                        value="50" />
+                  <skill id="CaptiveLustA"
+                        value="50" />
+                  <skill id="CaptiveLustV"
+                        value="50" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_jawwal_t3" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t2" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+
+      <NPCCharacter id="harem_aserai_t3"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="11"
+            name="{=BCCaptor_peasant}Harem Devoted"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_aserai_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="60" />
+                  <skill id="Throwing"
+                        value="40" />
+                  <skill id="OneHanded"
+                        value="40" />
+                  <skill id="CaptiveLustO"
+                        value="80" />
+                  <skill id="CaptiveLustT"
+                        value="80" />
+                  <skill id="CaptiveLustC"
+                        value="80" />
+                  <skill id="CaptiveLustA"
+                        value="80" />
+                  <skill id="CaptiveLustV"
+                        value="80" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_aserai_t4" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_battania_t3"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="11"
+            name="{=BCCaptor_peasant}Harem Devoted"
+            occupation="Bandit"
+            culture="Culture.battania"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_battania_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="60" />
+                  <skill id="Throwing"
+                        value="40" />
+                  <skill id="OneHanded"
+                        value="40" />
+                  <skill id="CaptiveLustO"
+                        value="80" />
+                  <skill id="CaptiveLustT"
+                        value="80" />
+                  <skill id="CaptiveLustC"
+                        value="80" />
+                  <skill id="CaptiveLustA"
+                        value="80" />
+                  <skill id="CaptiveLustV"
+                        value="80" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_battania_t4" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_empire_t3"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="11"
+            name="{=BCCaptor_peasant}Harem Devoted"
+            occupation="Bandit"
+            culture="Culture.empire"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_empire_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="60" />
+                  <skill id="Throwing"
+                        value="40" />
+                  <skill id="OneHanded"
+                        value="40" />
+                  <skill id="CaptiveLustO"
+                        value="80" />
+                  <skill id="CaptiveLustT"
+                        value="80" />
+                  <skill id="CaptiveLustC"
+                        value="80" />
+                  <skill id="CaptiveLustA"
+                        value="80" />
+                  <skill id="CaptiveLustV"
+                        value="80" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_empire_t4" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_khuzait_t3"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="11"
+            name="{=BCCaptor_peasant}Harem Devoted"
+            occupation="Bandit"
+            culture="Culture.khuzait"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_khuzait_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="60" />
+                  <skill id="Throwing"
+                        value="40" />
+                  <skill id="OneHanded"
+                        value="40" />
+                  <skill id="CaptiveLustO"
+                        value="80" />
+                  <skill id="CaptiveLustT"
+                        value="80" />
+                  <skill id="CaptiveLustC"
+                        value="80" />
+                  <skill id="CaptiveLustA"
+                        value="80" />
+                  <skill id="CaptiveLustV"
+                        value="80" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_khuzait_t4" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_sturgia_t3"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="11"
+            name="{=BCCaptor_peasant}Harem Devoted"
+            occupation="Bandit"
+            culture="Culture.sturgia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_sturgia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="60" />
+                  <skill id="Throwing"
+                        value="40" />
+                  <skill id="OneHanded"
+                        value="40" />
+                  <skill id="CaptiveLustO"
+                        value="80" />
+                  <skill id="CaptiveLustT"
+                        value="80" />
+                  <skill id="CaptiveLustC"
+                        value="80" />
+                  <skill id="CaptiveLustA"
+                        value="80" />
+                  <skill id="CaptiveLustV"
+                        value="80" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_sturgia_t4" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_vlandia_t3"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="11"
+            name="{=BCCaptor_peasant}Harem Devoted"
+            occupation="Bandit"
+            culture="Culture.vlandia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_vlandia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="60" />
+                  <skill id="Throwing"
+                        value="40" />
+                  <skill id="OneHanded"
+                        value="40" />
+                  <skill id="CaptiveLustO"
+                        value="80" />
+                  <skill id="CaptiveLustT"
+                        value="80" />
+                  <skill id="CaptiveLustC"
+                        value="80" />
+                  <skill id="CaptiveLustA"
+                        value="80" />
+                  <skill id="CaptiveLustV"
+                        value="80" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_vlandia_t4" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_jawwal_t3"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="11"
+            name="{=BCCaptor_peasant}Harem Devoted"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_jawwal_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="60" />
+                  <skill id="Throwing"
+                        value="40" />
+                  <skill id="OneHanded"
+                        value="40" />
+                  <skill id="CaptiveLustO"
+                        value="80" />
+                  <skill id="CaptiveLustT"
+                        value="80" />
+                  <skill id="CaptiveLustC"
+                        value="80" />
+                  <skill id="CaptiveLustA"
+                        value="80" />
+                  <skill id="CaptiveLustV"
+                        value="80" />
+            </skills>
+            <upgrade_targets>
+                  <upgrade_target id="NPCCharacter.harem_jawwal_t4" />
+            </upgrade_targets>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t3" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+
+      <NPCCharacter id="harem_aserai_t4"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="26"
+            name="{=BCCaptor_peasant}Harem Minder"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_aserai_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="80" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_aserai_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_battania_t4"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="26"
+            name="{=BCCaptor_peasant}Harem Minder"
+            occupation="Bandit"
+            culture="Culture.battania"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_battania_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="80" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_battania_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_empire_t4"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="26"
+            name="{=BCCaptor_peasant}Harem Minder"
+            occupation="Bandit"
+            culture="Culture.empire"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_empire_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="80" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_empire_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_khuzait_t4"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="26"
+            name="{=BCCaptor_peasant}Harem Minder"
+            occupation="Bandit"
+            culture="Culture.khuzait"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_khuzait_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="80" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_khuzait_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_sturgia_t4"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="26"
+            name="{=BCCaptor_peasant}Harem Minder"
+            occupation="Bandit"
+            culture="Culture.sturgia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_sturgia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="80" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_sturgia_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_vlandia_t4"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="26"
+            name="{=BCCaptor_peasant}Harem Minder"
+            occupation="Bandit"
+            culture="Culture.vlandia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_vlandia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="80" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_vlandia_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_jawwal_t4"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="26"
+            name="{=BCCaptor_peasant}Harem Minder"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_jawwal_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="80" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_jawwal_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_t4" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+
+      <NPCCharacter id="harem_aserai_t5"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="31"
+            name="{=BCCaptor_peasant}Harem Mistress"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_aserai_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="180" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="TwoHanded"
+                        value="260" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_aserai_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_battania_t5"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="31"
+            name="{=BCCaptor_peasant}Harem Mistress"
+            occupation="Bandit"
+            culture="Culture.battania"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_battania_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="180" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="TwoHanded"
+                        value="260" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_battania_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_empire_t5"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="31"
+            name="{=BCCaptor_peasant}Harem Mistress"
+            occupation="Bandit"
+            culture="Culture.empire"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_empire_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="180" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="TwoHanded"
+                        value="260" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_empire_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_khuzait_t5"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="31"
+            name="{=BCCaptor_peasant}Harem Mistress"
+            occupation="Bandit"
+            culture="Culture.khuzait"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_khuzait_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="180" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="TwoHanded"
+                        value="260" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_khuzait_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_sturgia_t5"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="31"
+            name="{=BCCaptor_peasant}Harem Mistress"
+            occupation="Bandit"
+            culture="Culture.sturgia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_sturgia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="180" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="TwoHanded"
+                        value="260" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_sturgia_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_vlandia_t5"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="31"
+            name="{=BCCaptor_peasant}Harem Mistress"
+            occupation="Bandit"
+            culture="Culture.vlandia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_vlandia_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="180" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="TwoHanded"
+                        value="260" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_vlandia_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="harem_jawwal_t5"
+            default_group="Infantry"
+            is_female="true"
+            is_hero="false"
+            level="31"
+            name="{=BCCaptor_peasant}Harem Mistress"
+            occupation="Bandit"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_jawwal_0" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="180" />
+                  <skill id="Throwing"
+                        value="60" />
+                  <skill id="OneHanded"
+                        value="60" />
+                  <skill id="TwoHanded"
+                        value="260" />
+                  <skill id="CaptiveLustO"
+                        value="120" />
+                  <skill id="CaptiveLustT"
+                        value="120" />
+                  <skill id="CaptiveLustC"
+                        value="120" />
+                  <skill id="CaptiveLustA"
+                        value="120" />
+                  <skill id="CaptiveLustV"
+                        value="120" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_aserai_t5" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_mistress" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+
+
+      <NPCCharacter id="nameless_ronin"
+            default_group="Infantry"
+            is_female="false"
+            is_hero="false"
+            level="51"
+            name="{=BCCaptor_lover}Nameless Swordsman"
+            occupation="Bandit"
+            culture="Culture.khuzait"
+            skill_template="SkillSet.infantry_heavyinfantry_level31_template_skills">
+            <face>
+                  <BodyProperties version="4"
+                        age="28.27"
+                        weight="0.1744"
+                        build="0.767"
+                        key="001CD80B40003709647023132CB71B380645780ED9CF69777A9D9525881A9224056BD0560645665700000000000000000000000000000000000000000AD030C2" />
+                  <!-- Temun
+            
+            Above: Native Khuzait Age-start
+                  <BodyPropertiesMax version="4" 
+                         age="19.17"
+                  weight="0.9738"
+                         build="0.8133"
+                         key=""
+                  /> 
+                  Abagai:
+                  0018E00F12B4000F10745F15BB58D06570D97DC89BCE0F21676DADF08A2E383600571603052B9748770000000A00003900000000000015030000000044A42003
+                  Mela as Age-target
+                  0015740D922C001510723F15AD5AD1A270D9DD8A7C3F0F21B76DFCF08A2E38360057160305299747770000000A000039000000000000150300000000449C1003
+                  Khada
+      -->
+                  <BodyPropertiesMax version="4"
+                        age="39.17"
+                        weight="0.1838"
+                        build="0.9233"
+                        key="0016B00880002591A57052353CC733A81534763CD7EF7456798B483684294631076BD0780656661600000000000000000000000000000000000000004EC83044" />
+            </face>
+            <skills>
+                  <skill id="Athletics"
+                        value="330" />
+                  <skill id="Two-Handed"
+                        value="330" />
+                  <skill id="Riding"
+                        value="330" />
+                  <skill id="Throwing"
+                        value="330" />
+                  <skill id="CaptiveLustO"
+                        value="125" />
+                  <skill id="CaptiveLustT"
+                        value="125" />
+                  <skill id="CaptiveLustC"
+                        value="125" />
+                  <skill id="CaptiveLustA"
+                        value="125" />
+                  <skill id="CaptiveLustV"
+                        value="125" />
+            </skills>
+            <!-- <upgrade_targets>
+        <upgrade_target id="NPCCharacter.harem_khuzait_t2" />
+            </upgrade_targets> -->
+            <Equipments>
+                  <EquipmentSet id="npc_captive_m_shirtless_ronin" />
+                  <EquipmentSet id="npc_captive_m_shirtless_ronin" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+
+<!--Dancers-->
+      <NPCCharacter id="female_dancer_empire"
+            default_group="Infantry"
+            name="{=X3KYysuv}Dancer"
+            is_female="true"
+            is_hero="false"
+            occupation="Townsfolk"
+            culture="Culture.empire"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_empire_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="female_dancer_aserai"
+            default_group="Infantry"
+            name="{=X3KYysuv}Dancer"
+            is_female="true"
+            is_hero="false"
+            occupation="Townsfolk"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_aserai_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="female_dancer_sturgia"
+            default_group="Infantry"
+            name="{=X3KYysuv}Dancer"
+            is_female="true"
+            is_hero="false"
+            occupation="Townsfolk"
+            culture="Culture.sturgia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_sturgia_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="female_dancer_vlandia"
+            default_group="Infantry"
+            name="{=X3KYysuv}Dancer"
+            is_female="true"
+            is_hero="false"
+            occupation="Townsfolk"
+            culture="Culture.vlandia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_vlandia_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="female_dancer_battania"
+            default_group="Infantry"
+            name="{=X3KYysuv}Dancer"
+            is_female="true"
+            is_hero="false"
+            occupation="Townsfolk"
+            culture="Culture.battania"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_battania_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="female_dancer_khuzait"
+            default_group="Infantry"
+            name="{=X3KYysuv}Dancer"
+            is_female="true"
+            is_hero="false"
+            occupation="Townsfolk"
+            culture="Culture.khuzait"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_khuzait_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_stripper_01" civilian="true" />
+            </Equipments>
+      </NPCCharacter>
+
+      <NPCCharacter id="musician_empire"
+            default_group="Infantry"
+            is_hero="false"
+            name="{=zfCoeglY}Musician"
+            occupation="Musician"
+            culture="Culture.empire"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_empire_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="musician_khuzait"
+            default_group="Infantry"
+            is_hero="false"
+            name="{=zfCoeglY}Musician"
+            occupation="Musician"
+            culture="Culture.khuzait"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_khuzait_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="musician_aserai"
+            default_group="Infantry"
+            is_hero="false"
+            name="{=zfCoeglY}Musician"
+            occupation="Musician"
+            culture="Culture.aserai"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_aserai_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="musician_sturgia"
+            default_group="Infantry"
+            is_hero="false"
+            name="{=zfCoeglY}Musician"
+            occupation="Musician"
+            culture="Culture.sturgia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_sturgia_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="musician_vlandia"
+            default_group="Infantry"
+            is_hero="false"
+            name="{=zfCoeglY}Musician"
+            occupation="Musician"
+            culture="Culture.vlandia"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_vlandia_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
+            </Equipments>
+      </NPCCharacter>
+      <NPCCharacter id="musician_battania"
+            default_group="Infantry"
+            is_hero="false"
+            name="{=zfCoeglY}Musician"
+            occupation="Musician"
+            culture="Culture.battania"
+            skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+            <face>
+                  <face_key_template value="BodyProperty.face_harem_battania_0" />
+            </face>
+            <skills></skills>
+            <Equipments>
+                  <EquipmentSet id="npc_captive_m_equipment_template_stripper_01" civilian="true" />
+                  <EquipmentSet id="npc_captive_f_equipment_template_nude" />
+            </Equipments>
+      </NPCCharacter>
+</NPCCharacters>

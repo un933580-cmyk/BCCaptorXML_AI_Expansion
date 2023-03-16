@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_slavery_escape</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualEager001}Looking back towards your captor's camp, you feel a stirring in your loins, a need to be filled, to be owned. Escape is not what you want, not really. Not anymore. When you consider the pain and humiliation you've been subjected to, you realize that maybe it's just what you deserve. Maybe it's what you wanted all along.</Text>
+        <BackgroundName>BC_image_slavery_recover_horny</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager009}Go back to your captors.</OptionText>
+                <SlaveryTotal>R 2 4</SlaveryTotal>
+                <TriggerEventName>TB_slavery_punishment</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager010}Resist your training.</OptionText>
+                <SlaveryTotal>R -10 -20</SlaveryTotal>
+                <ReqHeroHealthAbovePercentage>30</ReqHeroHealthAbovePercentage>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_cum_addict</Name>
+         <Text>{=TBSlaveryEventsFemaleSexualEager002}You follow your master with a glazed expression, your tongue lolling hungrily out of your open mouth. Whenever he stops you drop to your knees, frantically licking and sucking at his erect penis, trying to tease out the only food you are allowed. He motions for a nearby guard, ordering him to give his slave the salty meal she so craves. The man grins, opening his trousers, and his glorious shaft springs into view.</Text>
+        <BackgroundName>BC_image_slavery_bound_looking_at</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager011}Suck the man's rod dry.</OptionText>
+                <TriggerEventName>TB_cum_addict_submit</TriggerEventName>
+                <HealthTotal>R 5 10</HealthTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager012}Tell your master you need to suck out *his* seed.</OptionText>
+                <TriggerEventName>TB_slavery_oral</TriggerEventName>
+                <HealthTotal>R 5 10</HealthTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager013}Refuse to debase yourself like this.</OptionText>
+                <TriggerEventName>TB_slavery_resist</TriggerEventName>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroHealthBelowPercentage>50</ReqHeroHealthBelowPercentage>
+        <ReqHeroSlaveLevelAbove>250</ReqHeroSlaveLevelAbove>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_cum_addict_submit</Name>
+         <Text>{=TBSlaveryEventsFemaleSexualEager003}The man's shaft grows to prodigious size as you take it into your mouth, greedily licking salty precum from the tip, and as he grasps you by the hair and begins fucking your throat you begin to choke, unable to breathe with a trunk of man-meat the size of your arm bulging inside you. The man climaxes at the sensation, pouring his spunk directly into your stomach, but still has enough left to fill your mouth as he pulls out. You gulp it down hungrily, then milk his cock dry with your lips.</Text>
+        <BackgroundName>BC_image_slavery_oral_tongue</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager014}Thank the guard for your treat.</OptionText>
+                <RenownTotal>R -1 -3</RenownTotal>
+                <HealthTotal>R 5 15</HealthTotal>
+                <SlaveryTotal>R 1 2</SlaveryTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager015}Eat as much as you can, then push him away.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+                <SlaveryTotal>R -10 -25</SlaveryTotal>
+                <HealthTotal>-50</HealthTotal>
+                <TriggerEventName>TB_slavery_resist</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_eager</Name>
+         <Text>{=TBSlaveryEventsFemaleSexualEager004}Your pussy is flush and starting to leak on its own. You feel an irresistible need to be fucked and filled with cum. You...</Text>
+        <BackgroundName>BC_image_slavery_sub_dog_bowl_pink</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager016}Beg your master to fuck his slave.</OptionText>
+                <SlaveryTotal>R 1 2</SlaveryTotal>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_x_cunni</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_use</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_oral</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager017}Tease the guards til they ravish your holes.</OptionText>
+                <RenownTotal>R -1 -3</RenownTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_prison_common_next</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_common_castle_next</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_share_obey</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager018}Beg your master to punish your lust.</OptionText>
+                <RenownTotal>R -3 -7</RenownTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_kitchenslave</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_publicuse_stocks_slave</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_throne_humiliation</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_bitch_start</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroSlaveLevelAbove>250</ReqHeroSlaveLevelAbove>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_throne_humiliation</Name>
+         <Text>{=TBSlaveryEventsFemaleSexualEager005}You are slobbering on your master's cock at his throne when you hear a familiar voice and realize the clan he's speaking with is yours. As he fills your mouth with seed, your master shows you off, slapping your ass, and orders you to go show your former allies how much he has improved you.</Text>
+        <BackgroundName>BC_image_slavery_cum_covered_happy</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager019}Show your master you have swallowed all his seed.</OptionText>
+                <SlaveryTotal>R 1 2</SlaveryTotal>
+                <HealthTotal>R 5 15</HealthTotal>
+                <RenownTotal>-20</RenownTotal>
+                <TriggerEventName>TB_slavery_masters_oral_whore</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager020}Rub your pussy.</OptionText>
+                <RenownTotal>-20</RenownTotal>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+                <SlaveryTotal>R 1 2</SlaveryTotal>
+                <TriggerEventName>TB_slavery_masters_vaginal_whore</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager021}Beg your master to hurt your body.</OptionText>
+                <HealthTotal>R -10 -30</HealthTotal>
+                <RenownTotal>-20</RenownTotal>
+                <SlaveryTotal>R 1 2</SlaveryTotal>
+                <TriggerEventName>TB_slavery_masters_anal_whore</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>18</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroSlaveLevelAbove>250</ReqHeroSlaveLevelAbove>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_masters_oral_whore</Name>
+         <Text>{=TBSlaveryEventsFemaleSexualEager006}You move towards the man your master has ordered you to pleasure and eagerly open his pants with your teeth. Salivating at taste, you engulf his hardening member with your mouth, twirling your tongue around it as his moans grow more frenzied. Your lips slide up and down his shaft, and you lick his balls as the tip of his rod pushes into your throat. At last he comes, and you lick the salty substance from your face into your mouth before swallowing it down.</Text>
+        <BackgroundName>BC_image_slavery_oral_blur</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager022}You've been trained not to leave cock dirty. Finish your task.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager023}Whisper to the man, begging him to help you escape.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_consensual_ally_rescue</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_resist_ally_overhear</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_masters_vaginal_whore</Name>
+         <Text>{=TBSlaveryEventsFemaleSexualEager007}You move towards the man your master has ordered you to pleasure and get on your hands and knees, facing your rear towards him and spreading your cunt with your hands. Unable to resist the opportunity, he removes his breeches and plunges into you with abandon. You thrust and moan, and he climaxes at the sensation, filling you with sloppy seed.</Text>
+        <BackgroundName>BC_image_slavery_sub_vag_5</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager022}You've been trained not to leave cock dirty. Finish your task.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager023}Whisper to the man, begging him to help you escape.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_consensual_ally_rescue</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_resist_ally_overhear</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_masters_anal_whore</Name>
+         <Text>{=TBSlaveryEventsFemaleSexualEager008}You move towards the man your master has ordered you to pleasure and push him to the ground, removing his breeches, and position yourself to impale your asshole on his cock. He gasps as your experienced muscles begin stimulating his rod, and he thrusts up into your naked body, holding your arms. You grit your teeth, and begin to moan softly as his precum begins to lubricate your hole. At last he gives a satisfied moan and collapses on top of you as you feel a jet of warm liquid fill your sphincter.</Text>
+        <BackgroundName>BC_image_sex_mf_anal_guide_2</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager022}You've been trained not to leave cock dirty. Finish your task.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R 5 15" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualEager023}Whisper to the man, begging him to help you escape.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_consensual_ally_rescue</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_resist_ally_overhear</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

@@ -1,0 +1,1369 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_captor_training_menu</Name>
+        <Text>You decide to teach {CAPTIVE_NAME} to better obey your commands. What approach do you take?</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_slave_submit" UseConditions="BC_event_conditions_captive_female" />
+            <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
+            <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
+            <Background Name="TB_scion_pregnant" UseConditions="BC_event_conditions_captive_pregnant" />
+            <Background Name="TB_thief_pregnant" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Threatening.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_threaten_bestiality</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_threaten_public_use</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_threaten_whipping</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_threaten_mindbroken</EventName>
+                        <EventWeight>10000</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive_mindbroken</EventName>
+                        <EventWeight>10000</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_dead_captive_mindbroken</EventName>
+                        <EventWeight>10000</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_new_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_dead_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="-90" Ref="Hero"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Humiliation.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_bestiality</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_public_use</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_bitch</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_drug</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_cum</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_mindbroken</EventName>
+                        <EventWeight>10000</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive_mindbroken</EventName>
+                        <EventWeight>10000</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_dead_captive_mindbroken</EventName>
+                        <EventWeight>10000</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_new_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_dead_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="-90" Ref="Hero"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Torture.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_torture_whipping</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_torture_bondage</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_torture_horse</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_torture_mindbroken</EventName>
+                        <EventWeight>10000</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive_mindbroken</EventName>
+                        <EventWeight>10000</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_dead_captive_mindbroken</EventName>
+                        <EventWeight>10000</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_new_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_dead_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
+            </Option>
+            <!-- Not finished yet - no events respond to slavery
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Enslavement.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_enslavement</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_slave_training</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option> -->
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Never mind.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>CE_captor_female_sexual_menu</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_female_sexual_menu_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_male_sexual_menu</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_male_sexual_menu_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <EscapeChance>10</EscapeChance>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_training_menu_exhausted</Name>
+        <Text>You're trying to train {CAPTIVE_NAME}, but {?ISCAPTIVEFEMALE}she{?}he{\?} appears to be unconscious. What approach do you take?</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_sleeping_dirty" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Threatening.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_threaten_bestiality</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_threaten_public_use</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_threaten_whipping</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_dead_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="-90" Ref="Hero"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Humiliation.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_bestiality</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_public_use</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_bitch</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_drug</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_humiliate_cum</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_new_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_dead_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="-90" Ref="Hero"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Torture.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_torture_whipping</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_torture_bondage</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_torture_horse</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_dead_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
+            </Option>
+            <!-- Not finished yet - no events respond to slavery
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Enslavement.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_enslavement</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_slave_training</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option> -->
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Never mind.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>CE_captor_female_sexual_menu</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_female_sexual_menu_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_male_sexual_menu</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_male_sexual_menu_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <EscapeChance>10</EscapeChance>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- Threaten events -->
+    <CEEvent>
+        <Name>TB_captor_threaten_bestiality</Name>
+        <Text>You drag {CAPTIVE_NAME} to where your hunting dogs lay, playing happily, and warn {?ISCAPTIVEFEMALE}her that if she{?}him that if he{\?} proves of no use to you or your men, {?ISCAPTIVEFEMALE}she{?}he{\?} will find new purpose as some dog's bitch. {?ISCAPTIVEFEMALE}Her{?}His{\?} eyes widen in fear at the sight of the creatures' massive members.{\?}</Text>
+        <BackgroundName>TB_scene_dogs</BackgroundName>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <HealthTotal>-1</HealthTotal>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 1" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_threaten_public_use</Name>
+        <Text>You drag {CAPTIVE_NAME} to a whipping post, telling {?ISCAPTIVEFEMALE}her that if she continues her resistance, you will shackle her to it for a few hours so that anyone who fancies a feel of her struggling body can make use of her at their leisure.{?}him that if he continues his resistance, you will shackle him to it for a few hours so that anyone who fancies a feel of his struggling body can make use of him at their leisure.{\?}</Text>
+        <BackgroundName>TB_scene_whipping_post</BackgroundName>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <HealthTotal>-1</HealthTotal>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 1" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_threaten_whipping</Name>
+        <Text>You drag {CAPTIVE_NAME} to a whipping post, telling {?ISCAPTIVEFEMALE}her that if she continues her resistance, you will shackle her to it and give her a good whipping so that she understands that becoming your obedient slut is a far better fate than becoming a whipping girl.{?}him that if he continues his resistance, you will shackle him to it and give him a good whipping so that he understands that becoming your obedient slut is a far better fate than becoming a whipping boy.{\?}</Text>
+        <BackgroundName>TB_scene_whipping_post</BackgroundName>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <HealthTotal>-1</HealthTotal>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 1" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_threaten_mindbroken</Name>
+        <Text>You drag {CAPTIVE_NAME} to a whipping post, telling her that if she continues her resistance, you will shackle her to it and give her a good whipping. She squeals in delight and begs you to do it now, to whip her bloody if it pleases her master, but her eyes are filled with fear and loathing.</Text>
+        <BackgroundName>TB_scene_whipping_post</BackgroundName>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <HealthTotal>-1</HealthTotal>
+                <OptionText>Not the most effective threat...</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 1" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- Humiliation events -->
+    <CEEvent>
+        <Name>TB_captor_humiliate_bestiality</Name>
+        <Text>You chain {CAPTIVE_NAME} to the ground, {?ISCAPTIVEFEMALE}her ass raised high into the air, and beckon your captain to fetch your largest hunting dog. As your captive struggles, the rest of camp slowly makes their way over to watch her. Your captain leads an immense wolfhound sporting a massive erection past the woman and she screams in fear and alarm. The creature mounts her swiftly, boring into her cunt with obvious enjoyment as her cries grow faint and she passes out from the pain. The stud leaves her dripping with pints of seed in a performance your men won't soon forget.{?}his ass raised high into the air, and beckon your captain to fetch your largest hunting dog. As your captive struggles, the rest of camp slowly makes their way over to watch him. Your captain leads an immense wolfhound sporting a massive erection past the man and he screams in fear and alarm. The creature mounts him swiftly, boring into his ass with obvious enjoyment as his cries grow faint and he passes out from the pain. The stud leaves him dripping with pints of seed in a performance your troops won't soon forget.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_canine_dirty" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_canine_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -20 -40" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+                <MoraleTotal>R 1 3</MoraleTotal>
+            </Option>
+        </Options>
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_humiliate_public_use</Name>
+        <Text>You drag {CAPTIVE_NAME} to a post in the center of camp, locking {?ISCAPTIVEFEMALE}her in, and inform her that she's been promoted from captive to camp slut. The men of camp gather round, cheering, and her ordeal begins as her holes are stuffed with rigid man-meat. Hours later, her body coated in cum and bruises, you unchain her and let her exhausted body drop to the ground.{?}him in, and inform him that he's been promoted from captive to camp slut. The women of camp gather round, cheering, and his ordeal begins as they begin pushing things into his ass and fondling his genitals. Hours later, his body coated in slime and bruises, you unchain him and let his exhausted body drop to the ground.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_post_cum" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_bound_tree_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -20 -40" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <PregnancyRiskModifier>3</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_humiliate_bitch</Name>
+        <Text>You order {CAPTIVE_NAME} to get on {?ISCAPTIVEFEMALE}her knees, then begin leading her around the camp by the collar. You loudly proclaim to your troops that she's no longer to be treated as a slave - she's been demoted to bitch, and any of them are encouraged to breed her. Her ordeal begins as they take you up on the offer, and by the time you've completed the circuit of camp she's coated head to toe in semen, whimpering softly in humiliation.{?}his knees, then begin leading him around the camp by the collar. You loudly proclaim to your troops that he's no longer to be treated as a slave - he's been demoted to bitch, and any of them are encouraged to breed him. His ordeal begins as they take you up on the offer, and by the time you've completed the circuit of camp he's coated head to toe in bruises and bodily fluids, whimpering softly in humiliation.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_bitch_dirty" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <PregnancyRiskModifier>3</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_humiliate_drug</Name>
+        <Text>You force {CAPTIVE_NAME} to drink an interesting mix of wine, herbs and berries you procured from an alchemist, and {?ISCAPTIVEFEMALE}she quickly grows inebriated and extremely aroused. You send word to the troops that she's eager to receive them, and they line up to use her willing, semiconscious body. By the time the drug has worn off, she's in no condition to resist, and sobs quietly as your troops describe the depraved acts she willingly submitted to during her inebriation.{?}he quickly grows inebriated and extremely hard. You send word to the troops that he's eager to receive them, and they line up to use his willing, semiconscious body. By the time the drug has worn off, he's in no condition to resist, and sobs quietly as your troops describe the depraved acts he willingly submitted to during his inebriation.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_group_bound" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_group_2" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 2 7" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <PregnancyRiskModifier>3</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_humiliate_cum</Name>
+        <Text>You drag {CAPTIVE_NAME} to the center of camp, binding {?ISCAPTIVEFEMALE}her to a post. You tell your troops that they have two hours to coat every inch of her body in cum as she squeals in terror. They rise to the challenge, and when you return her belly is glutted, her mouth overflowing with semen. Not a speck of her body seems clear of the slime as you nod approvingly at your troops' performance.{?}him to a post. You tell your troops that they have two hours to coat every inch of his body in cum as he squeals in terror. They rise to the challenge, and when you return his belly is glutted, his mouth overflowing with fluids. Not a speck of his body seems clear of the slime as you nod approvingly at your troops' performance.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_post_cum" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_bound_tree_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 2 7" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -15 -30" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <PregnancyRiskModifier>2</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_humiliate_mindbroken</Name>
+        <Text>You drag {CAPTIVE_NAME} to the center of camp, where she helps you bind her to a post. You tell your troops that they have two hours to coat every inch of her body in cum and she squeals in delight. They rise to the challenge, and when you return her belly is glutted, her mouth overflowing with semen as she frantically begs for more cock. Not a speck of her body seems clear of the slime as you nod approvingly at your troops' performance, but her smile is a disturbing contrast to the fury in her eyes.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_post_cum" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_bound_tree_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Is there any point to this?</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <PregnancyRiskModifier>2</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- Torture events -->
+    <CEEvent>
+        <Name>TB_captor_torture_whipping</Name>
+        <Text>You chain {CAPTIVE_NAME} to a post as {?ISCAPTIVEFEMALE}she struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to her back and buttocks, taking care to let each stripe rest long enough that she can't get used to the pain. Her screams are terrible to hear, but by the time you are done she's incoherently begging you to stop, gibbering as she promises she'll do whatever you want.{?}he struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to his back and buttocks, taking care to let each stripe rest long enough that he can't get used to the pain. His screams are terrible to hear, but by the time you are done he's incoherently begging you to stop, gibbering as he promises he'll do whatever you want.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_post_whipping" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bound_tree_wounded" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <HealthTotal>R -25 -50</HealthTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+            </Option>
+        </Options>
+        
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_torture_bondage</Name>
+        <Text>You take out a nasty-looking collection of binding devices, suspending {CAPTIVE_NAME} helplessly between two tent poles. {?ISCAPTIVEFEMALE}She screams as you tighten her bonds just past the point of pain, and then just a little tighter still, then leave her there to consider how she has displeased you. Her screams turn to soft sobs over the course of several hours, and when at last you free her she finds her limbs temporarily unable to obey.{?}He screams as you tighten his bonds just past the point of pain, and then just a little tighter still, then leave him there to consider how he has displeased you. His screams turn to soft sobs over the course of several hours, and when at last you free him he finds his limbs temporarily unable to obey.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_bound_trees" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bound_tree" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <HealthTotal>R -25 -50</HealthTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+            </Option>
+        </Options>
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_torture_horse</Name>
+        <Text>You drag {CAPTIVE_NAME} to the stables and lock {?ISCAPTIVEFEMALE}her to a wooden horse. At first she seems merely afraid, but as you lead a stallion towards her naked body she begins screaming incoherently for mercy. The creature has quite a bit of trouble entering her, and in the end it's necessary for you to guide it in, but once it finds a welcoming hole it thrusts mightily, savaging her helpless body. It takes only a few minutes to finish, spurting an ocean of milky seed into her, but in that time she has screamed herself hoarse and then lost consciousness. You're confident she'll remember the lesson when she wakes.{?}him to a wooden horse. At first he seems merely afraid, but as you lead a stallion towards his naked body he begins screaming incoherently for mercy. The creature has quite a bit of trouble entering him, and in the end it's necessary for you to guide it in, but once it finds a welcoming hole it thrusts mightily, savaging his helpless body. It takes only a few minutes to finish, spurting an ocean of milky seed into him, but in that time he has screamed himself hoarse and then lost consciousness. You're confident he'll remember the lesson when he wakes.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_horse_aftersex_2" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_horse_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more obedient.</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <HealthTotal>R -25 -50</HealthTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+            </Option>
+        </Options>
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_torture_mindbroken</Name>
+        <Text>You chain {CAPTIVE_NAME} to a post, and she doesn't struggle, eagerly thrusting her arms into the restraints. As you begin whipping her she smiles, earnestly begging you to hit her harder, to tear her flesh apart and destroy her body for your pleasure. You don't think she's learning anything from this, though the agonized, terrified expression in her eyes is a sharp contrast to her words and actions.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_post_whipping" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bound_tree_wounded" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Is there any point to this?</OptionText>
+                <TriggerEventName>TB_captor_training_menu</TriggerEventName>
+                <HealthTotal>R -25 -50</HealthTotal>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_unconscious_captive</Name>
+        <Text>As {CAPTIVE_NAME} slowly moves to follow you, {?ISCAPTIVEFEMALE}she staggers and collapses, breathing only feebly as the wounds and bruises on her abused body take their toll. There's only so much a woman can take, after all... Unless she's faking to avoid further punishment...{?}he staggers and collapses, breathing only feebly as the wounds and bruises on his abused body take their toll. There's only so much a man can take, after all... Unless he's faking to avoid further punishment...{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_sleeping_dirty" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <HealthTotal>-1</HealthTotal>
+                <OptionText>What to do about this...</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>CE_captor_female_sexual_menu</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_female_sexual_menu_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_male_sexual_menu</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_male_sexual_menu_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <RenownTotal>R -5 -10</RenownTotal>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Ref="Hero" Max="0"/>
+        </SkillsRequired>
+        <ReqHeroHealthBelowPercentage>10</ReqHeroHealthBelowPercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_unconscious_captive_mindbroken</Name>
+        <Text>As {CAPTIVE_NAME} slowly moves to follow you, she staggers and collapses, breathing only feebly as the wounds and bruises on her abused body take their toll. Within moments she stands again, almost mechanically, and smiles at you, begging you to fuck her worthless holes. The usual hatred in her eyes is gone, replaced with a deep exhaustion. You're not sure she can take much more of this.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_sleeping_dirty" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <HealthTotal>-1</HealthTotal>
+                <OptionText>What to do about this...</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>CE_captor_female_sexual_menu</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_female_sexual_menu_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_male_sexual_menu</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captor_male_sexual_menu_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan"/>
+                </SkillsToLevel>
+                <RenownTotal>R -5 -10</RenownTotal>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqHeroHealthBelowPercentage>10</ReqHeroHealthBelowPercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_dead_captive</Name>
+        <Text>As {CAPTIVE_NAME}'s horribly exhausted body slowly moves to follow you, {?ISCAPTIVEFEMALE}she collapses. Too late, you realize she isn't responding at all. You've pushed her body too hard, and it has breathed its last. Perhaps next time you'll be a little more merciful...{?}he collapses. Too late, you realize he isn't responding at all. You've pushed his body too hard, and it has breathed its last. Perhaps next time you'll be a little more merciful...{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_sleeping_dirty" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>-25</RelationTotal>
+                <OptionText>Bury {?ISCAPTIVEFEMALE}her{?}him{\?}.</OptionText>
+                <TraitsToLevel>
+                    <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                    <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                </TraitsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>-25</RelationTotal>
+                <OptionText>Let the crows feast on {?ISCAPTIVEFEMALE}her{?}his{\?} corpse.</OptionText>
+                <TraitsToLevel>
+                    <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                    <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                </TraitsToLevel>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>-50</RelationTotal>
+                <OptionText>String {?ISCAPTIVEFEMALE}her{?}him{\?} up as an example.</OptionText>
+                <TraitsToLevel>
+                    <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                    <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                </TraitsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Ref="Hero" Max="0"/>
+            <SkillRequired Id="NotNewCaptive" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqHeroHealthBelowPercentage>2</ReqHeroHealthBelowPercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_dead_captive_mindbroken</Name>
+        <Text>As {CAPTIVE_NAME}'s horribly exhausted body slowly moves to follow you, she collapses. Too late, you realize she isn't responding at all. For the first time since you fed her the potion that broke her mind her expression is peaceful, satisfied. You've pushed her body too hard, and though the potion forced her to be obedient to her final breath, in death she is at last free of its compulsion.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_sleeping_dirty" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Bury {?ISCAPTIVEFEMALE}her{?}him{\?}.</OptionText>
+                <RelationTotal>-25</RelationTotal>
+                <TraitsToLevel>
+                    <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                    <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                </TraitsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Let the crows feast on {?ISCAPTIVEFEMALE}her{?}his{\?} corpse.</OptionText>
+                <RelationTotal>-25</RelationTotal>
+                <TraitsToLevel>
+                    <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                    <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                </TraitsToLevel>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>KillPrisoner</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>String {?ISCAPTIVEFEMALE}her{?}him{\?} up as an example.</OptionText>
+                <RelationTotal>-50</RelationTotal>
+                <TraitsToLevel>
+                    <Trait Id="Mercy" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                    <Trait Id="Honor" ByLevel="-1" Ref="Captor" Color="Cyan"/>
+                </TraitsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Ref="Hero" Min="1"/>
+            <SkillRequired Id="NotNewCaptive" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqHeroHealthBelowPercentage>2</ReqHeroHealthBelowPercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- this event exists to give captives a base amount of health upon capture to prevent overly zealous players from accidentally killing them before they are warned this is a possibility -->
+    <CEEvent>
+        <Name>TB_captor_new_captive</Name>
+        <Text>You notice {CAPTIVE_NAME}'s exhausted body is covered in bruises and cuts from {?ISCAPTIVEFEMALE}her{?}his{\?} ordeal. You may want to consider giving them a few days to rest first - there's only so much a body can take, after all.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_sleeping_dirty" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="TB_scion_male_bitch_dirty" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>TB_captor_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <HealthTotal>R 10 50</HealthTotal>
+                <RelationTotal>R 1 3</RelationTotal>
+                <OptionText>Let {?ISCAPTIVEFEMALE}her{?}him{\?} rest.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R 0 3" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{?ISCAPTIVEFEMALE}She{?}He{\?} doesn't deserve such consideration.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R -10 -3" HideNotification="true"/>
+                </SkillsToLevel>
+                <RelationTotal>R -7 -10</RelationTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_unconscious_captive_mindbroken</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="NotNewCaptive" Ref="Hero" Max="0"/>
+        </SkillsRequired>
+        <ReqHeroHealthBelowPercentage>2</ReqHeroHealthBelowPercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

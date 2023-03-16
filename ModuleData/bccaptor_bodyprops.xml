@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BodyProperties>
+    <BodyProperty id="face_harem_aserai_0">
+        <BodyPropertiesMin version="4"
+            age="19.94"
+            weight="0.2546"
+            build="0.2731"
+            key="0020C00FD21430020188FC654A9D02C352EF7E6B3B7D7751519AF2A68BCD04590078A603F7CB975A770000000AF7703900000000000015060000000044FC1003" />
+        <BodyPropertiesMax version="4"
+            age="22.91"
+            weight="0.5565"
+            build="0.8287"
+            key="0036F40FD22C3015FF8EFFFFEFEFEFFF7FE78FFFEEF8EFFEFFFEFFEEFEFFEEEF05CCD6570CEFFFFE00000000000000000000000000000000000000006B9440C4" />
+    </BodyProperty>
+    <BodyProperty id="face_harem_battania_0">
+        <BodyPropertiesMin version="4"
+            age="18.94"
+            weight="0.1781"
+            build="0.4367"
+            key="00057C04000020029673264546856554E074881968A76A46D9A58900876C554709649692F8146337000000000000000000000000000000000000000020CC2003" />
+        <BodyPropertiesMax version="4"
+            age="24.92"
+            weight="0.5491"
+            build="0.9614"
+            key="0000240FD114300D403C4976356954E8919C58AA786B48B9837589343A1F437201977603F9AB86737700000000000000000000000000000900000000472420C3" />
+    </BodyProperty>
+    <BodyProperty id="face_harem_empire_0">        
+        <BodyPropertiesMin version="4"
+            age="18.06"
+            weight="0.2918"
+            build="0.2886"
+            key="0008B00FD2B4000420858B25CA6DA09380BC7C74797C029258DCFA908749191A006416030655823977000000000000010000000000001506000000004CCC30C3" />
+        <!--   above Nadea as Age-start
+            below Sora as Age-target
+            -->
+        <BodyPropertiesMax version="4"
+            age="18.36"
+            weight="0.5701"
+            build="0.838"
+            key="000A640B8000200E2CB65A058A7CA7C684ACAB86768B9B629AC5DC40887A4318006436020608B463000000000000000000000000000015070000000068CC20C4" />
+    </BodyProperty>
+    <BodyProperty id="face_harem_khuzait_0">
+        <BodyPropertiesMin version="4"
+            age="18.27"
+            weight="0.1744"
+            build="0.267"
+            key="001EFC0FD3143010EDEFFFEFFFFFFFEFEF7FFFEFEFFFDDDEEEFFFFFFAEDDCEC9079CF6780996FBEF00000000000000000000000000000000000000006B2C40C4" />
+        <BodyPropertiesMax version="4"
+            age="19.17"
+            weight="0.5738"
+            build="0.8133"
+            key="0015740D922C001510723F15AD5AD1A270D9DD8A7C3F0F21B76DFCF08A2E38360057160305299747770000000A000039000000000000150300000000449C1003" />
+    </BodyProperty>
+    <BodyProperty id="face_harem_sturgia_0">
+        <BodyPropertiesMin version="4"
+                age="18"
+                weight="0.2083"
+                build="0.4579"
+                key="00000400007000010371010011222150300660010010010030234101702221230047360304313220000000000000000000000000000000000000000012840000" />
+        <!-- Above: native Sturgia start
+            Below: Svana Age-target                  
+        -->
+        <BodyPropertiesMax version="4"
+                    age="26.5"
+                    weight="0.5182"
+                    build="0.8781"
+                    key="00021C04121430024B7213026676409A91AB7826559A42218B44CA1078394B2600C776030C7917537700000000000000000000000000000C00000000779410C3" />
+
+    </BodyProperty>
+    <BodyProperty id="face_harem_vlandia_0">
+        <BodyPropertiesMin version="4"
+            age="18.57"
+            weight="0.2731"
+            build="0.4583"
+            key="0002480012B4300D50968F08858C319370FC79C6AB8C2E325459C092862F2809008730030858B86378000000000000000000000000000006000000000D101083" />
+            <!-- 
+            Above: Silvind Age-start
+            Below Liena Age-target            
+            -->
+        <BodyPropertiesMax version="4"
+                    age="21.06"
+                    weight="0.8596"
+                    build="0.8503"
+                    key="00050C015414300614897614FB8AA5C463FF7DB2CB9A2F6287F4BA837D1B040A006776030606C435770000000000000000000000000014060000000078D42003" />
+
+        </BodyProperty>            
+  <BodyProperty id="face_harem_jawwal_0">    
+    <BodyPropertiesMin version="4" age="18" weight="0.2" build="0.4"  key="003CE80C40B43015CDA63386B8699999F065686AD5C0CD699CFFFF3F9922C09906963662089CD4A300000000000000000000000000000000000000003B342002"  />
+    <BodyPropertiesMax version="4" age="22" weight="0.4" build="0.7"  key="003FF80FC0B4000E2E801214480582AE10CF85378E790C033EFFF8E9840773C000BA66030BFB71100000000000000000000000000000000000000000017C2043"  />
+  </BodyProperty>
+</BodyProperties>

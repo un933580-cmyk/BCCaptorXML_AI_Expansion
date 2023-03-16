@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>CE_captor_female_escape</Name>
+        <Text>{=TBOverrideRequiredEscapeEvents_Noncon001}You receive word that {CAPTIVE_NAME} has managed to escape. Your guard swears up and down she just disappeared, but their embarrassed stammering tells a different story.</Text>
+        <BackgroundName>TB_character_knight</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsNonHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon005}Warn your guards to keep better watch.</OptionText>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <!-- represents the motivation of your guards -->
+        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <!-- represents the skill of your guards -->
+        <SkillsRequired>
+            <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
+        </SkillsRequired>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_captor_female_hero_escape</Name>
+        <Text>{=TBOverrideRequiredEscapeEvents_Noncon001}You receive word that {CAPTIVE_NAME} has managed to escape. Your guard swears up and down she just disappeared, but their embarrassed stammering tells a different story.</Text>
+        <BackgroundName>TB_character_knight</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon005}Warn your guards to keep better watch.</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon006}Track them down.</OptionText>
+                <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="Scouting" Min="R 1 150" Ref="Captor"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon007}Check your traps.</OptionText>
+                 <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="R 1 150" Ref="Captor"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon008}Hire a bounty hunter (2000{GOLD_ICON}).</OptionText>
+                <GoldTotal>-2000</GoldTotal>
+                 <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <!-- represents the motivation of your guards -->
+        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <!-- represents the skill of your guards and will of your prisoner -->
+        <SkillsRequired>
+            <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="MindBroken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveAffection" Max="20" Ref="Hero" />
+            <SkillRequired Id="CaptiveObedience" Max="95" Ref="Hero" />
+        </SkillsRequired>
+        <!-- represents whether your captive is strong enough to attempt escape -->
+        <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_captor_male_escape</Name>
+        <Text>{=TBOverrideRequiredEscapeEvents_Noncon002}You receive word that {CAPTIVE_NAME} has managed to escape. Your guard swears up and down he just disappeared, but their embarrassed stammering tells a different story.</Text>
+        <BackgroundName>TB_character_knight</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsNonHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon005}Warn your guards to keep better watch.</OptionText>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <!-- represents the motivation of your guards -->
+        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <!-- represents the skill of your guards -->
+        <SkillsRequired>
+            <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
+        </SkillsRequired>
+        <!-- represents whether your captive is willing to risk punishment -->
+        <ReqHeroCaptorRelationBelow>20</ReqHeroCaptorRelationBelow>
+        <!-- represents whether your captive is strong enough to attempt escape -->
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_captor_male_hero_escape</Name>
+        <Text>{=TBOverrideRequiredEscapeEvents_Noncon002}You receive word that {CAPTIVE_NAME} has managed to escape. Your guard swears up and down he just disappeared, but their embarrassed stammering tells a different story.</Text>
+        <BackgroundName>TB_character_knight</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon005}Warn your guards to keep better watch.</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon006}Track them down.</OptionText>
+                <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="Scouting" Min="R 1 150" Ref="Captor"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon007}Check your traps.</OptionText>
+                 <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="R 1 150" Ref="Captor"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon008}Hire a bounty hunter (2000{GOLD_ICON}).</OptionText>
+                <GoldTotal>-2000</GoldTotal>
+                 <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <!-- represents the motivation of your guards -->
+        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <!-- represents the skill of your guards and will of your prisoner -->
+        <SkillsRequired>
+            <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="MindBroken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveAffection" Max="20" Ref="Hero" />
+            <SkillRequired Id="CaptiveObedience" Max="95" Ref="Hero" />
+        </SkillsRequired>
+        <!-- represents whether your captive is strong enough to attempt escape -->
+        <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_captor_male_slave_escape</Name>
+        <Text>{=TBOverrideRequiredEscapeEvents_Noncon003}You receive word that {CAPTIVE_NAME} has managed to escape. His chains appear to have been broken using a tool of some sort.</Text>
+        <BackgroundName>TB_character_knight</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon005}Warn your guards to keep better watch.</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon006}Track them down.</OptionText>
+                <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="Scouting" Min="R 1 150" Ref="Captor"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon007}Check your traps.</OptionText>
+                 <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="R 1 150" Ref="Captor"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon008}Hire a bounty hunter (2000{GOLD_ICON}).</OptionText>
+                <GoldTotal>-2000</GoldTotal>
+                 <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <!-- represents the motivation of your guards -->
+        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <!-- represents the skill of your guards and will of your prisoner -->
+        <SkillsRequired>
+            <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="MindBroken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveAffection" Max="20" Ref="Hero" />
+            <SkillRequired Id="CaptiveObedience" Max="95" Ref="Hero" />
+        </SkillsRequired>
+        <!-- represents whether your captive is strong enough to attempt escape -->
+        <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_captor_female_slave_escape</Name>
+        <Text>{=TBOverrideRequiredEscapeEvents_Noncon004}You receive word that {CAPTIVE_NAME} has managed to escape. Her chains appear to have been broken using a tool of some sort.</Text>
+        <BackgroundName>TB_character_knight</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon005}Warn your guards to keep better watch.</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon006}Track them down.</OptionText>
+                <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="Scouting" Min="R 1 150" Ref="Captor"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon007}Check your traps.</OptionText>
+                 <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="R 1 150" Ref="Captor"/>
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredEscapeEvents_Noncon008}Hire a bounty hunter (2000{GOLD_ICON}).</OptionText>
+                <GoldTotal>-2000</GoldTotal>
+                 <TriggerEventName>TB_recapture_escaped_prisoner</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <!-- represents the motivation of your guards -->
+        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <!-- represents the skill of your guards and will of your prisoner -->
+        <SkillsRequired>
+            <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="MindBroken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveAffection" Max="20" Ref="Hero" />
+            <SkillRequired Id="CaptiveObedience" Max="95" Ref="Hero" />
+        </SkillsRequired>
+        <!-- represents whether your captive is strong enough to attempt escape -->
+        <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

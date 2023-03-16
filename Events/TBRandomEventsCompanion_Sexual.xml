@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_companion_kidnapped_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual001}One of your guards approaches you nervously, scroll in hand. It seems {COMPANION_NAME_1} has been kidnapped by a group of bandits! They have left a ransom note, promising to kill {?COMPANIONISFEMALE_1}her should you attempt to hunt them down, and demanding a hefty sum of gold for her safe return.{?}him should you attempt to hunt them down, and demanding a hefty sum of gold for his safe return.{\?}</Text>
+        <BackgroundName>TB_character_elite_warrior</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual020}Offer yourself in {?COMPANIONISFEMALE_1}her{?}his{\?} stead.</OptionText>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SlaveryTotal>R 10 20</SlaveryTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_companion_kidnapped_selfless</TriggerEventName>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>2</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 20 40" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual021}Offer to duel their leader.</OptionText>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                    <Skill Id="OneHanded" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <BattleSettings Ref="Regular" EnemyName="Kidnapper" Victory="TB_companion_kidnapped_duel_f" Defeat="TB_kidnapped_wilds" PlayerTroops="0">
+                    <SpawnTroops>
+                        <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="1" />
+                    </SpawnTroops>
+                </BattleSettings>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>2</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 10 20" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual022}Ambush them with your scouts.</OptionText>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                    <Skill Id="Scouting" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <SkillsRequired>
+                    <SkillRequired Id="Scouting" Min="30" Ref="Hero" />
+                </SkillsRequired>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_companion_kidnapped_sneak_f</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>2</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 10 20" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual023}Pay their ransom. (2000{GOLD_ICON})</OptionText>
+                <MoraleTotal>R 5 10</MoraleTotal>
+                <GoldTotal>-2000</GoldTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_companion_kidnapped_ransom_f</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>2</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 10 20" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual024}{?COMPANIONISFEMALE_1}She can handle herself{?}He can handle himself{\?}, you're sure...</OptionText>
+                <MoraleTotal>R -1 -3</MoraleTotal>
+                <RenownTotal>R -1 -3</RenownTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_companion_kidnapped_broken_f</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>17</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <HealthTotal>-90</HealthTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="R 10 50" Ref="Hero" Color="Cyan" />
+                            <Skill Id="Broken" ByLevel="1" Ref="Hero" Color="Magenta" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_conditions_hero_female" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_kidnapped_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual002}One of your guards approaches you nervously, scroll in hand. It seems {COMPANION_NAME_1} has been kidnapped by a group of bandits! They have left a ransom note, promising to kill {?COMPANIONISFEMALE_1}her should you attempt to hunt them down, and demanding a hefty sum of gold for her safe return.{?}him should you attempt to hunt them down, and demanding a hefty sum of gold for his safe return.{\?}</Text>
+        <BackgroundName>TB_character_elite_warrior</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual020}Offer yourself in {?COMPANIONISFEMALE_1}her{?}his{\?} stead.</OptionText>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SlaveryTotal>R 10 20</SlaveryTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_companion_kidnapped_selfless</TriggerEventName>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>2</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <HealthTotal>-90</HealthTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 20 40" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual021}Offer to duel their leader.</OptionText>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                    <Skill Id="OneHanded" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <SkillsRequired>
+                    <SkillRequired Id="OneHanded" Min="30" Ref="Hero" />
+                </SkillsRequired>
+                <BattleSettings Ref="Regular" EnemyName="Kidnapper" Victory="TB_companion_kidnapped_duel_m" Defeat="TB_kidnapped_wilds" PlayerTroops="0">
+                    <SpawnTroops>
+                        <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="1" />
+                    </SpawnTroops>
+                </BattleSettings>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>2</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 10 20" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual022}Ambush them with your scouts.</OptionText>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                    <Skill Id="Scouting" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <SkillsRequired>
+                    <SkillRequired Id="Scouting" Min="30" Ref="Hero" />
+                </SkillsRequired>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_companion_kidnapped_sneak_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>2</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 10 20" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual023}Pay their ransom. (2000{GOLD_ICON})</OptionText>
+                <MoraleTotal>R 5 10</MoraleTotal>
+                <GoldTotal>-2000</GoldTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_companion_kidnapped_ransom_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>2</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 10 20" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual024}{?COMPANIONISFEMALE_1}She can handle herself{?}He can handle himself{\?}, you're sure...</OptionText>
+                <MoraleTotal>R -1 -3</MoraleTotal>
+                <RenownTotal>R -1 -3</RenownTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_companion_kidnapped_broken_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <PregnancyRiskModifier>17</PregnancyRiskModifier>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="R 10 50" Ref="Hero" Color="Cyan" />
+                            <Skill Id="Broken" ByLevel="1" Ref="Hero" Color="Magenta" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_conditions_hero_male"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_kidnapped_selfless</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual003}Along with a small guard, so as not to alarm the bandits, you travel to the agreed meeting place. The bandit leader seems surprised at your proposal, and looks up and down your body lasciviously before eagerly agreeing. {COMPANION_NAME_1} is returned, {?COMPANIONISFEMALE_1}though from her appearance you can tell she's been roughly used, and she squeals in horror as she sees you willingly walk towards your grim fate.{?}though from his appearance you can tell he's been roughly used, and he gasps in horror as he sees you willingly walk towards your grim fate.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_master_and_slave"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual025}Watch as your men depart...</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_preg</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_tats</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_ass</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_cum</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_tally</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_whore</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_gang</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_spitroast</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Affection" ByLevel="R 10 20" Ref="Hero" Color="Cyan"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+        <CEEvent>
+        <Name>TB_companion_kidnapped_sneak_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual004}Leading a small strike force, you use your skills as a peerless scout to track the bandits through the forest. As you approach, the sounds of painful screams and grunting assault your ears, and you find a contingent of the villains making grim use of {COMPANION_NAME_1}'s semen-drenched body. {?COMPANIONISFEMALE_1}Literally catching them with their pants down, you slaughter the lot, escaping with your lives, though it may be some time before she can recover from her ordeal.{?}Literally catching them with their pants down, you slaughter the lot, escaping with your lives, though it may be some time before he can recover from his ordeal.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_post_cum"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual026}Return to your party.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Affection" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_kidnapped_sneak_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual005}Leading a small strike force, you use your skills as a peerless scout to track the bandits through the forest. As you approach, the sounds of painful screams and grunting assault your ears, and you find a contingent of the villains making grim use of {COMPANION_NAME_1}'s semen-drenched body. {?COMPANIONISFEMALE_1}Literally catching them with their pants down, you slaughter the lot, escaping with your lives, though it may be some time before she can recover from her ordeal.{?}Literally catching them with their pants down, you slaughter the lot, escaping with your lives, though it may be some time before he can recover from his ordeal.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_bound_tree_dirty" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual026}Return to your party.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Affection" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_kidnapped_duel_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual006}Leading a small procession, you reach the agreed-upon meeting place to find a procession of bandits, as well as {COMPANION_NAME_1}'s battered, cum-drenched body. {?COMPANIONISFEMALE_1}Incensed, you challenge their leader to a duel, wasting little time in slicing his gut to ribbons as he collapses, moaning incoherently. Sensing his death will be long and painful, you leave him to his fate, taking your companion with you. It may be some time before she can recover from her ordeal.{?}Incensed, you challenge their leader to a duel, wasting little time in slicing his gut to ribbons as he collapses, moaning incoherently. Sensing his death will be long and painful, you leave him to his fate, taking your companion with you. It may be some time before he can recover from his ordeal.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_slit_throat_naked"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual026}Return to your party.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-1000" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Affection" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+     <CEEvent>
+        <Name>TB_companion_kidnapped_duel_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual007}Leading a small procession, you reach the agreed-upon meeting place to find a procession of bandits, as well as {COMPANION_NAME_1}'s battered, cum-drenched body. {?COMPANIONISFEMALE_1}Incensed, you challenge their leader to a duel, wasting little time in slicing his gut to ribbons as he collapses, moaning incoherently. Sensing his death will be long and painful, you leave him to his fate, taking your companion with you. It may be some time before she can recover from her ordeal.{?}Incensed, you challenge their leader to a duel, wasting little time in slicing his gut to ribbons as he collapses, moaning incoherently. Sensing his death will be long and painful, you leave him to his fate, taking your companion with you. It may be some time before he can recover from his ordeal.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_male_roadside"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual026}Return to your party.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Affection" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_kidnapped_ransom_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual008}Leading a small procession, you reach the agreed-upon meeting place to find a procession of bandits, as well as {COMPANION_NAME_1}'s battered, cum-drenched body. {?COMPANIONISFEMALE_1}Their eyes light up with obvious greed as you present the gold, and they smirk, shoving your shivering, semiconscious companion towards you as they retreat. It may be some time before she can recover from her ordeal.{?}Their eyes light up with obvious greed as you present the gold, and they smirk, shoving your shivering, semiconscious companion towards you as they retreat. It may be some time before he can recover from his ordeal.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_wants_modesty" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual026}Return to your party.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Affection" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_kidnapped_ransom_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual009}Leading a small procession, you reach the agreed-upon meeting place to find a procession of bandits, as well as {COMPANION_NAME_1}'s battered, cum-drenched body. {?COMPANIONISFEMALE_1}Their eyes light up with obvious greed as you present the gold, and they smirk, shoving your shivering, semiconscious companion towards you as they retreat. It may be some time before she can recover from her ordeal.{?}Their eyes light up with obvious greed as you present the gold, and they smirk, shoving your shivering, semiconscious companion towards you as they retreat. It may be some time before he can recover from his ordeal.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_male_roadside"  />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual026}Return to your party.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Affection" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_kidnapped_broken_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual010}Some time later, you notice a commotion at the edge of camp. {COMPANION_NAME_1} has been returned to you by a small passing warband, who claim to have found and rescued {?COMPANIONISFEMALE_1}her from a terrible fate. She looks exhausted, her skin coated with cuts and bruises, and her holes drip with a thick layer of slime. She whimpers at the slightest touch, and after she recover enough to speak, she kneels, looking up at you with a glazed expression, and begs you to use your slave's worthless holes.{?}him from a terrible fate. He looks exhausted, his skin coated with cuts and bruises, and his holes drip with a thick layer of slime. He whimpers at the slightest touch, and after he recovers enough to speak, he kneels, looking up at you with a glazed expression, and begs you to use your slave's worthless holes.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_slave_submit" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual027}Maybe you shouldn't have left {?COMPANIONISFEMALE_1}her{?}him{\?} alone...</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_kidnapped_broken_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual011}Some time later, you notice a commotion at the edge of camp. {COMPANION_NAME_1} has been returned to you by a small passing warband, who claim to have found and rescued {?COMPANIONISFEMALE_1}her from a terrible fate. She looks exhausted, her skin coated with cuts and bruises, and her holes drip with a thick layer of slime. She whimpers at the slightest touch, and after she recover enough to speak, she kneels, looking up at you with a glazed expresion, and begs you to use your slave's worthless holes.{?}him from a terrible fate. He looks exhausted, his skin coated with cuts and bruises, and his holes drip with a thick layer of slime. He whimpers at the slightest touch, and after he recovers enough to speak, he kneels, looking up at you with a glazed expresion, and begs you to use your slave's worthless holes.{\?}</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_male_tired" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual027}Maybe you shouldn't have left {?COMPANIONISFEMALE_1}her{?}him{\?} alone...</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_sex_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual012}You nod, leading {COMPANION_NAME_1} to a private spot, and sensuously begin removing your clothes. {?COMPANIONISFEMALE_1}She returns the favor, then pushes herself against you, kissing and fondling your body slowly, tantalizingly, until at last her fingers reach your sex. You practically gush at the first touch, but she skillfully manage to delay your pleasure, and the two of you share several delicious hours pleasing each other's bodies until you are well and truly sated.{?}He returns the favor, then pushes himself against you, kissing and fondling your body slowly, tantalizingly, until at last his fingers reach your sex. You practically gush at the first touch, but he skillfully manage to delay your pleasure, and the two of you share several delicious hours pleasing each other's bodies until you are well and truly sated.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_male_kissing" UseConditions="BC_conditions_hero_female" />
+            <Background Name="BC_image_sex_mm_fucking" UseConditions="BC_conditions_hero_male" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual028}Such a skilled lover...</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_sub_sex_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual013}Your need, and the strength of your training, are far too great, and you fall to your knees, eagerly taking {COMPANION_NAME_1}'s {?COMPANIONISFEMALE_1}clit between your lips. She seems surprised, at first, but after you beg her to command her slut to pleasure her, she seems to understand. You spend several hours eating her delicious sex, being viciously fingered, fisted, degraded, and insulted, peaking your arousal, and climax after climax runs through your body until you can do little more than moan incoherently. When at last you are sated, she sheepishly helps you to your feet, apologizing for her disrespect.{?}cock between your lips. He seems surprised, at first, but after you beg him to command his slut to pleasure him, he seems to understand. You spend several hours throating his pungent manhood, being viciously filled, pounded, fisted, degraded, and insulted, peaking your arousal, and climax after climax runs through your body until you can do little more than moan incoherently. When at last you are sated, he sheepishly helps you to your feet, apologizing for his disrespect.{\?}</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_male_facesit" UseConditions="BC_conditions_hero_male" />
+            <Background Name="TB_ff_noncon_cunni" UseConditions="BC_conditions_hero_female" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual029}Thank your {?COMPANIONISFEMALE_1}mistress{?}master{\?} for giving you pleasure.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_sub_sex_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual014}Your need, and the strength of your training, are far too great, and you fall to your knees, eagerly taking {COMPANION_NAME_1}'s {?COMPANIONISFEMALE_1}clit between your lips. She seems surprised, at first, but after you beg her to command her slut to pleasure her, she seems to understand. You spend several hours eating her delicious sex, being viciously fingered, fisted, degraded, and insulted, peaking your arousal, and climax after climax runs through your body until you can do little more than moan incoherently. When at last you are sated, she sheepishly helps you to your feet, apologizing for her disrespect.{?}cock between your lips. He seems surprised, at first, but after you beg him to command his slut to pleasure him, he seems to understand. You spend several hours throating his pungent manhood, being viciously filled, pounded, fisted, degraded, and insulted, peaking your arousal, and climax after climax runs through your body until you can do little more than moan incoherently. When at last you are sated, he sheepishly helps you to your feet, apologizing for his disrespect.{\?}</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_mf_oral_facial_lara" UseConditions="BC_conditions_hero_female" />
+            <Background Name="BC_image_sex_mm_fucking" UseConditions="BC_conditions_hero_male" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual029}Thank your {?COMPANIONISFEMALE_1}mistress{?}master{\?} for giving you pleasure.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_decline</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual015}{COMPANION_NAME_1} sighs dejectedly, but does not press the issue. Some time later, you hear {?COMPANIONISFEMALE_1}her sensuous moans coming from a nearby tent, and as her arousal slowly grows to a climax you're pretty sure you hear her gasping your name.{?}his sensuous moans coming from a nearby tent, and as his arousal slowly grows to a climax you're pretty sure you hear him gasping your name.{\?}</Text>
+        <Backgrounds>
+            <Background Name="BC_image_companion_small_arrows" UseConditions="BC_conditions_hero_female" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual030}You'll have to talk to {?COMPANIONISFEMALE_1}her{?}him{\?} about that later.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_broken_decline_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual016}{COMPANION_NAME_1}'s eyes fill with fear, and {?COMPANIONISFEMALE_1}she whines in need, begging you to tell her how she has displeased you. She grovels at your feet, begging you to punish her, to take her in every hole, to let your troops fuck her worthless body into unconsciousness - anything to please her master.{?}he whines in need, begging you to tell him how he has displeased you. He grovels at your feet, begging you to punish him, to take him in every hole, to let your troops fuck his worthless body into unconsciousness - anything to please his master.{\?}</Text>
+        <Backgrounds>
+            <Background Name="BC_captor_f_kneeling_slave"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual031}You suppose you do find {?COMPANIONISFEMALE_1}her{?}his{\?} antics arousing.</OptionText>
+                <TriggerEventName>TB_companion_sex_f</TriggerEventName>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual032}No. {?COMPANIONISFEMALE_1}She{?}He{\?} needs help, not punishment or abuse.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="R -5 -10" Ref="Hero" Color="Cyan"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_broken_decline_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual017}{COMPANION_NAME_1}'s eyes fill with fear, and {?COMPANIONISFEMALE_1}she whines in need, begging you to tell her how she has displeased you. She grovels at your feet, begging you to punish her, to take her in every hole, to let your troops fuck her worthless body into unconsciousness - anything to please her master.{?}he whines in need, begging you to tell him how he has displeased you. He grovels at your feet, begging you to punish him, to take him in every hole, to let your troops fuck his worthless body into unconsciousness - anything to please his master.{\?}</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_male_shame"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual031}You suppose you do find {?COMPANIONISFEMALE_1}her{?}his{\?} antics arousing.</OptionText>
+                <TriggerEventName>TB_companion_sex_m</TriggerEventName>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual032}No. {?COMPANIONISFEMALE_1}She{?}He{\?} needs help, not punishment or abuse.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="R -5 -10" Ref="Hero" Color="Cyan"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_broken_heal_f</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual018}{COMPANION_NAME_1} approaches you, {?COMPANIONISFEMALE_1}her expression clear and grateful. She thanks you for helping her throw off her training, and though it will take her some time to fully recover from her ordeal, she hopes to serve you loyally from now on.{?}his expression clear and grateful. He thanks you for helping him throw off his training, and though it will take him some time to fully recover from his ordeal, he hopes to serve you loyally from now on.{\?}</Text>
+        <Backgrounds>
+            <Background Name="BC_image_companion_raven_sword" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual033}You're glad to see {?COMPANIONISFEMALE_1}her{?}him{\?} well.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 30 50" Ref="Hero" Color="Cyan" />
+                            <Skill Id="Broken" ByLevel="-1" Ref="Hero" Color="Magenta" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_conditions_random_broken_but_disobedient_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_broken_heal_m</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual019}{COMPANION_NAME_1} approaches you, {?COMPANIONISFEMALE_1}her expression clear and grateful. She thanks you for helping her throw off her training, and though it will take her some time to fully recover from her ordeal, she hopes to serve you loyally from now on.{?}his expression clear and grateful. He thanks you for helping him throw off his training, and though it will take him some time to fully recover from his ordeal, he hopes to serve you loyally from now on.{\?}</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_male_fence" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual033}You're glad to see {?COMPANIONISFEMALE_1}her{?}him{\?} well.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 30 50" Ref="Hero" Color="Cyan" />
+                            <Skill Id="Broken" ByLevel="-1" Ref="Hero" Color="Magenta" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_conditions_random_broken_but_disobedient_m"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

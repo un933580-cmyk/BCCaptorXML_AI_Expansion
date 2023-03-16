@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+  <CEEvent>
+    <Name>TB_slavery_recovery_solo</Name>
+    <Text>{=TBRandomEventsFemale_Slavery001}You feel a twinge of arousal flow from your groin, and you shudder and moan, falling to your knees as an overwhelming feeling of emptiness courses over you. Your begin thinking of your last master's cock thrusting inside you, and yearn to be filled...</Text>
+    <BackgroundName>BC_image_slavery_recovery</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery009}Try to ignore it.</OptionText>
+        <HealthTotal>R -1 -10</HealthTotal>
+        <SlaveryTotal>R -1 -7</SlaveryTotal>
+        <MoraleTotal>R -2 -7</MoraleTotal>
+        <TriggerEventName>TB_slavery_recovery_horny</TriggerEventName>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <ReqHeroHealthAbovePercentage>30</ReqHeroHealthAbovePercentage>
+        <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+      </Option>
+      <Option>
+        <Order>2</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery010}Stop to pleasure yourself.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <RenownTotal>R 1 10</RenownTotal>
+        <MoraleTotal>R -1 -3</MoraleTotal>
+        <TriggerEvents>
+          <TriggerEvent>
+            <EventName>TB_slavery_recovery_mast</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+          <TriggerEvent>
+            <EventName>TB_slavery_recovery_mast_bad</EventName>
+            <EventWeight>50</EventWeight>
+          </TriggerEvent>
+        </TriggerEvents>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccuring>30</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+    <ReqTroopsBelow>2</ReqTroopsBelow>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_recovery</Name>
+    <Text>{=TBRandomEventsFemale_Slavery002}You feel a twinge of arousal flow from your groin, and you shudder and moan, falling to your knees as an overwhelming feeling of emptiness courses over you. Your begin thinking of your last master's cock thrusting inside you, and yearn to be filled...</Text>
+    <BackgroundName>BC_image_slavery_recovery</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery009}Try to ignore it.</OptionText>
+        <HealthTotal>R -1 -10</HealthTotal>
+        <SlaveryTotal>R -1 -7</SlaveryTotal>
+        <MoraleTotal>R -2 -7</MoraleTotal>
+        <TriggerEventName>TB_slavery_recovery_horny</TriggerEventName>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <ReqHeroHealthAbovePercentage>30</ReqHeroHealthAbovePercentage>
+        <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+      </Option>
+      <Option>
+        <Order>2</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery010}Stop to pleasure yourself.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <RenownTotal>R 1 10</RenownTotal>
+        <MoraleTotal>R -1 -3</MoraleTotal>
+        <TriggerEvents>
+          <TriggerEvent>
+            <EventName>TB_slavery_recovery_mast</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+          <TriggerEvent>
+            <EventName>TB_slavery_recovery_mast_bad</EventName>
+            <EventWeight>50</EventWeight>
+          </TriggerEvent>
+        </TriggerEvents>
+      </Option>
+      <Option>
+        <Order>3</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery011}Beg your men to fuck you.</OptionText>
+        <MoraleTotal>R 10 20</MoraleTotal>
+        <SlaveryTotal>R 2 4</SlaveryTotal>
+        <ReqTroopsAbove>5</ReqTroopsAbove>
+        <TriggerEventName>TB_slavery_recovery_fuck</TriggerEventName>
+      </Option>
+      <Option>
+        <Order>3</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery012}Convince your troops to dominate and hurt you.</OptionText>
+        <MoraleTotal>R 10 20</MoraleTotal>
+        <SlaveryTotal>R 8 15</SlaveryTotal>
+        <TriggerEventName>TB_soldiers_roleplaying</TriggerEventName>
+        <ReqHeroSlaveLevelAbove>250</ReqHeroSlaveLevelAbove>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccuring>30</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+    <ReqTroopsAbove>2</ReqTroopsAbove>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_recovery_horny</Name>
+    <Text>{=TBRandomEventsFemale_Slavery003}You continue on your journey, bucking your heat against your saddle and moaning as your arousal grows. Your men seem to be watching your body more than usual.</Text>
+    <BackgroundName>TB_clothed_aroused</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>4</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery013}Continue onward.</OptionText>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_recovery_mast</Name>
+    <Text>{=TBRandomEventsFemale_Slavery004}You give in to your lust, calling a halt to your caravan and secluding yourself away from your men. You rub your clit with a practiced hand, gently stroking and teasing yourself to a thunderous climax. You blush, knowing well that you were loud enough anyone nearby was certainly able to hear you...</Text>
+    <BackgroundName>BC_image_slaver_gold_finger_self</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery014}Clean yourself off and get dressed.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <SlaveryTotal>R -5 -10</SlaveryTotal>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_recovery_mast_bad</Name>
+    <Text>{=TBRandomEventsFemale_Slavery005}You give in to your lust, calling a halt to your caravan and secluding yourself away from your men. You rub your clit with a practiced hand, and though you try to push them away, depraved images fill your mind. You feel your last master thrusting inside you, his thick cock pounding your helpless body as your arms are shackled behind you, unable to resist. You feel a deep shame as you climax to the mental image of him spraying his seed across your face, knowing that even in your freedom, you are still his broken slave.</Text>
+    <BackgroundName>BC_image_slavery_black_finger_self</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery014}Clean yourself off and get dressed.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_recovery_fuck</Name>
+    <Text>{=TBRandomEventsFemale_Slavery006}You give in to your lust, calling a halt to your caravan and ordering several of your most handsome men to follow you. Once you have a bit of privacy, you disrobe and begin touching yourself...</Text>
+    <BackgroundName>BC_image_slavery_recover_men_table</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery015}Plead for them to take your holes.</OptionText>
+        <PregnancyRiskModifier>1</PregnancyRiskModifier>
+        <TriggerEvents>
+          <TriggerEvent>
+            <EventName>TB_slavery_recovery_fuck_good</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+          <TriggerEvent>
+            <EventName>TB_slavery_recovery_fuck_bad</EventName>
+            <EventWeight>50</EventWeight>
+          </TriggerEvent>
+        </TriggerEvents>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_recovery_fuck_bad</Name>
+    <Text>{=TBRandomEventsFemale_Slavery007}Your men eagerly surround you, and as the first cock slips in, you shudder and call for master to fuck his slave. They seem confused at first, but quickly realize they are free to hurt you. They shackle you and pound you with reckless abandon, and you climax again and again as your training demands.</Text>
+    <BackgroundName>BC_image_slavery_recover_men_bad</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery016}Hopefully they keep quiet to the rest of the troops.</OptionText>
+        <SlaveryTotal>R 2 4</SlaveryTotal>
+        <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery017}Slurp your masters&quot; cocks clean.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <SlaveryTotal>R 2 4</SlaveryTotal>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_slavery_recovery_fuck_good</Name>
+    <Text>{=TBRandomEventsFemale_Slavery008}Your men surround you eagerly, and as the first cock plunges into your cleft, you shudder and moan uncontrollably, smiling at your lovers. They take you tenderly, gently avoiding your bruises as they bring you to a wonderful climax. Surrounded by strong, caring, and virile men, your time as a slave seems a distant nightmare...</Text>
+    <BackgroundName>BC_image_slavery_recover_men_hold</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBRandomEventsFemale_Slavery018}Slip into blissful sleep.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <SlaveryTotal>R -10 -30</SlaveryTotal>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+</CEEvents>

@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+<!-- Basic Conditions-->
+    <CEEvent>
+        <Name>BC_conditions_hero_female</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>BC_conditions_hero_female_pregnant</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+     <CEEvent>
+        <Name>BC_conditions_hero_male</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_random_current_actor_brawling</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+            <SkillRequired Id="OneHanded" Min="R 1 80" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_random_current_actor_condition</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_random_current_actor_condition_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_random_current_actor_condition_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_nostatus_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero" />
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_intro_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="NotNewCaptive" Max="0" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_nostatus_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero" />
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero" />
+            <SkillRequired Id="NotNewCaptive" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_affectionate</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="40" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_affectionate_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="40" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_affectionate_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="40" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_predevoted_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="90" Ref="Hero" />
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_predevoted_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="90" Ref="Hero" />
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_prebroken_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveObedience" Min="90" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_prebroken_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveObedience" Min="90" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_devoted_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_devoted_fertile_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroMaxAge>40</ReqHeroMaxAge>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_devoted_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+	<CEEvent>
+        <Name>BC_conditions_random_concubine_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_concubine_fertile_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroMaxAge>40</ReqHeroMaxAge>
+        <SkillsRequired>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_concubine_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_broken_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_broken_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_broken_despondent_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroHealthBelowPercentage>50</ReqHeroHealthBelowPercentage>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_broken_despondent_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroHealthBelowPercentage>50</ReqHeroHealthBelowPercentage>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_broken_dying_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroHealthBelowPercentage>1</ReqHeroHealthBelowPercentage>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+            <SkillRequired Id="CaptiveAffection" Max="0" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_broken_dying_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroHealthBelowPercentage>1</ReqHeroHealthBelowPercentage>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+            <SkillRequired Id="CaptiveAffection" Max="0" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_broken_but_disobedient_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+            <SkillRequired Id="CaptiveObedience" Max="10" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_broken_but_disobedient_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+            <SkillRequired Id="CaptiveObedience" Max="0" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_broken_current</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_prostitute_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_prostitute_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_experienced_prostitute_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqHeroProstituteLevelAbove>33</ReqHeroProstituteLevelAbove>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_experienced_prostitute_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqHeroProstituteLevelAbove>33</ReqHeroProstituteLevelAbove>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_renowned_prostitute_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqHeroProstituteLevelAbove>66</ReqHeroProstituteLevelAbove>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_random_renowned_prostitute_m</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqHeroProstituteLevelAbove>66</ReqHeroProstituteLevelAbove>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+<!-- Captor Conditions-->
+    <CEEvent>
+        <Name>BC_event_conditions_captive_female_default</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- non _default, below, excludes pregnant captives, Thief/Warrior (wanderer/vassal?) -->
+    <CEEvent>
+        <Name>BC_event_conditions_captive_female</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="IsThief" Ref="Hero" Max="0"/>
+            <SkillRequired Id="IsWarrior" Ref="Hero" Max="0"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_thief_female</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="IsThief" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_warrior_female</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="IsWarrior" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_male</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- DateSim conditions-->
+    <CEEvent>
+        <Name>BC_event_conditions_captor_female</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captor_male</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captor_male_captive_female</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captor_male_captive_male</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captor_female_captive_female</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captor_female_captive_male</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- end DateSim conditions-->
+    <CEEvent>
+        <Name>BC_event_conditions_captive_pregnant</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="IsThief" Ref="Hero" Max="0"/>
+            <SkillRequired Id="IsWarrior" Ref="Hero" Max="0"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_thief_pregnant</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="IsThief" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_warrior_pregnant</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="IsWarrior" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <!-- BC Custom Conditions-->
+<!-- Affection Conditions -->
+    <CEEvent>
+        <Name>BC_event_conditions_captive_female_abhored</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Max="0"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_female_accepted</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="25"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_female_appreciated</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="50"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_female_admired</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="75"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_female_adored</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="99"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+<!-- Other Conditions-->
+    <CEEvent>
+        <Name>BC_event_conditions_captive_female_social</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="SocialEnergy" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_virgin</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Virginal" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_conditions_captive_female_noble</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnsFief</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <!-- <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="99"/>
+        </SkillsRequired> -->
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+<!-- Companion conditions-->
+    <CEEvent>
+        <Name>BC_conditions_companion_f_prude</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustV" Max="50" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_companion_f_lusta</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustA" Min="50" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_companion_f_lustc</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustC" Min="50" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_companion_f_lusto</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustO" Min="50" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_companion_f_lustt</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustT" Min="50" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_companion_f_lustv</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustV" Min="50" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_companion_f_slut</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustO" Min="50" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustV" Min="50" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustC" Min="50" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustT" Min="50" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustA" Min="50" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_companion_f_freak</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <!-- <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring> -->
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustO" Min="80" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustV" Min="80" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustC" Min="80" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustT" Min="80" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustA" Min="80" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+</CEEvents>

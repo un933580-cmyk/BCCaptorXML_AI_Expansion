@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_troops_noncon_lobby</Name>
+        <Text>{=TBModularEventsFemale_Troops_Noncon001}You are helpless and naked before your troops, your cum-filled holes aching with pain and flush with arousal. Some are drinking, some watching, and some masturbating to the sight of your luscious curves and ample breasts, but each are waiting their turn...</Text>
+        <BackgroundName>TB_kneeling_dirty</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon007}Beg for them to have mercy.</OptionText>
+                <HealthTotal>R -1 -10</HealthTotal>
+                <MoraleTotal>R 1 3</MoraleTotal>
+                <RenownTotal>R 1 3</RenownTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_troops_noncon_vaginal</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_troops_noncon_oral</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_troops_noncon_anal</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_troops_noncon_end</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_troops_noncon_69</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon008}Feint from exhaustion.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_troops_noncon_end</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_troops_noncon_vaginal</Name>
+        <Text>{=TBModularEventsFemale_Troops_Noncon002}Your arms are held down as the next man takes his place at your front, briefly sliding a finger up your labia and gently pinching your clitoris. He slides the tip of his penis into you, brushing his chest hair against your breasts, and savors the feeling for a few seconds before thrusting passionately. You feel his balls slap against your ass as his glans brushes against your cervix, and he begins rocking slowly in and out of you, carefully matching your heartbeat. After what seems like an eternity you feel his member shudder and pulse inside you, and when he pulls out your yawning flower aches to be filled once more.</Text>
+        <BackgroundName>TB_noncon_miss</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon009}"Who's next?"</OptionText>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+                <TriggerEventName>TB_troops_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_troops_noncon_anal</Name>
+        <Text>{=TBModularEventsFemale_Troops_Noncon003}The next man takes his position behind you, and you panic as you feel his hardness begin to push into your ass. You squirm, but exhausted as you are from your previous fucking you're unable to escape. He takes his time stretching out your hole, and by the time you feel the base of his cock push against your rear you have stopped struggling, a thin stream of drool dripping from your mouth as the sensation of fullness overwhelms you. You feel him burst inside you, the pressure and resistance of your sphincter too arousing for him to bear, and he collapses, pinning your sodomized ass to the ground.</Text>
+        <BackgroundName>TB_noncon_choke</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon009}"Who's next?"</OptionText>
+                <TriggerEventName>TB_troops_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_troops_noncon_oral</Name>
+        <Text>{=TBModularEventsFemale_Troops_Noncon004}The next man pushes you to your knees, shoving his member into your face. It's large and hairy, but reasonably clean, and as he moves to grab your hair so he can face-fuck you, you start licking it eagerly, tracing a finger around his balls in a rhythmic motion. He grunts in pleasure, surprised by your eagerness, and smiles as you lock eyes with him, slowly working his cock down your throat. He allows you to service him, occasionally placing his hands on your head to direct you, and finally pulls out before he comes, painting your face in his seed.</Text>
+        <BackgroundName>TB_facial</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon009}"Who's next?"</OptionText>
+                <TriggerEventName>TB_troops_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_troops_noncon_69</Name>
+        <Text>{=TBModularEventsFemale_Troops_Noncon005}The next man gently pushes you onto your back, kneeling down and licking your clitoris with his tongue. He suckles at it painfully for a few seconds, then swings his body around and plunges his cock into your mouth. His tongue slides up and down your labia, and he seems to enjoy your struggles to breathe as his attentions grow more aggressive. He licks you deeply and pokes his fingers into your cleft, and before long a torrent of salty liquid pours down your throat, adding to your distress. When he finally steps off of you, you cough and sputter, trying to catch your breath.</Text>
+        <BackgroundName>TB_69</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon009}"Who's next?"</OptionText>
+                <TriggerEventName>TB_troops_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_troops_noncon_end</Name>
+        <Text>{=TBModularEventsFemale_Troops_Noncon006}You collapse in exhaustion as they begin to leave, and one of the men empties a sackful of gold on your cum-encrusted body. He says you're better off a whore than commander, and that you shouldn't expect as good a deal next time you run short on their wages.</Text>
+        <BackgroundName>TB_aftersex_cum</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon010}Gather the coins and clean yourself off.</OptionText>
+                <ProstitutionTotal>R 2 7</ProstitutionTotal>
+                <RenownTotal>R -1 -3</RenownTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <ProstitutionTotal>R 2 7</ProstitutionTotal>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon011}Weep quietly.</OptionText>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Troops_Noncon012}Swear to yourself to get them killed in battle.</OptionText>
+                <ProstitutionTotal>R 2 7</ProstitutionTotal>
+                <RenownTotal>R -1 -3</RenownTotal>
+                <MoraleTotal>R -4 -15</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="-100" Ref="Hero" />
+                </SkillsToLevel>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

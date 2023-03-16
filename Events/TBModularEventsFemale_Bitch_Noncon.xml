@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+  <CEEvent>
+    <Name>TB_slavery_bitch_start</Name>
+    <Text>{=TBModularEventsFemale_Bitch_Noncon001}Your master forces you to your hands and knees, using a chain as your leash and ordering you to follow him like a dog as he goes about his day. He explains that you are his bitch. You are not to speak, stand, or resist until he gives you permission to do so.</Text>
+    <BackgroundName>BC_image_slavery_floor_1</BackgroundName>
+    <NotificationName>TB_travelling_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon010}Follow your master like a good bitch.</OptionText>
+        <RelationTotal>R 1 3</RelationTotal>
+        <SlaveryTotal>R 4 12</SlaveryTotal>
+        <TriggerEventName>TB_bitch_noncon_lobby</TriggerEventName>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon011}Try to resist; you're no one's bitch.</OptionText>
+        <HealthTotal>R -20 -40</HealthTotal>
+        <TriggerEventName>TB_slavery_resist</TriggerEventName>
+        <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+      </Option>
+      <Option>
+        <Order>2</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon012}Strangle him with your leash and escape.</OptionText>
+        <RelationTotal>R -5 -15</RelationTotal>
+        <SlaveryTotal>R -10 -25</SlaveryTotal>
+        <HealthTotal>-50</HealthTotal>
+        <EscapeChance>10</EscapeChance>
+        <TriggerEventName>BC_slavery_training</TriggerEventName>
+        <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+    <ReqHeroHealthAbovePercentage>50</ReqHeroHealthAbovePercentage>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_bitch_noncon_lobby</Name>
+    <Text>{=TBModularEventsFemale_Bitch_Noncon002}You follow your captor, who leads you by your chain as he goes about his day. He takes care to introduce you as his bitch to everyone he meets, encouraging them to breed you to teach you your place.</Text>
+    <BackgroundName>BC_image_slavery_floor_2</BackgroundName>
+    <NotificationName>TB_travelling_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon013}Submissively follow your captor.</OptionText>
+        <TriggerEvents>
+          <TriggerEvent>
+            <EventName>TB_bitch_noncon_stableboy</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+          <TriggerEvent>
+            <EventName>TB_bitch_noncon_prisoner</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+          <TriggerEvent>
+            <EventName>TB_bitch_noncon_gang</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+          <TriggerEvent>
+            <EventName>TB_bitch_noncon_horse</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+          <TriggerEvent>
+            <EventName>TB_bitch_noncon_canine</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+          <TriggerEvent>
+            <EventName>TB_bitch_noncon_exhaust</EventName>
+            <EventWeight>50</EventWeight>
+          </TriggerEvent>
+        </TriggerEvents>
+        <ReqHeroHealthAbovePercentage>10</ReqHeroHealthAbovePercentage>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon014}Pass out from exhaustion.</OptionText>
+        <TriggerEvents>
+          <TriggerEvent>
+            <EventName>TB_bitch_noncon_exhaust</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+        </TriggerEvents>
+        <ReqHeroHealthBelowPercentage>30</ReqHeroHealthBelowPercentage>
+      </Option>
+      <Option>
+        <Order>2</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon015}Enough of this humiliation!</OptionText>
+        <TriggerEvents>
+          <TriggerEvent>
+            <EventName>TB_slavery_resist</EventName>
+            <EventWeight>100</EventWeight>
+          </TriggerEvent>
+        </TriggerEvents>
+        <ReqHeroHealthAbovePercentage>50</ReqHeroHealthAbovePercentage>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_bitch_noncon_stableboy</Name>
+    <Text>{=TBModularEventsFemale_Bitch_Noncon003}One of the stable-boys nearly comes at the sight of you, hiding his erection with both hands. Your captor motions him forward, telling him he is welcome to breed his master's bitch. The young man wastes no time in spreading you, and you feel a prodigiously massive rod begin to push past your innermost folds. You moan softly as you are overwhelmed by the warmth and pressure filling you, and begin to pant as he splits you anew with each steady thrust.</Text>
+    <BackgroundName>BC_image_slavery_sub_vag_4</BackgroundName>
+    <NotificationName>TB_travelling_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon016}Whine in submissive ecstasy.</OptionText>
+        <PregnancyRiskModifier>1</PregnancyRiskModifier>
+        <TriggerEventName>TB_bitch_noncon_stableboy_2</TriggerEventName>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_bitch_noncon_stableboy_2</Name>
+    <Text>{=TBModularEventsFemale_Bitch_Noncon004}The stable-boy continues his efforts as you needily meet his cock, commenting that you feel like a dog in heat. Your captor says you are a mangy bitch, not a woman, and begins masturbating to your degradation as the young man explodes into you. The friction and slickness inside you brings you to your own climax, and your captor nastily comments that the lad may well have some pups of his own...</Text>
+    <BackgroundName>BC_image_sex_creampie_2</BackgroundName>
+    <NotificationName>TB_travelling_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon017}Crawl back to your master's side.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <PregnancyRiskModifier>1</PregnancyRiskModifier>
+        <TriggerEventName>TB_bitch_noncon_lobby</TriggerEventName>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_bitch_noncon_prisoner</Name>
+    <Text>{=TBModularEventsFemale_Bitch_Noncon005}Your captor leads you to one of the condemned prisoners, an evil-looking man with an exile's mark tattooed on his forehead. Master asks if the man would like one last chance to mouth rape a woman before his execution. The prisoner grins cruelly, and wastes no time in plunging his throbbing member past your tonsils. You feel his hand around your throat as he chokes you, his brutal thrusts painfully spearing you. Your struggles seem to delight him, and as you begin to lose consciousness he comes heavily, a massive jet of warm jism flooding your stomach. You collapse to the ground, coughing, as he pisses on you before being walked to the gallows.</Text>
+    <BackgroundName>BC_image_slavery_oral_day_ring</BackgroundName>
+    <NotificationName>TB_travelling_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon018}Massage your bruised throat.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <HealthTotal>R -5 -10</HealthTotal>
+        <TriggerEventName>TB_bitch_noncon_lobby</TriggerEventName>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_bitch_noncon_gang</Name>
+    <Text>{=TBModularEventsFemale_Bitch_Noncon006}Your master leads you to a group of laborers, who gather to see your naked, submissive body. They cheer in disbelief when your captor encourages them to defile you. You are quickly surrounded and treated to the taste of stale cum and urine as they take turns eagerly face-fucking you.</Text>
+    <BackgroundName>BC_image_slavery_sub_dog_collar_group</BackgroundName>
+    <NotificationName>TB_travelling_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon019}Show them how good you suck cocks.</OptionText>
+        <TriggerEventName>TB_bitch_noncon_gang_2</TriggerEventName>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon020}Do your best to avoid their cocks.</OptionText>
+        <TriggerEventName>TB_bitch_noncon_gang_2</TriggerEventName>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_bitch_noncon_gang_2</Name>
+    <Text>{=TBModularEventsFemale_Bitch_Noncon007}They quickly grow tired of trying to share your mouth, and when your captor reminds them that they have two more holes to fill, one of them eagerly pulls you up, bending you over as another slides beneath you. You're held in place by strong hands as the one beneath you slides into your cunt, thrusting as roughly as the man in your asshole. You briefly scream before a third shoves his cock back into your mouth, and they begin seesawing in and out of you. From time to time one of them switches places with another, and as you feel your ass fill with sticky seed you hear the sounds of other excited men coming to join in the fun...</Text>
+    <BackgroundName>BC_image_slavery_forced_oral_vag</BackgroundName>
+    <NotificationName>TB_travelling_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon021}Try to survive their assault.</OptionText>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+        <HealthTotal>R -5 -10</HealthTotal>
+        <TriggerEventName>TB_bitch_noncon_gang_3</TriggerEventName>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_bitch_noncon_gang_3</Name>
+    <Text>{=TBModularEventsFemale_Bitch_Noncon008}Your torment goes on for hours; by the time most of them have lost interest, you're filled and coated with cum, your holes bruised and sore, your eyes glued closed with a layer of dried seed. You feel the filth peeling off of your skin as you move, yet still several of them are busy pounding your semen-encrusted ass as though you were the only woman on earth. As a final humiliation, your captor instructs them to clean you off. Unable to see what is going on, you feel a stinging sensation on your skin and eyes as a warm, awful-smelling liquid is sprayed onto you from every direction, washing away the cum. As it stops you blink carefully, realizing you've just been used as these men's piss pot.</Text>
+    <BackgroundName>BC_image_sex_f_ass_cumshot</BackgroundName>
+    <NotificationName>TB_travelling_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon022}What new horrors lie in store?</OptionText>
+        <HealthTotal>R -10 -20</HealthTotal>
+        <SlaveryTotal>R 8 15</SlaveryTotal>
+        <TriggerEventName>TB_bitch_noncon_lobby</TriggerEventName>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+            <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+    <Name>TB_bitch_noncon_exhaust</Name>
+    <Text>{=TBModularEventsFemale_Bitch_Noncon009}You collapse in exhaustion, laying curled at your captor's feet as a torrent of sticky, viscous liquid drips from your abused holes. He smiles, telling you you've been a good bitch, and that you may stand again as soon as you milk his cock with your pretty lips to mark your transformation from bitch to slave.</Text>
+    <BackgroundName>BC_image_slavery_floor_3</BackgroundName>
+    <NotificationName>TB_travelling_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon023}Get up on your knees and pleasure Master&quot;s cock.</OptionText>
+        <SlaveryTotal>R 8 15</SlaveryTotal>
+        <RelationTotal>R 1 3</RelationTotal>
+        <TriggerEventName>TB_slavery_oral</TriggerEventName>
+        <SkillsToLevel>
+            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+        </SkillsToLevel>
+      </Option>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>{=TBModularEventsFemale_Bitch_Noncon024}Refuse this final humiliation.</OptionText>
+        <RelationTotal>R -1 -3</RelationTotal>
+        <SlaveryTotal>R -5 -10</SlaveryTotal>
+        <TriggerEventName>TB_slavery_resist</TriggerEventName>
+        <ReqHeroHealthAbovePercentage>20</ReqHeroHealthAbovePercentage>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+</CEEvents>

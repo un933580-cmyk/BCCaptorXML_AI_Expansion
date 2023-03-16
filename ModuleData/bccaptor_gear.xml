@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item id="horse_whip"
+          name="{=HclLXEaT}Horse Whip"
+          is_merchandise="false"
+          body_name="bo_mace_a"
+          recalculate_body="true"
+          mesh="horse_whip"
+          weight="0.2"
+          value="1"
+          Type="OneHandedWeapon"
+          item_holsters="sword_left_hip">
+      <ItemComponent>
+        <Weapon weapon_class="OneHandedSword"
+                weapon_balance="100"
+                thrust_speed="79"
+                speed_rating="99"
+                physics_material="wood_weapon"
+                missile_speed="0"
+                weapon_length="95"
+                thrust_damage="6"
+                thrust_damage_type="Blunt"
+                swing_damage="5"
+                swing_damage_type="Blunt"
+                item_usage="onehanded_block_shield_swing">
+          <WeaponFlags MeleeWeapon="true" />
+        </Weapon>
+      </ItemComponent>
+      <Flags Civilian="true" />
+    </Item>
+    <Item id="quarterstaff"
+          name="{=*}Trainer's Stick"
+          is_merchandise="true"
+          body_name="bo_spear_b"
+          recalculate_body="true"
+          mesh="spear_handle_3"
+          using_tableau="true"
+          value="5"
+          subtype="two_handed_wpn"
+          weight="1"
+          difficulty="0"
+          appearance="1"
+          Type="Polearm"
+          item_holsters="polearm_back:polearm_back_2">
+      <ItemComponent>
+        <Weapon weapon_class="TwoHandedPolearm"
+                weapon_balance="300"
+                thrust_speed="140"
+                speed_rating="140"
+                physics_material="wood_weapon"
+                weapon_length="240"
+                position="0.0, 0.0, 0.3"
+                swing_damage="10"
+                thrust_damage="5"
+                swing_damage_type="Blunt"
+                thrust_damage_type="Blunt"
+                item_usage="polearm_block_swing_thrust">
+          <WeaponFlags MeleeWeapon="true"
+                       PenaltyWithShield="true"
+                       NotUsableWithOneHand="false"
+                       TwoHandIdleOnMount="false"
+                       WideGrip="true" />
+        </Weapon>
+      </ItemComponent>
+      <Flags WoodenParry="true"
+             DoNotScaleBodyAccordingToWeaponLength="true"
+             Civilian="true" />
+    </Item>
+    <Item id="bitch_fork"
+          name="{=l69aXkKH}Catcher Fork"
+          is_merchandise="true"
+          body_name="bo_push_fork"
+          recalculate_body="true"
+          mesh="push_fork"
+          subtype="two_handed_wpn"
+          weight="2"
+          difficulty="0"
+          appearance="0.1"
+          Type="Polearm"
+          item_holsters="polearm_back:polearm_back_2">
+      <ItemComponent>
+        <Weapon weapon_class="TwoHandedPolearm"
+                weapon_balance="100"
+                thrust_speed="155"
+                speed_rating="70"
+                physics_material="wood_weapon"
+                weapon_length="200"
+                position="0.0, 0.0, 0.3"
+                swing_damage="5"
+                thrust_damage="20"
+                swing_damage_type="Blunt"
+                thrust_damage_type="Blunt"
+                item_usage="polearm_block_thrust">
+          <WeaponFlags MeleeWeapon="true"
+                       PenaltyWithShield="true"
+                       NotUsableWithOneHand="true"
+                       TwoHandIdleOnMount="true"
+                       WideGrip="true" />
+        </Weapon>
+      </ItemComponent>
+      <Flags WoodenParry="true"
+             DoNotScaleBodyAccordingToWeaponLength="true"
+             Civilian="true"
+             QuickFadeOut="true" />
+    </Item>
+    <Item id="loverstaff"
+          name="{=*}Lover's Stick"
+          is_merchandise="false"
+          body_name="bo_spear_b"
+          recalculate_body="true"
+          mesh="spear_handle_3"
+          using_tableau="true"
+          value="5"
+          subtype="two_handed_wpn"
+          weight="1"
+          difficulty="0"
+          appearance="1"
+          Type="Polearm"
+          item_holsters="polearm_back:polearm_back_2">
+      <ItemComponent>
+        <Weapon weapon_class="TwoHandedPolearm"
+                weapon_balance="300"
+                thrust_speed="180"
+                speed_rating="240"
+                physics_material="metal_weapon"
+                weapon_length="240"
+                position="0.0, 0.0, 0.3"
+                swing_damage="100"
+                thrust_damage="50"
+                swing_damage_type="Blunt"
+                thrust_damage_type="Pierce"
+                item_usage="polearm_block_swing_thrust">
+          <WeaponFlags MeleeWeapon="true"
+                       PenaltyWithShield="true"
+                       NotUsableWithOneHand="false"
+                       TwoHandIdleOnMount="false"
+                       WideGrip="true" />
+        </Weapon>
+      </ItemComponent>
+      <Flags WoodenParry="true"
+             DoNotScaleBodyAccordingToWeaponLength="true"
+             Civilian="true" />
+    </Item>
+    <Item id="loverpants"
+          name="{=*}Saggy Trunks"
+          mesh="bandit_1_a"
+          subtype="body_armor"
+          is_merchandise="false"
+          culture="Culture.aserai"
+          weight="0.2"
+          difficulty="0"
+          appearance="1"
+          Type="BodyArmor">
+      <ItemComponent>
+        <Armor body_armor="120"
+               leg_armor="180"
+               arm_armor="180"
+               head_armor="180"
+               covers_body="false"
+               has_gender_variations="false"
+               modifier_group="leather"
+               material_type="Leather" />
+      </ItemComponent>
+      <Flags DoesNotHideChest="true"
+             UseTeamColor="true"
+             Civilian="true" />
+    </Item>
+</Items>

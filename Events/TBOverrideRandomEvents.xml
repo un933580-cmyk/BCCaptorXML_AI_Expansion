@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <!-- This file disables these events by applying the CanOnlyBeTriggeredByOtherEvent flag -->
+    <CEEvent>
+        <Name>CE_random_event_wine</Name>
+        <BackgroundName>DE_scene_cart</BackgroundName>
+        <Text>{=DefaultRandomEventsCommon4}You notice a thin trail of flattened grass by the side of the road, and stepping off to investigate discover an unmarked barrel. It's a bit damaged, having apparently fallen off the back of a cart, but remains intact enough that when you pop the cork the smell of sweet wine floods your senses. Not wishing to waste such a fortunate find, your party stops to partake and drown the day's tribulations in a few hours of fortuitous merriment.</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultRandomEventsCommon5}Merrily continue your journey.</OptionText>
+                <MoraleTotal>10</MoraleTotal>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_random_event_dead</Name>
+        <BackgroundName>encounter_lose</BackgroundName>
+        <Text>{=DefaultRandomEventsCommon6}You hear the sound of ravens ahead, cawing and fighting each other over something hidden just over the next ridge. As you approach, you realize the birds have made an extravagant feast out of some unfortunate soul's corpse. The sight of half-eaten entrails and torn flesh bears grim witness to mankind's mortality.</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultRandomEventsCommon7}Try not to dwell on it too much.</OptionText>
+                <MoraleTotal>-10</MoraleTotal>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_random_event_found_gold</Name>
+        <BackgroundName>DE_scene_gold</BackgroundName>
+        <Text>{=DefaultRandomEventsCommon8}You find an odd sack by the side of the road; it looks as though it was abandoned recently, and upon opening it you discover a hefty sum of gold inside. It's yours now, but where could it have come from?</Text>
+        <NotificationName>CE_N_COMMON</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultRandomEventsCommon9}Thank providence for your good luck.</OptionText>
+                <GoldTotal>200</GoldTotal>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_random_event_lost_gold</Name>
+        <BackgroundName>default_random</BackgroundName>
+        <Text>{=DefaultRandomEventsCommon10}You reach for your money-pouch, only to find it missing from your belt. You don't recall where you saw it last, and it's possible you simply misplaced it.</Text>
+        <NotificationName>CE_N_COMMON</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultRandomEventsCommon11}Be more careful next time...</OptionText>
+                <GoldTotal>-200</GoldTotal>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

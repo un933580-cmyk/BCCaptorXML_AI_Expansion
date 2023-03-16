@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>CE_menu_captivity_castle_taken_prisoner_sexual</Name>
+        <Text>{=TBOverrideRequiredCaptiveEvents001}Your attempt to sneak into the castle fails miserably, and you find yourself surrounded on all sides by vicious-looking guards. They seem quite happy to see you for some reason...</Text>
+        <BackgroundName>BC_image_captivity_caught_bra_bed</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>SoldToSettlement</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents012}Try to escape.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>SoldToSettlement</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents013}Continue fighting them off.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Tactics" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>SoldToSettlement</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents014}You don't really want to escape...</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Charm" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <EscapeChance>0</EscapeChance>
+                <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+            </Option>
+        </Options>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_defeated_and_taken_prisoner_sexual</Name>
+        <Text>{=TBOverrideRequiredCaptiveEvents002}Though you fight valiantly, your troops fall one by one to the enemy's forces. Before long you realize the remaining enemy forces aren't trying to kill you, but to surround you, though for what sinister purpose is not yet clear...</Text>
+        <BackgroundName>BC_image_companion_sword_sisters</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents015}Try to run before they can surround you.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>CE_captivity_sexual_escape_success</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_captivity_sexual_escape_failure</EventName>
+                        <EventWeight>90</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents013}Continue fighting them off.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Tactics" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_capture_fighting</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_capture_fighting_nostrip</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents016}Honorably surrender.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender_nostrip</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents017}Submit yourself to their will.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender_slave</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender_slave_nostrip</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelAbove>99</ReqHeroSlaveLevelAbove>
+            </Option>
+        </Options>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_taken_prisoner_sexual</Name>
+        <Text>{=TBOverrideRequiredCaptiveEvents003}Your opponents accept your surrender, their leader riding up to you with a sneer on their face. They demand to know why they should let you live.</Text>
+        <BackgroundName>BC_image_captivity_caught_bra_bed</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents018}Tell them their honor demands it.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender_nostrip</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents019}Tell them a hostage could be useful.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Roguery" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender_nostrip</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents020}Start stripping off your clothes...</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Charm" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender_slave</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_capture_surrender_slave_nostrip</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelAbove>99</ReqHeroSlaveLevelAbove>
+            </Option>
+        </Options>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_taken_prisoner</Name>
+        <Text>{=TBOverrideRequiredCaptiveEvents004}Your enemies take your weapons and armor as you surrender. Their leader briefly inspects your restraints, nodding approvingly as you are rounded up with the rest of the captives.</Text>
+        <BackgroundName>BC_image_captive_f_dungeon_gag</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents021}Bide your time.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>CE_advanced_sexual_capture</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_advanced_sexual_capture_settlement</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>CE_advanced_sexual_capture_village</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_advanced_sexual_capture</Name>
+        <Text>{=TBOverrideRequiredCaptiveEvents005}You are stripped of your clothing and weapons, the shackles that now bind you evidence of your captivity. Your captor's men stare hungrily at your nubile body. You'd better escape soon...</Text>
+        <BackgroundName>BC_image_slavery_rope_caught</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>StripEnabled</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StripPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents022}Wait for an opportunity to escape</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AddSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StripPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents023}Beg your new master to fuck his slave.</OptionText>
+                <SlaveryTotal>R 10 25</SlaveryTotal>
+                <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+            </Option>
+        </Options>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_advanced_sexual_capture_settlement</Name>
+        <Text>{=TBOverrideRequiredCaptiveEvents006}You are stripped of your clothing and weapons, the shackles that now bind you evidence of your captivity. Your captor's men stare hungrily at your nubile body. You'd better escape soon...</Text>
+        <BackgroundName>BC_image_slavery_rope_caught</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>StripEnabled</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationPartyInCastle</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StripPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents022}Wait for an opportunity to escape</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AddSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StripPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents023}Beg your new master to fuck his slave.</OptionText>
+                <SlaveryTotal>R 10 25</SlaveryTotal>
+                <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+            </Option>
+        </Options>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_advanced_sexual_capture_village</Name>
+        <Text>{=TBOverrideRequiredCaptiveEvents007}You are stripped of your clothing and weapons, the shackles that now bind you evidence of your captivity. Your captor's men stare hungrily at your nubile body. You'd better escape soon...</Text>
+        <BackgroundName>BC_image_slavery_wood_caught</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationPartyInVillage</RestrictedListOfFlags>
+            <RestrictedListOfFlags>StripEnabled</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StripPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents022}Wait for an opportunity to escape</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="750" Ref="Hero" />
+                </SkillsToLevel>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AddSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StripPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents023}Beg your new master to fuck his slave.</OptionText>
+                <SlaveryTotal>R 10 25</SlaveryTotal>
+                <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+            </Option>
+        </Options>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_captivity_sexual_escape_failure</Name>
+        <Text>{=TBOverrideRequiredCaptiveEvents008}Your escape attempt fails miserably, and you are stripped of your dignity and clothing and dragged back into captivity. </Text>
+        <BackgroundName>BC_image_captivity_bound_rope_ball_gag</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents024}Scream and curse at your captors.</OptionText>
+                <RelationTotal>R -1 -5</RelationTotal>
+                <TriggerEventName>TB_noncon_punish_fist</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>75</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents025}Meekly submit to your captors.</OptionText>
+                <TriggerEventName>TB_group_oral</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StripPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents026}Beg your captors to punish you.</OptionText>
+                <RelationTotal>R 1 10</RelationTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_oral</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_anal</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_vaginal</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelAbove>249</ReqHeroSlaveLevelAbove>
+            </Option>
+        </Options>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_captivity_sexual_escape_success</Name>
+        <Text>{=TBOverrideRequiredCaptiveEvents009}It's a close thing, but you manage to escape, freeing yourself from your bonds and even managing to find a dagger. You shudder to think what more could have happened to you at the hands of your captors...</Text>
+        <BackgroundName>BC_image_captivity_escape_flint</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>RemoveSlaveryFlag</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents027}Continue your journey.</OptionText>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents028}Maybe you should remain a slave and explore yourself more...</OptionText>
+                <TriggerEventName>TB_slavery_escape</TriggerEventName>
+                <ReqHeroSlaveLevelAbove>249</ReqHeroSlaveLevelAbove>
+            </Option>
+        </Options>
+        <ReqHeroHealthAbovePercentage>44</ReqHeroHealthAbovePercentage>
+    </CEEvent>
+
+    
+    <CEEvent>
+        <Name>CE_common_alt_702</Name>
+        <Text>{=DefaultCaptiveEventsCommon141}Returning from an apparently successful raid, your captors have managed to procure a set of mugs and a keg of strong mead. They decide to make their hideout a bit classier by putting you to work as their servant, and order you to keep their cups full as they drink the night away. Judging by their demeanor and the treatment you've seen of waiters in even the most reputable of taverns, you fear this might not end well for you, but they insist that if you object, they'll have fun beating you into submission instead.</Text>
+        <Backgrounds>
+            <Background Name="DE_CWB1" Weight="1" UseConditions="CE_common_female_bandits" />
+            <Background Name="DE_CWB1" Weight="1" UseConditions="CE_common_female_bandit_hideout" />
+            <Background Name="DE_CWA1" Weight="1" UseConditions="CE_common_female" />
+            <Background Name="DE_CWA2" Weight="1" UseConditions="CE_common_male" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <RestrictedListOfFlags>LocationHideout</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultCaptiveEventsCommon142}Do your best.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <RenownTotal>R -1 0</RenownTotal>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBOverrideRequiredCaptiveEvents0}{=DefaultCaptiveEventsCommon143}Refuse and accept their punishment.</OptionText>
+                <SceneToPlay>scn_bc_bv_whip_post</SceneToPlay>
+                <HealthTotal>R -10 -30</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+    </CEEvent>
+    <CEEvent>
+        <Name>CE_common_alt_802</Name>
+        <Text>{=DefaultCaptiveEventsCommon161}Your captor indicates they've sold you to a local tavern for a day, and expect you to work your hardest to earn your keep. They make it clear you will be punished should the tavern's owner not be satisfied. Your heart sinks as you are taken to a pile of filthy mugs and plates stacked from floor to ceiling. The tavern's owner seems sheepish about asking you to handle the task on your own, but it quickly becomes obvious they have no time to help as the sound of rowdy customers filters through to the kitchens. At least you're not being forced to work out there...</Text>
+        <BackgroundName>DE_SCE_C2</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <!-- <RestrictedListOfFlags>Overwriteable</Restricted``ListOfFlags> -->
+            <RestrictedListOfFlags>LocationTavern</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultCaptiveEventsCommon120}Get to work.</OptionText>
+                <TriggerEventName>CE_common_alt_8021</TriggerEventName>
+                <HealthTotal>10</HealthTotal>
+                <RenownTotal>R -1 0</RenownTotal>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultCaptiveEventsCommon162}Refuse and accept your punishment.</OptionText>
+                <SceneToPlay>scn_bc_whipping</SceneToPlay>
+                <HealthTotal>R -10 -30</HealthTotal>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultCaptiveEventsCommon129}Attempt to escape.</OptionText>
+                <TriggerEventName>CE_common_alt_8022</TriggerEventName>
+                <ReqHeroHealthAbovePercentage>70</ReqHeroHealthAbovePercentage>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+    </CEEvent>
+</CEEvents>

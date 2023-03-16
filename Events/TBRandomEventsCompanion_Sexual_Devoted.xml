@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_companion_devoted_want_baby</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual_Devoted001}{COMPANION_NAME_1} approaches you, a yearning look in her eyes. She explains that she's been watching you for some time, and adores everything about you - your generosity, your kindness, your luscious lips, hard chest, and bulging groin... In short, she's wondering if you might be willing to bless her womb with your seed so that she can bear your perfect children.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_companion_f_pine_wall"/>
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Devoted004}You'd be honored.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <TriggerEventName>TB_companion_devoted_want_baby_impregnate</TriggerEventName>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <PregnancyRiskModifier>17</PregnancyRiskModifier>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 30 50" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Devoted005}That seems rather forward.</OptionText>
+                <TriggerEventName>TB_companion_devoted_want_baby_decline</TriggerEventName>
+                <HealthTotal>10</HealthTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Devoted006}Certainly not!</OptionText>
+                <TriggerEventName>TB_companion_devoted_want_baby_decline</TriggerEventName>
+                <HealthTotal>10</HealthTotal>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -5 -15" Ref="Hero" Color="Cyan" />
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_devoted_fertile_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_devoted_want_baby_impregnate</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual_Devoted002}{COMPANION_NAME_1} smiles greedily as you accept, leading you to a quiet spot and pushing you onto the grass. She sheds her dress with commendable speed, her nipples taut and flushed with arousal, and unlaces your breeches with a desperate hunger, pausing briefly to admire your manhood before straddling you, enveloping your member with her warm flower. She pants, lowering her chest to yours and kissing you full on the mouth before pushing herself down to meet your thrusts. Her insides milk and massage your shaft, and it's not long before a thunderous climax runs through you, spurting a river of life into her womb as she moans and joins you in triumphant ecstasy.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_mf_internal"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Devoted007}Hopefully that will satisfy her.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_companion_devoted_want_baby_decline</Name>
+        <Text>{=TBRandomEventsCompanion_Sexual_Devoted003}{COMPANION_NAME_1} seems devastated at your refusal, and shakes her head, muttering that of course, she understands, you wouldn't want to pollute your bloodline with someone like her. She puts up a brave smile and tries vainly to hold back tears as she leaves your presence.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_companion_weeping" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsCompanion_Sexual_Devoted008}Perhaps you were too harsh?</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

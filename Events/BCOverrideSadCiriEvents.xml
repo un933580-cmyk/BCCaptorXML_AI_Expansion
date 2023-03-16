@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- suppress ALL! -->
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>SS_Captor_MF_Start</Name>
+        <Text>{CAPTIVE_NAME} has requested an audience.</Text>
+        <BackgroundName>SS_Audience_01</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Grant it.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>SS_Captor_MF_Ransom</EventName>
+                        <EventWeight>5</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>SS_Captor_MF_Treatment</EventName>
+                        <EventWeight>5</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Refuse.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="MindBroken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="IsThief" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>SS_Captor_MM_Start</Name>
+        <Text>{CAPTIVE_NAME} has requested an audience.</Text>
+        <BackgroundName>SS_Audience_01</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Grant it.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>SS_Captor_MM_Ransom</EventName>
+                        <EventWeight>5</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>SS_Captor_MM_Treatment</EventName>
+                        <EventWeight>5</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Refuse.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="MindBroken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="IsThief" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>        
+    <CEEvent>
+        <Name>SS_Captor_FF_Start</Name>
+        <Text>{CAPTIVE_NAME} has requested an audience.</Text>
+        <BackgroundName>SS_Audience_01</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Grant it.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>SS_Captor_FF_Ransom</EventName>
+                        <EventWeight>5</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>SS_Captor_FF_Treatment</EventName>
+                        <EventWeight>5</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Refuse.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="MindBroken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="IsThief" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>SS_Captor_FM_Start</Name>
+        <Text>{CAPTIVE_NAME} has requested an audience.</Text>
+        <BackgroundName>SS_Audience_01</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Grant it.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>SS_Captor_FM_Ransom</EventName>
+                        <EventWeight>5</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>SS_Captor_FM_Treatment</EventName>
+                        <EventWeight>5</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Refuse.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="MindBroken" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Devoted" Max="0" Ref="Hero"/>
+            <SkillRequired Id="IsThief" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>SS_Captor_SF_Start</Name>
+        <Text>One of your soldiers comes to you with a request. It involves {CAPTIVE_NAME}.</Text>
+        <BackgroundName>SS_Audience_07</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Go on.</OptionText>
+                <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>SS_Captor_SF_Dance</EventName>
+                            <EventWeight>10</EventWeight>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>SS_Captor_SF_Ravage</EventName>
+                            <EventWeight>5</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                <OptionText>Not now.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>SS_Captor_SM_Start</Name>
+        <Text>One of your soldiers comes to you. He tells you that the soldiery is getting restless around {CAPTIVE_NAME}. He requests they be allowed to punish him for their hostility.</Text>
+        <BackgroundName>SS_Audience_07</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Grant it.</OptionText>
+                <TriggerEventName>SS_Captor_Throw_Male</TriggerEventName>
+             </Option>
+             <Option>
+                <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                <OptionText>Refuse.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+		<SexualContent>true</SexualContent>
+		<WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+		<ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>
