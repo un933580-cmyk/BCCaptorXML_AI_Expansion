@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+<!-- -->
+    <!-- triggered events, Min Affection, Max Esteem, Min Lusts -->
+<!-- -->
+    
+    <CEEvent>
+        <Name>BC_event_sex_waiting_sex</Name>
+        <Text>{CAPTIVE_NAME} finds you with a few minutes to yourself, purrs in your ear, and runs off giggling toward your rooms...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_male_chains" UseConditions="BC_event_conditions_captive_male" />
+            <Background Name="BC_image_sex_f_gold_wait" UseConditions="BC_event_conditions_captive_female_noble" />
+            <Background Name="BC_image_captive_f_waiting_couch" />
+        </Backgrounds>
+        <NotificationName>BC_image_notification_cats</NotificationName>
+        <SoundName>bccaptor/event/kisses</SoundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>You were just thinking about how to get your itch scratched!</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_1</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_female_sex_ttf_1</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_female_sex_ttf_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R 5 10" Ref="Hero" Color="White" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>666</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Teach the uppity whore not to interrupt...</OptionText>
+                <SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="50" Ref="Captor" />
+                </SkillsRequired>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_torture_whipping</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <!-- <TriggerEvent>
+                        <EventName>BC_event_companion_devoted_train_m_menu</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent> -->
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Reject her.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" Color="White" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="50" />
+            <SkillRequired Id="Virginal" Ref="Hero" Max="0" />
+            <SkillRequired Id="InTorture" Ref="Hero" Max="0" />
+            <SkillRequired Id="Broken" Ref="Hero" Max="0" />
+            <!-- <SkillRequired Id="CaptiveEsteem" Ref="Hero" Max="50" /> -->
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_sex_wander_sex</Name>
+        <Text>{CAPTIVE_NAME} finds you with a few minutes to yourself, purrs in your ear, and runs off giggling toward your rooms...</Text>
+        <BackgroundName>BC_image_f_khuz_01</BackgroundName>
+        <Backgrounds>
+            <Background Name="BC_image_captive_male_chains" UseConditions="BC_event_conditions_captive_male" />
+            <Background Name="BC_image_sex_f_gold_wait" UseConditions="BC_event_conditions_captive_female_noble" />
+            <Background Name="BC_image_harem_new_column" />
+        </Backgrounds>
+        <NotificationName>BC_image_notification_cats</NotificationName>
+        <SoundName>bccaptor/event/kisses</SoundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>You were just thinking about how to get your itch scratched!</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_1</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_female_sex_ttf_1</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_female_sex_ttf_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R 5 10" Ref="Hero" Color="White" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Reject her.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" Color="White" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="50" />
+            <SkillRequired Id="Virginal" Ref="Hero" Max="0" />
+            <SkillRequired Id="Broken" Ref="Hero" Max="0" />
+            <SkillRequired Id="InTorture" Ref="Hero" Max="0" />
+            <!-- <SkillRequired Id="CaptiveEsteem" Ref="Hero" Max="50" /> -->
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- -->  
+    <!-- CAPTIVE BREAK -->
+    <CEEvent>
+        <Name>BC_event_captive_broken_f</Name>
+        <Text>{CAPTIVE_NAME} kneels before you, her expression addled and passive. She glances up towards her master as though trying to anticipate your next order before you even speak it. Gone is the fire in her eyes, or any hint of pride - she has become your toy, a broken slave with no more ambition than to serve your will, whatever it might be.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_harem_present_shame"/>
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>AddSlaveryFlag</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>As it should be.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Broken" ByLevel="1" Ref="Hero" Color="Magenta" />
+                    <Skill Id="Breakable" ByLevel="-1" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="-100" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveObedience" Ref="Hero" Min="90" />
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="50" />
+            <SkillRequired Id="InTorture" Ref="Hero" Max="0" />
+            <!-- <SkillRequired Id="CaptiveEsteem" Ref="Hero" Max="30" /> -->
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+<!-- verbal abuse section -->    
+    <CEEvent>
+        <Name>BC_event_abuse_stupid</Name>
+        <Text>{CAPTIVE_NAME}, you stupid cunt! They say they've never seen a thicker bitch! So fucking dumb you probably can't suck the right end of a cock.</Text>
+        <BackgroundName>BC_captor_captive_female_shame_jailer</BackgroundName>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Go lift something heavy, idiot. Dumb as a dead fish.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" Color="White"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="50" />
+            <SkillRequired Id="Breakable" Ref="Hero" Min="1" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_abuse_dirty</Name>
+        <Text>{CAPTIVE_NAME}!  I can smell you from inside! I don't know what stinks, but keep your filthy carcass away from me!</Text>
+        <BackgroundName>BC_captor_sex_attr_dirty</BackgroundName>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>You can watch me fuck clean women if you stay where I can't smell you.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -7 -14" Ref="Hero" Color="White"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired><SkillRequired Id="CaptiveAffection" Ref="Hero" Min="50" />
+            <SkillRequired Id="Breakable" Ref="Hero" Min="1" /></SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_abuse_pig</Name>
+        <Text>They say you're sucking cock for moldy bread, {CAPTIVE_NAME}, you greedy piglet! I've had a feast prepared in your honor.</Text>
+        <BackgroundName>BC_captor_sex_abuse_feast</BackgroundName>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Keep eating, sow.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -7 -14" Ref="Hero" Color="White"/>
+                </SkillsToLevel>
+                <HealthTotal>50</HealthTotal>
+            </Option>
+        </Options>
+        <SkillsRequired><SkillRequired Id="CaptiveAffection" Ref="Hero" Min="50" />
+            <SkillRequired Id="Breakable" Ref="Hero" Min="1" /></SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <ReqHeroHealthBelowPercentage>50</ReqHeroHealthBelowPercentage>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>80</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_abuse_cow</Name>
+        <Text>Look at those floppy tits! What a disgusting pair of hangers!</Text>
+        <BackgroundName>BC_captor_sex_abuse_lactate</BackgroundName>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Someone should suck the milk right out of this leaking cow!</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -7 -14" Ref="Hero" Color="White"/>
+                </SkillsToLevel>
+                <HealthTotal>50</HealthTotal>
+                <RenownTotal>R -1 -4</RenownTotal>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>And it's going to be me!</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -2 -1" Ref="Hero" Color="White"/>
+                </SkillsToLevel>
+                <HealthTotal>50</HealthTotal>
+                <TriggerEventName>BC_event_torment_totems</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="50" />
+            <SkillRequired Id="CaptiveAugment" Min="100"  Ref="Hero" />
+            <SkillRequired Id="Breakable" Ref="Hero" Min="1" />
+        </SkillsRequired>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>30</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

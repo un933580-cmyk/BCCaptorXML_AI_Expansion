@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_slavery_creep</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualResigned001}You kneel naked at your master's feet as he dines with a nobleman of some import. Through the haze of pain you recognize the older man: your family, though in desparate poverty, had rejected his offer of an arranged marriage, as you were not yet twelve.  Master explains that a chance to sow your fertile womb is to be an enticement to a deal they are conducting. You're locked into the creep's chambers, where he licks his lips and pulls out his crooked dirty cock and says he's been waiting a long time for this.</Text>
+        <BackgroundName>BC_image_slavery_sub_leash_toys_men</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned007}Your master will be pleased with your enthusiasm.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+                <RelationTotal>R 1 3</RelationTotal>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+                <PregnancyRiskModifier>2</PregnancyRiskModifier>
+                <TriggerEventName>TB_slavery_creep_1</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned008}Fight back; you don't want that pervert's baby.</OptionText>
+                <HealthTotal>R -20 -40</HealthTotal>
+                <TriggerEventName>TB_slavery_resist</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned009}Strangle him with your leash and escape.</OptionText>
+                <RelationTotal>R -1 -3</RelationTotal>
+                <SlaveryTotal>R -10 -25</SlaveryTotal>
+                <HealthTotal>-50</HealthTotal>
+                <EscapeChance>10</EscapeChance>
+                <TriggerEventName>TB_slavery_resist_2</TriggerEventName>
+                <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_creep_1</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualResigned002}The dirty old creep grabs you by the throat, roughly shoving you into the wall, and tears into you from behind with years of suppressed rage. He talks about your little titties and ass as a child, how your fat pussy smells like death now, and how he's committed countless heinous acts on helpless village girls, all while imagining it was you.</Text>
+        <BackgroundName>BC_image_sex_choke_lara</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned010}Pray this monster doesn't impregnate you.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+                <TriggerEventName>TB_slavery_creep_3</TriggerEventName>
+                <HealthTotal>-10</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_creep_3</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualResigned003}The bastard chokes you while whispering how much he loves you, and you can feel your walls quivering around his misshapen cock as your body fights for air. When he finally gives you breath, he rams into your cervix as fast and as hard as his body will go, but stopping before his orgasm. He leaves himself all the way inside you, and squeezes your airway again. This pattern alternates until you lose count of how many times he's wrung your neck.</Text>
+        <BackgroundName>BC_image_slavery_ring_floor_choke</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned011}Pray this monster doesn't crush your throat.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+                <TriggerEventName>TB_slavery_creep_impregnate</TriggerEventName>
+                <HealthTotal>-10</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_creep_impregnate</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualResigned004}Finally, this sick fuck tells you it's time for his seed to take root, for you to carry his child forth into the world so he can teach him to follow in his path. He chokes you with renewed power, and you're so scared as you black out, and you don't know what's going to happen to you.</Text>
+        <BackgroundName>BC_image_sex_f_ass_cumshot</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned012}Fall into hopeless unconsciousness.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+                <HealthTotal>-30</HealthTotal>
+                <PregnancyRiskModifier>3</PregnancyRiskModifier>
+                <TriggerEventName>TB_dream_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_status_resigned</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualResigned005}You wake from a daydream about being used by your master, and your legs are soaked to the point of sticking together. In a panic, you realize that you're starting to enjoy your place as his slave...</Text>
+        <BackgroundName>BC_image_sex_f_wet_fingers</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned013}Beg your master to fuck his slave.</OptionText>
+                <RenownTotal>R -1 -3</RenownTotal>
+                <RelationTotal>R 1 3</RelationTotal>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_x_cunni</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_use</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_lord_oral</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned014}Try to get some sleep.</OptionText>
+                <HealthTotal>R 5 15</HealthTotal>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+                <TriggerEventName>TB_slavery_cock_dreams</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned015}Try to escape while you still have your wits.</OptionText>
+                <RelationTotal>R -3 -5</RelationTotal>
+                <EscapeChance>10</EscapeChance>
+                <HealthTotal>-50</HealthTotal>
+                <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+        <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_cock_dreams</Name>
+        <Text>{=TBSlaveryEventsFemaleSexualResigned006}You find yourself dreaming of your master's cock; you have become obsessed with its bulbous form, and cannot stop yourself from licking it and rubbing it against yourself. In a daze, you wake to discover your dream has come true; you fell asleep by your master's side and have reflexively begun to pleasure him. He wakes to the sight of your greedy mouth on his member and smiles at you, telling you you are a good slave.</Text>
+        <BackgroundName>BC_image_slavery_tongue_glitter</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned016}Continue licking your master to orgasm and fill your belly with his seed.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                </SkillsToLevel>
+                <HealthTotal>R 5 15</HealthTotal>
+                <RelationTotal>1</RelationTotal>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBSlaveryEventsFemaleSexualResigned017}Return to your fever dreams.</OptionText>
+                <TriggerEventName>TB_dream_lobby</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+    </CEEvent>
+</CEEvents>

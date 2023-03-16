@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+<!-- LGF, LGR series for FF-->
+    <CEEvent>
+        <Name>BC_event_female_sex_ttf_1</Name>
+        <Text>You decide to sample {CAPTIVE_NAME}'s womanly delights, leading her to your rooms where you have her lift her dress.</Text>
+        <BackgroundName>BC_captor_sex_hbo_2</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Kiss me.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttf_kissing</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Your bosom is lovely.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttf_chest</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="5" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Do you like my body?</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_sucking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="10" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>I need you tonight.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttf_fucking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="50" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>5</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Taste my skin.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_licking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="10" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>6</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Can I feel you?</OptionText>
+                <TriggerEventName></TriggerEventName>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_titjob</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_analing</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>7</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>We could make a new friend...</OptionText>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="5" Ref="Hero" />
+                </SkillsRequired>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_female_sex_fff_1</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_front</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_eat_three</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>8</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Maybe you'd like something stiffer...</OptionText>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                </SkillsRequired>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_viking</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_attention</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_facial</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_princess</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_queen</EventName>
+                        <EventWeight>20</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_marble</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_hbo</EventName>
+                        <EventWeight>3</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>10</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Do you trust me?</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttf_white_bondage</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="75" Ref="Hero" />
+                    <SkillRequired Id="CaptiveObedience" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Min="75" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustA" Min="5" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>80</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Enough of her games...</OptionText>
+                <TriggerEventName>BC_event_female_sex_attr</TriggerEventName>
+            </Option>    
+            <Option>
+                <Order>999</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Leave her in your quarters, and continue battle preparations.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+                <HealthTotal>R 18 36</HealthTotal>
+            </Option>
+        </Options>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_attr</Name>
+        <Text>You tire of the games for {CAPTIVE_NAME}'s womanly delights, and give her one more chance to comply before you take your property and use it fully.</Text>
+        <BackgroundName>BC_image_ff_attr_kiss</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags> 
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Open her mouth.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_sucking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustO" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Rub her body.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttf_titjob</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Spread her wide.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttf_fucking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="50" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Shove her face betwen your legs.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_licking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>5</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Touch her inside.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_throat</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustA" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>6</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Fill up her asshole.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_anal</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="50" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustA" Min="15" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>7</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Maybe some more company.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_eat_three</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Min="5" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Min="5" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>8</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>"A quick lesson, {CAPTIVE_NAME}..."</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttf_stripes</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>99</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>This is ridiculous. Take what is yours.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttr</TriggerEventName>
+                <SkillsToLevel>
+                    <!-- <Skill Id="Raging" ByLevel="1" Ref="Captor" /> -->
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>999</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Throw her from your quarters.</OptionText>
+            </Option>
+        </Options>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttr</Name>
+        <Text>You tired of the games for {CAPTIVE_NAME}'s womanly delights, and have decided to take your property and use it fully.</Text>
+        <BackgroundName>BC_captor_sex_ttr_crying_brun</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags> 
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>The lips and tongue.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttr_sucking</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>The tits.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttr_titjob</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Spread it open and eat it.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttr_back</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Make it open up all the way.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttr_knees</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>5</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Have {CAPTIVE_NAME} clean you.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttr_analing</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>6</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>The asshole.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttr_anal</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>7</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Another whore.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_sex_ttr_fff_1</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>7</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Bring a cock to the bedroom.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttr_mff_viking</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttr_mff_attention</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttr_mff_princess</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttr_mff_queen</EventName>
+                        <EventWeight>20</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttr_mff_marble</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttr_mff_front</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttr_mff_hbo</EventName>
+                        <EventWeight>3</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttr_mff_hair</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttr_mff_contrast</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>98</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Maybe that has softened her heart...</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_1</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>999</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Throw her from your quarters.</OptionText>
+            </Option>
+        </Options>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_sex_ttr_fff_1</Name>
+        <Text>You call up the finest whore from your camp, and she throws down {CAPTIVE_NAME} onto your bed; her eyes widen and shut as you all give and are given tongues, skin, fingers... You writhe together until neither of you can wake {CAPTIVE_NAME}, and then...</Text>
+        <BackgroundName>BC_captor_sex_fff_standing_blindfold</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>"Feeling more agreeable yet, {CAPTIVE_NAME}?"</OptionText>                
+                <TriggerEvents><!-- Lotto Menus for your POST SEX EXIT OPTIONS-->
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_tired</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 3 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="Social Energy" ByLevel="R 0 -2" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="Raging" ByLevel="-100" Ref="Captor" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>9</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Kick the leaking trollops out.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 3 6" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 2 6" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -2 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 0 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 0 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 0 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 0 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="Raging" ByLevel="-100" Ref="Captor" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+<!-- non-unisex events for skill differences-->
+    <CEEvent>
+        <Name>BC_event_female_sex_ttf_sucking</Name>
+        <Text>{?ISCAPTIVEFEMALE}Her head slathers up and back and down and forth across your skin, then she lets you hold her in your hand{?}Your head slathers up and back and down and forth across his tip, until he explodes at your last provocation{\?}...</Text>
+        <Backgrounds>
+            <Background Name="BC_captor_dating_mf_sucking" UseConditions="BC_event_conditions_captor_female_captive_male" />
+            <Background Name="BC_captor_dating_ff_front_rub" UseConditions="BC_event_conditions_captor_female_captive_female" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>  
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Quite a mouthful.</OptionText>                    
+                <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_tired</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_intimate_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_virgin_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="5" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustO" Min="50" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttf_anal</Name>
+        <Text>"I need you to fill me as you did before, My Lady...", she pants as she fingers the intended hole...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_mf_anal_top_day" UseConditions="BC_event_conditions_captor_male_captive_female" />
+            <Background Name="BC_image_sex_ff_anal_back_fist" UseConditions="BC_event_conditions_captor_female_captive_female" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>         
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Most certainly.</OptionText>                
+                    <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_tired</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_intimate_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_virgin_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 6" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -3 12" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 4" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustA" Min="50" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttf_throat</Name>
+        <Text>You slowly work your hand deep inside {CAPTIVE_NAME}'s hot little hole, making her dance and squirm to the building rhythm you set for the next few hours...</Text>
+        <Backgrounds>
+            <Background Name="BC_captor_sex_ff_fisting_2" UseConditions="BC_event_conditions_captor_female_captive_female" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>            
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>       
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Enjoy her tight velvet glove.</OptionText>                
+                    <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_tired</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_intimate_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_virgin_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -4 2" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 2 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 4" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustO" Min="75" Ref="Hero" />
+            <SkillRequired Id="CaptiveEsteem" Max="5" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttf_licking</Name>
+        <Text>{CAPTIVE_NAME} is an eager student, but you calm down {?ISCAPTIVEFEMALE}her{?}his{\?} clumsy battering into a much more agreeable patter...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_mf_oral" UseConditions="BC_event_conditions_captor_female_captive_male" />
+            <Background Name="BC_image_sex_ff_licking_4" UseConditions="BC_event_conditions_captor_female_captive_female" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Better each time {?ISCAPTIVEFEMALE}s{?}{\?}he's down there...</OptionText>                    
+                    <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_tired</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_intimate_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_virgin_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 7" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -2 4" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustV" Min="10" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustC" Min="25" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>  
+<!-- fff --> 
+    <CEEvent>
+        <Name>BC_event_female_sex_fff_1</Name>
+        <Text>You call up a wanton slut from your camp, formerly from the finest family of course, just as {CAPTIVE_NAME}. Her eyes widen and shut as you and your guest give and are given tongues, skin, fingers... You press together until neither of you can wake {CAPTIVE_NAME}, and then...</Text>
+        <BackgroundName>BC_image_sex_fff_tile_bath</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps we can use her again.</OptionText>                
+                <TriggerEvents><!-- Lotto Menus for your POST SEX EXIT OPTIONS-->
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_tired</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -8 14" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                        <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Leave them sleeping and return to your warband.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 8 15" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 12" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 2 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -2 14" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+                <HealthTotal>R 15 45</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+<!-- ff ttv -->        
+    <CEEvent>
+        <Name>BC_event_female_sex_ttv_v1</Name>
+        <Text>You finally pull open {CAPTIVE_NAME}'s waiting sex, and begin...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_f_virgin_v1"  />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>99</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_female_sex_ttv_v2</TriggerEventName>
+                <OptionText>Intoxicating.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustV" ByLevel="R -3 4" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustT" ByLevel="R -1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustC" ByLevel="R -5 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+            </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
+        </SkillsRequired>
+        <WeightedChanceOfOccuring>4</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttv_v2</Name>
+        <Text>You finally have {CAPTIVE_NAME}'s soft warmth blooming under your tongue, and soon are grunting and heaving along with her. She takes on the waves of pleasure with increasing confidence until she practically levitates off the bed a moment. You hold her, and once she stops shaking, you move her hands and show her what to do for you...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_ff_ttv_v2"  />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>99</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Now, to go forth and conquer!</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 4" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustV" ByLevel="R -3 4" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustT" ByLevel="R -1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveLustC" ByLevel="R -10 25" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="Deflowered" ByLevel="1" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="Maiden" ByLevel="-100" Ref="Hero" Color="Cyan"  />
+                <Skill Id="Virginal" ByLevel="-100" Ref="Hero" Color="Cyan"  HideNotification="true" />
+                <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustV" ByLevel="R -100 -50" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveEsteem" ByLevel="100" Ref="Captor" Color="Yellow" HideNotification="true" />
+            </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
+        </SkillsRequired>
+        <WeightedChanceOfOccuring>4</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+<!-- LGF, LGR series for FM-->
+    <CEEvent>
+        <Name>BC_event_female_sex_ttf_m</Name>
+        <Text>You decide to sample {CAPTIVE_NAME}'s manly pleasures, leading him to your rooms where you have him drop his tunic.</Text>
+        <BackgroundName>BC_image_captive_male_towel</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Kiss me.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttf_kissing</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>You're getting stiff down there.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_sucking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="5" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>I just need to be held...</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_side</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Max="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="15" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Would take me into your mouth?</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_licking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustO" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>5</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>I need you tonight.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_fucking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="50" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>6</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Take me, {CAPTIVE_NAME}. Take me now!</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_knees</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>7</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>I need to be filled, {CAPTIVE_NAME}</OptionText>
+                <TriggerEventName>BC_event_female_sex_lgf_anal</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustA" Min="15" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>8</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Let me show you something...</OptionText>
+                <TriggerEventName>BC_event_female_sex_lgf_anal</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustA" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="15" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>9</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Maybe you'd like some more company.</OptionText>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="15" Ref="Hero" />
+                </SkillsRequired>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_eat_three</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_marble</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_viking</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_attention</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_facial</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_princess</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_queen</EventName>
+                        <EventWeight>20</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_front</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_hbo</EventName>
+                        <EventWeight>3</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>98</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Enough of your games...</OptionText>
+                <TriggerEventName>BC_event_female_sex_attr_m</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>999</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Leave him in your quarters, and continue battle preparations.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+                <HealthTotal>R 18 36</HealthTotal>
+            </Option>
+        </Options>
+        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttf_knees</Name>
+        <Text>You bend over in front of {CAPTIVE_NAME}, slippery wet and ready to be mounted; and he obliges you, as hard as he physically can...</Text>
+        <BackgroundName>BC_captor_sex_f_butt_open</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>       
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Finally.</OptionText>                    
+                    <TriggerEvents><!-- Lotto Menus for your FM POST SEX EXIT OPTIONS-->
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_tired</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_intimate_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -3 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+                <PregnancyRiskModifier>2</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttf_side</Name>
+        <Text>{CAPTIVE_NAME} settles in behind you, and you hold your leg straight in the air for him for almost an hour...</Text>
+        <BackgroundName>BC_image_sex_mf_side</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>       
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Finally.</OptionText>                    
+                    <TriggerEvents><!-- Lotto Menus for your FM POST SEX EXIT OPTIONS-->
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_tired</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_intimate_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+                <PregnancyRiskModifier>2</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttf_fucking</Name>
+        <Text>You cock your knees apart and pull {CAPTIVE_NAME} close. He settles in, and you end up clawing his back quite fiercely in response...</Text>
+        <BackgroundName>BC_image_sex_mf_table</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>       
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Finally.</OptionText>                    
+                    <TriggerEvents><!-- Lotto Menus for your FM POST SEX EXIT OPTIONS-->
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_tired</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_intimate_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -6 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -3 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+                <PregnancyRiskModifier>2</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_lgf_anal</Name>
+        <Text>"It's my bleeding, but I can still take you on", you pant as you finger the intended hole...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_mf_ttf_anal"  />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>         
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Most certainly.</OptionText>                
+                    <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_tired</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_1</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_male_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_female_sex_ttf_m</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_intimate_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_virgin_resist</EventName>
+                            <EventWeight>10</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 3" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R -3 0" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -3 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                <Skill Id="CaptiveLustA" ByLevel="R -15 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_event_female_sex_attr_m</Name>
+        <Text>You tire of the games for {CAPTIVE_NAME}'s manly essence, and give him one more chance to comply before you take your property and use it fully.</Text>
+        <BackgroundName>BC_image_sex_m_erect</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags> 
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Take him into your mouth.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_sucking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustO" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Rub him with your body.</OptionText>
+                <TriggerEventName>BC_event_male_sex_ttf_titjob</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Spread open on him.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_fucking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="50" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Shove his face betwen your legs.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_licking</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="10" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>5</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Back yourself upon him.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_side</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>6</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Fill up your asshole.</OptionText>
+                <TriggerEventName>BC_event_female_sex_lgf_anal</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Max="50" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustA" Min="15" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>7</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Maybe some more company.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_eat_three</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_marble</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_viking</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_attention</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_facial</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_princess</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_queen</EventName>
+                        <EventWeight>20</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_front</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_hbo</EventName>
+                        <EventWeight>3</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Min="5" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Min="25" Ref="Hero" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>99</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>This is ridiculous. Take what is yours.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
+                <SkillsToLevel>
+                    <!-- <Skill Id="Raging" ByLevel="1" Ref="Captor" HideNotification="true" /> -->
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>999</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Throw him from your quarters.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired><SkillRequired Id="CaptiveAffection" Max="50" Ref="Hero" /></SkillsRequired>
+        <ReqHeroHealthAbovePercentage>15</ReqHeroHealthAbovePercentage>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttr_m</Name>
+        <Text>You tired of the games for {CAPTIVE_NAME}'s manly delights, and have decided to take your property and use it fully.</Text>
+        <BackgroundName>BC_image_sex_mf_ttr_cowgirl_3</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags> 
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Ride him until he's broken.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttr_fucking</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>6</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Use him to fill your asshole.</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttr_anal</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>7</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Bring more cock to the bedroom.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_female_sex_ttr_cocks_1</EventName>
+                        <EventWeight>5</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>98</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Maybe he will be more cooperative now...</OptionText>
+                <TriggerEventName>BC_event_female_sex_ttf_m</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>999</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Throw him from your quarters.</OptionText>
+            </Option>
+        </Options>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttr_fucking</Name>
+        <Text>You straddle {CAPTIVE_NAME} and work your hips upward and then all the way down, so as best to feel his massive head dragging your insides...</Text>
+        <BackgroundName>BC_image_sex_mf_ttr_cowgirl</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>       
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>                    
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Leave your toy dripping for a moment.</OptionText>                    
+                    <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -3 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttr_anal</Name>
+        <Text>You straddle {CAPTIVE_NAME} and work your rosebud open, over and down his shaft, pushing down with your whole body intermittently as you manage to handle each stage of the fullness...</Text>
+        <BackgroundName>BC_image_sex_mf_sitting</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>       
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>                    
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Leave your toy dripping for a moment.</OptionText>                    
+                    <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttr_cocks_1</Name>
+        <Text>"You're quite pathetic as a lover, and a man, {CAPTIVE_NAME}. Stay there in your chains and watch a team of true stallions keep pace with me!"</Text>
+        <BackgroundName>BC_captor_sex_lgf_gang_before</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>       
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>                    
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Leave your toy in the corner a moment.</OptionText>                    
+                    <TriggerEventName>BC_event_female_sex_ttr_cocks_2</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 1" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -5 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -5 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_ttr_cocks_2</Name>
+        <Text>"Have you learned anything yet, {CAPTIVE_NAME}? I could ease that dripping cock of yours now..." </Text>
+        <BackgroundName>BC_captor_sex_lgf_orgy_standing</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>       
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>                    
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Leave your toy dripping for a moment.</OptionText>                    
+                    <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -5 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -5 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <!-- Harem (Pink) -->
+        <!-- Welcome to the Clan -->
+            <CEEvent>
+                <Name>BC_event_male_harem_new</Name>
+                <Text>{CAPTIVE_NAME} is brought through by the ladies of your harem.</Text>
+                <Backgrounds>   <!-- these pics can be post-battle or mostly clothed -->
+                    <Background Name="BC_captor_training_room_stick" UseConditions="BC_event_conditions_captive_female" />
+                    <Background Name="BC_captor_training_room_stick" UseConditions="BC_event_conditions_captive_thief_female" />
+                    <Background Name="BC_captor_training_room_stick" UseConditions="BC_event_conditions_captive_male" />
+                    <Background Name="BC_captor_training_room_stick" UseConditions="BC_event_conditions_captive_pregnant" />
+                    <Background Name="BC_captor_training_room_stick" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+                </Backgrounds>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroNotHaveSpouse</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroNotHaveOffspring</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <SkillsRequired>
+                    <SkillRequired Id="NotNewCaptive" Ref="Hero" Max="0"/>
+                </SkillsRequired>
+                <Options>
+                    <Option>
+                        <Order>9</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Have the ladies of the harem welcome her.</OptionText>
+                        <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                        <SkillsToLevel>
+                            <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true" />
+                                <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                                <Skill Id="CaptiveLustO" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveLustV" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveLustC" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveLustT" ByLevel="R -20 50" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                                <Skill Id="Virginal" ByLevel="R -2 5" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Option>
+                </Options>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>                                                                                                                                                             
+                <Name>BC_event_male_harem_wife</Name>
+                <Text>{CAPTIVE_NAME} is brought through by the ladies of your harem.</Text>
+                <Backgrounds>   <!-- these pics can be post-battle or mostly clothed, of a potentially married woman -->
+                    <Background Name="BC_captor_training_room_stick" UseConditions="BC_event_conditions_captive_female" />
+                    <Background Name="BC_captor_training_room_stick" UseConditions="BC_event_conditions_captive_thief_female" />
+                    <Background Name="BC_captor_captive_male_scar" UseConditions="BC_event_conditions_captive_male" />
+                    <Background Name="BC_captor_training_room_stick" UseConditions="BC_event_conditions_captive_pregnant" />
+                    <Background Name="BC_captor_training_room_stick" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+                </Backgrounds>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <SkillsRequired>
+                    <SkillRequired Id="NotNewCaptive" Ref="Hero" Max="0"/>
+                </SkillsRequired>
+                <Options>
+                    <Option>
+                        <Order>9</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Have the ladies of the harem welcome h{?ISCAPTIVEFEMALE}er{?}im{\?}.</OptionText>
+                        <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                        <SkillsToLevel>
+                            <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true" />
+                            <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R -20 50" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Option>
+                </Options>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>BC_event_male_harem_test</Name>
+                <Text>Your Procuress at the harem hurriedly comes to you with whispered news about {CAPTIVE_NAME}: while being prepared for you, she confessed that she has never shared her bed with any man! "I knew to bring this to you at once, Efendi."</Text>
+                <Backgrounds>
+                    <Background Name="BC_captor_harem_discovery_kisses" UseConditions="BC_event_conditions_captor_female_captive_female" />
+                    <Background Name="BC_captor_harem_discovery_kisses" UseConditions="BC_event_conditions_captor_male_captive_female" />
+                    <Background Name="BC_captor_captive_queen_shame" UseConditions="BC_event_conditions_captive_female_noble" /> 
+                </Backgrounds>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroNotHaveOffspring</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroNotHaveSpouse</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <SkillsRequired>
+                    <SkillRequired Id="Virginal" Ref="Hero" Min="1"/>
+                </SkillsRequired>
+                <Options>
+                    <Option>
+                        <Order>2</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>This changes nothing. Have her brought immediately.</OptionText>
+                        <SkillsToLevel>
+                                <Skill Id="Maiden" ByLevel="1 " Ref="Hero" Color="White" HideNotification="true"  />
+                        </SkillsToLevel>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttv_first</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                    </Option>
+                    <Option>
+                        <Order>9</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>On second thought, this calls for a new strategy...</OptionText>
+                        <SkillsToLevel>
+                                <Skill Id="SocialEnergy" ByLevel="1" Ref="Hero" Color="White" HideNotification="true"  />
+                                <Skill Id="Maiden" ByLevel="1 " Ref="Hero" Color="White" HideNotification="true"  />
+                        </SkillsToLevel>
+                        <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
+                    </Option>
+                </Options>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+        <!-- main harem menu -->
+            <CEEvent>
+                <Name>BC_event_male_harem_menu</Name>
+                <Text>{CAPTIVE_NAME} is presented to you by the ladies of your harem.</Text>
+                <Backgrounds>   <!-- these pics can be super naken harem chains -->
+                    <Background Name="BC_image_harem_present_mosaic" UseConditions="BC_event_conditions_captive_female_default" />
+                    <Background Name="BC_captor_captive_male_scar" UseConditions="BC_event_conditions_captive_male" />
+                    <Background Name="BC_image_harem_pregnant" UseConditions="BC_event_conditions_captive_pregnant" />
+                </Backgrounds>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <SkillsRequired>
+                    <SkillRequired Id="NotNewCaptive" Ref="Hero" Min="1"/>
+                </SkillsRequired>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <!-- <RestrictedListOfConsequences>StripHero</RestrictedListOfConsequences> -->
+                            <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <!-- <OptionText>Dress h{?ISCAPTIVEFEMALE}er{?}im{\?} to your liking.</OptionText>    -->
+                        <OptionText>Strip h{?ISCAPTIVEFEMALE}er{?}im{\?} down to shackles.</OptionText>                        
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_harem_menu</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                        <!-- <StripSettings QuestEnabled="false">
+                            <Clothing>Slave</Clothing>
+                            <CustomGloves>klbcloth1a</CustomGloves>
+                            <CustomCape>klbcloth4a</CustomCape>
+                            <CustomLegs>klbcloth2a</CustomLegs>
+                        </StripSettings>   -->
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" />
+                            <Skill Id="CaptiveAffection" ByLevel="R -10 5" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R -30 -15" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Option>
+                    <Option>
+                        <Order>2</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Have h{?ISCAPTIVEFEMALE}er{?}im{\?} prepared for your chambers.</OptionText>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_harem_test</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                        <StripSettings QuestEnabled="false">
+                            <!-- <Clothing>npc_captive_f_equipment_template_mistress</Clothing> -->
+                            <Clothing>Custom</Clothing>
+                            <CustomHead>desert_headdress</CustomHead>
+                        </StripSettings> 
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="CaptiveAffection" ByLevel="R -5 5" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 3 -1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Option>
+                    <Option>
+                        <Order>9</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Have a chat with the Procuress about {CAPTIVE_NAME}.</OptionText>
+                        <TriggerEventName>BC_event_male_procuress</TriggerEventName>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_procuress</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_procuress_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                    </Option>
+                    <Option>
+                        <Order>9</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Leave.</OptionText>
+                    </Option>
+                </Options>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+        <!-- PROCURESS EVENTS (Status Options)-->
+            <!-- slavery, prosti, womb blech, original alchemist, for some reason -->
+                <CEEvent>
+                    <Name>BC_event_male_procuress</Name>
+                    <Text>You are chatting with your Procuress of Whores. "Your wish is our command, Most Omnimpotent {?PLAYER.GENDER}Mistress{?}Master{\?}."</Text>
+                    <Backgrounds>
+                        <Background Name="BC_captor_sex_waiting_2" UseConditions="BC_event_conditions_captive_female" />
+                        <Background Name="BC_humiliation_public_idol" UseConditions="BC_event_conditions_captive_female_noble" />
+                        <Background Name="BC_captor_sex_waiting_3" UseConditions="BC_event_conditions_captive_thief_female" />
+                        <Background Name="BC_captor_captive_male_scar" UseConditions="BC_event_conditions_captive_male" />
+                        <Background Name="BC_image_harem_pregnant_sit" UseConditions="BC_event_conditions_captive_pregnant" />
+                        <Background Name="BC_image_harem_pregnant_bath" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+                    </Backgrounds>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>            
+                    <Options>
+                        <Option>
+                            <Order>10</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Reserve her womb as your own.</OptionText>
+                            <TriggerEventName>BC_event_male_procuress</TriggerEventName>
+                            <SkillsToLevel>
+                                <Skill Id="ClaimedWomb" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                <Skill Id="CaptiveEsteem" ByLevel="R 50 100" Ref="Hero" Color="White" HideNotification="true"/>
+                                <Skill Id="CaptiveAffection" ByLevel="R -25 50" Ref="Hero" HideNotification="true" />
+                                <Skill Id="CaptiveObedience" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                            </SkillsToLevel>
+                            <SkillsRequired>
+                                <SkillRequired Id="ClaimedWomb" Max="0" Ref="Hero"/>
+                            </SkillsRequired>
+                        </Option>
+                        <Option>
+                            <Order>11</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Breed her. Now.</OptionText>
+                            <TriggerEventName>BC_event_male_sex_ttr_breed</TriggerEventName>
+                            <PregnancyRiskModifier>17</PregnancyRiskModifier>
+                            <SkillsRequired>
+                                <SkillRequired Id="ClaimedWomb" Min="1" Ref="Hero"/>
+                            </SkillsRequired>
+                        </Option>
+                        <Option>
+                            <Order>12</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Relinquish your claim on her womb.</OptionText>
+                            <SkillsToLevel>
+                                <Skill Id="ClaimedWomb" ByLevel="-1" Ref="Hero" HideNotification="true"/>
+                                <Skill Id="CaptiveEsteem" ByLevel="R -25 -50" Ref="Hero" HideNotification="true"/>
+                                <Skill Id="CaptiveAffection" ByLevel="R -25 -50" Ref="Hero" HideNotification="true" />
+                                <Skill Id="CaptiveObedience" ByLevel="-100" Ref="Hero" HideNotification="true" />
+                            </SkillsToLevel>
+                            <SkillsRequired>
+                                <SkillRequired Id="ClaimedWomb" Min="1" Ref="Hero"/>
+                            </SkillsRequired>
+                        </Option>
+                        <Option>
+                            <Order>22</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Make her an army whore.</OptionText>
+                            <TriggerEventName>TB_captor_status_whore</TriggerEventName>
+                            <SkillsToLevel>
+                                <Skill Id="IsProstitute" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                <Skill Id="CaptiveEsteem" ByLevel="R -25 -50" Ref="Hero" HideNotification="true"/>
+                                <Skill Id="CaptiveAffection" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            </SkillsToLevel>
+                            <SkillsRequired>
+                                <SkillRequired Id="IsProstitute" Max="0" Ref="Hero"/>
+                                <SkillRequired Id="IsSlave" Max="0" Ref="Hero"/>
+                            </SkillsRequired>
+                        </Option>
+                        <Option>
+                            <Order>23</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>She's no longer your army's whore.</OptionText>
+                            <TriggerEventName>TB_captive_whore_fired</TriggerEventName>
+                            <SkillsToLevel>
+                                <Skill Id="IsProstitute" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                                <Skill Id="CaptiveEsteem" ByLevel="R 25 50" Ref="Hero" HideNotification="true"/>
+                            </SkillsToLevel>
+                            <SkillsRequired>
+                                <SkillRequired Id="IsProstitute" Min="1" Ref="Hero"/>
+                            </SkillsRequired>
+                        </Option>
+                        <Option>
+                            <Order>31</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <SkillsToLevel>
+                                <Skill Id="IsSlave" ByLevel="1" Ref="Hero" Color="Cyan" />
+                                <Skill Id="CaptiveEsteem" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
+                                <Skill Id="CaptiveAffection" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            </SkillsToLevel>
+                            <StripSettings>
+                                <Clothing>Slave</Clothing>
+                            </StripSettings>
+                            <SkillsRequired>
+                                <SkillRequired Id="IsSlave" Max="0" Ref="Hero"/>
+                            </SkillsRequired>
+                            <OptionText>{=DefaultCaptorRequiredEventsFemale10}Secure a iron collar around her neck, she will remain to serve as your slave.</OptionText>
+                            <RelationTotal>-15</RelationTotal>
+                            <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                        </Option>
+                        <Option>
+                            <Order>32</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <SkillsToLevel>
+                                <Skill Id="IsSlave" ByLevel="-100" Ref="Hero" Color="Cyan" />
+                                <Skill Id="CaptiveEsteem" ByLevel="R 25 55" Ref="Hero" HideNotification="true"/>
+                                <Skill Id="CaptiveAffection" ByLevel="R -100 25" Ref="Hero" HideNotification="true"/>
+                            </SkillsToLevel>
+                            <StripSettings>
+                                <Clothing>Slave</Clothing>
+                            </StripSettings>
+                            <SkillsRequired>
+                                <SkillRequired Id="IsSlave" Min="1" Ref="Hero"/>
+                            </SkillsRequired>
+                            <OptionText>Release her as your slave.</OptionText>
+                            <RelationTotal>R -1 3</RelationTotal>
+                            <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                        </Option>
+                        <!-- TB has the Concubine flag, but does nothing with it. -->
+                        <!-- <Option>
+                            <Order>69</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Ask {CAPTIVE_NAME} to join your harem.</OptionText>
+                            <TriggerEvents>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_devoted</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_broken</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_mindbroken</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_hatred</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_reluctant</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                            </TriggerEvents>
+                            <SkillsRequired>
+                                <SkillRequired Id="Concubine" Max="0" Ref="Hero"/>
+                            </SkillsRequired>
+                        </Option> -->
+                        <Option>
+                            <Order>169</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Have the Procuress acquire a fresh girl for you.</OptionText>
+                            <TriggerEvents>
+                            <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_aserai</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_battania</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_empire</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_khuzait</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_sturgia</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_vlandia</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                            </TriggerEvents>
+                        </Option>
+                        <Option>
+                            <Order>179</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Have the Procuress acquire a large group of girls at the slave market.</OptionText>
+                            <TriggerEvents>
+                            <TriggerEvent>
+                                    <EventName>BC_harem_slave_bundle</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                            </TriggerEvents>
+                        </Option>
+                        <Option>
+                            <Order>699</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Leave.</OptionText>
+                            <TriggerEvents>
+                                <TriggerEvent>
+                                    <EventName>BC_event_male_harem_menu</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                            </TriggerEvents>
+                        </Option>
+                    </Options>
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>true</SexualContent>
+                    <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+                <!-- <CEEvent>
+                    <Name>BC_event_male_harem_prefs</Name>
+                    <Text>"How may we please you today, Great One?"</Text>
+                    <Backgrounds>
+                        <Background Name="BC_captor_harem_night_left" />
+                    </Backgrounds>
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>5</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Tell the Procuress you are in the market for a fresh girl.</OptionText>
+                            <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                            <SkillsToLevel>
+                                <Skill Id="CaptorBuying" Ref="Captor" ByLevel="1"  />
+                            </SkillsToLevel>
+                            <SkillsRequired>
+                                <SkillRequired Id="CaptorBuying" Max="0" Ref="Captor" />
+                            </SkillsRequired>
+                        </Option>
+                        <Option>
+                            <Order>5</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Tell the Procuress you are no longer looking for fresh girls.</OptionText>
+                            <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                            <SkillsToLevel>
+                                <Skill Id="CaptorBuying" Ref="Captor" ByLevel="-1"  />
+                            </SkillsToLevel>
+                            <SkillsRequired>
+                                <SkillRequired Id="CaptorBuying" Min="1" Ref="Captor" />
+                            </SkillsRequired>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Leave.</OptionText>
+                            <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                        </Option>
+                    </Options>
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>true</SexualContent>
+                    <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent> -->
+                <CEEvent>
+                    <Name>BC_event_male_procuress_m</Name>
+                    <Text>You are chatting with your Procuress of Male Whores. "Your wish is our command, Most Omnimpotent {?PLAYER.GENDER}Mistress{?}Master{\?}."</Text>
+                    <Backgrounds>
+                        <Background Name="BC_captor_captive_male_scar"/>
+                    </Backgrounds>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>            
+                    <Options>
+                        <Option>
+                            <Order>14</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Make him your household slave.</OptionText>
+                            <TriggerEventName>BC_event_male_procuress</TriggerEventName>
+                            <RelationTotal>-15</RelationTotal>
+                            <SkillsToLevel>
+                                <Skill Id="IsSlave" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                <Skill Id="CaptiveEsteem" ByLevel="R -12 -25" Ref="Hero" HideNotification="true"/>
+                                <Skill Id="CaptiveAffection" ByLevel="R -15 -75" Ref="Hero" HideNotification="true"/>
+                            </SkillsToLevel>
+                            <SkillsRequired>
+                                <SkillRequired Id="IsSlave" Max="0" Ref="Hero"/>
+                                <SkillRequired Id="IsProstitute" Max="0" Ref="Hero"/>
+                            </SkillsRequired>
+                        </Option>
+                        <Option>
+                            <Order>15</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Return the slave to prison.</OptionText>
+                            <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                            <SkillsToLevel>
+                                <Skill Id="IsSlave" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                                <Skill Id="CaptiveEsteem" ByLevel="R 5 15" Ref="Hero" HideNotification="true"/>
+                            </SkillsToLevel>
+                            <SkillsRequired>
+                                <SkillRequired Id="IsSlave" Min="1" Ref="Hero"/>
+                            </SkillsRequired>
+                        </Option>
+                        <!-- <Option>
+                            <Order>69</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Ask {CAPTIVE_NAME} to join your harem.</OptionText>
+                            <TriggerEvents>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_devoted</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_broken</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_mindbroken</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_hatred</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>TB_captor_ask_concubinage_reluctant</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                            </TriggerEvents>
+                            <SkillsRequired>
+                                <SkillRequired Id="Concubine" Max="0" Ref="Hero"/>
+                            </SkillsRequired>
+                        </Option>
+                        <Option>
+                            <Order>69</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Have the Procuress change how things are run.</OptionText>
+                            <TriggerEventName>BC_event_male_harem_prefs_m</TriggerEventName>
+                        </Option> -->
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Leave.</OptionText>
+                            <TriggerEvents>
+                                <TriggerEvent>
+                                    <EventName>BC_event_male_harem_menu</EventName>
+                                    <EventWeight>100</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                            </TriggerEvents>
+                        </Option>
+                    </Options>
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>true</SexualContent>
+                    <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+                <CEEvent>
+                    <Name>BC_event_male_harem_prefs_m</Name>
+                    <Text>"How may we please you today, Great One?"</Text>
+                    <Backgrounds>
+                        <Background Name="BC_captor_sex_waiting" />
+                    </Backgrounds>
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>53</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Tell the Procuress to acquire a fresh boy for you.</OptionText>
+                            <TriggerEvents>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_boy_random</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <!-- <TriggerEvent>
+                                    <EventName>BC_harem_slave_boy_aserai</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_boy_battania</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_boy_empire</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_boy_khuzait</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_boy_sturgia</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_boy_vlandia</EventName>
+                                    <EventWeight>10</EventWeight>
+                                    <EventUseConditions>True</EventUseConditions>
+                                </TriggerEvent> -->
+                            </TriggerEvents>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Leave.</OptionText>
+                            <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                        </Option>
+                    </Options>
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>true</SexualContent>
+                    <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+            <!-- New Girls -->            
+                <CEEvent>
+                    <Name>BC_harem_slave_dealer</Name>
+                    <Text>A slave trader approaches...</Text>
+                    <BackgroundName>BC_captor_harem_procure_right</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <!-- <SoundName>bccaptor/event/chain</SoundName> -->
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+			            <!-- <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags> -->
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <TriggerEvents>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_aserai</EventName>
+                                    <EventWeight>1</EventWeight>
+                                    <EventUseConditions>true</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_battania</EventName>
+                                    <EventWeight>1</EventWeight>
+                                    <EventUseConditions>true</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_empire</EventName>
+                                    <EventWeight>1</EventWeight>
+                                    <EventUseConditions>true</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_khuzait</EventName>
+                                    <EventWeight>1</EventWeight>
+                                    <EventUseConditions>true</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_sturgia</EventName>
+                                    <EventWeight>1</EventWeight>
+                                    <EventUseConditions>true</EventUseConditions>
+                                </TriggerEvent>
+                                <TriggerEvent>
+                                    <EventName>BC_harem_slave_dealer_vlandia</EventName>
+                                    <EventWeight>1</EventWeight>
+                                    <EventUseConditions>true</EventUseConditions>
+                                </TriggerEvent>
+                            </TriggerEvents>
+                            <OptionText>Take a look at the merchandise.</OptionText>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>true</SexualContent>
+                    <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>            
+                <CEEvent>
+                    <Name>BC_harem_slave_dealer_random</Name>
+                    <Text>A slave trader approaches with a deal on a virgin. A shy young beauty, perfumed and draped in silks, is brought to you.</Text>
+                    <BackgroundName>BC_captor_harem_procure_right</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase her. (5000 {GOLD_ICON})</OptionText>
+                            <SpawnHeroes>
+                                <SpawnHero Ref="Prisoner" Gender="Female" Clan="looters">
+                                    <SkillsToLevel>
+                                        <Skill Id="Virginal" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="Maiden" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                                        <Skill Id="NotNewCaptive" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                        <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                                        <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                        <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                    </SkillsToLevel>
+                                </SpawnHero>
+                            </SpawnHeroes>
+                            <CaptorGoldTotal>R -4500 -6000</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>false</SexualContent>
+                    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+                <CEEvent>
+                    <Name>BC_harem_slave_dealer_aserai</Name>
+                    <Text>A shy young Aserai beauty, perfumed and draped in silks, is brought to you.</Text>
+                    <BackgroundName>BC_captor_harem_new_aserai</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <!-- <SoundName>captivity/event/test</SoundName> -->
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase her. (5000 {GOLD_ICON})</OptionText>
+                            <SpawnHeroes>
+                                <SpawnHero Ref="Prisoner" Gender="Female" Culture="Aserai" Clan="looters">
+                                    <SkillsToLevel>
+                                        <Skill Id="Virginal" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="Maiden" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                                        <Skill Id="NotNewCaptive" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                        <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                                        <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                        <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                    </SkillsToLevel>
+                                </SpawnHero>
+                            </SpawnHeroes>
+                            <CaptorGoldTotal>R -4500 -6000</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                    <!-- <SkillsRequired>
+                        <SkillRequired Id="CaptorPreferA" Min="1" Ref="Captor" />
+                    </SkillsRequired> -->
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>false</SexualContent>
+                    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+                <CEEvent>
+                    <Name>BC_harem_slave_dealer_battania</Name>
+                    <Text>A shy young Battanian beauty, perfumed and draped in silks, is brought to you.</Text>
+                    <BackgroundName>BC_captor_harem_new_batt</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <!-- <SoundName>captivity/event/test</SoundName> -->
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase her. (4000 {GOLD_ICON})</OptionText>
+                            <SpawnHeroes>
+                                <SpawnHero Ref="Prisoner" Gender="Female" Culture="Battania" Clan="looters">
+                                    <SkillsToLevel>
+                                        <Skill Id="Virginal" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="Maiden" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                                        <Skill Id="NotNewCaptive" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                        <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                                        <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                        <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                    </SkillsToLevel>
+                                </SpawnHero>
+                            </SpawnHeroes>
+                            <CaptorGoldTotal>R -3500 -5000</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                    <!-- <SkillsRequired>
+                        <SkillRequired Id="CaptorPreferB" Min="1" Ref="Captor" />
+                    </SkillsRequired> -->
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>false</SexualContent>
+                    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+                <CEEvent>
+                    <Name>BC_harem_slave_dealer_empire</Name>
+                    <Text>A shy young Empire beauty, perfumed and draped in silks, is brought to you.</Text>
+                    <BackgroundName>BC_captor_harem_new_empire</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <!-- <SoundName>captivity/event/test</SoundName> -->
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase her. (5000 {GOLD_ICON})</OptionText>
+                            <SpawnHeroes>
+                                <SpawnHero Ref="Prisoner" Gender="Female" Culture="Empire" Clan="looters">
+                                    <SkillsToLevel>
+                                        <Skill Id="Virginal" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="Maiden" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                                        <Skill Id="NotNewCaptive" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                        <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                                        <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                        <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                    </SkillsToLevel>
+                                </SpawnHero>
+                            </SpawnHeroes>
+                            <CaptorGoldTotal>R -4500 -6000</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                    <!-- <SkillsRequired>
+                        <SkillRequired Id="CaptorPreferE" Min="1" Ref="Captor" />
+                    </SkillsRequired> -->
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>false</SexualContent>
+                    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                    <ReqTroopsAbove>10</ReqTroopsAbove>
+                    <ReqCaptivesAbove>5</ReqCaptivesAbove>
+                </CEEvent>
+                <CEEvent>
+                    <Name>BC_harem_slave_dealer_khuzait</Name>
+                    <Text>A shy young Khuzait beauty, perfumed and draped in silks, is brought to you.</Text>
+                    <BackgroundName>BC_captor_harem_new_khuz</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <!-- <SoundName>captivity/event/test</SoundName> -->
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase her. (5000 {GOLD_ICON})</OptionText>
+                            <SpawnHeroes>
+                                <SpawnHero Ref="Prisoner" Gender="Female" Culture="Khuzait" Clan="looters">
+                                    <SkillsToLevel>
+                                        <Skill Id="Virginal" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="Maiden" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                                        <Skill Id="NotNewCaptive" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                        <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                                        <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                        <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                    </SkillsToLevel>
+                                </SpawnHero>
+                            </SpawnHeroes>
+                            <CaptorGoldTotal>R -4500 -6000</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                    <!-- <SkillsRequired>
+                        <SkillRequired Id="CaptorPreferK" Min="1" Ref="Captor" />
+                    </SkillsRequired> -->
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>false</SexualContent>
+                    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+                <CEEvent>
+                    <Name>BC_harem_slave_dealer_sturgia</Name>
+                    <Text>A shy young Sturgian beauty, perfumed and draped in silks, is brought to you.</Text>
+                    <BackgroundName>BC_captor_harem_new_sturg</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <!-- <SoundName>captivity/event/test</SoundName> -->
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase her. (5000 {GOLD_ICON})</OptionText>
+                            <SpawnHeroes>
+                                <SpawnHero Ref="Prisoner" Gender="Female" Culture="Sturgia" Clan="looters">
+                                    <SkillsToLevel>
+                                        <Skill Id="Virginal" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="Maiden" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                                        <Skill Id="NotNewCaptive" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                        <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                                        <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                        <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                    </SkillsToLevel>
+                                </SpawnHero>
+                            </SpawnHeroes>
+                            <CaptorGoldTotal>R -4500 -6000</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                    <!-- <SkillsRequired>
+                        <SkillRequired Id="CaptorPreferS" Min="1" Ref="Captor" />
+                    </SkillsRequired> -->
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>false</SexualContent>
+                    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+                <CEEvent>
+                    <Name>BC_harem_slave_dealer_vlandia</Name>
+                    <Text>A shy young Vlandian beauty, perfumed and draped in silks, is brought to you.</Text>
+                    <BackgroundName>BC_captor_harem_new_vland</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <!-- <SoundName>captivity/event/test</SoundName> -->
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase her. (5000 {GOLD_ICON})</OptionText>
+                            <SpawnHeroes>
+                                <SpawnHero Ref="Prisoner" Gender="Female" Culture="Vlandia" Clan="looters">
+                                    <SkillsToLevel>
+                                        <Skill Id="Virginal" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="Maiden" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                                        <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                                        <Skill Id="NotNewCaptive" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                        <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                                        <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                        <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                    </SkillsToLevel>
+                                </SpawnHero>
+                            </SpawnHeroes>
+                            <CaptorGoldTotal>R -4500 -6000</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                    <!-- <SkillsRequired>
+                        <SkillRequired Id="CaptorPreferV" Min="1" Ref="Captor" />
+                    </SkillsRequired> -->
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>false</SexualContent>
+                    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+                <CEEvent>
+                    <Name>BC_harem_slave_bundle</Name>
+                    <Text>Your dealer, a man with an eye and appetites which you must admit far surpass your own in their depths of cruelty, promises your money back if you are dissatisfied with a single one of the girls he has handpicked for you.</Text>
+                    <BackgroundName>BC_captor_harem_procure_left</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <!-- <SoundName>captivity/event/test</SoundName> -->
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase some of them. (5000 {GOLD_ICON})</OptionText>
+                            <SpawnTroops>
+                                <SpawnTroop Ref="Prisoner" Id="harem_aserai" Number="R -1 8" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_sturgia" Number="R -1 8" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_vlandia" Number="R -1 8" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_khuzait" Number="R -1 8" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_empire" Number="R -1 8" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_battania" Number="R -1 8" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_jawwal" Number="R -1 8" /> 
+                            </SpawnTroops>
+                            <CaptorGoldTotal>R -4500 -6000</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase all of them. (15000 {GOLD_ICON})</OptionText>
+                            <SpawnTroops>
+                                <SpawnTroop Ref="Prisoner" Id="harem_aserai" Number="R 4 18" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_sturgia" Number="R 4 18" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_vlandia" Number="R 4 18" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_khuzait" Number="R 4 18" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_empire" Number="R 4 18" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_battania" Number="R 4 8" />
+                                <SpawnTroop Ref="Prisoner" Id="harem_jawwal" Number="R 4 18" /> 
+                            </SpawnTroops>
+                            <CaptorGoldTotal>R -12500 -17500</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>false</SexualContent>
+                    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+
+
+                <!-- and Boy -->
+                <CEEvent>
+                    <Name>BC_harem_slave_boy_random</Name>
+                    <Text>A slave trader approaches with a deal on a young man. A shy, handsome boy is brought to you.</Text>
+                    <BackgroundName>BC_image_slave_new_boy</BackgroundName>
+                    <NotificationName>BC_image_notification_shackles</NotificationName>
+                    <MultipleRestrictedListOfFlags>
+                        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    </MultipleRestrictedListOfFlags>
+                    <Options>
+                        <Option>
+                            <Order>0</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Purchase him. (1000 {GOLD_ICON})</OptionText>
+                            <SpawnHeroes>
+                                <SpawnHero Ref="Prisoner" Gender="Male" Clan="neutral">
+                                    <SkillsToLevel>
+                                        <Skill Id="NotNewCaptive" ByLevel="1" Ref="Hero" HideNotification="true" />
+                                        <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                                        <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                        <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                        <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                    </SkillsToLevel>
+                                </SpawnHero>
+                            </SpawnHeroes>
+                            <CaptorGoldTotal>R -800 -1500</CaptorGoldTotal>
+                        </Option>
+                        <Option>
+                            <Order>99</Order>
+                            <MultipleRestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            </MultipleRestrictedListOfConsequences>
+                            <OptionText>Perhaps you have enough camp followers right now.</OptionText>
+                        </Option>
+                    </Options>
+                        <SkillsRequired>
+                            <SkillRequired Id="CaptorBuying" Min="1" Ref="Captor" />
+                        </SkillsRequired>
+                    <ReqCustomCode>true</ReqCustomCode>
+                    <SexualContent>false</SexualContent>
+                    <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                    <ReqHeroMinAge>18</ReqHeroMinAge>
+                </CEEvent>
+
+    <!-- Barracks (Black) -->
+        <!-- Welcome to the Clan -->
+            <CEEvent>
+                <Name>BC_event_male_barracks_new</Name>
+                <Text>Your men gather around as you lead {CAPTIVE_NAME} through the barracks, sniffing the very air as she passes...</Text>
+                <Backgrounds>   <!-- these pics should be scared, fresh -->
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_female" />
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_thief_female" />
+                    <Background Name="BC_captor_captive_male_scar" UseConditions="BC_event_conditions_captive_male" />
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_pregnant" />
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+                </Backgrounds>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroNotHaveSpouse</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroNotHaveOffspring</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <SkillsRequired>
+                    <SkillRequired Id="NotNewCaptive" Ref="Hero" Max="0"/>
+                </SkillsRequired>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Make sure {CAPTIVE_NAME} gets a good view of army life.</OptionText>
+                        <TriggerEventName>BC_event_male_barracks_menu</TriggerEventName>
+                        <SkillsToLevel>
+                            <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true" />
+                                <Skill Id="CaptiveEsteem" ByLevel="R 0 50" Ref="Hero" Color="White" HideNotification="true" />
+                                <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                                <Skill Id="Virginal" Ref="Hero" ByLevel="R -2 5" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Option>
+                </Options>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+                <ReqHeroMaxAge>27</ReqHeroMaxAge>
+            </CEEvent>
+            <CEEvent>                                                                                                                                                             
+                <Name>BC_event_male_barracks_wife</Name>
+                <Text>Your men gather around as you lead {CAPTIVE_NAME} through the barracks, whooping and making lewd gestures...</Text>
+                <Backgrounds>   <!-- these pics of a potentially married woman -->
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_female" />
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_thief_female" />
+                    <Background Name="BC_captor_captive_male_scar" UseConditions="BC_event_conditions_captive_male" />
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_pregnant" />
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+                </Backgrounds>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <SkillsRequired>
+                    <SkillRequired Id="NotNewCaptive" Ref="Hero" Max="0"/>
+                </SkillsRequired>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Make sure {CAPTIVE_NAME} gets a good view of your most intimidating men.</OptionText>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_barracks_menu</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_barracks_menu_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                        <SkillsToLevel>
+                            <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true" />
+                                <Skill Id="CaptiveEsteem" ByLevel="R 30 70" Ref="Hero" Color="White" HideNotification="true" />
+                                <Skill Id="CaptiveLustO" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveLustV" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveLustC" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveLustT" ByLevel="R -20 30" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                                <Skill Id="CaptiveLustA" ByLevel="R -20 30" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                                <Skill Id="CaptiveAugment" ByLevel="R -10 40" Ref="Hero" Color="Red"  HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Option>
+                </Options>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+        <!-- main barracks menu -->
+            <CEEvent>                                                                                                                                                             
+                <Name>BC_event_male_barracks_menu</Name>
+                <Text>Your men gather around as you lead {CAPTIVE_NAME} through the barracks, whooping and making lewd gestures...</Text>
+                <Backgrounds> 
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_female" />
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_thief_female" />
+                    <!-- <Background Name="BC_captor_captive_male_scar" UseConditions="BC_event_conditions_captive_male" /> -->
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_pregnant" />
+                    <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+                </Backgrounds>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <SkillsRequired>
+                    <SkillRequired Id="NotNewCaptive" Ref="Hero" Min="1"/>
+                </SkillsRequired>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Introduce her to military discipline.</OptionText>
+                        <TriggerEventName>BC_event_torture_whipping</TriggerEventName>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -10 -5" Ref="Hero" Color="White" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 1 5" Ref="Hero" Color="White" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R -10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R -10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R -10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
+                        </SkillsToLevel>
+                    </Option>
+                    <Option>
+                        <Order>1</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Warn her that if she displeases you, you will throw her to the men.</OptionText>
+                        <SkillsToLevel>
+                                <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="White"  />
+                                <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="White" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Option>
+                    <Option>
+                        <Order>15</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Leave her perfumed and silked flesh with the men, as a treat.</OptionText>
+                        <StripSettings QuestEnabled="false">
+                            <Clothing>Custom</Clothing>
+                            <CustomHead>aserai_female_civil_hscarf</CustomHead>
+                            <!-- <CustomGloves>klbcloth1a</CustomGloves>
+                            <CustomCape>klbcloth4a</CustomCape>
+                            <CustomLegs>klbcloth2a</CustomLegs> -->
+                        </StripSettings>  
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_humiliate_pink</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_unconscious_captive</EventName>
+                                <EventWeight>10000</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_humiliate_bestiality</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_humiliate_public_use</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_humiliate_bull</EventName>
+                                <EventWeight>10000</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_humiliate_red</EventName>
+                                <EventWeight>10000</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_humiliate_swords</EventName>
+                                <EventWeight>10000</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_humiliate_bitch</EventName>
+                                <EventWeight>10000</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_humiliate_drug</EventName>
+                                <EventWeight>10000</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_humiliate_cum</EventName>
+                                <EventWeight>10000</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                        <SkillsToLevel>
+                                <Skill Id="CaptiveEsteem" ByLevel="R -15 -5" Ref="Hero" Color="White" HideNotification="true" />
+                                <Skill Id="CaptiveAffection" ByLevel="R -30 -10" Ref="Hero" Color="White" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Option>
+                    <Option>
+                        <Order>42</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Show her the tortures which await the disobedient.</OptionText>  
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_unconscious_captive</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_new_captive</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_dead_captive</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_torture_start</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                        <ReqHeroHealthAbovePercentage>35</ReqHeroHealthAbovePercentage>
+                    </Option> 
+                </Options>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+        <!-- Captive Male barracks menu -->
+            <CEEvent>                                                                                                                                                             
+                <Name>BC_event_male_barracks_menu_m</Name>
+                <Text>Your men gather around as you lead {CAPTIVE_NAME} through the barracks, whooping and making lewd gestures...</Text>
+                <Backgrounds> 
+                    <Background Name="BC_captor_captive_male_scar" UseConditions="BC_event_conditions_captive_male" />
+                </Backgrounds>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>1</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Warn him that if he displeases you, you will leave him with the men as a treat.</OptionText>
+                        <SkillsToLevel>
+                                <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="White"  />
+                                <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="White" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Option>
+                    <Option>
+                        <Order>10</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Whip him in front of the troops.</OptionText>
+                        <TriggerEventName>BC_event_torture_whipping</TriggerEventName>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R -10 -5" Ref="Hero" Color="White" HideNotification="true" />
+                            <Skill Id="CaptiveObedience" ByLevel="R 1 5" Ref="Hero" Color="White" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R -10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R -10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R -10 30" Ref="Captor" Color="Yellow"  HideNotification="true" />
+                        </SkillsToLevel>
+                    </Option>
+                    <Option>
+                        <Order>42</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Send him to the torturers in shackles.</OptionText>
+                        <StripSettings QuestEnabled="false">
+                            <Clothing>Slave</Clothing>
+                            <!-- <CustomGloves>klbcloth1a</CustomGloves>
+                            <CustomCape>klbcloth4a</CustomCape>
+                            <CustomLegs>klbcloth2a</CustomLegs> -->
+                            <Mount>None</Mount>
+                            <!-- <Melee>horse_whip</Melee> -->
+                            <Ranged>None</Ranged>
+                        </StripSettings>  
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_unconscious_captive</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_new_captive</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_dead_captive</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_torture_start</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                        <ReqHeroHealthAbovePercentage>35</ReqHeroHealthAbovePercentage>
+                    </Option> 
+                </Options>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+</CEEvents>

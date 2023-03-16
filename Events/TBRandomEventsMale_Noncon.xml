@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_m_thief_chase</Name>
+        <Text>{=TBRandomEventsMale_Noncon001}You feel a light tugging on your coin-purse, and look around to see a young woman you don't recognize trying to steal your gold! She looks muscled and agile, and seems surprised that you noticed her. Grinning mischievously, she slaps your ass, quickly cuts loose your purse and takes off at a dead run.</Text>
+        <BackgroundName>BC_image_companion_cloak_escape</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon022}Let them go.</OptionText>
+                <RenownTotal>R -1 -2</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Steward" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <GoldTotal>-200</GoldTotal>
+                <TriggerEventName>TB_m_thief_chase_escape</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon023}Run after them.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_m_thief_chase_ambush</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_m_thief_chase_catch</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon024}There's something funny going on here...</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Roguery" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_m_thief_chase_detect</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="50" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon025}Call your guards to help chase her down.</OptionText>
+                <MoraleTotal>R 5 10</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_m_thief_chase_escape</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_m_thief_chase_catch</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqMoraleAbove>20</ReqMoraleAbove>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqGoldAbove>200</ReqGoldAbove>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_chase_escape</Name>
+        <Text>{=TBRandomEventsMale_Noncon002}As the thief makes her way out of camp, the stinging pain on your buttocks fades, you shake your head in irritation. That's a pouchful of gold you won't see again.</Text>
+        <BackgroundName>TB_thief_running</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon026}Resolve to watch more carefully next time.</OptionText>
+                <RenownTotal>R -1 -2</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <GoldTotal>-200</GoldTotal>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon027}Chastise your guards for not catching the miscreant.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <GoldTotal>-200</GoldTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_chase_catch</Name>
+        <Text>{=TBRandomEventsMale_Noncon003}The thief is easily caught, and you retrieve your pouch of gold, tying her hands together as you lead her back to camp. She looks hungry and terrified, and your guards seem quite unhappy that she managed to elude them. They ask you what punishment you deem appropriate for the little thief.</Text>
+        <BackgroundName>TB_thief_kneeling_road</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon028}Give her a good public spanking.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 1 2</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Athletics" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_spanking</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon029}Order your men to punish her.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_guard_noncon</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon030}Take her captive.</OptionText>
+                <TriggerEventName>TB_thief_capture</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Charm" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_chase_detect</Name>
+        <Text>{=TBRandomEventsMale_Noncon004}You realize the thief is leading you to an excellent place for an ambush, and slow down before following her. You...</Text>
+        <BackgroundName>TB_thief_running</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon032}Stop the chase and return to camp.</OptionText>
+                <RenownTotal>R -1 -2</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Roguery" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <GoldTotal>-200</GoldTotal>
+                <TriggerEventName>TB_m_thief_chase_escape</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon025}Call your guards to help chase her down.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_m_thief_chase_escape</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_m_thief_chase_catch</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="Leadership" Min="20" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon033}Continue chasing anyway.</OptionText>
+                <MoraleTotal>R 5 10</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_chase_ambush</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_spanking</Name>
+        <Text>{=TBRandomEventsMale_Noncon005}You decide to return the favor, giving her a public spanking, and order your guards to tie her down. Her pert buttocks are restrained before you, and you begin smacking her ass with your open palm as she yelps in pain. You give her a good long spanking, taking care not to permanently wound her. You fancy her yelps become more aroused as her punishment continues, and you notice your men's trousers have begun to bulge at the sight.</Text>
+        <BackgroundName>TB_thief_group_standing</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon030}Take her captive.</OptionText>
+                <TriggerEventName>TB_thief_capture</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon034}Let your men punish her as they like.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_guard_noncon</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon035}Plunder her womanly treasures.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_plunder_noncon</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Charm" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_guard_noncon</Name>
+        <Text>{=TBRandomEventsMale_Noncon006}The woman looks up at you in a panic as you order your guards to punish her, and she is quickly dragged to the center of camp. There she is bound, naked, as an example to any other potential thieves, as your men begin to remove their breeches... </Text>
+        <BackgroundName>TB_thief_group_standing</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon036}Order them to punish her, not defile her.</OptionText>
+                <RenownTotal>R 2 4</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Steward" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_guard_spanking</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon037}Let the guards have their way with her.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_guard_noncon_2</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon035}Plunder her womanly treasures.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_plunder_noncon</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_guard_spanking</Name>
+        <Text>{=TBRandomEventsMale_Noncon007}The woman looks at you, her eyes deeply thankful for your mercy - well, at least until the punishment begins. Your men take turns spanking her shapely ass, and the sound of slapping, the thief's anguished yelps, and laughter fills the camp. By the time an hour has gone by, her rear is bright red, and covered in hand-prints. The woman has passed out from the pain of her punishment, but a trickle of wetness drips from her cunt. Your men are deeply aroused, some of them having pulled out their cocks to pleasure themselves to the spectacle.</Text>
+        <BackgroundName>TB_thief_punish_surround</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon038}She's been punished enough. Free her.</OptionText>
+                <RenownTotal>R 2 4</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Steward" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon030}Take her captive.</OptionText>
+				<TriggerEventName>TB_thief_capture</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon037}Let the guards have their way with her.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_guard_noncon_2</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon035}Plunder her womanly treasures.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_plunder_noncon</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_guard_noncon_2</Name>
+        <Text>{=TBRandomEventsMale_Noncon008}Still angered that she would dare steal from you, you tell your men they can do with her as they like. She collapses in resignation as you give the order, closing her eyes and biting her lip as the first of your troops thrusts his manhood into her pliant cleft. Your men form an orderly line, each of them eager to have their turn, and her tearful sobs punctuate the afternoon as she is roughly fucked into submission.</Text>
+        <BackgroundName>TB_thief_group_noncon</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon039}Her punishment continues...</OptionText>
+                <TriggerEventName>TB_m_thief_guard_noncon_3</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_guard_noncon_3</Name>
+        <Text>{=TBRandomEventsMale_Noncon009}By the time the last of your troops is cleaning his cock in her mouth, the thief's once animated eyes are dead, her expression that of utter defeat. She suckles unprotestingly at the penis between her lips, hardly seeming to register its invasion. A river of viscous white drips from both her ends, and despite your men's relative gentleness her breasts are red and bruised from their attentions.</Text>
+        <BackgroundName>TB_thief_oral_messy</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon030}Take her captive.</OptionText>
+                <TriggerEventName>TB_thief_capture</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_plunder_noncon</Name>
+        <Text>{=TBRandomEventsMale_Noncon010}It seems reasonable that someone caught plundering your riches should have hers plundered in return. She glares at you angrily as you approach, but her expression turns to fear as you pull your cock from your breeches, briefly stroking it as it hardens to its full length. She shivers as you walk behind her, brushing the tip of your manhood against her ass, and finally breaks down and starts pleading for mercy as it reaches her cunt. She lets out an agonized squeal as you thrust into her, relishing the tightness of her inner walls, and her wails turn to tearful sobbing as you pound your displeasure into her helpless body.</Text>
+        <BackgroundName>TB_thief_doggy_broken_crying</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon040}Put a baby into her.</OptionText>
+                <TriggerEventName>TB_m_thief_plunder_cum_inside</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon041}Mark her with your seed.</OptionText>
+                <TriggerEventName>TB_m_thief_plunder_cum_outside</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_plunder_cum_inside</Name>
+        <Text>{=TBRandomEventsMale_Noncon011}As you continue pounding your cock into the miscreant, you consider how best to redeem her from a life of crime. Reasoning that she can hardly continue stealing from people if she's busy taking care of a child, you decide to do your best to provide her with one. You begin thrusting harder, more deeply as she squeals in agony and delight, until finally the sensation of her warm snatch engulfing your cock as she sobs beneath you is too much for you to bear. You feel your testicles tighten, and the woman's sniffles grow slower and more resigned as the delightful rush of pressure inside your shaft confirms that your duty is done.</Text>
+        <BackgroundName>TB_thief_doggy_broken_crying</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon038}She's been punished enough. Free her.</OptionText>
+                <RenownTotal>R 2 4</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Steward" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon030}Take her captive.</OptionText>
+                <TriggerEventName>TB_thief_capture</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon037}Let the guards have their way with her.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_guard_noncon_2</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_plunder_cum_outside</Name>
+        <Text>{=TBRandomEventsMale_Noncon012}As you continue pounding your cock into the miscreant, you consider how best to prevent her from continuing her life of crime. It strikes you that if she were given a clearer path in life - say, that of a whore - she might not need to steal. Her tearful pleading slows to resignation as you continue her punishment, and the thought of her submitting before you, willingly plying her womanhood in exchange for coin pushes you over the edge. You quickly pull out of her snatch, grabbing her hair to hold her still as you coat her face in strands of your sticky seed. You order your men to tattoo her face where your seed has fallen, so that everyone might know her place as a man's plaything, and she screams in anguish and defeat as she is given a permanent reminder of your displeasure.</Text>
+        <BackgroundName>TB_thief_oral_messy</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon038}She's been punished enough. Free her.</OptionText>
+                <RenownTotal>R 2 4</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Steward" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon030}Take her captive.</OptionText>
+                <TriggerEventName>TB_thief_capture</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon037}Let the guards have their way with her.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_guard_noncon_2</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_chase_ambush</Name>
+        <Text>{=TBRandomEventsMale_Noncon0013}As you run into the distance, chasing after your quarry, you realize too late the signs of an ambush around you. Sure enough, your quarry stops running as a group of twenty or so bandits surround you from all sides.</Text>
+        <BackgroundName>TB_character_deserters</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon042}Run back to camp as fast as you can.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_m_thief_ambush_flee</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_m_thief_ambush_capture</EventName>
+                        <EventWeight>75</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="Scouting" Min="50" />
+                </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon043}Twenty to one? You like those odds.</OptionText>
+                <BattleSettings Ref="Regular" EnemyName="Ambushing Bandits" Victory="TB_m_thief_ambush_triumph" Defeat="TB_m_thief_ambush_capture" PlayerTroops="0">
+                    <SpawnTroops>
+                        <SpawnTroop Ref="Enemy" Id="battanian_wildling" Number="5" />
+                        <SpawnTroop Ref="Enemy" Id="company_of_the_boar_tier_1" Number="5" />
+                        <SpawnTroop Ref="Enemy" Id="forest_people_tier_1" Number="5" />
+                        <SpawnTroop Ref="Enemy" Id="wolfskins_tier_1" Number="5" />
+                    </SpawnTroops>
+                </BattleSettings>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon044}Surrender; you've got no chance.</OptionText>
+                <TriggerEventName>TB_m_thief_ambush_capture</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_ambush_capture</Name>
+        <Text>{=TBRandomEventsMale_Noncon014}You are captured by your ambushers, who strip off your clothes and bind your arms and legs in iron. The woman you were chasing walks up to you, grinning cruelly, and tells her men they have a few hours before the rest of camp realizes you're gone. Though she's already taken your purse, there are more precious treasures, she says, smacking your ass for the second time today, that a nobleman possesses. The men cheer, watching as she grabs you by the balls and begins to squeeze. </Text>
+        <BackgroundName>TB_scion_male_defeated</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon045}Beg for mercy.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Charm" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_ambush_capture_shafted</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon046}Order them to let you go.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_ambush_capture_shafted</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_ambush_capture_shafted</Name>
+        <Text>{=TBRandomEventsMale_Noncon015}The thief seems uninterested in what you have to say, and continues squeezing your balls until you scream in agony and beg her to stop. Smiling, she lets go, gently trailing her hand to the tip of your shaft as she pulls a strange device from the bag at your side. It looks like a porcelain penis attached to some sort of leather contraption, and she sensually strips off her clothes, giving everyone in the area an arousing eyeful of her pert breasts and shapely rear before strapping the device to her waist like a belt. She moves behind you, and whispers that today is the day you learn what it is to be a woman as she thrusts, roughly shoving the device up your ass.</Text>
+        <BackgroundName>TB_scion_male_group_3</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon047}Scream at your rapist.</OptionText>
+                <TriggerEventName>TB_m_thief_ambush_capture_shafted_2</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon048}Collapse in submissive agony.</OptionText>
+                <TriggerEventName>TB_m_thief_ambush_capture_shafted_2</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_ambush_capture_shafted_2</Name>
+        <Text>{=TBRandomEventsMale_Noncon016}The thief continues pounding into you, reaching around to rub your shaft as it hardens, the sensation of fullness in your behind strangely arousing. Her breaths become moans as she takes you, and you feel your own pleasure start to mount as the shaft touches places inside you you didn't know existed. Before long you climax, spurting your seed through the air as your captor's attentions grow more frenzied, and you hear a surprisingly cute moan of pleasure from behind you as your rapist reaches her own sticky end. She drops out of your ass with a contented sigh, licking a strand of your come from her fingers, and kisses you full on the mouth, making sure you get a taste of your own seed.</Text>
+        <BackgroundName>TB_scion_male_roadside</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon049}What happens now?</OptionText>
+                <TriggerEventName>TB_m_thief_rescue</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_rescue</Name>
+        <Text>{=TBRandomEventsMale_Noncon017}The thief is startled by the sound of horns, and you recognize your clan's banner approaching. The men turn to run, but your cavalry are too fast, and they make short work of your captors. Before long only your rapist is left alive, threatening to kill you if they grow closer, and you see your chance. Bashing your forehead into her skull to put her off guard you leap on top of her as she drops her dagger, pinning her naked body in place with your own. Your men laugh, helping you up, and remove your bonds, using them to restrain her, instead. As you return to camp, they ask you what you wish to do with your prisoner.</Text>
+        <BackgroundName>TB_thief_kneeling_road</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon028}Give her a good public spanking.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 1 2</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Athletics" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_spanking</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon029}Order your men to punish her.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <MoraleTotal>R 2 4</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_m_thief_guard_noncon</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon030}Take her captive.</OptionText>
+                <TriggerEventName>TB_thief_capture</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Charm" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_ambush_flee</Name>
+        <Text>{=TBRandomEventsMale_Noncon018}You set off at a dead run back towards camp, swerving to avoid the bandits that surround you, and by some extraordinary skill or luck you make it past. As you leave them in the distance you begin to see the fires of your camp, and do not dare stop. You panic as you hear the whinny of horses behind you, but as you catch the eye of one of your guards you realize the sound was just your ambushers retreating with all haste to avoid pursuit. </Text>
+        <BackgroundName>TB_character_guards</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon050}Get some rest; you're exhausted.</OptionText>
+                <HealthTotal>R 3 10</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_ambush_triumph</Name>
+        <Text>{=TBRandomEventsMale_Noncon019}Your skill with the blade is unmatched, and your ambushers' expressions quickly change from triumph to fear as you cut them down one by one, suffering only a few wounds here and there as they fall. As you skewer the last of them on your blade, you see the thief who started this whole affair watching you in horror, and she turns to run once more. With expert reflexes honed by many a battle you slice the tendon of her left leg and she falls, defeated, at your feet. </Text>
+        <BackgroundName>TB_thief_kneeling_road</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon051}Let providence decide her fate.</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon052}Bring her back to camp for punishment.</OptionText>
+                <RenownTotal>R 5 10</RenownTotal>
+                <MoraleTotal>R 5 10</MoraleTotal>
+                <TriggerEventName>TB_m_thief_chase_catch</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon053}End her here and now.</OptionText>
+                <RenownTotal>R 2 5</RenownTotal>
+                <TriggerEventName>TB_m_thief_ambush_kill</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_capture</Name>
+        <Text>{=TBRandomEventsMale_Noncon020}The thief is stripped and bound in irons, then chained to a post beside your bed. She kneels, gently sobbing, as she begins to accept that she is entirely at your mercy. As you continue your journey, she can't help but notice the considerable bulge in your pants...</Text>
+        <BackgroundName>TB_thief_kneeling_road</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon054}You'll deal with her later...</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_m_thief_ambush_ambush_kill</Name>
+        <Text>{=TBRandomEventsMale_Noncon021}You stride towards her, skewering her in the heart as she briefly screams. The light fades from her eyes as she collapses, blood pouring from her chest, and you neatly step to the side to avoid further dirtying your armor. You triumphantly collect your stolen gold.</Text>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsMale_Noncon055}Return to camp.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

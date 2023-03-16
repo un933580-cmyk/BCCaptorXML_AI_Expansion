@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_slavery_blackmail</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail001}A man approaches you privately, a wicked smile on his face. He explains that he knows how much of a whore you became when you were captive, and that your men will never respect you again once he tells them all the ribald details of your depravity. He tells you that there is a way he could be convinced not to share what he knows</Text>
+        <BackgroundName>TB_character_blackmailer</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail014}Grudgingly take off your clothes.</OptionText>
+                <HealthTotal>R -1 -3</HealthTotal>
+                <SkillsToLevel><Skill Id="Blackmailed" ByLevel="1" Ref="Hero" /></SkillsToLevel>
+                <TriggerEventName>TB_slavery_blackmail_submit</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail015}Cry out for your guards.</OptionText>
+                <TriggerEventName>TB_slavery_blackmail_callbluff</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+                <SkillsRequired>
+                    <SkillRequired Id="Leadership" Min="20" Ref="Hero"/>
+                </SkillsRequired>
+                <ReqMoraleAbove>70</ReqMoraleAbove>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail016}Slit his treacherous throat.</OptionText>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+                <RenownTotal>R 2 6</RenownTotal>
+                <BattleSettings Ref="Regular" EnemyName="Blackmailer" Victory="TB_slavery_blackmail_slit" Defeat="TB_slavery_blackmail_submit" PlayerTroops="0">
+                    <SpawnTroops>
+                        <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="1" />
+                    </SpawnTroops>
+                </BattleSettings>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+        <ReqTroopsAbove>2</ReqTroopsAbove>
+        <SkillsRequired>
+            <SkillRequired Id="Blackmailed" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_callbluff</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail002}The man's eyes widen in surprise as you call for your guards to remove him. Frantically, he begins to describe your enslavement in lurid, horrific detail. He depicts you as a wanton whore, ever-hungry for cock, loving nothing more than to be fucked, filled, and abused. You blush, your lip stiffening as his words color your memories in detail. As a final insult, he tells them that he was just giving you what you so desperately needed.</Text>
+        <BackgroundName>TB_nervous_guards</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail017}Tell your men of your enslavement.</OptionText>
+                <SkillsToLevel><Skill Id="Blackmailed" ByLevel="-100" Ref="Hero" Color="Magenta"/></SkillsToLevel>
+                <RenownTotal>R -10 -20</RenownTotal>
+                <MoraleTotal>R 10 20</MoraleTotal>
+                <TriggerEventName>TB_slavery_blackmail_tellall</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail018}Order them to kill him.</OptionText>
+                <SkillsToLevel><Skill Id="Blackmailed" ByLevel="-100" Ref="Hero" Color="Magenta"/></SkillsToLevel>
+                <RenownTotal>R -100 -200</RenownTotal>
+                <MoraleTotal>R -2 -30</MoraleTotal>
+                <TriggerEventName>TB_slavery_blackmail_orderkill</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail019}He's right, you're a born sex slave...</OptionText>
+                <RenownTotal>R -100 -200</RenownTotal>
+                <MoraleTotal>R -2 -30</MoraleTotal>
+                <TriggerEventName>TB_slavery_blackmail_admit</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_slit</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail003}You drop your clothes beside you and fall to your knees. He smiles, telling you he knew all along you were born to be his slave. As he approaches, shoving his cock into your face, you pull a concealed knife from your cast-off clothes and rise, neatly slitting open his windpipe. As blood streams from his throat he gurgles madly, his eyes wild with confusion. You reach down to his testicles and squeeze, crushing them until you feel them pop against the bones of your hand as he dies.</Text>
+        <BackgroundName>TB_slit_throat_naked</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail020}Call your guards to remove the traitor.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_tellall</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail004}You fall to your knees, weeping, as he describes the horrors you've endured in the most depraved possible light. Gathering your strength, you look into your guard's eyes and tell them a different story, the story of a woman broken by merciless torture, a woman defiled and whipped, bound and humiliated beyond the limits of human endurance. Their expressions harden as you tell your tale, and as you finish one of them silently grabs your blackmailer by the back of the neck and, as the rat struggles to escape, punches his face into a bloody, ruined mass.</Text>
+        <BackgroundName>TB_character_knight</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail021}Thank them for their understanding.</OptionText>
+                <SlaveryTotal>R -50 -100</SlaveryTotal>
+                <RenownTotal>R 3 7</RenownTotal>
+                <MoraleTotal>R 5 20</MoraleTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail022}Weep silently until they leave.</OptionText>
+                <SlaveryTotal>R -50 -100</SlaveryTotal>
+                <MoraleTotal>R 20 60</MoraleTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_orderkill</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail005}You order your guards to kill him and they hesitate for a moment; you wonder just how much respect you've lost. You scream at them in impotent rage and they cut him through. In the awkward silence that ensues, you realize your men will never look at you quite the same way...</Text>
+        <BackgroundName>TB_nervous_soldiers</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail023}Thank them for their discretion.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_admit</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail006}You're dripping with arousal as he describes your subjugation, and you realize he's been right all along. You order your guards to leave and kneel before him, spreading your legs and presenting your dripping cleft. You beg him to fuck his slave, and he slaps your face, sending you sprawling to the ground. He quickly shackles your wrists together to remind you of your place, and moments later you feel his naked body pressed against yours and he enters you, pinning you to the dirt with his cock. After a few minutes of brutal, frenzied thrusting, he pulls out and sprays his seed across your face and breasts, ordering you not to clean yourself until he gives you permission to do so.</Text>
+        <BackgroundName>TB_noncon_doggy_armsback</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail024}Thank your master for fucking his slave.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_submit</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail007}Thoroughly defeated, you drop your clothes at his feet and kneel before him, taking his penis into your mouth. You pleasure him expertly, kneading his testicles with one hand as you stroke his shaft with the other. You deftly curl your tongue around his cock-head and he climaxes instantaneously, a flood of salty liquid filling your mouth. You slurp it down, milking him dry for several minutes until he pats you on the head, telling you that was a good start...</Text>
+        <BackgroundName>TB_oral</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail025}Thank your master for his seed.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_blackmail_vaginal</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_blackmail_gangbang_1</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_blackmail_anal</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail026}Move to clean yourself.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_blackmail_vaginal</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_blackmail_gangbang_1</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_blackmail_anal</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_vaginal</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail008}It seems the man isn't finished; as his seed drips down your chin, he shoves you onto your bed, spanking your ass twice before plunging himself into you, working off his stress in your abused cunt. You arch helplessly beneath him, your sex dripping with arousal, and he pounds into you like a man possessed. With a final thrust, your vaginal walls clench around him, thoroughly milking his iron rod. He collapses on top of you, crushing your breasts as his sticky warmth spreads inside your womb.</Text>
+        <BackgroundName>TB_noncon_miss_cum</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail027}Thank him for his seed as it drips out of you.</OptionText>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail028}Weep quietly beneath him.</OptionText>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail015}Cry out for your guards.</OptionText>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+                <TriggerEventName>TB_slavery_blackmail_callbluff</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_anal</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail009}Your lips still coated in his seed, the man orders you to bend over so that he can inspect his slave's gorgeous bottom. He briefly spanks you, tearing a yelp from your throat that seems only to arouse him further, before you feel him stick a finger up your ass, lubricating it with what feels like butter. You start to stand up in protest and he pushes you onto your bed, deftly shackling your wrists together. As you feel the head of his manhood push up against your rear he quiets your screams by shoving a piece of cloth into your mouth, holding it closed with both hands.</Text>
+        <BackgroundName>TB_noncon_doggy_pound_face</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail030}Try to survive his assault.</OptionText>
+                <TriggerEventName>TB_slavery_blackmail_anal_2</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_anal_2</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail010}It takes him three full minutes to push his way inside you the first time, your struggling sphincter resisting every advance, and he sighs in gratification as he bottoms out inside you. He savors your tightness for a few minutes as you shudder against him, then begins thrusting madly. Your eyes go wide as pain fills your every nerve and your mind shuts down mercifully, leaving you to dreamless unconsciousness. He is gone when you wake, leaving a pool of cum dripping from your agonized brown star.</Text>
+        <BackgroundName>TB_aftersex_filled</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail031}Weep quietly and get some rest.</OptionText>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail032}Try to clean yourself up.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_gangbang_1</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail011}As the man's seed drips down your chin, two men you don't recognize enter the tent. Your blackmailer tells you he owes them a small sum, and rather than pay it out of his own pocket he'd prefer to sell your perfect ass for a handful of coin. The men surround you, stroking their cocks, and one of them grabs you by the neck before you can resist. He lifts you up, plunging your cleft onto his firm hardness, and you gasp for breath. He grins cruelly, and seconds later the second man slaps your butt-cheeks, spitting copiously into your asshole. You scarcely have time to protest before the pain sharpens unbearably as your rear end is filled with man-meat, iron rods pistoning in and out as you try to remain conscious. As a final insult, your blackmailer shoves his manhood back into your mouth, robbing you of even your screams...</Text>
+        <BackgroundName>TB_group_triple</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail033}Try to survive the assault.</OptionText>
+                <TriggerEventName>TB_slavery_blackmail_gangbang_2</TriggerEventName>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_gangbang_2</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail012}Your torment continues for hours, each of your holes battered, abused, and stuffed with cock over and over again. Pain remains your constant companion, for though the salty slime coating each of your orifices acts as lubricant, each new assault creates new tears and bruises. By the time they are finished with you, their shafts completely drained, then cleaned in your mouth or hair, your entire body aches, and you feel a sickening fullness in your stomach. The two newcomers leave silently as your blackmailer grins, shaking his head. He mutters that if he'd known paying off debts would be so easy, he'd borrow a lot more money...</Text>
+        <BackgroundName>TB_aftersex_cum</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail034}Weep quietly.</OptionText>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail015}Cry out for your guards.</OptionText>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+                <TriggerEventName>TB_slavery_blackmail_callbluff</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_blackmail_bootycall</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Blackmail013}Your blackmailer returns, grinning evilly. He's on top of you in seconds, violently kissing your mouth as he painfully gropes your breasts. He orders you to strip off your clothes and show him how a thirsty cum-whore greets her master.</Text>
+        <BackgroundName>TB_character_blackmailer</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail014}Grudgingly take off your clothes.</OptionText>
+                <HealthTotal>R -1 -3</HealthTotal>
+                <TriggerEventName>TB_slavery_blackmail_submit</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail015}Cry out for your guards.</OptionText>
+                <TriggerEventName>TB_slavery_blackmail_callbluff</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail016}Slit his treacherous throat.</OptionText>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+                <RenownTotal>R 3 7</RenownTotal>
+                <TriggerEventName>TB_slavery_blackmail_slit</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqTroopsAbove>2</ReqTroopsAbove>
+        <SkillsRequired>
+            <SkillRequired Id="Blackmailed" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+</CEEvents>

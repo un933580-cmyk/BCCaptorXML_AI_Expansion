@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+  <CEEvent>
+    <Name>CE_slavery_waiting_menu</Name>
+    <Text>{?DAYS}You've been {OWNER_NAME}'s slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You watch carefully for your chance to escape this hell.{?}You are a resistant slave.{\?}</Text>
+    <BackgroundName>BC_image_slavery_cell_stand_touch</BackgroundName> 
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Try to escape.</OptionText>
+        <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
+        <RelationTotal>R -1 -7</RelationTotal>
+        <EscapeChance>10</EscapeChance>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelBelow>51</ReqHeroSlaveLevelBelow>
+  </CEEvent>
+  <CEEvent>
+    <Name>CE_slavery_waiting_menu_siege</Name>
+    <Text>{?DAYS}You've been {OWNER_NAME}'s slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. Your master has ordered extra guards to watch you so that you don't disappear during the siege.{?}Is there some chance you might escape?{\?}</Text>
+    <BackgroundName>BC_image_slavery_cell_stand_under</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+      <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Try to escape.</OptionText>
+        <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
+        <RelationTotal>R -1 -7</RelationTotal>
+        <EscapeChance>10</EscapeChance>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelBelow>51</ReqHeroSlaveLevelBelow>
+  </CEEvent>
+  <CEEvent>
+    <Name>CE_slavery_waiting_menu_2</Name>
+    <Text>{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You've learned that disobedience means pain, and nervously await your master's next depraved command.{?}You are a resigned slave.{\?}</Text>
+    <BackgroundName>BC_image_slavery_cell_stand_back</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Try to escape.</OptionText>
+        <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
+        <RelationTotal>R -1 -7</RelationTotal>
+        <EscapeChance>10</EscapeChance>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+    <ReqHeroSlaveLevelBelow>101</ReqHeroSlaveLevelBelow>
+  </CEEvent>
+  <CEEvent>
+    <Name>CE_slavery_waiting_menu_2_siege</Name>
+    <Text>{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You'd all but given up on escape, but as the castle you're in is being sieged...{?}Is there some chance for you to escape?{\?}</Text>
+    <BackgroundName>BC_image_slavery_cell_stand_touch</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+      <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Try to escape.</OptionText>
+        <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
+        <RelationTotal>R -1 -7</RelationTotal>
+        <EscapeChance>10</EscapeChance>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+    <ReqHeroSlaveLevelBelow>101</ReqHeroSlaveLevelBelow>
+  </CEEvent>
+  <CEEvent>
+    <Name>CE_slavery_waiting_menu_3</Name>
+    <Text>{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You exist to please your master, and wait obediently to serve him, flinching occasionally at shadows.{?}You are a broken slave.{\?}</Text>
+    <BackgroundName>BC_image_slavery_bound_look_tits</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Check if your master needs his slave.</OptionText>
+        <RenownTotal>R -1 -3</RenownTotal>
+        <RelationTotal>R 1 3</RelationTotal>
+        <SlaveryTotal>R 4 12</SlaveryTotal>
+        <TriggerEventName>TB_slavery_anticipation</TriggerEventName>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+    <ReqHeroSlaveLevelBelow>251</ReqHeroSlaveLevelBelow>
+  </CEEvent>
+  <CEEvent>
+    <Name>CE_slavery_waiting_menu_3_siege</Name>
+    <Text>{?DAYS}You've been a slave for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}. You exist to please your master, and wait obediently to serve him, flinching occasionally at shadows. Is there a siege outside? Does it even matter?{?}You are a broken slave.{\?}</Text>
+    <BackgroundName>BC_image_slavery_bound_look_tits</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+      <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Check if your master needs his slave.</OptionText>
+        <RenownTotal>R -1 -3</RenownTotal>
+        <RelationTotal>R 1 3</RelationTotal>
+        <SlaveryTotal>R 4 12</SlaveryTotal>
+        <TriggerEventName>TB_slavery_anticipation</TriggerEventName>
+        <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Try to escape.</OptionText>
+        <RelationTotal>R -1 -7</RelationTotal>
+        <EscapeChance>10</EscapeChance>
+        <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+        <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+    <ReqHeroSlaveLevelBelow>251</ReqHeroSlaveLevelBelow>
+  </CEEvent>
+  <CEEvent>
+    <Name>CE_slavery_waiting_menu_4</Name>
+    <Text>{?DAYS}You've been forced to march as a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a traveling slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?}.{\?}</Text>
+    <!-- <BackgroundName>BC_image_slavery_white_leash_chain</BackgroundName> -->
+    
+    <BackgroundAnimation>
+      <BackgroundName>BC_vid_larawalk_000</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_001</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_002</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_003</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_004</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_005</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_006</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_007</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_008</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_009</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_010</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_011</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_012</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_013</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_014</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_015</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_016</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_017</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_018</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_019</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_020</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_021</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_022</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_023</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_024</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_025</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_026</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_027</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_028</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_029</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_030</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_031</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_032</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_033</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_034</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_035</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_036</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_037</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_038</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_039</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_040</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_041</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_042</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_043</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_044</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_045</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_046</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_047</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_048</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_049</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_050</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_051</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_052</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_053</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_054</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_055</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_056</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_057</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_058</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_059</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_060</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_061</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_062</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_063</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_064</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_065</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_066</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_067</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_068</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_069</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_070</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_071</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_072</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_073</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_074</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_075</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_076</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_077</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_078</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_079</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_080</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_081</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_082</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_083</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_084</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_085</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_086</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_087</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_088</BackgroundName>
+      <BackgroundName>BC_vid_larawalk_089</BackgroundName> <!-- -->
+    </BackgroundAnimation>
+    <BackgroundAnimationSpeed>0.025</BackgroundAnimationSpeed>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Check if your master needs his slave.</OptionText>
+        <RenownTotal>R -1 -3</RenownTotal>
+        <RelationTotal>R 1 3</RelationTotal>
+        <SlaveryTotal>R 4 12</SlaveryTotal>
+        <TriggerEventName>TB_slavery_anticipation</TriggerEventName>
+        <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Try to escape.</OptionText>
+        <RelationTotal>R -1 -7</RelationTotal>
+        <EscapeChance>5</EscapeChance>
+        <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+        <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <CEEvent>
+      <Name>CE_slavery_waiting_menu_5</Name>
+      <Text>{=DefaultWaitingMenus15}{?DAYS}You've been a slave at {SETTLEMENT_NAME} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a slave at {SETTLEMENT_NAME}.{\?}
+You wait at the market, your body on display like a piece of meat as passerby make lewd comments about your appearance...</Text>
+      <BackgroundName>BC_image_slavery_cell_stand_touch</BackgroundName>
+      <MultipleRestrictedListOfFlags>
+          <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+          <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+          <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+      </MultipleRestrictedListOfFlags>
+
+      <ReqCustomCode>true</ReqCustomCode>
+      <SexualContent>true</SexualContent>
+      <ReqHeroMinAge>18</ReqHeroMinAge>
+      <ReqHeroSlaveLevelBelow>150</ReqHeroSlaveLevelBelow>
+  </CEEvent>
+
+  <CEEvent>
+      <Name>CE_slavery_waiting_menu_6</Name>
+      <Text>{=DefaultWaitingMenus16}{?DAYS}You've been a slave at {SETTLEMENT_NAME} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a broken slave at {SETTLEMENT_NAME}.{\?}
+You wait obediently for someone to make use of you...</Text>
+      <BackgroundName>BC_image_slavery_bound_look_tits</BackgroundName>
+      <MultipleRestrictedListOfFlags>
+          <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+          <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+          <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+      </MultipleRestrictedListOfFlags>
+
+
+      <ReqCustomCode>true</ReqCustomCode>
+      <SexualContent>true</SexualContent>
+      <ReqHeroMinAge>18</ReqHeroMinAge>
+      <ReqHeroSlaveLevelAbove>150</ReqHeroSlaveLevelAbove>
+  </CEEvent>
+  <CEEvent>
+      <Name>CE_slavery_waiting_menu_4_siege</Name>
+      <Text>{=DefaultWaitingMenus20}{?DAYS}You've been a slave at {SETTLEMENT_NAME} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a broken slave at {SETTLEMENT_NAME}.{\?}
+There's a siege going on, so your master has you servicing the defenders to keep up morale...</Text>
+      <BackgroundName>BC_image_slavery_waiting_hook</BackgroundName>
+      <MultipleRestrictedListOfFlags>
+          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+          <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+          <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+          <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+          <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+      </MultipleRestrictedListOfFlags>
+
+      <ReqCustomCode>true</ReqCustomCode>
+      <SexualContent>true</SexualContent>
+      <ReqHeroMinAge>18</ReqHeroMinAge>
+      <ReqHeroSlaveLevelAbove>150</ReqHeroSlaveLevelAbove>
+  </CEEvent>
+  <!-- #region Not Owned -->
+  <CEEvent>
+      <Name>CE_slavery_waiting_menu_5_siege</Name>
+      <Text>{=DefaultWaitingMenus21}{?DAYS}You've been a slave at {SETTLEMENT_NAME} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a slave at {SETTLEMENT_NAME}.{\?}
+There is currently a siege going on so the markets are closed. At least that means you're not on display anymore...</Text>
+      <BackgroundName>BC_image_slavery_cell_kneel_straw</BackgroundName>
+      <MultipleRestrictedListOfFlags>
+          <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+          <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+          <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+          <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+      </MultipleRestrictedListOfFlags>
+
+
+      <ReqCustomCode>true</ReqCustomCode>
+      <SexualContent>true</SexualContent>
+      <ReqHeroMinAge>18</ReqHeroMinAge>
+      <ReqHeroSlaveLevelBelow>150</ReqHeroSlaveLevelBelow>
+  </CEEvent>
+
+  <CEEvent>
+      <Name>CE_slavery_waiting_menu_6_siege</Name>
+      <Text>{=DefaultWaitingMenus22}{?DAYS}You've been a slave at {SETTLEMENT_NAME} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a broken slave at {SETTLEMENT_NAME}.{\?}
+There's a siege going on, and you are servicing the defenders to keep up morale...</Text>
+      <BackgroundName>BC_image_slavery_cell_stand_touch</BackgroundName>
+      <MultipleRestrictedListOfFlags>
+          <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+          <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+          <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+          <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+      </MultipleRestrictedListOfFlags>
+
+
+      <ReqCustomCode>true</ReqCustomCode>
+      <SexualContent>true</SexualContent>
+      <ReqHeroMinAge>18</ReqHeroMinAge>
+      <ReqHeroSlaveLevelAbove>150</ReqHeroSlaveLevelAbove>
+  </CEEvent>
+  <!-- #endregion Not Owned -->
+  <!-- While Party outside-->
+  <CEEvent>
+    <Name>CE_slavery_waiting_menu_7</Name>
+    <Text>{?DAYS}You've been forced to march as a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a traveling slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?}.{\?}</Text>
+    <BackgroundName>BC_image_slavery_white_leash_chain</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationPartyInCastle</RestrictedListOfFlags>
+      <RestrictedListOfFlags>LocationPartyInVillage</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+      <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+      <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>0</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Check if your master needs his slave.</OptionText>
+        <RenownTotal>R -1 -3</RenownTotal>
+        <RelationTotal>R 1 3</RelationTotal>
+        <SlaveryTotal>R 4 12</SlaveryTotal>
+        <PregnancyRiskModifier>1</PregnancyRiskModifier>
+        <TriggerEventName>TB_slavery_anticipation</TriggerEventName>
+        <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+      </Option>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+          <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Try to escape.</OptionText>
+        <RelationTotal>R -1 -7</RelationTotal>
+        <EscapeChance>5</EscapeChance>
+        <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+        <ReqHeroHealthAbovePercentage>33</ReqHeroHealthAbovePercentage>
+      </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+  <!-- While Party is in Town -->
+  <CEEvent>
+      <Name>CE_slavery_waiting_menu_8</Name>
+      <Text>{=DefaultWaitingMenus24}{?DAYS}You've been a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?}.{\?}</Text>
+      <BackgroundName>BC_image_slavery_white_leash_chain</BackgroundName>
+      <MultipleRestrictedListOfFlags>
+          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+          <RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+          <RestrictedListOfFlags>LocationPartyInCastle</RestrictedListOfFlags>
+          <RestrictedListOfFlags>LocationPartyInVillage</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+          <!-- Not Owned and Owned Both play this event -->
+          <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+          <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
+          <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+          <RestrictedListOfFlags>WaitingMenu</RestrictedListOfFlags>
+      </MultipleRestrictedListOfFlags>
+
+      <ReqCustomCode>true</ReqCustomCode>
+      <SexualContent>true</SexualContent>
+      <ReqHeroMinAge>18</ReqHeroMinAge>
+  </CEEvent>
+</CEEvents>

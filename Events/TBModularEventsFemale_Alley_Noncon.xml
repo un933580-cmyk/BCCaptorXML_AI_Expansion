@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_alley_noncon_lobby</Name>
+        <Text>{=TBModularEventsFemale_Alley_Noncon001}Your tormentor leaves you bound helplessly on the cobbles. His semen is dripping from your legs, and you hear him leaving you in the alley and walking away. You're sure he's gone, but anyone could find you naked and used like this any minute.</Text>
+        <BackgroundName>BC_image_sex_alley_used_cuffs</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon010}Struggle to escape your shackles.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Roguery" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_behind</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_mouth</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_ass</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_spanking</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_bondage</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_escape</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_dog</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <!-- <TriggerEvent>
+                        <EventName>TB_alley_noncon_horse</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent> -->
+                    <TriggerEvent>
+                        <EventName>
+                        </EventName>
+                        <EventWeight>0</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon011}Scream for help.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_behind</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_mouth</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_ass</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_spanking</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_bondage</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_rescue</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>
+                        </EventName>
+                        <EventWeight>0</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon012}Pick the lock on your shackles.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Roguery" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_behind</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_mouth</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_ass</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_spanking</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_bondage</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_escape</EventName>
+                        <EventWeight>200</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_alley_noncon_dog</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <!-- <TriggerEvent>
+                        <EventName>TB_alley_noncon_horse</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent> -->
+                    <TriggerEvent>
+                        <EventName>
+                        </EventName>
+                        <EventWeight>0</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="30" />
+                </SkillsRequired>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_alley_noncon_behind</Name>
+        <Text>{=TBModularEventsFemale_Alley_Noncon002}You hear footsteps in the alley once more, then seconds later you feel another penis split your sex, thrusting madly. Before long you hear the now-familiar shortness of breath and frenzied pounding that signifies the end of your ordeal, and then the sickly wetness dripping down your legs. </Text>
+        <BackgroundName>BC_image_sex_alley_used_flagstones</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon013}How much more of this will you have to endure?</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <HealthTotal>R -1 -3</HealthTotal>
+                <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_alley_noncon_mouth</Name>
+        <Text>{=TBModularEventsFemale_Alley_Noncon003}You hear footsteps in the alley once more, and cringe as another intruder approaches. He grabs your hair, using it to hold your mouth still as they thrust through the gag into it. He pounds your raw throat until you're suffocating, before finally yanking you down by the hair, forcing his long shaft down into your throat as his slick bolus of cum fills your tummy. </Text>
+        <BackgroundName>BC_image_sex_alley_ring_cum</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon013}How much more of this will you have to endure?</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -1 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <HealthTotal>R -1 -3</HealthTotal>
+                <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_alley_noncon_ass</Name>
+        <Text>{=TBModularEventsFemale_Alley_Noncon004}You hear footsteps in the alley once more, and cringe as another intruder approaches. You wince in pain as he spreads you with his calloused hands and then savagely introduces his cock into your ass, inch by ripping inch. He whispers encouragement at each cry of pain, licking your neck and ear. With a shudder of ecstasy, you feel a sickly flood inside which bubbles as he slowly withdraws from your pummelled sphincter. </Text>
+        <BackgroundName>BC_image_sex_alley_anal</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon013}How much more of this will you have to endure?</OptionText>
+                <HealthTotal>R -1 -3</HealthTotal>
+                <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_alley_noncon_spanking</Name>
+        <Text>{=TBModularEventsFemale_Alley_Noncon005}You hear footsteps in the alley once more, and cringe as another intruder approaches. "How revolting you are! I can't even rape this slut!"  But then you feel a series of sharp slaps to your ass. He calls you a cum trough and kicks you around, then steps on your hand, squatting over your face to unload his rank seed. He takes a long piss next to your head, spattering you, then spits on you and walks away chuckling. "Trussed up and covered in cum like a tavern slave!"</Text>
+        <BackgroundName>BC_image_sex_alley_used_writing</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon013}How much more of this will you have to endure?</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -15" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <RenownTotal>R -1 -3</RenownTotal>
+                <HealthTotal>R -1 -3</HealthTotal>
+                <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_alley_noncon_bondage</Name>
+        <Text>{=TBModularEventsFemale_Alley_Noncon006}You hear footsteps in the alley once more. Your next tormentor bears rope, and a horse lash. You are stretched out, arms and ankles, then a piece of sack cloth is stuffed into your mouth. Once your breasts are tightly bound as well, the lashing starts. You writhe and scream into your gag, but the lash finds its mark. You've never known this kind of pain, and you fear he has ruined your bosom forever. </Text>
+        <BackgroundName>BC_image_sex_alley_tits</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon013}How much more of this will you have to endure?</OptionText>
+                <RenownTotal>R -1 -3</RenownTotal>
+                <HealthTotal>R -1 -3</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustT" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -2 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_alley_noncon_rescue</Name>
+        <Text>{=TBModularEventsFemale_Alley_Noncon007}You hear footsteps down the alley once more, but this time a womanly gasp of surprise follows. A young, armor-clad woman deftly uses a knife to cut your bindings, staring at your abused body in mixed awe and horror, then goes and fetches a pail of water for you to wash yourself. Once you've finally managed to get the salty taste out of your mouth and the crusty stains off of your body, you...</Text>
+        <BackgroundName>BC_image_companion_sword_sisters</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon014}Thank the woman.</OptionText>
+                <HealthTotal>R 5 10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="Charm" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon015}Try to get some rest.</OptionText>
+                <HealthTotal>R 10 20</HealthTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon016}Hunt down your rapist.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_alley_noncon_revenge</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_alley_noncon_escape</Name>
+        <Text>{=TBModularEventsFemale_Alley_Noncon008}After the longest night of your life, carefully trying to free yourself from your predicament, you finally manage to slip out of your bonds. Exhausted and layered with scum, you wipe off your face and...</Text>
+        <BackgroundName>BC_image_captivity_escape_pixie</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon015}Try to get some rest.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <HealthTotal>R 10 20</HealthTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon016}Hunt down your rapist.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="250" Ref="Hero" />
+                </SkillsToLevel>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveEsteem" Min="5" Ref="Hero" />
+                </SkillsRequired>
+                <TriggerEventName>TB_alley_noncon_revenge</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_alley_noncon_revenge</Name>
+        <Text>{=TBModularEventsFemale_Alley_Noncon009}You rush to the entrance of the alleyway and look around, searching for your abductor, but you find no trace of where they might have gone. You avoid the eyes of the passing townsfolk, and wonder how many of them planted their seed inside you over the past few hours, and how many more will hear of your ordeal...</Text>
+        <BackgroundName>BC_image_street_empty</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBModularEventsFemale_Alley_Noncon015}Try to get some rest.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <HealthTotal>R 10 20</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

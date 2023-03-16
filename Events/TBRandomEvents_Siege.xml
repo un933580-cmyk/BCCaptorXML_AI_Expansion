@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_siege_bad_dinner</Name>
+        <Text>{=TBRandomEvents_Siege001}It seems there's been some issue with today's dinner, and several of your men have grown restless due to hunger.</Text>
+        <BackgroundName>TB_landscape_village</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+			<RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege008}Reassure your troops.</OptionText>
+                <MoraleTotal>R -2 -5</MoraleTotal>
+				<SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege009}Send some of your men to forage.</OptionText>
+                <MoraleTotal>R 1 3</MoraleTotal>
+				<SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege010}Punish the cooks.</OptionText>
+                <MoraleTotal>R -1 1</MoraleTotal>
+				<HealthTotal>R -5 -10</HealthTotal>
+				<SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 150 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqTroopsAbove>2</ReqTroopsAbove>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_siege_information</Name>
+        <Text>{=TBRandomEvents_Siege002}A tired, haggard looking woman approaches, flashing you an eager smile. She tells you your enemies have begun to doubt their resolve, and she has brought details that may help the siege end sooner than expected. Your troops cheer at the news.</Text>
+        <BackgroundName>TB_scion_roadside</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege011}Ask her for the details.</OptionText>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Engineering" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege012}No sense in celebrating yet.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_siege_scouts_good</Name>
+        <Text>{=TBRandomEvents_Siege003}Your scouts return with news that they've procured additional supplies from the surrounding villages.</Text>
+        <BackgroundName>TB_landscape_distant_village</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege013}Plan a feast for your soldiers.</OptionText>
+                <RenownTotal>R 5 10</RenownTotal>
+				<MoraleTotal>R 5 10</MoraleTotal>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege014}Store the supplies for later use.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege015}Stage a feast to demoralize your opponents.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Roguery" ByXP="R 1 300" Ref="Hero" />
+					<Skill Id="Tactics" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+				<SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="30" Ref="Hero"/>
+                </SkillsRequired>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_siege_scouts_bad_reinforcements</Name>
+        <Text>{=TBRandomEvents_Siege004}Your scouts return with news from the enemy camp: It seems they've somehow procured reinforcements. This may prove troublesome in the future...</Text>
+        <BackgroundName>TB_landscape_castle</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege011}Ask them for the details.</OptionText>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege016}Order them to keep this secret from your troops.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege017}Order them to sneak in a spy with these new 'reinforcements'.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Roguery" ByXP="R 1 300" Ref="Hero" />
+					<Skill Id="Tactics" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+				<SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="30" Ref="Hero"/>
+                </SkillsRequired>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_siege_scouts_bad_supplies</Name>
+        <Text>{=TBRandomEvents_Siege005}Your scouts return with news from the enemy camp: It seems the enemy has somehow procured more supplies. This may prove troublesome in the future...</Text>
+        <BackgroundName>TB_landscape_castle</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege011}Ask them for the details.</OptionText>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Scouting" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege016}Order them to keep this secret from your troops.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege018}See if they can poison these 'supplies'.</OptionText>
+				<MoraleTotal>R 5 10</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Roguery" ByXP="R 1 300" Ref="Hero" />
+					<Skill Id="Scouting" ByXP="R 1 300" Ref="Hero" />
+                </SkillsToLevel>
+				<SkillsRequired>
+                    <SkillRequired Id="Roguery" Min="30" Ref="Hero"/>
+                </SkillsRequired>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_siege_deserters</Name>
+        <Text>{=TBRandomEvents_Siege006}Your scouts report that some of your enemy's troops have deserted, tired of being on the losing side of a siege. They are in no condition to fight you, and beg for you to let them join your army.</Text>
+        <BackgroundName>TB_nervous_soldiers</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+			<Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege019}Refuse; you don't need more mouths to feed.</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege020}Conscript them into your army.</OptionText>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SpawnTroops>
+                    <SpawnTroop Ref="Troop" Id="looter" Number="1" WoundedNumber="5" />
+                </SpawnTroops>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege021}Have them killed for desertion.</OptionText>
+				<RenownTotal>R -1 -3</RenownTotal>
+				<MoraleTotal>R 1 3</MoraleTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqTroopsAbove>2</ReqTroopsAbove>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_siege_rescue</Name>
+        <Text>{=TBRandomEvents_Siege007}Some of your scouts have returned; they bravely snuck their way into the enemy camp and freed a number of prisoners, prisoners who are only too happy to join your cause, should you allow it.</Text>
+        <BackgroundName>TB_nervous_soldiers</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+			<Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege019}Refuse; you don't need more mouths to feed.</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Siege020}Conscript them into your army.</OptionText>
+                <RenownTotal>R 1 3</RenownTotal>
+                <SpawnTroops>
+                    <SpawnTroop Ref="Troop" Id="looter" Number="1" WoundedNumber="5" />
+                </SpawnTroops>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <ReqTroopsAbove>2</ReqTroopsAbove>
+    </CEEvent>
+    
+</CEEvents>

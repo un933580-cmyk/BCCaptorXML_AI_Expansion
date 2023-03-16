@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+
+    <CEEvent>
+        <Name>TB_male_hero_female_spouse_visit_sex</Name>
+        <Text>{=TBRandomEvents_Spouse001}Your wife's expert hands grope and knead your body sensuously as she removes your clothing, and before long you are lost in the throes of passion, your manhood deep inside her. {COMPANION_NAME_1}'s squeals and moans echo through the camp to the beat of your thrusts, and as she strokes her clit you come, painting her fertile womb with your seed. She shudders and screams with her own rapturous climax, and you cuddle for some time afterwards, enjoying the intimacy and the feel of her supple breasts against your skin.</Text>
+        <BackgroundName>TB_doggy</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <PregnancyRiskModifier>17</PregnancyRiskModifier>
+                <OptionText>{=TBRandomEvents_Spouse005}Continue your journey.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 15 30" Ref="Hero" Color="Cyan" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Spouse" Location="Any" UseOtherConditions="False" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_male_hero_male_spouse_visit_sex</Name>
+        <Text>{=TBRandomEvents_Spouse002}Your husband's expert hands grope and knead your body sensuously as he removes your clothing, and before long you are lost in the throes of passion, your manhood deep inside him. {COMPANION_NAME_1}'s grunts and moans echo through the camp to the beat of your thrusts, and as he pushes back against you you come, painting his chest with your seed. He shudders and with his own rapturous climax, and you cuddle for some time afterwards, enjoying the intimacy and the feel of his hard body against yours.</Text>
+        <BackgroundName>TB_doggy</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <PregnancyRiskModifier>17</PregnancyRiskModifier>
+                <OptionText>{=TBRandomEvents_Spouse005}Continue your journey.</OptionText>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Spouse" Location="Any" UseOtherConditions="False" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_female_hero_male_spouse_visit_sex</Name>
+        <Text>{=TBRandomEvents_Spouse003}Your husband's expert hands grope and knead your body sensuously as he removes your clothing, and before long you are lost in the throes of passion, his manhood deep inside you. His grunts and moans echo through the camp, and as he pushes deep inside you you come, gripping his cock with your body. He shudders and paints your womb with his own rapturous climax, and you cuddle for some time afterwards, enjoying the intimacy and the feel of his hard body against yours.</Text>
+        <BackgroundName>TB_doggy</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Spouse005}Continue your journey.</OptionText>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Spouse" Location="Any" UseOtherConditions="BC_conditions_hero_male" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_female_hero_female_spouse_visit_sex</Name>
+        <Text>{=TBRandomEvents_Spouse004}Your wife's expert hands grope and knead your body sensuously as she removes your clothing, and before long you are lost in the throes of passion, her tongue deep inside you. Your squeals and moans echo through the camp as you fondle and grope each other's breasts and stroke each other's flowers with a practiced hand, and at last you come, painting her face with your juices. As you return the favor she shudders and screams with her own rapturous climax, and you cuddle for some time afterwards, enjoying the intimacy and the feel of her supple breasts against your skin.</Text>
+        <BackgroundName>TB_doggy</BackgroundName>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Spouse005}Continue your journey.</OptionText>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Spouse" Location="Any" UseOtherConditions="BC_conditions_hero_female" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

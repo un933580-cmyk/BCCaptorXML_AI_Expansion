@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+	<CEEvent>
+        <Name>TB_flowergirl_visit</Name>
+        <Text>{=TBRandomEvents_Flowergirl001}One of the villagers following your army has come to sell fruits and flowers, her green dress emphasizing her bountiful curves. She smiles at you and curtsies politely as befits your station.</Text>
+        <BackgroundName>TB_flowergirl_greendress</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl006}Compliment her.</OptionText>
+				<TriggerEventName>TB_flowergirl_compliment</TriggerEventName>
+				<MoraleTotal>R 3 6</MoraleTotal>
+				<SkillsToLevel>
+					<Skill Id="FlowerGirlFavor" ByLevel="1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl007}Ignore her.</OptionText>
+            </Option>
+			<Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl008}Purchase some of her wares.</OptionText>
+				<MoraleTotal>R 5 10</MoraleTotal>
+				<GoldTotal>R -1 -10</GoldTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+					<Skill Id="FlowerGirlFavor" ByLevel="1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl009}Tell your guards to watch over her.</OptionText>
+				<MoraleTotal>R 5 10</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+					<Skill Id="FlowerGirlFavor" ByLevel="1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+			</Option>
+        </Options>
+		<SkillsRequired>
+			<SkillRequired Id="FlowerGirlFavor" Ref="Hero" Max="0" />
+		</SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_flowergirl_compliment</Name>
+        <Text>{=TBRandomEvents_Flowergirl002}The girl blushes at your attention, thanking you for your kind compliment, and continues on her way.</Text>
+        <BackgroundName>TB_flowergirl_greendress</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+			<RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl010}Perhaps you'll see her again?</OptionText>
+			</Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_flowergirl_visit_after</Name>
+        <Text>{=TBRandomEvents_Flowergirl003}You notice the flower girl in camp again, with the same green dress. She's busy chatting to a few of your soldiers, and doesn't seem to notice your attention.</Text>
+        <BackgroundName>TB_flowergirl_greendress</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl011}Watch her for a while.</OptionText>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl007}Ignore her.</OptionText>
+            </Option>
+			<Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl008}Purchase some of her wares.</OptionText>
+				<MoraleTotal>R 5 10</MoraleTotal>
+				<GoldTotal>R -1 -10</GoldTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+					<Skill Id="FlowerGirlFavor" ByLevel="1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl009}Tell your guards to watch over her.</OptionText>
+				<MoraleTotal>R 5 10</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+					<Skill Id="FlowerGirlFavor" ByLevel="1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+			</Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+		<SkillsRequired>
+			<SkillRequired Id="FlowerGirlFavor" Ref="Hero" Min="1" Max="10" />
+		</SkillsRequired>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_flowergirl_visit_familiar</Name>
+        <Text>{=TBRandomEvents_Flowergirl004}You're politely interrupted by the girl in the green dress, who smiles and curtsies towards you, asking if you have need of any food or flowers today. She seems happy to chat, and comfortable in your presence.</Text>
+        <BackgroundName>TB_flowergirl_greendress</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+			<Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl012}Praise her beauty and work ethic.</OptionText>
+				<TriggerEventName>TB_flowergirl_compliment</TriggerEventName>
+				<MoraleTotal>R 3 6</MoraleTotal>
+				<SkillsToLevel>
+					<Skill Id="FlowerGirlFavor" ByLevel="2" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl013}Invite her to a private moment.</OptionText>
+				<TriggerEventName>TB_flowergirl_proposition</TriggerEventName>
+				<SkillsToLevel>
+					<Skill Id="FlowerGirlFavor" ByLevel="4" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+					<RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl008}Purchase some of her wares.</OptionText>
+				<MoraleTotal>R 5 10</MoraleTotal>
+				<GoldTotal>R -1 -10</GoldTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
+					<Skill Id="FlowerGirlFavor" ByLevel="1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl014}Tell her you're busy.</OptionText>
+				<SkillsToLevel>
+					<Skill Id="FlowerGirlFavor" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+			<Option>
+                <Order>4</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl015}Order her not to bother you.</OptionText>
+				<SkillsToLevel>
+					<Skill Id="FlowerGirlFavor" ByLevel="-5" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+		<SkillsRequired>
+			<SkillRequired Id="FlowerGirlFavor" Ref="Hero" Min="10" />
+		</SkillsRequired>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_flowergirl_proposition</Name>
+        <Text>{=TBRandomEvents_Flowergirl00}The girl blushes brightly, her eyes widening, and apologizes; she is just a young maiden, and did not intend anything untoward. She turns to move away, but glances back, her eyes briefly flickering towards your groin, and swallows nervously before quickly scampering off.</Text>
+        <BackgroundName>TB_flowergirl_greendress</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+			<RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl016}Perhaps she wants courting...</OptionText>
+			</Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

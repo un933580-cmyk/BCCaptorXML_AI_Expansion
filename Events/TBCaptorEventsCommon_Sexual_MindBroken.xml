@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_captor_mindbroken_masochism_f</Name>
+        <Text>You hear a strange cacophony of screams and moans from nearby, and discover {CAPTIVE_NAME} being roughly fucked by a group of your men. They slow down as you approach, and you hear her strained voice beg them to pound her harder, to choke her. They seem somewhat confused but quite enthusiastic, but one glimpse of her lifeless eyes is enough for you to realize she's not looking for pleasure, just begging for death... </Text>
+        <Backgrounds>
+            <Background Name="BC_captor_sex_f_butt_open"/>
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Tell them to stop abusing her.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <MoraleTotal>-5</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Ignore them.</OptionText>
+                <HealthTotal>-10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Join in the fun.</OptionText>
+                <MoraleTotal>10</MoraleTotal>
+                <HealthTotal>-30</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" />
+                    <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_mindbroken_dirty_f</Name>
+        <Text>You notice {CAPTIVE_NAME} slowly plodding along with your party when she falls to the ground, and you realize her body is and exhausted; she's coated from head to toe in cum, cuts, and bruises, her hair disheveled. She quickly stands, still smiling, and begs one of your troops to use her worthless holes. Her her eyes are so filled with despair and hatred that the soldier shudders and tries not to meet her gaze.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_sleeping_dirty"/>
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Wash and clothe her.</OptionText>
+                <MoraleTotal>2</MoraleTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="250" Ref="Captor" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Ignore the wretch.</OptionText>
+                <HealthTotal>10</HealthTotal>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <!-- After events in TBSlaveryEventsFemale_Sexual_Marriage -->
+    <CEEvent>
+        <Name>TB_slavery_marriage_visit</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage001}You're taking a moment to relax in your bed when a man bursts in through the door over your guard's objections. You swallow nervously as you recognize your former master's face and strip and kneel before him automatically, presenting your tongue as a gesture of submission. Your guard pales, leaving you alone, and your tormentor laughs, commenting that his concubine has done well for herself but that she needs a reminder that her true place is writhing on her master's lordly rod. He smiles cruelly and orders you to ready yourself to indulge his depraved desires.</Text>
+        <BackgroundName>TB_master_and_slave</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage015}Beg your master to use his concubine.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_lobby_start</TriggerEventName>
+                <ReqHeroSlaveLevelAbove>100</ReqHeroSlaveLevelAbove>
+                <RenownTotal>R -10 -20</RenownTotal>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage016}Tremble before the man who broke you.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_lobby_start</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+                <RenownTotal>R -5 -10</RenownTotal>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage017}Refuse; you're no longer his slave.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_marriage_resist_fail</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_marriage_resist</EventName>
+                        <EventWeight>10</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <RenownTotal>R 5 10</RenownTotal>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage018}Cut off your rapist's balls.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_divorce</TriggerEventName>
+                <RenownTotal>R 8 30</RenownTotal>
+                <ReqHeroSlaveLevelBelow>50</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqHeroHealthAbovePercentage>50</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
+        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <SkillsRequired>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_lobby_start</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage002}Your master gently pats your head, then grasps your hair painfully with one hand, freeing his cock from his breeches with the other. As it touches your tongue, the taste and smell bring memories of your enslavement flooding back into your mind, and your eyes well with tears as he brutally pulls your mouth onto his manhood, the tip pushing into your throat. You struggle for breath as he presses his balls against your chin, relishing the feeling of your desperately clenching throat around his shaft. As your vision starts to blur he pulls out, filling your mouth and coating your face in pungent seed, and as you cough and wheeze he wipes himself off in your hair.</Text>
+        <BackgroundName>TB_noncon_oral_dirty</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage019}Kneel before your master.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_lobby</TriggerEventName>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_lobby</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage003}You kneel, once again slave to the desires of your monstrous master. He inspects you carefully, considering how next torment his slave-concubine as his iron rod leaves a trail of slime on your body.</Text>
+        <BackgroundName>TB_submit</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage020}Beg your master to use his slave.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_marriage_public</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_marriage_cumdrink</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_marriage_camp_whore</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+                <ReqHeroSlaveLevelAbove>50</ReqHeroSlaveLevelAbove>
+                <ReqHeroHealthAbovePercentage>10</ReqHeroHealthAbovePercentage>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage021}Try to resist your training.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_marriage_resist_fail</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_slavery_marriage_resist</EventName>
+                        <EventWeight>10</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SlaveryTotal>R -3 -6</SlaveryTotal>
+                <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
+                <ReqHeroHealthAbovePercentage>10</ReqHeroHealthAbovePercentage>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage022}Collapse in pain and exhaustion.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_lobby_end</TriggerEventName>
+                <ReqHeroHealthBelowPercentage>10</ReqHeroHealthBelowPercentage>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_resist</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage004}You refuse him, realizing only after you've said the words that you truly meant them, and his smile broadens. He tells you he suspected you were growing rebellious, and that is precisely why he's come to teach you your lesson. He reminds you that should you resist him he will return to crush your pitiful forces with his army, slaughter your men and sell your women as pleasure slaves, then chain your ungrateful cunt to his bed so that you may spend the rest of your life popping out babes for him like the obedient cum-slut you were born to be.</Text>
+        <BackgroundName>TB_character_captor_angry</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage023}Apologize and beg for mercy.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_lobby</TriggerEventName>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage024}Kill him. Painfully.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_divorce</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill ByLevel="-100" Id="Concubine" Ref="Hero" Color="Magenta"/>
+                </SkillsToLevel>
+                <SlaveryTotal>R -80 -100</SlaveryTotal>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+                <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_resist_fail</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage005}You refuse him, but your resistance is half-hearted and he knows it. His smile broadens, and he tells you he's happy to see a bit more fire in your eyes; fucking a broken whore just isn't as fun as watching you struggle to resist your submissive nature. He approaches, whispering that you don't really want to be free, you want to be bent over and fucked, you want to feel your master's cock inside you, marking you as his property. Your protests sound hollow even to you, and your pussy gushes with need.</Text>
+        <BackgroundName>TB_surprise_standing</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage016}Tremble before the man who broke you.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_lobby</TriggerEventName>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_lobby_end</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage006}You collapse in exhaustion, shaking in fear and horror as your master takes his leave. Some of your men gather round protectively, offering you blankets and clothing, but you know they will never look at you the same way again. </Text>
+        <BackgroundName>TB_aftersex_cum</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage025}Will you ever truly be free?</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_divorce</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage007}You kneel submissively before your rapist, and for a moment even you don't know whether you mean it or not. He approaches you, his cursed manhood at full attention as it traces a thin line of slime onto your forehead, and the putrid smell of his cum, the memory of its foulness defiling your body and filling your mouth and sex steels your nerve. In a single motion you rise, pulling a dagger from its hiding place near your bed, and lightly slice his throat. He gurgles pathetically, grasping at his neck as his blood begins to coat your body.</Text>
+        <BackgroundName>TB_slit_throat_naked</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage026}Much too swift a death for him...</OptionText>
+                <TriggerEventName>TB_slavery_marriage_divorce_2</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_divorce_2</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage008}You reach down to grab his testicles, squeezing them, hard, as his eyes widen in shock, silently screaming in unspeakable agony. You hold his struggling body to the ground and slowly, carefully cut off his manhood, raising it to his lips and forcing it down his throat just the way he loved to shove it down yours. He whimpers a final time before dying, and you cut his balls from his body, carefully placing them in a gilded box.</Text>
+        <BackgroundName>TB_slit_throat_naked</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage027}Now to deal with his army.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_divorce_3</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_divorce_3</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage009}You don't bother dressing, covered in blood as you are, but call for your guard, who arrives and briefly screams at the sight before he notices you glaring at him. Explaining the situation, you have him escort you to the battlefield, still naked, where one of your former master's clan-mates walks up to ask what it is you want. He's somewhat cowed by your ghoulish appearance, and you explain that your master has decided to cede his claim on the clan to his successor. You hand the rider the gilded box from earlier, and he startles briefly at its contents, then nods in understanding before walking away.</Text>
+        <BackgroundName>TB_character_guards</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage028}Time for a bath.</OptionText>
+                <SlaveryTotal>R -200 -1000</SlaveryTotal>
+                <MoraleTotal>100</MoraleTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_camp_whore</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage010}Your master chains you to your own bed, covering your eyes with an opaque cloth, and you squirm in anticipation. You hear him leave, and wonder for a moment who will find you here until you hear him return, several other pairs of footsteps with him. You hear brief gasps, then the clinking of coin, and your master comments that they're welcome to fuck the whore however they like, so long as they do no permanent damage. You feel a weight on the bed, and the first of the day's clients swiftly shoves his cock deep into your asshole as you scream in pain and humiliation. 
+        </Text>
+        <BackgroundName>TB_slavery_married_blindfold_whore</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage029}Wait helplessly.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_camp_whore_2</TriggerEventName>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+                <HealthTotal>R -40 -60</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_camp_whore_2</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage011}Your defilement goes on for hours, as man after man roughly uses you, each of them filling one of your holes with disgusting cum. You feel them scratch a tally of your abuse into your legs, and their comments on the number of men you've taken become increasingly vulgar as time goes on. At long last you feel the familiar bend of your master's cock inside you, and he fucks you ragged, reminding you as he does that you will always be his whore.</Text>
+        <BackgroundName>TB_slavery_married_blindfold_whore</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage030}Kneel before your master.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_lobby</TriggerEventName>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+                <HealthTotal>R -40 -60</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_cumdrink</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage012}Your master takes a familiar golden bowl from his pack, telling you that he's had his guards make their favorite slave a special gift. The bowl is filled to the brim with semen, its smell both pungent and disturbingly familiar. He watches you expectantly, and when you hesitate he spanks your ass, as a reminder of the penalty for disobedience. You quickly begin gulping down the foul substance, shuddering as you feel it slide down your throat, and he masturbates to the sight, his cock visibly hardening as you swallow. When you finish, presenting the empty bowl to him as evidence, he knocks it aside and shoves you to the ground. His manhood fills you completely, fully engorged from your earlier performance, and he takes mercifully little time to climax, spraying his seed deep into your womb. </Text>
+        <BackgroundName>TB_cum_bowl_eating</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage030}Kneel before your master.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_lobby</TriggerEventName>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+                <HealthTotal>R -40 -60</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_public</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage013}Your master ties a leash around your neck, then binds your arms tightly behind your back. Finally, he pushes an iron ring into your mouth, holding it open obscenely wide, and fastens the straps attached to it to the back of your head. He smiles at you, warning you that he will not tolerate disobedience, and leads you out into the center of your camp. Your men stare, many but not all of them surprised at your predicament, and your master explains that his concubine has forgotten her place, and he needs witnesses to help him remind her of it.</Text>
+        <BackgroundName>TB_slavery_married_ringgag</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage031}Avoid their curious glances.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_public_2</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_slavery_marriage_public_2</Name>
+        <Text>{=TBRandomEventsFemale_Slavery_Marriage014}He bends you over and wastes no time in shoving his cock painfully into your ass. Your screams are muffled by the gag, and your resistance serves only to give your men a better show as he takes you slowly, bottoming out into your sphincter with every thrust as you try to scream. You feel him growing closer to orgasm, and sigh with relief as he pulls out of you, but he's not done, and forces his filthy manhood into your mouth for a few disgusting thrusts before pushing you onto your back. He thrusts into you a final time, gushing his seed once more into your womb.</Text>
+        <BackgroundName>TB_slavery_married_ringgag</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEventsFemale_Slavery_Marriage030}Kneel before your master.</OptionText>
+                <TriggerEventName>TB_slavery_marriage_lobby</TriggerEventName>
+                <SlaveryTotal>R 4 12</SlaveryTotal>
+                <HealthTotal>R -40 -60</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

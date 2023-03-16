@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <!-- REQUIRED EVENTS CALLED by name FROM CODE -->
+<!-- BC_Captor Captor_M Captive_F Menu Dialogue (template) -->
+    <CEEvent>
+        <Name>CE_captor_male_sexual_menu</Name>
+        <Text>You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for her, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
+        <Backgrounds>
+            <Background Name="BC_captor_captive_female" UseConditions="BC_event_conditions_captive_female" />
+            <Background Name="BC_image_thief_stone_above" UseConditions="BC_event_conditions_captive_thief_female" />
+            <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_pregnant" />
+            <Background Name="BC_image_thief_stone_above" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Court your captive {CAPTIVE_NAME}.</OptionText>                   
+                <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_new</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_new_wife</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>TB_captor_dating_menu</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="SocialEnergy" ByLevel="R 10 20" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+                    <SkillsRequired>
+                        <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+                    </SkillsRequired>
+                <MoraleTotal>-5</MoraleTotal>
+            </Option>
+            <Option>
+                <Order>5</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Send {CAPTIVE_NAME} to the harem.</OptionText>                
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_wife</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_new</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_menu</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                    <SkillsToLevel>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                    </SkillsToLevel>
+                    <SkillsRequired>
+                        <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+                    </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>10</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Send {CAPTIVE_NAME} to the barracks.</OptionText>            
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_wife</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_new</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_menu</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- Overwrite FEMALE Strip back to Harem menu -->
+        <CEEvent>
+            <Name>CE_captor_male_sexual_strip</Name>
+            <Text>You order {CAPTIVE_NAME} to strip before you. She reluctantly complies, standing naked before you as you briefly admire her ample bosom and luscious thighs before handing her a collection of ill-fitting rags with which to clothe herself.</Text>
+            <BackgroundName>BC_image_column_sad</BackgroundName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captor</RestrictedListOfFlags>            
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags> 
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <SkillsToLevel>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                        <Skill Id="CaptiveAffection" ByLevel="R -5 -15" Ref="Hero" HideNotification="true"/>
+                    </SkillsToLevel>
+                    <OptionText>What else do you have in store?</OptionText>
+                    <RelationTotal>-5</RelationTotal>
+                    <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+                </Option>
+            </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <EscapeChance>10</EscapeChance>
+            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+<!-- BC_Captor Captor_F Captive_F Menu Dialogue -->
+    <CEEvent>
+        <Name>CE_captor_female_sexual_menu</Name>
+        <Text>You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for her, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
+        <Backgrounds>
+            <Background Name="BC_captor_captive_female" UseConditions="BC_event_conditions_captive_female" />
+            <Background Name="BC_image_thief_stone_above" UseConditions="BC_event_conditions_captive_thief_female" />
+            <Background Name="BC_captor_waiting_rain" UseConditions="BC_event_conditions_captive_pregnant" />
+            <Background Name="BC_image_thief_stone_above" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Court your captive {CAPTIVE_NAME}.</OptionText>                   
+                <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="SocialEnergy" ByLevel="R 10 20" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+                <SkillsRequired>
+                    <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+                </SkillsRequired>
+                <MoraleTotal>-5</MoraleTotal>
+            </Option>
+            <Option>
+                <Order>5</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Send {CAPTIVE_NAME} to the harem.</OptionText>                
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_wife</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_new</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_menu</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                    <SkillsToLevel>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                    </SkillsToLevel>
+                    <SkillsRequired>
+                        <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+                    </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>10</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Send {CAPTIVE_NAME} to the barracks.</OptionText>            
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_wife</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_new</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_menu</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <EscapeChance>10</EscapeChance>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+<!-- BC_Captor Captor_F Captive_M Menu Dialogue -->
+    <CEEvent>
+        <Name>CE_captor_female_sexual_menu_m</Name>
+        <Text>{CAPTIVE_NAME} kneels bound before you, helpless to resist your whims. What fate do you have in mind for him, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
+        <Text>You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for him?</Text>
+        <BackgroundName>BC_captor_captive_male_hawk</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>            
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Court your captive {CAPTIVE_NAME}.</OptionText>                   
+                <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>TB_captor_dating_menu</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_new_wife</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="SocialEnergy" ByLevel="R 10 20" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+                    <SkillsRequired>
+                        <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+                    </SkillsRequired>
+                <MoraleTotal>-5</MoraleTotal>
+            </Option>
+            <Option>
+                <Order>5</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Send {CAPTIVE_NAME} to the harem.</OptionText>                       
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_wife</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_menu</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                    <SkillsToLevel>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                    </SkillsToLevel>
+                    <SkillsRequired>
+                        <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+                        <SkillRequired Id="Roguery" Min="25" Ref="Captor"/>
+                    </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>10</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Send {CAPTIVE_NAME} to the barracks.</OptionText>           
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_wife</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_menu_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+                    <SkillsRequired>
+                        <SkillRequired Id="Roguery" Min="50" Ref="Captor"/>
+                    </SkillsRequired>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <EscapeChance>10</EscapeChance>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+<!-- BC_Captor Captor_M Captive_M Menu Dialogue -->
+    <CEEvent>
+        <Name>CE_captor_male_sexual_menu_m</Name>
+        <Text>You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for him, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
+        <BackgroundName>BC_captor_captive_male_hawk</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>            
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Have your captive {CAPTIVE_NAME} accompany you privately.</OptionText>                   
+                <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>TB_captor_dating_menu</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_date_new_wife</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="SocialEnergy" ByLevel="R 10 20" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+                    <SkillsRequired>
+                        <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+                    </SkillsRequired>
+                <MoraleTotal>-5</MoraleTotal>
+            </Option>
+            <Option>
+                <Order>5</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Send {CAPTIVE_NAME} to the harem.</OptionText>                       
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_wife</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_harem_menu</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                    <SkillsToLevel>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                    </SkillsToLevel>
+                    <SkillsRequired>
+                        <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+                        <SkillRequired Id="Roguery" Min="25" Ref="Captor"/>
+                    </SkillsRequired>
+            </Option>
+            <Option>
+                <Order>10</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Send {CAPTIVE_NAME} to the barracks.</OptionText>           
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_wife</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_barracks_menu_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
+                </SkillsToLevel>
+                    <SkillsRequired>
+                        <SkillRequired Id="Roguery" Min="50" Ref="Captor"/>
+                    </SkillsRequired>
+            </Option>
+        </Options>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <EscapeChance>10</EscapeChance>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- M_M_Strip for Code-called events; not sure why this one is overwritten while female is not?  -->
+        <CEEvent>
+            <Name>CE_captor_male_sexual_strip_m</Name>
+            <Text>You order {CAPTIVE_NAME} to strip before you. He reluctantly complies, standing naked before you as you briefly note the girth of his shaft and his pert buttocks before handing him a collection of ill-fitting rags with which to clothe himself.</Text>
+            <BackgroundName>default_male</BackgroundName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>What else do you have in store?</OptionText>
+                    <RelationTotal>-10</RelationTotal>
+                    <TriggerEventName>BC_event_male_harem_menu_m</TriggerEventName>
+                </Option>
+            </Options>
+
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <EscapeChance>10</EscapeChance>
+            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+
+
+        <CEEvent>
+            <Name>CE_captor_female_two_female</Name>
+            <Text>{=DefaultCaptorEventsFemale14}{CAPTIVE_NAME} kneels before you, shivering and emaciated. She begs you for some food, pleading that she hasn't had a meal in days, and can scarcely gather the strength to walk. Despite her frailty, you can't help but notice the shapely form beneath her rags and the endearing quiver of her lips. Should such a beauty be left to starve?</Text>
+            <BackgroundName>default_female</BackgroundName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsFemale15}Allow her a brief meal.</OptionText>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>CE_captor_female_two_female_nice</EventName>
+                            <EventWeight>5</EventWeight>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>CE_captor_female_two_female_nice_two</EventName>
+                            <EventWeight>5</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                    <HealthTotal>15</HealthTotal>
+                </Option>
+                <Option>
+                    <Order>1</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsFemale16}Deny her foolish request.</OptionText>
+                    <TriggerEventName>CE_captor_female_two_female_rude</TriggerEventName>
+                </Option>
+            </Options>
+    
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <EscapeChance>10</EscapeChance>
+            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+        <CEEvent>
+            <Name>CE_captor_female_two_female</Name>
+            <Text>{=DefaultCaptorEventsFemale14}{CAPTIVE_NAME} kneels before you, shivering and emaciated. She begs you for some food, pleading that she hasn't had a meal in days, and can scarcely gather the strength to walk. Despite her frailty, you can't help but notice the shapely form beneath her rags and the endearing quiver of her lips. Should such a beauty be left to starve?</Text>
+            <BackgroundName>default_female</BackgroundName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsFemale15}Allow her a brief meal.</OptionText>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>CE_captor_female_two_female_nice</EventName>
+                            <EventWeight>5</EventWeight>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>CE_captor_female_two_female_nice_two</EventName>
+                            <EventWeight>5</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                    <HealthTotal>15</HealthTotal>
+                </Option>
+                <Option>
+                    <Order>1</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsFemale16}Deny her foolish request.</OptionText>
+                    <TriggerEventName>CE_captor_female_two_female_rude</TriggerEventName>
+                </Option>
+            </Options>
+    
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <EscapeChance>10</EscapeChance>
+            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+        <CEEvent>
+            <Name>CE_captor_male_two_male</Name>
+            <Text>{=DefaultCaptorEventsMale37}{CAPTIVE_NAME} kneels before you, shivering and emaciated. He begs you for some food, pleading that he hasn't had a meal in days, and can scarcely gather the strength to walk. Despite his frailty, you can't help but notice the broad shoulders beneath his rags and the endearing quiver of his lips. Should such a handsome figure be left to starve?</Text>
+            <BackgroundName>default_male</BackgroundName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsMale38}Allow him a brief meal.</OptionText>
+                    <TriggerEventName>CE_captor_male_two_male_nice</TriggerEventName>
+                </Option>
+                <Option>
+                    <Order>1</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsMale39}Deny him food.</OptionText>
+                    <TriggerEventName>CE_captor_male_two_male_rude</TriggerEventName>
+                </Option>
+            </Options>
+    
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <EscapeChance>10</EscapeChance>
+            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+        <CEEvent>
+            <Name>CE_captor_female_two_male</Name>
+            <Text>{=DefaultCaptorEventsFemale37}{CAPTIVE_NAME} kneels before you, shivering and emaciated. He begs you for some food, pleading that he hasn't had a meal in days, and can scarcely gather the strength to walk. Despite his frailty, you can't help but notice the broad shoulders beneath his rags and the endearing quiver of his lips. Should such a handsome figure be left to starve?</Text>
+            <BackgroundName>default_male</BackgroundName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsFemale38}Allow him a brief meal.</OptionText>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>CE_captor_female_two_male_nice</EventName>
+                            <EventWeight>5</EventWeight>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>CE_captor_female_two_male_nice_two</EventName>
+                            <EventWeight>5</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                    <HealthTotal>15</HealthTotal>
+                </Option>
+                <Option>
+                    <Order>1</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsFemale39}Deny his foolish request.</OptionText>
+                    <TriggerEventName>CE_captor_female_two_male_rude</TriggerEventName>
+                </Option>
+            </Options>
+    
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <EscapeChance>10</EscapeChance>
+            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
+</CEEvents>

@@ -1,0 +1,1316 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_bandits_noncon_lobby</Name>
+        <Text>You lay on the cold ground, filthy and used, as your captors argue about what to do next. </Text>
+        <BackgroundName>BC_image_captivity_lara_floor</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Scream for help as loud as you can.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_whore</EventName>
+                        <EventWeight>20</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent> 
+                    <!--<TriggerEvent>
+                        <EventName>TB_bandits_noncon_preg</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_tats</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_ass</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_cum</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_tally</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_gang</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_spitroast</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_rescue</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent> -->
+                </TriggerEvents>
+                <ReqHeroHealthAbovePercentage>10</ReqHeroHealthAbovePercentage>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Pass out from exhaustion.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_exhaustion_rescue</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_exhaustion_abandon</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <ReqHeroHealthBelowPercentage>20</ReqHeroHealthBelowPercentage>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_resist</Name>
+        <Text>The man is infuriated by your defiance, and roughly grabs your neck from behind. He yanks your head downward, choking you, using your throat as a brace to pull you down, forcing his cock against your cervix over and over. You scream in agony as he fucks you into submission, but the torture continues, unceasing, until you start to drift in and out of consciousness.</Text>
+        <BackgroundName>BC_image_slavery_ring_floor_choke</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Black out, despite the pain.</OptionText>
+                <RenownTotal>R -2 -5</RenownTotal>
+                <HealthTotal>R -50 -100</HealthTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_exhaustion_rescue</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_exhaustion_abandon</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R -25 10" Ref="Hero" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -2 15" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -2 10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_preg</Name>
+        <Text>One of your tormentors strokes a finger through your raw and tender lips. He explains that he's always fantasized about knocking up a noblewoman. He takes pleasure in describing how your belly will grow fat with his child, and that your bastard will live as a permanent reminder of his power over you, then he forcefully shoves his penis into you as deep as it will go. He's so aroused at the opportunity to satisfy his kink that he doesn't last long, and against your cervix you feel his cock-head spurt its precious cargo into your womb.</Text>
+        <BackgroundName>BC_image_captivity_sex_table</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>I can't have this filthy seed inside me!</OptionText>
+                <PregnancyRiskModifier>3</PregnancyRiskModifier>
+                <HealthTotal>R -1 -5</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_gang</Name>
+        <Text>Several of your aggressors approach you at once, grabbing your arms, lifting you into the air, and turning you about until your abused sex is once again filled with rigid meat. Another unwashed penis is rammed down your throat while you feel a third cock swiftly plunging into you. The friction between your sphincter and cunt is, for a brief moment, delicious, but the feeling passes to agony, and you choke and retch and spit each time the man face-fucking you pulls out of your airway. He coats your mouth and your face in messy spurts, and the others follow suit as the sight of your humiliation pushes them to their limit.</Text>
+        <BackgroundName>BC_image_captivity_sex_gang</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Catch your breath.</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R -5 20" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <PregnancyRiskModifier>1</PregnancyRiskModifier>
+                <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_spitroast</Name>
+        <Text>One of the men kicks you to your knees as another sits down in front of you, grabbing your hair and shoving your face onto his cock. You feel another behind you, and he smacks your ass, then spreads your nether lips, and before long yet another rigid rod is pushing into your vagina. The two men thrust in unison, almost lifting your body in the air, and they call you a Horse-Cum-drinking slut. The one in your mouth has enough, and pinches your nose closed as he fills your throat with salty liquid. The man pounding your cunt accelerates, reaching his own ecstasy as his cock-head punches the entrance to your womb, slick with strangers' cum.</Text>
+        <BackgroundName>BC_image_captivity_sex_spitroast</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Are you really what they say you are?</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R -5 20" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_tats</Name>
+        <Text>You are dragged to the barn where they keep their animals. At first you expect these degenerates to attempt to mate you with a literal horse, but you fight to keep your legs apart as you are lowered onto the iron-clad beam. The pain is excruciating, and they lash your ass until the strength in your legs goes out, laughing as your weight digs the metal ridge deeper into your tender cleft.</Text>
+        <BackgroundName>BC_image_captivity_sex_whip_horse</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>The pain is unbearable!</OptionText>
+                <HealthTotal>R -15 -25</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R -5 20" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 15 50" Ref="Hero" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_ass</Name>
+        <Text>One of your aggressors approaches you from behind, slapping your buttocks. He spits copiously onto your back, rubbing the foul liquid down your ass, across your sex and back up your ass, then without warning shoves his manhood deep into your sphincter. The assembly relishes your anguished screams for a minute or two before he pulls it out, then thrusts back in even harder. This slow torment continues for some time, and you're certain he's done permanent damage to your insides. He finally shoots you full of cum, whispering unspeakable filth into your ear as he lets it leak out of you.</Text>
+        <BackgroundName>BC_image_captivity_sex_anal_wall</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Just try to put it behind you.</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R -5 20" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -5 20" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_cum</Name>
+        <Text>Several of your captors have been pleasuring themselves to the sight of your torture, and now they approach, the first beckoning the others towards you. One of them grabs your hair, forcing you to face upwards as a shower of semen pours forth, each orgasm setting off a chain of moans and gasps as what seems like every inch of you is coated in cum. The men laugh and jeer at your sticky plight, though some of them more thoughtfully seem to be wondering how they'll fuck you now without getting it all over them. </Text>
+        <BackgroundName>BC_image_captivity_sex_bukkake</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to clean off your face.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R 5 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 5 10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>You're losing hope. How long has it been?</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_tally</Name>
+        <Text>Your tormentors start to idly wonder how many times you've been used, but they disagree as to the precise number. To resolve the issue, their leader suggests they mark your skin each time they take you, and before long you find your holes dripping full while they sadistically cut a tally of their abuse into the meat of your ass.</Text>
+        <BackgroundName>BC_image_captivity_tally</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Just try to survive.</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <RenownTotal>R -1 -2</RenownTotal>
+                <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_whore</Name>
+        <Text>One of your captors is unamused by your screaming, and smacks you to attention. He tells you he prefers his women willing, and orders you to play the part of his whore, pleasuring him as you would your husband. He assures you that should you resist, he will fuck you anyway, all the more brutally for having disobeyed him.</Text>
+        <!-- <BackgroundName>BC_image_captive_f_slap</BackgroundName> -->
+        <BackgroundAnimation><!-- hel8 dry slap --><!--  -->
+            <BackgroundName>BC_vid_larahel8_000</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_001</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_002</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_003</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_004</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_005</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_006</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_007</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_008</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_009</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_010</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_011</BackgroundName>
+            <BackgroundName>BC_vid_larahel8_012</BackgroundName>
+            <BackgroundName>BC_vid_larahell_00</BackgroundName>
+            <BackgroundName>BC_vid_larahell_00</BackgroundName>
+            <BackgroundName>BC_vid_larahell_00</BackgroundName>
+            <BackgroundName>BC_vid_larahell_00</BackgroundName>
+            <BackgroundName>BC_vid_larahell_00</BackgroundName>
+            <BackgroundName>BC_vid_larahell_00</BackgroundName>
+            <BackgroundName>BC_vid_larahell_00</BackgroundName>
+            <BackgroundName>BC_vid_larahell_00</BackgroundName>
+            <BackgroundName>BC_vid_larahell_00</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.15</BackgroundAnimationSpeed>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Tell him you're no man's whore.</OptionText>
+                <RenownTotal>R 1 2</RenownTotal>
+                <HealthTotal>R -4 -8</HealthTotal>
+                <TriggerEventName>TB_bandits_noncon_resist</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to smile and reach for his cock.</OptionText>
+                <RenownTotal>R -5 -10</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="Fame" ByLevel="1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <HealthTotal>R -4 -8</HealthTotal>
+                <TriggerEventName>TB_bandits_noncon_whore_obey</TriggerEventName>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveEsteem" Ref="Hero" Max="30" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_whore_obey</Name>
+        <Text>The man smiles fondly as you begin pleasuring him, lightly fondling his testicles as you take the head of his penis into your mouth. It's surprisingly clean, and he moans lightly at your attentions. The other men jeer, gathering around and laughing to see you willingly suck on cock for mercy. He pulls out just at the end; his spunk spatters across your face as the others give a sarcastic cheer, and one of them tosses a solitary rusted copper coin at your feet.</Text>
+        <BackgroundName>BC_image_slavery_oral_blur</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Did you really just pleasure this monster to make him finish sooner? What is happening to you?</OptionText>
+                <RenownTotal>R -1 -5</RenownTotal>
+                <ProstitutionTotal>R 1 3</ProstitutionTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustV" ByLevel="R -5 20" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -5 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero"  />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="Fame" ByLevel="R 1 3" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -10 -20" Ref="Hero" Color="Yellow" />
+                </SkillsToLevel>
+                <TriggerEventName>TB_bandits_noncon_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_bandits_noncon_ring</Name>
+        <Text>Suddenly one of the men standing over you pushes your head back and manages to work his curved cock through the ring, pummeling your throat like a hammer...</Text>
+        <BackgroundAnimation><!-- hel3 close shot, pull back -->
+            <BackgroundName>BC_vid_larahel3_000</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_001</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_002</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_003</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_004</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_005</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_006</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_007</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_008</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_009</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_010</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_011</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_012</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_013</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_014</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_015</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_016</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_017</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_018</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_019</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_020</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_021</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_022</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_023</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_024</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_025</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_026</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_027</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_028</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_029</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_030</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_031</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_032</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_033</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_034</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_035</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_036</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_037</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_038</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_039</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_040</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_041</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_042</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_043</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_044</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_045</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_046</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_047</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_048</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_049</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_050</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_051</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_052</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_053</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_054</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_055</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_056</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_057</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_058</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_059</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_060</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_061</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_062</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_063</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_064</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_065</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_066</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_067</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_068</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_069</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_070</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_071</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_072</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_073</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_074</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_075</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_076</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_077</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_078</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_079</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_080</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_081</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_082</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_083</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_084</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_085</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_086</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_087</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_088</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_089</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_090</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_091</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_092</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_093</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_094</BackgroundName>
+            <BackgroundName>BC_vid_larahel3_095</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.15</BackgroundAnimationSpeed>        
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Just hold on.</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring_under</EventName>
+                        <EventWeight>100</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_bandits_noncon_ring_pov</Name>
+        <Text>You. Can't. Even. Think. You. Can. Barely. Breathe.</Text>
+        <BackgroundAnimation><!-- hel4 male pov loop -->        
+            <BackgroundName>BC_vid_larahel4_000</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_001</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_002</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_003</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_004</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_005</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_006</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_007</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_008</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_009</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_010</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_011</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_012</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_013</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_014</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_015</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_016</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_017</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_018</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_019</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_020</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_021</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_022</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_023</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_024</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_025</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_026</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_027</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_028</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_029</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_030</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_031</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_032</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_033</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_034</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_035</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_036</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_037</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_038</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_039</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_040</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_041</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_042</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_043</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_044</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_045</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_046</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_047</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_048</BackgroundName>
+            <BackgroundName>BC_vid_larahel4_049</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.15</BackgroundAnimationSpeed>        
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Just hold on.</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>                
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring_close</EventName>
+                        <EventWeight>10</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_bandits_noncon_ring_under</Name>
+        <Text>He twists your head and angles his cock straight down your neck, thrusting to feel every inch inside you...</Text>
+        <BackgroundAnimation><!-- hel6 beneath -->
+            <BackgroundName>BC_vid_larahel6_000</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_001</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_002</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_003</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_004</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_005</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_006</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_007</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_008</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_009</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_010</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_011</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_012</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_013</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_014</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_015</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_016</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_017</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_018</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_019</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_020</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_021</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_022</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_023</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_024</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_025</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_026</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_027</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_028</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_029</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_030</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_031</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_032</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_033</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_034</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_035</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_036</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_037</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_038</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_039</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_040</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_041</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_042</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_043</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_044</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_045</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_046</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_047</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_048</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_049</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_050</BackgroundName>
+            <BackgroundName>BC_vid_larahel6_051</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.15</BackgroundAnimationSpeed>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Just hold on.</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>                
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring_wall</EventName>
+                        <EventWeight>20</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring_deep</EventName>
+                        <EventWeight>20</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_bandits_noncon_ring_wall</Name>
+        <Text>His penis pummels the back of your throat completely open, pumping air and spit into your stomach fifty, one hundred, three hundred times, before you lose count in a blur...</Text>
+        <BackgroundAnimation><!-- hel5 profile loop leg down hel5 --><!--  -->
+            <BackgroundName>BC_vid_larahel5_000</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_001</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_002</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_003</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_004</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_005</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_006</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_007</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_008</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_009</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_010</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_011</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_012</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_013</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_014</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_015</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_016</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_017</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_018</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_019</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_020</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_021</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_022</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_023</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_024</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_025</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_026</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_027</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_028</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_029</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_030</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_031</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_032</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_033</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_034</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_035</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_036</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_037</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_038</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_039</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_040</BackgroundName>
+            <BackgroundName>BC_vid_larahel5_041</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.15</BackgroundAnimationSpeed>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Just hold on.</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring_pov</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring_deep</EventName>
+                        <EventWeight>20</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_bandits_noncon_ring_deep</Name>
+        <Text>Your slobber is thick, and bubbles from your nose as the man slides in and out, punishing your throat.</Text>
+        <BackgroundAnimation><!-- hell5080 deep push loop leg up -->
+            <BackgroundName>BC_vid_larahell_053</BackgroundName>
+            <BackgroundName>BC_vid_larahell_054</BackgroundName>
+            <BackgroundName>BC_vid_larahell_055</BackgroundName>
+            <BackgroundName>BC_vid_larahell_056</BackgroundName>
+            <BackgroundName>BC_vid_larahell_057</BackgroundName>
+            <BackgroundName>BC_vid_larahell_058</BackgroundName>
+            <BackgroundName>BC_vid_larahell_059</BackgroundName>
+            <BackgroundName>BC_vid_larahell_060</BackgroundName>
+            <BackgroundName>BC_vid_larahell_061</BackgroundName>
+            <BackgroundName>BC_vid_larahell_062</BackgroundName>
+            <BackgroundName>BC_vid_larahell_063</BackgroundName>
+            <BackgroundName>BC_vid_larahell_064</BackgroundName>
+            <BackgroundName>BC_vid_larahell_065</BackgroundName>
+            <BackgroundName>BC_vid_larahell_066</BackgroundName>
+            <BackgroundName>BC_vid_larahell_067</BackgroundName>
+            <BackgroundName>BC_vid_larahell_068</BackgroundName>
+            <BackgroundName>BC_vid_larahell_069</BackgroundName>
+            <BackgroundName>BC_vid_larahell_070</BackgroundName>
+            <BackgroundName>BC_vid_larahell_071</BackgroundName>
+            <BackgroundName>BC_vid_larahell_072</BackgroundName>
+            <BackgroundName>BC_vid_larahell_073</BackgroundName>
+            <BackgroundName>BC_vid_larahell_074</BackgroundName>
+            <BackgroundName>BC_vid_larahell_075</BackgroundName>
+            <BackgroundName>BC_vid_larahell_076</BackgroundName>
+            <BackgroundName>BC_vid_larahell_077</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.15</BackgroundAnimationSpeed>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Just hold on.</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring_pov</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring_wall</EventName>
+                        <EventWeight>20</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_bandits_noncon_ring_close</Name>
+        <Text>He pulls you onto him as forcefully as possible, flattening your nose with his crotch...</Text>
+        <BackgroundAnimation><!-- hell 0-14; deep push  -->
+            <BackgroundName>BC_vid_larahell_000</BackgroundName>
+            <BackgroundName>BC_vid_larahell_001</BackgroundName>
+            <BackgroundName>BC_vid_larahell_002</BackgroundName>
+            <BackgroundName>BC_vid_larahell_003</BackgroundName>
+            <BackgroundName>BC_vid_larahell_004</BackgroundName>
+            <BackgroundName>BC_vid_larahell_005</BackgroundName>
+            <BackgroundName>BC_vid_larahell_006</BackgroundName>
+            <BackgroundName>BC_vid_larahell_007</BackgroundName>
+            <BackgroundName>BC_vid_larahell_008</BackgroundName>
+            <BackgroundName>BC_vid_larahell_009</BackgroundName>
+            <BackgroundName>BC_vid_larahell_010</BackgroundName>
+            <BackgroundName>BC_vid_larahell_011</BackgroundName>
+            <BackgroundName>BC_vid_larahell_012</BackgroundName>
+            <BackgroundName>BC_vid_larahell_013</BackgroundName>
+            <BackgroundName>BC_vid_larahell_014</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.15</BackgroundAnimationSpeed>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Just hold on.</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_bandits_noncon_ring_finish</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_bandits_noncon_ring_finish</Name>
+        <Text>Just as you notice your lips and tongue are numb to the sensation, the man tenses and grabs hold of your ears. His jism blocks your airway, and you try to cough for breath, then...</Text>
+        <BackgroundAnimation><!-- hel2 mouthshot -->
+            <BackgroundName>BC_vid_larahel2_000</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_001</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_002</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_003</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_004</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_005</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_006</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_007</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_008</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_009</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_010</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_011</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_012</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_013</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_014</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_015</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_016</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_017</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_018</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_019</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_020</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_021</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_022</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_023</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_024</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_025</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_026</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_027</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_028</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_029</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_030</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_031</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_032</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_033</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_034</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_035</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_036</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_037</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_038</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_039</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_040</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_041</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_042</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_043</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_044</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_045</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_046</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_047</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_048</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_049</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_050</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_051</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_052</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_053</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_054</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_055</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_056</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_057</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_058</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_059</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_060</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_061</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_062</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_063</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_064</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_065</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_066</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_067</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_068</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_069</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_070</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_071</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_072</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_073</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_074</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_075</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_076</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_077</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_078</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_079</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_080</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_081</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_082</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_083</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_084</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_085</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_086</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_087</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_088</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_089</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_090</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_091</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_092</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_093</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_094</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_095</BackgroundName>
+            <BackgroundName>BC_vid_larahel2_096</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_097</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_098</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_099</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_100</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_101</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_102</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_103</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_104</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_105</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_106</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_107</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_108</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_109</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_110</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_111</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_112</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_113</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_114</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_115</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_116</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_117</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_118</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_119</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_120</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_121</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_122</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_123</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_124</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_125</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_126</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_127</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_128</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_129</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_130</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_131</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_132</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_133</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_134</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_135</BackgroundName>
+          <BackgroundName>BC_vid_larahel2_136</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+          <BackgroundName>BC_vid_larahell_00</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>0.11</BackgroundAnimationSpeed>
+         <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>...</OptionText>
+                <HealthTotal>R -5 -10</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_lobby</EventName>
+                        <EventWeight>50</EventWeight>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_bandits_noncon_whore</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_exhaustion_rescue</Name>
+        <Text>You fall into fitful sleep as your abused body grows too exhausted to continue. When you wake, you are once again in your camp, one of your men sheepishly watching over you. It seems you have been washed, some of your bruises tended to, and a blanket laid across your body, but the man nervously admits they arrived too late to catch any of your tormentors, and word of your fate has begun spreading around the camp.</Text>
+        <BackgroundName>BC_image_captivity_lara_escape</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>At least you're still alive...</OptionText>
+                <RenownTotal>R 1 -5</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R 25 50" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_exhaustion_abandon</Name>
+        <Text>You fall into fitful sleep as your abused body grows too exhausted to continue. When you wake, you are alone, your equipment stolen. Your body aches from abuse, and semen oozes from every pore; you feel dirty and exhausted, but you are free. For now.</Text>
+        <BackgroundName>BC_image_captivity_escape_mud</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>At least you're still alive...</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R 25 50" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_bandits_noncon_rescue</Name>
+        <Text>As the next man shoves his cock in your face, you hear a commotion from back towards your camp. It seems some of your clansmen have come to the rescue! They quickly intervene, slaughtering your abusers to a man. One of your sergeants quickly arranges a bucket of water for you to clean with and a fresh set of clothes, but you can tell from their expressions they won't soon forget the sight of your naked, bruised flesh.</Text>
+        <BackgroundName>BC_image_captivity_lara_escape</BackgroundName>
+        <NotificationName>TB_travelling_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue on your way.</OptionText>
+                <RenownTotal>R -1 -5</RenownTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveEsteem" ByLevel="R 25 50" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>
