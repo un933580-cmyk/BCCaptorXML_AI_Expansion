@@ -4,9 +4,9 @@
     <!-- female companion date-me events -->    
     <!-- Debut:: set Preferences -->
     
-    <CEEvent>
+    <CEEvent> 
         <Name>BC_companion_debut_f_player_f</Name>
-        <Text>You and {COMPANION_NAME_1} have been spending quite a lot of time together...</Text>
+        <Text>{=BCCaptor_Text_12100}You and {COMPANION_NAME_1} have been spending quite a lot of time together...</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_f_brun_cape" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_companion_f_blonde_basket" UseConditions="BC_conditions_hero_male"/>
@@ -24,7 +24,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny. Make a pass at {COMPANION_NAME_1}.</OptionText> 
+                <OptionText>{=BCCaptor_Text_12101}You *are* feeling a bit horny. Make a pass at {COMPANION_NAME_1}.</OptionText> 
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero"  HideNotification="true"/>
                 </SkillsToLevel>
@@ -63,7 +63,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>...it's not like that, though.</OptionText>
+                <OptionText>{=BCCaptor_Text_12102}...it's not like that, though.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero"  HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -105,7 +105,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_date_f</Name>
-        <Text>{COMPANION_NAME_1} finds you with some time to yourself...</Text>
+        <Text>{=BCCaptor_Text_12103}{COMPANION_NAME_1} finds you with some time to yourself...</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_f_brun_cape" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_companion_f_blonde_basket" UseConditions="BC_conditions_hero_male"/>
@@ -122,7 +122,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Follow her to the bedroom...</OptionText>
+                <OptionText>{=BCCaptor_Text_12104}Follow her to the bedroom...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero"  HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R 1 -7" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -162,7 +162,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Ignore her.</OptionText>
+                <OptionText>{=BCCaptor_Text_12105}Ignore her.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 3 7" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 3 7" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -203,7 +203,7 @@
     
 	<CEEvent>
         <Name>TB_companion_horny_devoted_f_player_f</Name>
-        <Text>{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
+        <Text>{=BCCaptor_Text_12106}{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_clothes" />
         </Backgrounds>
@@ -221,7 +221,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12107}Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
                 <SlaveryTotal>R 1 3</SlaveryTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -252,7 +252,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -283,7 +283,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Politely decline.</OptionText>
+                <OptionText>{=BCCaptor_Text_12109}Politely decline.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -308,7 +308,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_horny_devoted_f_player_m</Name>
-        <Text>{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
+        <Text>{=BCCaptor_Text_12106}{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_clothes" />
         </Backgrounds>
@@ -326,7 +326,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12107}Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
                 <SlaveryTotal>R 1 3</SlaveryTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -358,7 +358,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -390,7 +390,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Politely decline.</OptionText>
+                <OptionText>{=BCCaptor_Text_12109}Politely decline.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -415,7 +415,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_horny_devoted_m_player_f</Name>
-        <Text>{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
+        <Text>{=BCCaptor_Text_12106}{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male"/>
         </Backgrounds>
@@ -434,7 +434,7 @@
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12107}Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
                 <SlaveryTotal>R 1 3</SlaveryTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -459,7 +459,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -483,7 +483,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Politely decline.</OptionText>
+                <OptionText>{=BCCaptor_Text_12109}Politely decline.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -508,7 +508,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_horny_devoted_m_player_m</Name>
-        <Text>{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
+        <Text>{=BCCaptor_Text_12106}{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male"/>
         </Backgrounds>
@@ -526,7 +526,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12107}Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
                 <SlaveryTotal>R 1 3</SlaveryTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -551,7 +551,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -575,7 +575,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Politely decline.</OptionText>
+                <OptionText>{=BCCaptor_Text_12109}Politely decline.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -601,7 +601,7 @@
 
     <CEEvent>
         <Name>TB_companion_horny_f_player_f</Name>
-        <Text>{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
+        <Text>{=BCCaptor_Text_12106}{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_clothes" />
         </Backgrounds>
@@ -619,7 +619,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12107}Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
                 <SlaveryTotal>R 1 3</SlaveryTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -650,7 +650,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -681,7 +681,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Politely decline.</OptionText>
+                <OptionText>{=BCCaptor_Text_12109}Politely decline.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -707,7 +707,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_horny_f_player_m</Name>
-        <Text>{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
+        <Text>{=BCCaptor_Text_12106}{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
         <Backgrounds>
             <Background Name="TB_scion_clothes" />
         </Backgrounds>
@@ -725,7 +725,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12107}Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
                 <SlaveryTotal>R 1 3</SlaveryTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -757,7 +757,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -788,7 +788,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Politely decline.</OptionText>
+                <OptionText>{=BCCaptor_Text_12109}Politely decline.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -814,7 +814,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_horny_m_player_f</Name>
-        <Text>{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
+        <Text>{=BCCaptor_Text_12106}{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male"/>
         </Backgrounds>
@@ -833,7 +833,7 @@
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12107}Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
                 <SlaveryTotal>R 1 3</SlaveryTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -865,7 +865,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -896,7 +896,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Politely decline.</OptionText>
+                <OptionText>{=BCCaptor_Text_12109}Politely decline.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -925,7 +925,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_horny_m_player_m</Name>
-        <Text>{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
+        <Text>{=BCCaptor_Text_12106}{COMPANION_NAME_1} approaches you, obvious lust in {?COMPANIONISFEMALE_1}her eyes as she squirms in arousal, seductively wiggling her ass. She presses her chest against yours, whispering into your ear, and asks if you'd like to spend a few hours plundering her body's treasures.{?}his eyes as his pants bulge with arousal, seductively licking his lips. He presses his chest against yours, whispering into your ear, and asks if you'd like to spend a few hours letting him plunder your body's treasures.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male"/>
         </Backgrounds>
@@ -944,7 +944,7 @@
                     <RestrictedListOfConsequences>ChangeSlaveryLevel</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12107}Obediently beg {?COMPANIONISFEMALE_1}her{?}him{\?} to fuck you.</OptionText>
                 <SlaveryTotal>R 1 3</SlaveryTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
@@ -976,7 +976,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -1007,7 +1007,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Politely decline.</OptionText>
+                <OptionText>{=BCCaptor_Text_12109}Politely decline.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -1062,7 +1062,7 @@
     -->
     <CEEvent>
         <Name>TB_companion_sex_f</Name>
-        <Text>You give chase, leading {COMPANION_NAME_1} to a private spot, and each sensuously begin removing your clothes...</Text>
+        <Text>{=BCCaptor_Text_12110}You give chase, leading {COMPANION_NAME_1} to a private spot, and each sensuously begin removing your clothes...</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_f_brun_cleopatra" UseConditions="BC_conditions_random_devoted_f"/>
             <Background Name="BC_image_f_strap_suit" UseConditions="BC_conditions_random_broken_f"/>
@@ -1081,7 +1081,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Kiss her.</OptionText>
+                <OptionText>{=BCCaptor_Text_12111}Kiss her.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero"  HideNotification="true"/>
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -1162,7 +1162,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave her to rest and continue battle preparations.</OptionText>
+                <OptionText>{=BCCaptor_Text_12112}Leave her to rest and continue battle preparations.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -1209,7 +1209,7 @@
     <!-- shy, slut, freak-->
     <CEEvent>
         <Name>BC_event_companion_sex_f_shy_1</Name>
-        <Text>{COMPANION_NAME_1} starts out timidly at your touch, so you explore her body leisurely... Finally, after her skin has flushed appreciably, you take your opportunity and turn {COMPANION_NAME_1}'s legs to one side, then the other, her flower unable to help but stay open for you. You finally slip inside her, taking her heat all around your{?PLAYER.GENDER} hand.{?}self.{\?}, again taking your time and your full measure of her body as you steadily work toward an orgasm.</Text>
+        <Text>{=BCCaptor_Text_12113}{COMPANION_NAME_1} starts out timidly at your touch, so you explore her body leisurely... Finally, after her skin has flushed appreciably, you take your opportunity and turn {COMPANION_NAME_1}'s legs to one side, then the other, her flower unable to help but stay open for you. You finally slip inside her, taking her heat all around your{?PLAYER.GENDER} hand.{?}self.{\?}, again taking your time and your full measure of her body as you steadily work toward an orgasm.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_side" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_rub_bath" UseConditions="BC_conditions_hero_female" />
@@ -1234,7 +1234,7 @@
                     <Skill Id="CaptiveLustT" ByLevel="R -20 5" Ref="Hero" Color="Yellow"  HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -20 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Such a sweet lover...</OptionText>
+                <OptionText>{=BCCaptor_Text_12114}Such a sweet lover...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -1264,7 +1264,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_shy_2</Name>
-        <Text>{COMPANION_NAME_1} starts out timidly at your touch, so you explore her body leisurely... Finally, {COMPANION_NAME_1} opens her legs, pulling you toward her heat. The two of you collide and slip over and past each other in a frenzy of grabbing and gasping...</Text>
+        <Text>{=BCCaptor_Text_12115}{COMPANION_NAME_1} starts out timidly at your touch, so you explore her body leisurely... Finally, {COMPANION_NAME_1} opens her legs, pulling you toward her heat. The two of you collide and slip over and past each other in a frenzy of grabbing and gasping...</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_table" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_light_room" UseConditions="BC_conditions_hero_female" />
@@ -1289,7 +1289,7 @@
                     <Skill Id="CaptiveLustA" ByLevel="R -20 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Such a fantastic lover...</OptionText>
+                <OptionText>{=BCCaptor_Text_12116}Such a fantastic lover...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -1320,7 +1320,7 @@
 
     <CEEvent>
         <Name>BC_event_companion_sex_f_slut_1</Name>
-        <Text>A few sensuous hours later and with a great yell, {COMPANION_NAME_1} finally collapses in exhaustion, your fluids coating her face and legs.</Text>
+        <Text>{=BCCaptor_Text_12117}A few sensuous hours later and with a great yell, {COMPANION_NAME_1} finally collapses in exhaustion, your fluids coating her face and legs.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_creampie_2" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_captor_sex_f_kiss_moon" UseConditions="BC_conditions_hero_female" />
@@ -1345,7 +1345,7 @@
                     <Skill Id="CaptiveLustA" ByLevel="R -30 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Such a lucky little lover...</OptionText>
+                <OptionText>{=BCCaptor_Text_12118}Such a lucky little lover...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -1375,7 +1375,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_slut_2</Name>
-        <Text>A few sensuous hours later and with a great yell, {COMPANION_NAME_1} finally collapses in exhaustion, your fluids coating her face and legs.</Text>
+        <Text>{=BCCaptor_Text_12119}A few sensuous hours later and with a great yell, {COMPANION_NAME_1} finally collapses in exhaustion, your fluids coating her face and legs.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_f_facial_jewelry" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_kissing_2" UseConditions="BC_conditions_hero_female" />
@@ -1400,7 +1400,7 @@
                     <Skill Id="CaptiveLustA" ByLevel="R -7 -2" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>So beautiful when the light shows her like this...</OptionText>
+                <OptionText>{=BCCaptor_Text_12120}So beautiful when the light shows her like this...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -1431,7 +1431,7 @@
     
     <CEEvent>
         <Name>BC_event_companion_sex_f_freak</Name>
-        <Text>{COMPANION_NAME_1} starts on you, whispering, "I'm going to please every inch of you...with every bit of me..."</Text>
+        <Text>{=BCCaptor_Text_12121}{COMPANION_NAME_1} starts on you, whispering, "I'm going to please every inch of you...with every bit of me..."</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_freak_1" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_freak_1" UseConditions="BC_conditions_hero_female" />
@@ -1457,7 +1457,7 @@
                     <Skill Id="CaptiveLustA" ByLevel="R -10 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Such an experimental lover...</OptionText>
+                <OptionText>{=BCCaptor_Text_12122}Such an experimental lover...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -1486,7 +1486,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_freak_2</Name>
-        <Text>(slut 1) A few intense hours later and with a great yell, {COMPANION_NAME_1} finally collapses in exhaustion, your fluids coating her face and legs.</Text>
+        <Text>{=BCCaptor_Text_12123}A few intense hours later and with a great yell, {COMPANION_NAME_1} finally collapses in exhaustion, your fluids coating her face and legs.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_freak_2" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_freak_2" UseConditions="BC_conditions_hero_female" />
@@ -1511,7 +1511,7 @@
                     <Skill Id="CaptiveLustA" ByLevel="R -30 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Such a mindblowing lover...</OptionText>
+                <OptionText>{=BCCaptor_Text_12124}Such a mindblowing lover...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -1542,7 +1542,7 @@
     <!-- Preference Gates -->
     <CEEvent>
         <Name>BC_event_companion_sex_f_lusta</Name>
-        <Text>{COMPANION_NAME_1} bends over very low, and you {?PLAYER.GENDER}train her delicious asshole all afternoon until you can fit your hand past the thumb... She sounds like a lioness when you flex your fingers inside.{?} tease her delicious asshole, first with a wet finger, all afternoon until your head pops inside her, and she keens further back onto you in ecstasy.{\?}</Text>
+        <Text>{=BCCaptor_Text_12125}{COMPANION_NAME_1} bends over very low, and you {?PLAYER.GENDER}train her delicious asshole all afternoon until you can fit your hand past the thumb... She sounds like a lioness when you flex your fingers inside.{?} tease her delicious asshole, first with a wet finger, all afternoon until your head pops inside her, and she keens further back onto you in ecstasy.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_anal_aserai" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_knees_fingers" UseConditions="BC_conditions_hero_female" />
@@ -1563,7 +1563,7 @@
                     <Skill Id="CaptiveLustA" ByLevel="R -2 -6" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Such a fantastic ass...</OptionText>
+                <OptionText>{=BCCaptor_Text_12126}Such a fantastic ass...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -1593,7 +1593,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_lustc</Name>
-        <Text>{COMPANION_NAME_1} is helpless under the thrall of your tongue.</Text>
+        <Text>{=BCCaptor_Text_12127}{COMPANION_NAME_1} is helpless under the thrall of your tongue.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_oral" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_knees_blindfold" UseConditions="BC_conditions_hero_female" />
@@ -1614,7 +1614,7 @@
                     <Skill Id="CaptiveLustC" ByLevel="R -2 -6" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Such a luscious treasure...</OptionText>
+                <OptionText>{=BCCaptor_Text_12128}Such a luscious treasure...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -1644,7 +1644,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_lusto</Name>
-        <Text>{COMPANION_NAME_1} buries their face in your legs and does something amazing and wet to you, stopping you in your tracks as you plummet uncontrollably to an almost painful orgasm.</Text>
+        <Text>{=BCCaptor_Text_12129}{COMPANION_NAME_1} buries their face in your legs and does something amazing and wet to you, stopping you in your tracks as you plummet uncontrollably to an almost painful orgasm.</Text>
         <Backgrounds>
             <Background Name="BC_captor_sex_ttf_oral_laying_collar" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_face_sit_up" UseConditions="BC_conditions_hero_female" />
@@ -1661,7 +1661,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Such a fantastic tongue...</OptionText>
+                <OptionText>{=BCCaptor_Text_12130}Such a fantastic tongue...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R -2 -6" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -1695,7 +1695,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_lustt</Name>
-        <Text>{COMPANION_NAME_1} Tits event...</Text>
+        <Text>{=BCCaptor_Text_12131}{COMPANION_NAME_1} Tits event...</Text>
         <Backgrounds>
             <Background Name="BC_captive_f_titjob_big" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_companion_aloy_tits" UseConditions="BC_conditions_hero_female" />
@@ -1712,7 +1712,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Such a fantastic pair...</OptionText>
+                <OptionText>{=BCCaptor_Text_12132}Such a fantastic pair...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustT" ByLevel="R -2 -6" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -1746,7 +1746,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_lustv</Name>
-        <Text>{COMPANION_NAME_1} opens herself up to you so fully and completely you feel you may fall right through her...</Text>
+        <Text>{=BCCaptor_Text_12133}{COMPANION_NAME_1} opens herself up to you so fully and completely you feel you may fall right through her...</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_behind_head_down" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_companion_aloy_vag" UseConditions="BC_conditions_hero_female" />
@@ -1763,7 +1763,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Such a fantastic-feeling pussy...</OptionText>
+                <OptionText>{=BCCaptor_Text_12134}Such a fantastic-feeling pussy...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R -2 -6" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -1800,7 +1800,7 @@
 <!-- Companion Black Bondage-->  
     <CEEvent>
         <Name>BC_event_companion_devoted_train_f_menu</Name>
-        <Text>{COMPANION_NAME_1} finds you with a willingness to teach her flesh some of its limits...</Text>
+        <Text>{=BCCaptor_Text_12135}{COMPANION_NAME_1} finds you with a willingness to teach her flesh some of its limits...</Text>
         <Backgrounds>
             <!-- <Background Name="BC_image_f_sitting_brun" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_sex_ttv_pool" UseConditions="BC_conditions_hero_male"/> -->
@@ -1817,7 +1817,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Treat her like a slab of meat.</OptionText>
+                <OptionText>{=BCCaptor_Text_12136}Treat her like a slab of meat.</OptionText>
                 <TriggerEventName>BC_event_companion_devoted_train_f_01</TriggerEventName>
                 <Companions>
                     <Companion Id="1">
@@ -1835,7 +1835,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Return to your duties.</OptionText>
+                <OptionText>{=DefaultBanditEventsFemale55}Return to your duties.</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveLustA" Max="150" />
                 </SkillsRequired>
@@ -1861,7 +1861,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_devoted_train_f_01</Name>
-        <Text>{COMPANION_NAME_1} grows silent as you tie her legs spread open and angle her pussy for use. Her hole grows wetter and hotter the more roughly you throw her around.</Text>
+        <Text>{=BCCaptor_Text_12137}{COMPANION_NAME_1} grows silent as you tie her legs spread open and angle her pussy for use. Her hole grows wetter and hotter the more roughly you throw her around.</Text>
         <Backgrounds>
             <!-- <Background Name="BC_image_f_sitting_brun" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_sex_ttv_pool" UseConditions="BC_conditions_hero_male"/> -->
@@ -1879,7 +1879,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>She has shut the fuck up for once!</OptionText>
+                <OptionText>{=BCCaptor_Text_12138}She has shut the fuck up for once!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R 20 6" Ref="Hero" Color="Yellow"  HideNotification="true" />
                 </SkillsToLevel>
@@ -1909,7 +1909,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_devoted_train_f_02</Name>
-        <Text>You found {COMPANION_NAME_1}'s thrashing away from you to be a bit inconvenient, so you fasten her in place.</Text>
+        <Text>{=BCCaptor_Text_12139}You found {COMPANION_NAME_1}'s thrashing away from you to be a bit inconvenient, so you fasten her in place.</Text>
         <Backgrounds>
             <!-- <Background Name="BC_image_f_sitting_brun" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_sex_ttv_pool" UseConditions="BC_conditions_hero_male"/> -->
@@ -1927,7 +1927,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Stay still, fucking slut...</OptionText>
+                <OptionText>{=BCCaptor_Text_12140}Stay still, fucking slut...</OptionText>
                 <TriggerEventName>BC_event_companion_devoted_train_f_03</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 20 6" Ref="Hero" Color="Yellow"  HideNotification="true" />
@@ -1958,7 +1958,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_devoted_train_f_03</Name>
-        <Text>The tears finally stop after some time, as you punish {COMPANION_NAME_1}'s little pussy, staring into her eyes and wildly thrashing into her tightly restrained body. You take your own measure, and make sure to fill the slut {?PLAYER.GENDER}with four of the thickest mace-handles you can find{?}to spilling at least four times over{\?} before leaving her with the hook up her ass.</Text>
+        <Text>{=BCCaptor_Text_12141}The tears finally stop after some time, as you punish {COMPANION_NAME_1}'s little pussy, staring into her eyes and wildly thrashing into her tightly restrained body. You take your own measure, and make sure to fill the slut {?PLAYER.GENDER}with four of the thickest mace-handles you can find{?}to spilling at least four times over{\?} before leaving her with the hook up her ass.</Text>
         <Backgrounds>
             <!-- 
             <Background Name="BC_image_sex_ttv_pool BC_image_sex_mf_ttr_oral_gag" UseConditions="BC_conditions_hero_male"/> -->
@@ -1977,7 +1977,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>"Stay here, {COMPANION_NAME_1}, {?PLAYER.GENDER}and get used to these shafts.{?}and leak my cum out.{\?} I might even untie you once I fuck you again."</OptionText>
+                <OptionText>{=BCCaptor_Text_12142}&quot;Stay here, {COMPANION_NAME_1}, {?PLAYER.GENDER}and get used to these shafts.{?}and leak my cum out.{\?} I might even untie you once I fuck you again.&quot;</OptionText>
                 <!-- <TriggerEventName>BC_event_companion_devoted_train_f_menu</TriggerEventName> -->
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 2 6" Ref="Hero" Color="Yellow"  HideNotification="true" />
@@ -2018,7 +2018,7 @@
 <!-- Devoted Companion comes to you-->
     <CEEvent>
         <Name>BC_event_companion_devoted_date_f</Name>
-        <Text>{COMPANION_NAME_1} finds you with some time to yourself...</Text>
+        <Text>{=BCCaptor_Text_12103}{COMPANION_NAME_1} finds you with some time to yourself...</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_f_brun_cape" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_companion_f_blonde_basket" UseConditions="BC_conditions_hero_male"/>
@@ -2034,7 +2034,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Follow her to the bedroom...</OptionText>
+                <OptionText>{=BCCaptor_Text_12104}Follow her to the bedroom...</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <TriggerEvents>
                     <!-- <TriggerEvent>
@@ -2066,7 +2066,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Teach the uppity whore not to interrupt...</OptionText>
+                <OptionText>{=BCCaptor_Text_12143}Teach the uppity whore not to interrupt...</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <SkillsRequired>
                     <SkillRequired Id="Roguery" Min="100" Ref="Captor" />
@@ -2101,7 +2101,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Ignore her.</OptionText>
+                <OptionText>{=BCCaptor_Text_12105}Ignore her.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -2133,7 +2133,7 @@
 
     <CEEvent>
         <Name>BC_event_companion_sex_f_devoted_start</Name>
-        <Text>{COMPANION_NAME_1} smiles and says you should just lie back and relax... </Text>
+        <Text>{=BCCaptor_Text_12144}{COMPANION_NAME_1} smiles and says you should just lie back and relax... </Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_head" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_bend_sit" UseConditions="BC_conditions_hero_female" />
@@ -2149,7 +2149,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Such a cunning lover...</OptionText>
+                <OptionText>{=BCCaptor_Text_12145}Such a cunning lover...</OptionText>
                 <TriggerEventName>BC_event_companion_sex_f_devoted_00</TriggerEventName>
                 <Companions>
                     <Companion Id="1">
@@ -2173,7 +2173,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_devoted_00</Name>
-        <Text>After her mouth and tongue rouse you to a great yell, {COMPANION_NAME_1} climbs astride your still-twitching sex and rides you to another thunderous come.</Text>
+        <Text>{=BCCaptor_Text_12146}After her mouth and tongue rouse you to a great yell, {COMPANION_NAME_1} climbs astride your still-twitching sex and rides you to another thunderous come.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_seated" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_sex_ff_tribb_bench" UseConditions="BC_conditions_hero_female" />
@@ -2190,7 +2190,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Such a devoted lover...</OptionText>
+                <OptionText>{=BCCaptor_Text_12147}Such a devoted lover...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R -20 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R -20 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
@@ -2226,7 +2226,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_devoted_wake_f</Name>
-        <Text>You wake to the sensation of {COMPANION_NAME_1}'s mouth on your sex, licking, slurping, and enveloping it with every sign of enjoyment. She looks into your eyes and smiles when she realizes you're awake, and squirms in arousal, seductively licking her lips. She redoubles her efforts, swiftly bringing you to climax as she fingers herself to her own. Shuddering against you, she eagerly drinks down your juices, whispering that she loves you.</Text>
+        <Text>{=BCCaptor_Text_12148}You wake to the sensation of {COMPANION_NAME_1}'s mouth on your sex, licking, slurping, and enveloping it with every sign of enjoyment. She looks into your eyes and smiles when she realizes you're awake, and squirms in arousal, seductively licking her lips. She redoubles her efforts, swiftly bringing you to climax as she fingers herself to her own. Shuddering against you, she eagerly drinks down your juices, whispering that she loves you.</Text>
         <Backgrounds>
             <Background Name="BC_captor_sex_ff_licking_yen_triss" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_sex_mf_pov_facial" UseConditions="BC_conditions_hero_male" />
@@ -2243,7 +2243,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Goodwife, I must profess myself your most ardent admirer!</OptionText>
+                <OptionText>{=BCCaptor_Text_12150}Goodwife, I must profess myself your most ardent admirer!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustC" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -2276,7 +2276,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_devoted_wake_m</Name>
-        <Text>You wake to the sensation of {COMPANION_NAME_1}'s mouth on your sex, licking, slurping, and enveloping it with every sign of enjoyment. He looks into your eyes and smiles when he realizes you're awake, panting in arousal, seductively licking his lips. He redoubles his efforts, swiftly bringing you to climax as he strokes himself to his own. Shuddering against you, he eagerly drinks down your juices, whispering that he loves you.</Text>
+        <Text>{=BCCaptor_Text_12149}You wake to the sensation of {COMPANION_NAME_1}'s mouth on your sex, licking, slurping, and enveloping it with every sign of enjoyment. He looks into your eyes and smiles when he realizes you're awake, panting in arousal, seductively licking his lips. He redoubles his efforts, swiftly bringing you to climax as he strokes himself to his own. Shuddering against you, he eagerly drinks down your juices, whispering that he loves you.</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male_towel"/>
         </Backgrounds>
@@ -2297,7 +2297,7 @@
                     <Skill Id="CaptiveLustT" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R -10 5" Ref="Hero" Color="Cyan" HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Well, now you're awake...</OptionText>
+                <OptionText>{=BCCaptor_Text_12151}Well, now you're awake...</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <Companions>
                     <Companion Id="1">
@@ -2324,7 +2324,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_devoted_group_f</Name>
-        <Text>{COMPANION_NAME_1} walks up to you, kissing you deeply as she presses her breasts against your body. She leads you to a private spot and continues her passionate attentions when a pleasurable sensation on your sex betrays that {COMPANION_NAME_2} has joined you, licking, slurping, and enveloping your tender flesh with every sign of enjoyment.</Text>
+        <Text>{=BCCaptor_Text_12152}{COMPANION_NAME_1} walks up to you, kissing you deeply as she presses her breasts against your body. She leads you to a private spot and continues her passionate attentions when a pleasurable sensation on your sex betrays that {COMPANION_NAME_2} has joined you, licking, slurping, and enveloping your tender flesh with every sign of enjoyment.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_fff_couch" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_captor_sex_ttf_threee" UseConditions="BC_conditions_hero_male"/>
@@ -2341,7 +2341,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>This feels amazing...</OptionText>
+                <OptionText>{=BCCaptor_Text_12153}This feels amazing...</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustC" ByLevel="R -30 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -2392,7 +2392,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_companion_devoted_group_f_2</Name>
-        <Text>{?ISFEMALE}As your loins begin gushing with arousal, she redoubles her efforts and dives beneath her friend, taking the opportunity to pleasure her as well. Before long her licking becomes frantic, and as you near your own orgasm she shudders against your cleft, her hips thrusting uncontrollably against her friend's mouth.{?}As your manhood reaches full hardness, she moves upwards, briefly cradling it between her breasts, until you feel yourself enveloped by her luscious folds as she grinds her sex against yours. {COMPANION_NAME_1} continues kissing you passionately, then hesitatingly moves her flower to your mouth. When you do not protest, she briefly suckles her friend's breast, then starts kissing her instead. Their cries of passion rise with your own pleasure as they take turns riding your cock, and as {COMPANION_NAME_1} collapses against you, writhing in ecstasy, you reach your own climax, filling her womb with your seed as her friend looks on with naked jealousy.{\?}</Text>
+        <Text>{=BCCaptor_Text_12154}{?ISFEMALE}As your loins begin gushing with arousal, she redoubles her efforts and dives beneath her friend, taking the opportunity to pleasure her as well. Before long her licking becomes frantic, and as you near your own orgasm she shudders against your cleft, her hips thrusting uncontrollably against her friend's mouth.{?}As your manhood reaches full hardness, she moves upwards, briefly cradling it between her breasts, until you feel yourself enveloped by her luscious folds as she grinds her sex against yours. {COMPANION_NAME_1} continues kissing you passionately, then hesitatingly moves her flower to your mouth. When you do not protest, she briefly suckles her friend's breast, then starts kissing her instead. Their cries of passion rise with your own pleasure as they take turns riding your cock, and as {COMPANION_NAME_1} collapses against you, writhing in ecstasy, you reach your own climax, filling her womb with your seed as her friend looks on with naked jealousy.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_fff_tapestry_bed" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_sex_ff_cum_swap" UseConditions="BC_conditions_hero_male"/>
@@ -2410,7 +2410,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                             <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>She'll have her turn soon enough...</OptionText>
+                <OptionText>{=BCCaptor_Text_12155}She'll have her turn soon enough...</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <Companions>
                     <Companion Id="1">
@@ -2438,7 +2438,7 @@
 <!-- Duel Events -->
     <CEEvent>
         <Name>TB_companion_fighting_f</Name>
-        <Text>You hear yelling and cheering, and when you go to investigate you discover {COMPANION_NAME_1} seems to have gotten into a fight with one of your troops. They're punching each other bloody as the rest of your men cheer them on and start betting on the outcome. The man she's fighting looks like a pretty burly fighter... Hopefully she doesn't get badly hurt.</Text>
+        <Text>{=BCCaptor_Text_12156}You hear yelling and cheering, and when you go to investigate you discover {COMPANION_NAME_1} seems to have gotten into a fight with one of your troops. They're punching each other bloody as the rest of your men cheer them on and start betting on the outcome. The man she's fighting looks like a pretty burly fighter... Hopefully she doesn't get badly hurt.</Text>
         <BackgroundName>BC_image_companion_dark_sword</BackgroundName>
         <NotificationName>TB_town_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2453,7 +2453,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Break up the fight.</OptionText>
+                <OptionText>{=BCCaptor_Text_12157}Break up the fight.</OptionText>
                 <GoldTotal>100</GoldTotal>
                 <MoraleTotal>R 1 3</MoraleTotal>
                 <RenownTotal>R 1 3</RenownTotal>
@@ -2490,7 +2490,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
 
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Bet on {COMPANION_NAME_1}.</OptionText>
+                <OptionText>{=BCCaptor_Text_12158}Bet on {COMPANION_NAME_1}.</OptionText>
                 <MoraleTotal>R 1 3</MoraleTotal>
                 <RenownTotal>R 1 3</RenownTotal>
 
@@ -2531,7 +2531,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
 
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Bet against {COMPANION_NAME_1}.</OptionText>
+                <OptionText>{=BCCaptor_Text_12159}Bet against {COMPANION_NAME_1}.</OptionText>
 
                 <MoraleTotal>R -1 -3</MoraleTotal>
                 <RenownTotal>R -1 -3</RenownTotal>
@@ -2568,7 +2568,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order your men to stop the brawl.</OptionText>
+                <OptionText>{=BCCaptor_Text_12160}Order your men to stop the brawl.</OptionText>
                 <MoraleTotal>R -1 -3</MoraleTotal>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <TriggerEvents>
@@ -2601,7 +2601,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_fighting_unhappy_f</Name>
-        <Text>After the fight is broken up, {COMPANION_NAME_1} comes to you, angry at your lack of faith in her fighting prowess - she's sure she could have won that fight, and now the rest of the troops will think her a coward who needs your protection.</Text>
+        <Text>{=BCCaptor_Text_12161}After the fight is broken up, {COMPANION_NAME_1} comes to you, angry at your lack of faith in her fighting prowess - she's sure she could have won that fight, and now the rest of the troops will think her a coward who needs your protection.</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_hammer_dark"/>
         </Backgrounds>
@@ -2616,7 +2616,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>At least she's safe.</OptionText>
+                <OptionText>{=BCCaptor_Text_12162}At least she's safe.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -2639,7 +2639,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_fighting_win_betagainst_f</Name>
-        <Text>{COMPANION_NAME_1} soundly beats her opponent, winding him with a powerful blow to the chest. She smiles in victory, and helps him to his feet as the bookie comes by to collect your gold. She glances briefly in your direction, surprised and disappointed that you bet against her. Maybe you should have had more faith in her abilities...</Text>
+        <Text>{=BCCaptor_Text_12163}{COMPANION_NAME_1} soundly beats her opponent, winding him with a powerful blow to the chest. She smiles in victory, and helps him to his feet as the bookie comes by to collect your gold. She glances briefly in your direction, surprised and disappointed that you bet against her. Maybe you should have had more faith in her abilities...</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_small_arrows"/>
         </Backgrounds>
@@ -2656,7 +2656,7 @@
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <GoldTotal>-100</GoldTotal>
-                <OptionText>Could have gone either way.</OptionText>
+                <OptionText>{=BCCaptor_Text_12164}Could have gone either way.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -2679,7 +2679,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_fighting_lose_betagainst_f</Name>
-        <Text>{COMPANION_NAME_1} is soundly beaten by her opponent, who winds her with a powerful blow to the chest. She scowls in defeat, and he helps her to her feet as the bookie comes by to give you your gold. She glances briefly in your direction, elated and happy to share in your victory.</Text>
+        <Text>{=BCCaptor_Text_12165}{COMPANION_NAME_1} is soundly beaten by her opponent, who winds her with a powerful blow to the chest. She scowls in defeat, and he helps her to her feet as the bookie comes by to give you your gold. She glances briefly in your direction, elated and happy to share in your victory.</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_axe_topless"/>
         </Backgrounds>
@@ -2695,7 +2695,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Could have gone either way.</OptionText>
+                <OptionText>{=BCCaptor_Text_12164}Could have gone either way.</OptionText>
                 <GoldTotal>300</GoldTotal>
                 <Companions>
                     <Companion Id="1">
@@ -2719,7 +2719,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_fighting_win_betfor_f</Name>
-        <Text>{COMPANION_NAME_1} soundly beats her opponent, winding him with a powerful blow to the chest. She smiles in victory, and helps him to his feet as the bookie comes by to collect your gold. She glances briefly in your direction, elated to see you sharing in her victory.</Text>
+        <Text>{=BCCaptor_Text_12166}{COMPANION_NAME_1} soundly beats her opponent, winding him with a powerful blow to the chest. She smiles in victory, and helps him to his feet as the bookie comes by to collect your gold. She glances briefly in your direction, elated to see you sharing in her victory.</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_flowers_armor_light"/>
         </Backgrounds>
@@ -2736,7 +2736,7 @@
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <GoldTotal>300</GoldTotal>
-                <OptionText>You were sure she would prove the victor!</OptionText>
+                <OptionText>{=BCCaptor_Text_12167}You were sure she would prove the victor!</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -2759,7 +2759,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_fighting_lose_betfor_f</Name>
-        <Text>{COMPANION_NAME_1} is soundly beaten by her opponent, who winds her with a powerful blow to the chest. She scowls in defeat, and he helps her to her feet as the bookie comes by to collect your gold. She glances briefly in your direction, surprised and disappointed at her loss, but even more so at having disappointed you...</Text>
+        <Text>{=BCCaptor_Text_12168}{COMPANION_NAME_1} is soundly beaten by her opponent, who winds her with a powerful blow to the chest. She scowls in defeat, and he helps her to her feet as the bookie comes by to collect your gold. She glances briefly in your direction, surprised and disappointed at her loss, but even more so at having disappointed you...</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_axe_topless"/>
         </Backgrounds>
@@ -2775,7 +2775,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You had been sure of her fighting skills...</OptionText>
+                <OptionText>{=BCCaptor_Text_12169}You had been sure of her fighting skills...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -2800,7 +2800,7 @@
 <!-- rough pic overrides-->     
     <CEEvent>
         <Name>BC_event_companion_sex_f_broken_start</Name>
-        <Text>{COMPANION_NAME_1} drops in front of you and presents herself. "Take your pleasure from these holes, your slut is ready, {?PLAYER.GENDER}Mistress{?}Master{\?}." </Text>
+        <Text>{=BCCaptor_Text_12170}{COMPANION_NAME_1} drops in front of you and presents herself. &quot;Take your pleasure from these holes, your slut is ready, {?PLAYER.GENDER}Mistress{?}Master{\?}.&quot; </Text>
         <Backgrounds>
             <Background Name="BC_captor_sex_f_butt_open" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_companion_f_blonde_harness" UseConditions="BC_conditions_hero_female" />
@@ -2816,7 +2816,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Such a broken little toy...</OptionText>
+                <OptionText>{=BCCaptor_Text_12171}Such a broken little toy...</OptionText>
                 <TriggerEventName>BC_event_companion_sex_f_broken_01</TriggerEventName>
                 <Companions>
                     <Companion Id="1">
@@ -2840,7 +2840,7 @@
     </CEEvent>  
     <CEEvent>
         <Name>BC_event_companion_sex_f_broken_01</Name>
-        <Text>{COMPANION_NAME_1} complies with your every delight, asking for more of you to stretch out not only her cunt but also her ass. At first, you're excited, and push and punish her to what you think are her limits, taking back your own orgasms from her along the way.</Text>
+        <Text>{=BCCaptor_Text_12172}{COMPANION_NAME_1} complies with your every delight, asking for more of you to stretch out not only her cunt but also her ass. At first, you're excited, and push and punish her to what you think are her limits, taking back your own orgasms from her along the way.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_anal" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_companion_ff_broken_anal_gape" UseConditions="BC_conditions_hero_female" />
@@ -2864,7 +2864,7 @@
                     <Skill Id="CaptiveLustV" ByLevel="R -5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustA" ByLevel="R -5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Such a broken little slut...</OptionText>
+                <OptionText>{=BCCaptor_Text_12173}Such a broken little slut...</OptionText>
                 <TriggerEventName>BC_event_companion_sex_f_broken_00</TriggerEventName>
                 <Companions>
                     <Companion Id="1">
@@ -2893,7 +2893,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_broken_00</Name>
-        <Text>After yet another great eruption, you finally collapse in exhaustion, your lust well and fully sated to the point of discomfort. {COMPANION_NAME_1} is not done serving you, though and leaps onto you just as soon as you are clear, your fluids coating her face and legs, smearing on you as she kisses your body.</Text>
+        <Text>{=BCCaptor_Text_12174}After yet another great eruption, you finally collapse in exhaustion, your lust well and fully sated to the point of discomfort. {COMPANION_NAME_1} is not done serving you, though and leaps onto you just as soon as you are clear, your fluids coating her face and legs, smearing on you as she kisses your body.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_broken_sucking" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_ff_sex_lick_standing" UseConditions="BC_conditions_hero_female" />
@@ -2909,7 +2909,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Beat her until she stops...</OptionText>
+                <OptionText>{=BCCaptor_Text_12175}Beat her until she stops...</OptionText>
                 <TriggerEventName>BC_event_companion_sex_f_broken_000</TriggerEventName>
                 <Companions>
                     <Companion Id="1">
@@ -2933,7 +2933,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_companion_sex_f_broken_000</Name>
-        <Text>You grab {COMPANION_NAME_1} and pull her off you, but not until a full slap to the head does the feverish lust break. She looks at you, confused, and wails "WHY ARE YOU REJECTING ME?!"</Text>
+        <Text>{=BCCaptor_Text_12176}You grab {COMPANION_NAME_1} and pull her off you, but not until a full slap to the head does the feverish lust break. She looks at you, confused, and wails "WHY ARE YOU REJECTING ME?!"</Text>
         <Backgrounds>
             <Background Name="BC_captor_sex_ttr_crying_brun" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_captor_sex_ttr_crying_brun" UseConditions="BC_conditions_hero_female" />
@@ -2949,7 +2949,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You don't like that look in her eye...</OptionText>
+                <OptionText>{=BCCaptor_Text_12177}You don't like that look in her eye...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -2974,7 +2974,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_new_prostitute_f</Name>
-        <Text>You inform {COMPANION_NAME_1} that she's been promoted to army whore, and is permitted to satiate her lusts on your troops in exchange for coin. She bites her lip and trembles in anticipation, curling a finger towards one of your men, who fairly leaps from his position to join her. Her cries of effort at getting filled with dirty, rough men fills the camp.</Text>
+        <Text>{=BCCaptor_Text_12178}You inform {COMPANION_NAME_1} that she's been promoted to army whore, and is permitted to satiate her lusts on your troops in exchange for coin. She bites her lip and trembles in anticipation, curling a finger towards one of your men, who fairly leaps from his position to join her. Her cries of effort at getting filled with dirty, rough men fills the camp.</Text>
         <Backgrounds>
             <Background Name="BC_companion_new_prostitute_f" />
         </Backgrounds>
@@ -2989,7 +2989,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>She won't have trouble finding work...</OptionText>
+                <OptionText>{=BCCaptor_Text_12179}She won't have trouble finding work...</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -3018,7 +3018,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_broken_masochism_f</Name>
-        <Text>You hear a strange cacophony of screams and moans from nearby, and discover {COMPANION_NAME_1} being roughly fucked by a group of your men. They slow down as you approach, and you hear her strained voice beg them to pound her harder, to choke her. They seem somewhat confused but quite enthusiastic, but one glimpse of her lifeless eyes is enough for you to realize she's not looking for pleasure, just begging for death... </Text>
+        <Text>{=BCCaptor_Text_12180}You hear a strange cacophony of screams and moans from nearby, and discover {COMPANION_NAME_1} being roughly fucked by a group of your men. They slow down as you approach, and you hear her strained voice beg them to pound her harder, to choke her. They seem somewhat confused but quite enthusiastic, but one glimpse of her lifeless eyes is enough for you to realize she's not looking for pleasure, just begging for death... </Text>
         <Backgrounds>
             <Background Name="BC_companion_riding_broken"/>
         </Backgrounds>
@@ -3033,7 +3033,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Tell them to stop taking advantage of her nymphomania.</OptionText>                
+                <OptionText>{=BCCaptor_Text_12181}Tell them to stop taking advantage of her nymphomania.</OptionText>                
                 <MoraleTotal>-5</MoraleTotal>
                 <Companions>
                     <Companion Id="1">
@@ -3067,7 +3067,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Ignore it.</OptionText>                
+                <OptionText>{=TBRandomEventsFemale_Slavery009}Try it ignore it.</OptionText>                
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -3102,7 +3102,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <TriggerEventName>BC_companion_broken_gang_lead</TriggerEventName>
-                <OptionText>Take the next turn out of her hide.</OptionText>
+                <OptionText>{=BCCaptor_Text_12182}Take the next turn out of her hide.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustC" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R -3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -3142,7 +3142,7 @@
     </CEEvent>
 	<CEEvent>
         <Name>TB_companion_horny_broken_f_player_f</Name>
-        <Text>{COMPANION_NAME_1} approaches you, stark naked, a glazed expression in {?COMPANIONISFEMALE_1}her eyes, and kneels, begging you to use your slave as she fondles your sex through the fabric of your garments. When you do not immediately respond she wiggles her ass seductively, pinching her nipples, and you can't help but notice her womanhood is dripping with arousal...{?}his eyes, and kneels, begging you to use your slave as he fondles your sex through the fabric of your garments. When you do not immediately respond he wiggles his ass seductively, pinching his nipples, and you can't help but notice his manhood is rigid with arousal...{\?}</Text>
+        <Text>{=BCCaptor_Text_12183}{COMPANION_NAME_1} approaches you, stark naked, a glazed expression in {?COMPANIONISFEMALE_1}her eyes, and kneels, begging you to use your slave as she fondles your sex through the fabric of your garments. When you do not immediately respond she wiggles her ass seductively, pinching her nipples, and you can't help but notice her womanhood is dripping with arousal...{?}his eyes, and kneels, begging you to use your slave as he fondles your sex through the fabric of your garments. When you do not immediately respond he wiggles his ass seductively, pinching his nipples, and you can't help but notice his manhood is rigid with arousal...{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_f_broken_invite" />
         </Backgrounds>
@@ -3158,7 +3158,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="25" Ref="Hero" />
                 </SkillsToLevel>
@@ -3183,7 +3183,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Why not put the slut to work?</OptionText>
+                <OptionText>{=BCCaptor_Text_12184}Why not put the slut to work?</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="Roguery" Min="25" Ref="Captor" />
                 </SkillsRequired>
@@ -3212,7 +3212,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Teach the dripping whore what her holes are really for...</OptionText>
+                <OptionText>{=BCCaptor_Text_12185}Teach the dripping whore what her holes are really for...</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <SkillsRequired>
                     <SkillRequired Id="Roguery" Min="100" Ref="Captor" />
@@ -3248,7 +3248,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Try to tell {?COMPANIONISFEMALE_1}her she isn't{?}him he isn't{\?} a slave.</OptionText>
+                <OptionText>{=BCCaptor_Text_12186}Try to tell {?COMPANIONISFEMALE_1}her she isn't{?}him he isn't{\?} a slave.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -3284,7 +3284,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_horny_broken_f_player_m</Name>
-        <Text>{COMPANION_NAME_1} approaches you, stark naked, a glazed expression in {?COMPANIONISFEMALE_1}her eyes, and kneels, begging you to use your slave as she fondles your sex through the fabric of your garments. When you do not immediately respond she wiggles her ass seductively, pinching her nipples, and you can't help but notice her womanhood is dripping with arousal...{?}his eyes, and kneels, begging you to use your slave as he fondles your sex through the fabric of your garments. When you do not immediately respond he wiggles his ass seductively, pinching his nipples, and you can't help but notice his manhood is rigid with arousal...{\?}</Text>
+        <Text>{=BCCaptor_Text_12187}{COMPANION_NAME_1} approaches you, stark naked, a glazed expression in {?COMPANIONISFEMALE_1}her eyes, and kneels, begging you to use your slave as she fondles your sex through the fabric of your garments. When you do not immediately respond she wiggles her ass seductively, pinching her nipples, and you can't help but notice her womanhood is dripping with arousal...{?}his eyes, and kneels, begging you to use your slave as he fondles your sex through the fabric of your garments. When you do not immediately respond he wiggles his ass seductively, pinching his nipples, and you can't help but notice his manhood is rigid with arousal...{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_f_broken_begging"/>
         </Backgrounds>
@@ -3300,7 +3300,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="25" Ref="Hero" />
                 </SkillsToLevel>
@@ -3326,7 +3326,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Why not put the slut to work?</OptionText>
+                <OptionText>{=BCCaptor_Text_12184}Why not put the slut to work?</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="Roguery" Min="25" Ref="Captor" />
                 </SkillsRequired>
@@ -3355,7 +3355,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Try to tell {?COMPANIONISFEMALE_1}her she isn't{?}him he isn't{\?} a slave.</OptionText>
+                <OptionText>{=BCCaptor_Text_12186}Try to tell {?COMPANIONISFEMALE_1}her she isn't{?}him he isn't{\?} a slave.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -3386,7 +3386,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Teach the uppity whore not to interrupt...</OptionText>
+                <OptionText>{=BCCaptor_Text_12143}Teach the uppity whore not to interrupt...</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <SkillsRequired>
                     <SkillRequired Id="Roguery" Min="75" Ref="Captor" />
@@ -3427,7 +3427,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_horny_broken_m_player_f</Name>
-        <Text>{COMPANION_NAME_1} approaches you, stark naked, a glazed expression in {?COMPANIONISFEMALE_1}her eyes, and kneels, begging you to use your slave as she fondles your sex through the fabric of your garments. When you do not immediately respond she wiggles her ass seductively, pinching her nipples, and you can't help but notice her womanhood is dripping with arousal...{?}his eyes, and kneels, begging you to use your slave as he fondles your sex through the fabric of your garments. When you do not immediately respond he wiggles his ass seductively, pinching his nipples, and you can't help but notice his manhood is rigid with arousal...{\?}</Text>
+        <Text>{=BCCaptor_Text_12187}{COMPANION_NAME_1} approaches you, stark naked, a glazed expression in {?COMPANIONISFEMALE_1}her eyes, and kneels, begging you to use your slave as she fondles your sex through the fabric of your garments. When you do not immediately respond she wiggles her ass seductively, pinching her nipples, and you can't help but notice her womanhood is dripping with arousal...{?}his eyes, and kneels, begging you to use your slave as he fondles your sex through the fabric of your garments. When you do not immediately respond he wiggles his ass seductively, pinching his nipples, and you can't help but notice his manhood is rigid with arousal...{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_male_nude_indoor"/>
         </Backgrounds>
@@ -3443,7 +3443,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -3468,7 +3468,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Try to tell {?COMPANIONISFEMALE_1}her she isn't{?}him he isn't{\?} a slave.</OptionText>
+                <OptionText>{=BCCaptor_Text_12186}Try to tell {?COMPANIONISFEMALE_1}her she isn't{?}him he isn't{\?} a slave.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -3502,7 +3502,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_horny_broken_m_player_m</Name>
-        <Text>{COMPANION_NAME_1} approaches you, stark naked, a glazed expression in {?COMPANIONISFEMALE_1}her eyes, and kneels, begging you to use your slave as she fondles your sex through the fabric of your garments. When you do not immediately respond she wiggles her ass seductively, pinching her nipples, and you can't help but notice her womanhood is dripping with arousal...{?}his eyes, and kneels, begging you to use your slave as he fondles your sex through the fabric of your garments. When you do not immediately respond he wiggles his ass seductively, pinching his nipples, and you can't help but notice his manhood is rigid with arousal...{\?}</Text>
+        <Text>{=BCCaptor_Text_12187}{COMPANION_NAME_1} approaches you, stark naked, a glazed expression in {?COMPANIONISFEMALE_1}her eyes, and kneels, begging you to use your slave as she fondles your sex through the fabric of your garments. When you do not immediately respond she wiggles her ass seductively, pinching her nipples, and you can't help but notice her womanhood is dripping with arousal...{?}his eyes, and kneels, begging you to use your slave as he fondles your sex through the fabric of your garments. When you do not immediately respond he wiggles his ass seductively, pinching his nipples, and you can't help but notice his manhood is rigid with arousal...{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_male_nude_indoor"/>
         </Backgrounds>
@@ -3517,7 +3517,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You *are* feeling a bit horny.</OptionText>
+                <OptionText>{=BCCaptor_Text_12108}You *are* feeling a bit horny.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -3541,7 +3541,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Try to tell {?COMPANIONISFEMALE_1}her she isn't{?}him he isn't{\?} a slave.</OptionText>
+                <OptionText>{=BCCaptor_Text_12186}Try to tell {?COMPANIONISFEMALE_1}her she isn't{?}him he isn't{\?} a slave.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
@@ -3574,7 +3574,7 @@
     </CEEvent>    
     <CEEvent>
         <Name>TB_companion_broken_group_f</Name>
-        <Text>{COMPANION_NAME_1} walks up to you, swallowing nervously, and tells you it's been some time since last you used her. She presses her breasts against your body, kissing you deeply, and leads you to a private spot where she continues her passionate attentions. A pleasurable sensation on your sex betrays that {COMPANION_NAME_2} has joined you, licking, slurping, and enveloping your tender flesh with the expertise of a dutiful slave.</Text>
+        <Text>{=BCCaptor_Text_12188}{COMPANION_NAME_1} walks up to you, swallowing nervously, and tells you it's been some time since last you used her. She presses her breasts against your body, kissing you deeply, and leads you to a private spot where she continues her passionate attentions. A pleasurable sensation on your sex betrays that {COMPANION_NAME_2} has joined you, licking, slurping, and enveloping your tender flesh with the expertise of a dutiful slave.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_fff_kneel_kiss" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_sex_ff_broken_reds_sucking" UseConditions="BC_conditions_hero_male"/>
@@ -3590,7 +3590,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>This feels amazing...</OptionText>
+                <OptionText>{=BCCaptor_Text_12153}This feels amazing...</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <TriggerEventName>BC_companion_broken_group_f_2</TriggerEventName>
                 <Companions>
@@ -3624,7 +3624,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_companion_broken_group_f_2</Name>
-        <Text>{?ISFEMALE}As your loins begin gushing with arousal, she redoubles her efforts and dives beneath her friend, taking the opportunity to pleasure her as well. Before long her licking becomes frantic, and as you near your own orgasm she shudders against your cleft, her hips thrusting uncontrollably against her friend's mouth.{?}As your manhood reaches full hardness, she moves upwards, briefly cradling it between her breasts, until you feel yourself enveloped by her luscious folds as she grinds her sex against yours. {COMPANION_NAME_1} continues kissing you, then hesitatingly moves her flower to your mouth. When you do not protest, she briefly suckles her friend's breast, then starts kissing her instead. Their cries of passion rise with your own pleasure as they take turns riding your cock, and as {COMPANION_NAME_1} collapses against you, writhing in ecstasy, you reach your own climax, filling her womb with your seed as her friend nervously tries to avoid your gaze.{\?}</Text>
+        <Text>{=BCCaptor_Text_12190}{?ISFEMALE}As your loins begin gushing with arousal, she redoubles her efforts and dives beneath her friend, taking the opportunity to pleasure her as well. Before long her licking becomes frantic, and as you near your own orgasm she shudders against your cleft, her hips thrusting uncontrollably against her friend's mouth.{?}As your manhood reaches full hardness, she moves upwards, briefly cradling it between her breasts, until you feel yourself enveloped by her luscious folds as she grinds her sex against yours. {COMPANION_NAME_1} continues kissing you, then hesitatingly moves her flower to your mouth. When you do not protest, she briefly suckles her friend's breast, then starts kissing her instead. Their cries of passion rise with your own pleasure as they take turns riding your cock, and as {COMPANION_NAME_1} collapses against you, writhing in ecstasy, you reach your own climax, filling her womb with your seed as her friend nervously tries to avoid your gaze.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_fff_broken_strap" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_sex_mff_broken_licking" UseConditions="BC_conditions_hero_male"/>
@@ -3642,7 +3642,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>She'll get her turn soon enough...</OptionText>
+                <OptionText>{=BCCaptor_Text_12189}She'll get her turn soon enough...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R -2 -7" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R -2 -7" Ref="Hero" Color="Yellow"  HideNotification="true" />
@@ -3694,7 +3694,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_companion_broken_gang_lead</Name>
-        <Text>The briefest flash of recognition at your presence lights up {COMPANION_NAME_1}'s dead eyes as you plunge into her in turn with the rest. Seeing her used like this is a daily occurence, but being one of many appendages taking pleasure from her holes is a different experience entirely.</Text>
+        <Text>{=BCCaptor_Text_12191}The briefest flash of recognition at your presence lights up {COMPANION_NAME_1}'s dead eyes as you plunge into her in turn with the rest. Seeing her used like this is a daily occurence, but being one of many appendages taking pleasure from her holes is a different experience entirely.</Text>
         <Backgrounds>
             <Background Name="BC_image_f_gang_broken_anal" />
         </Backgrounds>
@@ -3711,7 +3711,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave her to the rest.</OptionText>
+                <OptionText>{=BCCaptor_Text_12192}Leave her to the rest.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R -2 -7" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R -2 -7" Ref="Hero" Color="Yellow"  HideNotification="true" />
@@ -3750,7 +3750,7 @@
 <!-- Companion Pimping-->
     <CEEvent>
         <Name>TB_companion_whore_use_f</Name>
-        <Text>{COMPANION_NAME_1} smiles at you, then drops to her knees and suckles at your clit. She licks it in a businesslike fashion, coating the button with her saliva, then slides her tongue up and down your vulva, massaging your inner folds with the tip. She looks up into your eyes with a yearning expression, as though begging for your nectar, and begins lapping at your puffy slit, pushing a dainty finger inside to press against your inner walls. You feel your body flush with satisfaction, drenching her face with your fluids, and you buck against her, holding her face in place as you ride out your orgasm before collapsing to your knees.</Text>
+        <Text>{=BCCaptor_Text_12193}{COMPANION_NAME_1} smiles at you, then drops to her knees and suckles at your clit. She licks it in a businesslike fashion, coating the button with her saliva, then slides her tongue up and down your vulva, massaging your inner folds with the tip. She looks up into your eyes with a yearning expression, as though begging for your nectar, and begins lapping at your puffy slit, pushing a dainty finger inside to press against your inner walls. You feel your body flush with satisfaction, drenching her face with your fluids, and you buck against her, holding her face in place as you ride out your orgasm before collapsing to your knees.</Text>
         <BackgroundName>BC_image_sex_ff_bed_sit</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3771,7 +3771,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Pay her for her service.</OptionText>
+                <OptionText>{=BCCaptor_Text_12194}Pay her for her service.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustC" ByLevel="R -5 -20" Ref="Hero" Color="Yellow"  HideNotification="true" />
                 </SkillsToLevel>
@@ -3806,7 +3806,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_whore_use_m</Name>
-        <Text>{COMPANION_NAME_1} smiles at you, then drops to her knees and pulls out your cock. She licks it in a businesslike fashion, coating the tip with her saliva, then takes it deep into her throat, massaging the shaft with her tongue. She looks up into your eyes with a yearning expression, as though begging for your seed, and you feel your manhood twitch in satisfaction, blasting a hefty load into her mouth. She swirls it on her tongue, showing off for your amusement, then gulps it down and finishes by licking you clean with relish. </Text>
+        <Text>{=BCCaptor_Text_12195}{COMPANION_NAME_1} smiles at you, then drops to her knees and pulls out your cock. She licks it in a businesslike fashion, coating the tip with her saliva, then takes it deep into her throat, massaging the shaft with her tongue. She looks up into your eyes with a yearning expression, as though begging for your seed, and you feel your manhood twitch in satisfaction, blasting a hefty load into her mouth. She swirls it on her tongue, showing off for your amusement, then gulps it down and finishes by licking you clean with relish. </Text>
         <BackgroundName>BC_image_sex_f_nose_oral</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3827,7 +3827,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Pay her for her service.</OptionText>
+                <OptionText>{=BCCaptor_Text_12194}Pay her for her service.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R -15 -50" Ref="Hero" Color="Yellow"  HideNotification="true" />
                 </SkillsToLevel>
@@ -3862,7 +3862,7 @@
     </CEEvent>
     <CEEvent>
             <Name>TB_companion_whore_tribute</Name>
-            <Text>{COMPANION_NAME_1} returns to kneel before you, her body clean but her eyes cold and dead. She hands you a sack full of gold. To you, this represents a small sum, enough to purchase grain for perhaps a few day's march. For her, each coin represents a shred of her dignity, a piece of the woman she once was torn from her soul and transformed into mortal sin. She looks up at you, any hint of her past pride entirely gone.</Text>
+            <Text>{=BCCaptor_Text_12196}{COMPANION_NAME_1} returns to kneel before you, her body clean but her eyes cold and dead. She hands you a sack full of gold. To you, this represents a small sum, enough to purchase grain for perhaps a few day's march. For her, each coin represents a shred of her dignity, a piece of the woman she once was torn from her soul and transformed into mortal sin. She looks up at you, any hint of her past pride entirely gone.</Text>
             <BackgroundName>BC_image_companion_whore_camp</BackgroundName>
             <NotificationName>BC_image_notification</NotificationName>
             <MultipleRestrictedListOfFlags>        
@@ -3880,7 +3880,7 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Compliment her skills.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12094}Compliment her skills.</OptionText>
                     <Companions>
                         <Companion Id="1">
                             <MultipleRestrictedListOfConsequences>
@@ -3903,7 +3903,7 @@
 
                         <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Tell her she's no longer a whore.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12197}Tell her she's no longer a whore.</OptionText>
                     <TriggerEventName>TB_companion_whore_fired</TriggerEventName>
                     <Companions>
                         <Companion Id="1">
@@ -3933,7 +3933,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_whore_fired</Name>
-        <Text>{COMPANION_NAME_1} looks sharply into your eyes at your proclamation. She nods, considering what to do now that her reputation is utterly ruined, and thanks you for your mercy before quickly leaving your presence.</Text>
+        <Text>{=BCCaptor_Text_12198}{COMPANION_NAME_1} looks sharply into your eyes at your proclamation. She nods, considering what to do now that her reputation is utterly ruined, and thanks you for your mercy before quickly leaving your presence.</Text>
         <BackgroundName>BC_image_companion_weeping</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3953,7 +3953,7 @@
                     <MultipleRestrictedListOfConsequences>
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>That went well.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12199}That went well.</OptionText>
                     <Companions>
                         <Companion Id="1">
                             <MultipleRestrictedListOfConsequences>
@@ -3979,7 +3979,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_whore_busy</Name>
-        <Text>You hear the sound of cheering, and look over to see {COMPANION_NAME_1}'s luscious lips wrapped around the shaft of one of your men. She takes two more of them in her hands, fondling their balls with a practiced ease, and merely grunts when a fourth man penetrates her from behind, her attention firmly on pleasing the cocks in front of her. She fucks them with the ease of a practiced whore, draining their balls until they gasp in pain from the emptiness, then backs up and shoves herself down on the man inside her, riding him to ecstasy. The pair come in sweet symphony, their moans echoing through the camp as the others gratefully fill her pouch with their coin.</Text>
+        <Text>{=BCCaptor_Text_12200}You hear the sound of cheering, and look over to see {COMPANION_NAME_1}'s luscious lips wrapped around the shaft of one of your men. She takes two more of them in her hands, fondling their balls with a practiced ease, and merely grunts when a fourth man penetrates her from behind, her attention firmly on pleasing the cocks in front of her. She fucks them with the ease of a practiced whore, draining their balls until they gasp in pain from the emptiness, then backs up and shoves herself down on the man inside her, riding him to ecstasy. The pair come in sweet symphony, their moans echoing through the camp as the others gratefully fill her pouch with their coin.</Text>
         <BackgroundName>BC_image_sex_f_whore_aserai_group</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3996,7 +3996,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Handling that many men can't be easy.</OptionText>
+                <OptionText>{=BCCaptor_Text_12201}Handling that many men can't be easy.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -4028,7 +4028,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_whore_busy_2</Name>
-        <Text>You notice {COMPANION_NAME_1} has begun earning an extra coin by submitting to some of her customers' more violent urges. Her current client slaps her ass hard enough to leave a fresh red welt; she screams angrily at the pain, but he grabs her neck from behind with both hands and squeezes until she can only make choking sounds. </Text>
+        <Text>{=BCCaptor_Text_12202}You notice {COMPANION_NAME_1} has begun earning an extra coin by submitting to some of her customers' more violent urges. Her current client slaps her ass hard enough to leave a fresh red welt; she screams angrily at the pain, but he grabs her neck from behind with both hands and squeezes until she can only make choking sounds. </Text>
         <BackgroundName>BC_image_sex_f_whore_client_choke</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>            
@@ -4045,7 +4045,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>                    
                 </MultipleRestrictedListOfConsequences>                                
-                <OptionText>Quite the businesswoman.</OptionText>
+                <OptionText>{=BCCaptor_Text_12203}Quite the businesswoman.</OptionText>
                     <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -4077,7 +4077,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_whore_titjob</Name>
-        <Text>You hear a commotion on one of the carts, but quickly realize it's only {COMPANION_NAME_1} servicing a client. The man is straddled atop her, thrusting his member into her cleavage as she expertly licks the glans, and just as you move to leave he shudders in ecstasy, sending a thick torrent of slime into her mouth. She moves her head back as he continues spurting, coating her face and breasts in his sticky semen.</Text>
+        <Text>{=BCCaptor_Text_12204}You hear a commotion on one of the carts, but quickly realize it's only {COMPANION_NAME_1} servicing a client. The man is straddled atop her, thrusting his member into her cleavage as she expertly licks the glans, and just as you move to leave he shudders in ecstasy, sending a thick torrent of slime into her mouth. She moves her head back as he continues spurting, coating her face and breasts in his sticky semen.</Text>
         <BackgroundName>BC_image_companion_f_black_titjob</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -4097,7 +4097,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Move along.</OptionText>
+                <OptionText>{=BCCaptor_Text_12205}Move along.</OptionText>
                     <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -4129,7 +4129,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_whore_offer</Name>
-        <Text>{COMPANION_NAME_1} walks up to you, swaying her hips, and licks her lips suggestively. She mentions that business has been slow of late, but she'd like to make sure she comes up with enough coin to please you. She bends over, slowly pushing a finger into her dripping vagina, and asks if you happen to be in the mood to purchase what she's selling.</Text>
+        <Text>{=BCCaptor_Text_12206}{COMPANION_NAME_1} walks up to you, swaying her hips, and licks her lips suggestively. She mentions that business has been slow of late, but she'd like to make sure she comes up with enough coin to please you. She bends over, slowly pushing a finger into her dripping vagina, and asks if you happen to be in the mood to purchase what she's selling.</Text>
         <BackgroundName>BC_image_companion_f_stockings</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>            
@@ -4148,7 +4148,7 @@
                     <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You could use a little entertainment.</OptionText>
+                <OptionText>{=BCCaptor_Text_12207}You could use a little entertainment.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_companion_whore_use_m</EventName>
@@ -4180,7 +4180,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You've got better things to do.</OptionText>
+                <OptionText>{=BCCaptor_Text_12208}You've got better things to do.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -4203,7 +4203,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_experienced_whore</Name>
-        <Text>You spot {COMPANION_NAME_1} resting on a small cot made up on one of the carts. One of your men approaches warily, explaining that she needs to rest. She's just taken twenty men at the same time, and the men all agreed that she should be rewarded with a bit of shut-eye before they go for another round. It's obvious enough from her spotless flesh that she's been drinking down every man's drop.</Text>
+        <Text>{=BCCaptor_Text_12209}You spot {COMPANION_NAME_1} resting on a small cot made up on one of the carts. One of your men approaches warily, explaining that she needs to rest. She's just taken twenty men at the same time, and the men all agreed that she should be rewarded with a bit of shut-eye before they go for another round. It's obvious enough from her spotless flesh that she's been drinking down every man's drop.</Text>
         <BackgroundName>BC_image_companion_whore_tired</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -4223,7 +4223,7 @@
                     
                 </MultipleRestrictedListOfConsequences>
                 
-                <OptionText>Let her be.</OptionText>
+                <OptionText>{=BCCaptor_Text_12210}Let her be.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -4249,8 +4249,8 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_renowned_whore</Name>
-        <Text>A group of men approaches from the east; from their dress, they look like peasants, or perhaps merchants. They ask to see {COMPANION_NAME_1}, indicating that news of her skill between the sheets has reached them from a nearby city, and they seek to test the truth of those rumors. Their leader offers you a bag of gold for the privilege.</Text>
-        <BackgroundName>BC_image_merchant_southern</BackgroundName>
+        <Text>{=BCCaptor_Text_12280}A group of men approaches from the east; from their dress, they look like peasants, or perhaps merchants. They ask to see {COMPANION_NAME_1}, indicating that news of her skill between the sheets has reached them from a nearby city, and they seek to test the truth of those rumors. Their leader offers you a bag of gold for the privilege.</Text>
+        <BackgroundName>BC_image_merchant_southern</BackgroundName>    
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             
@@ -4271,7 +4271,7 @@
                     
                 </MultipleRestrictedListOfConsequences>
                 <ProstitutionTotal>R 3 6</ProstitutionTotal>
-                <OptionText>Let them use the whore. (500 {GOLD_ICON})</OptionText>
+                <OptionText>{=BCCaptor_Text_12212}Let them use the whore. (500 {GOLD_ICON})</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_companion_renowned_whore_use</EventName>
@@ -4311,7 +4311,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Deny their request.</OptionText>
+                <OptionText>{=BCCaptor_Text_12213}Deny their request.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -4334,7 +4334,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_renowned_whore_use</Name>
-        <Text>The men find {COMPANION_NAME_1} servicing one of your troops, and her eyes widen as they explain their intent, one of them freeing his cock from his pants in demonstration. As she finishes with her current client, she reaches over and engulfs the man's rod with her mouth. He shudders in ecstasy and surprise as one of the others moves towards her rear. She services them for several hours, taking load after load of cum until at last her visitors return to you, exhausted, and tell you the rumors are, if anything, underselling her skill.</Text>
+        <Text>{=BCCaptor_Text_12281}The men find {COMPANION_NAME_1} servicing one of your troops, and her eyes widen as they explain their intent, one of them freeing his cock from his pants in demonstration. As she finishes with her current client, she reaches over and engulfs the man's rod with her mouth. He shudders in ecstasy and surprise as one of the others moves towards her rear. She services them for several hours, taking load after load of cum until at last her visitors return to you, exhausted, and tell you the rumors are, if anything, underselling her skill.</Text>
         <BackgroundName>BC_image_sex_f_whore_renowned_group</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -4355,7 +4355,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>They should probably pay you more then...</OptionText>
+                <OptionText>{=BCCaptor_Text_12215}They should probably pay you more then...</OptionText>
                 <GoldTotal>R 100 300</GoldTotal>
             </Option>
             <Option>
@@ -4363,7 +4363,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Good to know.</OptionText>
+                <OptionText>{=BCCaptor_Text_12282}Good to know.</OptionText>
             </Option>
         </Options>
         <Companions>
@@ -4376,7 +4376,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_renowned_whore_old_enemy</Name>
-        <Text>The men walk up to {COMPANION_NAME_1} and her eyes widen in recognition. One of them comments that she won't look quite so arrogant locked up, and that he'll be more than happy to help teach her her new role in life. She shakes her head, whimpering in pain and humiliation as he pulls her to a nearby pillory; it's clear they have some past history, and that she doesn't want what they're offering.</Text>
+        <Text>{=BCCaptor_Text_12283}The men walk up to {COMPANION_NAME_1} and her eyes widen in recognition. One of them comments that she won't look quite so arrogant locked up, and that he'll be more than happy to help teach her her new role in life. She shakes her head, whimpering in pain and humiliation as he pulls her to a nearby pillory; it's clear they have some past history, and that she doesn't want what they're offering.</Text>
         <BackgroundName>BC_humiliation_first_chains</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -4398,7 +4398,7 @@
                     <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Return their money and tell them to leave.</OptionText>
+                <OptionText>{=BCCaptor_Text_12213}Return their money and tell them to leave.</OptionText>
                 <ProstitutionTotal>R -1 -3</ProstitutionTotal>
                 <GoldTotal>-500</GoldTotal>
                 <Companions>
@@ -4419,7 +4419,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>She has a job to do. Better watch over her, though.</OptionText>
+                <OptionText>{=BCCaptor_Text_12284}She has a job to do. Better watch over her, though.</OptionText>
                 <TriggerEventName>TB_companion_renowned_whore_old_enemy_2</TriggerEventName>
                 <Companions>
                     <Companion Id="1">
@@ -4451,7 +4451,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_renowned_whore_old_enemy_2</Name>
-        <Text>{COMPANION_NAME_1} lowers her head in shame as she is locked into the pillory, taking the man's cock in one hand and slowly massaging it. He grins, then grabs her hair and shoves her mouth onto his rod, roughly face-fucking her for several minutes, then moves behind her as she gasps for air. He enters her brutally, but her screams are muted by the meaty rods that the man's companions have shoved into her mouth. Hours later, the men return, thanking you for the use of your whore as she whimpers on the ground, covered in seed. She'll likely take quite a while to recover after that ordeal.</Text>
+        <Text>{=BCCaptor_Text_12285}{COMPANION_NAME_1} lowers her head in shame as she is locked into the pillory, taking the man's cock in one hand and slowly massaging it. He grins, then grabs her hair and shoves her mouth onto his rod, roughly face-fucking her for several minutes, then moves behind her as she gasps for air. He enters her brutally, but her screams are muted by the meaty rods that the man's companions have shoved into her mouth. Hours later, the men return, thanking you for the use of your whore as she whimpers on the ground, covered in seed. She'll likely take quite a while to recover after that ordeal.</Text>
         <BackgroundName>BC_image_sex_whore_stocks</BackgroundName>
         <NotificationName>BC_image_notification</NotificationName>
         <MultipleRestrictedListOfFlags>            
@@ -4470,7 +4470,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>They beat her too badly to keep working today! Demand compensation for your merchandise.</OptionText>
+                <OptionText>{=BCCaptor_Text_12286}They beat her too badly to keep working today! Demand compensation for your merchandise.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -4488,7 +4488,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>So be it.</OptionText>
+                <OptionText>{=BCCaptor_Text_12287}So be it.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -4512,7 +4512,7 @@
     <!-- married -->
     <CEEvent>
         <Name>TB_hero_spouse_visit</Name>
-        <Text>You hear the clop of hooves heading towards you, and as you look up your heart jumps - your spouse has come to visit, and {COMPANION_NAME_1} practically leaps into arms, kissing you deeply.</Text>
+        <Text>{=BCCaptor_Text_12276}You hear the clop of hooves heading towards you, and as you look up your heart jumps - your spouse has come to visit, and {COMPANION_NAME_1} practically leaps into arms, kissing you deeply.</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male_cake" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_companion_f_khuz_shield"  />
@@ -4531,7 +4531,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue your journey.</OptionText>
+                <OptionText>{=DefaultCaptiveEventsCommon30}Continue your journey.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R 20 10" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R 20 10" Ref="Hero" Color="Yellow"  HideNotification="true" />
@@ -4562,7 +4562,7 @@
                     <Skill Id="CaptiveLustT" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"   HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
                 </SkillsToLevel>
-                <OptionText>Lead onward to your bed...</OptionText>
+                <OptionText>{=BCCaptor_Text_12277}Lead onward to your bed...</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_male_hero_female_spouse_visit_sex</EventName>
@@ -4601,7 +4601,104 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Spouse" Location="Any" UseOtherConditions="BC_conditions_random_affectionate"  />
+            <Companion Id="1" Ref="Hero" Type="Spouse" Location="Settlement" UseOtherConditions="BC_conditions_random_affectionate"  />
+        </Companions>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_hero_spouse_visit</Name>
+        <Text>{=BCCaptor_Text_12276}You hear the clop of hooves heading towards you, and as you look up your heart jumps - your spouse has come to visit, and {COMPANION_NAME_1} practically leaps into arms, kissing you deeply.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_male_cake" UseConditions="BC_conditions_hero_male" />
+            <Background Name="BC_image_companion_f_khuz_shield"  />
+        </Backgrounds>
+        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroHaveSpouse</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultCaptiveEventsCommon30}Continue your journey.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R 20 10" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 20 10" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 20 10" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 20 10" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 20 10" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                </SkillsToLevel>
+                <SkillsRequired>
+                    <SkillRequired Id="CaptiveLustA" Max="250" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustC" Max="250" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustT" Max="250" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustV" Max="250" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustO" Max="250" Ref="Hero" />
+                </SkillsRequired>
+                <MoraleTotal>R -1 -20</MoraleTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=BCCaptor_Text_12277}Lead onward to your bed...</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_male_hero_female_spouse_visit_sex</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_male_hero_male_spouse_visit_sex</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_female_hero_male_spouse_visit_sex</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_female_hero_female_spouse_visit_sex</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <MoraleTotal>R 1 5</MoraleTotal>
+                <PregnancyRiskModifier>3</PregnancyRiskModifier>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Spouse" Location="Party" UseOtherConditions="BC_conditions_random_affectionate"  />
         </Companions>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
@@ -4609,7 +4706,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_female_hero_female_spouse_visit_sex</Name>
-        <Text>Your wife's expert hands grope and knead your body sensuously as she removes your clothing, and before long you are lost in the throes of passion, her tongue deep inside you. Your squeals and moans echo through the camp as you fondle and grope each other's breasts and stroke each other's flowers with a practiced hand, and at last you come, painting her face with your juices. As you return the favor she shudders and screams with her own rapturous climax, and you cuddle for some time afterwards, enjoying the intimacy and the feel of her supple breasts against your skin.</Text>
+        <Text>{=BCCaptor_Text_12278}Your wife's expert hands grope and knead your body sensuously as she removes your clothing, and before long you are lost in the throes of passion, her tongue deep inside you. Your squeals and moans echo through the camp as you fondle and grope each other's breasts and stroke each other's flowers with a practiced hand, and at last you come, painting her face with your juices. As you return the favor she shudders and screams with her own rapturous climax, and you cuddle for some time afterwards, enjoying the intimacy and the feel of her supple breasts against your skin.</Text>
         <BackgroundName>BC_image_companion_ff_still_life</BackgroundName>
         <NotificationName>BC_companion_notification_veil</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -4623,7 +4720,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue your journey.</OptionText>
+                <OptionText>{=DefaultCaptiveEventsCommon30}Continue your journey.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -4652,7 +4749,7 @@
     <!-- Adventure Events-->
         <CEEvent>
             <Name>TB_companion_friend_in_need_f_hero_f</Name>
-            <Text>{COMPANION_NAME_1} approaches you sheepishly, informing you that one of {?COMPANIONISFEMALE_1}her friends is in trouble, and she'd be grateful if you could spare a handful of gold so that she can go help them.{?}his friends is in trouble, and he'd be grateful if you could spare a handful of gold so that he can go help them.{\?}</Text>
+            <Text>{=BCCaptor_Text_12288}{COMPANION_NAME_1} approaches you sheepishly, informing you that one of {?COMPANIONISFEMALE_1}her friends is in trouble, and she'd be grateful if you could spare a handful of gold so that she can go help them.{?}his friends is in trouble, and he'd be grateful if you could spare a handful of gold so that he can go help them.{\?}</Text>
             <BackgroundName>BC_image_companion_face_tat</BackgroundName>
             <NotificationName>TB_travelling_notification</NotificationName>
             <MultipleRestrictedListOfFlags>
@@ -4670,7 +4767,7 @@
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Certainly - give her 100{GOLD_ICON}.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12289}Certainly - give her 100{GOLD_ICON}.</OptionText>
                     <GoldTotal>100</GoldTotal>
                     <MoraleTotal>R 1 3</MoraleTotal>
                     <RenownTotal>R 1 3</RenownTotal>
@@ -4709,7 +4806,7 @@
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Offer to join her.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12290}Offer to join her.</OptionText>
                     <MoraleTotal>R 1 3</MoraleTotal>
                     <RenownTotal>R 1 3</RenownTotal>
                     <SkillsToLevel>
@@ -4744,7 +4841,7 @@
                         <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>You're sure {?COMPANIONISFEMALE_1}she can manage without help.{?}he can manage without help.{\?}</OptionText>
+                    <OptionText>{=BCCaptor_Text_12291}You're sure {?COMPANIONISFEMALE_1}she can manage without help.{?}he can manage without help.{\?}</OptionText>
                     <MoraleTotal>R -1 -3</MoraleTotal>
                     <RenownTotal>R -1 -3</RenownTotal>
                     <TriggerEvents>
@@ -4777,7 +4874,7 @@
                         <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Forbid {?COMPANIONISFEMALE_1}her{?}him{\?} from going - it's too dangerous.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12292}Forbid {?COMPANIONISFEMALE_1}her{?}him{\?} from going - it's too dangerous.</OptionText>
                     <MoraleTotal>R -1 -3</MoraleTotal>
                     <RenownTotal>R -1 -3</RenownTotal>
                     <TriggerEvents>
@@ -4810,7 +4907,7 @@
         </CEEvent>
         <CEEvent>
             <Name>TB_companion_friend_in_need_f_hero_m</Name>
-            <Text>{COMPANION_NAME_1} approaches you sheepishly, informing you that one of {?COMPANIONISFEMALE_1}her friends is in trouble, and she'd be grateful if you could spare a handful of gold so that she can go help them.{?}his friends is in trouble, and he'd be grateful if you could spare a handful of gold so that he can go help them.{\?}</Text>
+            <Text>{=BCCaptor_Text_12288}{COMPANION_NAME_1} approaches you sheepishly, informing you that one of {?COMPANIONISFEMALE_1}her friends is in trouble, and she'd be grateful if you could spare a handful of gold so that she can go help them.{?}his friends is in trouble, and he'd be grateful if you could spare a handful of gold so that he can go help them.{\?}</Text>
             <BackgroundName>BC_image_companion_face_tat</BackgroundName>
             <NotificationName>TB_travelling_notification</NotificationName>
             <MultipleRestrictedListOfFlags>
@@ -4828,7 +4925,7 @@
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Certainly - give her 100{GOLD_ICON}.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12289}Certainly - give her 100{GOLD_ICON}.</OptionText>
                     <GoldTotal>100</GoldTotal>
                     <MoraleTotal>R 1 3</MoraleTotal>
                     <RenownTotal>R 1 3</RenownTotal>
@@ -4868,7 +4965,7 @@
                         <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Offer to join her.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12290}Offer to join her.</OptionText>
                     <MoraleTotal>R 1 3</MoraleTotal>
                     <RenownTotal>R 1 3</RenownTotal>
                     <SkillsToLevel>
@@ -4903,7 +5000,7 @@
                         <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>You're sure {?COMPANIONISFEMALE_1}she can manage without help.{?}he can manage without help.{\?}</OptionText>
+                    <OptionText>{=BCCaptor_Text_12291}You're sure {?COMPANIONISFEMALE_1}she can manage without help.{?}he can manage without help.{\?}</OptionText>
                     <MoraleTotal>R -1 -3</MoraleTotal>
                     <RenownTotal>R -1 -3</RenownTotal>
                     <TriggerEvents>
@@ -4936,7 +5033,7 @@
                         <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Forbid {?COMPANIONISFEMALE_1}her{?}him{\?} from going - it's too dangerous.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12292}Forbid {?COMPANIONISFEMALE_1}her{?}him{\?} from going - it's too dangerous.</OptionText>
                     <MoraleTotal>R -1 -3</MoraleTotal>
                     <RenownTotal>R -1 -3</RenownTotal>
                     <TriggerEvents>
@@ -4969,7 +5066,7 @@
         </CEEvent>
         <CEEvent>
             <Name>TB_companion_friend_in_need_m_hero_f</Name>
-            <Text>{COMPANION_NAME_1} approaches you sheepishly, informing you that one of {?COMPANIONISFEMALE_1}her friends is in trouble, and she'd be grateful if you could spare a handful of gold so that she can go help them.{?}his friends is in trouble, and he'd be grateful if you could spare a handful of gold so that he can go help them.{\?}</Text>
+            <Text>{=BCCaptor_Text_12288}{COMPANION_NAME_1} approaches you sheepishly, informing you that one of {?COMPANIONISFEMALE_1}her friends is in trouble, and she'd be grateful if you could spare a handful of gold so that she can go help them.{?}his friends is in trouble, and he'd be grateful if you could spare a handful of gold so that he can go help them.{\?}</Text>
             <BackgroundName>BC_image_burning_village</BackgroundName>
             <NotificationName>TB_travelling_notification</NotificationName>
             <MultipleRestrictedListOfFlags>
@@ -4987,7 +5084,7 @@
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Certainly - give him 100{GOLD_ICON}.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12294}Certainly - give him 100{GOLD_ICON}.</OptionText>
                     <GoldTotal>100</GoldTotal>
                     <MoraleTotal>R 1 3</MoraleTotal>
                     <RenownTotal>R 1 3</RenownTotal>
@@ -5026,7 +5123,7 @@
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Offer to join him.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12293}Offer to join him.</OptionText>
                     <MoraleTotal>R 1 3</MoraleTotal>
                     <RenownTotal>R 1 3</RenownTotal>
                     <SkillsToLevel>
@@ -5061,7 +5158,7 @@
                         <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>You're sure {?COMPANIONISFEMALE_1}she can manage without help.{?}he can manage without help.{\?}</OptionText>
+                    <OptionText>{=BCCaptor_Text_12291}You're sure {?COMPANIONISFEMALE_1}she can manage without help.{?}he can manage without help.{\?}</OptionText>
                     <MoraleTotal>R -1 -3</MoraleTotal>
                     <RenownTotal>R -1 -3</RenownTotal>
                     <TriggerEvents>
@@ -5094,7 +5191,7 @@
                         <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Forbid {?COMPANIONISFEMALE_1}her{?}him{\?} from going - it's too dangerous.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12292}Forbid {?COMPANIONISFEMALE_1}her{?}him{\?} from going - it's too dangerous.</OptionText>
                     <MoraleTotal>R -1 -3</MoraleTotal>
                     <RenownTotal>R -1 -3</RenownTotal>
                     <TriggerEvents>
@@ -5127,7 +5224,7 @@
         </CEEvent>
         <CEEvent>
             <Name>TB_companion_friend_in_need_m_hero_m</Name>
-            <Text>{COMPANION_NAME_1} approaches you sheepishly, informing you that one of {?COMPANIONISFEMALE_1}her friends is in trouble, and she'd be grateful if you could spare a handful of gold so that she can go help them.{?}his friends is in trouble, and he'd be grateful if you could spare a handful of gold so that he can go help them.{\?}</Text>
+            <Text>{=BCCaptor_Text_12288}{COMPANION_NAME_1} approaches you sheepishly, informing you that one of {?COMPANIONISFEMALE_1}her friends is in trouble, and she'd be grateful if you could spare a handful of gold so that she can go help them.{?}his friends is in trouble, and he'd be grateful if you could spare a handful of gold so that he can go help them.{\?}</Text>
             <BackgroundName>BC_image_burning_village</BackgroundName>
             <NotificationName>TB_travelling_notification</NotificationName>
             <MultipleRestrictedListOfFlags>
@@ -5145,7 +5242,7 @@
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Certainly - give him 100{GOLD_ICON}.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12294}Certainly - give him 100{GOLD_ICON}.</OptionText>
                     <GoldTotal>100</GoldTotal>
                     <MoraleTotal>R 1 3</MoraleTotal>
                     <RenownTotal>R 1 3</RenownTotal>
@@ -5184,7 +5281,7 @@
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Offer to join him.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12293}Offer to join him.</OptionText>
                     <MoraleTotal>R 1 3</MoraleTotal>
                     <RenownTotal>R 1 3</RenownTotal>
                     <SkillsToLevel>
@@ -5219,7 +5316,7 @@
                         <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>You're sure {?COMPANIONISFEMALE_1}she can manage without help.{?}he can manage without help.{\?}</OptionText>
+                    <OptionText>{=BCCaptor_Text_12291}You're sure {?COMPANIONISFEMALE_1}she can manage without help.{?}he can manage without help.{\?}</OptionText>
                     <MoraleTotal>R -1 -3</MoraleTotal>
                     <RenownTotal>R -1 -3</RenownTotal>
                     <TriggerEvents>
@@ -5252,7 +5349,7 @@
                         <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Forbid {?COMPANIONISFEMALE_1}her{?}him{\?} from going - it's too dangerous.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12292}Forbid {?COMPANIONISFEMALE_1}her{?}him{\?} from going - it's too dangerous.</OptionText>
                     <MoraleTotal>R -1 -3</MoraleTotal>
                     <RenownTotal>R -1 -3</RenownTotal>
                     <TriggerEvents>
@@ -5285,7 +5382,7 @@
         </CEEvent>
         <CEEvent>
             <Name>BC_companion_return_safe_f</Name>
-            <Text>Some time later, {COMPANION_NAME_1} returns, her clothing ragged and dusty, but a smile on her face. Her adventure appears to have been successful, and she thanks you profusely for your support.</Text>
+            <Text>{=BCCaptor_Text_12295}Some time later, {COMPANION_NAME_1} returns, her clothing ragged and dusty, but a smile on her face. Her adventure appears to have been successful, and she thanks you profusely for your support.</Text>
             <Backgrounds>
                 <Background Name="BC_image_companion_cut_stomach"/>
             </Backgrounds>
@@ -5300,7 +5397,7 @@
                     <MultipleRestrictedListOfConsequences>
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>At least she's safe.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12162}At least she's safe.</OptionText>
                     <Companions>
                         <Companion Id="1">
                             <MultipleRestrictedListOfConsequences>
@@ -5323,7 +5420,7 @@
         </CEEvent>
         <CEEvent>
             <Name>BC_companion_return_safe_m</Name>
-            <Text>Some time later, {COMPANION_NAME_1} returns, his clothing ragged and dusty, but a smile on his face. His adventure appears to have been successful, and he thanks you profusely for your support.</Text>
+            <Text>{=BCCaptor_Text_12296}Some time later, {COMPANION_NAME_1} returns, his clothing ragged and dusty, but a smile on his face. His adventure appears to have been successful, and he thanks you profusely for your support.</Text>
             <Backgrounds>
                 <Background Name="BC_image_captive_male_fence"/>
             </Backgrounds>
@@ -5338,7 +5435,7 @@
                     <MultipleRestrictedListOfConsequences>
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>At least he's safe.</OptionText>
+                    <OptionText>{=TBRandomEventsCompanion012}At least he's safe.</OptionText>
                     <Companions>
                         <Companion Id="1">
                             <MultipleRestrictedListOfConsequences>
@@ -5363,7 +5460,7 @@
     <!-- Broken / Devoted shifts -->
     <CEEvent>
         <Name>TB_companion_broken_f</Name>
-        <Text>{COMPANION_NAME_1} kneels before you, her expression addled and passive. She glances up towards her master as though trying to anticipate your next order before you even speak it. Gone is the fire in her eyes, or any hint of pride - she has become your toy, a broken slave with no more ambition than to serve your will, whatever it might be.</Text>
+        <Text>{=BCCaptor_Text_12297}{COMPANION_NAME_1} kneels before you, her expression addled and passive. She glances up towards her master as though trying to anticipate your next order before you even speak it. Gone is the fire in her eyes, or any hint of pride - she has become your toy, a broken slave with no more ambition than to serve your will, whatever it might be.</Text>
         <Backgrounds>
             <Background Name="BC_captor_f_kneeling_slave"/>
         </Backgrounds>
@@ -5378,7 +5475,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>As it should be.</OptionText>
+                <OptionText>{=BCCaptor_Text_12298}As it should be.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -5403,7 +5500,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_devoted_f</Name>
-        <Text>{COMPANION_NAME_1} approaches you, a fawning expression on her face. She stammers her thanks at your guidance and support over the time she's known you, and wants you to know that she is with you, now and forever - anything you need done, any favor you might ask, she will gratefully provide.</Text>
+        <Text>{=BCCaptor_Text_12301}{COMPANION_NAME_1} approaches you, a fawning expression on her face. She stammers her thanks at your guidance and support over the time she's known you, and wants you to know that she is with you, now and forever - anything you need done, any favor you might ask, she will gratefully provide.</Text>
         <Backgrounds>
             <Background Name="BC_image_companion_f_blonde_braids"/>
         </Backgrounds>
@@ -5418,7 +5515,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Accept her fealty and devotion.</OptionText>
+                <OptionText>{=BCCaptor_Text_12302}Accept her fealty and devotion.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -5441,7 +5538,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_broken_m</Name>
-        <Text>{COMPANION_NAME_1} kneels before you, his expression addled and passive. He glances up towards his master as though trying to anticipate your next order before you even speak it. Gone is the fire in his eyes, or any hint of resistance - he has become your toy, a broken slave with no more ambition than to serve your will, whatever it might be.</Text>
+        <Text>{=BCCaptor_Text_12303}{COMPANION_NAME_1} kneels before you, his expression addled and passive. He glances up towards his master as though trying to anticipate your next order before you even speak it. Gone is the fire in his eyes, or any hint of resistance - he has become your toy, a broken slave with no more ambition than to serve your will, whatever it might be.</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male_shame"/>
         </Backgrounds>
@@ -5456,7 +5553,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>As it should be.</OptionText>
+                <OptionText>{=BCCaptor_Text_12298}As it should be.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>
@@ -5480,7 +5577,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_companion_devoted_m</Name>
-        <Text>{COMPANION_NAME_1} approaches you, a fawning expression on his face. He stammers his thanks at your guidance and support over the time he's known you, and wants you to know that he is with you, now and forever - anything you need done, any favor you might ask, he will gratefully provide.</Text>
+        <Text>{=BCCaptor_Text_12299}{COMPANION_NAME_1} approaches you, a fawning expression on his face. He stammers his thanks at your guidance and support over the time he's known you, and wants you to know that he is with you, now and forever - anything you need done, any favor you might ask, he will gratefully provide.</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male_cake"/>
         </Backgrounds>
@@ -5495,7 +5592,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Accept his fealty.</OptionText>
+                <OptionText>{=BCCaptor_Text_12300}Accept his fealty and devotion.</OptionText>
                 <Companions>
                     <Companion Id="1">
                         <MultipleRestrictedListOfConsequences>

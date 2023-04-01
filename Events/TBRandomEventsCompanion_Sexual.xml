@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_companion_kidnapped_f</Name>
         <Text>{=TBRandomEventsCompanion_Sexual001}One of your guards approaches you nervously, scroll in hand. It seems {COMPANION_NAME_1} has been kidnapped by a group of bandits! They have left a ransom note, promising to kill {?COMPANIONISFEMALE_1}her should you attempt to hunt them down, and demanding a hefty sum of gold for her safe return.{?}him should you attempt to hunt them down, and demanding a hefty sum of gold for his safe return.{\?}</Text>
@@ -58,7 +58,7 @@
                 </SkillsToLevel>
                 <BattleSettings Ref="Regular" EnemyName="Kidnapper" Victory="TB_companion_kidnapped_duel_f" Defeat="TB_kidnapped_wilds" PlayerTroops="0">
                     <SpawnTroops>
-                        <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="1" />
+                        <SpawnTroop Ref="Enemy" Id="conspiracy_commander_antiempire" Number="1" />
                     </SpawnTroops>
                 </BattleSettings>
                 <Companions>
@@ -250,7 +250,7 @@
                 </SkillsRequired>
                 <BattleSettings Ref="Regular" EnemyName="Kidnapper" Victory="TB_companion_kidnapped_duel_m" Defeat="TB_kidnapped_wilds" PlayerTroops="0">
                     <SpawnTroops>
-                        <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="1" />
+                        <SpawnTroop Ref="Enemy" Id="conspiracy_commander_antiempire" Number="1" />
                     </SpawnTroops>
                 </BattleSettings>
                 <Companions>
@@ -441,7 +441,7 @@
             </Option>
         </Options>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition"/>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
@@ -513,7 +513,7 @@
             </Option>
         </Options>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_m"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
@@ -585,7 +585,7 @@
             </Option>
         </Options>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_m"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
@@ -727,7 +727,7 @@
             </Option>
         </Options>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_m"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
@@ -766,7 +766,7 @@
             </Option>
         </Options>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_m"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
@@ -845,7 +845,7 @@
             </Option>
         </Options>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition_m"/>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition_m"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
@@ -883,7 +883,7 @@
             </Option>
         </Options>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition"/>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
@@ -941,7 +941,7 @@
             </Option>
         </Options>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition"/>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
@@ -999,7 +999,7 @@
             </Option>
         </Options>
         <Companions>
-            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="TB_random_current_actor_condition"/>
+            <Companion Id="1" Ref="Hero" Type="Both" UseOtherConditions="BC_random_current_actor_condition"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>

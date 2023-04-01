@@ -1252,7 +1252,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Share some of your food.</OptionText>
+                <OptionText>{=TBRandomEvents_Solo010}Share some of your food.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -1 -3</MoraleTotal>
             </Option>
@@ -1273,7 +1273,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Refuse; you've not enough food as it is.</OptionText>
+                <OptionText>{=TBRandomEvents_Solo009}Refuse; you've not enough food as it is.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -3315,7 +3315,7 @@
                 <OptionText>You're so fucking big! Fuck my ass up! Fuck it to pieces!</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
-                        <EventName>BC_event_sex_equus_4_6</EventName>
+                        <EventName>BC_event_sex_equus_4_7</EventName>
                         <EventUseConditions>true</EventUseConditions>
                     </TriggerEvent>
                 </TriggerEvents>

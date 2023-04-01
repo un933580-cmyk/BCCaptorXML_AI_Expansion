@@ -3,7 +3,7 @@
 <!-- #region Date events -->
     <CEEvent>
         <Name>BC_event_date_new</Name>
-        <Text>You decide to spend some quality time with {CAPTIVE_NAME}. What would you like to do?</Text>
+        <Text>{=BCCaptor_Text_12000}You decide to spend some quality time with {CAPTIVE_NAME}. What would you like to do?</Text>
         <Backgrounds>
             <Background Name="BC_captor_dating_peasant_waiting" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_captive_male" UseConditions="BC_event_conditions_captive_male" />
@@ -25,7 +25,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Get to know her.</OptionText>
+                <OptionText>{=BCCaptor_Text_12001}Get to know her.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_date_talk_family</EventName>
@@ -65,7 +65,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Say farewell for now.</OptionText>
+                <OptionText>{=BCCaptor_Text_12002}Say farewell for now.</OptionText>
             </Option>
         </Options>
         <SkillsRequired><SkillRequired Id="NotNewCaptive" Ref="Hero" Max="0" /></SkillsRequired>
@@ -83,7 +83,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_date_new_wife</Name>
-        <Text>You decide to spend some quality time with {CAPTIVE_NAME}. What would you like to do?</Text>
+        <Text>{=BCCaptor_Text_12000}You decide to spend some quality time with {CAPTIVE_NAME}. What would you like to do?</Text>
         <Backgrounds>
             <Background Name="BC_captor_dating_peasant_waiting" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="BC_captor_waiting_crates" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -105,7 +105,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Get to know her.</OptionText>
+                <OptionText>{=BCCaptor_Text_12001}Get to know her.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_date_talk_family</EventName>
@@ -145,7 +145,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Say farewell for now.</OptionText>
+                <OptionText>{=BCCaptor_Text_12002}Say farewell for now.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 50 100" Ref="Hero" Color="White" HideNotification="true" />
@@ -173,7 +173,7 @@
 
     <CEEvent>
         <Name>TB_captor_dating_menu</Name>
-        <Text>You decide to spend some quality time with {CAPTIVE_NAME}. What would you like to do?</Text>
+        <Text>{=BCCaptor_Text_12000}You decide to spend some quality time with {CAPTIVE_NAME}. What would you like to do?</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_female_brunette" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="BC_captor_waiting_crates" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -195,7 +195,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Go for a stroll.</OptionText>
+                <OptionText>{=BCCaptor_Text_12003}Go for a stroll.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_date_talk_family</EventName>
@@ -250,7 +250,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Share a meal.</OptionText>
+                <OptionText>{=BCCaptor_Text_12004}Share a meal.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_date_meal_hungry</EventName>
@@ -300,7 +300,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Grab her and kiss her.</OptionText>
+                <OptionText>{=BCCaptor_Text_12005}Grab her and kiss her.</OptionText>
                 <TriggerEvents>
                     <!-- PROPOSITION EVENTS LOTTERY -->
                     <TriggerEvent>
@@ -345,7 +345,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Say farewell for now.</OptionText>
+                <OptionText>{=BCCaptor_Text_12002}Say farewell for now.</OptionText>
             </Option>
         </Options>
         <SkillsRequired><SkillRequired Id="NotNewCaptive" Ref="Hero" Min="1" /></SkillsRequired>
@@ -355,7 +355,7 @@
 <!-- #region talk events -->
     <CEEvent>
         <Name>BC_event_date_talk_family</Name>
-        <Text>You lead {CAPTIVE_NAME} to an intimate setting and ask {?ISCAPTIVEFEMALE}her about her family. At first she seems confused, even scared, but eventually begins talking about her siblings, her relationship with her parents, and the various inter-family political squabbles that previously dominated her life. She laughs for a moment, and her happiness is infectious. She hangs her head when she's done talking, though, remembering that she'll likely never see them again.{?}him about his family. At first he seems confused, even scared, but eventually begins talking about his siblings, his relationship with his parents, and the various inter-family political squabbles that previously dominated his life. He laughs for a moment, and his happiness is infectious. He hangs his head when he's done talking, though, remembering that he'll likely never see them again.{\?}</Text>
+        <Text>{=BCCaptor_Text_12006}You lead {CAPTIVE_NAME} to an intimate setting and ask {?ISCAPTIVEFEMALE}her about her family. At first she seems confused, even scared, but eventually begins talking about her siblings, her relationship with her parents, and the various inter-family political squabbles that previously dominated her life. She laughs for a moment, and her happiness is infectious. She hangs her head when she's done talking, though, remembering that she'll likely never see them again.{?}him about his family. At first he seems confused, even scared, but eventually begins talking about his siblings, his relationship with his parents, and the various inter-family political squabbles that previously dominated his life. He laughs for a moment, and his happiness is infectious. He hangs his head when he's done talking, though, remembering that he'll likely never see them again.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_captor_dating_bench" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_image_captive_male_fence" UseConditions="BC_event_conditions_captive_male" />
@@ -377,7 +377,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>What shall you do next?</OptionText>
+                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
@@ -397,7 +397,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_date_talk_hobbies</Name>
-        <Text>You lead {CAPTIVE_NAME} to an intimate setting and ask {?ISCAPTIVEFEMALE}her about her hobbies. At first she seems confused, even scared, but eventually begins talking about her time in the stables, riding and cleaning horses, and practicing for the battlefield. From there you move to a variety of surprising other hobbies, from collecting baskets to skipping rocks. She laughs for a moment, and her happiness is infectious. She hangs her head when she's done talking, though, remembering that she'll likely never be able to choose the day's activities again.{?}him about his family. At first he seems confused, even scared, but eventually begins talking about his time in the stables, riding and cleaning horses, and practicing for the battlefield. From there you move to a variety of surprising other hobbies, from collecting daggers to skipping rocks. He laughs for a moment, and his happiness is infectious. He hangs his head when she's done talking, though, remembering that he'll likely never be able to choose the day's activities again.{\?}</Text>
+        <Text>{=BCCaptor_Text_12008}You lead {CAPTIVE_NAME} to an intimate setting and ask {?ISCAPTIVEFEMALE}her about her hobbies. At first she seems confused, even scared, but eventually begins talking about her time in the stables, riding and cleaning horses, and practicing for the battlefield. From there you move to a variety of surprising other hobbies, from collecting baskets to skipping rocks. She laughs for a moment, and her happiness is infectious. She hangs her head when she's done talking, though, remembering that she'll likely never be able to choose the day's activities again.{?}him about his family. At first he seems confused, even scared, but eventually begins talking about his time in the stables, riding and cleaning horses, and practicing for the battlefield. From there you move to a variety of surprising other hobbies, from collecting daggers to skipping rocks. He laughs for a moment, and his happiness is infectious. He hangs his head when she's done talking, though, remembering that he'll likely never be able to choose the day's activities again.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_female_stonewall" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_captor_dating_lady_pregnant" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -421,7 +421,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>What shall you do next?</OptionText>
+                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -441,7 +441,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_date_talk_food</Name>
-        <Text>You lead {CAPTIVE_NAME} to an intimate setting and ask {?ISCAPTIVEFEMALE}her about her favorite foods. At first she seems confused, even scared, but eventually begins talking about the taste of crunchy lettuce, well-cooked roast, and fresh-baked bread. She closes her eyes, licking her lips in satisfaction as she imagines their taste and smell. She hangs her head when she's done talking, remembering that she'll be eating whatever gruel you provide from now on.{?}him about his favorite foods. At first he seems confused, even scared, but eventually begins talking about the taste of crunchy lettuce, well-cooked roast, and fresh-baked bread. He closes his eyes, licking his lips in satisfaction as he imagines their taste and smell. He hangs his head when he's done talking, remembering that he'll be eating whatever gruel you provide from now on.{\?}</Text>
+        <Text>{=BCCaptor_Text_12009}You lead {CAPTIVE_NAME} to an intimate setting and ask {?ISCAPTIVEFEMALE}her about her favorite foods. At first she seems confused, even scared, but eventually begins talking about the taste of crunchy lettuce, well-cooked roast, and fresh-baked bread. She closes her eyes, licking her lips in satisfaction as she imagines their taste and smell. She hangs her head when she's done talking, remembering that she'll be eating whatever gruel you provide from now on.{?}him about his favorite foods. At first he seems confused, even scared, but eventually begins talking about the taste of crunchy lettuce, well-cooked roast, and fresh-baked bread. He closes his eyes, licking his lips in satisfaction as he imagines their taste and smell. He hangs his head when he's done talking, remembering that he'll be eating whatever gruel you provide from now on.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_female_blonde" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_captor_dating_lady_pregnant" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -464,7 +464,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>What shall you do next?</OptionText>
+                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -484,7 +484,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_date_talk_dreams</Name>
-        <Text>You lead {CAPTIVE_NAME} to an intimate setting and ask {?ISCAPTIVEFEMALE}her about her dreams. At first she seems confused, even scared, but eventually begins talking about dancing through brilliant fields of grass, seeing her family once more, and finding a kind and thoughtful husband. She smiles for a moment, and her happiness is infectious, but she hangs her head when she's done talking, remembering that her future is in your hands alone now.{?}him about his dreams. At first he seems confused, even scared, but eventually begins talking about dancing in lavish courtrooms, seeing his family once more, and finding a kind and thoughtful wife. He smiles for a moment, and his happiness is infectious, but he hangs her head when he's done talking, remembering that his future is in your hands alone now.{\?}</Text>
+        <Text>{=BCCapor_Text_12013}You lead {CAPTIVE_NAME} to an intimate setting and ask {?ISCAPTIVEFEMALE}her about her dreams. At first she seems confused, even scared, but eventually begins talking about dancing through brilliant fields of grass, seeing her family once more, and finding a kind and thoughtful husband. She smiles for a moment, and her happiness is infectious, but she hangs her head when she's done talking, remembering that her future is in your hands alone now.{?}him about his dreams. At first he seems confused, even scared, but eventually begins talking about dancing in lavish courtrooms, seeing his family once more, and finding a kind and thoughtful wife. He smiles for a moment, and his happiness is infectious, but he hangs her head when he's done talking, remembering that his future is in your hands alone now.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_captor_dating_bench" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_captor_dating_lady_pregnant" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -507,7 +507,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>What shall you do next?</OptionText>
+                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -528,7 +528,7 @@
 <!-- #region Meal events -->
     <CEEvent>
         <Name>BC_event_date_meal_hungry</Name>
-        <Text>You lead {CAPTIVE_NAME} to an intimate setting, where you've prepared a hearty meal. {?ISCAPTIVEFEMALE}Her stomach growls angrily at the sight of food, and she sits, eating ravenously for a minute or two before she realizes you're eating calmly opposite her. Sheepishly, she continues eating carefully in silence, unwilling to meet your eyes.{?}His stomach growls angrily at the sight of food, and he sits, eating ravenously for a minute or two before he realizes you're eating calmly opposite him. Sheepishly, he continues eating carefully in silence, unwilling to meet your eyes.{\?}</Text>
+        <Text>{=BCCaptor_Text_12010}You lead {CAPTIVE_NAME} to an intimate setting, where you've prepared a hearty meal. {?ISCAPTIVEFEMALE}Her stomach growls angrily at the sight of food, and she sits, eating ravenously for a minute or two before she realizes you're eating calmly opposite her. Sheepishly, she continues eating carefully in silence, unwilling to meet your eyes.{?}His stomach growls angrily at the sight of food, and he sits, eating ravenously for a minute or two before he realizes you're eating calmly opposite him. Sheepishly, he continues eating carefully in silence, unwilling to meet your eyes.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_captor_dating_dinner_bread" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_captor_dating_dinner_bread" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -551,7 +551,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>What shall you do next?</OptionText>
+                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -571,7 +571,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_date_meal_afraid</Name>
-        <Text>You lead {CAPTIVE_NAME} to an intimate setting, where you've prepared a hearty meal. {?ISCAPTIVEFEMALE}Her stomach growls angrily at the sight of food, but she waits, watching you as though expecting something horrible to happen. Eventually hunger wins out and she sits, carefully eating but glancing towards you and the doors in terror whenever she hears a noise.{?}His stomach growls angrily at the sight of food, but he waits, watching you as though expecting something horrible to happen. Eventually hunger wins out and he sits, carefully eating but glancing towards you and the doors in terror whenever he hears a noise.{\?}</Text>
+        <Text>{=BCCaptor_Text_12011}You lead {CAPTIVE_NAME} to an intimate setting, where you've prepared a hearty meal. {?ISCAPTIVEFEMALE}Her stomach growls angrily at the sight of food, but she waits, watching you as though expecting something horrible to happen. Eventually hunger wins out and she sits, carefully eating but glancing towards you and the doors in terror whenever she hears a noise.{?}His stomach growls angrily at the sight of food, but he waits, watching you as though expecting something horrible to happen. Eventually hunger wins out and he sits, carefully eating but glancing towards you and the doors in terror whenever he hears a noise.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_captor_dating_armcross" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_captor_dating_armcross" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -594,7 +594,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>What shall you do next?</OptionText>
+                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-2" Ref="Hero" HideNotification="true"/>
@@ -615,7 +615,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_date_meal_grateful</Name>
-        <Text>You lead {CAPTIVE_NAME} to an intimate setting, where you've prepared a hearty meal. {?ISCAPTIVEFEMALE}She sighs gratefully at the sight, and stammers a heartfelt thanks before joining you at the table. You eat calmly, sharing friendly conversation, and she almost seems to forget her captivity as time goes on.{?}He sighs gratefully at the sight, and stammers a heartfelt thanks before joining you at the table. You eat calmly, sharing friendly conversation, and he almost seems to forget his captivity as time goes on.{\?}</Text>
+        <Text>{=BCCaptor_Text_12012}You lead {CAPTIVE_NAME} to an intimate setting, where you've prepared a hearty meal. {?ISCAPTIVEFEMALE}She sighs gratefully at the sight, and stammers a heartfelt thanks before joining you at the table. You eat calmly, sharing friendly conversation, and she almost seems to forget her captivity as time goes on.{?}He sighs gratefully at the sight, and stammers a heartfelt thanks before joining you at the table. You eat calmly, sharing friendly conversation, and he almost seems to forget his captivity as time goes on.{\?}</Text>
         <Backgrounds>
             <Background Name="BC_captor_dating_dinner_bread" UseConditions="BC_event_conditions_captive_female_default" />
             <Background Name="BC_captor_dating_dinner_bread" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -640,7 +640,7 @@
                     <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>What shall you do next?</OptionText>
+                <OptionText>{=BCCaptor_Text_12007}What shall you do next?</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
@@ -664,7 +664,7 @@
 <!-- Virgin Dating -->
     <CEEvent>
         <Name>BC_event_date_virgin_reveal</Name>
-        <Text>You gesture to invite {CAPTIVE_NAME} to your bed and before you say a word {?ISCAPTIVEFEMALE}she shakes her head nervously before stammering out she's not feeling well, and it is her cycle acting up. She has tears in her eyes as you lead her to your bedroom. {?}he shakes his head, telling you he's not some toy who will let you have your way with him whenever you like just because you've decided to be nice to him.{\?} You suspect there is something else going on, and have put together the pieces that {CAPTIVE_NAME} has never fully taken on a lover before.</Text>
+        <Text>{=BCCaptor_Text_12020}You gesture to invite {CAPTIVE_NAME} to your bed and before you say a word {?ISCAPTIVEFEMALE}she shakes her head nervously before stammering out she's not feeling well, and it is her cycle acting up. She has tears in her eyes as you lead her to your bedroom. {?}he shakes his head, telling you he's not some toy who will let you have your way with him whenever you like just because you've decided to be nice to him.{\?} You suspect there is something else going on, and have put together the pieces that {CAPTIVE_NAME} has never fully taken on a lover before.</Text>
         <Backgrounds>
             <Background Name="BC_image_f_virgin_reveal"  />
         </Backgrounds>
@@ -686,7 +686,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Tell her you understand, and bring up something else.</OptionText>
+                <OptionText>{=BCCaptor_Text_12021}Tell her you understand, and bring up something else.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_date_tired</EventName>
@@ -715,7 +715,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue pursuing your claim.</OptionText>
+                <OptionText>{=BCCaptor_Text_12022}Continue pursuing your claim.</OptionText>
                 <TriggerEventName>BC_event_date_virgin_resist</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 10" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -735,7 +735,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_date_virgin_resist</Name>
-        <Text>You press further to invite {CAPTIVE_NAME} to give herself to you, but she bursts into tears and begins to beg you as a captain of honor not to ask anymore of her tonight.</Text>
+        <Text>{=BCCaptor_Text_12023}You press further to invite {CAPTIVE_NAME} to give herself to you, but she bursts into tears and begins to beg you as a captain of honor not to ask anymore of her tonight.</Text>
         <Backgrounds>
             <Background Name="BC_image_female_virgin_cry"  />
         </Backgrounds>
@@ -757,7 +757,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Tell her you understand, and bring up something else.</OptionText>
+                <OptionText>{=BCCaptor_Text_12021}Tell her you understand, and bring up something else.</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -769,7 +769,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Tell her you have decided tonight you will make sure she no longer has the burden of her virginity.</OptionText>
+                <OptionText>{=BCCaptor_Text_12025}Tell her you have decided tonight you will make sure she no longer has the burden of her virginity.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttv_first</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -778,7 +778,7 @@
                     <Skill Id="CaptiveLustO" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustT" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
-                    <Skill Id="SocialEnergy" ByLevel="-10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="SocialEnergy" ByLevel="R -3 -6" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
             </Option>
         </Options>
@@ -800,7 +800,7 @@
                 <Background Name="BC_captor_dating_ff_kissing" UseConditions="BC_event_conditions_captor_female_captive_female" />
                 <Background Name="BC_captor_dating_mf_kissing" />
             </Backgrounds>
-            <Text>You lead {CAPTIVE_NAME} to an intimate setting, leaning in to brush your lips against {?ISCAPTIVEFEMALE}hers. She hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms her. Your embrace goes on for some time, but when you move to feel under her dress she stops, pulling back, and tells you she's not yet ready to willingly give herself to you.{?}his. He hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms him. Your embrace goes on for some time, but when you move to feel the bulge in his pants he stops, pulling back, and tells you he's not yet ready to willingly give himself to you.{\?}</Text>
+            <Text>{=BCCaptor_Text_12030}You lead {CAPTIVE_NAME} to an intimate setting, leaning in to brush your lips against {?ISCAPTIVEFEMALE}hers. She hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms her. Your embrace goes on for some time, but when you move to feel under her dress she stops, pulling back, and tells you she's not yet ready to willingly give herself to you.{?}his. He hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms him. Your embrace goes on for some time, but when you move to feel the bulge in his pants he stops, pulling back, and tells you he's not yet ready to willingly give himself to you.{\?}</Text>
             <NotificationName>BC_image_notification</NotificationName>
             <MultipleRestrictedListOfFlags>
                 <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -819,7 +819,7 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Kiss {CAPTIVE_NAME} deeper.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12031}Kiss {CAPTIVE_NAME} deeper.</OptionText>
                     <TriggerEvents>
                         <!-- Lotto Menu for DATE MAYBE-SEX EXIT OPTIONS-->
                         <TriggerEvent>
@@ -874,7 +874,7 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Smile, and talk about something else.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12032}Smile, and talk about something else.</OptionText>
                     <TriggerEventName>TB_captor_dating_menu</TriggerEventName>                
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="1" Ref="Hero" HideNotification="true"/>
@@ -898,7 +898,7 @@
             <Backgrounds>
                 <Background Name="BC_captor_dating_ff_kissing" />
             </Backgrounds>
-            <Text>You lead {CAPTIVE_NAME} to an intimate setting, leaning in to brush your lips against {?ISCAPTIVEFEMALE}hers. She hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms her. Your embrace goes on for some time, but when you move to feel under her dress she stops, pulling back, and tells you she's not yet ready to willingly give herself to you.{?}his. He hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms him. Your embrace goes on for some time, but when you move to feel the bulge in his pants he stops, pulling back, and tells you he's not yet ready to willingly give himself to you.{\?}</Text>
+            <Text>{=BCCaptor_Text_12030}You lead {CAPTIVE_NAME} to an intimate setting, leaning in to brush your lips against {?ISCAPTIVEFEMALE}hers. She hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms her. Your embrace goes on for some time, but when you move to feel under her dress she stops, pulling back, and tells you she's not yet ready to willingly give herself to you.{?}his. He hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms him. Your embrace goes on for some time, but when you move to feel the bulge in his pants he stops, pulling back, and tells you he's not yet ready to willingly give himself to you.{\?}</Text>
             <NotificationName>BC_image_notification</NotificationName>
             <MultipleRestrictedListOfFlags>
                 <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -917,7 +917,7 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Kiss {CAPTIVE_NAME} deeper.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12031}Kiss {CAPTIVE_NAME} deeper.</OptionText>
                     <TriggerEvents>
                         <!-- Lotto Menu for DATE MAYBE-SEX EXIT OPTIONS-->
                         <TriggerEvent>
@@ -972,7 +972,7 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Smile, and talk about something else.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12032}Smile, and talk about something else.</OptionText>
                     <TriggerEventName>TB_captor_dating_menu</TriggerEventName>                
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="1" Ref="Hero" HideNotification="true"/>
@@ -994,7 +994,7 @@
 <!-- #region Tired/Resist events -->
         <CEEvent>
             <Name>BC_event_date_fake_tired</Name>
-            <Text>{CAPTIVE_NAME} is grateful for the attention but states that {?ISCAPTIVEFEMALE}she's exhausted, and begs you to let her rest so that she can give you her full attention later. She does seem tired, but is it really her place to refuse you?{?}he's exhausted, and begs you to let him rest so that he can give you his full attention later. He does seem tired, but is it really his place to refuse you?{\?}</Text>
+            <Text>{=BCCaptor_Text_12033}{CAPTIVE_NAME} is grateful for the attention but states that {?ISCAPTIVEFEMALE}she's exhausted, and begs you to let her rest so that she can give you her full attention later. She does seem tired, but is it really her place to refuse you?{?}he's exhausted, and begs you to let him rest so that he can give you his full attention later. He does seem tired, but is it really his place to refuse you?{\?}</Text>
             <Backgrounds>
                 <Background Name="BC_captor_dating_waiting_4" UseConditions="BC_event_conditions_captive_female_default" />
                 <Background Name="BC_image_captive_male_armcross" UseConditions="BC_event_conditions_captive_male" />
@@ -1019,7 +1019,7 @@
                         <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
                     <HealthTotal>-20</HealthTotal>
-                    <OptionText>Order {?ISCAPTIVEFEMALE}her to obey you NOW.{?}him to obey you NOW.{\?}</OptionText>
+                    <OptionText>{=BCCaptor_Text_12034}Order {?ISCAPTIVEFEMALE}her to obey you NOW.{?}him to obey you NOW.{\?}</OptionText>
                     <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
@@ -1033,7 +1033,7 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Let h{?ISCAPTIVEFEMALE}er{?}im{\?} rest.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12035}Let h{?ISCAPTIVEFEMALE}er{?}im{\?} rest.</OptionText>
                     <HealthTotal>R 5 10</HealthTotal>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
@@ -1046,7 +1046,7 @@
                     <MultipleRestrictedListOfConsequences>
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Whip {?ISCAPTIVEFEMALE}her for her {?}him for his {\?}defiance.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12036}Whip {?ISCAPTIVEFEMALE}her for her {?}him for his {\?}defiance.</OptionText>
                     <TriggerEventName>BC_event_torture_whipping</TriggerEventName>
                     <SlaveryTotal>R 10 15</SlaveryTotal>
                     <SkillsToLevel>
@@ -1068,7 +1068,7 @@
         </CEEvent>
         <CEEvent>
             <Name>BC_event_date_tired</Name>
-            <Text>{CAPTIVE_NAME} {?ISCAPTIVEFEMALE}begins crying, saying she's exhausted, and pleading for you to let her rest so that she can give you her full attention later. She does seem tired, but is it really her place to refuse you?{?}he's exhausted, and begs you to let him rest so that he can give you his full attention later. He does seem tired, but is it really his place to refuse you?{\?}</Text>
+            <Text>{=BCCaptor_Text_12037}{CAPTIVE_NAME} {?ISCAPTIVEFEMALE}begins crying, saying she's exhausted, and pleading for you to let her rest so that she can give you her full attention later. She does seem tired, but is it really her place to refuse you?{?}he's exhausted, and begs you to let him rest so that he can give you his full attention later. He does seem tired, but is it really his place to refuse you?{\?}</Text>
             <Backgrounds>
                 <Background Name="BC_image_captive_female_tired" UseConditions="BC_event_conditions_captive_female_default" />
                 <Background Name="BC_image_captive_male_tired" UseConditions="BC_event_conditions_captive_male" />
@@ -1092,7 +1092,7 @@
                         <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
                     <HealthTotal>-20</HealthTotal>
-                    <OptionText>Order {?ISCAPTIVEFEMALE}her to obey you NOW.{?}him to obey you NOW.{\?}</OptionText>
+                    <OptionText>{=BCCaptor_Text_12034}Order {?ISCAPTIVEFEMALE}her to obey you NOW.{?}him to obey you NOW.{\?}</OptionText>
                     <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
@@ -1106,7 +1106,7 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Let h{?ISCAPTIVEFEMALE}er{?}im{\?} rest.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12035}Let h{?ISCAPTIVEFEMALE}er{?}im{\?} rest.</OptionText>
                     <HealthTotal>R 5 10</HealthTotal>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
@@ -1119,7 +1119,7 @@
                     <MultipleRestrictedListOfConsequences>
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Whip {?ISCAPTIVEFEMALE}her for her{?}him for his{\?} defiance.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12036}Whip {?ISCAPTIVEFEMALE}her for her{?}him for his{\?} defiance.</OptionText>
                     <TriggerEventName>BC_event_torture_whipping</TriggerEventName>
                     <SlaveryTotal>R 10 15</SlaveryTotal>
                     <SkillsToLevel>
@@ -1141,7 +1141,7 @@
         </CEEvent>
         <CEEvent>
             <Name>BC_event_date_intimate_resist</Name>
-            <Text>You grab {CAPTIVE_NAME} and lean in, but {?ISCAPTIVEFEMALE}she stiffens and shakes her head, telling you she's not going to let you have your way with her whenever you like just because you've decided to be nice to her.{?}he resists and shakes his head, telling you he's not some whore who will let you have your way with him whenever you like just because you've decided to be nice to him.{\?} If you want a willing partner, you'll have to prove yourself.</Text>
+            <Text>{=BCCaptor_Text_12038}You grab {CAPTIVE_NAME} and lean in, but {?ISCAPTIVEFEMALE}she stiffens and shakes her head, telling you she's not going to let you have your way with her whenever you like just because you've decided to be nice to her.{?}he resists and shakes his head, telling you he's not some whore who will let you have your way with him whenever you like just because you've decided to be nice to him.{\?} If you want a willing partner, you'll have to prove yourself.</Text>
             <Backgrounds>
                 <Background Name="BC_image_captive_male_shame" UseConditions="BC_event_conditions_captive_male" />
                 <Background Name="BC_captor_dating_armcross" UseConditions="BC_event_conditions_captive_pregnant" />
@@ -1163,7 +1163,7 @@
                     <MultipleRestrictedListOfConsequences>
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Take {?ISCAPTIVEFEMALE}her{?}him{\?} to the bedroom anyway.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12039}Take {?ISCAPTIVEFEMALE}her{?}him{\?} to the bedroom anyway.</OptionText>
                     <TriggerEvents  >
                             <TriggerEvent>
                                 <EventName>BC_event_male_sex_ttf_1</EventName>
@@ -1188,7 +1188,7 @@
                         <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
                     <HealthTotal>-20</HealthTotal>
-                    <OptionText>Captives don't get to resist.</OptionText>
+                    <OptionText>{=BCCaptor_Text_12040}Captives don't get to resist.</OptionText>
                     <TriggerEvents>
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_attr</EventName>
@@ -1212,7 +1212,7 @@
                     <MultipleRestrictedListOfConsequences>
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>Try something else...</OptionText>                    
+                    <OptionText>{=BCCaptor_Text_12041}Try something else...</OptionText>                    
                     <TriggerEvents>
                         <!-- Lotto Menus for your DATE SEX EXIT OPTIONS-->
                         <TriggerEvent>

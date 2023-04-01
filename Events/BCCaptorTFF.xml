@@ -3,7 +3,7 @@
 <!-- LGF, LGR series for FF-->
     <CEEvent>
         <Name>BC_event_female_sex_ttf_1</Name>
-        <Text>You decide to sample {CAPTIVE_NAME}'s womanly delights, leading her to your rooms where you have her lift her dress.</Text>
+        <Text>{=BCCaptor_Text_14000}You decide to sample {CAPTIVE_NAME}'s womanly delights, leading her to your rooms where you have her lift her dress.</Text>
         <BackgroundName>BC_captor_sex_hbo_2</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -22,7 +22,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Kiss me.</OptionText>
+                <OptionText>{=BCCaptor_Text_14001}Kiss me.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_kissing</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
@@ -33,7 +33,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Your bosom is lovely.</OptionText>
+                <OptionText>{=BCCaptor_Text_14002}Your bosom is lovely.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_chest</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="5" Ref="Hero" />
@@ -45,7 +45,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Do you like my body?</OptionText>
+                <OptionText>{=BCCaptor_Text_14163}Do you like my body?</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_sucking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="10" Ref="Hero" />
@@ -57,7 +57,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>I need you tonight.</OptionText>
+                <OptionText>{=BCCaptor_Text_14004}I need you tonight.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_fucking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
@@ -69,7 +69,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Taste my skin.</OptionText>
+                <OptionText>{=BCCaptor_Text_14164}Taste my skin.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_licking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero" />
@@ -82,7 +82,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Can I feel you?</OptionText>
+                <OptionText>{=BCCaptor_Text_14165}Can I feel you?</OptionText>
                 <TriggerEventName></TriggerEventName>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -97,8 +97,7 @@
                     </TriggerEvent>
                 </TriggerEvents>
                 <SkillsRequired>
-                    <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
-                    <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
+                    <SkillRequired Id="CaptiveAffection" Min="50" Ref="Hero" />
                 </SkillsRequired>
             </Option>
             <Option>
@@ -106,7 +105,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>We could make a new friend...</OptionText>
+                <OptionText>{=BCCaptor_Text_14166}We could make a new friend...</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
                     <SkillRequired Id="CaptiveLustT" Min="15" Ref="Hero" />
@@ -135,7 +134,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Maybe you'd like something stiffer...</OptionText>
+                <OptionText>{=BCCaptor_Text_14167}Maybe you'd like something stiffer...</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
                     <SkillRequired Id="CaptiveLustV" Min="25" Ref="Hero" />
@@ -183,7 +182,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Do you trust me?</OptionText>
+                <OptionText>{=BCCaptor_Text_14012}Do you trust me?</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_white_bondage</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="75" Ref="Hero" />
@@ -199,7 +198,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Enough of her games...</OptionText>
+                <OptionText>{=BCCaptor_Text_14013}Enough of her games...</OptionText>
                 <TriggerEventName>BC_event_female_sex_attr</TriggerEventName>
             </Option>    
             <Option>
@@ -208,7 +207,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave her in your quarters, and continue battle preparations.</OptionText>
+                <OptionText>{=BCCaptor_Text_14009}Leave her in your quarters, and continue battle preparations.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" HideNotification="true"/>
@@ -216,13 +215,16 @@
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
         </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Virginal" Ref="Hero" Max="0" />
+        </SkillsRequired>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_attr</Name>
-        <Text>You tire of the games for {CAPTIVE_NAME}'s womanly delights, and give her one more chance to comply before you take your property and use it fully.</Text>
+        <Text>{=BCCaptor_Text_14039}You tire of the games for {CAPTIVE_NAME}'s womanly delights, and give her one more chance to comply before you take your property and use it fully.</Text>
         <BackgroundName>BC_image_ff_attr_kiss</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -240,7 +242,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Open her mouth.</OptionText>
+                <OptionText>{=BCCaptor_Text_14040}Open her mouth.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_sucking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
@@ -252,7 +254,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Rub her body.</OptionText>
+                <OptionText>{=BCCaptor_Text_14168}Rub her body.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_titjob</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
@@ -264,7 +266,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Spread her wide.</OptionText>
+                <OptionText>{=BCCaptor_Text_14042}Spread her wide.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_fucking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="50" Ref="Hero" />
@@ -276,7 +278,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Shove her face betwen your legs.</OptionText>
+                <OptionText>{=BCCaptor_Text_14169}Shove her face betwen your legs.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_licking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
@@ -288,7 +290,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Touch her inside.</OptionText>
+                <OptionText>{=BCCaptor_Text_14170}Touch her inside.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_throat</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="25" Ref="Hero" />
@@ -300,7 +302,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Fill up her asshole.</OptionText>
+                <OptionText>{=BCCaptor_Text_14045}Fill up her asshole.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_anal</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="50" Ref="Hero" />
@@ -312,7 +314,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Maybe some more company.</OptionText>
+                <OptionText>{=BCCaptor_Text_14046}Maybe some more company.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_sex_ttf_eat_three</EventName>
@@ -331,7 +333,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>"A quick lesson, {CAPTIVE_NAME}..."</OptionText>
+                <OptionText>{=BCCaptor_Text_14047}&quot;A quick lesson, {CAPTIVE_NAME}...&quot;</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_stripes</TriggerEventName>
             </Option>
             <Option>
@@ -340,10 +342,11 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>This is ridiculous. Take what is yours.</OptionText>
+                <OptionText>{=BCCaptor_Text_14048}This is ridiculous. Take what is yours.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttr</TriggerEventName>
                 <SkillsToLevel>
                     <!-- <Skill Id="Raging" ByLevel="1" Ref="Captor" /> -->
+                    <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R 1 -5" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
@@ -356,7 +359,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Throw her from your quarters.</OptionText>
+                <OptionText>{=BCCaptor_Text_14049}Throw her from your quarters.</OptionText>
             </Option>
         </Options>
         <SexualContent>true</SexualContent>
@@ -365,7 +368,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttr</Name>
-        <Text>You tired of the games for {CAPTIVE_NAME}'s womanly delights, and have decided to take your property and use it fully.</Text>
+        <Text>{=BCCaptor_Text_14050}You tired of the games for {CAPTIVE_NAME}'s womanly delights, and have decided to take your property and use it fully.</Text>
         <BackgroundName>BC_captor_sex_ttr_crying_brun</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -383,7 +386,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>The lips and tongue.</OptionText>
+                <OptionText>{=BCCaptor_Text_14171}The lips and tongue.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttr_sucking</TriggerEventName>
             </Option>
             <Option>
@@ -391,7 +394,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>The tits.</OptionText>
+                <OptionText>{=BCCaptor_Text_14052}The tits.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttr_titjob</TriggerEventName>
             </Option>
             <Option>
@@ -399,7 +402,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Spread it open and eat it.</OptionText>
+                <OptionText>{=BCCaptor_Text_14172}Spread it open and eat it.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttr_back</TriggerEventName>
             </Option>
             <Option>
@@ -407,7 +410,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Make it open up all the way.</OptionText>
+                <OptionText>{=BCCaptor_Text_14173}Make it open up all the way.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttr_knees</TriggerEventName>
             </Option>
             <Option>
@@ -415,7 +418,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Have {CAPTIVE_NAME} clean you.</OptionText>
+                <OptionText>{=BCCaptor_Text_14174}Have {CAPTIVE_NAME} clean you.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttr_analing</TriggerEventName>
             </Option>
             <Option>
@@ -423,7 +426,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>The asshole.</OptionText>
+                <OptionText>{=BCCaptor_Text_14056}The asshole.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttr_anal</TriggerEventName>
             </Option>
             <Option>
@@ -431,7 +434,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Another whore.</OptionText>
+                <OptionText>{=BCCaptor_Text_14057}Another whore.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_ttr_fff_1</EventName>
@@ -445,7 +448,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Bring a cock to the bedroom.</OptionText>
+                <OptionText>{=BCCaptor_Text_14175}Bring a cock to the bedroom.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_sex_ttr_mff_viking</EventName>
@@ -499,7 +502,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Maybe that has softened her heart...</OptionText>
+                <OptionText>{=BCCaptor_Text_14058}Maybe that has softened her heart...</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_1</TriggerEventName>
             </Option>
             <Option>
@@ -507,7 +510,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Throw her from your quarters.</OptionText>
+                <OptionText>{=BCCaptor_Text_14049}Throw her from your quarters.</OptionText>
             </Option>
         </Options>
         <SexualContent>true</SexualContent>
@@ -516,7 +519,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_ttr_fff_1</Name>
-        <Text>You call up the finest whore from your camp, and she throws down {CAPTIVE_NAME} onto your bed; her eyes widen and shut as you all give and are given tongues, skin, fingers... You writhe together until neither of you can wake {CAPTIVE_NAME}, and then...</Text>
+        <Text>{=BCCaptor_Text_14176}You call up the finest whore from your camp, and she throws down {CAPTIVE_NAME} onto your bed; her eyes widen and shut as you all give and are given tongues, skin, fingers... You writhe together until neither of you can wake {CAPTIVE_NAME}, and then...</Text>
         <BackgroundName>BC_captor_sex_fff_standing_blindfold</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -535,7 +538,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>"Feeling more agreeable yet, {CAPTIVE_NAME}?"</OptionText>                
+                <OptionText>{=BCCaptor_Text_14091}&quot;Feeling more agreeable yet, {CAPTIVE_NAME}?&quot;</OptionText>                
                 <TriggerEvents><!-- Lotto Menus for your POST SEX EXIT OPTIONS-->
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -577,7 +580,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Kick the leaking trollops out.</OptionText>
+                <OptionText>{=BCCaptor_Text_14092}Kick the leaking trollops out.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveObedience" ByLevel="R 3 6" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" HideNotification="true"/>
@@ -604,7 +607,7 @@
 <!-- non-unisex events for skill differences-->
     <CEEvent>
         <Name>BC_event_female_sex_ttf_sucking</Name>
-        <Text>{?ISCAPTIVEFEMALE}Her head slathers up and back and down and forth across your skin, then she lets you hold her in your hand{?}Your head slathers up and back and down and forth across his tip, until he explodes at your last provocation{\?}...</Text>
+        <Text>{=BCCaptor_Text_14177}{?ISCAPTIVEFEMALE}Her head slathers up and back and down and forth across your skin, then she lets you hold her in your hand{?}Your head slathers up and back and down and forth across his tip, until he explodes at your last provocation{\?}...</Text>
         <Backgrounds>
             <Background Name="BC_captor_dating_mf_sucking" UseConditions="BC_event_conditions_captor_female_captive_male" />
             <Background Name="BC_captor_dating_ff_front_rub" UseConditions="BC_event_conditions_captor_female_captive_female" />
@@ -626,7 +629,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Quite a mouthful.</OptionText>                    
+                <OptionText>{=BCCaptor_Text_14027}Quite a mouthful.</OptionText>                    
                 <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -689,7 +692,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttf_anal</Name>
-        <Text>"I need you to fill me as you did before, My Lady...", she pants as she fingers the intended hole...</Text>
+        <Text>{=BCCaptor_Text_14178}&quot;I need you to fill me as you did before, My Lady...&quot;, she pants as she fingers the intended hole...</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_anal_top_day" UseConditions="BC_event_conditions_captor_male_captive_female" />
             <Background Name="BC_image_sex_ff_anal_back_fist" UseConditions="BC_event_conditions_captor_female_captive_female" />
@@ -712,7 +715,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Most certainly.</OptionText>                
+                <OptionText>{=BCCaptor_Text_14036}Most certainly.</OptionText>                
                     <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -777,7 +780,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttf_throat</Name>
-        <Text>You slowly work your hand deep inside {CAPTIVE_NAME}'s hot little hole, making her dance and squirm to the building rhythm you set for the next few hours...</Text>
+        <Text>{=BCCaptor_Text_14179}You slowly work your hand deep inside {CAPTIVE_NAME}'s hot little hole, making her dance and squirm to the building rhythm you set for the next few hours...</Text>
         <Backgrounds>
             <Background Name="BC_captor_sex_ff_fisting_2" UseConditions="BC_event_conditions_captor_female_captive_female" />
         </Backgrounds>
@@ -799,7 +802,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Enjoy her tight velvet glove.</OptionText>                
+                <OptionText>{=BCCaptor_Text_14180}Enjoy her tight velvet glove.</OptionText>                
                     <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -864,7 +867,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttf_licking</Name>
-        <Text>{CAPTIVE_NAME} is an eager student, but you calm down {?ISCAPTIVEFEMALE}her{?}his{\?} clumsy battering into a much more agreeable patter...</Text>
+        <Text>{=BCCaptor_Text_14181}{CAPTIVE_NAME} is an eager student, but you calm down {?ISCAPTIVEFEMALE}her{?}his{\?} clumsy battering into a much more agreeable patter...</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_oral" UseConditions="BC_event_conditions_captor_female_captive_male" />
             <Background Name="BC_image_sex_ff_licking_4" UseConditions="BC_event_conditions_captor_female_captive_female" />
@@ -886,7 +889,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Better each time {?ISCAPTIVEFEMALE}s{?}{\?}he's down there...</OptionText>                    
+                <OptionText>{=BCCaptor_Text_14182}Better each time {?ISCAPTIVEFEMALE}s{?}{\?}he's down there...</OptionText>                    
                     <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -950,7 +953,7 @@
 <!-- fff --> 
     <CEEvent>
         <Name>BC_event_female_sex_fff_1</Name>
-        <Text>You call up a wanton slut from your camp, formerly from the finest family of course, just as {CAPTIVE_NAME}. Her eyes widen and shut as you and your guest give and are given tongues, skin, fingers... You press together until neither of you can wake {CAPTIVE_NAME}, and then...</Text>
+        <Text>{=BCCaptor_Text_14183}You call up a wanton slut from your camp, formerly from the finest family of course, just as {CAPTIVE_NAME}. Her eyes widen and shut as you and your guest give and are given tongues, skin, fingers... You press together until neither of you can wake {CAPTIVE_NAME}, and then...</Text>
         <BackgroundName>BC_image_sex_fff_tile_bath</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -963,7 +966,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Perhaps we can use her again.</OptionText>                
+                <OptionText>{=BCCaptor_Text_14070}Perhaps we can use her again.</OptionText>                
                 <TriggerEvents><!-- Lotto Menus for your POST SEX EXIT OPTIONS-->
                             <TriggerEvent>
                                 <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -1002,7 +1005,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave them sleeping and return to your warband.</OptionText>
+                <OptionText>{=BCCaptor_Text_14071}Leave them sleeping and return to your warband.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 8 15" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveLustO" ByLevel="R -1 12" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -1027,7 +1030,7 @@
 <!-- ff ttv -->        
     <CEEvent>
         <Name>BC_event_female_sex_ttv_v1</Name>
-        <Text>You finally pull open {CAPTIVE_NAME}'s waiting sex, and begin...</Text>
+        <Text>{=BCCaptor_Text_14184}You finally pull open {CAPTIVE_NAME}'s waiting sex, and begin...</Text>
         <Backgrounds>
             <Background Name="BC_image_f_virgin_v1"  />
         </Backgrounds>
@@ -1048,7 +1051,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <TriggerEventName>BC_event_female_sex_ttv_v2</TriggerEventName>
-                <OptionText>Intoxicating.</OptionText>
+                <OptionText>{=BCCaptor_Text_14185}Intoxicating.</OptionText>
             <SkillsToLevel>
                 <Skill Id="CaptiveAffection" ByLevel="R -1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
                 <Skill Id="CaptiveLustV" ByLevel="R -3 4" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -1067,7 +1070,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttv_v2</Name>
-        <Text>You finally have {CAPTIVE_NAME}'s soft warmth blooming under your tongue, and soon are grunting and heaving along with her. She takes on the waves of pleasure with increasing confidence until she practically levitates off the bed a moment. You hold her, and once she stops shaking, you move her hands and show her what to do for you...</Text>
+        <Text>{=BCCaptor_Text_14186}You finally have {CAPTIVE_NAME}'s soft warmth blooming under your tongue, and soon are grunting and heaving along with her. She takes on the waves of pleasure with increasing confidence until she practically levitates off the bed a moment. You hold her, and once she stops shaking, you move her hands and show her what to do for you...</Text>
         <Backgrounds>
             <Background Name="BC_image_ff_ttv_v2"  />
         </Backgrounds>
@@ -1085,7 +1088,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Now, to go forth and conquer!</OptionText>
+                <OptionText>{=BCCaptor_Text_14118}Now, to go forth and conquer!</OptionText>
             <SkillsToLevel>
                 <Skill Id="CaptiveAffection" ByLevel="R -1 4" Ref="Hero" Color="Cyan" HideNotification="true" />
                 <Skill Id="CaptiveLustV" ByLevel="R -3 4" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -1114,7 +1117,7 @@
 <!-- LGF, LGR series for FM-->
     <CEEvent>
         <Name>BC_event_female_sex_ttf_m</Name>
-        <Text>You decide to sample {CAPTIVE_NAME}'s manly pleasures, leading him to your rooms where you have him drop his tunic.</Text>
+        <Text>{=BCCaptor_Text_14150}You decide to sample {CAPTIVE_NAME}'s manly pleasures, leading him to your rooms where you have him drop his tunic.</Text>
         <BackgroundName>BC_image_captive_male_towel</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1133,7 +1136,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Kiss me.</OptionText>
+                <OptionText>{=BCCaptor_Text_14001}Kiss me.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_kissing</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
@@ -1144,7 +1147,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You're getting stiff down there.</OptionText>
+                <OptionText>{=BCCaptor_Text_14181}You're getting stiff down there.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_sucking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="5" Ref="Hero" />
@@ -1155,7 +1158,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>I just need to be held...</OptionText>
+                <OptionText>{=BCCaptor_Text_14182}I just need to be held...</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_side</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Max="15" Ref="Hero" />
@@ -1167,7 +1170,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Would take me into your mouth?</OptionText>
+                <OptionText>{=BCCaptor_Text_14183}Would take me into your mouth?</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_licking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
@@ -1180,7 +1183,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>I need you tonight.</OptionText>
+                <OptionText>{=BCCaptor_Text_14004}I need you tonight.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_fucking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
@@ -1192,7 +1195,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Take me, {CAPTIVE_NAME}. Take me now!</OptionText>
+                <OptionText>{=BCCaptor_Text_14184}Take me, {CAPTIVE_NAME}. Take me now!</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_knees</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero" />
@@ -1204,7 +1207,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>I need to be filled, {CAPTIVE_NAME}</OptionText>
+                <OptionText>{=BCCaptor_Text_14185}I need to be filled, {CAPTIVE_NAME}.</OptionText>
                 <TriggerEventName>BC_event_female_sex_lgf_anal</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero" />
@@ -1216,7 +1219,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Let me show you something...</OptionText>
+                <OptionText>{=BCCaptor_Text_14186}Let me show you something...</OptionText>
                 <TriggerEventName>BC_event_female_sex_lgf_anal</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
@@ -1231,7 +1234,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Maybe you'd like some more company.</OptionText>
+                <OptionText>{=BCCaptor_Text_14007}Maybe you'd like some more company.</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
                     <SkillRequired Id="CaptiveLustV" Min="15" Ref="Hero" />
@@ -1290,7 +1293,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Enough of your games...</OptionText>
+                <OptionText>{=BCCaptor_Text_14187}Enough of your games...</OptionText>
                 <TriggerEventName>BC_event_female_sex_attr_m</TriggerEventName>
             </Option>
             <Option>
@@ -1299,7 +1302,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave him in your quarters, and continue battle preparations.</OptionText>
+                <OptionText>{=BCCaptor_Text_14153}Leave him in your quarters, and continue battle preparations.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" HideNotification="true"/>
@@ -1312,7 +1315,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttf_knees</Name>
-        <Text>You bend over in front of {CAPTIVE_NAME}, slippery wet and ready to be mounted; and he obliges you, as hard as he physically can...</Text>
+        <Text>{=BCCaptor_Text_14188}You bend over in front of {CAPTIVE_NAME}, slippery wet and ready to be mounted; and he obliges you, as hard as he physically can...</Text>
         <BackgroundName>BC_captor_sex_f_butt_open</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1333,7 +1336,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Finally.</OptionText>                    
+                <OptionText>{=BCCaptor_Text_14024}Finally.</OptionText>                    
                     <TriggerEvents><!-- Lotto Menus for your FM POST SEX EXIT OPTIONS-->
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -1368,7 +1371,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttf_side</Name>
-        <Text>{CAPTIVE_NAME} settles in behind you, and you hold your leg straight in the air for him for almost an hour...</Text>
+        <Text>{=BCCaptor_Text_14189}{CAPTIVE_NAME} settles in behind you, and you hold your leg straight in the air for him for almost an hour...</Text>
         <BackgroundName>BC_image_sex_mf_side</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1389,7 +1392,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Finally.</OptionText>                    
+                <OptionText>{=BCCaptor_Text_14024}Finally.</OptionText>                    
                     <TriggerEvents><!-- Lotto Menus for your FM POST SEX EXIT OPTIONS-->
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -1426,7 +1429,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttf_fucking</Name>
-        <Text>You cock your knees apart and pull {CAPTIVE_NAME} close. He settles in, and you end up clawing his back quite fiercely in response...</Text>
+        <Text>{=BCCaptor_Text_14190}You cock your knees apart and pull {CAPTIVE_NAME} close. He settles in, and you end up clawing his back quite fiercely in response...</Text>
         <BackgroundName>BC_image_sex_mf_table</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1447,7 +1450,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Finally.</OptionText>                    
+                <OptionText>{=BCCaptor_Text_14024}Finally.</OptionText>                    
                     <TriggerEvents><!-- Lotto Menus for your FM POST SEX EXIT OPTIONS-->
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -1484,7 +1487,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_lgf_anal</Name>
-        <Text>"It's my bleeding, but I can still take you on", you pant as you finger the intended hole...</Text>
+        <Text>{=BCCaptor_Text_14191}&quot;It's my bleeding, but I can still take you on&quot;, you pant as you finger the intended hole...</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_ttf_anal"  />
         </Backgrounds>
@@ -1506,7 +1509,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Most certainly.</OptionText>                
+                <OptionText>{=BCCaptor_Text_14036}Most certainly.</OptionText>                
                     <TriggerEvents><!-- Lotto Menus for your SEX EXIT OPTIONS-->
                         <TriggerEvent>
                             <EventName>BC_event_male_sex_ttf_tired</EventName>
@@ -1561,7 +1564,7 @@
 
     <CEEvent>
         <Name>BC_event_female_sex_attr_m</Name>
-        <Text>You tire of the games for {CAPTIVE_NAME}'s manly essence, and give him one more chance to comply before you take your property and use it fully.</Text>
+        <Text>{=BCCaptor_Text_14193}You tire of the games for {CAPTIVE_NAME}'s manly essence, and give him one more chance to comply before you take your property and use it fully.</Text>
         <BackgroundName>BC_image_sex_m_erect</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1579,7 +1582,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Take him into your mouth.</OptionText>
+                <OptionText>{=BCCaptor_Text_14155}Take him into your mouth.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_sucking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
@@ -1591,7 +1594,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Rub him with your body.</OptionText>
+                <OptionText>{=BCCaptor_Text_14194}Rub him with your body.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttf_titjob</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
@@ -1603,7 +1606,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Spread open on him.</OptionText>
+                <OptionText>{=BCCaptor_Text_14195}Spread open on him.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_fucking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="50" Ref="Hero" />
@@ -1615,7 +1618,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Shove his face betwen your legs.</OptionText>
+                <OptionText>{=BCCaptor_Text_14196}Shove his face betwen your legs.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_licking</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
@@ -1628,7 +1631,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Back yourself upon him.</OptionText>
+                <OptionText>{=BCCaptor_Text_14197}Back yourself upon him.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_side</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="75" Ref="Hero" />
@@ -1640,7 +1643,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Fill up your asshole.</OptionText>
+                <OptionText>{=BCCaptor_Text_14198}Fill up your asshole.</OptionText>
                 <TriggerEventName>BC_event_female_sex_lgf_anal</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="50" Ref="Hero" />
@@ -1652,7 +1655,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Maybe some more company.</OptionText>
+                <OptionText>{=BCCaptor_Text_14046}Maybe some more company.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_sex_ttf_eat_three</EventName>
@@ -1712,10 +1715,11 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>This is ridiculous. Take what is yours.</OptionText>
+                <OptionText>{=BCCaptor_Text_14048}This is ridiculous. Take what is yours.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
                 <SkillsToLevel>
                     <!-- <Skill Id="Raging" ByLevel="1" Ref="Captor" HideNotification="true" /> -->
+                    <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R 1 -5" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
@@ -1728,7 +1732,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Throw him from your quarters.</OptionText>
+                <OptionText>{=BCCaptor_Text_14199}Throw him from your quarters.</OptionText>
             </Option>
         </Options>
         <SkillsRequired><SkillRequired Id="CaptiveAffection" Max="50" Ref="Hero" /></SkillsRequired>
@@ -1739,7 +1743,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttr_m</Name>
-        <Text>You tired of the games for {CAPTIVE_NAME}'s manly delights, and have decided to take your property and use it fully.</Text>
+        <Text>{=BCCaptor_Text_14200}You tired of the games for {CAPTIVE_NAME}'s manly delights, and have decided to take your property and use it fully.</Text>
         <BackgroundName>BC_image_sex_mf_ttr_cowgirl_3</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1757,7 +1761,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Ride him until he's broken.</OptionText>
+                <OptionText>{=BCCaptor_Text_14201}Ride him until he's broken.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttr_fucking</TriggerEventName>
             </Option>
             <Option>
@@ -1765,7 +1769,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Use him to fill your asshole.</OptionText>
+                <OptionText>{=BCCaptor_Text_14202}Use him to fill your asshole.</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttr_anal</TriggerEventName>
             </Option>
             <Option>
@@ -1773,7 +1777,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Bring more cock to the bedroom.</OptionText>
+                <OptionText>{=BCCaptor_Text_14203}Bring more cock to the bedroom.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_female_sex_ttr_cocks_1</EventName>
@@ -1787,7 +1791,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Maybe he will be more cooperative now...</OptionText>
+                <OptionText>{=BCCaptor_Text_14204}Maybe he will be more cooperative now...</OptionText>
                 <TriggerEventName>BC_event_female_sex_ttf_m</TriggerEventName>
             </Option>
             <Option>
@@ -1795,7 +1799,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Throw him from your quarters.</OptionText>
+                <OptionText>{=BCCaptor_Text_14199}Throw him from your quarters.</OptionText>
             </Option>
         </Options>
         <SexualContent>true</SexualContent>
@@ -1804,7 +1808,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttr_fucking</Name>
-        <Text>You straddle {CAPTIVE_NAME} and work your hips upward and then all the way down, so as best to feel his massive head dragging your insides...</Text>
+        <Text>{=BCCaptor_Text_14205}You straddle {CAPTIVE_NAME} and work your hips upward and then all the way down, so as best to feel his massive head dragging your insides...</Text>
         <BackgroundName>BC_image_sex_mf_ttr_cowgirl</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1824,7 +1828,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>                    
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave your toy dripping for a moment.</OptionText>                    
+                <OptionText>{=BCCaptor_Text_14206}Leave your toy dripping for a moment.</OptionText>                    
                     <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
@@ -1842,7 +1846,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttr_anal</Name>
-        <Text>You straddle {CAPTIVE_NAME} and work your rosebud open, over and down his shaft, pushing down with your whole body intermittently as you manage to handle each stage of the fullness...</Text>
+        <Text>{=BCCaptor_Text_14207}You straddle {CAPTIVE_NAME} and work your rosebud open, over and down his shaft, pushing down with your whole body intermittently as you manage to handle each stage of the fullness...</Text>
         <BackgroundName>BC_image_sex_mf_sitting</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1862,7 +1866,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>                    
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave your toy dripping for a moment.</OptionText>                    
+                <OptionText>{=BCCaptor_Text_14206}Leave your toy dripping for a moment.</OptionText>                    
                     <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
@@ -1880,7 +1884,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttr_cocks_1</Name>
-        <Text>"You're quite pathetic as a lover, and a man, {CAPTIVE_NAME}. Stay there in your chains and watch a team of true stallions keep pace with me!"</Text>
+        <Text>{=BCCaptor_Text_14208}&quot;You're quite pathetic as a lover, and a man, {CAPTIVE_NAME}. Stay there in your chains and watch a team of true stallions keep pace with me!&quot;</Text>
         <BackgroundName>BC_captor_sex_lgf_gang_before</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1900,7 +1904,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>                    
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave your toy in the corner a moment.</OptionText>                    
+                <OptionText>{=BCCaptor_Text_14209}Leave your toy in the corner a moment.</OptionText>                    
                     <TriggerEventName>BC_event_female_sex_ttr_cocks_2</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -2 1" Ref="Hero" HideNotification="true"/>
@@ -1925,7 +1929,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_female_sex_ttr_cocks_2</Name>
-        <Text>"Have you learned anything yet, {CAPTIVE_NAME}? I could ease that dripping cock of yours now..." </Text>
+        <Text>{=BCCaptor_Text_14210}&quot;Have you learned anything yet, {CAPTIVE_NAME}? I could ease that dripping cock of yours now...&quot; </Text>
         <BackgroundName>BC_captor_sex_lgf_orgy_standing</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1945,7 +1949,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>                    
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave your toy dripping for a moment.</OptionText>                    
+                <OptionText>{=BCCaptor_Text_14206}Leave your toy dripping for a moment.</OptionText>                    
                     <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>

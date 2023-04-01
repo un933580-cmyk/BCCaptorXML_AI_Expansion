@@ -1301,7 +1301,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue on your way.</OptionText>
+                <OptionText>{=TBRandomEvents_Solo007}Continue on your way.</OptionText>
                 <RenownTotal>R -1 -5</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R 25 50" Ref="Hero" HideNotification="true" />

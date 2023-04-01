@@ -19,7 +19,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationHero</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue on your way.</OptionText>
+                <OptionText>{=TBRandomEvents_Solo007}Continue on your way.</OptionText>
             </Option>
         </Options>
         <PregnancyRiskModifier>1</PregnancyRiskModifier>
