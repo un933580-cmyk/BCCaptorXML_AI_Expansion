@@ -2,7 +2,7 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>BC_event_slave_escape</Name>
-        <Text>You are horrified to see some of your Beloved Harem have escaped and are making away from camp! You command them to return to the safety of your embrace, but they turn toward you menacingly...</Text>
+        <Text>{=BCCaptor_Text_12042}You are horrified to see some of your Beloved Harem have escaped and are making away from camp! You command them to return to the safety of your embrace, but they turn toward you menacingly...</Text>
         <BackgroundName>BC_image_captive_escape_dagger</BackgroundName>
         <NotificationName>BC_image_notification_skull</NotificationName>
         <!-- <SoundName>captivity/event/chain</SoundName> -->
@@ -18,7 +18,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Chase them down!</OptionText>
+                <OptionText>{=BCCaptor_Text_12043}Chase them down!</OptionText>
                 <BattleSettings Ref="Regular" EnemyName="Harem Escapees" Victory="BC_event_slave_escape_win" Defeat="BC_event_slave_escape_lose" PlayerTroops="0">
                     <SpawnTroops>
                         <SpawnTroop Ref="Enemy" Id="harem_empire" Number="R 0 8" />
@@ -45,7 +45,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>EscapeIcon</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Let {CAPTIVE_NAME}, and the rest, go.</OptionText>                
+                <OptionText>{=BCCaptor_Text_12044}Let {CAPTIVE_NAME}, and the rest, go.</OptionText>                
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -57,12 +57,11 @@
         <ReqCaptivesAbove>50</ReqCaptivesAbove>
         <ReqFemaleCaptivesAbove>10</ReqFemaleCaptivesAbove>
     </CEEvent>
-    <CEEvent>
+    <!-- <CEEvent>
         <Name>BC_event_slave_escape_city</Name>
         <Text>You are returning to the street where your party's rooms are located, when you are horrified to see some of your Beloved Harem have escaped and are making away down the alley! You command them to return to the safety of your embrace, but they turn on you, grabbing weapons...</Text>
         <BackgroundName>BC_image_captive_escape_dagger</BackgroundName>
         <NotificationName>BC_image_notification_skull</NotificationName>
-        <!-- <SoundName>captivity/event/chain</SoundName> -->
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
@@ -106,10 +105,10 @@
         <ReqCaptorTrait>Mercy</ReqCaptorTrait>
         <ReqCaptorTraitLevelBelow>-1</ReqCaptorTraitLevelBelow>
         <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
+    </CEEvent> -->
     <CEEvent>
         <Name>BC_event_slave_escape_lose</Name>
-        <Text>You are dragged down by weight of numbers, beaten on the ground, your clothes scratched from your body; but the women cannot dare stay long to take out their full wrath on you, and quickly disperse.</Text>
+        <Text>{=BCCaptor_Text_12045}You are dragged down by weight of numbers, beaten on the ground, your clothes scratched from your body; but the women cannot dare stay long to take out their full wrath on you, and quickly disperse.</Text>
         <Backgrounds>
             <Background Name="BC_image_captivity_escape" UseConditions="BC_conditions_hero_female"/>
             <Background Name="BC_image_captive_male_tired" UseConditions="BC_conditions_hero_male"/>
@@ -126,7 +125,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Dammit! Good pussy is hard to find!</OptionText>
+                <OptionText>{=BCCaptor_Text_12046}Dammit! Good pussy is hard to find!</OptionText>
                 <RenownTotal>R -10 -20</RenownTotal>
             </Option>
         </Options>
@@ -137,7 +136,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_slave_escape_win</Name>
-        <Text>Stupid little fucktoys are no match for you, and you quickly chain them back up.</Text>
+        <Text>{=BCCaptor_Text_12047}Stupid little fucktoys are no match for you, and you quickly chain them back up.</Text>
         <BackgroundName>BC_captor_march_desert_right2</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -150,7 +149,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Apparently I'm too nice to them.</OptionText>
+                <OptionText>{=BCCaptor_Text_12048}Apparently I'm too nice to them.</OptionText>
                 <SpawnTroops>
                     <SpawnTroop Ref="Prisoner" Id="harem_aserai" Number="R -1 7" />
                     <SpawnTroop Ref="Prisoner" Id="harem_sturgia" Number="R -1 7" />
@@ -169,7 +168,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_slave_revolt</Name>
-        <Text>You are horrified to see some of your Beloved Harem have escaped and are making away from camp! You command them to return to the safety of your embrace, but they turn toward you menacingly...</Text>
+        <Text>{=BCCaptor_Text_12042}You are horrified to see some of your Beloved Harem have escaped and are making away from camp! You command them to return to the safety of your embrace, but they turn toward you menacingly...</Text>
         <BackgroundName>BC_image_captive_escape_dagger</BackgroundName>
         <NotificationName>BC_image_notification_skull</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -184,7 +183,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Chase them down!</OptionText>
+                <OptionText>{=BCCaptor_Text_12043}Chase them down!</OptionText>
                 <BattleSettings Ref="Regular" EnemyName="Harem Escapees" Victory="BC_event_slave_revolt_win" Defeat="BC_event_slave_escape_lose" PlayerTroops="0">
                     <SpawnTroops>
                         <SpawnTroop Ref="Enemy" Id="harem_empire" Number="R 0 20" />
@@ -211,7 +210,7 @@
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>EscapeIcon</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Let {CAPTIVE_NAME}, and the rest, go.</OptionText>                
+                <OptionText>{=BCCaptor_Text_12044}Let {CAPTIVE_NAME}, and the rest, go.</OptionText>                
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -223,7 +222,7 @@
         <ReqCaptivesAbove>100</ReqCaptivesAbove>
         <ReqFemaleCaptivesAbove>30</ReqFemaleCaptivesAbove>
     </CEEvent>
-    <CEEvent>
+    <!-- <CEEvent>
         <Name>BC_event_slave_revolt_city</Name>
         <Text>You are returning to the street where your party's rooms are located, when you are horrified to see some of your Beloved Harem have escaped and are making away down the alley! You command them to return to the safety of your embrace, but they turn on you, grabbing weapons...</Text>
         <BackgroundName>BC_image_captive_escape_dagger</BackgroundName>
@@ -277,10 +276,10 @@
         <ReqCaptorTrait>Mercy</ReqCaptorTrait>
         <ReqCaptorTraitLevelBelow>-2</ReqCaptorTraitLevelBelow>
         <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
+    </CEEvent> -->
     <CEEvent>
         <Name>BC_event_slave_revolt_win</Name>
-        <Text>Stupid little fucktoys are no match for you, and you quickly chain them back up.</Text>
+        <Text>{=BCCaptor_Text_12047}Stupid little fucktoys are no match for you, and you quickly chain them back up.</Text>
         <BackgroundName>BC_captor_march_desert_right2</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -293,7 +292,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Apparently I'm too nice to them.</OptionText>
+                <OptionText>{=BCCaptor_Text_12048}Apparently I'm too nice to them.</OptionText>
                 <SpawnTroops>
                     <SpawnTroop Ref="Prisoner" Id="harem_aserai" Number="R 1 20" />
                     <SpawnTroop Ref="Prisoner" Id="harem_sturgia" Number="R 1 20" />
@@ -312,7 +311,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_camp_followers</Name>
-        <Text>Your scouts report that they've found a group of ragged women, driven from their far away village. They are in no condition to keep traveling on their own, and beg for you to give them enough food to survive, a least for a few more days.</Text>
+        <Text>{=BCCaptor_Text_12049}Your scouts report that they've found a group of ragged women, driven from their far away village. They are in no condition to keep traveling on their own, and beg for you to give them enough food to survive, a least for a few more days.</Text>
         <BackgroundName>BC_image_f_peasant_flee</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -327,7 +326,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Share some of your food.</OptionText>
+                <OptionText>{=TBRandomEvents_Solo010}Share some of your food.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -1 -3</MoraleTotal>
             </Option>
@@ -338,7 +337,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeTrait</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Take them along to the next town.</OptionText>
+                <OptionText>{=BCCaptor_Text_12083}Take them along to the next town.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <TraitToLevel>Honor</TraitToLevel>
                 <TraitTotal>1</TraitTotal>
@@ -351,7 +350,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Refuse; you've not enough food as it is.</OptionText>
+                <OptionText>{=TBRandomEvents_Solo009}Refuse; you've not enough food as it is.</OptionText>
             </Option>
             <Option>
                 <Order>4</Order>
@@ -359,7 +358,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>How lucky! Take them prisoner.</OptionText>
+                <OptionText>{=BCCaptor_Text_12050}How lucky! Take them prisoner.</OptionText>
                 <RenownTotal>R -1 -10</RenownTotal>
                 <SpawnTroops>
                     <SpawnTroop Ref="Prisoner" Id="harem_aserai" Number="R -1 4" />
@@ -385,7 +384,7 @@
     
     <CEEvent>
         <Name>BC_event_mr_lover</Name>
-        <Text>You are returning to the meadow where your tents are located, when you are horrified to see a strange man making off with your captive, {CAPTIVE_NAME}!</Text>
+        <Text>{=BCCaptor_Text_12051}You are returning to the meadow where your tents are located, when you are horrified to see a strange man making off with your captive, {CAPTIVE_NAME}!</Text>
         <BackgroundName>NK_tds_entrance</BackgroundName>
         <NotificationName>BC_image_notification_skull</NotificationName>
         <!-- <SoundName>captivity/event/chain</SoundName> -->
@@ -401,7 +400,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Fight him for her!</OptionText>
+                <OptionText>{=BCCaptor_Text_12052}Fight him for her!</OptionText>
                 <BattleSettings Ref="Regular" EnemyName="Kidnapper" Victory="TB_captor_tds_duel_win" Defeat="BC_event_lover_lose" PlayerTroops="0">
                     <SpawnTroops>                    
                         <SpawnTroop Ref="Enemy" Id="nameless_ronin" Number="1" />
@@ -414,7 +413,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>She's more trouble than she's worth. Let someone else deal with her.</OptionText>
+                <OptionText>{=BCCaptor_Text_12053}She's more trouble than she's worth. Let someone else deal with her.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_captor_tds_return</EventName>
@@ -439,12 +438,11 @@
         <ReqCaptorTraitLevelBelow>-2</ReqCaptorTraitLevelBelow>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
-    <CEEvent>
+    <!-- <CEEvent>
         <Name>BC_event_mr_lover_city</Name>
         <Text>You are returning to the street where your party's rooms are located, when you are horrified to see a strange man making off with your captive, {CAPTIVE_NAME}!</Text>
         <BackgroundName>NK_tds_entrance</BackgroundName>
         <NotificationName>BC_image_notification_skull</NotificationName>
-        <!-- <SoundName>captivity/event/chain</SoundName> -->
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
@@ -494,10 +492,10 @@
         <ReqCaptorTrait>Mercy</ReqCaptorTrait>
         <ReqCaptorTraitLevelBelow>-1</ReqCaptorTraitLevelBelow>
         <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent>
+    </CEEvent> -->
     <CEEvent>
         <Name>BC_event_lover_lose</Name>
-        <Text>He fights like a demon! You can tell he is distracted by {CAPTIVE_NAME}&quot;s wellbeing, but he still bests you handily, knocking your weapon from your hand, and following up with a quick blow to the head. You lose consciousness...</Text>
+        <Text>{=BCCaptor_Text_12054}He fights like a demon! You can tell he is distracted by {CAPTIVE_NAME}&quot;s wellbeing, but he still bests you handily, knocking your weapon from your hand, and following up with a quick blow to the head. You lose consciousness...</Text>
         <BackgroundName>NK_tds_welcome</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -510,7 +508,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Try to wake up.</OptionText>
+                <OptionText>{=BCCaptor_Text_12055}Try to wake up.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_captor_tds_duel_lose_f</EventName>
@@ -532,7 +530,7 @@
     </CEEvent>    
     <CEEvent>
         <Name>TB_captor_tds_chase</Name>
-        <Text>You run after the man, instructing your guards to secure the camp, as this could well be a distraction from a larger threat. You follow a trail of broken leaves without much trouble, but something's wrong - the trail leads you much further than you feel possible, and after an hour or so trying to find your way back you hear womanly cries of passion from a nearby clearing. You've never heard {CAPTIVE_NAME} so excited, and by the time you reach her she's unconscious, her kidnapper swiftly buckling his strange tunic closed. He doesn't seem to have noticed you yet...</Text>
+        <Text>{=BCCaptor_Text_12056}You run after the man, instructing your guards to secure the camp, as this could well be a distraction from a larger threat. You follow a trail of broken leaves without much trouble, but something's wrong - the trail leads you much further than you feel possible, and after an hour or so trying to find your way back you hear womanly cries of passion from a nearby clearing. You've never heard {CAPTIVE_NAME} so excited, and by the time you reach her she's unconscious, her kidnapper swiftly buckling his strange tunic closed. He doesn't seem to have noticed you yet...</Text>
         <Backgrounds>
             <Background Name="NK_tds_farewell"/>
         </Backgrounds>
@@ -554,7 +552,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Wait for him to leave, then grab her.</OptionText>
+                <OptionText>{=BCCaptor_Text_12057}Wait for him to leave, then grab her.</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
                 <TriggerEvents>
@@ -585,7 +583,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Challenge him to a duel.</OptionText>
+                <OptionText>{=BCCaptor_Text_12058}Challenge him to a duel.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_captor_tds_duel_win</EventName>
@@ -609,7 +607,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order him to hand her over.</OptionText>
+                <OptionText>{=BCCaptor_Text_12059}Order him to hand her over.</OptionText>
                 <TriggerEventName>TB_captor_tds_call_favor</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="TDSFavor" Min="1" Ref="Captor"/>
@@ -626,7 +624,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_tds_duel_win</Name>
-        <Text>The man looks into your eyes, spotting you from afar, and brandishes his sword. You fight valiantly, and his skill is undeniable, almost supernatural as he handily avoids your blows, toying with you as he makes superficial cuts to your arms and legs. You surprise him, however, by intentionally taking a wound to get yourself closer to him, pushing him off balance as he falls to the ground, rolling backwards to regain his footing. He brushes a thin trail of blood from his face where your blade struck true, and nods approvingly. He sheathes his weapon, telling you that you have earned your forfeit, and may take back your captive as befits a worthy warrior.</Text>
+        <Text>{=BCCaptor_Text_12060}The man looks into your eyes, spotting you from afar, and brandishes his sword. You fight valiantly, and his skill is undeniable, almost supernatural as he handily avoids your blows, toying with you as he makes superficial cuts to your arms and legs. You surprise him, however, by intentionally taking a wound to get yourself closer to him, pushing him off balance as he falls to the ground, rolling backwards to regain his footing. He brushes a thin trail of blood from his face where your blade struck true, and nods approvingly. He sheathes his weapon, telling you that you have earned your forfeit, and may take back your captive as befits a worthy warrior.</Text>
         <Backgrounds>
             <Background Name="NK_tds_welcome"/>
         </Backgrounds>
@@ -646,7 +644,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Make your way back to camp.</OptionText>
+                <OptionText>{=BCCaptor_Text_12061}Make your way back to camp.</OptionText>
             </Option>
         </Options>
         <SkillsRequired>
@@ -659,7 +657,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_tds_sneak_win</Name>
-        <Text>You watch silently as the man finishes dressing himself, pulling a strange flower from his pack and carefully placing it between {CAPTIVE_NAME}'s breasts. He smiles briefly at her slumbering form and looks around cautiously, still not spotting you, before departing. After a brief while you make your way to where your captive rests and tighten her binds, waking her so that you can begin the long trek back to camp.</Text>
+        <Text>{=BCCaptor_Text_12062}You watch silently as the man finishes dressing himself, pulling a strange flower from his pack and carefully placing it between {CAPTIVE_NAME}'s breasts. He smiles briefly at her slumbering form and looks around cautiously, still not spotting you, before departing. After a brief while you make your way to where your captive rests and tighten her binds, waking her so that you can begin the long trek back to camp.</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -683,7 +681,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Hopefully he won't be back.</OptionText>
+                <OptionText>{=BCCaptor_Text_12063}Hopefully he won't be back.</OptionText>
             </Option>
         </Options>
         <SkillsRequired>
@@ -696,7 +694,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_call_favor</Name>
-        <Text>You call out to the man, smiling with cunning guile. He starts, recognizing you, and shakes his head in wonder. You strike a deal - he lets you keep your prisoner, and that will be one less favor owed to you. Smirking, he places his usual flower between {CAPTIVE_NAME}'s breasts before bidding you farewell.</Text>
+        <Text>{=BCCaptor_Text_12064}You call out to the man, smiling with cunning guile. He starts, recognizing you, and shakes his head in wonder. You strike a deal - he lets you keep your prisoner, and that will be one less favor owed to you. Smirking, he places his usual flower between {CAPTIVE_NAME}'s breasts before bidding you farewell.</Text>
         <Backgrounds>
             <Background Name="NK_tds_welcome"/>
         </Backgrounds>
@@ -716,7 +714,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Maybe you should have asked him for more...</OptionText>
+                <OptionText>{=BCCaptor_Text_12065}Maybe you should have asked him for more...</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -727,7 +725,7 @@
     <!-- Mr Lover Man Events -->
     <CEEvent>
         <Name>TB_captor_tds_kidnap</Name>
-        <Text>A sudden explosion jolts you into action, and you move over to the side of your camp to investigate. You realize too late that the sound was a distraction, and you see a handsome dark-haired man carrying {CAPTIVE_NAME} away, neatly bundled over his shoulder. Your guards try to stop him, but he neatly vaults over them, captive in tow, and disappears into the forest. You're almost impressed at his audacity...</Text>
+        <Text>{=BCCaptor_Text_12066}A sudden explosion jolts you into action, and you move over to the side of your camp to investigate. You realize too late that the sound was a distraction, and you see a handsome dark-haired man carrying {CAPTIVE_NAME} away, neatly bundled over his shoulder. Your guards try to stop him, but he neatly vaults over them, captive in tow, and disappears into the forest. You're almost impressed at his audacity...</Text>
         <Backgrounds>
             <Background Name="NK_tds_entrance"/>
         </Backgrounds>
@@ -748,7 +746,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Follow on your own.</OptionText>
+                <OptionText>{=BCCaptor_Text_12067}Follow on your own.</OptionText>
                 <TriggerEventName>TB_captor_tds_chase</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" Color="Cyan" />
@@ -760,7 +758,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order your troops to follow.</OptionText>
+                <OptionText>{=BCCaptor_Text_12068}Order your troops to follow.</OptionText>
                 <TriggerEventName>TB_captor_tds_catch</TriggerEventName>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
                 <SkillsRequired>
@@ -775,7 +773,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <GoldTotal>2000</GoldTotal>
-                <OptionText>Hire a bounty hunter. (2000 {GOLD_ICON})</OptionText>
+                <OptionText>{=BCCaptor_Text_12069}Hire a bounty hunter. (2000 {GOLD_ICON})</OptionText>
                 <TriggerEventName>TB_captor_tds_catch</TriggerEventName>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
                 <SkillsToLevel>
@@ -788,7 +786,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You're sure she'll find her way back.</OptionText>
+                <OptionText>{=BCCaptor_Text_12070}You're sure she'll find her way back.</OptionText>
     
                 <TriggerEventName>TB_captor_tds_return</TriggerEventName>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
@@ -804,7 +802,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
-                <OptionText>Let her go.</OptionText>
+                <OptionText>{=BCCaptor_Text_12071}Let her go.</OptionText>
             </Option>
         </Options>
         <SkillsToLevel>
@@ -822,7 +820,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_tds_duel_lose_m</Name>
-        <Text>As you fall to the ground, he deftly cuffs your hands together with the restraints that once adorned {CAPTIVE_NAME}'s wrists. He leaves, taking her with him...</Text>
+        <Text>{=BCCaptor_Text_12072}As you fall to the ground, he deftly cuffs your hands together with the restraints that once adorned {CAPTIVE_NAME}'s wrists. He leaves, taking her with him...</Text>
         <Backgrounds>
             <Background Name="NK_tds_farewell"/>
         </Backgrounds>
@@ -846,7 +844,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
-                <OptionText>Try to make your way back to camp.</OptionText>
+                <OptionText>{=BCCaptor_Text_12073}Try to make your way back to camp.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -856,7 +854,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_tds_duel_lose_f</Name>
-        <Text>As you fall to the ground, he deftly cuffs your hands together with the restraints that once adorned {CAPTIVE_NAME}'s wrists, and begins grabbing your body, assessing your breasts and buttocks.</Text>
+        <Text>{=BCCaptor_Text_12074}As you fall to the ground, he deftly cuffs your hands together with the restraints that once adorned {CAPTIVE_NAME}'s wrists, and begins grabbing your body, assessing your breasts and buttocks.</Text>
         <Backgrounds>
             <Background Name="NK_tds_welcome"/>
         </Backgrounds>
@@ -878,7 +876,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <TriggerEventName>TB_captor_tds_duel_lose_2</TriggerEventName>
-                <OptionText>He can't still be horny, can he?</OptionText>
+                <OptionText>{=BCCaptor_Text_12075}He can't still be horny, can he?</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -888,7 +886,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_tds_duel_lose_2</Name>
-        <Text>The stranger compliments your skill with the blade, commenting that he would never kill such a fiery beauty, but that the victor in combat must take a forfeit from the loser. With that he lays you back, brushing a finger against your clitoris, and a wave of pleasure surges through you. His skilled fingers quickly rob you of any will to resist, and by the time you feel his manhood at your flower's entrance it's all you can do not to beg him to take you. He veers downward, though, filling you completely as your body eagerly pulls him inside.</Text>
+        <Text>{=BCCaptor_Text_12076}The stranger compliments your skill with the blade, commenting that he would never kill such a fiery beauty, but that the victor in combat must take a forfeit from the loser. With that he lays you back, brushing a finger against your clitoris, and a wave of pleasure surges through you. His skilled fingers quickly rob you of any will to resist, and by the time you feel his manhood at your flower's entrance it's all you can do not to beg him to take you. He veers downward, though, filling you completely as your body eagerly pulls him inside.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_anal_guide"/>
         </Backgrounds>
@@ -909,7 +907,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Why do I need this so badly?</OptionText>
+                <OptionText>{=BCCaptor_Text_12077}Why do I need this so badly?</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 1 13" Ref="Captor" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R 1 13" Ref="Captor" HideNotification="true"/>
@@ -938,7 +936,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_tds_duel_lose_3</Name>
-        <Text>He makes love to your ass, slowly stroking your body and massaging your breasts as you struggle to free your mind from his manhood's thrall. He pulses inside you, taking you with deep, comfortable strokes as wave after wave of ecstasy burns through your loins and into your brain. Your body sings for what seems like an eternity, brought to climax after climax as your mouth grows dry. When at last you feel the warmth of his seed filling your guts you collapse, incapable of speech or thought as your mind swims into unconsciousness. Upon waking, the stranger is gone, as are your restraints. You find an unusual flower nestled between your breasts...</Text>
+        <Text>{=BCCaptor_Text_12078}He makes love to your ass, slowly stroking your body and massaging your breasts as you struggle to free your mind from his manhood's thrall. He pulses inside you, taking you with deep, comfortable strokes as wave after wave of ecstasy burns through your loins and into your brain. Your body sings for what seems like an eternity, brought to climax after climax as your mouth grows dry. When at last you feel the warmth of his seed filling your guts you collapse, incapable of speech or thought as your mind swims into unconsciousness. Upon waking, the stranger is gone, as are your restraints. You find an unusual flower nestled between your breasts...</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_anal_guide_2"/>
         </Backgrounds>
@@ -959,7 +957,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Make your way back to your troops.</OptionText>
+                <OptionText>{=BCCaptor_Text_12084}Make your way back to your troops.</OptionText>
             </Option>
         </Options>
         <SkillsRequired>
@@ -972,7 +970,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_tds_duel_lose_3_devoted</Name>
-        <Text>He makes love to your ass, slowly stroking your body and massaging your breasts as you struggle to free your mind from his manhood's thrall. He pulses inside you, taking you with deep, comfortable strokes as wave after wave of ecstasy burns through your loins and into your brain. Your body sings for what seems like an eternity, brought to climax after climax as your mouth grows dry. When at last you feel the warmth of his seed filling your guts you collapse, incapable of speech or thought as your mind swims into unconsciousness. Upon waking, the stranger is gone, as are your restraints. You find an unusual flower nestled between your breasts...</Text>
+        <Text>{=BCCaptor_Text_12079}He makes love to your ass, slowly stroking your body and massaging your breasts as you struggle to free your mind from his manhood's thrall. He pulses inside you, taking you with deep, comfortable strokes as wave after wave of ecstasy burns through your loins and into your brain. Your body sings for what seems like an eternity, brought to climax after climax as your mouth grows dry. When at last you feel the warmth of his seed filling your guts you collapse, incapable of speech or thought as your mind swims into unconsciousness. Upon waking, the stranger is gone, as are your restraints. You find an unusual flower nestled between your breasts...</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_mf_anal_guide_2"/>
         </Backgrounds>
@@ -993,7 +991,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Escape</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Make your way back to your troops.</OptionText>
+                <OptionText>{=BCCaptor_Text_12084}Make your way back to your troops.</OptionText>
                 <TriggerEventName>TB_captor_tds_return</TriggerEventName>
             </Option>
         </Options>
@@ -1007,7 +1005,7 @@
     </CEEvent>    
     <CEEvent>
         <Name>TB_captor_tds_catch</Name>
-        <Text>After a few hours, {CAPTIVE_NAME} is returned to you, one of your guards gently leading her to where you were dealing with other business. She seems dazed and exhausted, but curiously happy. You question her about the kidnapper, but she seems genuinely not to know who he is, though she can't stop fawning over his bedroom skills, almost unconsciously fondling herself as she tries to answer your questions. You quickly realize that asking your troops to look out for a spectacular lover isn't, perhaps, the most useful of commands. You'll just have to see if you can catch him yourself next time...</Text>
+        <Text>{=BCCaptor_Text_12080}After a few hours, {CAPTIVE_NAME} is returned to you, one of your guards gently leading her to where you were dealing with other business. She seems dazed and exhausted, but curiously happy. You question her about the kidnapper, but she seems genuinely not to know who he is, though she can't stop fawning over his bedroom skills, almost unconsciously fondling herself as she tries to answer your questions. You quickly realize that asking your troops to look out for a spectacular lover isn't, perhaps, the most useful of commands. You'll just have to see if you can catch him yourself next time...</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -1039,7 +1037,7 @@
                     <Skill Id="CaptiveLustT" ByLevel="R 1 13" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveLustV" ByLevel="R 1 13" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
-                <OptionText>When did {CAPTIVE_NAME} become such a slut?</OptionText>
+                <OptionText>{=BCCaptor_Text_12081}When did {CAPTIVE_NAME} become such a slut?</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -1049,7 +1047,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_captor_tds_return</Name>
-        <Text>After several hours {CAPTIVE_NAME} staggers into camp, dazed and exhausted, her skin glowing with sweat. She makes her way to you immediately, thanking you profusely for not going after her. You question her about the kidnapper, but she seems genuinely not to know who he is, though she can't stop fawning over his bedroom skills, almost unconsciously fondling herself as she tries to answer your questions.</Text>
+        <Text>{=BCCaptor_Text_12082}After several hours {CAPTIVE_NAME} staggers into camp, dazed and exhausted, her skin glowing with sweat. She makes her way to you immediately, thanking you profusely for not going after her. You question her about the kidnapper, but she seems genuinely not to know who he is, though she can't stop fawning over his bedroom skills, almost unconsciously fondling herself as she tries to answer your questions.</Text>
         <Backgrounds>
             <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -1074,7 +1072,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>When did {CAPTIVE_NAME} become such a slut?</OptionText>
+                <OptionText>{=BCCaptor_Text_12081}When did {CAPTIVE_NAME} become such a slut?</OptionText>
                 <HealthTotal>10</HealthTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R 10 15" Ref="Hero" Color="Cyan" />

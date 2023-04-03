@@ -66,7 +66,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Teach the uppity whore not to interrupt...</OptionText>
+                <OptionText>{=BCCaptor_Text_12143}Teach the uppity whore not to interrupt...</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="Roguery" Min="50" Ref="Captor" />
                 </SkillsRequired>
@@ -203,7 +203,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                             <RestrictedListOfConsequences>AddSlaveryFlag</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>As it should be.</OptionText>
+                <OptionText>{=BCCaptor_Text_12298}As it should be.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Broken" ByLevel="1" Ref="Hero" Color="Magenta" />
                     <Skill Id="Breakable" ByLevel="-1" Ref="Hero" Color="Magenta" HideNotification="true" />

@@ -1660,6 +1660,7 @@
                 <Order>2</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
@@ -1679,6 +1680,7 @@
                 </StripSettings>
                 <HealthTotal>R -25 -50</HealthTotal>
                 <RenownTotal>R -5 -10</RenownTotal>
+                <RelationTotal>R -1 -3</RelationTotal>
             </Option>
         </Options>        
         <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
@@ -1955,7 +1957,7 @@
                     </TriggerEvent>
                     <TriggerEvent>
                         <EventName>BC_event_torment_cowbell</EventName>
-                        <EventWeight>10</EventWeight>
+                        <EventWeight>1</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
                     </TriggerEvent>
                     <TriggerEvent>
@@ -1965,7 +1967,7 @@
                     </TriggerEvent>
                     <TriggerEvent>
                         <EventName>BC_event_torment_saddle</EventName>
-                        <EventWeight>100</EventWeight>
+                        <EventWeight>1</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
                     </TriggerEvent>
                     <TriggerEvent>
@@ -2167,7 +2169,7 @@
         <Text>You decide to calibrate how sensitive {CAPTIVE_NAME}'s breasts are at present. She is bitted and bound to a saddle. You probe the fattest sections of her breasts and sides with a lash, periodically tightening her collar. The leather saddle is frothy with your little mare's lubrication by the time your wrist tires.</Text>
         <Backgrounds>
             <Background Name="BC_image_torment_saddle_f" UseConditions="BC_event_conditions_captor_female_captive_female" />
-            <Background Name="BC_image_torment_saddle" />
+            <Background Name="BC_image_torment_saddle" UseConditions="BC_event_conditions_captor_male_captive_female" />
         </Backgrounds>
         <NotificationName>BC_image_notification_cats</NotificationName>
         <MultipleRestrictedListOfFlags>
