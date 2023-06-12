@@ -288,6 +288,7 @@
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>            
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroHaveOffspring</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
@@ -3693,6 +3694,7 @@
                     <Order>1</Order>
                     <MultipleRestrictedListOfConsequences>
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeCaptorSkill</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
                     <OptionText>{=BCCaptor_Text_14109}Stimulate her further.</OptionText>
                     <TriggerEvents>
@@ -3748,6 +3750,13 @@
                             <EventUseConditions>True</EventUseConditions>
                         </TriggerEvent>
                     </TriggerEvents>
+                    <SkillsToLevel>
+                        <Skill Id="CaptiveLustV" ByLevel="R -1 10" Ref="Captor" HideNotification="true" />
+                        <Skill Id="CaptiveLustA" ByLevel="R -1 7" Ref="Captor" HideNotification="true" />
+                        <Skill Id="CaptiveLustC" ByLevel="R -1 7" Ref="Captor" HideNotification="true" />
+                        <Skill Id="CaptiveLustT" ByLevel="R -1 7" Ref="Captor" HideNotification="true" />
+                        <Skill Id="CaptiveLustO" ByLevel="R -1 7" Ref="Captor" HideNotification="true" />
+                    </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="CaptiveAffection" Min="25" Ref="Hero" />
                     </SkillsRequired>

@@ -113,6 +113,7 @@
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
             </Option>
         </Options>
@@ -252,6 +253,7 @@
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
             </Option>
         </Options>
@@ -460,6 +462,7 @@
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="Roguery" Min="50" Ref="Captor"/>

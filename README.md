@@ -9,8 +9,8 @@ I'm sure you're here in part because of the extended BC Captor custom skills, so
 * IsThief/IsWarrior is a flag for those "character classes" and triggering specific events for them.
 * CaptiveAffection/CaptiveObedience are generally pushed in opposite directions by kindness & cruelty.
 * Devoted/Broken are the resulting flags for extreme kindess or cruelty over a long time (above 90).
-* SocialEnergy is drained during Captive Dinners and Strolls.
-* ClaimedWomb/Concubine are flags to trigger impregnation events; Concubine does not strictly work as Captives who successfully join your clan by marriage are released...
+* SocialEnergy is drained during Captive Dinners and Strolls. They will be unwilling to do 'certain things' without enough Social Energy.
+* ClaimedWomb/Concubine are flags to trigger impregnation events; Concubine does not strictly work, since Captives who successfully join your clan by marriage are released...
 * MindBroken comes from the Alchemist's potion. There are several flags here and a tracker for how much potion you have.
 * Blackmailed for the Blackmail Event eligibility
 * FlowerGirlFavor/TDSFavor for the Flower Girl and the Nameless Ronin; it is difficult to get TDS Favor!
@@ -21,7 +21,8 @@ I'm sure you're here in part because of the extended BC Captor custom skills, so
 * Deflowered is TB's virginity tracking, but it is merely the negative condition, requiring a whole ecosystem:
 * Virginal is whether or not the character is a virgin; this is only set on young maidens.
 * Maiden is whether YOU know they are virginal or not; this is only set if they admit it to you or other harem girls!
-* Devotion is a tracking stat 0-1000 for new Devoted events.
+* Trustee is a flag for elevated privileges for some new Captive and Companion events.
+* Jealousy is a skill to track how protective a Companion is.
 * Raging is intended to track when you have worked yourself up into a frenzy, to prevent you from leaving the bedroom.
 * Breakable isn't really finished, but it is supposed to indicate working on the Self-Esteem/Humiliation line.
 * InTorture is whether you have left them in the Torture Chamber, to eliminate them from many random events they shouldn't get.

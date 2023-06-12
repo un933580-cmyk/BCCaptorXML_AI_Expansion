@@ -543,7 +543,7 @@
     <CEEvent>
         <Name>BC_horny_soldiers_found</Name>
         <Text>One of your patrols finally, finally hears hoarse screaming, and your guards are horrified at the state you are in. You eventually learn they had been pulled away to deal with some escaping captives, and had no idea it had all been a distraction to get to you.</Text>
-        <BackgroundName>BC_image_captivity_bound_inverted</BackgroundName>
+        <BackgroundName>BC_image_sex_alley_ring</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
@@ -2055,11 +2055,13 @@
                 <SkillsToLevel>
                     <Skill Id="OneHanded" ByXP="750" Ref="Hero" />
                 </SkillsToLevel>
+                <TriggerEventName>TB_catcall_duel_win</TriggerEventName>
+                <!-- 
                 <BattleSettings Ref="City" EnemyName="Catcaller" Victory="TB_catcall_duel_win" Defeat="TB_catcall_duel_lose" PlayerTroops="0">
                     <SpawnTroops>
                         <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="1" />
                     </SpawnTroops>
-                </BattleSettings>
+                </BattleSettings>-->
             </Option>
             <Option>
                 <Order>1</Order>
