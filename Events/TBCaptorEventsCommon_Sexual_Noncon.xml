@@ -54,8 +54,8 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_rescue_attempt</Name>
-        <Text>You look back and are surprised to find the line of prisoners following your party is larger than you last remember. One of your guards explains that a group of men were caught attempting to help {CAPTIVE_NAME} escape! Thankfully, you guards were able to subdue them, and they have instead joined the teeming throng.</Text>
-        <BackgroundName>default_random</BackgroundName>
+        <Text>{=BCCaptor_Text_11100}You look back and are surprised to find the line of prisoners following your party is larger than you last remember. One of your guards explains that a group of men were caught attempting to help {CAPTIVE_NAME} escape! Thankfully, you guards were able to subdue them, and they have instead joined the teeming throng.</Text>
+        <BackgroundName>BC_captor_city_slaves_right</BackgroundName>
         <NotificationName>TB_captor_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -72,13 +72,27 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>A worrying development.</OptionText>
+                <OptionText>{=BCCaptor_Text_11101}Unhappy captives slow down your whole party. Resolve to hear out {CAPTIVE_NAME}'s complaints, soon.</OptionText>
                 <SpawnTroops>
                     <SpawnTroop Ref="Prisoner" Id="looter" Number="R 5 10"/>
                 </SpawnTroops>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>TB_captive_mutiny</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11102}How dare the lowly dog reject your hospitality! Have {CAPTIVE_NAME} dragged out, to watch the new arrivals punished.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_punish_mutiny</EventName>
                         <EventWeight>100</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
                     </TriggerEvent>

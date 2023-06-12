@@ -5,8 +5,7 @@
         <CEFlag Id="Flavor" Name="Flavor" HintText="Events which exist for flavor only, and have little to no effect on gameplay." />
     </CEFlags>
     <CESkills>
-		
-        <CESkill Id="Prostitution" Name="{=CEEVENTS1106}Prostitution" MinLevel="0" SetZeroOnEscape="true" />
+		<CESkill Id="Slavery" Name="{=CEEVENTS1105}Slavery" MinLevel="0" SetZeroOnEscape="false"/>
 		<CESkill Id="Fame" Name="{=BCCaptor_Skills_0000}Bedroom Notoriety" MinLevel="0" />
 		
 		<!-- Operational values -->
@@ -25,6 +24,8 @@
         <CESkill Id="CaptiveObedience" Name="{=BCCaptor_Text_00005}Obedience" MinLevel="0" MaxLevel="100" />
 		<CESkill Id="Concubine" Name="{=BCCaptor_Text_00006}Concubine" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="Devoted" Name="{=BCCaptor_Text_00007}Devoted" MinLevel="0" MaxLevel="1" />
+		<CESkill Id="Devotion" Name="{=BCCaptor_Text_00028}Devotion" MinLevel="0" MaxLevel="1000" />
+		<CESkill Id="Jealousy" Name="{=BCCaptor_Text_00029}Jealousy" MinLevel="0" MaxLevel="1000" />
         <CESkill Id="MindBroken" Name="{=BCCaptor_Text_00008}Broken" MinLevel="0" MaxLevel="1" />
         <CESkill Id="SocialEnergy" Name="{=BCCaptor_Text_00009}Energy" MinLevel="0" MaxLevel="100" />
 		<CESkill Id="Deflowered" Name="???" MinLevel="0" MaxLevel="1" />
@@ -38,8 +39,7 @@
         <CESkill Id="TDSFavor" Name="{=BCCaptor_Text_00011}Favor" MinLevel="0" MaxLevel="100" />
 		
 		<!-- BC Skills-->
-        <CESkill Id="CaptiveAugment" Name="{=BCCaptor_Text_00027}mm of Breast Growth" MinLevel="0" MaxLevel="3000" />
-        
+        <CESkill Id="CaptiveAugment" Name="{=BCCaptor_Text_00027}mm of Breast Growth" MinLevel="0" MaxLevel="3000" />        
         <CESkill Id="CaptiveLustA" Name="{=BCCaptor_Text_00012}Butt Lust" MinLevel="0" MaxLevel="300" />
         <CESkill Id="CaptiveLustC" Name="{=BCCaptor_Text_00013}Clit Lust" MinLevel="0" MaxLevel="300" />
         <CESkill Id="CaptiveLustO" Name="{=BCCaptor_Text_00014}Throat Lust" MinLevel="0" MaxLevel="300" />
@@ -51,6 +51,7 @@
 		<CESkill Id="NotNewCaptive" Name="{=BCCaptor_Text_00020}Captive of yours" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="Raging" Name="{=BCCaptor_Text_00021}rutting beast" MinLevel="0" MaxLevel="1" />
         <CESkill Id="Breakable" Name="{=BCCaptor_Text_00022}Fragile" MinLevel="0" MaxLevel="1" />
+        <CESkill Id="Trustee" Name="???" MinLevel="0" MaxLevel="1" />
         <CESkill Id="InTorture" Name="{=BCCaptor_Text_00023}guest in the torture chamber" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="CaptiveEquus" Name="{=BCCaptor_Text_00024}Equestrienne" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="CaptiveCanis" Name="{=BCCaptor_Text_00025}Huntmistress" MinLevel="0" MaxLevel="1" />

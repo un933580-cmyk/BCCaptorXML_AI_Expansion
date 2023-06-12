@@ -1902,7 +1902,7 @@
     <CEEvent>
         <Name>TB_troop_finished</Name>
         <Text>You hungrily engulf his cock between your lips, milking the cum from his balls and sensually slurping it down your throat as you lick him clean. Boosting your men's morale has never been more pleasurable...</Text>
-        <BackgroundName>BC_image_f_cum_covered_modern</BackgroundName>
+        <BackgroundName>BC_image_lara_facial_tongue</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
@@ -2630,7 +2630,7 @@
         <Name>BC_event_sex_equus_1_caught</Name>
         <Text>Your rhythm on the flanged cock is becoming perfect, and the precum is starting to flow freely when you suddenly hear a group of stable workers entering the yard! You quickly collect yourself and whisper a sweet apology to your lover.</Text>
         <Backgrounds>
-            <Background Name="BC_image_sex_horse_1_caught" />
+            <Background Name="BC_image_sex_horse_1_caught_fix" />
         </Backgrounds>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>

@@ -193,6 +193,7 @@
         </Options>
         <SkillsRequired>
             <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Max="0" Ref="Hero"/>
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
@@ -819,6 +820,7 @@
         <!-- Troops are more afraid of retaliation if they know you like the prisoner; cut off rare-anyway virginity, that's for us! -->
         <SkillsRequired>
             <SkillRequired Id="CaptiveAffection" Max="R 0 20" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Max="0" Ref="Hero"/>
             <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
             <SkillRequired Id="Maiden" Max="0" Ref="Hero"/>
             <SkillRequired Id="Virginal" Max="0" Ref="Hero"/>
@@ -935,6 +937,7 @@
 				<SkillsToLevel>
 					<Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" Color="Cyan" />
 					<Skill Id="CaptiveAffection" ByLevel="R -15 -30" Ref="Hero" Color="Cyan" />
+					<Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true" />
 				</SkillsToLevel>
                 <HealthTotal>-15</HealthTotal>
             </Option>
@@ -2246,6 +2249,158 @@
         <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
+    <!-- Caught Your Eye, new captives only -->    
+    <CEEvent>
+        <Name>BC_captive_new_arrival</Name>
+        <Text>{=BCCaptor_Text_14081}Your guards have marched out your female prisoners to clean up the filthy cells, and you spy {CAPTIVE_NAME} for the first time since defeating her forces. Stripped and chained to your liking, you find yourself studying her curves intensely. Perhaps today you should introduce yourself to her...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_line_four" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_march</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_14082}Have her brought over right now to get a better look at her.</OptionText>                   
+                <StripSettings QuestEnabled="false">
+                    <Clothing>Slave</Clothing>
+                </StripSettings>          
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_captive_look_wife</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_captive_look_new</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_14083}Have her sent to your audience chamber for a formal introduction as a guest of your warband.</OptionText>
+                <TriggerEventName>CE_captor_male_sexual_menu</TriggerEventName>
+				<HealthTotal>R 10 20</HealthTotal>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_14084}Remember to have {CAPTIVE_NAME} summoned when you aren't so busy.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="NotNewCaptive" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_captive_look_new</Name>
+        <Text>{=BCCaptor_Text_14085}{CAPTIVE_NAME} stands defiant before you, too innocent of the ways of the world to recognize the peril which your whim may bring.</Text>
+        <Backgrounds> 
+            <Background Name="BC_image_captive_straps_stand" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotHaveSpouse</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotHaveOffspring</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <SkillsRequired>
+            <SkillRequired Id="NotNewCaptive" Ref="Hero" Max="0"/>
+        </SkillsRequired>
+        <Options>
+            <Option>
+                <Order>9</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_14086}Have the ladies of the harem clean her up for the next time you need something young and sweet.</OptionText>
+                <!-- <TriggerEventName>BC_event_male_harem_menu</TriggerEventName> -->
+                <SkillsToLevel>
+                    <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true" />
+                        <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                        <Skill Id="CaptiveLustO" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                        <Skill Id="CaptiveLustV" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                        <Skill Id="CaptiveLustC" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                        <Skill Id="CaptiveLustT" ByLevel="R -20 50" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                        <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                        <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                        <Skill Id="Virginal" ByLevel="R -1 5" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>                                                                                                                                                             
+        <Name>BC_event_captive_look_wife</Name>
+        <Text>{=BCCaptor_Text_14087}{CAPTIVE_NAME} kneels warily before you, well aware of the peril which your whim may bring.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_straps_kneel_fire" />
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <SkillsRequired>
+            <SkillRequired Id="NotNewCaptive" Ref="Hero" Max="0"/>
+        </SkillsRequired>
+        <Options>
+            <Option>
+                <Order>9</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_14088}Have her cleaned, and have the ladies of the harem prepare a room for her. </OptionText>
+                <!-- <TriggerEventName>BC_event_male_harem_menu</TriggerEventName> -->
+                <SkillsToLevel>
+                    <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -20 50" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
 <!-- Bread line-->
     <CEEvent>
         <Name>TB_captive_bargain</Name>
@@ -2316,11 +2471,14 @@
         </Options>
         <SkillsRequired>
             <SkillRequired Id="CaptiveAffection" Max="50" Ref="Hero"/>
+            <SkillRequired Id="NotNewCaptive" Min="1" Ref="Hero"/>
+            <SkillRequired Id="Virginal" Max="0" Ref="Hero"/>
             <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Max="0" Ref="Hero"/>
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -4213,4 +4371,598 @@
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 <!-- end Thief -->    
+<!-- Clan Feud -->
+    <CEEvent>
+        <Name>BC_captive_feud</Name>
+        <Text>{=BCCaptor_Text_11110}Word of unrest among your captives has reached you. It seems that {CAPTIVE_NAME}'s clan is in a blood feud with some rival prisoners, and attacks on h{?ISCAPTIVEFEMALE}er{?}im{\?} have grown more frequent, and violent. Your guards have isolated h{?ISCAPTIVEFEMALE}er{?}im{\?} for the time being, and you are reminded this needs your attention before something tragic can happen...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_thief_stone_pussy" UseConditions="BC_event_conditions_captive_thief_female" />
+            <Background Name="BC_image_captive_cell_bikini" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_march</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11111}Have h{?ISCAPTIVEFEMALE}er{?}is{\?} quarters upgraded to something more appropriate to h{?ISCAPTIVEFEMALE}er{?}is{\?} station.</OptionText>
+                <TriggerEventName>BC_captive_feud_server</TriggerEventName>
+                <MoraleTotal>R -1 -2</MoraleTotal>
+				<HealthTotal>R 10 20</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 17" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 7 17" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" HideNotification="true" />
+                    <Skill Id="Trustee" ByLevel="1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeCaptorGold</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11112}Assign one of your honour guard to keep the peace (1000 {GOLD_ICON}).</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_captive_feud_guard</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_captive_feud_guard_2</EventName>
+                        <EventWeight>10</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>    
+                <HealthTotal>R 10 20</HealthTotal>
+                <CaptorGoldTotal>-1000</CaptorGoldTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 -17" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 7 -7" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 8" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11112}This is a private feud. {?ISCAPTIVEFEMALE}Sh{?}H{\?}e can fend for h{?ISCAPTIVEFEMALE}er{?}im{\?}self.</OptionText>
+                <HealthTotal>R -20 -50</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -5 -20" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -15" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="IsThief" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Max="0" Ref="Hero"/>
+            <SkillRequired Id="CaptiveAffection" Max="40" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>30</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_captive_feud_server</Name>
+        <Text>{=BCCaptor_Text_11114}You decide to allow {CAPTIVE_NAME} a respite from the overcrowded cells, and she is moved under the supervision of your kitchen staff. She seems to understand that this is the better option, and is surprisingly well-behaved.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_serving_tray" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_march</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences> 
+                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11115}Access to more food is filling out her frame in a most delightful manner.</OptionText>
+                <StripSettings QuestEnabled="false">
+                    <Clothing>npc_captive_f_maid_dress</Clothing>
+                </StripSettings>  
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_captive_feud_guard</Name>
+        <Text>{=BCCaptor_Text_11116}Your guard takes his bonus, and swears that no one will molest {CAPTIVE_NAME} until you give the order. You tell him that safety is enough, and that he is welcome to keep the prisoner in whatever state of fear and desperation he desires, as long as no permanent damage is done, and he leaves the prize between her legs for you.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_crow_cage" /> 
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_march</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11117}A few weeks of this and she will be very grateful for your attentions...</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_captive_feud_guard_2</Name>
+        <Text>{=BCCaptor_Text_11116}Your guard takes his bonus, and swears that no one will molest {CAPTIVE_NAME} until you give the order. You tell him that safety is enough, and that he is welcome to keep the prisoner in whatever state of fear and desperation he desires, as long as no permanent damage is done, and he leaves the prize between her legs for you.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_cage_candles" /> 
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_march</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11117}A few weeks of this and she will be very grateful for your attentions...</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- Kitchen Trustee  -->
+    <CEEvent>
+        <Name>BC_captive_trustee_sad</Name>
+        <Text>{=BCCaptor_Text_11118}It seems that {CAPTIVE_NAME} has done everything required of her in your kitchens and dining halls, yet when you look up this evening you spy her weeping, choking back tears. Perhaps she realizes that the tender care as a member of your harem is a better fate than hauling dishes and pans?</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_maid_fire" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11119}Test this theory; have {CAPTIVE_NAME} stripped of her kitchen duties, and sent to your chambers, filthy as she is.</OptionText>
+                <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
+				<HealthTotal>R 10 20</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 17" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 7 17" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" HideNotification="true" />
+                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11120}Nonsense! {CAPTIVE_NAME} still has more of the value of hard work to learn.</OptionText>
+                <StripSettings QuestEnabled="false">
+                    <Clothing>npc_captive_f_maid_dress</Clothing>
+                </StripSettings>  
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 -7" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -1 -7" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 4" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_captive_trustee_pinup_1</Name>
+        <Text>{=BCCaptor_Text_11121}{CAPTIVE_NAME} has done everything required of her in your kitchens and dining halls, and her willingness to try out new servant uniforms is most pleasing.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_maid_1" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12005}Grab her and kiss her.</OptionText>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_harem_test</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_0</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 -17" Ref="Hero"  />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 7 17" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11122}Tell her you notice how well-behaved she has become.</OptionText>
+                <StripSettings QuestEnabled="false">
+                    <Clothing>npc_captive_f_maid_dress</Clothing>
+                </StripSettings>  
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 -1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -1 -7" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R -1 4" Ref="Hero" Color="Cyan"  />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_captive_trustee_pinup_2</Name>
+        <Text>{=BCCaptor_Text_11121}{CAPTIVE_NAME} has done everything required of her in your kitchens and dining halls, and her willingness to try out new servant uniforms is most pleasing.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_maid_2" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12005}Grab her and kiss her.</OptionText>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_harem_test</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_0</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 -17" Ref="Hero"  />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 7 17" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11122}Tell her you notice how well-behaved she has become.</OptionText>
+                <StripSettings QuestEnabled="false">
+                    <Clothing>npc_captive_f_maid_dress</Clothing>
+                </StripSettings>  
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 -1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -1 -7" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R -1 4" Ref="Hero" Color="Cyan"  />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_captive_trustee_pinup_3</Name>
+        <Text>{=BCCaptor_Text_11121}{CAPTIVE_NAME} has done everything required of her in your kitchens and dining halls, and her willingness to try out new servant uniforms is most pleasing.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_maid_3" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12005}Grab her and kiss her.</OptionText>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_harem_test</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_0</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 -17" Ref="Hero"  Color="Cyan" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 7 17" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R 1 3" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Strip</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11122}Tell her you notice how well-behaved she has become.</OptionText>
+                <StripSettings QuestEnabled="false">
+                    <Clothing>npc_captive_f_maid_dress</Clothing>
+                </StripSettings>  
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 7 -1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -1 -7" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R -1 4" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_captive_trustee_disobedient</Name>
+        <Text>{=BCCaptor_Text_11123}Your serving staff has complained that {CAPTIVE_NAME} has become sloppy in her duties. You think that she has some potential in your service, though, so you tell her she can wait on you and your guests at a banquet tonight to show that she can do better.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_wine_serve" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11124}&quot;That's a lovely vintage, {CAPTIVE_NAME}. Don't spill, or I shall be very cross!&quot;</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -7 4" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -2 -7" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R -4 19" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveObedience" Max="50" Ref="Hero"/>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_captive_trustee_obedient</Name>
+        <Text>{=BCCaptor_Text_11125}Your serving staff has praised how well {CAPTIVE_NAME} has performed her duties of late. You think that she has great potential in your service, so you tell her she can wait on you and your guest at a private event, in your quarters, tonight. Her face reveals shock, briefly, as you explain where you would like the wine poured.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_wine_pour" />
+        </Backgrounds>
+        <NotificationName>BC_captor_notification_bow</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11124}&quot;That's a lovely vintage, {CAPTIVE_NAME}. Don't spill, or I shall be very cross!&quot;</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R -7 4" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -2 -7" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -2 7" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveObedience" ByLevel="R -1 10" Ref="Hero" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveObedience" Min="75" Ref="Hero"/>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+            <SkillRequired Id="Trustee" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
 </CEEvents> 

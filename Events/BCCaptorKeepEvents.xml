@@ -1843,6 +1843,8 @@
                             <Skill Id="InTorture" Ref="Hero" ByLevel="-100" HideNotification="true" />
                             <Skill Id="CaptiveEquus" Ref="Hero" ByLevel="-100" HideNotification="true" />
                             <Skill Id="CaptiveCanis" Ref="Hero" ByLevel="-100" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="-1000" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Trustee" ByLevel="-100" Ref="Hero" HideNotification="true"/>
                         </SkillsToLevel>
                     </Option>
                     <Option>
