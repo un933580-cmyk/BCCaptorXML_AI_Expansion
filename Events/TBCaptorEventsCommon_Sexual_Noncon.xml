@@ -49,7 +49,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -99,9 +99,12 @@
                 </TriggerEvents>
             </Option>
         </Options>
+        <SkillsRequired>
+            <SkillRequired Id="IsThief" Max="0" Ref="Hero" />
+        </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>1</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>1</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -166,7 +169,7 @@
             <SkillRequired Id="InTorture" Ref="Hero" Max="0" />
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <SexualContent>true</SexualContent>
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <ReqHeroMaxAge>40</ReqHeroMaxAge>
@@ -254,7 +257,7 @@
 		<SkillsRequired>
             <SkillRequired Id="ClaimedWomb" Ref="Hero" Min="1"/>
         </SkillsRequired>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
     </CEEvent>
     <CEEvent>
         <Name>TB_captive_riding</Name>
@@ -305,7 +308,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -331,7 +334,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 </CEEvents>

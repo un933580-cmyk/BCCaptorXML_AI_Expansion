@@ -127,7 +127,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -155,7 +155,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -183,7 +183,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -210,7 +210,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -239,7 +239,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -267,7 +267,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -295,7 +295,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -326,7 +326,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -355,7 +355,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -384,7 +384,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -412,7 +412,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -454,7 +454,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -485,7 +485,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -514,7 +514,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -543,7 +543,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -572,7 +572,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -601,7 +601,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -631,7 +631,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -660,7 +660,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -690,7 +690,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -776,7 +776,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -805,7 +805,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -874,7 +874,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 </CEEvents>

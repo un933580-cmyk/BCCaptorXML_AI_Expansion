@@ -57,7 +57,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <ReqHeroMaxAge>40</ReqHeroMaxAge>
     </CEEvent>

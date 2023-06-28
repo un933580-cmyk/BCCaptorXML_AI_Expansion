@@ -6,7 +6,7 @@
         <Backgrounds>
             <Background Name="BC_image_slavery_whipped_apron" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_image_male_back_scars" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_torture_rope_breasts_2"  />
+            <Background Name="BC_image_torture_rope_breasts_2" UseConditions="BC_conditions_hero_female" />
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -52,7 +52,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -105,7 +105,7 @@
         <ReqHeroSlaveLevelBelow>50</ReqHeroSlaveLevelBelow>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -155,7 +155,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -164,7 +164,7 @@
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_slavery_cell_stand"/>
+            <Background Name="BC_image_slavery_cell_stand" UseConditions="BC_conditions_hero_female"/>
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -202,7 +202,7 @@
         <ReqHeroSlaveLevelBelow>50</ReqHeroSlaveLevelBelow>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -211,7 +211,7 @@
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_slavery_cell_stand"/>
+            <Background Name="BC_image_slavery_cell_stand" UseConditions="BC_conditions_hero_female"/>
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -254,7 +254,7 @@
         <ReqHeroSlaveLevelBelow>50</ReqHeroSlaveLevelBelow>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -263,7 +263,7 @@
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_slavery_cell_stand" />
+            <Background Name="BC_image_slavery_cell_stand" UseConditions="BC_conditions_hero_female" />
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -311,7 +311,7 @@
         <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -372,7 +372,7 @@
         <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -381,7 +381,7 @@
         <Backgrounds>
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
-            <Background Name="BC_image_slavery_cell_stand" />
+            <Background Name="BC_image_slavery_cell_stand" UseConditions="BC_conditions_hero_female" />
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -436,7 +436,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -445,7 +445,7 @@
                 <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_slavery_cell_stand" />
+            <Background Name="BC_image_slavery_cell_stand" UseConditions="BC_conditions_hero_female" />
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -506,7 +506,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -515,7 +515,7 @@
                 <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_slavery_cell_stand" />
+            <Background Name="BC_image_slavery_cell_stand" UseConditions="BC_conditions_hero_female" />
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -575,7 +575,7 @@
         <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -584,7 +584,7 @@
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_slavery_cell_stand"/>
+            <Background Name="BC_image_slavery_cell_stand" UseConditions="BC_conditions_hero_female"/>
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -629,7 +629,7 @@
         <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -692,7 +692,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -733,7 +733,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- Note: this event mainly exists as an easier way to get out of villages, because they don't interact much with the rest of the events system -->
@@ -763,7 +763,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- Note: this event mainly exists as an easier way to get out of villages, because they don't interact much with the rest of the events system -->
@@ -805,7 +805,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -829,7 +829,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -887,7 +887,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>1</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>1</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -896,7 +896,7 @@
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_slavery_cell_stand"/>
+            <Background Name="BC_image_slavery_cell_stand" UseConditions="BC_conditions_hero_female"/>
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -948,7 +948,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -957,7 +957,7 @@
         <Backgrounds>
             <Background Name="BC_image_slavery_pregnant" UseConditions="BC_conditions_hero_female_pregnant" />
             <Background Name="BC_captor_captive_male_hawk" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_slavery_cell_stand"/>
+            <Background Name="BC_image_slavery_cell_stand" UseConditions="BC_conditions_hero_female"/>
         </Backgrounds>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -990,7 +990,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -1027,7 +1027,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -1067,7 +1067,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -1110,7 +1110,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -1147,7 +1147,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -1190,7 +1190,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 </CEEvents>

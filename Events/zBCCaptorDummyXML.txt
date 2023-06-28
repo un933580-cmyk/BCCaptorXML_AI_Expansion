@@ -1,0 +1,27 @@
+<!-- Lotto Menus for your POST SEX EXIT OPTIONS
+                            <TriggerEvent> <!-- unisex tired -->
+                                <EventName>BC_event_male_sex_ttf_tired</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent> <!-- captor_male_captive_female -->
+                                <EventName>BC_event_male_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent> <!-- captor_female_captive_female -->
+                                <EventName>BC_event_female_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent> <!-- captor_male_captive_male -->
+                                <EventName>BC_event_male_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent> <!-- captor_female_captive_male -->
+                                <EventName>BC_event_female_sex_ttf_m</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                    -->

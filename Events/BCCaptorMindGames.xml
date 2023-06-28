@@ -103,7 +103,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -179,7 +179,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- -->  
@@ -224,7 +224,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 <!-- verbal abuse section -->    
@@ -260,7 +260,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -293,7 +293,7 @@
             <SkillRequired Id="Breakable" Ref="Hero" Min="1" /></SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -328,7 +328,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <ReqHeroHealthBelowPercentage>50</ReqHeroHealthBelowPercentage>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>80</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>80</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -380,7 +380,7 @@
             <SkillRequired Id="Breakable" Ref="Hero" Min="1" />
         </SkillsRequired>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>30</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>30</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 </CEEvents>

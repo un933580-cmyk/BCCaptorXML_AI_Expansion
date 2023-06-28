@@ -240,7 +240,7 @@
         <BackgroundName>BC_image_captive_f_dungeon_gag</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -493,7 +493,7 @@
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Common</RestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>LocationHideout</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
@@ -522,7 +522,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
     </CEEvent>
     <CEEvent>
         <Name>CE_common_alt_802</Name>
@@ -531,7 +531,7 @@
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Common</RestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</Restricted``ListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</Restricted``ListOfFlags> -->
             <RestrictedListOfFlags>LocationTavern</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
@@ -570,6 +570,6 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
     </CEEvent>
 </CEEvents>

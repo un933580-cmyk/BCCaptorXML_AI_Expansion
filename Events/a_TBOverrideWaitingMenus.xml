@@ -382,7 +382,7 @@ You wait at the market, your body on display like a piece of meat as passerby ma
       <BackgroundName>BC_image_slavery_cell_stand_touch</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
@@ -404,7 +404,7 @@ You wait obediently for someone to make use of you...</Text>
       <BackgroundName>BC_image_slavery_bound_look_tits</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
@@ -425,7 +425,7 @@ You wait obediently for someone to make use of you...</Text>
 There's a siege going on, so your master has you servicing the defenders to keep up morale...</Text>
       <BackgroundName>BC_image_slavery_waiting_hook</BackgroundName>
       <MultipleRestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
@@ -449,7 +449,7 @@ There is currently a siege going on so the markets are closed. At least that mea
       <BackgroundName>BC_image_slavery_cell_kneel_straw</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
@@ -473,7 +473,7 @@ There's a siege going on, and you are servicing the defenders to keep up morale.
       <BackgroundName>BC_image_slavery_cell_stand_touch</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Slavery</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
@@ -548,7 +548,7 @@ There's a siege going on, and you are servicing the defenders to keep up morale.
       <Text>{=DefaultWaitingMenus24}{?DAYS}You've been a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a slave {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?}.{\?}</Text>
       <BackgroundName>BC_image_slavery_white_leash_chain</BackgroundName>
       <MultipleRestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
           <RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
           <RestrictedListOfFlags>LocationPartyInCastle</RestrictedListOfFlags>

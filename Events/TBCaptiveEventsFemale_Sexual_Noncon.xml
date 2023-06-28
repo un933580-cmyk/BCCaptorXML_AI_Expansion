@@ -39,7 +39,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -79,7 +79,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -111,7 +111,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -141,7 +141,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -191,7 +191,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -238,7 +238,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -270,7 +270,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -340,7 +340,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -395,7 +395,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -435,7 +435,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -491,7 +491,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -556,7 +556,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -607,7 +607,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -655,7 +655,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -707,7 +707,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
         <ReqHeroHealthAbovePercentage>60</ReqHeroHealthAbovePercentage>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
@@ -792,7 +792,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -853,7 +853,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -912,7 +912,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -966,7 +966,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1004,7 +1004,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1060,7 +1060,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1098,7 +1098,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1149,7 +1149,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -1187,7 +1187,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -1239,7 +1239,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1288,7 +1288,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1340,7 +1340,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1375,7 +1375,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1437,7 +1437,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1480,7 +1480,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1540,7 +1540,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1578,7 +1578,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -1627,7 +1627,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1674,7 +1674,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1716,7 +1716,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1760,7 +1760,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1797,7 +1797,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1846,7 +1846,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1961,7 +1961,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1997,7 +1997,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2042,7 +2042,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2081,7 +2081,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2127,7 +2127,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>21</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>21</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2176,7 +2176,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>21</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>21</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -2248,7 +2248,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2378,7 +2378,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2438,7 +2438,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2608,7 +2608,7 @@
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -2639,7 +2639,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>70</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- #endregion -->
@@ -2651,7 +2651,7 @@
         <BackgroundName>BC_image_captivity_throat_spit</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -2684,7 +2684,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>60</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2693,7 +2693,7 @@
         <BackgroundName>BC_image_slavery_oral_tits_full</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -2719,7 +2719,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>3</PregnancyRiskModifier>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -2729,7 +2729,7 @@
         <BackgroundName>BC_image_sex_alley_ring_cum</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -2750,7 +2750,7 @@
 
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -2781,7 +2781,7 @@
 
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -2791,7 +2791,7 @@
         <BackgroundName>BC_captor_captive_female_dungeon_shadow</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -2810,7 +2810,7 @@
 
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -2820,7 +2820,7 @@
         <BackgroundName>BC_image_captivity_captured</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -2877,7 +2877,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>20</PregnancyRiskModifier>
         <EscapeChance>40</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2886,7 +2886,7 @@
         <BackgroundName>BC_image_captivity_oral_vaginal_temple</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -2903,7 +2903,7 @@
 
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2912,7 +2912,7 @@
         <BackgroundName>BC_image_slavery_forced_oral_vag</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -2932,7 +2932,7 @@
 
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -2944,7 +2944,7 @@
         </Backgrounds>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -2963,7 +2963,7 @@
 
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -2973,7 +2973,7 @@
         <BackgroundName>BC_captor_sex_lgr_licking_collar</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Lesbian</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
@@ -3010,7 +3010,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>40</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -3019,7 +3019,7 @@
         <BackgroundName>BC_image_slavery_femdom_strap</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -3046,7 +3046,7 @@
 
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -3058,7 +3058,7 @@
         </Backgrounds>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -3106,7 +3106,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>40</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -3115,7 +3115,7 @@
         <BackgroundName>BC_image_slaves_mff_assist</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -3138,7 +3138,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>20</PregnancyRiskModifier>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -3150,7 +3150,7 @@
         </Backgrounds>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -3184,7 +3184,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>40</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -3193,7 +3193,7 @@
         <BackgroundName>BC_image_slavery_oral_anal_animal_print</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -3221,7 +3221,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>3</PregnancyRiskModifier>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- #endregion -->
@@ -3233,7 +3233,7 @@
         <BackgroundName>BC_image_sex_whore_stocks_clean</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -3266,7 +3266,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>30</PregnancyRiskModifier>
         <EscapeChance>25</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -3275,7 +3275,7 @@
         <BackgroundName>BC_image_sex_whore_stocks</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -3293,7 +3293,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>30</PregnancyRiskModifier>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- #endregion -->
@@ -3305,7 +3305,7 @@
         <BackgroundName>BC_image_captive_f_dungeon_gag</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
@@ -3328,7 +3328,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>30</PregnancyRiskModifier>
         <EscapeChance>5</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -3337,7 +3337,7 @@
         <BackgroundName>BC_image_captive_f_dungeon_gag</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -3355,7 +3355,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>30</PregnancyRiskModifier>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -3398,7 +3398,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>30</PregnancyRiskModifier>
         <EscapeChance>5</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -3407,7 +3407,7 @@
         <BackgroundName>CE_CPSI3</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -3431,7 +3431,7 @@
         <BackgroundName>CE_CSI15</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
 
@@ -3459,7 +3459,7 @@
         <BackgroundName>BC_image_slavery_cell_stand</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -3491,7 +3491,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>25</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -3500,7 +3500,7 @@
         <BackgroundName>BC_image_slavery_dark_oral_fmm_touch</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -3518,7 +3518,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>30</PregnancyRiskModifier>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- #endregion -->
@@ -3530,7 +3530,7 @@
         <BackgroundName>BC_image_sex_captivity_knife_throat</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationHideout</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -3562,7 +3562,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>25</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -3571,7 +3571,7 @@
         <BackgroundName>BC_image_slavery_oral_whore</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -3589,7 +3589,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>30</PregnancyRiskModifier>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -3599,7 +3599,7 @@
         <BackgroundName>BC_image_sex_whore_stocks_clean</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationPartyInVillage</RestrictedListOfFlags>
@@ -3633,7 +3633,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>30</PregnancyRiskModifier>
         <EscapeChance>25</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -3642,7 +3642,7 @@
         <BackgroundName>BC_image_sex_whore_stocks</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
@@ -3660,7 +3660,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>30</PregnancyRiskModifier>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- #endregion -->
@@ -3672,7 +3672,7 @@
         <BackgroundName>BC_image_sex_captivity_knife_throat</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
@@ -3705,7 +3705,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>25</EscapeChance>
-        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- #endregion -->
@@ -3717,7 +3717,7 @@
         <BackgroundName>BC_image_slavery_cell_stand</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
@@ -3750,7 +3750,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>25</EscapeChance>
-        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- #endregion -->
@@ -3764,7 +3764,7 @@
         </Backgrounds>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -3818,7 +3818,7 @@
         <SexualContent>true</SexualContent>
         <PregnancyRiskModifier>10</PregnancyRiskModifier>
         <EscapeChance>30</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <ReqHeroHealthAbovePercentage>10</ReqHeroHealthAbovePercentage>
     </CEEvent>
@@ -3922,7 +3922,7 @@
       <BackgroundAnimationSpeed>0.025</BackgroundAnimationSpeed>
         <Text>{=DefaultWaitingMenusGeneral1}{?DAYS}You've been a captive {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?} for {NUMBER_OF_DAYS} {?PLURAL}days{?}day{\?}.{?}You are a captive {?ISCARAVAN}in the {PARTY_NAME}{?}of {PARTY_NAME}{\?}.{\?}</Text>
         <MultipleRestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -3943,7 +3943,7 @@
             
 Waiting in captivity...</Text>
         <MultipleRestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+            <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
             <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
             <RestrictedListOfFlags>LocationVillage</RestrictedListOfFlags>

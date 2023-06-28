@@ -85,7 +85,7 @@
                 <ReqHeroHealthAbovePercentage>80</ReqHeroHealthAbovePercentage>
             </Option>
         </Options>
-        <WeightedChanceOfOccuring>40</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>40</WeightedChanceOfOccurring>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <ReqHeroMinAge>18</ReqHeroMinAge>

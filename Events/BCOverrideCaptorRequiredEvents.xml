@@ -21,7 +21,7 @@
             <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
-            <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
             <Option>
@@ -51,6 +51,7 @@
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="R 10 20" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="true"/>
+                                <Skill Id="CaptiveOffLimits" ByLevel="-100" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
@@ -82,6 +83,7 @@
                 </TriggerEvents>
                     <SkillsToLevel>
                         <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                                <Skill Id="CaptiveOffLimits" ByLevel="-100" Ref="Hero" HideNotification="true"/>
                     </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
@@ -119,7 +121,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- Overwrite FEMALE Strip back to Harem menu -->
@@ -155,7 +157,7 @@
             <ReqCustomCode>true</ReqCustomCode>
             <SexualContent>true</SexualContent>
             <EscapeChance>10</EscapeChance>
-            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
 <!-- BC_Captor Captor_F Captive_F Menu Dialogue -->
@@ -260,7 +262,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -367,7 +369,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 <!-- BC_Captor Captor_M Captive_M Menu Dialogue -->
@@ -473,7 +475,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <EscapeChance>10</EscapeChance>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- M_M_Strip for Code-called events; not sure why this one is overwritten while female is not?  -->
@@ -502,11 +504,61 @@
             <ReqCustomCode>true</ReqCustomCode>
             <SexualContent>true</SexualContent>
             <EscapeChance>10</EscapeChance>
-            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
 
 
+        <CEEvent>
+            <Name>CE_captor_male_two_female</Name>
+            <Text>{=DefaultCaptorEventsFemale14}{CAPTIVE_NAME} kneels before you, shivering and emaciated. She begs you for some food, pleading that she hasn't had a meal in days, and can scarcely gather the strength to walk. Despite her frailty, you can't help but notice the shapely form beneath her rags and the endearing quiver of her lips. Should such a beauty be left to starve?</Text>
+            <BackgroundName>default_female</BackgroundName>
+            <MultipleRestrictedListOfFlags>
+                <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+                <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+                <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            </MultipleRestrictedListOfFlags>
+            <Options>
+                <Option>
+                    <Order>0</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsFemale15}Allow her a brief meal.</OptionText>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>CE_captor_female_two_female_nice</EventName>
+                            <EventWeight>5</EventWeight>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>CE_captor_female_two_female_nice_two</EventName>
+                            <EventWeight>5</EventWeight>
+                        </TriggerEvent>
+                    </TriggerEvents>
+                    <HealthTotal>15</HealthTotal>
+                </Option>
+                <Option>
+                    <Order>1</Order>
+                    <MultipleRestrictedListOfConsequences>
+                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    </MultipleRestrictedListOfConsequences>
+                    <OptionText>{=DefaultCaptorEventsFemale16}Deny her foolish request.</OptionText>
+                    <TriggerEventName>CE_captor_female_two_female_rude</TriggerEventName>
+                </Option>
+            </Options>
+    
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
+            <EscapeChance>10</EscapeChance>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+            <ReqHeroMinAge>18</ReqHeroMinAge>
+        </CEEvent>
         <CEEvent>
             <Name>CE_captor_female_two_female</Name>
             <Text>{=DefaultCaptorEventsFemale14}{CAPTIVE_NAME} kneels before you, shivering and emaciated. She begs you for some food, pleading that she hasn't had a meal in days, and can scarcely gather the strength to walk. Despite her frailty, you can't help but notice the shapely form beneath her rags and the endearing quiver of her lips. Should such a beauty be left to starve?</Text>
@@ -554,57 +606,7 @@
             <ReqCustomCode>true</ReqCustomCode>
             <SexualContent>true</SexualContent>
             <EscapeChance>10</EscapeChance>
-            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
-            <ReqHeroMinAge>18</ReqHeroMinAge>
-        </CEEvent>
-        <CEEvent>
-            <Name>CE_captor_female_two_female</Name>
-            <Text>{=DefaultCaptorEventsFemale14}{CAPTIVE_NAME} kneels before you, shivering and emaciated. She begs you for some food, pleading that she hasn't had a meal in days, and can scarcely gather the strength to walk. Despite her frailty, you can't help but notice the shapely form beneath her rags and the endearing quiver of her lips. Should such a beauty be left to starve?</Text>
-            <BackgroundName>default_female</BackgroundName>
-            <MultipleRestrictedListOfFlags>
-                <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
-                <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CaptorGenderIsFemale</RestrictedListOfFlags>
-                <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
-                <RestrictedListOfFlags>Common</RestrictedListOfFlags>
-            </MultipleRestrictedListOfFlags>
-            <Options>
-                <Option>
-                    <Order>0</Order>
-                    <MultipleRestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
-                    </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=DefaultCaptorEventsFemale15}Allow her a brief meal.</OptionText>
-                    <TriggerEvents>
-                        <TriggerEvent>
-                            <EventName>CE_captor_female_two_female_nice</EventName>
-                            <EventWeight>5</EventWeight>
-                        </TriggerEvent>
-                        <TriggerEvent>
-                            <EventName>CE_captor_female_two_female_nice_two</EventName>
-                            <EventWeight>5</EventWeight>
-                        </TriggerEvent>
-                    </TriggerEvents>
-                    <HealthTotal>15</HealthTotal>
-                </Option>
-                <Option>
-                    <Order>1</Order>
-                    <MultipleRestrictedListOfConsequences>
-                        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                    </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=DefaultCaptorEventsFemale16}Deny her foolish request.</OptionText>
-                    <TriggerEventName>CE_captor_female_two_female_rude</TriggerEventName>
-                </Option>
-            </Options>
-    
-            <ReqCustomCode>true</ReqCustomCode>
-            <SexualContent>true</SexualContent>
-            <EscapeChance>10</EscapeChance>
-            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
         <CEEvent>
@@ -642,7 +644,7 @@
             <ReqCustomCode>true</ReqCustomCode>
             <SexualContent>true</SexualContent>
             <EscapeChance>10</EscapeChance>
-            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
         <CEEvent>
@@ -692,7 +694,7 @@
             <ReqCustomCode>true</ReqCustomCode>
             <SexualContent>true</SexualContent>
             <EscapeChance>10</EscapeChance>
-            <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+            <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
 </CEEvents>

@@ -39,7 +39,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>22</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>22</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <ReqHeroCaptorRelationBelow>20</ReqHeroCaptorRelationBelow>
     </CEEvent>
@@ -133,7 +133,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>13</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>13</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 </CEEvents>
