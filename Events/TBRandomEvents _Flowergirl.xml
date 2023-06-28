@@ -67,7 +67,7 @@
 		</SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -90,7 +90,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -150,7 +150,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
 		<SkillsRequired>
 			<SkillRequired Id="FlowerGirlFavor" Ref="Hero" Min="1" Max="10" />
@@ -231,7 +231,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
 		<SkillsRequired>
 			<SkillRequired Id="FlowerGirlFavor" Ref="Hero" Min="10" />
@@ -257,7 +257,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
-        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 </CEEvents>

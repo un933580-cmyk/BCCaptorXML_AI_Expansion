@@ -20,8 +20,8 @@
 		<CESkill Id="Blackmailed" Name="{=BCCaptor_Text_00001}Blackmailed" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="Broken" Name="{=BCCaptor_Text_00002}Broken" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="ClaimedWomb" Name="{=BCCaptor_Text_00003}Claimed" MinLevel="0" MaxLevel="1" />	
-		<CESkill Id="CaptiveAffection" Name="{=BCCaptor_Text_00004}Affection" MinLevel="0" MaxLevel="100" />
-        <CESkill Id="CaptiveObedience" Name="{=BCCaptor_Text_00005}Obedience" MinLevel="0" MaxLevel="100" />
+		<CESkill Id="CaptiveAffection" Name="{=BCCaptor_Text_00004}Affection" MinLevel="0" MaxLevel="150"  />
+        <CESkill Id="CaptiveObedience" Name="{=BCCaptor_Text_00005}Obedience" MinLevel="0" MaxLevel="150"  />
 		<CESkill Id="Concubine" Name="{=BCCaptor_Text_00006}Concubine" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="Devoted" Name="{=BCCaptor_Text_00007}Devoted" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="Devotion" Name="{=BCCaptor_Text_00028}Devotion" MinLevel="0" MaxLevel="1000" />
@@ -49,10 +49,11 @@
 		<CESkill Id="Virginal" Name="{=BCCaptor_Text_00018}Virginal" MinLevel="0" MaxLevel="1" /> 
 		<CESkill Id="Maiden" Name="{=BCCaptor_Text_00019}Maiden you are protecting" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="NotNewCaptive" Name="{=BCCaptor_Text_00020}Captive of yours" MinLevel="0" MaxLevel="1" />
+		<CESkill Id="CaptiveOffLimits" Name="???" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="Raging" Name="{=BCCaptor_Text_00021}rutting beast" MinLevel="0" MaxLevel="1" />
         <CESkill Id="Breakable" Name="{=BCCaptor_Text_00022}Fragile" MinLevel="0" MaxLevel="1" />
-        <CESkill Id="Trustee" Name="???" MinLevel="0" MaxLevel="1" />
-        <CESkill Id="InTorture" Name="{=BCCaptor_Text_00023}guest in the torture chamber" MinLevel="0" MaxLevel="1" />
+        <CESkill Id="Trustee" Name="???" MinLevel="0" MaxLevel="1" SetZeroOnEscape="true" />
+        <CESkill Id="InTorture" Name="{=BCCaptor_Text_00023}guest in the torture chamber" MinLevel="0" MaxLevel="1" SetZeroOnEscape="true" />
 		<CESkill Id="CaptiveEquus" Name="{=BCCaptor_Text_00024}Equestrienne" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="CaptiveCanis" Name="{=BCCaptor_Text_00025}Huntmistress" MinLevel="0" MaxLevel="1" />
 		<!-- BC Picture Preferences -->

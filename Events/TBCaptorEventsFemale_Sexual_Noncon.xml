@@ -36,7 +36,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -119,7 +119,7 @@
         <SkillsRequired>
             <SkillRequired Id="ClaimedWomb" Ref="Hero" Min="1"/>
         </SkillsRequired>
-        <WeightedChanceOfOccuring>100</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <ReqHeroMinAge>18</ReqHeroMinAge>

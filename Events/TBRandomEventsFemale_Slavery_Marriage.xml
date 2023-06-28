@@ -67,7 +67,7 @@
         </Options>
         <ReqHeroHealthAbovePercentage>50</ReqHeroHealthAbovePercentage>
         <ReqCustomCode>true</ReqCustomCode>
-        <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
         <SkillsRequired>
             <SkillRequired Id="Concubine" Min="1" Ref="Hero"/>
         </SkillsRequired>

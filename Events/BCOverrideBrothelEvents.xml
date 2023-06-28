@@ -7,7 +7,7 @@
     <MultipleRestrictedListOfFlags>
         <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
         <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
-        <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+        <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
         <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
         <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
         <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
@@ -23,7 +23,7 @@
     <MultipleRestrictedListOfFlags>
         <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
         <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
-        <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+        <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
         <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
         <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
         <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
@@ -43,7 +43,7 @@ Waiting for a customer...</Text>
     <BackgroundName>BC_image_brothel_flash</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
-      <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+      <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
       <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
       <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -79,7 +79,7 @@ Waiting for a customer...</Text>
     <BackgroundName>BC_image_brothel_flash</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
-      <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
       <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
       <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -135,7 +135,7 @@ Waiting for a customer...</Text>
     <BackgroundName>BC_image_brothel_flash</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
-      <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
       <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
       <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -191,7 +191,7 @@ Waiting for a customer...</Text>
     <BackgroundName>BC_image_brothel_one</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
-      <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
       <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
       <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -259,7 +259,7 @@ Waiting for a customer...</Text>
     </Backgrounds>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
-      <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
       <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
       <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -320,7 +320,7 @@ The brothel is closed due to the siege. You hope your guards don't get any ideas
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-      <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags>
       <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
       <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
       <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -364,7 +364,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-      <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags>
       <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
       <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
       <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
@@ -425,7 +425,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <BackgroundName>BC_image_brothel_look</BackgroundName>
     <MultipleRestrictedListOfFlags>
       <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
-      <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags>
+      <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags>
       <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
       <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
       <RestrictedListOfFlags>DuringSiege</RestrictedListOfFlags>
@@ -573,7 +573,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -626,7 +626,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -674,7 +674,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -783,7 +783,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -858,7 +858,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -909,7 +909,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -1018,7 +1018,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -1134,7 +1134,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -1210,7 +1210,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -1362,7 +1362,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -1411,7 +1411,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -1495,7 +1495,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -1730,7 +1730,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -1801,7 +1801,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <CEEvent>
@@ -1887,7 +1887,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
 
@@ -1971,7 +1971,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <ReqCustomCode>true</ReqCustomCode>
     <SexualContent>true</SexualContent>
     <EscapeChance>10</EscapeChance>
-    <WeightedChanceOfOccuring>0</WeightedChanceOfOccuring>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
     <ReqHeroMinAge>18</ReqHeroMinAge>
   </CEEvent>
   <!-- #endregion -->
@@ -1984,7 +1984,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_silver_street</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
@@ -2060,7 +2060,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <ReqCustomCode>true</ReqCustomCode>
       <SexualContent>true</SexualContent>
       <EscapeChance>20</EscapeChance>
-      <WeightedChanceOfOccuring>50</WeightedChanceOfOccuring>
+      <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
       <ReqHeroMinAge>18</ReqHeroMinAge>
       <ReqHeroProstituteLevelBelow>60</ReqHeroProstituteLevelBelow>
   </CEEvent>
@@ -2073,7 +2073,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_one</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
@@ -2145,7 +2145,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <ReqCustomCode>true</ReqCustomCode>
       <SexualContent>true</SexualContent>
       <EscapeChance>20</EscapeChance>
-      <WeightedChanceOfOccuring>50</WeightedChanceOfOccuring>
+      <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
       <ReqHeroMinAge>18</ReqHeroMinAge>
       <ReqHeroProstituteLevelAbove>60</ReqHeroProstituteLevelAbove>
   </CEEvent>
@@ -2161,7 +2161,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2222,7 +2222,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2261,7 +2261,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2292,7 +2292,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2329,7 +2329,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2356,7 +2356,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2392,7 +2392,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <BackgroundName>BC_image_brothel_bath</BackgroundName>
@@ -2423,7 +2423,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2501,7 +2501,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2542,7 +2542,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2615,7 +2615,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2645,7 +2645,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2700,7 +2700,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2730,7 +2730,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2757,7 +2757,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2789,7 +2789,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2815,7 +2815,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2864,7 +2864,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2891,7 +2891,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_caught</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2916,7 +2916,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_caught</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2944,7 +2944,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_escape</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -2980,7 +2980,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <SoundName>captivity/event/test</SoundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
@@ -3033,7 +3033,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <ReqCustomCode>true</ReqCustomCode>
       <SexualContent>true</SexualContent>
       <EscapeChance>20</EscapeChance>
-      <WeightedChanceOfOccuring>50</WeightedChanceOfOccuring>
+      <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
       <ReqHeroMinAge>18</ReqHeroMinAge>
       <ReqHeroProstituteLevelBelow>200</ReqHeroProstituteLevelBelow>
   </CEEvent>
@@ -3046,7 +3046,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3103,7 +3103,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3163,7 +3163,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3193,7 +3193,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3220,7 +3220,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3328,7 +3328,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     </BackgroundAnimation>
     <BackgroundAnimationSpeed>0.05</BackgroundAnimationSpeed><MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3358,7 +3358,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_renowned</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
@@ -3407,7 +3407,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
 
       <ReqCustomCode>true</ReqCustomCode>
       <SexualContent>true</SexualContent>
-      <WeightedChanceOfOccuring>50</WeightedChanceOfOccuring>
+      <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
       <ReqHeroMinAge>18</ReqHeroMinAge>
       <ReqHeroProstituteLevelAbove>200</ReqHeroProstituteLevelAbove>
   </CEEvent>
@@ -3447,7 +3447,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3560,7 +3560,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3620,7 +3620,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3730,7 +3730,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     </BackgroundAnimation>
     <BackgroundAnimationSpeed>0.05</BackgroundAnimationSpeed><MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3764,7 +3764,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_gold_queen</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
@@ -3809,7 +3809,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <SexualContent>true</SexualContent>
       <PregnancyRiskModifier>20</PregnancyRiskModifier>
       <ReqHeroMinAge>18</ReqHeroMinAge>
-      <WeightedChanceOfOccuring>40</WeightedChanceOfOccuring>
+      <WeightedChanceOfOccurring>40</WeightedChanceOfOccurring>
   </CEEvent>
   <CEEvent>
       <Name>CE_prostitution_owner_great_1</Name>
@@ -3818,7 +3818,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3845,7 +3845,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3872,7 +3872,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3898,7 +3898,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -3928,7 +3928,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_sofa</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
@@ -3952,7 +3952,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <ReqCustomCode>true</ReqCustomCode>
       <SexualContent>true</SexualContent>
       <ReqHeroMinAge>18</ReqHeroMinAge>
-      <WeightedChanceOfOccuring>40</WeightedChanceOfOccuring>
+      <WeightedChanceOfOccurring>40</WeightedChanceOfOccurring>
   </CEEvent>
   <!-- #endregion -->
 
@@ -3963,7 +3963,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_new_complain</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
           <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
@@ -4011,7 +4011,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <ReqCustomCode>true</ReqCustomCode>
       <SexualContent>true</SexualContent>
       <ReqHeroMinAge>18</ReqHeroMinAge>
-      <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+      <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
   </CEEvent>
   <CEEvent>
       <Name>CE_prostitution_owner_bad_1</Name>
@@ -4020,7 +4020,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -4045,7 +4045,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -4076,7 +4076,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_boys</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -4101,7 +4101,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
     </Backgrounds>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -4124,7 +4124,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_caught</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -4164,7 +4164,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_street_empty</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -4188,7 +4188,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_hunted</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>
@@ -4217,7 +4217,7 @@ The brothel is closed due to the siege. This seems distinctly unfair, as who cou
       <BackgroundName>BC_image_brothel_hunted</BackgroundName>
       <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
-          <!-- <RestrictedListOfFlags>Overwriteable</RestrictedListOfFlags> -->
+          <!-- <RestrictedListOfFlags>Overwritable</RestrictedListOfFlags> -->
           <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
       </MultipleRestrictedListOfFlags>
       <Options>

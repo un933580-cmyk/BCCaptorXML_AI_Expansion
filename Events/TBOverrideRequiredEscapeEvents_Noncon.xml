@@ -37,7 +37,7 @@
         <SkillsRequired>
             <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
         </SkillsRequired>
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -116,7 +116,7 @@
         </SkillsRequired>
         <!-- represents whether your captive is strong enough to attempt escape -->
         <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -159,7 +159,7 @@
         <!-- represents whether your captive is willing to risk punishment -->
         <ReqHeroCaptorRelationBelow>20</ReqHeroCaptorRelationBelow>
         <!-- represents whether your captive is strong enough to attempt escape -->
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -238,7 +238,7 @@
         </SkillsRequired>
         <!-- represents whether your captive is strong enough to attempt escape -->
         <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -316,7 +316,7 @@
         </SkillsRequired>
         <!-- represents whether your captive is strong enough to attempt escape -->
         <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -394,7 +394,7 @@
         </SkillsRequired>
         <!-- represents whether your captive is strong enough to attempt escape -->
         <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
-        <WeightedChanceOfOccuring>15</WeightedChanceOfOccuring>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 </CEEvents>
