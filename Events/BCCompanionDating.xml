@@ -222,11 +222,6 @@
                         <EventWeight>100</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
                     </TriggerEvent>
-                    <!-- <TriggerEvent>
-                        <EventName>TB_companion_horny_devoted_f_player_f</EventName>
-                        <EventWeight>100</EventWeight>
-                        <EventUseConditions>True</EventUseConditions>
-                    </TriggerEvent> -->
                 </TriggerEvents>
                 <Companions>
                     <Companion Id="1">
@@ -1154,6 +1149,7 @@
         <Backgrounds>
             <Background Name="BC_image_companion_f_brun_cleopatra" UseConditions="BC_conditions_random_devoted_f"/>
             <Background Name="BC_image_f_strap_suit" UseConditions="BC_conditions_random_broken_f"/>
+            <Background Name="BC_image_companion_freya_1" UseConditions="BC_conditions_companion_f_warrior_current"/>
             <Background Name="BC_image_f_ttv_stand_hand" UseConditions="BC_conditions_hero_male"/>   
             <Background Name="BC_image_companion_f_bottle" />         
         </Backgrounds>
@@ -1236,8 +1232,17 @@
                         <EventWeight>1</EventWeight><EventUseConditions>True</EventUseConditions>
                     </TriggerEvent>
                     <TriggerEvent>
+                        <EventName>BC_event_companion_sex_f_panther_mask</EventName>
+                        <EventWeight>1</EventWeight><EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
                         <EventName>BC_event_companion_sex_f_broken_start</EventName>
                         <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_companion_sex_f_warrior_virgin_start</EventName>
+                        <EventWeight>10</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
                     </TriggerEvent> 
                     <!-- <TriggerEvent>
@@ -1843,7 +1848,7 @@
         <Text>{=BCCaptor_Text_12131}{COMPANION_NAME_1}'s nipples spring to life as your tongue, lips, and fingers squeeze and stroke all over her chest...</Text>
         <Backgrounds>
             <Background Name="BC_captive_f_titjob_big" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_companion_aloy_tits" UseConditions="BC_conditions_hero_female" />
+            <Background Name="BC_image_sex_ff_nipple_sleeve_tattoo" UseConditions="BC_conditions_hero_female" />
         </Backgrounds>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1942,7 +1947,122 @@
         <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
-
+    <!-- Panther Mask -->
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_panther_mask</Name>
+        <Text>{=BCCaptor_Text_12441}{COMPANION_NAME_1}'s face is locked behind an animal mask, but her flesh is on full display. She starts purring, pawing at her slit...</Text>
+        <BackgroundAnimation>            
+            <BackgroundName>BC_image_sex_ff_panther_mask_1</BackgroundName>
+            <BackgroundName>BC_image_sex_ff_panther_mask_2</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>2.5</BackgroundAnimationSpeed>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <TriggerEventName>BC_event_companion_sex_f_panther_mask_2</TriggerEventName>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -10 -5" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -10 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=BCCaptor_Text_12122}Such an experimental lover...</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 1 -5" Ref="Hero" HideNotification="true" />
+                            <Skill Id="CaptiveEsteem" ByLevel="R 5 10" Ref="Hero" Color="White" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R -2 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R -2 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R -2 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R -2 5" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R -2 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_huntmistress_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_panther_mask_2</Name>
+        <Text>{=BCCaptor_Text_12142}Her knees nearly buckle as you guide her hand onto you, but you hold each other up, rubbing and pinching and sliding all over each other until she is screaming into her mask as waves of relief flood you both.</Text>
+        <BackgroundAnimation>            
+            <BackgroundName>BC_image_sex_ff_panther_mask_3</BackgroundName>
+            <BackgroundName>BC_image_sex_ff_panther_mask_4</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>2.5</BackgroundAnimationSpeed>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -30 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -20 -5" Ref="Hero" Color="Yellow"  />
+                    <Skill Id="CaptiveLustC" ByLevel="R -20 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -20 -5" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -30 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 1 7" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <OptionText>{=BCCaptor_Text_12124}Such a mindblowing lover...</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R -1 -6" Ref="Hero" HideNotification="true" />
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="CaptiveEsteem" ByLevel="R 5 10" Ref="Hero" Color="White" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R -2 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R -2 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R -2 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R -2 5" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R -2 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_random_huntmistress_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
 
 <!-- Companion Black Bondage-->  
     <CEEvent>
@@ -2109,8 +2229,8 @@
         <Backgrounds>
             <!-- 
             <Background Name="BC_image_sex_ttv_pool BC_image_sex_mf_ttr_oral_gag" UseConditions="BC_conditions_hero_male"/> -->
-            <Background Name="BC_image_f_ttr_bad_hook_2" UseConditions="BC_conditions_hero_male"/>
-            <Background Name="BC_image_f_ttr_bad_hook_gag" />
+            <Background Name="BC_image_f_ttr_bad_hook_2" UseConditions="BC_conditions_hero_male" />
+            <Background Name="BC_image_f_ttr_bad_hook_gag" UseConditions="BC_conditions_hero_female" />
         </Backgrounds>
         <NotificationName>BC_image_notification_cats</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -2446,7 +2566,7 @@
                     <Skill Id="CaptiveLustC" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustT" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
-                    <Skill Id="CaptiveLustV" ByLevel="R -10 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 -15" Ref="Hero" Color="Cyan" />
                 </SkillsToLevel>
                 <HealthTotal>10</HealthTotal>
                 <Companions>
@@ -2633,7 +2753,7 @@
         </MultipleRestrictedListOfFlags>
         <Options>
             <Option>
-                <Order>0</Order>
+                <Order>9</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
@@ -2675,6 +2795,37 @@
                             <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
                             <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
                             <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12401}She's really too good a girl to act like this...</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustC" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -3 -10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true"  />
+                            <Skill Id="CaptiveObedience" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="Jealousy" ByLevel="R -10 30" Ref="Hero" Color="Green" />
+                            <Skill Id="CaptiveLustA" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
                         </SkillsToLevel>
                     </Companion>
                 </Companions>
@@ -2808,7 +2959,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_ciri_canine_oral" UseConditions="BC_conditions_hero_female"/>
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -2867,7 +3018,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_hunt_black_dog" />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -2925,7 +3076,7 @@
         <Backgrounds>
             <Background Name="BC_image_captive_female_canine_knot_cum" />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -2982,7 +3133,7 @@
             <Background Name="BC_image_sex_ciri_yen_canine_begin" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_sex_ciri_canine_begin" UseConditions="BC_conditions_hero_male"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
@@ -3222,7 +3373,7 @@
             <BackgroundName>couch_hunt_turn_020</BackgroundName>
         </BackgroundAnimation>
         <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3304,7 +3455,7 @@
             <BackgroundName>couch_hunt_long_051</BackgroundName>
         </BackgroundAnimation>
         <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3356,7 +3507,7 @@
             <BackgroundName>couch_hunt_short_021</BackgroundName>
         </BackgroundAnimation>
         <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3494,7 +3645,7 @@
             <BackgroundName>couch_hunt_final_107</BackgroundName>
         </BackgroundAnimation>
         <BackgroundAnimationSpeed>0.08</BackgroundAnimationSpeed>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3550,7 +3701,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_hunt_panther_1"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3580,7 +3731,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_hunt_panther_2"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3610,7 +3761,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_hunt_panther_3"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3666,7 +3817,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_hunt_whole_pack"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3758,7 +3909,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_hunt_octopus"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3814,7 +3965,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_hunt_bull"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3871,7 +4022,7 @@
         <Backgrounds>
             <Background Name="BC_image_captive_female_camel_tent_blue"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3928,7 +4079,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_hunt_bull"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -3984,7 +4135,7 @@
         <Backgrounds>
             <Background Name="BC_image_captive_female_camel_tent_blue"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -4040,7 +4191,7 @@
         <Backgrounds>
             <Background Name="BC_image_sex_hunt_elephant"  />
         </Backgrounds>
-        <NotificationName>BC_companion_notification_veil</NotificationName>
+        <NotificationName>BC_captor_notification_dog</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
             <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
@@ -4560,7 +4711,7 @@
                     <Skill Id="CaptiveLustO" ByLevel="R -30 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustT" ByLevel="R -30 -9" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustA" ByLevel="R -5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
-                    <Skill Id="CaptiveLustV" ByLevel="R -5 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -5 -15" Ref="Hero" Color="Cyan" />
                 </SkillsToLevel>
                 <TriggerEventName>BC_companion_devoted_group_f_2</TriggerEventName>
                 <Companions>
@@ -5022,8 +5173,8 @@
         <Name>BC_event_companion_sex_f_broken_start</Name>
         <Text>{=BCCaptor_Text_12170}{COMPANION_NAME_1} drops in front of you and presents herself. &quot;Take your pleasure from these holes, your slut is ready, {?PLAYER.GENDER}Mistress{?}Master{\?}.&quot; </Text>
         <Backgrounds>
-            <Background Name="BC_captor_sex_f_butt_open" UseConditions="BC_conditions_hero_male" />
-            <Background Name="BC_image_companion_f_blonde_harness" UseConditions="BC_conditions_hero_female" />
+            <Background Name="BC_image_sex_f_broken_bite_crop" UseConditions="BC_conditions_hero_male" />
+            <Background Name="BC_image_sex_ff_broken_bite_crop" UseConditions="BC_conditions_hero_female" />
         </Backgrounds>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -5506,7 +5657,7 @@
         <Name>TB_companion_horny_broken_f_player_m</Name>
         <Text>{=BCCaptor_Text_12187}{COMPANION_NAME_1} approaches you, stark naked, a glazed expression in {?COMPANIONISFEMALE_1}her eyes, and kneels, begging you to use your slave as she fondles your sex through the fabric of your garments. When you do not immediately respond she wiggles her ass seductively, pinching her nipples, and you can't help but notice her womanhood is dripping with arousal...{?}his eyes, and kneels, begging you to use your slave as he fondles your sex through the fabric of your garments. When you do not immediately respond he wiggles his ass seductively, pinching his nipples, and you can't help but notice his manhood is rigid with arousal...{\?}</Text>
         <Backgrounds>
-            <Background Name="BC_image_f_broken_begging"/>
+            <Background Name="BC_image_sex_f_broken_bite_crop"/>
         </Backgrounds>
         <NotificationName>BC_image_notification_cats</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -5961,6 +6112,460 @@
         </Options>
         <Companions>
             <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_random_current_actor_f" />
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+<!-- Warrior Sex-->
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_start</Name>
+        <Text>{=BCCaptor_Text_12450}{COMPANION_NAME_1} declares that, although she is inexperienced, she hopes to one day be proven a worthy lover. She looks you up and down; &quot;Can you say you are worthy to fulfill this quest, My {?PLAYER.GENDER}Lady{?}Lord{\?}.&quot;</Text>
+        <Backgrounds>
+            <Background Name="BC_image_companion_freya_0"  />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12451}&quot;A thousand times 'Yes', my dear!&quot;</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_companion_sex_f_warrior_virgin_snow</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_companion_sex_f_warrior_virgin_no</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_virgin"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>  
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_snow</Name>
+        <Text>{=BCCaptor_Text_12452}{COMPANION_NAME_1} declares that the midnight sun has put her body into a very receptive mood. You eagerly spirit her away to an isolated clearing high in the packed snow. Just as she disrobes for you, her eyes pull up and away, and she points -- &quot;Raiders! There's too many of them!&quot; -- and you turn to see the tree line filling with shielded warriors...</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_companion_freya_snow" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <TerrainTypesRequirements>
+            <TerrainTypes>
+                <TerrainType>Mountain</TerrainType>
+                <TerrainType>Snow</TerrainType>
+            </TerrainTypes>
+        </TerrainTypesRequirements>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>StartBattle</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12453}Fight back!</OptionText>
+                <BattleSettings Ref="Regular" EnemyName="Nord Hunters" Victory="BC_event_companion_sex_f_warrior_virgin_snow_win" Defeat="BC_event_companion_sex_f_warrior_virgin_snow_lose" PlayerTroops="0">
+                    <SpawnTroops>
+                        <SpawnTroop Ref="Temporary" Id="spcwandererzbccaptorvakkenmaiden" Number="1" />
+                        <SpawnTroop Ref="Enemy" Id="skolderbrotva_tier_1" Number="9" />
+                        <SpawnTroop Ref="Enemy" Id="skolderbrotva_tier_2" Number="3" />
+                        <SpawnTroop Ref="Enemy" Id="skolderbrotva_tier_3" Number="1" />
+                    </SpawnTroops>
+                </BattleSettings>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_current"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_no</Name>
+        <Text>{=BCCaptor_Text_12454}{COMPANION_NAME_1} says that she could never give herself to anyone in such a terrible climate. &quot;I crave the isolation of the mountains, and crystalline snow!&quot;</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_companion_freya_mad" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Solo007}Continue your journey.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-500" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_current"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_snow_win</Name>
+        <Text>{=BCCaptor_Text_12455}You and {COMPANION_NAME_1} watch each other intently as you wash the blood and grime from yourselves in a hot spring. Surely tonight is the night she will be ready?</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_companion_freya_water" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeTrait</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12456}Make your way over to her.</OptionText>
+                <TraitToLevel>Valor</TraitToLevel>
+                <TraitTotal>1</TraitTotal>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_companion_sex_f_warrior_virgin_deny</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_companion_sex_f_warrior_virgin_allow</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_current"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_snow_lose</Name>
+        <Text>{=BCCaptor_Text_12457}You wake to your soldiers rousing you, after having chased away the attackers. You had been dreaming of {COMPANION_NAME_1} washing the blood and grime from yourselves in a hot spring, but surely after such a defeat she is not interested in giving herself to you.</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_companion_freya_mad" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Solo007}Continue your journey.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-500" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_current"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_deny</Name>
+        <Text>{=BCCaptor_Text_12458}&quot;Apologies, my {?PLAYER.GENDER}Lady{?}Lord{\?}, but I am just not quite ready to fully give myself to you. Leave me.&quot;</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_companion_freya_3" />
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Solo007}Continue your journey.</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-500" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <ReqHeroTrait>Valor</ReqHeroTrait>
+        <ReqHeroTraitLevelBelow>2</ReqHeroTraitLevelBelow>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_current"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_allow</Name>
+        <Text>{=BCCaptor_Text_12459}&quot;Apologies, my {?PLAYER.GENDER}Lady{?}Lord{\?}. You have been so very patient with this foolish heart of mine, but your patience will now be rewarded. Come over to me, now, so I may fully give myself to you!&quot;</Text>
+        <BackgroundAnimation>            
+            <BackgroundName>BC_image_companion_freya_3</BackgroundName>
+            <BackgroundName>BC_image_companion_freya_4</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>2.0</BackgroundAnimationSpeed>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12460}Go to her.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_companion_sex_f_warrior_virgin_jackpot</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <ReqHeroTrait>Valor</ReqHeroTrait>
+        <ReqHeroTraitLevelAbove>2</ReqHeroTraitLevelAbove>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_current"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_jackpot</Name>
+        <Text>{=BCCaptor_Text_12461}{COMPANION_NAME_1} takes her time getting to know your body...</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_ff_freya_lap" UseConditions="BC_conditions_hero_female"/>
+            <Background Name="BC_image_companion_freya_mf_tit" UseConditions="BC_conditions_hero_male"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12462}Teach her more.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_companion_sex_f_warrior_virgin_jackpot_1</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_current"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_jackpot_1</Name>
+        <Text>{=BCCaptor_Text_12463}The woman is exquisite: powerful, energetic, curious, willing, and needless to say beautiful.</Text>        
+        <Backgrounds>
+            <Background Name="BC_image_sex_ff_freya_lick" UseConditions="BC_conditions_hero_female"/>
+            <Background Name="BC_image_companion_freya_mf_sit" UseConditions="BC_conditions_hero_male"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12464}Fuck her for hours.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_companion_sex_f_warrior_virgin_jackpot_2</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_current"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_companion_sex_f_warrior_virgin_jackpot_2</Name>
+        <Text>{=BCCaptor_Text_12465}&quot;MORE, MORE, MORE!&quot; shouts {COMPANION_NAME_1}, and you are only too eager to provide everything she desires. Your energy seems to grow and grow, until hours later your final explosion matches with hers, and you each fall prone, exhausted.</Text>      
+        <Backgrounds>
+            <Background Name="BC_image_companion_freya_ff_head" UseConditions="BC_conditions_hero_female"/>
+            <Background Name="BC_image_companion_freya_mff" UseConditions="BC_conditions_hero_male"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12466}Leave her sleeping and reluctantly return to your warband.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustA" ByLevel="R -130 -70" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R -230 -70" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -230 -70" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -330 -170" Ref="Hero" Color="Cyan"  />
+                    <Skill Id="CaptiveLustO" ByLevel="R -230 -70" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="-500" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Virginal" ByLevel="-1" Ref="Hero" Color="Magenta" />
+                            <Skill Id="CaptiveAffection" ByLevel="25" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 10" Ref="Hero" Color="White" HideNotification="true" />
+                            <Skill Id="CaptiveLustO" ByLevel="R 50 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustV" ByLevel="R 50 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustC" ByLevel="R 50 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                            <Skill Id="CaptiveLustT" ByLevel="R 50 5" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 50 5" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_warrior_current"/>
         </Companions>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>

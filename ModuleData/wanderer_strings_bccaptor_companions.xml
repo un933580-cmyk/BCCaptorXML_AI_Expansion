@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <strings>
+    <string id="prebackstory.spcwandererzbccaptorvakkenmaiden" text="{=BCCaptor_Text_12442}I see you staring at me, and no wonder: few have seen a true Queen of the Vakken."/>
+    <string id="backstory_a.spcwandererzbccaptorvakkenmaiden" text="{=BCCaptor_Text_12443}Yes, you see, the Sturgians were always jealous of our pristine land and virtuous women, so they raised their rabble to burn our majestic high halls! I was bundled away as a baby and have been in hiding ever since. My families attendants have raised me in the customs of the true Vakken, yet they were not immortal."/>
+    <string id="backstory_b.spcwandererzbccaptorvakkenmaiden" text="{=BCCaptor_Text_12444}I've been having a hard time here, but I have kept my wits and skills sharp. I have learned that one cannot claim anything greater than their arm's reach, alone."/>
+    <string id="backstory_c.spcwandererzbccaptorvakkenmaiden" text="{=BCCaptor_Text_12445}So now I have decided to seek out worthy companions, to join my battle to raise me up once again."/>
+    <string id="response_1.spcwandererzbccaptorvakkenmaiden" text="{=BCCaptor_Text_12446}You must know your quest is futile?"/>
+    <string id="response_2.spcwandererzbccaptorvakkenmaiden" text="{=BCCaptor_Text_12447}Many kingdoms have risen and fallen by violence. It is the way of this land."/>
+    <string id="backstory_d.spcwandererzbccaptorvakkenmaiden" text="{=BCCaptor_Text_12448}Well, today I am brawling in the taverns, to make some denars. Tomorrow, I could be riding alongside you, because why not."/> 
+  </strings>

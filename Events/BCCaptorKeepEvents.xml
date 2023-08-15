@@ -1605,7 +1605,18 @@
                             <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                         </MultipleRestrictedListOfConsequences>
                         <OptionText>{=BCCaptor_Text_11041}Introduce her to military discipline.</OptionText>
-                        <TriggerEventName>BC_event_torture_whipping</TriggerEventName>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_torture_whipping</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_torture_whipped_stripped</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
                         <SkillsToLevel>
                             <Skill Id="CaptiveAffection" ByLevel="R -10 -5" Ref="Hero" Color="White" HideNotification="true" />
                             <Skill Id="CaptiveObedience" ByLevel="R 1 5" Ref="Hero" Color="White" HideNotification="true" />
@@ -1762,7 +1773,18 @@
                             <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                         </MultipleRestrictedListOfConsequences>
                         <OptionText>{=BCCaptor_Text_11047}Whip him in front of the troops.</OptionText>
-                        <TriggerEventName>BC_event_torture_whipping</TriggerEventName>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>BC_event_torture_whipping</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_torture_whipped_stripped</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
                         <SkillsToLevel>
                             <Skill Id="CaptiveAffection" ByLevel="R -10 -5" Ref="Hero" Color="White" HideNotification="true" />
                             <Skill Id="CaptiveObedience" ByLevel="R 1 5" Ref="Hero" Color="White" HideNotification="true" />

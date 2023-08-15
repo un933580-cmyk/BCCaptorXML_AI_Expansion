@@ -1588,4 +1588,39 @@
                   <EquipmentSet id="npc_captive_f_equipment_template_nude" />
             </Equipments>
       </NPCCharacter>
+
+      <!-- WAY OF THE WARRIOR special characters-->      
+      <NPCCharacter id="spcwandererzbccaptorvakkenmaiden" name="{=BCCaptor_Text_12449}Vasara Vakkenhamre" age="20" voice="curt" is_female="true" culture="Culture.vakken" 
+            default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+      <face>
+            <BodyProperties version="4" age="18.23" weight="0" build="0.999"  key="0000400000003002EA78842E28A003400B6E878A00CF10077F2BF7CE65F878CC0ADF06A20B86981A4255034F081033340000000000005870000000003DBC4003"  />
+      </face>
+      <skills>
+      <skill id="TwoHanded" value="240"/>
+      <skill id="OneHanded" value="140"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Riding" value="60"/>
+      <skill id="Athletics" value="110"/>
+      <skill id="Leadership" value="50"/>
+      <skill id="Steward" value="25"/>
+      <skill id="Charm" value="60"/>
+      <skill id="Crafting" value="60"/>
+      <skill id="Scouting" value="20"/>
+      <skill id="Tactics" value="25"/>
+      <skill id="Throwing" value="30"/>
+      </skills>
+      <Traits>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Calculating" value="-2"/>
+      <Trait id="Valor" value="1"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Generosity" value="0"/>
+      </Traits>
+      <Equipments>
+      <EquipmentSet id="stu_bat_template_medium" />
+      <EquipmentSet id="stu_noncom_template_default"
+                        civilian="true" />
+      </Equipments>
+      </NPCCharacter>  
 </NPCCharacters>

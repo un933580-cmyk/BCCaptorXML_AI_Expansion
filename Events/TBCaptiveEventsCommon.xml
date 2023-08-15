@@ -403,7 +403,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Fight back!</OptionText>
+                <OptionText>{=BCCaptor_Text_12453}Fight back!</OptionText>
                 <RelationTotal>R -1 -3</RelationTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <HealthTotal>R -30 -50</HealthTotal>

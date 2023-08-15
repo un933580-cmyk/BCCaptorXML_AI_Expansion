@@ -3,7 +3,7 @@
     xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_tired_men</Name>
-        <Text>Your troops are exhausted after the long march, and you hear grumbling in the ranks. You may need to find something to lift their spirits soon...</Text>
+        <Text>{=BCCaptor_Text_12500}Your troops are exhausted after the long march, and you hear grumbling in the ranks. You may need to find something to lift their spirits soon...</Text>
         <BackgroundName>TB_landscape_village</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -19,7 +19,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Your troops are not weak peasants - they'll manage.</OptionText>
+                <OptionText>{=BCCaptor_Text_12501}Your troops are not weak peasants - they'll manage.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
@@ -31,7 +31,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Offer your sympathies and order a brief rest.</OptionText>
+                <OptionText>{=BCCaptor_Text_12502}Offer your sympathies and order a brief rest.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="R 1 300" Ref="Hero" />
@@ -46,7 +46,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Crack open a cask of wine and stop for a brief feast.</OptionText>
+                <OptionText>{=BCCaptor_Text_12503}Crack open a cask of wine and stop for a brief feast.</OptionText>
                 <RenownTotal>R 0 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <GoldTotal>R -100 -200</GoldTotal>
@@ -63,7 +63,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Give a rousing speech - take their minds off their feet.</OptionText>
+                <OptionText>{=BCCaptor_Text_12499}Give a rousing speech - take their minds off their feet.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -82,7 +82,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Thankfully you identified a cache of medicinal mushrooms - share them.</OptionText>
+                <OptionText>{=BCCaptor_Text_12504}Thankfully you identified a cache of medicinal mushrooms - share them.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -103,7 +103,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_ill_omen</Name>
-        <Text>Your troops report that a cloud of ravens were seen heading east, and that they briefly blocked out the sun when doing so. They argue amongst themselves as to whether this is a good or bad omen.</Text>
+        <Text>{=BCCaptor_Text_12505}Your troops report that a cloud of ravens were seen heading east, and that they briefly blocked out the sun when doing so. They argue amongst themselves as to whether this is a good or bad omen.</Text>
         <BackgroundName>TB_scene_ravens</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -118,7 +118,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Tell them they aren't superstitious peasants.</OptionText>
+                <OptionText>{=BCCaptor_Text_12506}Tell them they aren't superstitious peasants.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
@@ -130,7 +130,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Try to convince them this is a good omen.</OptionText>
+                <OptionText>{=BCCaptor_Text_12507}Try to convince them this is a good omen.</OptionText>
                 <MoraleTotal>R 10 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="R 1 300" Ref="Hero" />
@@ -145,7 +145,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order your scouts to hunt the birds down.</OptionText>
+                <OptionText>{=BCCaptor_Text_12508}Order your scouts to hunt the birds down.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
@@ -161,7 +161,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Give a performance with smoke and fire interpreting the omen as benevolent.</OptionText>
+                <OptionText>{=BCCaptor_Text_12509}Give a performance with smoke and fire interpreting the omen as benevolent.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -180,7 +180,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Pose against the setting sun, your sword aloft, and proclaim the righteousness of your cause.</OptionText>
+                <OptionText>{=BCCaptor_Text_12510}Pose against the setting sun, your sword aloft, and proclaim the righteousness of your cause.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -201,7 +201,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_ill_tidings</Name>
-        <Text>News of a rival lord's tremendous victory in battle has reached you, and some of your troops have begun to lose their nerve, intimidated by stories of brutal killings and maimed corpses on the battlefield. Others are more sanguine, and chastise the fearful for their cowardice.</Text>
+        <Text>{=BCCaptor_Text_12511}News of a rival lord's tremendous victory in battle has reached you, and some of your troops have begun to lose their nerve, intimidated by stories of brutal killings and maimed corpses on the battlefield. Others are more sanguine, and chastise the fearful for their cowardice.</Text>
         <BackgroundName>encounter_lose</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -216,7 +216,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>[Lie] These are lies directed to sap your men's morale.</OptionText>
+                <OptionText>{=BCCaptor_Text_12512}[Lie] These are lies directed to sap your men's morale.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="R 1 300" Ref="Hero" />
@@ -228,7 +228,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Perhaps this lord was successful, but how much more successful will you be?</OptionText>
+                <OptionText>{=BCCaptor_Text_12513}Perhaps this lord was successful, but how much more successful will you be?</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
@@ -242,7 +242,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Explain in detail the treachery this lord used to secure his victory.</OptionText>
+                <OptionText>{=BCCaptor_Text_12514}Explain in detail the treachery this lord used to secure his victory.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -261,7 +261,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Give a rousing speech - others may win small battles, but right is on your side!</OptionText>
+                <OptionText>{=BCCaptor_Text_12515}Give a rousing speech - others may win small battles, but right is on your side!</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -286,7 +286,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_good_tidings</Name>
-        <Text>You receive word that one of your enemies has suffered a terrible defeat and been captured in battle. The good news puts a spring in your step, and you eagerly share the news with your troops. One less thing to worry about - for now.</Text>
+        <Text>{=BCCaptor_Text_12516}You receive word that one of your enemies has suffered a terrible defeat and been captured in battle. The good news puts a spring in your step, and you eagerly share the news with your troops. One less thing to worry about - for now.</Text>
         <BackgroundName>TB_character_prisoner</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -301,7 +301,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>All according to your master plan.</OptionText>
+                <OptionText>{=BCCaptor_Text_12517}All according to your master plan.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Roguery" ByXP="R 1 300" Ref="Hero" />
@@ -313,7 +313,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Excellent news! Let your soldiers know.</OptionText>
+                <OptionText>{=BCCaptor_Text_12518}Excellent news! Let your soldiers know.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
@@ -327,7 +327,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Regale your troops with the story of how your subterfuge led to this victory.</OptionText>
+                <OptionText>{=BCCaptor_Text_12519}Regale your troops with the story of how your subterfuge led to this victory.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -346,7 +346,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Give a rousing speech - this is but one of many victories, for right is on your side!</OptionText>
+                <OptionText>{=BCCaptor_Text_12520}Give a rousing speech - this is but one of many victories, for right is on your side!</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -371,7 +371,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_sick_horse</Name>
-        <Text>One of your horses has grown sick, and is slowing down your group. It's served you well, but can no longer walk.</Text>
+        <Text>{=BCCaptor_Text_12521}One of your horses has grown sick, and is slowing down your group. It's served you well, but can no longer walk.</Text>
         <Backgrounds>
             <Background Name="BC_image_sick_horse_f" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_sick_horse" UseConditions="BC_conditions_hero_male" />
@@ -390,7 +390,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Leave the creature to die.</OptionText>
+                <OptionText>{=BCCaptor_Text_12522}Leave the creature to die.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
             </Option>
@@ -400,7 +400,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Have the horse put on a cart and tended to.</OptionText>
+                <OptionText>{=BCCaptor_Text_12523}Have the horse put on a cart and tended to.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Medicine" ByXP="R 1 300" Ref="Hero" />
                 </SkillsToLevel>
@@ -419,7 +419,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Put the creature out of its misery.</OptionText>
+                <OptionText>{=BCCaptor_Text_12524}Put the creature out of its misery.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
@@ -434,7 +434,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>The horse isn't sick, it's just sad; cheer it up.</OptionText>
+                <OptionText>{=BCCaptor_Text_12525}The horse isn't sick, it's just sad; cheer it up.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus</EventName>
@@ -463,7 +463,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You know just the herbs to cure this issue.</OptionText>
+                <OptionText>{=BCCaptor_Text_12526}You know just the herbs to cure this issue.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -488,7 +488,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_poisoned_food</Name>
-        <Text>Several of your men report horrible stomachaches and vomiting. The affliction begins to spread through your camp, and you suspect something was wrong with yesterday's rations.</Text>
+        <Text>{=BCCaptor_Text_12527}Several of your men report horrible stomachaches and vomiting. The affliction begins to spread through your camp, and you suspect something was wrong with yesterday's rations.</Text>
         <BackgroundName>TB_landscape_market</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -503,7 +503,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Punish the cooks.</OptionText>
+                <OptionText>{=BCCaptor_Text_12528}Punish the cooks.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
             </Option>
@@ -513,7 +513,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Tell your troops to take the day to rest.</OptionText>
+                <OptionText>{=BCCaptor_Text_12529}Tell your troops to take the day to rest.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Medicine" ByXP="R 1 300" Ref="Hero" />
                 </SkillsToLevel>
@@ -526,7 +526,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Quarantine the afflicted troops.</OptionText>
+                <OptionText>{=BCCaptor_Text_12530}Quarantine the afflicted troops.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
@@ -542,7 +542,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>GiveGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>They just drank too much. Take the opportunity to sell them a hangover cure.</OptionText>
+                <OptionText>{=BCCaptor_Text_12531}They just drank too much. Take the opportunity to sell them a hangover cure.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <GoldTotal>R 100 1000</GoldTotal>
@@ -561,7 +561,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You know just the thing to cure this malady.</OptionText>
+                <OptionText>{=BCCaptor_Text_12532}You know just the thing to cure this malady.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -581,7 +581,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_broken_cart</Name>
-        <Text>One of your army's carts has broken down; its wheel got stuck in a rut and the spokes shattered. Its contents won't be going anywhere soon...</Text>
+        <Text>{=BCCaptor_Text_12533}One of your army's carts has broken down; its wheel got stuck in a rut and the spokes shattered. Its contents won't be going anywhere soon...</Text>
         <BackgroundName>TB_scene_wine</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -598,7 +598,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Abandon it.</OptionText>
+                <OptionText>{=BCCaptor_Text_12534}Abandon it.</OptionText>
                 <GoldTotal>R -50 -100</GoldTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
@@ -614,7 +614,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Surely someone in your army can fix it. Find them.</OptionText>
+                <OptionText>{=BCCaptor_Text_12535}Surely someone in your army can fix it. Find them.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
@@ -628,7 +628,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order your men to move the supplies to a different cart.</OptionText>
+                <OptionText>{=BCCaptor_Text_12536}Order your men to move the supplies to a different cart.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
@@ -642,7 +642,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order the men responsible to cover the cost of the lost supplies.</OptionText>
+                <OptionText>{=BCCaptor_Text_12537}Order the men responsible to cover the cost of the lost supplies.</OptionText>
                 <RenownTotal>R -5 -10</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
@@ -660,7 +660,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You know precisely how to fix this!</OptionText>
+                <OptionText>{=BCCaptor_Text_12538}You know precisely how to fix this!</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -680,7 +680,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_wildfire</Name>
-        <Text>Smoke is heavy in the crimson air, and before long you see a wildfire in the distance. It's heading your way, and your troops seem more than a little apprehensive about the idea of being burned alive.</Text>
+        <Text>{=BCCaptor_Text_12539}Smoke is heavy in the crimson air, and before long you see a wildfire in the distance. It's heading your way, and your troops seem more than a little apprehensive about the idea of being burned alive.</Text>
         <BackgroundName>TB_landscape_sunset_river</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -705,7 +705,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order them to ride around it.</OptionText>
+                <OptionText>{=BCCaptor_Text_12540}Order them to ride around it.</OptionText>
                 <GoldTotal>R -50 -100</GoldTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
@@ -721,7 +721,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Ride across a nearby stream and wait out the fire.</OptionText>
+                <OptionText>{=BCCaptor_Text_12541}Ride across a nearby stream and wait out the fire.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
@@ -735,7 +735,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order your men to dig a ditch between the fire and your army.</OptionText>
+                <OptionText>{=BCCaptor_Text_12542}Order your men to dig a ditch between the fire and your army.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Engineering" ByXP="R 1 300" Ref="Hero" />
@@ -749,7 +749,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>The wind is blowing in the opposite direction. This isn't a problem.</OptionText>
+                <OptionText>{=BCCaptor_Text_12543}The wind is blowing in the opposite direction. This isn't a problem.</OptionText>
                 <RenownTotal>R -5 -10</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
@@ -767,7 +767,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Call your siege team to put out the fire.</OptionText>
+                <OptionText>{=BCCaptor_Text_12544}Call your siege team to put out the fire.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -787,7 +787,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_informal_joust</Name>
-        <Text>During a brief rest, some of your troops have begun betting on an informal joust between two notoriously competitive soldiers. Lacking horses, they instead each mount the shoulders of one of their brawnier friends and begin rushing at each other, bringing makeshift wooden lances to bear.</Text>
+        <Text>{=BCCaptor_Text_12545}During a brief rest, some of your troops have begun betting on an informal joust between two notoriously competitive soldiers. Lacking horses, they instead each mount the shoulders of one of their brawnier friends and begin rushing at each other, bringing makeshift wooden lances to bear.</Text>
         <BackgroundName>TB_common_men_talking</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -802,7 +802,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>This sounds like a terrible idea. Stop them.</OptionText>
+                <OptionText>{=BCCaptor_Text_12546}This sounds like a terrible idea. Stop them.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
@@ -817,7 +817,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>It's their necks on the line. Bet on the victor.</OptionText>
+                <OptionText>{=BCCaptor_Text_12547}It's their necks on the line. Bet on the victor.</OptionText>
                 <GoldTotal>R -200 200</GoldTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -831,7 +831,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Take the opportunity to learn about your troops' fighting styles.</OptionText>
+                <OptionText>{=BCCaptor_Text_12548}Take the opportunity to learn about your troops' fighting styles.</OptionText>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Tactics" ByXP="R 1 300" Ref="Hero" />
@@ -845,7 +845,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Betting on a winner, eh? You know a few tricks to make some coin here.</OptionText>
+                <OptionText>{=BCCaptor_Text_12549}Betting on a winner, eh? You know a few tricks to make some coin here.</OptionText>
                 <GoldTotal>R 100 400</GoldTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -863,7 +863,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Take the opportunity to teach your men a valuable lesson about skirmishing.</OptionText>
+                <OptionText>{=BCCaptor_Text_12550}Take the opportunity to teach your men a valuable lesson about skirmishing.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -885,7 +885,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_thunderstorm</Name>
-        <Text>Dark clouds cover the horizon, and a moistness fills the air. Before long your army is caught in a massive downpour, sheets of freezing water soaking into your clothes. In the distance, you begin to hear peals of thunder and see flashes of searing lightning. The horses grow restless, and the mud gathering on the ground makes progress difficult.</Text>
+        <Text>{=BCCaptor_Text_12551}Dark clouds cover the horizon, and a moistness fills the air. Before long your army is caught in a massive downpour, sheets of freezing water soaking into your clothes. In the distance, you begin to hear peals of thunder and see flashes of searing lightning. The horses grow restless, and the mud gathering on the ground makes progress difficult.</Text>
         <BackgroundName>TB_landscape_ocean_bluffs</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -902,7 +902,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Why should you let a little wetness stop you? Continue your march.</OptionText>
+                <OptionText>{=BCCaptor_Text_12552}Why should you let a little wetness stop you? Continue your march.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <HealthTotal>R -20 -50</HealthTotal>
                 <SkillsToLevel>
@@ -921,7 +921,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Stop under the trees for shelter. Hopefully lightning won't strike...</OptionText>
+                <OptionText>{=BCCaptor_Text_12553}Stop under the trees for shelter. Hopefully lightning won't strike...</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <HealthTotal>R -10 -20</HealthTotal>
                 <SkillsToLevel>
@@ -936,7 +936,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Find some high ground between trees to wait this out.</OptionText>
+                <OptionText>{=BCCaptor_Text_12554}Find some high ground between trees to wait this out.</OptionText>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Engineering" ByXP="R 1 300" Ref="Hero" />
@@ -951,7 +951,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order your men to set up camp near - but not too near - some trees.</OptionText>
+                <OptionText>{=BCCaptor_Text_12555}Order your men to set up camp near - but not too near - some trees.</OptionText>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
@@ -970,7 +970,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Time to put your siegecrafting team to work.</OptionText>
+                <OptionText>{=BCCaptor_Text_12556}Time to put your siegecrafting team to work.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -990,7 +990,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_sandstorm</Name>
-        <Text>A bright cloud of sand is visible in the distance, and it seems to be getting closer with distressing speed. You'll have to do something quickly or risk getting flayed alive by the storm.</Text>
+        <Text>{=BCCaptor_Text_12557}A bright cloud of sand is visible in the distance, and it seems to be getting closer with distressing speed. You'll have to do something quickly or risk getting flayed alive by the storm.</Text>
         <BackgroundName>TB_landscape_palms</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1011,7 +1011,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Why should you let some paltry sand stop you? Continue your march.</OptionText>
+                <OptionText>{=BCCaptor_Text_12558}Why should you let some paltry sand stop you? Continue your march.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Steward" ByXP="R 1 300" Ref="Hero" />
@@ -1029,7 +1029,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Stop on the near side of a dune for shelter.</OptionText>
+                <OptionText>{=BCCaptor_Text_12559}Stop on the near side of a dune for shelter.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <HealthTotal>R -10 -20</HealthTotal>
                 <SkillsToLevel>
@@ -1044,7 +1044,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Reassure your troops; find some low ground between dunes to wait this out, and set up shelter.</OptionText>
+                <OptionText>{=BCCaptor_Text_12560}Reassure your troops; find some low ground between dunes to wait this out, and set up shelter.</OptionText>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Engineering" ByXP="R 1 300" Ref="Hero" />
@@ -1059,7 +1059,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Seek shelter in a nearby spot of vegetation.</OptionText>
+                <OptionText>{=BCCaptor_Text_12561}Seek shelter in a nearby spot of vegetation.</OptionText>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
@@ -1078,7 +1078,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Time to put your siegecrafting team to work.</OptionText>
+                <OptionText>{=BCCaptor_Text_12562}Time to put your siegecrafting team to work.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
@@ -1098,7 +1098,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_rescue_prisoner_hero</Name>
-        <Text>You chance upon a huddled, filthy person on the road, and as you approach realize it's a bound woman. She looks exhausted and famished, and explains that she's only just escaped captivity at the hands of some bandits. She begs you to take her with you; she has nothing left here, and asks if you will help her get revenge against the ones who wronged her.</Text>
+        <Text>{=BCCaptor_Text_12563}You chance upon a huddled, filthy person on the road, and as you approach realize it's a bound woman. She looks exhausted and famished, and explains that she's only just escaped captivity at the hands of some bandits. She begs you to take her with you; she has nothing left here, and asks if you will help her get revenge against the ones who wronged her.</Text>
         <BackgroundName>TB_scion_roadside</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1113,7 +1113,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order her washed and bring her along.</OptionText>
+                <OptionText>{=BCCaptor_Text_12564}Order her washed and bring her along.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SpawnHeroes>
                     <SpawnHero Ref="Troop" Gender="Female" Clan="Player">
@@ -1154,7 +1154,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Refuse; you've not enough food as it is.</OptionText>
+                <OptionText>{=TBRandomEvents_Solo009}Refuse; you've not enough food as it is.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
                 </SkillsToLevel>
@@ -1168,7 +1168,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_rescue_prisoner</Name>
-        <Text>You chance upon a huddled, filthy person on the road, and as you approach realize it's a bound man. He looks exhausted and famished, his enormously muscled body covered in wounds, and explains that he's only just escaped captivity at the hands of some bandits. He begs you to let him join you that he might get revenge against his captors for what they did to him.</Text>
+        <Text>{=BCCaptor_Text_12565}You chance upon a huddled, filthy person on the road, and as you approach realize it's a bound man. He looks exhausted and famished, his enormously muscled body covered in wounds, and explains that he's only just escaped captivity at the hands of some bandits. He begs you to let him join you that he might get revenge against his captors for what they did to him.</Text>
         <BackgroundName>TB_character_town_beggar</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1183,7 +1183,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeTrait</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order him washed and bring him along.</OptionText>
+                <OptionText>{=BCCaptor_Text_12566}Order him washed and bring him along.</OptionText>
                 <SpawnTroops>
                     <SpawnTroop Ref="Troop" Id="wolfskins_tier_1" Number="1" WoundedNumber="1" />
                 </SpawnTroops>
@@ -1197,7 +1197,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Refuse; you've not enough food as it is.</OptionText>
+                <OptionText>{=TBRandomEvents_Solo009}Refuse; you've not enough food as it is.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
                 </SkillsToLevel>
@@ -1210,7 +1210,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_rescue_prisoner_swordsister</Name>
-        <Text>You chance upon a huddled figure on the road, and as you approach realize it's a bound woman. She looks exhausted and famished, and her body is covered with terrible wounds, but you sense a burning fire in her eyes. She explains that she's only just escaped captivity at the hands of some bandits. She begs you to let her join your banner to get vengeance upon them for what they did to her.</Text>
+        <Text>{=BCCaptor_Text_12567}You chance upon a huddled figure on the road, and as you approach realize it's a bound woman. She looks exhausted and famished, and her body is covered with terrible wounds, but you sense a burning fire in her eyes. She explains that she's only just escaped captivity at the hands of some bandits. She begs you to let her join your banner to get vengeance upon them for what they did to her.</Text>
         <BackgroundName>TB_character_swordsister</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1225,7 +1225,7 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeTrait</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Accept her vow of loyalty.</OptionText>
+                <OptionText>{=BCCaptor_Text_12568}Accept her vow of loyalty.</OptionText>
                 <SpawnTroops>
                     <SpawnTroop Ref="Troop" Id="sword_sisters_sister_t3" Number="1" WoundedNumber="1" />
                 </SpawnTroops>
@@ -1239,7 +1239,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Refuse; you've not enough food as it is.</OptionText>
+                <OptionText>{=TBRandomEvents_Solo009}Refuse; you've not enough food as it is.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" />
                 </SkillsToLevel>
@@ -1253,7 +1253,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_deserters</Name>
-        <Text>Your scouts report that they've found a group of ragged soldiers, deserters from a nearby army. They are in no condition to fight you, and beg for you to give them enough food to survive, a least for a few more days.</Text>
+        <Text>{=BCCaptor_Text_12569}Your scouts report that they've found a group of ragged soldiers, deserters from a nearby army. They are in no condition to fight you, and beg for you to give them enough food to survive, a least for a few more days.</Text>
         <BackgroundName>TB_character_deserters</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1278,7 +1278,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Conscript them into your army.</OptionText>
+                <OptionText>{=BCCaptor_Text_12570}Conscript them into your army.</OptionText>
                 <RenownTotal>R 1 3</RenownTotal>
                 <SpawnTroops>
                     <SpawnTroop Ref="Troop" Id="looter" Number="1" WoundedNumber="5" />
@@ -1301,7 +1301,7 @@
     <!-- Sexy F Hero-->
     <CEEvent>
         <Name>TB_stream</Name>
-        <Text>As your march continues, you pass by a beautifully clear stream, and take the opportunity to have your troops stop and clean themselves. You join them, cavorting nakedly as you show off your gorgeous body and get quite an eyeful of their stunning physiques and luscious manhoods.</Text>
+        <Text>{=BCCaptor_Text_12571}As your march continues, you pass by a beautifully clear stream, and take the opportunity to have your troops stop and clean themselves. You join them, cavorting nakedly as you show off your gorgeous body and get quite an eyeful of their stunning physiques and luscious manhoods.</Text>
         <BackgroundName>BC_image_companion_f_river_reeds</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1319,13 +1319,13 @@
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue your journey refreshed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12572}Continue your journey refreshed.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveLustA" ByLevel="R -1 6" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveLustC" ByLevel="R -1 6" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveLustT" ByLevel="R -1 6" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveLustV" ByLevel="R -1 6" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveLustO" ByLevel="R -1 6" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 -6" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 1 -6" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 -6" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 -6" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 -6" Ref="Hero" HideNotification="true" />
                 </SkillsToLevel>
                 <MoraleTotal>R 1 3</MoraleTotal>
                 <RenownTotal>R 1 3</RenownTotal>
@@ -1340,7 +1340,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dirty_soldiers</Name>
-        <Text>After a hot day marching in the sun, you realize your soldiers smell significantly more rank than usual. They seem not to notice, but the smell is so pungent you're finding it difficult to eat.</Text>
+        <Text>{=BCCaptor_Text_12573}After a hot day marching in the sun, you realize your soldiers smell significantly more rank than usual. They seem not to notice, but the smell is so pungent you're finding it difficult to eat.</Text>
         <BackgroundName>BC_image_stream</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1356,7 +1356,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order them clean themselves off.</OptionText>
+                <OptionText>{=BCCaptor_Text_12574}Order them clean themselves off.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Steward" ByXP="250" Ref="Hero" />
@@ -1370,7 +1370,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Offer to wash along with them.</OptionText>
+                <OptionText>{=BCCaptor_Text_12575}Offer to wash along with them.</OptionText>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
@@ -1386,7 +1386,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dirty_soldiers_voyeur</Name>
-        <Text>Your men grumble slightly, but perk up when they realize you're following them to make sure they obey. They strip sensually, knowing that you're watching, and thrust erotically in your direction as they slowly wash themselves. By the time they're done your face is flushed, your loins dripping with arousal.</Text>
+        <Text>{=BCCaptor_Text_12576}Your men grumble slightly, but perk up when they realize you're following them to make sure they obey. They strip sensually, knowing that you're watching, and thrust erotically in your direction as they slowly wash themselves. By the time they're done your face is flushed, your loins dripping with arousal.</Text>
         <BackgroundName>BC_image_river_bath_f</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1400,7 +1400,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>No harm in a little clean fun.</OptionText>
+                <OptionText>{=BCCaptor_Text_12577}No harm in a little clean fun.</OptionText>
                 <TriggerEventName>BC_dirty_soldiers_clean</TriggerEventName>
             </Option>
             <Option>
@@ -1410,7 +1410,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>But maybe I want something more...</OptionText>
+                <OptionText>{=BCCaptor_Text_12578}But maybe I want something more...</OptionText>
                 <MoraleTotal>R 5 10</MoraleTotal>
                 <TriggerEventName>TB_dirty_soldiers_orgy</TriggerEventName>
             </Option>
@@ -1422,7 +1422,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_dirty_soldiers_clean</Name>
-        <Text>Your men cheer as you strip off your clothes, wade in up to your thighs, and sensuously wash yourself in full view of all the men. All of you are both cleaner and cheerier than when you started.</Text>
+        <Text>{=BCCaptor_Text_12579}Your men cheer as you strip off your clothes, wade in up to your thighs, and sensuously wash yourself in full view of all the men. All of you are both cleaner and cheerier than when you started.</Text>
         <BackgroundName>BC_image_companion_lagoon</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1444,7 +1444,7 @@
                     <Skill Id="CaptiveLustO" Ref="Hero" ByLevel="R -2 10" HideNotification="true" />
                 </SkillsToLevel>
                 <RenownTotal>R -1 10</RenownTotal>
-                <OptionText>Continue your journey refreshed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12572}Continue your journey refreshed.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -1453,8 +1453,12 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dirty_soldiers_orgy</Name>
-        <Text>Your men cheer as you strip off your clothes, helping them wash and, in a few memorable cases, milking their cocks with a practiced hand. One of them returns the favor, confidently massaging your clitoris as he kisses you. They cheer as you climax, moaning deafeningly into the man's ear. All of you are both cleaner and cheerier than when you started.</Text>
-        <BackgroundName>BC_image_companion_lagoon</BackgroundName>
+        <Text>{=BCCaptor_Text_12580}Your men cheer as you strip off your clothes, helping them wash and, in a few memorable cases, milking their cocks with a practiced hand. One of them returns the favor, confidently massaging your clitoris as he kisses you. They cheer as you climax, moaning deafeningly into the man's ear. All of you are both cleaner and cheerier than when you started.</Text>
+        <BackgroundAnimation>            
+            <BackgroundName>BC_image_sex_mf_dirty_soldiers_1</BackgroundName>
+            <BackgroundName>BC_image_sex_mf_dirty_soldiers_2</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>2.5</BackgroundAnimationSpeed>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
@@ -1470,12 +1474,13 @@
                 </MultipleRestrictedListOfConsequences>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" Ref="Hero" ByLevel="R -2 10" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" Ref="Hero" ByLevel="R -2 10" HideNotification="true" />
                     <Skill Id="CaptiveLustT" Ref="Hero" ByLevel="R -2 10" HideNotification="true" />
                     <Skill Id="CaptiveLustC" Ref="Hero" ByLevel="R -20 -10" HideNotification="true" />
                     <Skill Id="Fame" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
                 </SkillsToLevel>
                 <RenownTotal>R -10 -20</RenownTotal>
-                <OptionText>Continue your journey refreshed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12572}Continue your journey refreshed.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -1484,7 +1489,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_infighting</Name>
-        <Text>Two of your men are shouting angrily at each other, and as you listen it becomes clear that both of them have become infatuated with one of the women in your party.</Text>
+        <Text>{=BCCaptor_Text_12581}Two of your men are shouting angrily at each other, and as you listen it becomes clear that both of them have become infatuated with one of the women in your party.</Text>
         <BackgroundName>BC_image_m_brawl_village</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1498,7 +1503,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order them to work it out.</OptionText>
+                <OptionText>{=BCCaptor_Text_12582}Order them to work it out.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveLustV" Max="100" Ref="Hero" />
@@ -1511,7 +1516,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Beckon one of them to your bed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12583}Beckon one of them to your bed.</OptionText>
                 <MoraleTotal>R 1 5</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Steward" ByXP="250" Ref="Hero" />
@@ -1600,7 +1605,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_handsome_soldier</Name>
-        <Text>You find yourself staring at one of your men's broad, muscled shoulders, a pleasurable sensation stirring in your loins. You continue watching him lustfully throughout the day.</Text>
+        <Text>{=BCCaptor_Text_12584}You find yourself staring at one of your men's broad, muscled shoulders, a pleasurable sensation stirring in your loins. You continue watching him lustfully throughout the day.</Text>
         <BackgroundName>BC_image_handsome_soldier</BackgroundName>
         <NotificationName>BC_captor_notification_male</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1613,7 +1618,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Try to ignore him.</OptionText>
+                <OptionText>{=BCCaptor_Text_12585}Try to ignore him.</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveLustV" Max="150" Ref="Hero" />
                     <SkillRequired Id="CaptiveLustA" Max="200" Ref="Hero" />
@@ -1628,7 +1633,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Ask him if he'd like to join you in your bed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12586}Ask him if he'd like to join you in your bed.</OptionText>
                 <MoraleTotal>R 1 5</MoraleTotal>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <SkillsToLevel>
@@ -1658,7 +1663,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Beg him to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12587}Beg him to fuck you.</OptionText>
                 <MoraleTotal>R 1 5</MoraleTotal>
                 <RenownTotal>R -1 -2</RenownTotal>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
@@ -1691,7 +1696,7 @@
     <!-- Soldier Scene Events-->
     <CEEvent>
         <Name>BC_handsome_soldier</Name>
-        <Text>You find yourself staring at one of your men's broad, muscled shoulders, a pleasurable sensation stirring in your loins. You continue watching him lustfully throughout the day.</Text>
+        <Text>{=BCCaptor_Text_12584}You find yourself staring at one of your men's broad, muscled shoulders, a pleasurable sensation stirring in your loins. You continue watching him lustfully throughout the day.</Text>
         <BackgroundName>BC_image_handsome_soldier</BackgroundName>
         <NotificationName>BC_captor_notification_male</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1705,7 +1710,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Try to ignore him.</OptionText>
+                <OptionText>{=BCCaptor_Text_12585}Try to ignore him.</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveLustV" Max="150" Ref="Hero" />
                     <SkillRequired Id="CaptiveLustA" Max="200" Ref="Hero" />
@@ -1720,7 +1725,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Ask him if he'd like to join you in your bed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12586}Ask him if he'd like to join you in your bed.</OptionText>
                 <MoraleTotal>R 1 5</MoraleTotal>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
                 <SkillsToLevel>
@@ -1743,7 +1748,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Beg him to fuck you.</OptionText>
+                <OptionText>{=BCCaptor_Text_12587}Beg him to fuck you.</OptionText>
                 <MoraleTotal>R 1 5</MoraleTotal>
                 <RenownTotal>R -1 -2</RenownTotal>
                 <PregnancyRiskModifier>1</PregnancyRiskModifier>
@@ -1768,7 +1773,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_infighting</Name>
-        <Text>Two of your men are shouting angrily at each other, and as you listen it becomes clear that both of them have become infatuated with one of the women in your party.</Text>
+        <Text>{=BCCaptor_Text_12581}Two of your men are shouting angrily at each other, and as you listen it becomes clear that both of them have become infatuated with one of the women in your party.</Text>
         <BackgroundName>BC_image_m_brawl_village</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1782,7 +1787,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Order them to work it out.</OptionText>
+                <OptionText>{=BCCaptor_Text_12582}Order them to work it out.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveLustV" Max="100" Ref="Hero" />
@@ -1795,7 +1800,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Beckon one of them to your bed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12583}Beckon one of them to your bed.</OptionText>
                 <MoraleTotal>R 1 5</MoraleTotal>
                 <SkillsToLevel>
                     <Skill Id="Steward" ByXP="250" Ref="Hero" />
@@ -1818,7 +1823,7 @@
 
     <CEEvent>
         <Name>TB_troop_consensual_vaginal</Name>
-        <Text>You practically drag the man to your bed, leaning back onto it, and as you pull off your dress, exposing your sex, the man's eyes widen in surprise and desire. You guide his hardness into you and, when you find his thrusts too timid, push him onto his back and ride him like a stallion, kneading your breasts and thrusting yourself onto his cock as you give him the fucking of his life. He arches into you as he comes, filling you with his loyal seed.</Text>
+        <Text>{=BCCaptor_Text_12588}You practically drag the man to your bed, leaning back onto it, and as you pull off your dress, exposing your sex, the man's eyes widen in surprise and desire. You guide his hardness into you and, when you find his thrusts too timid, push him onto his back and ride him like a stallion, kneading your breasts and thrusting yourself onto his cock as you give him the fucking of his life. He arches into you as he comes, filling you with his loyal seed.</Text>
         <BackgroundName>BC_image_f_sex_vaginal_queen</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1835,7 +1840,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Thank your steed for the delightful ride.</OptionText>
+                <OptionText>{=BCCaptor_Text_12589}Thank your steed for the delightful ride.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R 1 6" Ref="Hero" />
                     <Skill Id="CaptiveLustC" ByLevel="R 2 6" Ref="Hero" HideNotification="true" />
@@ -1852,7 +1857,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_troop_consensual_oral</Name>
-        <Text>You lead the man to softer ground, kneeling down before him, and remove your dress with a practiced motion, then grasp  his manhood in both hands. You slurp it down your throat hungrily, moving a hand to your clit and pleasuring yourself as you bob your head up and down his shaft. You breathe in the scent of his sex, adding to your arousal, and lick your tongue up and down his shaft, massaging the base with one hand, as you coyly stare into his eyes. He starts bucking with pleasure, gently pushing you off his shaft as he comes, and you open your mouth wide, catching some of his sticky delight on your tongue as the rest spatters across your face. You swirl it around your mouth, savoring the flavor, before swallowing it with relish.</Text>
+        <Text>{=BCCaptor_Text_12590}You lead the man to softer ground, kneeling down before him, and remove your dress with a practiced motion, then grasp  his manhood in both hands. You slurp it down your throat hungrily, moving a hand to your clit and pleasuring yourself as you bob your head up and down his shaft. You breathe in the scent of his sex, adding to your arousal, and lick your tongue up and down his shaft, massaging the base with one hand, as you coyly stare into his eyes. He starts bucking with pleasure, gently pushing you off his shaft as he comes, and you open your mouth wide, catching some of his sticky delight on your tongue as the rest spatters across your face. You swirl it around your mouth, savoring the flavor, before swallowing it with relish.</Text>
         <BackgroundName>BC_image_f_oral_queen</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1868,7 +1873,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Thank your steed for the thick, salty load.</OptionText>
+                <OptionText>{=BCCaptor_Text_12591}Thank your steed for the thick, salty load.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R 1 6" Ref="Hero" />
                     <Skill Id="CaptiveLustV" ByLevel="R 1 6" Ref="Hero" HideNotification="true" />
@@ -1884,7 +1889,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_troop_consensual_anal</Name>
-        <Text>You practically drag the man to a quiet spot, turning and laying on your stomach, and as lift your dress, exposing your luscious ass. The man's cock stiffens instantly as his eyes go wide with surprise and arousal. As you feel its tip gently push apart your pussy, you reach back and push him upwards, pulling him into your asshole. He almost faints at the sensation as he pushes into you, collapsing onto you with crushing weight, and the sensation of pressure and fullness almost pushes you over the edge. You guide his hands to your breasts and shove your ass back into him, grimacing with pain and desire, and after a few minutes of frenzied fucking he bursts, pulling out and coating your back in milky goo.</Text>
+        <Text>{=BCCaptor_Text_12592}You practically drag the man to a quiet spot, turning and laying on your stomach, and as lift your dress, exposing your luscious ass. The man's cock stiffens instantly as his eyes go wide with surprise and arousal. As you feel its tip gently push apart your pussy, you reach back and push him upwards, pulling him into your asshole. He almost faints at the sensation as he pushes into you, collapsing onto you with crushing weight, and the sensation of pressure and fullness almost pushes you over the edge. You guide his hands to your breasts and shove your ass back into him, grimacing with pain and desire, and after a few minutes of frenzied fucking he bursts, pulling out and coating your back in milky goo.</Text>
         <BackgroundName>BC_image_f_anal_queen</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1900,7 +1905,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Turn around and clean his bitter cock with your mouth.</OptionText>
+                <OptionText>{=BCCaptor_Text_12593}Turn around and clean his bitter cock with your mouth.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 1 6" Ref="Hero" />
                     <Skill Id="CaptiveLustC" ByLevel="R 1 6" Ref="Hero" HideNotification="true" />
@@ -1917,7 +1922,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_troop_finished</Name>
-        <Text>You hungrily engulf his cock between your lips, milking the cum from his balls and sensually slurping it down your throat as you lick him clean. Boosting your men's morale has never been more pleasurable...</Text>
+        <Text>{=BCCaptor_Text_12594}You hungrily engulf his cock between your lips, milking the cum from his balls and sensually slurping it down your throat as you lick him clean. Boosting your men's morale has never been more pleasurable...</Text>
         <BackgroundName>BC_image_lara_facial_tongue</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1934,7 +1939,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Clean yourself off and get dressed.</OptionText>
+                <OptionText>{=BCCaptor_Text_12595}Clean yourself off and get dressed.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R -10 6" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustA" ByLevel="R -10 6" Ref="Hero" HideNotification="true" />
@@ -1957,7 +1962,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Proudly wear the seed of your loyal men.</OptionText>
+                <OptionText>{=BCCaptor_Text_12596}Proudly wear the seed of your loyal men.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R -5 6" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustA" ByLevel="R -5 6" Ref="Hero" HideNotification="true" />
@@ -1978,7 +1983,7 @@
 
     <CEEvent>
         <Name>BC_event_sex_equus</Name>
-        <Text>You take the animal to a secluded spot to examine him. The stallion is stamping and huffing.</Text>
+        <Text>{=BCCaptor_Text_12597}You take the animal to a secluded spot to examine him. The stallion is stamping and huffing.</Text>
         <BackgroundName>BC_image_sex_horse_0_stare</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -1994,7 +1999,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>He is very stressed. Wash him and give him a treat.</OptionText>
+                <OptionText>{=BCCaptor_Text_12598}He is very stressed. Wash him and give him a treat.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R -1 -30" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R -1 -30" Ref="Hero" HideNotification="true" />
@@ -2010,7 +2015,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>His balls are swollen to bursting! Poor beast. Maybe I can help...</OptionText>
+                <OptionText>{=BCCaptor_Text_12599}His balls are swollen to bursting! Poor beast. Maybe I can help...</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_virgin</EventName>
@@ -2040,7 +2045,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_virgin</Name>
-        <Text>Your heart is fit to burst from your chest as you take measure of the stallion. You've never been so aroused in your life.</Text>
+        <Text>{=BCCaptor_Text_12600}Your heart is fit to burst from your chest as you take measure of the stallion. You've never been so aroused in your life.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_0_touch"
                 UseConditions="BC_conditions_companion_f_freak" />
@@ -2060,7 +2065,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>This is wrong. Leave him to the trainers.</OptionText>
+                <OptionText>{=BCCaptor_Text_12601}This is wrong. Leave him to the trainers.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R =1 -3-" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustA" ByLevel="R -1 -30" Ref="Hero" HideNotification="true" />
@@ -2077,7 +2082,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Touch the horse's cock.</OptionText>
+                <OptionText>{=BCCaptor_Text_12602}Touch the horse's cock.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_0_start</EventName>
@@ -2101,7 +2106,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_0_start</Name>
-        <Text>You take the animal to a secluded spot to examine him. "It's just like any cock," you think, "just ...so much bigger." The stallion settles down as your strokes stiffen him.</Text>
+        <Text>{=BCCaptor_Text_12603}You take the animal to a secluded spot to examine him. &quot;It's just like any cock,&quot; you think, &quot;just ...so much bigger.&quot; The stallion settles down as your strokes stiffen him.</Text>
         <BackgroundName>TB_character_town_beggar</BackgroundName>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_0_kiss"
@@ -2121,7 +2126,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Move backward toward the tip.</OptionText>
+                <OptionText>{=BCCaptor_Text_12604}Move backward toward the tip.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_0_kiss</EventName>
@@ -2142,7 +2147,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_0_kiss</Name>
-        <Text>As you lay kisses across the knobby head, you calm down, considerably. Your breathing slows. You close your eyes and think about the pleasure your mouth has brought to others...</Text>
+        <Text>{=BCCaptor_Text_12605}As you lay kisses across the knobby head, you calm down, considerably. Your breathing slows. You close your eyes and think about the pleasure your mouth has brought to others...</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_0_open"
                 UseConditions="BC_conditions_companion_f_freak" />
@@ -2161,7 +2166,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Wrap your lips around the whole thing.</OptionText>
+                <OptionText>{=BCCaptor_Text_12606}Wrap your lips around the whole thing.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_0_open</EventName>
@@ -2201,7 +2206,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Fill your mouth with the head.</OptionText>
+                <OptionText>{=BCCaptor_Text_12607}Fill your mouth with the head.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_0_around</EventName>
@@ -2226,7 +2231,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_0_around</Name>
-        <Text>The squishy ridge at the head of the horse's cock pops through your lips; your mouth is full of salty, hot meat, and your jaw locks around it! After a few seconds of laboured breathing, you realize you simply cannot fit something so big inside you.</Text>
+        <Text>{=BCCaptor_Text_12608}The squishy ridge at the head of the horse's cock pops through your lips; your mouth is full of salty, hot meat, and your jaw locks around it! After a few seconds of laboured breathing, you realize you simply cannot fit something so big inside you.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_0_around" />
             <Background Name="BC_image_sex_horse_0_mouth"
@@ -2251,7 +2256,7 @@
                         <EventUseConditions>true</EventUseConditions>
                     </TriggerEvent>
                 </TriggerEvents>
-                <OptionText>But you've never done anything without mastering it.</OptionText>
+                <OptionText>{=BCCaptor_Text_12609}But you've never done anything without mastering it.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R -10 20" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R -10 20" Ref="Hero" HideNotification="true" />
@@ -2271,7 +2276,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_0_suck</Name>
-        <Text>The going gets easier as your saliva lubricates the entire head of the stallion's giant log. A little trickle of precum is collecting in your mouth.</Text>
+        <Text>{=BCCaptor_Text_12610}The going gets easier as your saliva lubricates the entire head of the stallion's giant log. A little trickle of precum is collecting in your mouth.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_0_suck" />
         </Backgrounds>
@@ -2294,7 +2299,7 @@
                         <EventUseConditions>true</EventUseConditions>
                     </TriggerEvent>
                 </TriggerEvents>
-                <OptionText>Tastes better than you'd imagined...</OptionText>
+                <OptionText>{=BCCaptor_Text_12611}Tastes better than you'd imagined...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
@@ -2314,7 +2319,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_0_blow</Name>
-        <Text>You work the precum into a frothy mess to guide the horse&apos;s cock around your mouth, now taking it into your throat.</Text>
+        <Text>{=BCCaptor_Text_12612}You work the precum into a frothy mess to guide the horse&apos;s cock around your mouth, now taking it into your throat.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_0_blow" />
         </Backgrounds>
@@ -2338,7 +2343,7 @@
                         <EventUseConditions>true</EventUseConditions>
                     </TriggerEvent>
                 </TriggerEvents>
-                <OptionText>Your jaw hurts.</OptionText>
+                <OptionText>{=BCCaptor_Text_12613}Your jaw hurts.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -2348,7 +2353,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_0_suck_loop</Name>
-        <Text>Your stud seems to like it. You like it too.</Text>
+        <Text>{=BCCaptor_Text_12614}Your stud seems to like it. You like it too.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_0_suck" />
         </Backgrounds>
@@ -2375,7 +2380,7 @@
                         <EventUseConditions>true</EventUseConditions>
                     </TriggerEvent>
                 </TriggerEvents>
-                <OptionText>Your fucking clit is burning!!!</OptionText>
+                <OptionText>{=BCCaptor_Text_12615}Your fucking clit is burning!!!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
@@ -2393,7 +2398,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_0_load</Name>
-        <Text>You suddenly become aware of two things: the horse is about to cum, and there are people across the meadow approaching the barn! You use both hands to speed along the process, and just as you hear the outer fence gates opening, your head is pushed back off the horsecock by the force of his emptying balls filling your mouth like a waterskin. You can&quot;t stop yourself from holding onto the cock, milking every drop out of it until your stud is calm.</Text>
+        <Text>{=BCCaptor_Text_12616}You suddenly become aware of two things: the horse is about to cum, and there are people across the meadow approaching the barn! You use both hands to speed along the process, and just as you hear the outer fence gates opening, your head is pushed back off the horsecock by the force of his emptying balls filling your mouth like a waterskin. You can&quot;t stop yourself from holding onto the cock, milking every drop out of it until your stud is calm.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_0_overflow"
                 UseConditions="BC_conditions_companion_f_freak" />
@@ -2412,7 +2417,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Time to hide.</OptionText>
+                <OptionText>{=BCCaptor_Text_12617}Time to hide.</OptionText>
                 <SkillsRequired>
                     <SkillRequired Id="Roguery" Min="100" Ref="Hero" />
                     <SkillRequired Id="CaptiveLustT" Max="275" Ref="Hero" />
@@ -2435,7 +2440,7 @@
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Try not to be discovered.</OptionText>
+                <OptionText>{=BCCaptor_Text_12618}Try not to be discovered.</OptionText>
                 <RenownTotal>R -100 -500</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" HideNotification="true" />
@@ -2461,7 +2466,7 @@
     <!-- farmhand skills -->
     <CEEvent>
         <Name>BC_event_sex_equus_farmhand</Name>
-        <Text>Your heart is pounding to burst from your chest as you take measure of your stallion. You're becoming addicted to this level of arousal, but you can't seem to find anything else to make life worthwhile.</Text>
+        <Text>{=BCCaptor_Text_12619}Your heart is pounding to burst from your chest as you take measure of your stallion. You're becoming addicted to this level of arousal, but you can't seem to find anything else to make life worthwhile.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_0_kiss" />
         </Backgrounds>
@@ -2479,7 +2484,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Time for horse cock.</OptionText>
+                <OptionText>{=BCCaptor_Text_12620}Time for horse cock.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_1_start</EventName>
@@ -2516,7 +2521,7 @@
     <!-- early oral -->
     <CEEvent>
         <Name>BC_event_sex_equus_1_start</Name>
-        <Text>You kiss it wetly, your saliva flowing in anticipation as you stroke down the thick shaft, and the stallion's cock springs to life.</Text>
+        <Text>{=BCCaptor_Text_12621}You kiss it wetly, your saliva flowing in anticipation as you stroke down the thick shaft, and the stallion's cock springs to life.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_1_kiss" />
         </Backgrounds>
@@ -2534,7 +2539,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>MmmmnmmmMMmm. Mmmmm.</OptionText>
+                <OptionText>{=BCCaptor_Text_12622}MmmmnmmmMMmm. Mmmmm.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_1_open</EventName>
@@ -2560,7 +2565,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_1_open</Name>
-        <Text>As your confidence taking your mouth and tongue to the task of pleasuring this giant rod builds, so does your own arousal.</Text>
+        <Text>{=BCCaptor_Text_12623}As your confidence taking your mouth and tongue to the task of pleasuring this giant rod builds, so does your own arousal.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_1_open" />
         </Backgrounds>
@@ -2578,7 +2583,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Come for me again, boy.</OptionText>
+                <OptionText>{=BCCaptor_Text_12624}Come for me again, boy.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_1_suck</EventName>
@@ -2602,7 +2607,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_1_suck</Name>
-        <Text>You start imagining taking this yard-long tree stump inside your flooded pussy.</Text>
+        <Text>{=BCCaptor_Text_12625}You start imagining taking this yard-long tree stump inside your flooded pussy.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_1_suck" />
         </Backgrounds>
@@ -2620,7 +2625,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>What would that even feel like?</OptionText>
+                <OptionText>{=BCCaptor_Text_12626}What would that even feel like?</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_1_caught</EventName>
@@ -2644,7 +2649,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_1_caught</Name>
-        <Text>Your rhythm on the flanged cock is becoming perfect, and the precum is starting to flow freely when you suddenly hear a group of stable workers entering the yard! You quickly collect yourself and whisper a sweet apology to your lover.</Text>
+        <Text>{=BCCaptor_Text_12627}Your rhythm on the flanged cock is becoming perfect, and the precum is starting to flow freely when you suddenly hear a group of stable workers entering the yard! You quickly collect yourself and whisper a sweet apology to your lover.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_1_caught_fix" />
         </Backgrounds>
@@ -2662,7 +2667,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Next time, stud.</OptionText>
+                <OptionText>{=BCCaptor_Text_12628}Next time, stud.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
@@ -2681,7 +2686,7 @@
     <!-- early vag -->
     <CEEvent>
         <Name>BC_event_sex_equus_2_start</Name>
-        <Text>You straddle him, your sex soaked in anticipation as you stand over the thick shaft, and the stallion's cock springs to life.</Text>
+        <Text>{=BCCaptor_Text_12629}You straddle him, your sex soaked in anticipation as you stand over the thick shaft, and the stallion's cock springs to life.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_1_straddle" />
         </Backgrounds>
@@ -2699,7 +2704,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Here we go, boy.</OptionText>
+                <OptionText>{=BCCaptor_Text_12630}Here we go, boy.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_2_2</EventName>
@@ -2725,7 +2730,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_2_2</Name>
-        <Text>You pull the flanged head up between your legs, rubbing it around in your steam. It's even bigger than you thought.</Text>
+        <Text>{=BCCaptor_Text_12631}You pull the flanged head up between your legs, rubbing it around in your steam. It's even bigger than you thought.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_2_guide" />
         </Backgrounds>
@@ -2743,7 +2748,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Is my pussy soft enough for you, boy?</OptionText>
+                <OptionText>{=BCCaptor_Text_12632}Is my pussy soft enough for you, boy?</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_2_3</EventName>
@@ -2767,7 +2772,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_2_3</Name>
-        <Text>With a sudden jerk, the horse takes the hint, pushing nearly a foot inside you in one go!</Text>
+        <Text>{=BCCaptor_Text_12633}With a sudden jerk, the horse takes the hint, pushing nearly a foot inside you in one go!</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_3_bend" />
         </Backgrounds>
@@ -2785,7 +2790,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>By all the gods and devils!</OptionText>
+                <OptionText>{=BCCaptor_Text_12634}By all the gods and devils!</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_2_4</EventName>
@@ -2809,7 +2814,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_2_4</Name>
-        <Text>You perch yourself to open your knees, taking it in farther with each step he takes into you.</Text>
+        <Text>{=BCCaptor_Text_12635}You perch yourself to open your knees, taking it in farther with each step he takes into you.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_4_knees" />
         </Backgrounds>
@@ -2827,7 +2832,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Spread me, boy!</OptionText>
+                <OptionText>{=BCCaptor_Text_12636}Spread me, boy!</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_2_5</EventName>
@@ -2851,7 +2856,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_2_5</Name>
-        <Text>You start sitting, pushing, working this yard-long tree stump inside your flooded pussy.</Text>
+        <Text>{=BCCaptor_Text_12637}You start sitting, pushing, working this yard-long tree stump inside your flooded pussy.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_5_back" />
         </Backgrounds>
@@ -2869,7 +2874,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Ohhhh I need to cummmmmmmm...</OptionText>
+                <OptionText>{=BCCaptor_Text_12638}Ohhhh I need to cummmmmmmm...</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_2_6</EventName>
@@ -2893,7 +2898,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_2_6</Name>
-        <Text>As if in response, your stallion snorts, stamps, and then a flood of thick horse spunk takes over your entire midsection. You pull open your ass so he can fuck you straight through.</Text>
+        <Text>{=BCCaptor_Text_12639}As if in response, your stallion snorts, stamps, and then a flood of thick horse spunk takes over your entire midsection. You pull open your ass so he can fuck you straight through.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_6_spread" />
         </Backgrounds>
@@ -2911,7 +2916,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>AAaaaaaghhh!</OptionText>
+                <OptionText>{=BCCaptor_Text_12640}AAaaaaaghhh!</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_2_7</EventName>
@@ -2935,7 +2940,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_2_7</Name>
-        <Text>You cum so hard, you black out for a second, but the beast yanks his leaking cock out unexpectedly. You finger your leaking snatch to work out most of the hot, smelly cum, so as not to ruin your clothes. You quickly compose yourself and whisper a sweet farewell to your lover.</Text>
+        <Text>{=BCCaptor_Text_12641}You cum so hard, you black out for a second, but the beast yanks his leaking cock out unexpectedly. You finger your leaking snatch to work out most of the hot, smelly cum, so as not to ruin your clothes. You quickly compose yourself and whisper a sweet farewell to your lover.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_7_cum" />
         </Backgrounds>
@@ -2953,7 +2958,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Next time, stud.</OptionText>
+                <OptionText>{=BCCaptor_Text_12642}Next time, stud.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
@@ -2973,7 +2978,7 @@
     <!-- regular sloot -->
     <CEEvent>
         <Name>BC_event_sex_equus_3_start</Name>
-        <Text>You straddle him, your sex soaked as you stand over the thick shaft, and the stallion's cock springs to life.</Text>
+        <Text>{=BCCaptor_Text_12643}You straddle him, your sex soaked as you stand over the thick shaft, and the stallion's cock springs to life.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_1_straddle" />
         </Backgrounds>
@@ -2991,7 +2996,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Fuck me, boy. Fuck me hard.</OptionText>
+                <OptionText>{=BCCaptor_Text_12644}Fuck me, boy. Fuck me hard.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_3_2</EventName>
@@ -3018,7 +3023,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_3_2</Name>
-        <Text>You pull open your lips and the head almost pops into the entrance to your insides. You moan, loudly, and push back on your steed. </Text>
+        <Text>{=BCCaptor_Text_12645}You pull open your lips and the head almost pops into the entrance to your insides. You moan, loudly, and push back on your steed. </Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_6_spread" />
         </Backgrounds>
@@ -3036,7 +3041,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Fuck yeah, fuck your pussy, boy.</OptionText>
+                <OptionText>{=BCCaptor_Text_12646}Fuck yeah, fuck your pussy, boy.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_3_3</EventName>
@@ -3060,7 +3065,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_3_3</Name>
-        <Text>You're able to ride him even better now, lowering your weight more and more onto him to meet his hips.</Text>
+        <Text>{=BCCaptor_Text_12647}You're able to ride him even better now, lowering your weight more and more onto him to meet his hips.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_2_under" />
         </Backgrounds>
@@ -3078,7 +3083,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Ahhh! Ahhhhhhh! Fuck, fuck, fuck, fuuuuuck!</OptionText>
+                <OptionText>{=BCCaptor_Text_12648}Ahhh! Ahhhhhhh! Fuck, fuck, fuck, fuuuuuck!</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_2_3</EventName>
@@ -3102,7 +3107,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_3_7</Name>
-        <Text>You cum so hard, you black out for a second, and you wake up to the horse tounging your pussy with broad, strong strokes. You finger your leaking snatch for several minutes while the hot, smelly cum drains out of you.</Text>
+        <Text>{=BCCaptor_Text_12649}You cum so hard, you black out for a second, and you wake up to the horse tounging your pussy with broad, strong strokes. You finger your leaking snatch for several minutes while the hot, smelly cum drains out of you.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_2_4_lick" />
         </Backgrounds>
@@ -3120,7 +3125,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>I want you again already, daddy.</OptionText>
+                <OptionText>{=BCCaptor_Text_12650}I want you again already, daddy.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
@@ -3140,7 +3145,7 @@
     <!-- butt stuff -->
     <CEEvent>
         <Name>BC_event_sex_equus_4_start</Name>
-        <Text>Your life as an equestrienne has been wave after wave of orgasmic bliss. Today, you want to take this beast's swollen pole all the way inside your other hole.</Text>
+        <Text>{=BCCaptor_Text_12651}Your life as an equestrienne has been wave after wave of orgasmic bliss. Today, you want to take this beast's swollen pole all the way inside your other hole.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_4_lick" />
         </Backgrounds>
@@ -3158,7 +3163,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Here we go, boy.</OptionText>
+                <OptionText>{=BCCaptor_Text_12652}Here we go, boy.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_4_2</EventName>
@@ -3184,7 +3189,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_4_2</Name>
-        <Text>You take your stud and bare yourself, naked, laying down on the floor. You can smell each other, full of musk.</Text>
+        <Text>{=BCCaptor_Text_12653}You take your stud and bare yourself, naked, laying down on the floor. You can smell each other, full of musk.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_4_open" />
         </Backgrounds>
@@ -3202,7 +3207,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Come on, over here, big boy.</OptionText>
+                <OptionText>{=BCCaptor_Text_12654}Come on, over here, big boy.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_4_3</EventName>
@@ -3226,7 +3231,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_4_3</Name>
-        <Text>He clops over to you. You swipe two fingers up your snatch to get a wad of scent, and you rim it around your quivering gape.</Text>
+        <Text>{=BCCaptor_Text_12655}He clops over to you. You swipe two fingers up your snatch to get a wad of scent, and you rim it around your quivering gape.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_4_hole" />
         </Backgrounds>
@@ -3244,7 +3249,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Right there, big boy. Come to me...</OptionText>
+                <OptionText>{=BCCaptor_Text_12656}Right there, big boy. Come to me...</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_4_4</EventName>
@@ -3268,7 +3273,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_4_4</Name>
-        <Text>You guide the head inside you, concentrating on the feeling of his knobby cock filling your ass, bit by excruciating bit.</Text>
+        <Text>{=BCCaptor_Text_12657}You guide the head inside you, concentrating on the feeling of his knobby cock filling your ass, bit by excruciating bit.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_4_guide" />
         </Backgrounds>
@@ -3286,7 +3291,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Keep pushing it, big boy.</OptionText>
+                <OptionText>{=BCCaptor_Text_12658}Keep pushing it, big boy.</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_4_5</EventName>
@@ -3310,7 +3315,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_4_5</Name>
-        <Text>This cock tries to stiffen up in your ass, and you rise to meet it, rolling your hips around, and punching your self to the point you feel some tearing.</Text>
+        <Text>{=BCCaptor_Text_12659}This cock tries to stiffen up in your ass, and you rise to meet it, rolling your hips around, and punching your self to the point you feel some tearing.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_4_ride" />
         </Backgrounds>
@@ -3328,7 +3333,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>You're so fucking big! Fuck my ass up! Fuck it to pieces!</OptionText>
+                <OptionText>{=BCCaptor_Text_12660}You're so fucking big! Fuck my ass up! Fuck it to pieces!</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_4_7</EventName>
@@ -3352,7 +3357,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_4_7</Name>
-        <Text>Suddenly, your stud drops to his fetters and is able to push almost his entire cock into your little hole! You scream, but he keeps you pinned underneath him, lifting you and banging your neck into the floor as your ass begins bubbling his precum.</Text>
+        <Text>{=BCCaptor_Text_12661}Suddenly, your stud drops to his fetters and is able to push almost his entire cock into your little hole! You scream, but he keeps you pinned underneath him, lifting you and banging your neck into the floor as your ass begins bubbling his precum.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_4_deep" />
         </Backgrounds>
@@ -3370,7 +3375,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>I've never felt so fucking tiny!</OptionText>
+                <OptionText>{=BCCaptor_Text_12662}I've never felt so fucking tiny!</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_sex_equus_4_8</EventName>
@@ -3394,7 +3399,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_equus_4_8</Name>
-        <Text>You hear a low whine from him right before you black out from the pummeling, but you wake up when you slip off his cock onto the floor. You immediately sit up and try to drink down the rest of his hot spunk, before passing out in exhausted bliss.</Text>
+        <Text>{=BCCaptor_Text_12663}You hear a low whine from him right before you black out from the pummeling, but you wake up when you slip off his cock onto the floor. You immediately sit up and try to drink down the rest of his hot spunk, before passing out in exhausted bliss.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_horse_4_done" />
         </Backgrounds>
@@ -3412,7 +3417,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>(Bubbling noises).</OptionText>
+                <OptionText>{=BCCaptor_Text_12664}(Bubbling noises).</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 5 1" Ref="Hero" HideNotification="true" />
@@ -3432,7 +3437,7 @@
     <!-- Wild Encounters -->
     <CEEvent>
         <Name>BC_event_wanderer_bush</Name>
-        <Text>A beautiful young village woman strides confidently to draw water at the small oasis where your party has stopped. She meets your gaze without fear, and her skin glistens in the brutal sun. You cannot take your eyes from her...</Text>
+        <Text>{=BCCaptor_Text_12665}A beautiful young village woman strides confidently to draw water at the small oasis where your party has stopped. She meets your gaze without fear, and her skin glistens in the brutal sun. You cannot take your eyes from her...</Text>
         <BackgroundName>BC_image_f_wanderer_bush</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3452,7 +3457,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Tell your men to pay her no mind.</OptionText>
+                <OptionText>{=BCCaptor_Text_12666}Tell your men to pay her no mind.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
             </Option>
             <Option>
@@ -3464,7 +3469,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>She is clearly some kind of witch. March your troops away immediately.</OptionText>
+                <OptionText>{=BCCaptor_Text_12667}She is clearly some kind of witch. March your troops away immediately.</OptionText>
                 <MoraleTotal>R -10 -15</MoraleTotal>
                 <HealthTotal>R -10 -20</HealthTotal>
                 <SkillsToLevel>
@@ -3479,7 +3484,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Invite her to your tent as an honoured guest.</OptionText>
+                <OptionText>{=BCCaptor_Text_12668}Invite her to your tent as an honoured guest.</OptionText>
                 <TriggerEventName>BC_event_wanderer_bush_sex</TriggerEventName>
                 <MoraleTotal>R -5 5</MoraleTotal>
                 <HealthTotal>R 1 20</HealthTotal>
@@ -3501,7 +3506,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_wanderer_steppe</Name>
-        <Text>A beautiful young village woman strides confidently to the shore at the small lake where your party has stopped. She meets your gaze without fear, and her skin glistens in the sun. You cannot take your eyes from her...</Text>
+        <Text>{=BCCaptor_Text_12669}A beautiful young village woman strides confidently to the shore at the small lake where your party has stopped. She meets your gaze without fear, and her skin glistens in the sun. You cannot take your eyes from her...</Text>
         <BackgroundName>BC_image_f_wanderer_steppe</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3521,7 +3526,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Tell your men to pay her no mind.</OptionText>
+                <OptionText>{=BCCaptor_Text_12666}Tell your men to pay her no mind.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
             </Option>
             <Option>
@@ -3533,7 +3538,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>She is clearly some kind of witch. March your troops away immediately.</OptionText>
+                <OptionText>{=BCCaptor_Text_12667}She is clearly some kind of witch. March your troops away immediately.</OptionText>
                 <MoraleTotal>R -10 -15</MoraleTotal>
                 <HealthTotal>R -10 -20</HealthTotal>
                 <SkillsToLevel>
@@ -3548,7 +3553,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Invite her to your tent as an honoured guest.</OptionText>
+                <OptionText>{=BCCaptor_Text_12668}Invite her to your tent as an honoured guest.</OptionText>
                 <TriggerEventName>BC_event_wanderer_steppe_sex</TriggerEventName>
                 <MoraleTotal>R -5 5</MoraleTotal>
                 <HealthTotal>R 1 20</HealthTotal>
@@ -3570,7 +3575,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_wanderer_forest</Name>
-        <Text>A beautiful young village woman strides confidently out from the deep woods where your party has stopped. She meets your gaze without fear, and her skin glistens between the sunbeams. You cannot take your eyes from her...</Text>
+        <Text>{=BCCaptor_Text_12670}A beautiful young village woman strides confidently out from the deep woods where your party has stopped. She meets your gaze without fear, and her skin glistens between the sunbeams. You cannot take your eyes from her...</Text>
         <BackgroundName>BC_image_f_wanderer_forest</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3590,7 +3595,7 @@
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Tell your men to pay her no mind.</OptionText>
+                <OptionText>{=BCCaptor_Text_12666}Tell your men to pay her no mind.</OptionText>
                 <MoraleTotal>R -5 -10</MoraleTotal>
             </Option>
             <Option>
@@ -3602,7 +3607,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>She is clearly some kind of witch. March your troops away immediately.</OptionText>
+                <OptionText>{=BCCaptor_Text_12667}She is clearly some kind of witch. March your troops away immediately.</OptionText>
                 <MoraleTotal>R -10 -15</MoraleTotal>
                 <HealthTotal>R -10 -20</HealthTotal>
                 <SkillsToLevel>
@@ -3617,7 +3622,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Invite her to your tent as an honoured guest.</OptionText>
+                <OptionText>{=BCCaptor_Text_12668}Invite her to your tent as an honoured guest.</OptionText>
                 <TriggerEventName>BC_event_wanderer_forest_sex</TriggerEventName>
                 <MoraleTotal>R -5 5</MoraleTotal>
                 <HealthTotal>R 1 20</HealthTotal>
@@ -3639,7 +3644,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_wanderer_bush_sex</Name>
-        <Text>You spend a few magical hours together, and she teaches you some of the local customs and practices. She seems wise beyond her years, but with the strength of youthful vigor in full bloom.</Text>
+        <Text>{=BCCaptor_Text_12671}You spend a few magical hours together, and she teaches you some of the local customs and practices. She seems wise beyond her years, but with the strength of youthful vigor in full bloom.</Text>
         <BackgroundName>BC_image_f_wanderer_bush_2</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3655,7 +3660,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue your journey a little wiser.</OptionText>
+                <OptionText>{=BCCaptor_Text_12672}Continue your journey a little wiser.</OptionText>
                 <MoraleTotal>R -5 5</MoraleTotal>
                 <HealthTotal>R 1 20</HealthTotal>
                 <SkillsToLevel>
@@ -3678,7 +3683,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_wanderer_steppe_sex</Name>
-        <Text>You spend a few magical hours together, and she teaches you some of the local customs and practices. She seems wise beyond her years, but with the strength of youthful vigor in full bloom.</Text>
+        <Text>{=BCCaptor_Text_12671}You spend a few magical hours together, and she teaches you some of the local customs and practices. She seems wise beyond her years, but with the strength of youthful vigor in full bloom.</Text>
         <BackgroundName>BC_image_f_wanderer_steppe_2</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -3694,7 +3699,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue your journey a little wiser.</OptionText>
+                <OptionText>{=BCCaptor_Text_12672}Continue your journey a little wiser.</OptionText>
                 <MoraleTotal>R -5 5</MoraleTotal>
                 <HealthTotal>R 1 20</HealthTotal>
                 <SkillsToLevel>
@@ -3717,7 +3722,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_wanderer_forest_sex</Name>
-        <Text>You spend a few magical hours together, and she teaches you some of the local customs and practices. She seems to know exactly what your body needs.</Text>
+        <Text>{=BCCaptor_Text_12673}You spend a few magical hours together, and she teaches you some of the local customs and practices. She seems to know exactly what your body needs.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_ff_lara_aloy" UseConditions="BC_conditions_hero_female" />
             <Background Name="BC_image_sex_mf_oral_aloy_kiss" UseConditions="BC_conditions_hero_male" />
@@ -3733,7 +3738,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue.</OptionText>
+                <OptionText>{=DefaultSpouseEventsFemale5}Continue.</OptionText>
                 <TriggerEventName>BC_event_wanderer_forest_sex_2</TriggerEventName>
             </Option>
         </Options>
@@ -3744,7 +3749,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_wanderer_forest_sex_2</Name>
-        <Text>She seems wise beyond her years, but with the strength of youthful vigor in full bloom. She knows that your duties will call you away, but you imagine wistfully, some day long from now, settling down in a Retreat like hers.</Text>
+        <Text>{=BCCaptor_Text_12674}She seems wise beyond her years, but with the strength of youthful vigor in full bloom. She knows that your duties will call you away, but you imagine wistfully, some day long from now, settling down in a Retreat like hers.</Text>
         <Backgrounds>
             <Background Name="BC_image_sex_f_pool_aloy" />
         </Backgrounds>
@@ -3762,7 +3767,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue your journey a little wiser.</OptionText>
+                <OptionText>{=BCCaptor_Text_12672}Continue your journey a little wiser.</OptionText>
                 <MoraleTotal>R -5 5</MoraleTotal>
                 <HealthTotal>R 1 20</HealthTotal>
                 <SkillsToLevel>
@@ -3774,6 +3779,301 @@
                     <Skill Id="CaptiveLustT" ByLevel="R -5 -25" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R -5 -25" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R -5 -25" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 50 100" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <!-- Washer Woman -->    
+    <CEEvent>
+        <Name>BC_event_wanderer_washer_woman</Name>
+        <Text>{=BCCaptor_Text_12675}You've taken a ride with your scouts to clear your mind, when you happen upon a beautiful young village woman scrubbing clothes in a stream. Spilling out from her dress, she meets your gaze without fear, and her moist skin glistens in the sun. You cannot take your eyes from her...</Text>
+        <BackgroundName></BackgroundName>
+        <Backgrounds>
+            <Background Name="BC_image_f_wanderer_washer_01" UseConditions="BC_conditions_hero_male" />
+            <Background Name="BC_image_f_wanderer_washer_02" UseConditions="BC_conditions_hero_female"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>SeasonSummer</RestrictedListOfFlags>
+            <RestrictedListOfFlags>TimeDay</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <TerrainTypesRequirements>
+            <TerrainTypes>
+                <TerrainType>ShallowRiver</TerrainType>
+            </TerrainTypes>
+        </TerrainTypesRequirements>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12676}Send your scouts back to camp, and approach her.</OptionText>
+                <TriggerEventName>BC_event_wanderer_washer_flirt</TriggerEventName>
+                <MoraleTotal>R -5 -10</MoraleTotal>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>WoundRandomPrisoners</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12677}She is clearly some kind of witch. Ride away immediately.</OptionText>
+                <MoraleTotal>R -10 -15</MoraleTotal>
+                <HealthTotal>R -10 -20</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="Leadership" ByXP="R 1 300" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Charm" Min="R 100 150" Ref="Hero" />
+            <SkillRequired Id="Scouting" Min="R 100 150" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_wanderer_washer_flirt</Name>
+        <Text>{=BCCaptor_Text_12678}&quot;Greetings, gallant {?PLAYER.GENDER}Lady{?}Lord{\?}! Have you a load which needs scrubbing? Do you require soap?&quot;</Text>
+        <BackgroundName>BC_image_f_wanderer_washer_03</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12679}&quot;It seems everything I require is here before me.&quot;</OptionText>
+                <TriggerEventName>BC_event_wanderer_washer_bathe</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_wanderer_washer_bathe</Name>
+        <Text>{=BCCaptor_Text_12680}&quot;My {?PLAYER.GENDER}Lady{?}Lord{\?}! Your eyes are drawn over my body in a most improper manner! Please leave me, as I must scrub all this soap off me.&quot;</Text>
+        <BackgroundName>BC_image_f_wanderer_washer_04</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12681}Follow her down to the bathing pond.</OptionText>
+                <TriggerEventName>BC_event_wanderer_washer_clean</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_wanderer_washer_clean</Name>
+        <Text>{=BCCaptor_Text_12682}You watch the woman bathe herself. She knows you are there, but does not seem to hide or hurry, content to rinse off the washing soap. Eventually, she is done, and makes her way out of the pond. </Text>
+        <BackgroundAnimation>            
+            <BackgroundName>BC_image_f_wanderer_washer_06</BackgroundName>
+            <BackgroundName>BC_image_f_wanderer_washer_07</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>2.5</BackgroundAnimationSpeed>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12683}Strip, and approach her.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_wanderer_washer_nope</EventName>
+                        <EventWeight>8</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_wanderer_washer_jackpot</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_wanderer_washer_nope</Name>
+        <Text>{=BCCaptor_Text_12684}&quot;My {?PLAYER.GENDER}Lady{?}Lord{\?}! I asked you to leave me, but you have taken pleasure in watching me at my most vulnerable. I do not know what you expect of me, but I must go now. Perhaps we will meet again, in a more approprate setting.&quot; With that dismissal, she swims to the far side of the pond and disappears in the reeds.</Text>
+        <BackgroundName>BC_image_f_wanderer_washer_05</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <MoraleTotal>R -10 -15</MoraleTotal>
+                <HealthTotal>R -10 -20</HealthTotal>
+                <OptionText>{=DefaultCaptiveRequiredNSFWEventsFemale14}Continue your journey.</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_wanderer_washer_jackpot</Name>
+        <Text>{=BCCaptor_Text_12685}&quot;My {?PLAYER.GENDER}Lady{?}Lord{\?}! I asked you to leave me, but you have taken pleasure in watching me at my most vulnerable. You must be in quite a state of arousal now.&quot;</Text>
+        <BackgroundName>BC_image_f_wanderer_washer_05</BackgroundName>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12686}Take her in your arms.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_wanderer_washer_sex_act_m</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_wanderer_washer_sex_act_f</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_wanderer_washer_sex_act_f</Name>
+        <Text>{=BCCaptor_Text_12671}You spend a few magical hours together, and she teaches you some of the local customs and practices. She seems wise beyond her years, but with the strength of youthful vigor in full bloom.</Text>
+        <BackgroundAnimation>            
+            <BackgroundName>BC_image_f_wanderer_washer_08</BackgroundName>
+            <BackgroundName>BC_image_f_wanderer_washer_11</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>2.5</BackgroundAnimationSpeed>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12672}Continue your journey a little wiser.</OptionText>
+                <MoraleTotal>R -5 5</MoraleTotal>
+                <HealthTotal>R 1 20</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="Charm" ByXP="R 1 300" Ref="Hero" HideNotification="true" />
+                    <Skill Id="Steward" ByLevel="1" Ref="Hero" />
+                    <Skill Id="Athletics" ByXP="R 1 300" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 50 100" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_wanderer_washer_sex_act_m</Name>
+        <Text>{=BCCaptor_Text_12671}You spend a few magical hours together, and she teaches you some of the local customs and practices. She seems wise beyond her years, but with the strength of youthful vigor in full bloom.</Text>
+        <BackgroundAnimation>            
+            <BackgroundName>BC_image_f_wanderer_washer_09</BackgroundName>
+            <BackgroundName>BC_image_f_wanderer_washer_10</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>2.5</BackgroundAnimationSpeed>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12672}Continue your journey a little wiser.</OptionText>
+                <MoraleTotal>R -5 5</MoraleTotal>
+                <HealthTotal>R 1 20</HealthTotal>
+                <SkillsToLevel>
+                    <Skill Id="Charm" ByXP="R 1 300" Ref="Hero" HideNotification="true" />
+                    <Skill Id="Steward" ByLevel="1" Ref="Hero" />
+                    <Skill Id="Athletics" ByXP="R 1 300" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -2 -22" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveEsteem" ByLevel="R 50 100" Ref="Hero" HideNotification="true" />
                 </SkillsToLevel>
             </Option>
@@ -4361,7 +4661,7 @@
     </CEEvent>   
     <CEEvent>
        <Name>CE_spouse_event_female_female_1</Name>
-       <Text>You hear the clop of hooves heading towards you, and as you look up your heart jumps - your spouse has come to visit, and {COMPANION_NAME_1} practically leaps into arms, kissing you deeply.</Text>
+       <Text>{=BCCaptor_Text_12687}You hear the clop of hooves heading towards you, and as you look up your heart jumps - your spouse has come to visit, and {COMPANION_NAME_1} practically leaps into arms, kissing you deeply.</Text>
        <BackgroundName>BC_image_f_sex_appeal</BackgroundName>
        <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Random</RestrictedListOfFlags>
@@ -4456,7 +4756,7 @@
     </CEEvent>
     <CEEvent>
        <Name>CE_spouse_event_female_1</Name>
-       <Text>You hear the clop of hooves heading towards you, and as you look up your heart jumps - your spouse has come to visit, and {COMPANION_NAME_1} practically leaps into arms, kissing you deeply.</Text>
+       <Text>{=BCCaptor_Text_12687}You hear the clop of hooves heading towards you, and as you look up your heart jumps - your spouse has come to visit, and {COMPANION_NAME_1} practically leaps into arms, kissing you deeply.</Text>
        <BackgroundName>BC_image_f_sex_appeal</BackgroundName>
        <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Random</RestrictedListOfFlags>
@@ -4479,7 +4779,7 @@
                  <Skill Id="CaptiveLustT" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"   HideNotification="true"/>
                  <Skill Id="CaptiveLustA" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
              </SkillsToLevel>
-             <OptionText>Lead onward to your bed...</OptionText>
+             <OptionText>{=BCCaptor_Text_12277}Lead onward to your bed...</OptionText>
              <TriggerEvents>
                  <TriggerEvent>
                      <EventName>TB_male_hero_female_spouse_visit_sex</EventName>
@@ -4525,7 +4825,7 @@
     </CEEvent>
     <CEEvent>
        <Name>CE_spouse_event_female_city_1</Name>
-       <Text>Your spouse has come to visit: {COMPANION_NAME_1} practically leaps into arms, kissing you deeply. </Text>
+       <Text>{=BCCaptor_Text_12689}Your spouse has come to visit: {COMPANION_NAME_1} practically leaps into arms, kissing you deeply. </Text>
        <BackgroundName>BC_image_f_sex_appeal</BackgroundName>
        <MultipleRestrictedListOfFlags>
           <RestrictedListOfFlags>Random</RestrictedListOfFlags>
@@ -4549,7 +4849,7 @@
                  <Skill Id="CaptiveLustT" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"   HideNotification="true"/>
                  <Skill Id="CaptiveLustA" ByLevel="R -2 -5" Ref="Hero" Color="Yellow"  HideNotification="true" />
              </SkillsToLevel>
-             <OptionText>Lead onward to your bed...</OptionText>
+             <OptionText>{=BCCaptor_Text_12277}Lead onward to your bed...</OptionText>
              <TriggerEvents>
                  <TriggerEvent>
                      <EventName>TB_male_hero_female_spouse_visit_sex</EventName>
@@ -4588,7 +4888,7 @@
              <MultipleRestrictedListOfConsequences>
                 <RestrictedListOfConsequences>EmptyIcon</RestrictedListOfConsequences>
              </MultipleRestrictedListOfConsequences>
-             <OptionText>Not today, my love.</OptionText>
+             <OptionText>{=BCCaptor_Text_12690}Not today, my love.</OptionText>
              <SkillsToLevel>
                  <Skill Id="CaptiveLustO" ByLevel="R 20 10" Ref="Hero" Color="Yellow"  HideNotification="true" />
                  <Skill Id="CaptiveLustV" ByLevel="R 20 10" Ref="Hero" Color="Yellow"  HideNotification="true" />

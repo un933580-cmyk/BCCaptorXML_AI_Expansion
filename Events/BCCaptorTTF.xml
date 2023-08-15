@@ -146,6 +146,11 @@
                         <EventWeight>3</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
                     </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>BC_event_male_sex_ttf_mff_witcher_1</EventName>
+                        <EventWeight>3</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
                 </TriggerEvents>
             </Option>
             <Option>
@@ -670,7 +675,7 @@
             <BackgroundName></BackgroundName>
             <Backgrounds>
                 <Background Name="BC_image_slavery_sub_vag_2" UseConditions="BC_event_conditions_captor_male_captive_female" />
-                <Background Name="BC_captor_sex_ff_standing_5" UseConditions="BC_event_conditions_captor_female_captive_female" />
+                <Background Name="BC_image_sex_ff_ciri_scissor" UseConditions="BC_event_conditions_captor_female_captive_female" />
             </Backgrounds>
             <MultipleRestrictedListOfFlags>
                 <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -911,7 +916,7 @@
             <Text>{=BCCaptor_Text_14030}Your tongue glides over {CAPTIVE_NAME}'s perfect little asshole until you decide to probe it inside as well. It winks on your tongue, and you press on, in, out and round; now putting your fingers in to find her wetness.</Text>
             <Backgrounds>
                 <Background Name="BC_captor_sex_f_butt_open" UseConditions="BC_event_conditions_captor_male_captive_female" />
-                <Background Name="BC_captor_sex_ff_analing_fingers" UseConditions="BC_event_conditions_captor_female_captive_female" />
+                <Background Name="BC_image_sex_ff_analing_stairs" UseConditions="BC_event_conditions_captor_female_captive_female" />
             </Backgrounds>
             <MultipleRestrictedListOfFlags>
                 <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1033,7 +1038,7 @@
                     </TriggerEvents>
                     <SkillsToLevel>
                         <Skill Id="CaptiveAffection" ByLevel="R -5 3" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveObedience" ByLevel="R -2 7" Ref="Hero" Color="Cyan" />
+                        <Skill Id="CaptiveObedience" ByLevel="R -2 8" Ref="Hero" Color="Cyan" />
                         <Skill Id="CaptiveLustT" ByLevel="R 3 12" Ref="Hero" HideNotification="true"/>
                         <Skill Id="CaptiveLustV" ByLevel="R 1 6" Ref="Hero" Color="Yellow" HideNotification="true"/>
                         <Skill Id="CaptiveLustC" ByLevel="R 1 6" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -1057,8 +1062,7 @@
                     <Background Name="BC_captor_dating_ff_front_rub" UseConditions="BC_event_conditions_captor_female_captive_female" />
                 </Backgrounds>
                 <MultipleRestrictedListOfFlags>
-                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
-                    
+                    <RestrictedListOfFlags>Captor</RestrictedListOfFlags>                    
                     <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
                     <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>         
                     <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
@@ -1899,7 +1903,8 @@
             </Backgrounds>
             <MultipleRestrictedListOfFlags>
                 <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
-                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>          
+                <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
@@ -2243,7 +2248,11 @@
     <CEEvent>
         <Name>BC_event_male_sex_ttf_mff_marble</Name>
         <Text>{=BCCaptor_Text_14074}You call up a wanton slut from your camp, formerly from the finest family of course, just as {CAPTIVE_NAME}. Her eyes widen and shut as you and your guest give and are given tongues, skin, fingers... You press together until neither of you can wake {CAPTIVE_NAME}, and then...</Text>
-        <BackgroundName>BC_image_mff_marble_03_captive</BackgroundName>
+        <BackgroundAnimation>            
+            <BackgroundName>BC_image_sex_ffm_spice_1</BackgroundName>
+            <BackgroundName>BC_image_sex_ffm_spice_2</BackgroundName>
+        </BackgroundAnimation>
+        <BackgroundAnimationSpeed>2.0</BackgroundAnimationSpeed>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
                         <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
@@ -2493,6 +2502,88 @@
         <Name>BC_event_male_sex_ttf_front</Name>
         <Text>{=BCCaptor_Text_14078}You have made arrangements, but are detained by battle preparations before you can retire for the evening. You enter your quarters to find {CAPTIVE_NAME} and another tramp having already started {?CAPTORISFEMALE}warming things up{?}wettening your entry points{\?} some time ago...</Text>
         <BackgroundName>BC_image_sex_ff_waterfall</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_14070}Perhaps we can use her again.</OptionText>                
+                    <TriggerEvents><!-- Lotto Menus for your POST SEX EXIT OPTIONS-->
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_tired</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -8 14" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                        <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -5 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -5 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -5 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -5 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -5 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_14071}Leave them sleeping and return to your warband.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 8 15" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 12" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 2 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -2 14" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+                <HealthTotal>R 15 45</HealthTotal>
+            </Option>
+        </Options>
+        <SkillsRequired><SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero"/></SkillsRequired>
+        <SkillsRequired><SkillRequired Id="CaptiveLustO" Min="5" Ref="Hero"/></SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_male_sex_ttf_mff_witcher_1</Name>
+        <Text>{=BCCaptor_Text_14078}You have made arrangements, but are detained by battle preparations before you can retire for the evening. You enter your quarters to find {CAPTIVE_NAME} and another tramp having already started {?CAPTORISFEMALE}warming things up{?}wettening your entry points{\?} some time ago...</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_ff_yen_triss_big" UseConditions="BC_event_conditions_captor_male_captive_female" />
+            <Background Name="BC_image_sex_ff_greek_night" UseConditions="BC_event_conditions_captor_female_captive_female" />
+            <Background Name="BC_captor_sex_male_finished" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
             <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
@@ -4218,7 +4309,7 @@
                     <Skill Id="Deflowered" ByLevel="1" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="Maiden" ByLevel="-100" Ref="Hero" Color="Cyan"  />
                     <Skill Id="Virginal" ByLevel="-100" Ref="Hero" Color="Cyan" HideNotification="true" />
-                    <Skill Id="CaptiveLustV" ByLevel="R -70 -30" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -70 -30" Ref="Captor" Color="Yellow" />
                     <Skill Id="CaptiveEsteem" ByLevel="100" Ref="Captor" Color="Yellow" HideNotification="true" />
                 </SkillsToLevel>
                 </Option>
@@ -4847,7 +4938,8 @@
             <Name>BC_event_male_sex_ttv_take_menu</Name>
             <Text>{=BCCaptor_Text_14146}You are attempting to wrest {CAPTIVE_NAME} from her virginity, but she is putting up a fight for it...</Text>
             <Backgrounds>
-                <Background Name="BC_captor_sex_waiting_wood" UseConditions="BC_event_conditions_captive_female_default" />
+                <Background Name="BC_captor_sex_waiting_wood" UseConditions="BC_event_conditions_captor_male_captive_female" />
+                <Background Name="BC_image_sex_ff_ttv_got" UseConditions="BC_event_conditions_captor_female_captive_female" />
             </Backgrounds>
             <MultipleRestrictedListOfFlags>
                 <RestrictedListOfFlags>Captor</RestrictedListOfFlags>

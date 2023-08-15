@@ -24,7 +24,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 	<CEEvent>
@@ -51,7 +51,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
      <CEEvent>
@@ -77,7 +77,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -102,7 +102,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -131,7 +131,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -160,7 +160,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -189,7 +189,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -209,7 +209,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Broken" Max="0" Ref="Hero" />
@@ -230,7 +230,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="NotNewCaptive" Max="0" Ref="Hero" />
@@ -250,7 +250,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveOffLimits" Min="1" Ref="Hero" />
@@ -271,7 +271,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Broken" Max="0" Ref="Hero" />
@@ -292,7 +292,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveAffection" Min="40" Ref="Hero" />
@@ -312,7 +312,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveAffection" Min="40" Ref="Hero" />
@@ -333,7 +333,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveAffection" Min="40" Ref="Hero" />
@@ -353,7 +353,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveAffection" Min="90" Ref="Hero" />
@@ -375,7 +375,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveAffection" Min="90" Ref="Hero" />
@@ -418,7 +418,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveObedience" Min="95" Ref="Hero" />
@@ -444,6 +444,7 @@
         <SkillsRequired>
             <SkillRequired Id="NotNewCaptive" Min="1" Ref="Hero" />
             <SkillRequired Id="CaptiveAffection" Min="50" Ref="Hero" />
+            <SkillRequired Id="CaptiveLustA" Min="50" Ref="Hero" />
             <SkillRequired Id="CaptiveCanis" Max="0" Ref="Hero"/>
         </SkillsRequired>
     </CEEvent>
@@ -533,7 +534,7 @@
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CaptiveCanis" Min="1" Ref="Hero"/>
-            <SkillRequired Id="CaptiveAugment" Max="80" Ref="Hero"/>
+            <SkillRequired Id="CaptiveObedience" Max="90" Ref="Hero"/>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero"/>
         </SkillsRequired>
     </CEEvent>
@@ -749,7 +750,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
@@ -811,7 +812,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <ReqHeroMaxAge>40</ReqHeroMaxAge>
         <SkillsRequired>
@@ -833,7 +834,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
@@ -854,7 +855,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
@@ -875,7 +876,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <ReqHeroMaxAge>40</ReqHeroMaxAge>
         <SkillsRequired>
@@ -896,7 +897,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
@@ -916,7 +917,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Broken" Min="1" Ref="Hero" />
@@ -936,7 +937,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Broken" Min="1" Ref="Hero" />
@@ -956,7 +957,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroHealthBelowPercentage>50</ReqHeroHealthBelowPercentage>
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
@@ -977,7 +978,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroHealthBelowPercentage>50</ReqHeroHealthBelowPercentage>
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
@@ -998,7 +999,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroHealthBelowPercentage>1</ReqHeroHealthBelowPercentage>
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
@@ -1020,7 +1021,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroHealthBelowPercentage>1</ReqHeroHealthBelowPercentage>
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
@@ -1042,7 +1043,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Broken" Min="1" Ref="Hero" />
@@ -1063,7 +1064,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Broken" Min="1" Ref="Hero" />
@@ -1083,7 +1084,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="Broken" Min="1" Ref="Hero" />
@@ -1103,7 +1104,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1119,7 +1120,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1136,7 +1137,7 @@
         <ReqHeroProstituteLevelAbove>33</ReqHeroProstituteLevelAbove>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1153,7 +1154,7 @@
         <ReqHeroProstituteLevelAbove>33</ReqHeroProstituteLevelAbove>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1170,7 +1171,7 @@
         <ReqHeroProstituteLevelAbove>66</ReqHeroProstituteLevelAbove>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1187,7 +1188,7 @@
         <ReqHeroProstituteLevelAbove>66</ReqHeroProstituteLevelAbove>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 <!-- Captor Conditions-->
@@ -1215,7 +1216,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- non _default, below, excludes pregnant captives, Thief/Warrior (wanderer/vassal?) -->
@@ -1248,7 +1249,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1279,7 +1280,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1311,7 +1312,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1338,7 +1339,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- DateSim conditions-->
@@ -1366,7 +1367,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1393,7 +1394,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1421,7 +1422,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1449,7 +1450,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1477,7 +1478,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1505,7 +1506,7 @@
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <!-- end DateSim conditions-->
@@ -1537,7 +1538,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1567,7 +1568,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1597,7 +1598,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 
@@ -1632,7 +1633,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1664,7 +1665,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1696,7 +1697,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1728,7 +1729,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1760,7 +1761,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 <!-- Other Conditions-->
@@ -1793,7 +1794,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1823,7 +1824,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -1854,7 +1855,7 @@
         </SkillsRequired> -->
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 <!-- Companion conditions-->
@@ -1872,7 +1873,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero"/>
@@ -1894,7 +1895,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -1916,7 +1917,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -1938,7 +1939,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -1960,7 +1961,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -1982,7 +1983,7 @@
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -2003,8 +2004,7 @@
             <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        <SexualContent>true</SexualContent>        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -2030,8 +2030,7 @@
             <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <ReqCustomCode>true</ReqCustomCode>
-        <SexualContent>true</SexualContent>
-        <!-- <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring> -->
+        <SexualContent>true</SexualContent>        
         <ReqHeroMinAge>18</ReqHeroMinAge>
         <SkillsRequired>
             <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
@@ -2041,6 +2040,66 @@
             <SkillRequired Id="CaptiveLustC" Min="80" Ref="Hero" />
             <SkillRequired Id="CaptiveLustT" Min="80" Ref="Hero" />
             <SkillRequired Id="CaptiveLustA" Min="80" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>    
+    <CEEvent>
+        <Name>BC_conditions_companion_f_warrior</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="IsWarrior" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_companion_f_warrior_virgin</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Virginal" Min="1" Ref="Hero"/>
+            <SkillRequired Id="IsWarrior" Min="1" Ref="Hero" />
+            <SkillRequired Id="NotNewCaptive" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_conditions_companion_f_warrior_current</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero"/>
+            <SkillRequired Id="IsWarrior" Min="1" Ref="Hero" />
         </SkillsRequired>
     </CEEvent>
 </CEEvents>

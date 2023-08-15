@@ -73,14 +73,14 @@
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_torture_whipping</EventName>
-                        <EventWeight>100</EventWeight>
+                        <EventWeight>1</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
                     </TriggerEvent>
-                    <!-- <TriggerEvent>
-                        <EventName>BC_event_companion_devoted_train_m_menu</EventName>
-                        <EventWeight>100</EventWeight>
+                    <TriggerEvent>
+                        <EventName>BC_event_torture_whipped_stripped</EventName>
+                        <EventWeight>1</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
-                    </TriggerEvent> -->
+                    </TriggerEvent>
                 </TriggerEvents>
             </Option>
             <Option>
