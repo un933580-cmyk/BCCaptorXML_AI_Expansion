@@ -281,7 +281,6 @@
         <ReqMoraleBelow>80</ReqMoraleBelow>
         <ReqHeroSkill>Leadership</ReqHeroSkill>
         <ReqHeroSkillLevelAbove>25</ReqHeroSkillLevelAbove>
-        <ReqHeroSkill>Leadership</ReqHeroSkill>
         <ReqHeroSkillLevelBelow>200</ReqHeroSkillLevelBelow>
     </CEEvent>
     <CEEvent>
@@ -366,7 +365,6 @@
         <ReqMoraleBelow>80</ReqMoraleBelow>
         <ReqHeroSkill>Leadership</ReqHeroSkill>
         <ReqHeroSkillLevelAbove>50</ReqHeroSkillLevelAbove>
-        <ReqHeroSkill>Leadership</ReqHeroSkill>
         <ReqHeroSkillLevelBelow>200</ReqHeroSkillLevelBelow>
     </CEEvent>
     <CEEvent>
