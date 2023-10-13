@@ -324,7 +324,6 @@
         <Text>{=TBOverrideRequiredEscapeEvents_Noncon004}You receive word that {CAPTIVE_NAME} has managed to escape. Her chains appear to have been broken using a tool of some sort.</Text>
         <BackgroundName>TB_character_knight</BackgroundName>
         <NotificationName>TB_random_notification</NotificationName>
-        <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Straight</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>

@@ -80,6 +80,8 @@
             <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
             <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true" />
             </SkillsToLevel>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
     </CEEvent>
     <CEEvent>
         <Name>BC_event_date_new_wife</Name>
@@ -169,6 +171,8 @@
                     <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveAugment" ByLevel="R -10 40" Ref="Hero" Color="Red"  HideNotification="true" />
                 </SkillsToLevel>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
     </CEEvent>
 
     <CEEvent>
@@ -349,6 +353,8 @@
             </Option>
         </Options>
         <SkillsRequired><SkillRequired Id="NotNewCaptive" Ref="Hero" Min="1" /></SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
     </CEEvent>
 
 

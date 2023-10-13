@@ -2652,9 +2652,12 @@
                 </SkillsToLevel>
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
-        </Options><SkillsToLevel>
-                        <Skill Id="SocialEnergy" ByLevel="-100" Ref="Hero" HideNotification="true" />
-                </SkillsToLevel>
+        </Options>
+        <SkillsToLevel>
+                <Skill Id="SocialEnergy" ByLevel="-100" Ref="Hero" HideNotification="true" />
+        </SkillsToLevel>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>

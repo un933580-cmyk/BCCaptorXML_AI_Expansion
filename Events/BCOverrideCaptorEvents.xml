@@ -989,7 +989,6 @@
             <SkillRequired Id="Broken" Max="0" Ref="Hero" />
             <SkillRequired Id="InTorture" Max="0" Ref="Hero" />
         </SkillsRequired>
-        <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
     </CEEvent>
     <CEEvent>
         <Name>CE_captor_male_three_female</Name>
@@ -1073,7 +1072,6 @@
             <SkillRequired Id="Broken" Max="0" Ref="Hero" />
             <SkillRequired Id="InTorture" Max="0" Ref="Hero" />
         </SkillsRequired>
-        <ReqHeroHealthAbovePercentage>25</ReqHeroHealthAbovePercentage>
     </CEEvent>
     <CEEvent>
         <Name>CE_captor_female_three_male</Name>
@@ -1378,6 +1376,8 @@
             <OptionText>Blank.</OptionText>
         </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
     </CEEvent>
     <CEEvent>
         <Name>CE_captor_female_bolton_two</Name>
@@ -1397,6 +1397,8 @@
             <OptionText>Blank.</OptionText>
         </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
     </CEEvent>
     <CEEvent>
         <Name>CE_captor_male_bolton_one</Name>
@@ -1416,6 +1418,8 @@
             <OptionText>Blank.</OptionText>
         </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
 
     </CEEvent>
     <CEEvent>
@@ -1437,6 +1441,8 @@
         </Option>
         </Options>
 
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
     </CEEvent>
 <!-- 'common_slavery' -->
     <CEEvent>

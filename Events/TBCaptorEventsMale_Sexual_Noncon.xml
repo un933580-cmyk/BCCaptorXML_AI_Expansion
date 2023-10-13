@@ -24,7 +24,6 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>Fill her womb with your seed.</OptionText>
                 <TriggerEventName>CE_captor_male_sexual_menu_three_self_next</TriggerEventName>
-                <TriggerEventName/>
                 <SkillsToLevel>
                     <Skill Id="CaptiveAffection" ByLevel="R -10 -15" Ref="Hero" Color="Cyan"/>
                 </SkillsToLevel>

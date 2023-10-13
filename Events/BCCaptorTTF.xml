@@ -178,6 +178,7 @@
         <SkillsRequired>
             <SkillRequired Id="Virginal" Ref="Hero" Max="0" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -281,6 +282,7 @@
                 <TriggerEventName>BC_event_male_sex_ttf_1</TriggerEventName>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -343,6 +345,7 @@
         <SkillsRequired>
             <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -434,6 +437,7 @@
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -1481,6 +1485,8 @@
                 <OptionText>{=BCCaptor_Text_14049}Throw her from your quarters.</OptionText>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <ReqHeroHealthAbovePercentage>15</ReqHeroHealthAbovePercentage>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -1626,6 +1632,8 @@
                     <OptionText>{=BCCaptor_Text_14049}Throw her from your quarters.</OptionText>
                 </Option>
             </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -2569,8 +2577,9 @@
                 <HealthTotal>R 15 45</HealthTotal>
             </Option>
         </Options>
-        <SkillsRequired><SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero"/></SkillsRequired>
-        <SkillsRequired><SkillRequired Id="CaptiveLustO" Min="5" Ref="Hero"/></SkillsRequired>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustO" Min="5" Ref="Hero"/></SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
@@ -2651,8 +2660,9 @@
                 <HealthTotal>R 15 45</HealthTotal>
             </Option>
         </Options>
-        <SkillsRequired><SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero"/></SkillsRequired>
-        <SkillsRequired><SkillRequired Id="CaptiveLustO" Min="5" Ref="Hero"/></SkillsRequired>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Min="15" Ref="Hero"/>
+            <SkillRequired Id="CaptiveLustO" Min="5" Ref="Hero"/></SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
@@ -3699,6 +3709,8 @@
             <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             <SkillRequired Id="Maiden" Ref="Hero" Min="1" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
@@ -3761,6 +3773,8 @@
         <SkillsRequired>
             <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring></WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent> 
@@ -3864,6 +3878,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -3904,6 +3920,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -3943,6 +3961,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -3983,6 +4003,8 @@
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
                 <SkillRequired Id="CaptiveLustV" Ref="Hero" Min="5" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4023,6 +4045,8 @@
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
                 <SkillRequired Id="CaptiveLustT" Ref="Hero" Min="10" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4063,6 +4087,8 @@
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
                 <SkillRequired Id="CaptiveLustO" Ref="Hero" Min="10" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4103,6 +4129,8 @@
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
                 <SkillRequired Id="CaptiveLustA" Ref="Hero" Min="15" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>      
@@ -4143,6 +4171,8 @@
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
                 <SkillRequired Id="CaptiveLustT" Ref="Hero" Min="25" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4184,6 +4214,8 @@
                 <SkillRequired Id="CaptiveLustA" Ref="Hero" Min="25" />
                 <SkillRequired Id="CaptiveLustO" Ref="Hero" Max="25" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent> 
@@ -4238,6 +4270,8 @@
                 <SkillRequired Id="CaptiveLustA" Ref="Hero" Min="5" />
                 <SkillRequired Id="CaptiveLustV" Ref="Hero" Min="25" />
             </SkillsRequired>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4274,6 +4308,8 @@
                 </SkillsToLevel>
                 </Option>
             </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4314,6 +4350,8 @@
                 </SkillsToLevel>
                 </Option>
             </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4356,6 +4394,8 @@
                 <SkillRequired Id="CaptiveLustA" Ref="Hero" Min="25" />
                 <SkillRequired Id="CaptiveLustV" Ref="Hero" Max="25" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4400,6 +4440,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4477,6 +4519,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4517,6 +4561,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4556,6 +4602,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4600,6 +4648,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4649,6 +4699,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4733,6 +4785,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4776,6 +4830,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4826,6 +4882,8 @@
             </SkillsRequired>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
         </CEEvent>
         <CEEvent>
             <Name>BC_event_female_sex_ttv_take_long</Name>
@@ -4870,6 +4928,8 @@
             <SkillsRequired>
                 <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
             </SkillsRequired>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -4933,6 +4993,8 @@
             </SkillsRequired>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
         </CEEvent>
         <CEEvent>
             <Name>BC_event_male_sex_ttv_take_menu</Name>
@@ -5014,6 +5076,8 @@
                     </SkillsRequired>
                 </Option>
             </Options>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
             <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
             <ReqHeroMinAge>18</ReqHeroMinAge>
         </CEEvent>
@@ -5068,6 +5132,7 @@
         </Options>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <SexualContent>true</SexualContent>
+        <ReqCustomCode>true</ReqCustomCode>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
     <CEEvent>
@@ -5116,6 +5181,7 @@
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -5166,6 +5232,7 @@
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>

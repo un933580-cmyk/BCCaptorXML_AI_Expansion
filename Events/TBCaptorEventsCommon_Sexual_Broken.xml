@@ -153,9 +153,6 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>Ignore the wretch.</OptionText>
                 <HealthTotal>10</HealthTotal>
-                <MultipleRestrictedListOfConsequences>
-                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
-                </MultipleRestrictedListOfConsequences>
             </Option>
             <Option>
                 <Order>0</Order>

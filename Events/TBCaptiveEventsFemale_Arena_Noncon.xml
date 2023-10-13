@@ -263,8 +263,6 @@
                 <RenownTotal>R 1 3</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Charm" ByXP="250" Ref="Hero" />
-                </SkillsToLevel>
-                <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="250" Ref="Hero" />
                 </SkillsToLevel>
                 <TriggerEvents>

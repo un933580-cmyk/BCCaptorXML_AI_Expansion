@@ -223,6 +223,7 @@
         <SkillsRequired>
             <SkillRequired Id="Virginal" Ref="Hero" Max="0" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -367,6 +368,7 @@
                 <OptionText>{=BCCaptor_Text_14049}Throw her from your quarters.</OptionText>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -518,6 +520,7 @@
                 <OptionText>{=BCCaptor_Text_14049}Throw her from your quarters.</OptionText>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -1146,6 +1149,8 @@
         <SkillsRequired>
             <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
@@ -1192,6 +1197,8 @@
         <SkillsRequired>
             <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
@@ -1391,6 +1398,8 @@
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
@@ -1818,6 +1827,7 @@
         </Options>
         <SkillsRequired><SkillRequired Id="CaptiveAffection" Max="50" Ref="Hero" /></SkillsRequired>
         <ReqHeroHealthAbovePercentage>15</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -1883,6 +1893,7 @@
                 <OptionText>{=BCCaptor_Text_14199}Throw him from your quarters.</OptionText>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
