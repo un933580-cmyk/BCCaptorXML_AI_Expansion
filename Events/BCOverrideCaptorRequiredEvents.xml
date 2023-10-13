@@ -270,7 +270,6 @@
     <CEEvent>
         <Name>CE_captor_female_sexual_menu_m</Name>
         <Text>{CAPTIVE_NAME} kneels bound before you, helpless to resist your whims. What fate do you have in mind for him, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
-        <Text>You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for him?</Text>
         <BackgroundName>BC_captor_captive_male_hawk</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>

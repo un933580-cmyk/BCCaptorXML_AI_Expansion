@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+  <Culture id="vakken"
+           name="{=bHh03ob0}Vakken"
+           is_main_culture="false"
+           elite_basic_troop="NPCCharacter.sturgian_warrior_son"
+           basic_troop="NPCCharacter.sturgian_recruit"
+           can_have_settlement="true"
+           town_edge_number="16"
+           villager_party_template="PartyTemplate.villager_sturgia_template"
+           encounter_background_mesh="encounter_sturgia"
+           caravan_party_template="PartyTemplate.caravan_template_sturgia"
+           militia_party_template="PartyTemplate.militia_sturgia_template"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
+    <banner_bearer_replacement_weapons>
+      <item id="Item.sturgia_sword_1_t2" />
+      <item id="Item.sturgia_sword_2_t3" />
+      <item id="Item.sturgia_sword_4_t4" />
+      <item id="Item.sturgia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <notable_and_wanderer_templates>
+        <template name="spcwandererzbccaptorvakkenmaiden" />
+        <!-- <template name="spcwandererzbccaptorvakkenscylda" /> -->
+    </notable_and_wanderer_templates>
+    <male_names>
+      <name name="{=jhT7CfhM}Aivar" />
+      <name name="{=GaMUU2Pf}Kaupi" />
+      <name name="{=3ipKaDWU}Natti" />
+      <name name="{=kL0ldFLG}Pekko" />
+      <name name="{=W1ZpjgQO}Rauko" />
+      <name name="{=WpTXwQw1}Vuoni" />
+    </male_names>
+    <female_names>
+      <name name="{=FlexUfSP}Alivar" />
+      <name name="{=4bQbv3oN}Arha" />
+      <name name="{=rDPExYMQ}Eitar" />
+      <name name="{=jFdZ7mlB}Ilikki" />
+      <name name="{=ELpRLYQt}Jalin" />
+      <name name="{=hBuBpxjb}Kaidi" />
+      <name name="{=j8IOY5Cy}Luona" />
+      <name name="{=iiGXfCWd}Menar" />
+      <name name="{=gG1O5V1n}Olianar" />
+      <name name="{=XAF12HV0}Vikka" />
+      <name name="{=XAF12HV0}Fenni" />
+      <name name="{=XAF12HV0}Lesja" />
+      <name name="{=XAF12HV0}Lierne" />
+      <name name="{=XAF12HV0}Sami" />
+    </female_names>
+  </Culture>
+</SPCultures>

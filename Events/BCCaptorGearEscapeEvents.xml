@@ -57,7 +57,7 @@
         <ReqCaptivesAbove>50</ReqCaptivesAbove>
         <ReqFemaleCaptivesAbove>10</ReqFemaleCaptivesAbove>
     </CEEvent>
-    <!-- <CEEvent>
+    <CEEvent>
         <Name>BC_event_slave_escape_city</Name>
         <Text>You are returning to the street where your party's rooms are located, when you are horrified to see some of your Beloved Harem have escaped and are making away down the alley! You command them to return to the safety of your embrace, but they turn on you, grabbing weapons...</Text>
         <BackgroundName>BC_image_captive_escape_dagger</BackgroundName>
@@ -105,7 +105,7 @@
         <ReqCaptorTrait>Mercy</ReqCaptorTrait>
         <ReqCaptorTraitLevelBelow>-1</ReqCaptorTraitLevelBelow>
         <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent> -->
+    </CEEvent>
     <CEEvent>
         <Name>BC_event_slave_escape_lose</Name>
         <Text>{=BCCaptor_Text_12045}You are dragged down by weight of numbers, beaten on the ground, your clothes scratched from your body; but the women cannot dare stay long to take out their full wrath on you, and quickly disperse.</Text>
@@ -222,7 +222,7 @@
         <ReqCaptivesAbove>100</ReqCaptivesAbove>
         <ReqFemaleCaptivesAbove>30</ReqFemaleCaptivesAbove>
     </CEEvent>
-    <!-- <CEEvent>
+    <CEEvent>
         <Name>BC_event_slave_revolt_city</Name>
         <Text>You are returning to the street where your party's rooms are located, when you are horrified to see some of your Beloved Harem have escaped and are making away down the alley! You command them to return to the safety of your embrace, but they turn on you, grabbing weapons...</Text>
         <BackgroundName>BC_image_captive_escape_dagger</BackgroundName>
@@ -276,7 +276,7 @@
         <ReqCaptorTrait>Mercy</ReqCaptorTrait>
         <ReqCaptorTraitLevelBelow>-2</ReqCaptorTraitLevelBelow>
         <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent> -->
+    </CEEvent>
     <CEEvent>
         <Name>BC_event_slave_revolt_win</Name>
         <Text>{=BCCaptor_Text_12047}Stupid little fucktoys are no match for you, and you quickly chain them back up.</Text>
@@ -438,7 +438,7 @@
         <ReqCaptorTraitLevelBelow>-2</ReqCaptorTraitLevelBelow>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
-    <!-- <CEEvent>
+    <CEEvent>
         <Name>BC_event_mr_lover_city</Name>
         <Text>You are returning to the street where your party's rooms are located, when you are horrified to see a strange man making off with your captive, {CAPTIVE_NAME}!</Text>
         <BackgroundName>NK_tds_entrance</BackgroundName>
@@ -492,7 +492,7 @@
         <ReqCaptorTrait>Mercy</ReqCaptorTrait>
         <ReqCaptorTraitLevelBelow>-1</ReqCaptorTraitLevelBelow>
         <ReqHeroMinAge>18</ReqHeroMinAge>
-    </CEEvent> -->
+    </CEEvent>
     <CEEvent>
         <Name>BC_event_lover_lose</Name>
         <Text>{=BCCaptor_Text_12054}He fights like a demon! You can tell he is distracted by {CAPTIVE_NAME}&quot;s wellbeing, but he still bests you handily, knocking your weapon from your hand, and following up with a quick blow to the head. You lose consciousness...</Text>

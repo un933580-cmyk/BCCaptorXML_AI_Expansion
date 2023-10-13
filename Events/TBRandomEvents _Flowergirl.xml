@@ -65,6 +65,9 @@
 		<SkillsRequired>
 			<SkillRequired Id="FlowerGirlFavor" Ref="Hero" Max="0" />
 		</SkillsRequired>
+        <TraitsRequired>
+            <TraitRequired Id="Mercy" Ref="Hero" Min="0" />            
+        </TraitsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
         <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
@@ -236,6 +239,9 @@
 		<SkillsRequired>
 			<SkillRequired Id="FlowerGirlFavor" Ref="Hero" Min="10" />
 		</SkillsRequired>
+        <TraitsRequired>
+            <TraitRequired Id="Mercy" Ref="Hero" Min="0" />            
+        </TraitsRequired>
     </CEEvent>
 	<CEEvent>
         <Name>TB_flowergirl_proposition</Name>
@@ -253,11 +259,99 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>{=TBRandomEvents_Flowergirl016}Perhaps she wants courting...</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_flowergirl_pinup</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
 			</Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
         <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_flowergirl_pinup</Name>
+        <Text>{=BCRandomEvents_Flowergirl100}Something tells you to follow her again, and you round a corner where she has stripped completely! She stammers, &quot;Though I am a lowly girl, I do know what people want when they look at me.&quot;</Text>
+        <BackgroundName>BC_image_sex_flowergirl_topless</BackgroundName>
+        <Backgrounds>
+            <Background Name="BC_image_sex_flowergirl_nude" UseConditions="BC_conditions_hero_female" />
+            <Background Name="BC_image_sex_flowergirl_topless"  UseConditions="BC_conditions_hero_male"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+			<RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=TBRandomEvents_Flowergirl101}Take her.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_flowergirl_jackpot</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+			</Option>
+        </Options>
+		<SkillsRequired>
+			<SkillRequired Id="FlowerGirlFavor" Ref="Hero" Min="50" />
+		</SkillsRequired>
+        <TraitsRequired>
+            <TraitRequired Id="Mercy" Ref="Hero" Min="0" />            
+        </TraitsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>TB_flowergirl_jackpot</Name>
+        <Text>{=BCRandomEvents_Flowergirl102}</Text>
+        <Backgrounds>
+            <Background Name="BC_image_sex_flowergirl_ff" UseConditions="BC_conditions_hero_female" />
+            <Background Name="BC_image_sex_flowergirl_mf"  UseConditions="BC_conditions_hero_male"/>
+        </Backgrounds>
+        <NotificationName>TB_random_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+			<RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=DefaultCaptorEventsFemale18}Continue on your way.</OptionText>
+				<SkillsToLevel>
+					<Skill Id="FlowerGirlFavor" ByLevel="-500" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R -200 -250" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R -200 -50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R -200 -50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R -200 -50" Ref="Hero" Color="Yellow"   HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -200 -50" Ref="Hero" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 40 80" Ref="Hero" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+			</Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+		<SkillsRequired>
+			<SkillRequired Id="FlowerGirlFavor" Ref="Hero" Min="50" />
+		</SkillsRequired>
+        <TraitsRequired>
+            <TraitRequired Id="Mercy" Ref="Hero" Min="0" />            
+        </TraitsRequired>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
 </CEEvents>

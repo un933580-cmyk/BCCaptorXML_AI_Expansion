@@ -20,8 +20,8 @@
 		<CESkill Id="Blackmailed" Name="{=BCCaptor_Text_00001}Blackmailed" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="Broken" Name="{=BCCaptor_Text_00002}Broken" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="ClaimedWomb" Name="{=BCCaptor_Text_00003}Claimed" MinLevel="0" MaxLevel="1" />	
-		<CESkill Id="CaptiveAffection" Name="{=BCCaptor_Text_00004}Affection" MinLevel="0" MaxLevel="150"  />
-        <CESkill Id="CaptiveObedience" Name="{=BCCaptor_Text_00005}Obedience" MinLevel="0" MaxLevel="150"  />
+		<CESkill Id="CaptiveAffection" Name="{=BCCaptor_Text_00004}Affection" MinLevel="0" MaxLevel="100"  />
+        <CESkill Id="CaptiveObedience" Name="{=BCCaptor_Text_00005}Obedience" MinLevel="0" MaxLevel="100"  />
 		<CESkill Id="Concubine" Name="{=BCCaptor_Text_00006}Concubine" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="Devoted" Name="{=BCCaptor_Text_00007}Devoted" MinLevel="0" MaxLevel="1" />
 		<CESkill Id="Devotion" Name="{=BCCaptor_Text_00028}Devotion" MinLevel="0" MaxLevel="1000" />
@@ -29,6 +29,7 @@
         <CESkill Id="MindBroken" Name="{=BCCaptor_Text_00008}Broken" MinLevel="0" MaxLevel="1" />
         <CESkill Id="SocialEnergy" Name="{=BCCaptor_Text_00009}Energy" MinLevel="0" MaxLevel="100" />
 		<CESkill Id="Deflowered" Name="???" MinLevel="0" MaxLevel="1" />
+		<CESkill Id="CaptiveStripped" Name="???" MinLevel="0" MaxLevel="1" SetZeroOnEscape="true" />
 		
 		<!-- Alchemist Events -->
 		<CESkill Id="AlchemistSecretKnowledge" Name="???" MinLevel="0" MaxLevel="100" />

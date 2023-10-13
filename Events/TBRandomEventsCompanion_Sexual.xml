@@ -58,7 +58,7 @@
                 </SkillsToLevel>
                 <BattleSettings Ref="Regular" EnemyName="Kidnapper" Victory="TB_companion_kidnapped_duel_f" Defeat="TB_kidnapped_wilds" PlayerTroops="0">
                     <SpawnTroops>
-                        <SpawnTroop Ref="Enemy" Id="conspiracy_commander_antiempire" Number="1" />
+                        <SpawnTroop Ref="Enemy" Id="spc_notable_empire_gl4" Number="1" />
                     </SpawnTroops>
                 </BattleSettings>
                 <Companions>
@@ -250,7 +250,7 @@
                 </SkillsRequired>
                 <BattleSettings Ref="Regular" EnemyName="Kidnapper" Victory="TB_companion_kidnapped_duel_m" Defeat="TB_kidnapped_wilds" PlayerTroops="0">
                     <SpawnTroops>
-                        <SpawnTroop Ref="Enemy" Id="conspiracy_commander_antiempire" Number="1" />
+                        <SpawnTroop Ref="Enemy" Id="spc_notable_empire_gl4" Number="1" />
                     </SpawnTroops>
                 </BattleSettings>
                 <Companions>
@@ -1015,7 +1015,7 @@
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
             <Option>
@@ -1055,7 +1055,7 @@
         <NotificationName>TB_random_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>
-            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
         </MultipleRestrictedListOfFlags>
         <Options>
             <Option>

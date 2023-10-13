@@ -2055,12 +2055,12 @@
                 <SkillsToLevel>
                     <Skill Id="OneHanded" ByXP="750" Ref="Hero" />
                 </SkillsToLevel>
-                <TriggerEventName>TB_catcall_duel_win</TriggerEventName>                
-                <!-- <BattleSettings Ref="City" EnemyName="Catcaller" Victory="TB_catcall_duel_win" Defeat="TB_catcall_duel_lose" PlayerTroops="0">
+                <!-- <TriggerEventName>TB_catcall_duel_win</TriggerEventName>                 -->
+                <BattleSettings Ref="City" EnemyName="Catcaller" Victory="TB_catcall_duel_win" Defeat="TB_catcall_duel_lose" PlayerTroops="0">
                     <SpawnTroops>
                         <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="1" />
                     </SpawnTroops>
-                </BattleSettings> -->
+                </BattleSettings>
             </Option>
             <Option>
                 <Order>1</Order>
@@ -2460,7 +2460,6 @@
                     <Skill Id="Charm" ByXP="250" Ref="Hero" HideNotification="true" />
                 </SkillsToLevel>
                 <TriggerEventName>TB_drugged_public_resist</TriggerEventName>
-                <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>

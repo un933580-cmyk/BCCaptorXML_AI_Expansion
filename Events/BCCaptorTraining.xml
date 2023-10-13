@@ -1839,6 +1839,7 @@
                     <Skill Id="CaptiveLustC" ByLevel="R 10 3" Ref="Captor" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R 10 3" Ref="Captor" Color="Yellow"  HideNotification="true" />
 					<Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true" />
+					<Skill Id="CaptiveStripped" ByLevel="1" Ref="Hero" HideNotification="true" />
                 </SkillsToLevel>
                 <StripSettings QuestEnabled="false">
                     <Clothing>Slave</Clothing>
@@ -1849,6 +1850,60 @@
             </Option>
         </Options>        
         <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveStripped" Ref="Hero" Max="0" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>BC_event_torture_whipped_stripped</Name>
+        <Text>You chain {CAPTIVE_NAME} to a post as {?ISCAPTIVEFEMALE}she struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to her back and buttocks, taking care to let each stripe rest long enough that she can't get used to the pain. Her screams are terrible to hear, but by the time you are done she's incoherently begging you to stop, gibbering as she promises she'll do whatever you want.{?}he struggles. Taking a long, vicious-looking whip from your pack, you begin carefully applying it to his back and buttocks, taking care to let each stripe rest long enough that he can't get used to the pain. His screams are terrible to hear, but by the time you are done he's incoherently begging you to stop, gibbering as he promises he'll do whatever you want.{\?}</Text>
+        <Backgrounds>
+            <Background Name="BC_captor_torture_whipping_back" UseConditions="BC_event_conditions_captive_female_default" />
+            <Background Name="BC_image_male_back_scars" UseConditions="BC_event_conditions_captive_male" />
+        </Backgrounds>
+        <NotificationName>BC_image_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Perhaps now {?ISCAPTIVEFEMALE}s{?}{\?}he'll be more respectful.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 7 14" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -30" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 10 3" Ref="Captor" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 10 3" Ref="Captor" Color="Yellow"  HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="R 10 3" Ref="Captor" Color="Yellow"  HideNotification="true" />
+					<Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                </SkillsToLevel>
+                <HealthTotal>R -25 -50</HealthTotal>
+                <RenownTotal>R -5 -10</RenownTotal>
+                <RelationTotal>R -1 -3</RelationTotal>
+            </Option>
+        </Options>        
+        <ReqHeroHealthAbovePercentage>9</ReqHeroHealthAbovePercentage>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveStripped" Ref="Hero" Min="1" />
+        </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
         <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
@@ -2597,9 +2652,12 @@
                 </SkillsToLevel>
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
-        </Options><SkillsToLevel>
-                        <Skill Id="SocialEnergy" ByLevel="-100" Ref="Hero" HideNotification="true" />
-                </SkillsToLevel>
+        </Options>
+        <SkillsToLevel>
+                <Skill Id="SocialEnergy" ByLevel="-100" Ref="Hero" HideNotification="true" />
+        </SkillsToLevel>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>

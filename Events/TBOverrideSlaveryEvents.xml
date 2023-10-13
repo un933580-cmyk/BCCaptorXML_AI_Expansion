@@ -19,6 +19,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_market</Name>
@@ -38,6 +40,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_market_slave</Name>
@@ -57,6 +61,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_part_one</Name>
@@ -76,6 +82,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_broken</Name>
@@ -95,6 +103,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_broken_escape</Name>
@@ -114,6 +124,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_sold_caravan</Name>
@@ -133,6 +145,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_sold_caravan_slave</Name>
@@ -152,6 +166,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_sold</Name>
@@ -171,6 +187,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_sold_slave</Name>
@@ -190,6 +208,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_caravan_slave_one</Name>
@@ -209,6 +229,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_caravan_slave_two</Name>
@@ -228,6 +250,8 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
   <CEEvent>
     <Name>CE_slavery_alt_101</Name>
@@ -247,5 +271,7 @@
         <OptionText>{=TBOverrideSlaveryEvents002}Blank.</OptionText>
       </Option>
     </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
   </CEEvent>
 </CEEvents>

@@ -8,7 +8,7 @@
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptivesOutNumber</RestrictedListOfFlags>
-            <!-- <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags> -->
+            <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
             <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
             <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
@@ -24,7 +24,7 @@
                     <RestrictedListOfConsequences>RebelPrisoners</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Fight back!</OptionText>
+                <OptionText>{=BCCaptor_Text_12453}Fight back!</OptionText>
                 <RenownTotal>R 1 7</RenownTotal>
                 <SkillsToLevel>
                     <Skill Id="Leadership" ByXP="1250" Ref="Hero" />
@@ -36,6 +36,7 @@
         </SkillsRequired>
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
+        <ReqTroopsBelow>350</ReqTroopsBelow>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>

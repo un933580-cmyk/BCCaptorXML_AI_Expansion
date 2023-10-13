@@ -80,6 +80,8 @@
             <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
             <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true" />
             </SkillsToLevel>
+            <ReqCustomCode>true</ReqCustomCode>
+            <SexualContent>true</SexualContent>
     </CEEvent>
     <CEEvent>
         <Name>BC_event_date_new_wife</Name>
@@ -169,6 +171,8 @@
                     <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveAugment" ByLevel="R -10 40" Ref="Hero" Color="Red"  HideNotification="true" />
                 </SkillsToLevel>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
     </CEEvent>
 
     <CEEvent>
@@ -349,6 +353,8 @@
             </Option>
         </Options>
         <SkillsRequired><SkillRequired Id="NotNewCaptive" Ref="Hero" Min="1" /></SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
     </CEEvent>
 
 
@@ -797,7 +803,7 @@
             <Name>BC_event_date_intimate_start</Name>
             <Backgrounds>
                 <Background Name="BC_captor_dating_mm_kissing" UseConditions="BC_event_conditions_captor_male_captive_male" />
-                <Background Name="BC_captor_dating_ff_kissing" UseConditions="BC_event_conditions_captor_female_captive_female" />
+                <Background Name="BC_image_sex_ff_lap_kiss" UseConditions="BC_event_conditions_captor_female_captive_female" />
                 <Background Name="BC_captor_dating_mf_kissing" />
             </Backgrounds>
             <Text>{=BCCaptor_Text_12030}You lead {CAPTIVE_NAME} to an intimate setting, leaning in to brush your lips against {?ISCAPTIVEFEMALE}hers. She hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms her. Your embrace goes on for some time, but when you move to feel under her dress she stops, pulling back, and tells you she's not yet ready to willingly give herself to you.{?}his. He hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms him. Your embrace goes on for some time, but when you move to feel the bulge in his pants he stops, pulling back, and tells you he's not yet ready to willingly give himself to you.{\?}</Text>
@@ -896,7 +902,7 @@
         <CEEvent>
             <Name>BC_event_date_intimate_start_ff</Name>
             <Backgrounds>
-                <Background Name="BC_captor_dating_ff_kissing" />
+                <Background Name="BC_image_sex_ff_lap_kiss" />
             </Backgrounds>
             <Text>{=BCCaptor_Text_12030}You lead {CAPTIVE_NAME} to an intimate setting, leaning in to brush your lips against {?ISCAPTIVEFEMALE}hers. She hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms her. Your embrace goes on for some time, but when you move to feel under her dress she stops, pulling back, and tells you she's not yet ready to willingly give herself to you.{?}his. He hesitates briefly, then gives in, kissing you desperately as even this slight hint of kindness overwhelms him. Your embrace goes on for some time, but when you move to feel the bulge in his pants he stops, pulling back, and tells you he's not yet ready to willingly give himself to you.{\?}</Text>
             <NotificationName>BC_image_notification</NotificationName>
@@ -1047,7 +1053,18 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
                     <OptionText>{=BCCaptor_Text_12036}Whip {?ISCAPTIVEFEMALE}her for her {?}him for his {\?}defiance.</OptionText>
-                    <TriggerEventName>BC_event_torture_whipping</TriggerEventName>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>BC_event_torture_whipping</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_torture_whipped_stripped</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                    </TriggerEvents>
                     <SlaveryTotal>R 10 15</SlaveryTotal>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="-100" Ref="Hero" HideNotification="true"/>
@@ -1120,7 +1137,18 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
                     <OptionText>{=BCCaptor_Text_12036}Whip {?ISCAPTIVEFEMALE}her for her{?}him for his{\?} defiance.</OptionText>
-                    <TriggerEventName>BC_event_torture_whipping</TriggerEventName>
+                    <TriggerEvents>
+                        <TriggerEvent>
+                            <EventName>BC_event_torture_whipping</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                        <TriggerEvent>
+                            <EventName>BC_event_torture_whipped_stripped</EventName>
+                            <EventWeight>1</EventWeight>
+                            <EventUseConditions>True</EventUseConditions>
+                        </TriggerEvent>
+                    </TriggerEvents>
                     <SlaveryTotal>R 10 15</SlaveryTotal>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="-100" Ref="Hero" HideNotification="true"/>

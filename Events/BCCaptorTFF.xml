@@ -118,6 +118,11 @@
                         <EventUseConditions>True</EventUseConditions>
                     </TriggerEvent>
                     <TriggerEvent>
+                        <EventName>BC_event_female_sex_fff_2</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
                         <EventName>BC_event_male_sex_ttf_front</EventName>
                         <EventWeight>1</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
@@ -218,6 +223,7 @@
         <SkillsRequired>
             <SkillRequired Id="Virginal" Ref="Hero" Max="0" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -306,7 +312,7 @@
                 <TriggerEventName>BC_event_female_sex_ttf_anal</TriggerEventName>
                 <SkillsRequired>
                     <SkillRequired Id="CaptiveEsteem" Max="50" Ref="Hero" />
-                    <SkillRequired Id="CaptiveLustA" Min="15" Ref="Hero" />
+                    <SkillRequired Id="CaptiveLustA" Min="45" Ref="Hero" />
                 </SkillsRequired>
             </Option>
             <Option>
@@ -362,6 +368,7 @@
                 <OptionText>{=BCCaptor_Text_14049}Throw her from your quarters.</OptionText>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -513,6 +520,7 @@
                 <OptionText>{=BCCaptor_Text_14049}Throw her from your quarters.</OptionText>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -610,7 +618,7 @@
         <Text>{=BCCaptor_Text_14177}{?ISCAPTIVEFEMALE}Her head slathers up and back and down and forth across your skin, then she lets you hold her in your hand{?}Your head slathers up and back and down and forth across his tip, until he explodes at your last provocation{\?}...</Text>
         <Backgrounds>
             <Background Name="BC_captor_dating_mf_sucking" UseConditions="BC_event_conditions_captor_female_captive_male" />
-            <Background Name="BC_captor_dating_ff_front_rub" UseConditions="BC_event_conditions_captor_female_captive_female" />
+            <Background Name="BC_image_sex_ff_ciri_stand_kiss" UseConditions="BC_event_conditions_captor_female_captive_female" />
         </Backgrounds>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -1027,6 +1035,82 @@
         <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
+    <CEEvent>
+        <Name>BC_event_female_sex_fff_1</Name>
+        <Text>{=BCCaptor_Text_14183}You call up a wanton slut from your camp, formerly from the finest family of course, just as {CAPTIVE_NAME}. Her eyes widen and shut as you and your guest give and are given tongues, skin, fingers... You press together until neither of you can wake {CAPTIVE_NAME}, and then...</Text>
+        <BackgroundName>BC_image_sex_fff_greco</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_14070}Perhaps we can use her again.</OptionText>                
+                <TriggerEvents><!-- Lotto Menus for your POST SEX EXIT OPTIONS-->
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_tired</EventName>
+                                <EventWeight>10</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_male_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>BC_event_female_sex_ttf_1</EventName>
+                                <EventWeight>1</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                </TriggerEvents>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -8 14" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                        <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+            <Option>
+                <Order>3</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_14071}Leave them sleeping and return to your warband.</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 8 15" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 12" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 2 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -2 14" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+                <HealthTotal>R 15 45</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
 <!-- ff ttv -->        
     <CEEvent>
         <Name>BC_event_female_sex_ttv_v1</Name>
@@ -1065,6 +1149,8 @@
         <SkillsRequired>
             <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
@@ -1103,7 +1189,7 @@
                 <Skill Id="CaptiveLustC" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
                 <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
                 <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
-                <Skill Id="CaptiveLustV" ByLevel="R -100 -50" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                <Skill Id="CaptiveLustV" ByLevel="R -100 -50" Ref="Captor" Color="Yellow" />
                 <Skill Id="CaptiveEsteem" ByLevel="100" Ref="Captor" Color="Yellow" HideNotification="true" />
             </SkillsToLevel>
             </Option>
@@ -1111,6 +1197,8 @@
         <SkillsRequired>
             <SkillRequired Id="Virginal" Ref="Hero" Min="1" />
         </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>4</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
@@ -1310,6 +1398,8 @@
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
@@ -1737,6 +1827,7 @@
         </Options>
         <SkillsRequired><SkillRequired Id="CaptiveAffection" Max="50" Ref="Hero" /></SkillsRequired>
         <ReqHeroHealthAbovePercentage>15</ReqHeroHealthAbovePercentage>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
@@ -1802,6 +1893,7 @@
                 <OptionText>{=BCCaptor_Text_14199}Throw him from your quarters.</OptionText>
             </Option>
         </Options>
+        <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>true</SexualContent>
         <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
