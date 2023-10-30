@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <!-- NO TRANSLATIONS HERE - BC -->
     <CEEvent>
         <Name>TB_captor_training_menu</Name>
         <Text>You decide to teach {CAPTIVE_NAME} to better obey your commands. What approach do you take?</Text>
@@ -1325,7 +1326,7 @@
                 </MultipleRestrictedListOfConsequences>
                 <HealthTotal>R 10 50</HealthTotal>
                 <RelationTotal>R 1 3</RelationTotal>
-                <OptionText>Let {?ISCAPTIVEFEMALE}her{?}him{\?} rest.</OptionText>
+                <OptionText>{=BCCaptor_Text_14467}Let {?ISCAPTIVEFEMALE}her{?}him{\?} rest.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true"/>
                     <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R 0 3" HideNotification="true"/>

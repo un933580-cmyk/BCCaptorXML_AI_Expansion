@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="TBCaptiveEvents_Common_001" text="Your captor decides to have you hoisted on rough ropes and lashed by two men at once. The strikes burns intensely, and your body is covered in bloody stripes." />
+    <string id="TBCaptiveEvents_Common_002" text="Stand tall, taking your punishment as bravely as possible." />
+    <string id="TBCaptiveEvents_Common_003" text="Give into exhaustion as they lash your unconscious body." />
+    <string id="TBCaptiveEvents_Common_004" text="Beg and plead for mercy." />
+    <string id="TBCaptiveEvents_Common_005" text="You overhear two of your captors jovially trading insults with each other. One of them calls the other the son of a bandersnatch, and the other counters by insulting his skill with a blade, likening it to a snicker-snack. As the first begins a brief anecdote about their brillig, you..." />
+    <string id="TBCaptiveEvents_Common_006" text="Call them both mimsy Jabberwocks." />
+    <string id="TBCaptiveEvents_Common_007" text="Tell them their jokes are awful." />
+    <string id="TBCaptiveEvents_Common_008" text="Try to ignore them." />
+    <string id="TBCaptiveEvents_Common_009" text="Your captor wants information about your clan's military plans, and demands that you provide it. They threaten to torture you should you defy them." />
+    <string id="TBCaptiveEvents_Common_010" text="Tell them what you know to avoid punishment." />
+    <string id="TBCaptiveEvents_Common_011" text="Tell them nothing." />
+    <string id="TBCaptiveEvents_Common_012" text="Some of your fellow prisoners are swapping stories. It turns out an old man you'd thought was a tanner of some sort used to be a master with the blade, and he demonstrates with a sharpened stick. His technique is unusual but seems quite effective, and he smiles wistfully when someone asks him how such a talented swordsman could have been captured. He begins spinning a tale about the perils of forbidden love..." />
+    <string id="TBCaptiveEvents_Common_013" text="Keep listening to his stories." />
+    <string id="TBCaptiveEvents_Common_014" text="Ask him to teach you his techniques." />
+    <string id="TBCaptiveEvents_Common_015" text="Some of the other prisoners are boasting about their prowess, describing incredible feats of strength or skill. A miller claims he can heft a millstone with one hand, and a spindly-looking woman claims she's cooked meals for every king in Calradia." />
+    <string id="TBCaptiveEvents_Common_016" text="Boast that you've bested a thousand men in combat - barehanded!" />
+    <string id="TBCaptiveEvents_Common_017" text="Call them liars." />
+    <string id="TBCaptiveEvents_Common_018" text="It's mealtime, and you're served your captor's usual mealy porridge. It doesn't taste of much, but it's filling enough. One of your fellow prisoners reveals that he's procured a collection of herbs and mushrooms, and offers to share." />
+    <string id="TBCaptiveEvents_Common_019" text="Eagerly add a touch of spice to your meal." />
+    <string id="TBCaptiveEvents_Common_020" text="Thank them, but continue as you were." />
+    <string id="TBCaptiveEvents_Common_021" text="The terrain you're being forced to march through is unusually rough, and you step wrong, damaging your ankle and falling to the ground. Your captors laugh as you climb to your feet, but become irritated when they realize you're slowing them down." />
+    <string id="TBCaptiveEvents_Common_022" text="Try to keep up despite your injury." />
+    <string id="TBCaptiveEvents_Common_023" text="Ask to ride the caravan to avoid making your injury worse." />
+    <string id="TBCaptiveEvents_Common_024" text="You've angered a few of the other prisoners, and they've come to vent their displeasure. They take it in turns to hold you down while the others kick and beat you, and show no sign of stopping as your injuries get worse." />
+    <string id="TBCaptiveEvents_Common_025" text="Try to roll with the punches." />
+    <string id="TBCaptiveEvents_Common_026" text="Call for help from the guards." />
+    <string id="TBCaptiveEvents_Common_027" text="A elaborate escape plan comes to you in your sleep. You'll frame one of the higher-ranked guards for stealing their leader's horse and selling it to a passing caravan, then in the ensuing confusion make your escape on that same horse, which you'll have cleverly hidden behind one of the rear carts, covered in hay." />
+    <string id="TBCaptiveEvents_Common_028" text="Carefully put your plan into action." />
+    <string id="TBCaptiveEvents_Common_029" text="Start your plan by insulting the guard. No, wait -" />
+    <string id="TBCaptiveEvents_Common_030" text="This sounds like a really bad idea." />
+    <string id="TBCaptiveEvents_Common_031" text="Some of the prisoners are playing a game of chance, trading coin they appear to have had squirreled away in their clothing. The rules look familiar, and they ask if you'd like to join in." />
+    <string id="TBCaptiveEvents_Common_032" text="[Lie] You eagerly accept, warning them that you've never played before." />
+    <string id="TBCaptiveEvents_Common_033" text="You accept, hoping to at least pass the time." />
+    <string id="TBCaptiveEvents_Common_034" text="Decline. You're pretty sure one of them is cheating." />
+    <string id="TBCaptiveEvents_Common_035" text="During your march, you find some mushrooms you're pretty sure are poisonous." />
+    <string id="TBCaptiveEvents_Common_036" text="Sneak them into tonight's stew." />
+    <string id="TBCaptiveEvents_Common_037" text="Warn your fellow prisoners about them." />
+    <string id="TBCaptiveEvents_Common_038" text="Leave them." />
+    <string id="TBCaptiveEvents_Common_039" text="You sneak the mushrooms into your captor's evening meal, then wait carefully. At first, you're not certain it's worked, but before midnight sounds of retching and screaming fill the camp." />
+    <string id="TBCaptiveEvents_Common_040" text="Take the opportunity to escape." />
+    <string id="TBCaptiveEvents_Common_041" text="Lead the rest of the prisoners and run for it!" />
+    <string id="TBCaptiveEvents_Common_042" text="Escape is too risky. Hide while you can." />
+    <string id="TBCaptiveEvents_Common_043" text="As your child grows within you, your belly and breasts swell until your condition becomes undeniable. You plead with your captor to let you go free, for the babe that grows within you has done him no ill, and you will surely be too busy raising it to give them any trouble." />
+    <string id="TBCaptiveEvents_Common_044" text="Appeal to their good will." />
+    <string id="TBCaptiveEvents_Common_045" text="Cringe as your arguments fall on deaf ears." />
+    <string id="TBCaptiveEvents_Common_046" text="As your child grows within you, your belly and breasts swell until your condition becomes undeniable. One of your captors becomes convinced the baby is his, and unshackles you with a smile. He's quite happy to have you escape and return to your clan, content in the knowledge that his child will be part of a noble house. As you make your way out of the village, you feel the life growing within you and wonder if he may be right." />
+    <string id="TBCaptiveEvents_Common_047" text="At least you're free..." />
+    <string id="TBCaptiveEvents_Common_048" text="One of the villagers sidles up to you, your guards suspiciously absent, and smiles, revealing a key from {?ISCAPTIVEFEMALE}his pocket. He tells you he's gone to considerable expense to acquire the means to free you, but would like a bit of consideration in exchange. He wants gold of the sort a peasant like him is hardly likely to encounter otherwise, and a chance to feel what a willing noblewoman's cunt feels like squeezing his cock.{?}her pocket. She tells you she's gone to considerable expense to acquire the means to free you, but would like a bit of consideration in exchange. She wants gold of the sort a peasant like her is hardly likely to encounter otherwise, and a chance to feel what a willing nobleman's cock feels like deep inside her cunt.{\?}" />
+    <string id="TBCaptiveEvents_Common_049" text="Anything to get out of here. (2000{GOLD_ICON})" />
+    <string id="TBCaptiveEvents_Common_050" text="You're nobody's whore." />
+    <string id="TBCaptiveEvents_Common_051" text="{ISCAPTIVEFEMALE}The man smiles as you agree, but makes no move to free you. It seems he wants you to fulfill your part of the bargain first. He steps up to you, loosening his breeches, and you dutifully take his penis into your mouth. He's hard as a rock, and his cock is larger than most, pushing into your throat, but he pulls out before long, pushing you onto your back and thrusting into your sex with a satisfied moan. He tries to make his pleasure last, but seems incredibly aroused by the situation, and comes almost instantly when you begin thrusting back against him. His come fills your womb and he pulls out, sated, before unlocking your chains, providing you with a cloak and fake beard to disguise you as you make your escape.{?}The woman smiles as you agree, but makes no move to free you. It seems she wants you to fulfill your part of the bargain first. She steps up to you, raising her dress, and you dutifully begin licking at her clit. She's dripping with arousal, and her legs begin twitching at your attentions, but she pushes you on your back before you can make her come. She pins you down, lowering herself onto your manhood with a sigh, and rides you to mutual ecstasy, milking your shaft with her inner muscles as she moans in triumph. After a minute or two to rest she climbs off of you, kissing your cock appreciatively, and unlocks your chains with a smile, handing you a cloak and fake beard to disguise yourself as you make your escape.{\?}" />
+    <string id="TBCaptiveEvents_Common_052" text="Make your escape." />
+    <string id="TBCaptiveEvents_Common_053" text="Your captor grows weary of your presence, and no longer cares to bother keeping you as their prisoner. They order their men to tie you up and leave you, without weapon or armor, so that your clever tongue might find a more appreciative audience in the wolves and bandits that roam the area." />
+    <string id="TBCaptiveEvents_Common_054" text="Beg your captor to leave you your gear." />
+    <string id="TBCaptiveEvents_Common_055" text="Spit in their face and vow vengeance." />
+    <string id="TBCaptiveEvents_Common_056" text="You are escorted to the leader of your captors; they seem to be tallying their spoils, and ask you your family name." />
+    <string id="TBCaptiveEvents_Common_057" text="[Lie] Proudly describe your illustrious clan!" />
+    <string id="TBCaptiveEvents_Common_058" text="Describe your clan's heroic efforts." />
+    <string id="TBCaptiveEvents_Common_059" text="Briefly tell them your name." />
+    <string id="TBCaptiveEvents_Common_060" text="You spend several hours recounting your clan's daring and honorable deeds. The leader jovially grabs you by the shoulders, a broad smile on their face. They decide that such a heroic person could not possibly remain their prisoner, and instruct their men to let you go immediately." />
+    <string id="TBCaptiveEvents_Common_061" text="Stride confidently out of the camp." />
+    <string id="TBCaptiveEvents_Common_062" text="Protest that to simply be let go would be dishonorable." />
+    <string id="TBCaptiveEvents_Common_063" text="You wake in aching pain after having been fucked into unconsciousness; your holes feel tender, and the musk of semen fills your senses. You realize your captors have brought you to their hideout and chained you to a wall. You're just their plaything now." />
+    <string id="TBCaptiveEvents_Common_064" text="Maybe you should have tried to escape earlier..." />
+    <string id="TBCaptiveEvents_Common_065" text="Your captors have finally gotten tired of humiliating and abusing you, and have decided to instead sell you to a nearby town. They give you a bucket and a rag for scraping off the layers of congealed slime, and display your bruised body like a slab of beef at the nearby market." />
+    <string id="TBCaptiveEvents_Common_066" text="Pray the fates will be kind." />
+    <string id="TBCaptiveEvents_Common_067" text="Your master has finally gotten tired of molesting you, and decides to sell you to a nearby town. They give you a bucket and a rag for scraping off the layers of congealed slime, and display your luscious body like a piece of meat at the nearby market." />
+    <string id="TBCaptiveEvents_Common_068" text="You catch the eye of a town official, who tells your captors he'd be happy to train such a comely, if used, slave. They haggle briefly, but before long you're marched to a holding cell, where the man explains that he will be teaching you how to obey your betters and please any man who desires you. Disobedience, he says, grinning, will simply mean more fun for him. He punctuates the remark by bending you over and smacking your ass, hard." />
+    <string id="TBCaptiveEvents_Common_069" text="Is this all you are now?" />
+    <string id="TBCaptiveEvents_Common_070" text="A mean-looking woman walks up to you, briefly examining your teeth, pushing your hair back, and groping your breasts and ass. She explains to your captors that she's in the market for a new whore, as one of her current stable is all used up. She offers a small pouch of coin and the chance to use you in the future in exchange." />
+    <string id="TBCaptiveEvents_Common_071" text="Scream that you'll be no one's whore!" />
+    <string id="TBCaptiveEvents_Common_072" text="Whimper in shame. Is this to be your fate?" />
+
+    <string id="TBCaptiveEvents_Female_001" text="A seedy man approaches your captor and begins negotiating, pointing towards you excitedly, a malevolent smile on his face. Some money changes hands, and he approaches you, explaining that he has purchased you for the day to use as entertainment in the arena..." />
+	<string id="TBCaptiveEvents_Female_002" text="Agree to follow the man to the arena." />
+	<string id="TBCaptiveEvents_Female_003" text="Beg your captor to reconsider; there are more pleasurable uses he could make of you..." />
+	<string id="TBCaptiveEvents_Female_004" text="Refuse to follow him." />
+	<string id="TBCaptiveEvents_Female_005" text="A seedy man approaches your master and begins negotiating, pointing towards you excitedly, a malevolent smile on his face. Some money changes hands, and he approaches you, explaining that he has purchased you for the day to use as entertainment in the arena..." />
+	<string id="TBCaptiveEvents_Female_006" text="The man sneers, reminding you that slaves don't have opinions. He punches the wind out of you, and as you lie gasping grasps your hair in one hand and begins dragging you to the arena. You hear the crowd cheer above you, obviously enjoying whatever horrible event is taking place inside." />
+	<string id="TBCaptiveEvents_Female_007" text="Enter the arena." />
+	<string id="TBCaptiveEvents_Female_008" text="You wake to the clinking of coins as your captor takes their payment for your pain and humiliation. The arena master seems to think you put on an excellent show, and welcomes your captor to send you back anytime for another round..." />
+	<string id="TBCaptiveEvents_Female_009" text="Shackled and defenseless, the crowd cheers at your naked body. They seem to be eagerly anticipating whatever fate awaits you in the arena. The gates opposite begin to open..." />
+	<string id="TBCaptiveEvents_Female_010" text="Hold your head up bravely." />
+	<string id="TBCaptiveEvents_Female_011" text="Try to survive..." />
+	<string id="TBCaptiveEvents_Female_012" text="Pass out from exhaustion..." />
+	<string id="TBCaptiveEvents_Female_013" text="A ragtag group of people enter through the gate, locking eyes on your helpless form. They begin running, you are surrounded by twenty or so men and women. They begin to grasp and fondle your flesh, kissing, smacking, and biting you, and the crowd begins to cheer..." />
+	<string id="TBCaptiveEvents_Female_014" text="What more will they do to you?" />
+	<string id="TBCaptiveEvents_Female_015" text="The men hold you still while another slips his cock up your ass. He plunges two of his fingers aside himself, moving your sphincter muscles to open, and you feel another greased cock fighting to penetrate at the same time! You feel as though they'll surely tear you apart, but your hellish screams only drive them harder." />
+	<string id="TBCaptiveEvents_Female_016" text="What will they do to you next?" />
+	<string id="TBCaptiveEvents_Female_017" text="Two of the men lift you between them, filling you front and back with their hard members. The pain and pressure are intense as they alternate moving up and down, and the crowd yells for them to fuck you faster as you feel them spurt inside you." />
+	<string id="TBCaptiveEvents_Female_018" text="One of the men picks you up, cupping your ass and breast with his hands as another positions himself beneath you. You are roughly impaled on his cock, as several more are thrust into your face, the scent of stale urine filling your nostrils." />
+	<string id="TBCaptiveEvents_Female_019" text="One of the men pushes the others aside, his intimidating penis thick and hard as he shoves you to the ground and pushes it into your face. He thrusts into your throat without mercy or respite as you choke, then pulls out and rubs himself to climax, coating your face in his seed." />
+	<string id="TBCaptiveEvents_Female_020" text="The crowd cheers as the announcer narrates every torment inflicted on you in lurid detail. As this first team tires out, he says, it's time to get ready for the next event!" />
+	<string id="TBCaptiveEvents_Female_021" text="Weep as your rapists leave you bruised on the ground." />
+	<string id="TBCaptiveEvents_Female_022" text="Your mind collapses, the strain of keeping yourself conscious in the face of an endless parade of torture and sexual abuse gives way to inner fantasies that shelter you from the pain." />
+	<string id="TBCaptiveEvents_Female_023" text="Give in to your dream and escape..." />
+	<string id="TBCaptiveEvents_Female_024" text="Your mind collapses, the strain of keeping yourself conscious in the face of an endless parade of degradation and sexual abuse gives way to inner fantasies that shelter you from the pain. You dream that you're making passionate love to gentle partners, and your arousal grows; you moan in rapturous pleasure as you climax again and again, the pain and your current circumstances all but forgotten." />
+	<string id="TBCaptiveEvents_Female_025" text="You float wistfully through your dreamworld..." />
+	<string id="TBCaptiveEvents_Female_026" text="Keep dreaming..." />
+	<string id="TBCaptiveEvents_Female_027" text="Wake up." />
+	<string id="TBCaptiveEvents_Female_028" text="You force yourself to consciousness, grasping for reality. Your dreams collapse around you, and you realize that although they have given you time to recover from your wounds, they've made your captor's renewed torment all the more fresh and painful." />
+	<string id="TBCaptiveEvents_Female_029" text="Take a deep breath and hope you're unchained." />
+	<string id="TBCaptiveEvents_Female_030" text="You dream that you are flying over the world, able to survey castles and mountains, to visit fields and lakes in moments. You feel the rush of wind on your face and the pleasant scent of summertime fills your senses." />
+	<string id="TBCaptiveEvents_Female_031" text="Your sleep is surprisingly free of dreams, and you wake refreshed, feeling much better than before." />
+	<string id="TBCaptiveEvents_Female_032" text="You dream that you are adored by your people, the subject of song and story, and all is right with the world." />
+	<string id="TBCaptiveEvents_Female_033" text="You dream of comforting warmth and enduring safety. There is no fear here, no pain, only love..." />
+	<string id="TBCaptiveEvents_Female_034" text="You dream of endless pleasure, ecstasy without pain or exhaustion; bliss without care or consequence." />
+	<string id="TBCaptiveEvents_Female_035" text="You scream, not in fear but in anger, in rage, and your nightmares are blown into figments of color, bursting apart like butterflies. Your dream reshapes, its pleasant colors and images once again familiar, and you feel safe once again." />
+	<string id="TBCaptiveEvents_Female_036" text="Continue your dream." />
+	<string id="TBCaptiveEvents_Female_037" text="Your captors grab you pulling you onto their shafts as you struggle to resist. They pinch and prod you expertly as you scream and squeal in agony and arousal, and you feel their shafts grow painfully inside you, hardening as they take sadistic pleasure in tormenting you." />
+	<string id="TBCaptiveEvents_Female_038" text="Try to regain control over your dream." />
+	<string id="TBCaptiveEvents_Female_039" text="You push yourself back into your dream only to find your captors have grown stronger within it; even here they hold you down and force you to serve them, defiling not just your body but the final refuge of your mind." />
+	<string id="TBCaptiveEvents_Female_040" text="Keep fighting them." />
+	<string id="TBCaptiveEvents_Female_041" text="You have become your master's willing cum-slave. Your every waking moment is spent pleasuring his shaft, drinking down gallons of his delicious semen. Your past life is a fading memory, your ambitions meaningless as you feel his cock twitch in you grasp, ready for you to milk it once more." />
+	<string id="TBCaptiveEvents_Female_042" text="You gasp in pain as you feel yet another of your master's children kicking inside your womb. He has made you his brood whore, and you eagerly birth and raise his children with no thought to your own life or ambitions. You cannot leave them now; even were it to be offered, you would never choose to be free." />
+	<string id="TBCaptiveEvents_Female_043" text="Your master has become a giant of immense proportions. His bulbous penis is larger than your arm, and as you struggle he grasps you in firm hands, placing your tender opening directly atop his massive shaft." />
+	<string id="TBCaptiveEvents_Female_044" text="Try to push yourself off the creature." />
+	<string id="TBCaptiveEvents_Female_045" text="You try to prevent the giant from entering you, but your minuscule limbs are helpless before his massive girth. He impales your womb with a single horrific stroke, a cascade of unthinkable pain coursing through your body as his member dislocates your internal organs and punches the breath from your lungs. He bends you over, holding your neck in one hand, and pumps a torrent of cum so great into you it begins surging out of your nose and throat." />
+	<string id="TBCaptiveEvents_Female_046" text="Keep trying to resist." />
+	<string id="TBCaptiveEvents_Female_047" text="Your nightmare shifts and you find yourself held in place by the legs of a massive, horrifying insect. You feel something huge and slimy enter you, snaking its way past your cervix and into your womb. The appendage begins to widen at your entrance as it begins trying to fill you with its eggs..." />
+	<string id="TBCaptiveEvents_Female_048" text="Your nightmare continues as your stomach begins to bloat obscenely and painfully with the creature's unborn children, but it continues to pump into you. If it keeps going, you're not sure you'll survive." />
+	<string id="TBCaptiveEvents_Female_049" text="Try to regain control of your dream." />
+	<string id="TBCaptiveEvents_Female_050" text="Your nightmare continues as you find yourself locked in a cage scarcely bigger than you are. Forced to your hands and knees by the bars of the cage, you hear the insect chitter above you as it continues plunging its appendage into your helpless sex." />
+	<string id="TBCaptiveEvents_Female_051" text="Your nightmare continues as you find yourself on your back, bound to a table of bones by stout leather straps. The insect holds your head still with its mandibles as it continues filling you with its massive appendage." />
+	<string id="TBCaptiveEvents_Female_052" text="You are filled to the brim, and the creature stands possessively over your bloated body as you feel the eggs begin to slide out. It watches you with unblinking eyes, ready to fill you up again as soon as you have finished birthing its clutch." />
+	<string id="TBCaptiveEvents_Female_053" text="One of the women in the camp has somehow angered your captors, but she makes no sound as the men gather to punish her. Her eyes are downcast, and she yelps only briefly as she is beaten, shaking slightly as her aggressors begin taking their pleasure from her bruised body. Her expression of abject resignation is a grim reminder that if you don't get out of here soon, you will doubtless share her fate. You wonder how long it will take for you to lose any will to resist..." />
+	<string id="TBCaptiveEvents_Female_054" text="Get some rest." />
+	<string id="TBCaptiveEvents_Female_055" text="The young woman makes no sound as your captors gather to punish her. Her eyes are downcast, and she yelps only briefly as she is beaten, shaking slightly as her aggressors begin taking their pleasure from her bruised body. Her expression of abject resignation is a grim reminder that if you don't get out of here soon, you will doubtless share her fate. You wonder how long it will take for you to lose any will to resist..." />
+	<string id="TBCaptiveEvents_Female_056" text="You can hear another prisoner being beaten and violated; her piercing screams and moans pierce through the sound of jeering and laughter from her captors. Her plight reminds you of your helplessness, and you feel guiltily thankful they're paying attention to her and not you." />
+	<string id="TBCaptiveEvents_Female_057" text="Try not to get their attention." />
+	<string id="TBCaptiveEvents_Female_058" text="Escape while they're distracted." />
+	<string id="TBCaptiveEvents_Female_059" text="Beg them to fuck you instead." />
+	<string id="TBCaptiveEvents_Female_060" text="You hear the sound of rough fucking and brief, muted moans. Looking around, you spy a familiar-looking woman being roughly used by one of your captors. Her body is covered in bruises and layers of dried cum, her expression vacant and resigned as her rapist takes his pleasure from her battered cunt. Despite her condition, you faintly recognize her as a noblewoman from one of the smaller houses. She shudders and hangs her head as the man blasts his seed inside her, and she obediently licks his cock clean before collapsing to the ground, sobbing." />
+	<string id="TBCaptiveEvents_Female_061" text="One of your captors orders you to hold down another prisoner. You think you've seen her before in another village. The man starts to removes his breeches and exposes his hardening cock..." />
+	<string id="TBCaptiveEvents_Female_062" text="Try to flee." />
+	<string id="TBCaptiveEvents_Female_063" text="Your captor shrugs and commands the other woman to hold you in place as he strokes his cock. She does so, sheepishly unable to meet your eyes, and helps hold you still as the man roughly takes you. Your captor seems to take special pleasure in reminding you this was your choice, and his thrusts are brutally painful. He climaxes inside you, kissing you deeply as you feel his cock begin to soften. When he finally pulls out, the other girl falls to her knees, crying." />
+	<string id="TBCaptiveEvents_Female_064" text="Tell the girl she had no choice." />
+	<string id="TBCaptiveEvents_Female_065" text="Though your holes are screaming at you in agony from your abuse, you turn to comfort the girl, telling her that she had no choice; if she'd disobeyed your rapist, she would have been tortured as well. She looks at you with a mixture of confusion and awe, and reaches over to hug you. The tenderness of her gesture is almost painful in such horrible circumstances." />
+	<string id="TBCaptiveEvents_Female_066" text="You hold the other woman still, doing what you can to comfort her as she is brutally taken. Her screams turn to sobs, and as your captor climaxes, pouring his seed into her, her eyes lose their fire, growing cold and empty." />
+	<string id="TBCaptiveEvents_Female_067" text="Try to forget what you've just done." />
+	<string id="TBCaptiveEvents_Female_068" text="The rapist smiles cruelly at your expression, then grabs you by your hair, tying your arms. He calls the other girl over and motions towards your helpless body. She moves towards you angrily, balling one hand into a fist. You cringe, but she does not hit you, instead pushing her knuckles into you, inflicting her own agony onto you." />
+	<string id="TBCaptiveEvents_Female_069" text="Accept your just punishment." />
+	<string id="TBCaptiveEvents_Female_070" text="Scream in agony and beg her to stop." />
+	<string id="TBCaptiveEvents_Female_071" text="Swear vengeance." />
+	<string id="TBCaptiveEvents_Female_072" text="Two of the other female prisoners are huddled near each other, not talking, just watching each other, looking into each others' eyes. Their interest doesn't seem to be sexual, and when one of them breaks down in tears the other comforts her, nuzzling against her soundlessly." />
+	<string id="TBCaptiveEvents_Female_073" text="Ask them what they are doing." />
+	<string id="TBCaptiveEvents_Female_074" text="Crawl over and join them." />
+	<string id="TBCaptiveEvents_Female_075" text="When he hears you speak, one of the guards walks up to the other prisoners and pulls the crying woman to her feet, referring to her as his favorite whore and thanking you for reminding him that it is time for his appointment. She closes her eyes in resignation and begins massaging his cock with her face..." />
+	<string id="TBCaptiveEvents_Female_076" text="Tell him to get away from her." />
+	<string id="TBCaptiveEvents_Female_077" text="Beg him to fuck you instead." />
+	<string id="TBCaptiveEvents_Female_078" text="Try not to be noticed." />
+	<string id="TBCaptiveEvents_Female_079" text="The man continues tormenting his victim with sadistic glee, filling her mouth with his manhood until she begins to choke. He pleasures himself with her throat until she passes out, then shoves her body to the ground and finishes himself, spraying his seed over her back. You look at the faces of the other slaves around you - they don't seem angry, only resigned. Will this be your fate, too?" />
+	<string id="TBCaptiveEvents_Female_080" text="Comfort her." />
+	<string id="TBCaptiveEvents_Female_081" text="Move away and try to remain inconspicuous." />
+	<string id="TBCaptiveEvents_Female_082" text="This is too much - flee the camp." />
+	<string id="TBCaptiveEvents_Female_083" text="Two of the other prisoners, both women, are huddled near each other, not talking, just looking into each others' eyes. Their interest doesn't seem to be sexual, and when one of them breaks down in tears the other comforts her, nuzzling against her soundlessly." />
+	<string id="TBCaptiveEvents_Female_084" text="You hold the woman still, doing what you can to comfort her as she is brutally taken. Her screams turn to sobs, and as your captor climaxes, pouring his seed into her, her eyes lose their fire, growing cold and empty." />
+	<string id="TBCaptiveEvents_Female_085" text="You drop your weapon and surrender, kneeling before the enemy forces. Their leader pushes through the crowd, and with some trepidation you see the bulge in his pants grow larger as he sees you. He orders his men to strip you, cuff you, and put you with the other prisoners." />
+	<string id="TBCaptiveEvents_Female_086" text="You drop your weapon and surrender, kneeling before the enemy forces. Their leader pushes through the crowd, and with some trepidation you see the bulge in his pants grow larger as he sees you. He orders his men to cuff you and put you with the other prisoners." />
+	<string id="TBCaptiveEvents_Female_087" text="Your captors watch, slack-jawed, as you strip sensually before them, putting your considerable skills as a slave to good work. Several of them collapse, shuddering in ecstasy before you even finish disrobing. As you kneel before them, presenting your submissive body for their inspection, their leader steps forward and places a collar around your throat. Your pussy gushes at the sensation of being owned once more." />
+	<string id="TBCaptiveEvents_Female_088" text="Your captors watch, slack-jawed, as you dance sensually before them, putting your considerable skills as a slave to good work. Several of them collapse, shuddering in ecstasy before you even touch them. As you kneel before them, presenting your submissive body for their inspection, their leader steps forward and places a collar around your throat. Your pussy gushes at the sensation of being owned once more." />
+	<string id="TBCaptiveEvents_Female_089" text="" />
+	<string id="TBCaptiveEvents_Female_090" text="You continue fighting as they circle you completely, and though you manage to clip one or two of them with your weapon, it's not long before one of them has his blade at your throat. He orders you to submit or die, and informs you you will be punished severely for your defiance." />
+	<string id="TBCaptiveEvents_Female_091" text="Your captors decide to make an example of you, fastening your arms to a post and making the other prisoners watch as you are whipped and beaten." />
+	<string id="TBCaptiveEvents_Female_092" text="Take a deep breath and grit your teeth..." />
+	<string id="TBCaptiveEvents_Female_093" text="The pain is intense, and your body is covered in lash marks, welts, and bruises, but your ordeal is not yet through. One of them takes his fist and slowly twists his knuckles into your unprepared cunt..." />
+	<string id="TBCaptiveEvents_Female_094" text="Take the battering as bravely as possible." />
+	<string id="TBCaptiveEvents_Female_095" text="Give into exhaustion as the pain grows too great." />
+	<string id="TBCaptiveEvents_Female_096" text="Your captor forces you to your knees, pushing your face into his groin. The smell of sweat and dried semen is overwhelming, and as he loosens his erect manhood from his breeches, he orders you to suck him off, threatening to strangle you if he feels a single tooth." />
+	<string id="TBCaptiveEvents_Female_097" text="Try to bite off his penis." />
+	<string id="TBCaptiveEvents_Female_098" text="Fearfully pleasure him with your tongue." />
+	<string id="TBCaptiveEvents_Female_099" text="You gingerly lick his cock, recoiling at the taste, before he roughly grabs you by the ears and shoves his penis down your throat. You gag, trying to catch your breath as your throat takes a brutal pounding, and your vision begins to blur from lack of oxygen as he finishes, filling your mouth and nose with a thick load of salty fluid." />
+	<string id="TBCaptiveEvents_Female_100" text="Try to get the rancid taste out of your mouth." />
+
+	<string id="TBCaptiveEvents_Female_101" text="Choke it down and suck his cock clean." />
+	<string id="TBCaptiveEvents_Female_102" text="Your captor screams in frustration and kicks you onto your stomach, pushing your face into the dirt as he spanks your ass past the point you can feel the sting. As you blink back tears you feel him spit copiously into your asshole, your squeals and struggles only encouraging him as he plunges agonizingly into your sphincter. Your body spasms in a futile attempt to remove the invader. He thrusts slowly in and out as you thrash and wail in despair, and after twenty or so torturous minutes lets loose a mighty grunt, leaving your butt dripping with his sticky seed." />
+	<string id="TBCaptiveEvents_Female_103" text="" />
+	<string id="TBCaptiveEvents_Female_104" text="One of your captors leads you to a group of his fellows, who hungrily watch as you approach. Another prisoner stands in the center of the group; a young woman, clearly terrified. The bruises and stains on her skin show she's been roughly used by the men of the camp. They explain that they've placed bets on which of you has the more talented tongue. You are to please as many of them as possible, and whoever loses after an hour gets to continue practicing for the rest of the night." />
+	<string id="TBCaptiveEvents_Female_105" text="Reach for the nearest penis... You can't lose this." />
+	<string id="TBCaptiveEvents_Female_106" text="She looks desperate... Lose intentionally." />
+	<string id="TBCaptiveEvents_Female_107" text="Refuse to play along." />
+	<string id="TBCaptiveEvents_Female_108" text="The guards drag you to the center of town, where a large crowd of men and women are gathered around a wooden pillory. You listen with growing horror as the guards start calling out the price of various services. It seems your fate is to be used as an unwilling whore to the citizens of this town, and at the absurdly low prices offered, the gathering crowd of townsfolk seems more than happy to pay the price of entry." />
+	<string id="TBCaptiveEvents_Female_109" text="Steel yourself for the inevitable." />
+	<string id="TBCaptiveEvents_Female_110" text="Your captor smiles as you reach the town, dragging you by your chain to the center of the market. He leaves you, {?IsCaravan}telling you that today should be a quite profitable return on investment{?}telling you that today's events should teach you your proper place in the world{\?}, and begins shouting absurdly low prices for the pleasure of using your holes. Within moments, a crowd has assembled; it's going to be a long day..." />
+	<string id="TBCaptiveEvents_Female_111" text="Steel yourself to {?IsCaravan}serve your master's pocketbook{?}be used to slake the townsfolk's lust.{\?}" />
+	<string id="TBCaptiveEvents_Female_112" text="You manage to wrest a blade from one of your captors as he undresses, holding him at sword-point. Now would be a perfect time to escape, but it occurs to you that you're surprisingly horny, and this is a perfect opportunity to turn the tables..." />
+	<string id="TBCaptiveEvents_Female_113" text="Now is not the time. Kill him and make your escape." />
+	<string id="TBCaptiveEvents_Female_114" text="Force him to a secluded spot, then push him to the ground." />
+	<string id="TBCaptiveEvents_Female_115" text="Keeping your blade in one hand, you straddle your captor, your nails on his neck. He protests at first, but his cock is hard as iron, and it fills you satisfyingly as you lower yourself onto it. He moves to grab the blade, but with a swift motion you hold it to his testicles and he stops, whimpering. You take your pleasure from him, passionately slamming yourself onto his sex, and quickly bring yourself to orgasm." />
+	<string id="TBCaptiveEvents_Female_116" text="Fuck his brains out, then escape." />
+	<string id="TBCaptiveEvents_Female_117" text="You got what you wanted. Kill him and escape." />
+	<string id="TBCaptiveEvents_Female_118" text="His testicles would make a nice souvenir..." />
+	<string id="TBCaptiveEvents_Female_119" text="Maybe escape is a bad idea..." />
+	<string id="TBCaptiveEvents_Female_120" text="One of your captor's men approaches, eying you angrily. He believes that his son fell in one of your battles, and seeing your fertile body has decided that your punishment will be to provide him with a replacement. He fucks you angrily, filling your womb again and again and uses the pommel of his dagger to shove his seed deeper into you. Sated, he menacingly assures you he'll be back until he sees your belly swell with child." />
+	<string id="TBCaptiveEvents_Female_121" text="Try to wash the cum out of your womb." />
+	<string id="TBCaptiveEvents_Female_122" text="Fall asleep." />
+	<string id="TBCaptiveEvents_Female_123" text="Your captor approaches you with a group of his men, and explains that if your clan refuses to pay your ransom, he will find use for you as a breeding whore. He orders his men to fuck you gently, but to make sure each of them fills your cunt with their seed at least twice. They descend, like a pack of hungry wolves, and over the next few hours your lower half is filled and coated in sticky seed." />
+	<string id="TBCaptiveEvents_Female_124" text="A guard tells you your captor has ordered your presence in her tent, and shoves you inside. You find her naked, legs parted, one hand rubbing her clit and the other holding a bottle of wine in her other. She smiles drunkenly at you and orders you to pleasure her with your mouth." />
+	<string id="TBCaptiveEvents_Female_125" text="Kneel down and crawl over to her." />
+	<string id="TBCaptiveEvents_Female_126" text="Attack her!" />
+	<string id="TBCaptiveEvents_Female_127" text="You spend the next few hours pleasuring each other; she's not a bad lover, if a bit rough when she wants to show dominance, and she screams like a demon as you lick her to climax. Sated, she shoves you out of the tent, and her men compare you to feral cats." />
+	<string id="TBCaptiveEvents_Female_128" text="You've noticed your captors eying you lustfully, and realize they've surrounded you as they begin to pull out their cocks. You cringe as their firm hands begin to molest every part of your body. Before long their caresses turn to groping, and before long they begin forcing their greasy mouths against yours. One of them cannot help himself, and you feel his throbbing member squeezing between your thighs..." />
+	<string id="TBCaptiveEvents_Female_129" text="Just let it happen..." />
+	<string id="TBCaptiveEvents_Female_130" text="Despite their arousal, the men are disciplined enough to take turns, and they fuck you for hours, some of them coming back for seconds as they fill and coat you with their sticky jism. Your holes are red and sore from their abuse, and you know you're going to have trouble walking for a few weeks..." />
+	<string id="TBCaptiveEvents_Female_131" text="Pass out from the pain." />
+	<string id="TBCaptiveEvents_Female_132" text="You wake to the sight of one of your captors standing above you and masturbating. He climaxes at the sight of your disgust, holding you in place to prevent you from avoiding his ejaculate as it streams all over your face and hair." />
+	<string id="TBCaptiveEvents_Female_133" text="Wipe the cum off your face." />
+	<string id="TBCaptiveEvents_Female_134" text="Drink as much as you can." />
+	<string id="TBCaptiveEvents_Female_135" text="You wake to an empty room, and are surprisingly refreshed. The scent of your imprisonment is still with you, but it appears your captors have mercifully granted you at least one unmolested night's sleep." />
+	<string id="TBCaptiveEvents_Female_136" text="Hopefully not the last." />
+	<string id="TBCaptiveEvents_Female_137" text="You wake after a fitful, difficult sleep to the all-too-familiar smell and taste of semen. You feel a cold wetness between your legs as you pull yourself to your knees, and sure enough your breasts and legs are stained with drying seed. It seems some of your captors couldn't wait until you were awake to molest your defenseless body." />
+	<string id="TBCaptiveEvents_Female_138" text="Clean yourself out." />
+	<string id="TBCaptiveEvents_Female_139" text="Cry yourself to sleep." />
+	<string id="TBCaptiveEvents_Female_140" text="The group of guards next to you are drinking themselves into a stupor. They're getting increasingly obnoxious and try to flirt with you, making lewd gestures with their hands and tongues. One of them bares his cock in your direction, and frowns as the others make fun of it." />
+	<string id="TBCaptiveEvents_Female_141" text="Ignore the louts." />
+	<string id="TBCaptiveEvents_Female_142" text="Crawl over and ask for a drink." />
+	<string id="TBCaptiveEvents_Female_143" text="Your captors tease you with beer and food, but they don't give it to you just yet. One of them is combing your hair; the other is stroking over your chest, and his greasy hands begin to move towards your groin..." />
+	<string id="TBCaptiveEvents_Female_144" text="Tell him to put his finger inside you." />
+	<string id="TBCaptiveEvents_Female_145" text="You drink up as they douse you with their cheap liquor and paw your body eagerly as their cocks fill your vision. You open your mouth to the nearest while pulled to your knees and several iron rods poke the entrance to your cunt..." />
+	<string id="TBCaptiveEvents_Female_146" text="Give them what they paid for..." />
+	<string id="TBCaptiveEvents_Female_147" text="One of your captors ambushes you, shoving you down and holding you in place as he pulls out his cock. He fumbles his grip and you twist around to fight back, but eventually he grabs hold of your neck and chokes you, pressing your body to the ground and thrusting into your cleft as your vision fades..." />
+	<string id="TBCaptiveEvents_Female_148" text="Keep trying to fight back." />
+	<string id="TBCaptiveEvents_Female_149" text="Get chocked into unconsciousness." />
+	<string id="TBCaptiveEvents_Female_150" text="One of your captors forces you to drink alcohol instead of water, and you feel your resolve begin to loosen. His hands knead your butt-cheeks, and he slides a finger down your crack. The tip of his finger moves to your your anus and he pulls you closer, crushing your breasts against his chest. Finally, he slips his fingers into your moistening nether lips and begins to spread your legs." />
+	<string id="TBCaptiveEvents_Female_151" text="Drunkenly surrender yourself to your rapist." />
+	<string id="TBCaptiveEvents_Female_152" text="Two of your captors grab you by the hair, dragging you to where the rest of the men are waiting. They parade your naked body around the group, jeering, and the sight whips your captors into a frenzy. As they push you to your knees, the pack descends upon you like wolves, eager to take their pleasure from your unwilling, nubile body." />
+	<string id="TBCaptiveEvents_Female_153" text="Do your best to please this crowd of cocks." />
+	<string id="TBCaptiveEvents_Female_154" text="You work yourself to exhaustion trying to satisfy them with your hands and mouth alone, and by the end of your ordeal your skin glistens with their spent seed. One of them has a little energy left and rolls your unresisting body over onto your chest. You are too tired to do more than groan as you feel his member thrust into your asshole..." />
+	<string id="TBCaptiveEvents_Female_155" text="Try to stay conscious." />
+	<string id="TBCaptiveEvents_Female_156" text="Slip into unconsciousness." />
+	<string id="TBCaptiveEvents_Female_157" text="You notice that your captors have begun staring at you lasciviously, several of them making lewd remarks. You can't help but notice the bulges in their pants growing larger than usual, and feel that they won't be content with just looking for long. You need to escape soon." />
+	<string id="TBCaptiveEvents_Female_158" text="Attempt to escape before they can try anything more..." />
+	<string id="TBCaptiveEvents_Female_159" text="You quickly lose count of the number of men who've used you. Your holes are slick with cum, and you fear you'll never get the taste of their seed out of your mouth. The ground is sticky and discolored with the cum that's dripped out of you, and drying semen crackles against your skin as you move. By the time the townsfolk have finished with you, you're barely conscious, finally happy for the support the pillory provides." />
+	<string id="TBCaptiveEvents_Female_160" text="Your rest is interrupted as you discover that the townsfolk are not done with you. You overhear that a caravan has arrived in town. A seemingly endless parade of cocks turns out to fuck and fill you with their seed; by the time they have finished the salty fluid drips like a thick glaze from every part of your body." />
+	<string id="TBCaptiveEvents_Female_161" text="Your captors seem content to call you names and heckle you. For now." />
+	<string id="TBCaptiveEvents_Female_162" text="Timidly serve your time." />
+	<string id="TBCaptiveEvents_Female_163" text="Swear at them and promise vengeance." />
+	<string id="TBCaptiveEvents_Female_164" text="As you make a fuss, one of the guards walks over to you, grinning. He opens your cell and grabs your wrists by their shackles, using his other hand to fondle your breasts. Enthralled, he drags you over to a wooden device and locks you in. He wastes no time in plunging his cock into your ass, and the other guards watch warily as he takes his pleasure from you, finishing with a mighty thrust. He tears into you painfully, injecting his semen into your sphincter. He unlocks you and begins leading you back to your cell." />
+	<string id="TBCaptiveEvents_Female_165" text="The door's open - try to escape!" />
+	<string id="TBCaptiveEvents_Female_166" text="A guard pushes a soup bowl into your cell. You haven't had a proper meal in days, but there is no soup, just a runny white slop. He is staring at you, trying not to grin." />
+	<string id="TBCaptiveEvents_Female_167" text="Lick it up like a good girl." />
+	<string id="TBCaptiveEvents_Female_168" text="Throw the bowl at the doorway." />
+	<string id="TBCaptiveEvents_Female_169" text="You feel sick, but this is the only food besides rat droppings you&quot;ve been offered, and you force yourself to swallow the semen. It is salty and unpleasantly cold, and as you drink it down globs run down your chin. The other guards laugh, but the one who brought you your meal decides you need some dessert. You try not to choke as he roughly spurts down your gullet." />
+	<string id="TBCaptiveEvents_Female_170" text="Cough and try to catch your breath." />
+	<string id="TBCaptiveEvents_Female_171" text="Your captors are angered by your wasteful display; they spread your legs, and take their time raping their pleasure from your helpless body. Their brutal thrusts tear the walls of your vagina, and by the time the last of them finishes your groin feels like it's on fire. As they shut the door behind them, you whimper with pain, their seed dripping from your bright red pussy..." />
+	<string id="TBCaptiveEvents_Female_172" text="Try to sleep through the pain." />
+	<string id="TBCaptiveEvents_Female_173" text="Your captors walk into your cell, grinning from ear to ear. You've heard the screams and laughter coming from each of the other cells, and it doesn't take much to realize your turn has come. Is there anything you can do to avoid getting violated?" />
+	<string id="TBCaptiveEvents_Female_174" text="Get on your knees and service them." />
+	<string id="TBCaptiveEvents_Female_175" text="You shuffle forwards and take the first one in your mouth, taking another in each of your hands and fondling them. Fingers penetrate you from behind, and your breasts are pinched, squeezed and slapped as you force yourself to concentrate. Each of them climaxes, spurting onto your face and breasts, and you are soon coated in a thin layer of semen. The sight makes them laugh, and they ready themselves for another round. When they finally finish fucking you, your captors dump your exhausted body to the floor, and one steps on your hand with his boot before they leave." />
+	<string id="TBCaptiveEvents_Female_176" text="You and the other prisoners are preparing a meal for your captors when three of them decide to make the women line up, bodies on display. They take turns fondling your breasts, finally deciding that yours are the best pair, and drag you out to where the rest of the men wait by the fire. You feel a sickening knot in the pit of your stomach when they tell you they've bet money on how many men you can suck off in the next hour." />
+	<string id="TBCaptiveEvents_Female_177" text="Accept your role as their whore." />
+	<string id="TBCaptiveEvents_Female_178" text="As the men line up to use you, you quickly learn how best to use your tongue to stimulate their members. Suckling at one cock with your mouth, you use your hands to bring two more cocks to climax, white jets plastering your face in the first of many loads of cum. As time goes on it drips onto your breasts and coats your hair, but still your captors are not satisfied. Once or twice one of them tries to pull your legs apart and force his rod into you, but the others are too keen to take their turn with your talented tongue. Finally, a winner is declared, and you are dumped to the ground and forgotten as they argue over the terms of the bet." />
+	<string id="TBCaptiveEvents_Female_179" text="Crawl back to the other women." />
+	<string id="TBCaptiveEvents_Female_180" text="You and the other prisoners are preparing a meal for your captors when three of them decide to make the women line up, bodies on display. They take turns fondling your breasts, finally deciding that yours are the best pair, and drag you out to where the rest of the men wait by the fire. You feel a sickening knot in the pit of your stomach when they tell you they've bet money on how many men you can suck off in the next hour." />
+	<string id="TBCaptiveEvents_Female_181" text="Your captors walk into your cell, grinning from ear to ear. You've heard the screams and laughter coming from each of the other cells, and it doesn't take much to realize your turn has come. Is there anything you can do to avoid getting violated? Is there some way you can use this siege to your advantage?" />
+	<string id="TBCaptiveEvents_Female_182" text="One of your captors walks up to you, pulling out his massive cock, and says he thinks you will take coin rather than be mouth raped again." />
+	<string id="TBCaptiveEvents_Female_183" text="Accept {MONEY_AMOUNT}{GOLD_ICON} to suck the cum out of an unwashed prison guard." />
+	<string id="TBCaptiveEvents_Female_184" text="Shake your head - you don't want this." />
+	<string id="TBCaptiveEvents_Female_185" text="Punch him in the balls and try to escape." />
+	<string id="TBCaptiveEvents_Female_186" text="Angered, your captor decides that while he'd prefer you willing, he'll have to make do with what he has. He shoves you to the ground and mounts you brutally, knocking you around the floor and saying he'd asked nicely, before shoving you flat to the ground and kicking you once more." />
+	<string id="TBCaptiveEvents_Female_187" text="Maybe resisting isn't the best plan for survival..." />
+	<string id="TBCaptiveEvents_Female_188" text="You accept his offer and play the part, fondling his ball-sack and taking his member into your mouth. As you stroke him, he holds your head, thrusting gently - and then, as his climax grows, not so gently - as he moans in pleasure. The rest of your captors gather round to watch, grinning at you unnervingly, and you drink down his seed as he climaxes. You clean his cock with your mouth, swallowing every last drip of cum, then look up towards him. It appears your work was satisfactory, as he hands you the promised coin, as opposed to sticking it to your forehead." />
+	<string id="TBCaptiveEvents_Female_189" text="All the other prisoners just saw what you did." />
+	<string id="TBCaptiveEvents_Female_190" text="Two men ambush you in the dungeon. One of them grabs your wrists and holds you down while the other begins thrusting his over-sized member into you. You try to pull away, but the one holding your arms is freakishly strong, and the rest of the prisoners encourage them to hurt you. The shorter of your rapists grins as he squirms inside you, explaining that you are now his girlfriend." />
+	<string id="TBCaptiveEvents_Female_191" text="Beg them to be gentle." />
+	<string id="TBCaptiveEvents_Female_192" text="Try to fight them off." />
+	<string id="TBCaptiveEvents_Female_193" text="Scream for someone to help you." />
+	<string id="TBCaptiveEvents_Female_194" text="Your captor plunges into you, and you shudder with pain as you are filled. Shame and pleasure build in your loins over long minutes, and he wrenches your breasts in each hand as he comes. His wet cock slithers out of you, and he wipes it and makes you taste it." />
+	<string id="TBCaptiveEvents_Female_195" text="Meekly wait for your rapist to leave." />
+	<string id="TBCaptiveEvents_Female_196" text="Take your chains and strangle him." />
+	<string id="TBCaptiveEvents_Female_197" text="You beg them to be gentle with you, and to your surprise they comply; the taller one lets go of your arms, then lifts you to your feet as the shorter one lays down, inviting you to continue spearing yourself on his rod. Not wishing to anger them, you lower yourself onto him, massaging his penis with your inner muscles as the other man shoves his manhood into your face. You feign enthusiasm, licking and fucking them to the best of your ability. Before long you begin to feel your own orgasm growing, and as they pound you to climax they come as well, filling your mouth and snatch with a torrent of milky seed." />
+	<string id="TBCaptiveEvents_Female_198" text="Beg for their protection in exchange for your body." />
+	<string id="TBCaptiveEvents_Female_199" text="Get as far away from them as you can and try to sleep." />
+	<string id="TBCaptiveEvents_Female_200" text="You try to fight back, kicking and swearing at your rapists, but your efforts are for naught. The one holding your arms smacks you across the face as the one inside of you mauls your breasts, and as you exhaust yourself trying to escape they lift you off the ground, each taking a leg to spread you." />
+	
+
+	<string id="TBCaptiveEvents_Female_201" text="Cry and keep trying to fight." />
+	<string id="TBCaptiveEvents_Female_202" text="You feel the taller man's massive tool poking at your ass and clench, hoping to avoid the inevitable, but soon both your holes are pummeled by their thrusting tools. The sensation is intense, and their stamina seems endless. They fuck you til a thunderous orgasm builds in your core, and you begin moaning, screaming in pain and pleasure as they pound you to climax, and blush shamefully as you eagerly milk their cocks." />
+	<string id="TBCaptiveEvents_Female_203" text="You hear an explosion in the back of camp, and several of your guards go to investigate. After a brief while, the one that remains briefly screams as a blade runs him through, and standing in his place is a gorgeous dark-haired man with a mischievous smile. He briefly stops to clean his blade, winking at you, then picks you up and carries you into the forest. He explains that as a mercenary, he doesn't offer his services for free..." />
+	<string id="TBCaptiveEvents_Female_204" text="See if he'd like to share a drink after a hard battle." />
+	<string id="TBCaptiveEvents_Female_205" text="Your freedom's worth at least a bag of denars. (1000 {GOLD_ICON})" />
+	<string id="TBCaptiveEvents_Female_206" text="Balk at his impertinent request." />
+	<string id="TBCaptiveEvents_Female_207" text="The man smiles greedily, as though that were exactly what he had in mind. Once you're far enough from camp, he carefully drops you to the ground, then deftly removes his clothes, gently pulling you to your knees. His manhood is neither particularly large nor long, but smells both manly and sweet, like musk and honey, and you relish the taste as you lick it to full hardness. He seems happy with your efforts, and before long he pushes you off of it, offering you his hand and pulling you to your feet." />
+	<string id="TBCaptiveEvents_Female_208" text="What now?" />
+	<string id="TBCaptiveEvents_Female_209" text="The man grins toothily, pulling your aching breasts against his muscled chest and kissing you deeply and tenderly. You feel his manhood poke excitedly at your groin and spread your legs to allow it passage, but he seems happy to simply tease your clit with his glans, fondling and massaging your back and buttocks as your lips continue their fluttering dance until your body is singing with arousal." />
+	<string id="TBCaptiveEvents_Female_210" text="Whimper with need." />
+	<string id="TBCaptiveEvents_Female_211" text="Suddenly, the man plunges his manhood into your cleft. It's neither particularly large nor long, but moves with an uncanny skill, teasing your most tender surfaces with a rhythm and force that soon become unbearably pleasurable. You come, grinding your sex against his groin and biting into his neck, but he doesn't even slow down. You spend the next hour in a state of near-constant bliss, your body surrendering completely to his expert touch, and finally pass out from pleasure as he surges inside you. When you wake, he is gone, leaving a single flower gently nestled between your breasts." />
+	<string id="TBCaptiveEvents_Female_212" text="Try to stagger to your feet." />
+	<string id="TBCaptiveEvents_Female_213" text="The man smiles, somehow disappointed, as though that were not exactly what he had in mind. Once you're far enough from camp, he gently drops you to the ground. He escorts you to your camp, smiling toothily at your guards as they watch him warily. You count out a goodly sum of gold, and he curtly bows before turning to leave, payment in hand." />
+	<string id="TBCaptiveEvents_Female_214" text="At least you're safe now." />
+	<string id="TBCaptiveEvents_Female_215" text="The man frowns at your refusal, shaking his head in disappointment. He mentions that he's an honorable man, but his honor and reputation demand that he must extract payment for his efforts, willingly or not. Once you're far enough from camp, he swiftly drops you to the ground, then deftly removes his clothes. He pounces onto you before you can react, kissing you deeply as you struggle beneath him. Annoyed, he grabs your arms in one frightfully strong hand and holds them behind you. You feel his manhood tease your clit and whimper in fear and anticipation." />
+	<string id="TBCaptiveEvents_Female_216" text="He calls this honor?" />
+	<string id="TBCaptiveEvents_Female_217" text="Suddenly, the man plunges his manhood into your cleft. You'd braced yourself for pain, but there is none. Instead the man moves with an uncanny skill, teasing your most tender surfaces with a rhythm and force that soon become unbearably pleasurable. You come, grinding your sex against his groin and biting into his neck, but he doesn't even slow down. You spend the next hour in a state of near-constant bliss, your body surrendering completely to his expert touch, and finally pass out from pleasure as he surges inside you. When you wake, he is gone, leaving a single flower gently nestled between your breasts." />
+	<string id="TBCaptiveEvents_Female_218" text="Your captors are ambushed by a group of well-armed and armored warriors, led from the front by a handsome lordling set on proving his worth. He forces your captors' army into a rout, but takes care to ensure they do not take you or the rest of the prisoners with them. The lordling dismounts, beaming at his victory, and announces that by his boundless generosity all of you are now free to go. Recognizing you as a fellow noble, he offers you both food, rest, and the use of his doctors." />
+	<string id="TBCaptiveEvents_Female_219" text="Thank him for his timely aid." />
+	<string id="TBCaptiveEvents_Female_220" text="He *is* quite handsome... Offer your body as thanks." />
+	<string id="TBCaptiveEvents_Female_221" text="The noble seems taken aback, as though offended by the suggestion that he would intend anything so improper, but you watch his eyes move greedily up and down your body and share a knowing grin. You lead him to his pavilion and gently push him down against his bed, straddling his legs. Through his clothing, you feel his girth brush against your sex as you begin to remove his belt... The following morning, you share a lively if unusually suggestive conversation on the subject of tactics and leadership." />
+	<string id="TBCaptiveEvents_Female_222" text="Take your leave. Perhaps you'll see each other again?" />
+	<string id="TBCaptiveEvents_Female_223" text="Your captors stop to purchase supplies from a passing caravan, and one of its leaders recognizes your noble bearing. She offers them a discount on her wares if they include you in the trade, and though you fear her intentions as they leave, she smiles at you and offers you your freedom. She asks only that you look kindly upon her caravan the next time you meet." />
+	<string id="TBCaptiveEvents_Female_224" text="Thank her for her generosity." />
+	<string id="TBCaptiveEvents_Female_225" text="Notice the way she looks at you, and offer to pleasure her as thanks." />
+	<string id="TBCaptiveEvents_Female_226" text="At first she seems wary of your proposal, but as you lick your lips with your talented tongue, she shivers with arousal. Leading you to a private tent, she seems unsure how to proceed until you remove your shirt with one hand, revealing your supple breasts, and slowly tease your hand up the inside of her thigh with the other. She moans at the sensation, and you both realize how unbearably horny the other is... The following morning, you find yourself sharing a delicious breakfast and chatting amicably about the prices of local goods." />
+	<string id="TBCaptiveEvents_Female_227" text="Cheerfully part ways with your lover." />
+	<string id="TBCaptiveEvents_Female_228" text="While the rest of your captors are otherwise engaged, their leader orders you to follow him. He carefully walks to the edge of the camp, looking warily about before cutting your bonds. He explains that while he doesn't wish to look weak in front of his men, he feels you have suffered long enough. He asks only that you return the kindness, should your roles be reversed." />
+	<string id="TBCaptiveEvents_Female_229" text="Thank him for his generosity." />
+	<string id="TBCaptiveEvents_Female_230" text="Offer to reward his generosity with your body..." />
+	<string id="TBCaptiveEvents_Female_231" text="Beg him to let you stay his captive." />
+	<string id="TBCaptiveEvents_Female_232" text="Your former captor protests that it would be improper for him to take advantage, but his jabbering stops as you shove your tongue in his mouth, kissing him deeply. You press yourself against him, mischievously moving one hand down to stroke his manhood while the other grasps his firm butt, and he gives in to his lust, pushing you to the ground with brutish, virile strength as he undoes his breeches. You spend a blissful afternoon under - and over - and against - an oak tree, and as evening approaches you find yourself curled up in his gentle embrace, watching the sun set over the horizon." />
+	<string id="TBCaptiveEvents_Female_233" text="Thank him for a memorable afternoon as you leave." />
+	<string id="TBCaptiveEvents_Female_234" text="One of your allies sneaks into camp to help you escape, stealthily removing your chains and carefully making their way to a couple of horses they've brought for the occasion. As your former captor's encampment fades from view, your rescuer asks you what your plans are now." />
+	<string id="TBCaptiveEvents_Female_235" text="First, fame. Then, glory." />
+	<string id="TBCaptiveEvents_Female_236" text="After all that riding, you're feeling quite aroused..." />
+	<string id="TBCaptiveEvents_Female_237" text="Your ally seems at first concerned that after your captivity you would still be interested in sex, but stops complaining as soon as you reach down his pants and grasp his balls in your hand. He's a passionate and tender lover, and kisses you deeply, his lips moist and tender. Hours later, satisfied from your exertions, you continue along your way." />
+	<string id="TBCaptiveEvents_Female_238" text="Thank him for a memorable afternoon as you leave." />
+	<string id="TBCaptiveEvents_Female_239" text="" />
+	<string id="TBCaptiveEvents_Female_240" text="" />
+	<string id="TBCaptiveEvents_Female_241" text="" />
+	<string id="TBCaptiveEvents_Female_242" text="" />
+	<string id="TBCaptiveEvents_Female_243" text="" />
+	<string id="TBCaptiveEvents_Female_244" text="" />
+	<string id="TBCaptiveEvents_Female_245" text="" />
+	<string id="TBCaptiveEvents_Female_246" text="" />
+	<string id="TBCaptiveEvents_Female_247" text="" />
+	<string id="TBCaptiveEvents_Female_248" text="" />
+	<string id="TBCaptiveEvents_Female_249" text="" />
+	<string id="TBCaptiveEvents_Female_250" text="" />
+	<string id="TBCaptiveEvents_Female_251" text="" />
+	<string id="TBCaptiveEvents_Female_252" text="" />
+	<string id="TBCaptiveEvents_Female_253" text="" />
+	<string id="TBCaptiveEvents_Female_254" text="" />
+	<string id="TBCaptiveEvents_Female_255" text="" />
+	<string id="TBCaptiveEvents_Female_256" text="" />
+	<string id="TBCaptiveEvents_Female_257" text="" />
+	<string id="TBCaptiveEvents_Female_258" text="" />
+	<string id="TBCaptiveEvents_Female_259" text="" />
+	<string id="TBCaptiveEvents_Female_260" text="" />
+	<string id="TBCaptiveEvents_Female_261" text="" />
+	<string id="TBCaptiveEvents_Female_262" text="" />
+	<string id="TBCaptiveEvents_Female_263" text="" />
+	<string id="TBCaptiveEvents_Female_264" text="" />
+	<string id="TBCaptiveEvents_Female_265" text="" />
+	<string id="TBCaptiveEvents_Female_266" text="" />
+	<string id="TBCaptiveEvents_Female_267" text="" />
+	<string id="TBCaptiveEvents_Female_268" text="" />
+	<string id="TBCaptiveEvents_Female_269" text="" />
+	<string id="TBCaptiveEvents_Female_270" text="" />
+	<string id="TBCaptiveEvents_Female_271" text="" />
+	<string id="TBCaptiveEvents_Female_272" text="" />
+	<string id="TBCaptiveEvents_Female_273" text="" />
+	<string id="TBCaptiveEvents_Female_274" text="" />
+	<string id="TBCaptiveEvents_Female_275" text="" />
+	<string id="TBCaptiveEvents_Female_276" text="" />
+	<string id="TBCaptiveEvents_Female_277" text="" />
+	<string id="TBCaptiveEvents_Female_278" text="" />
+	<string id="TBCaptiveEvents_Female_279" text="" />
+	<string id="TBCaptiveEvents_Female_280" text="" />
+	<string id="TBCaptiveEvents_Female_281" text="" />
+	<string id="TBCaptiveEvents_Female_282" text="" />
+	<string id="TBCaptiveEvents_Female_283" text="" />
+	<string id="TBCaptiveEvents_Female_284" text="" />
+	<string id="TBCaptiveEvents_Female_285" text="" />
+	<string id="TBCaptiveEvents_Female_286" text="" />
+	<string id="TBCaptiveEvents_Female_287" text="" />
+	<string id="TBCaptiveEvents_Female_288" text="" />
+	<string id="TBCaptiveEvents_Female_289" text="" />
+	<string id="TBCaptiveEvents_Female_290" text="" />
+	<string id="TBCaptiveEvents_Female_291" text="" />
+	<string id="TBCaptiveEvents_Female_292" text="" />
+	<string id="TBCaptiveEvents_Female_293" text="" />
+	<string id="TBCaptiveEvents_Female_294" text="" />
+	<string id="TBCaptiveEvents_Female_295" text="" />
+	<string id="TBCaptiveEvents_Female_296" text="" />
+	<string id="TBCaptiveEvents_Female_297" text="" />
+	<string id="TBCaptiveEvents_Female_298" text="" />
+	<string id="TBCaptiveEvents_Female_299" text="" />
+	<string id="TBCaptiveEvents_Female_300" text="" />
+	</strings>
+</base>

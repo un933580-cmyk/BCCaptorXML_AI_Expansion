@@ -163,7 +163,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>A good way to raise morale.</OptionText>
+                <OptionText>{=TBCaptorEvents_Common_003}A good way to raise morale.</OptionText>
             </Option>
         </Options>
         <ReqCustomCode>true</ReqCustomCode>
@@ -226,7 +226,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>Continue.</OptionText>
+                <OptionText>{=DefaultCaptiveEventsFemale22}Continue.</OptionText>
 				<TriggerEventName>TB_captor_sell_virginity_taken_2</TriggerEventName>
             </Option>
         </Options>
