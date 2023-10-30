@@ -2293,7 +2293,7 @@
                     <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
                 <PregnancyRiskModifier>17</PregnancyRiskModifier>
-                <OptionText>Let her go.</OptionText>
+                <OptionText>{=TBRandomEventsMale_Noncon031}Let her go.</OptionText>
             </Option>
         </Options>
         <SkillsToLevel>

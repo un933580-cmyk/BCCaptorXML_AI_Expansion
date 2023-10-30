@@ -4,4 +4,6 @@
   <LanguageFile xml_path="EN/TBModularEvents.xml" />
   <LanguageFile xml_path="EN/TBRandomEvents.xml" />
   <LanguageFile xml_path="EN/TBSlaveryEventsFemale.xml" />
+  <LanguageFile xml_path="EN/TBCaptiveEvents.xml" />
+  <LanguageFile xml_path="EN/TBCaptorEvents.xml" />
 </LanguageData>

@@ -27,6 +27,9 @@ I'm sure you're here in part because of the extended BC Captor custom skills, so
 * Breakable isn't really finished, but it is supposed to indicate working on the Self-Esteem/Humiliation line.
 * InTorture is whether you have left them in the Torture Chamber, to eliminate them from many random events they shouldn't get.
 * CaptorBuying was supposed to be a flag to let the Slave Trader know to come by. I turned this off and left the trader inside the Harem with the Procuress.
+* CaptiveStripped is a flag to prevent multi-clothes-stealing bug.
+* Fame, "Bedroom Notoriety" (also not very fleshed out yet) is a measure of how "well-known" you are in certain circles of ill-repute...
+* CaptiveOffLimits is set when you decline the initial flirtation, allows you to eventually re-ignite passions with an NPC.
 
 ## BC LUSTS
 * Captive Lust Anal - Butt Lust - cheeks and hole
