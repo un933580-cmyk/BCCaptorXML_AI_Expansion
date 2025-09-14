@@ -1,0 +1,83 @@
+<CEEvent>
+    <Name>TB_captor_concubine_devoted_ritual_start</Name>
+    <Text>{=BCCaptor_Text_20456}The evening air is thick with the scent of campfires as you return to your tent. There, kneeling by your bedroll in nothing but a thin silk robe, is {CAPTIVE_NAME}, her eyes glowing with devotion. She rises gracefully, pressing herself against you with a soft moan. "My lord," she whispers, "I've been waiting all day to serve you." Her fingers trace the outline of your cock through your breeches as she nuzzles your neck.</Text>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent><EventName>TB_captor_concubine_devoted_prelude</EventName><EventWeight>1</EventWeight><EventUseConditions>true</EventUseConditions></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_concubine_devoted_prelude</Name>
+    <Text>{=BCCaptor_Text_20457}{CAPTIVE_NAME} eagerly removes your armor, her lips brushing every inch of exposed skin. "I love touching you," she sighs between kisses. She sinks to her knees, untying your breeches with trembling hands before pulling them down to reveal your hardening cock. Her tongue flicks out, licking the tip reverently as she gazes up at you adoringly.</Text>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent><EventName>TB_captor_concubine_devoted_sex</EventName><EventWeight>1</EventWeight><EventUseConditions>true</EventUseConditions></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel><Skill Id="CaptiveAffection" ByLevel="+5" Ref="Hero"/></SkillsToLevel>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_concubine_devoted_sex</Name>
+    <Text>{=BCCaptor_Text_20458}You push {CAPTIVE_NAME} onto the bedroll, spreading her thighs to reveal her glistening cunt. "Please," she whimpers, arching her back as you position yourself between her legs. She wraps her limbs around your waist desperately as you enter her, crying out with pleasure at how perfectly you fill her. "I was made for you!" she gasps, meeting each thrust with eager movements of her hips.</Text>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent><EventName>TB_captor_concubine_devoted_orgasm</EventName><EventWeight>1</EventWeight><EventUseConditions>true</EventUseConditions></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_concubine_devoted_orgasm</Name>
+    <Text>{=BCCaptor_Text_20459}{CAPTIVE_NAME} trembles beneath you, her walls clenching around your cock as she cums for the third time tonight. "Gods!" she shrieks, nails digging into your back. You feel your own orgasm building and slam into her hard, emptying yourself deep inside her womb. She moans blissfully at the warmth spreading through her belly, whispering, "Fill me up... breed me..."</Text>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent><EventName>TB_captor_concubine_devoted_aftercare</EventName><EventWeight>1</EventWeight><EventUseConditions>true</EventUseConditions></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel><Skill Id="CaptiveAffection" ByLevel="+3" Ref="Hero"/></SkillsToLevel>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_concubine_devoted_aftercare</Name>
+    <Text>{=BCCaptor_Text_20460}{CAPTIVE_NAME} gently cleans your softening cock with her tongue, savoring the taste of both of you mixed together. "You're so perfect," she murmurs between licks. Her fingers play with her swollen cunt as she sucks, already aching for more. "I'll always be here for you, my lord," she promises tearfully.</Text>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsToLevel><Skill Id="CaptiveAffection" ByLevel="+5" Ref="Hero"/></SkillsToLevel>
+    <SexualContent>true</SexualContent>
+</CEEvent>

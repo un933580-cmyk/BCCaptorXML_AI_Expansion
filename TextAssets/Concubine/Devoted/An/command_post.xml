@@ -1,0 +1,117 @@
+<!-- Event 1: Summon -->
+<CEEvent>
+    <Name>devoted_anal_chain2_summon</Name>
+    <Text>In the midst of reviewing battle plans at your command tent, you summon {CAPTIVE_NAME} to attend to your needs. The devoted concubine enters immediately, her bare feet silent on the tent floor as she kneels before you. Her nipples harden in the cool air of the military camp, but she makes no move to cover herself. "My lord requires my service?" she asks softly, her eyes shining with eagerness to please.</Text>
+    <Backgrounds>
+        <Background Name="command_tent_kneeling_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain2_prelude" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 2: Titty Torture -->
+<CEEvent>
+    <Name>devoted_anal_chain2_prelude</Name>
+    <Text>With a knowing smile, you command {CAPTIVE_NAME} to use her breasts for your pleasure. The devoted concubine immediately responds, pressing her soft mounds together and sliding your cock between them with slow, deliberate strokes. "Your concubine's body exists only to serve you," she murmurs as she works, her fingers teasing your tip with every pass. The warmth of her skin combined with the slickness of her arousal creates a perfect friction that has you both panting in no time.</Text>
+    <Backgrounds>
+        <Background Name="command_tent_tittyfuck_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain2_main" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 3: Desk Domination -->
+<CEEvent>
+    <Name>devoted_anal_chain2_main</Name>
+    <Text>Flipping her onto your campaign desk, you spread {CAPTIVE_NAME}'s cheeks and plunge into her waiting asshole. Papers scatter as she moans loudly at the invasion, her fingers clutching at anything within reach. "Yes, my lord! Take what's yours!" she cries out, her body arching back to meet each powerful thrust. The sounds of their coupling fill the command tent as you claim your devoted concubine in the most primal way possible. Battle maps and reports are forgotten as you focus solely on the pleasure of dominating this willing woman.</Text>
+    <Backgrounds>
+        <Background Name="command_tent_anal_desk_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain2_cum" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 4: Messy Release -->
+<CEEvent>
+    <Name>devoted_anal_chain2_cum</Name>
+    <Text>With a grunt of satisfaction, you fill your concubine's asshole with your seed. {CAPTIVE_NAME} shivers as she feels the hot spurt inside her most private place, her body trembling with the intensity of it all. When you finally withdraw, cum leaks from between her cheeks onto the papers below, creating a messy but perfect testament to their coupling. She gazes at you with pure devotion, her fingers gently touching the place where you've claimed her so thoroughly.</Text>
+    <Backgrounds>
+        <Background Name="command_tent_anal_aftermath_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain2_aftercare" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 5: Cleanup -->
+<CEEvent>
+    <Name>devoted_anal_chain2_aftercare</Name>
+    <Text>{CAPTIVE_NAME} immediately sets to work cleaning up the mess they've made, licking your cock clean of both her juices and your cum with devoted attention. When she's finished servicing you, she turns her focus to herself, carefully wiping the cum from between her cheeks before bringing her fingers to her lips. "Your seed is a blessing," she murmurs as she savors the taste. With one final loving glance, she straightens the scattered papers on your desk, ensuring everything is in order before returning to her place at your side.</Text>
+    <Backgrounds>
+        <Background Name="command_tent_cleanup_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain2_end" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 6: End -->
+<CEEvent>
+    <Name>devoted_anal_chain2_end</Name>
+    <Text>{CAPTIVE_NAME} remains by your side as you return to reviewing your battle plans, her presence a comforting reminder of the pleasure she's provided. Occasionally, she reaches out to stroke your arm or press a gentle kiss to your shoulder, her touch filled with devotion and love. The command tent is once again a place of work rather than passion, but both of you know that their next encounter will come soon enough.</Text>
+    <Backgrounds>
+        <Background Name="command_tent_working_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+</CEEvent>

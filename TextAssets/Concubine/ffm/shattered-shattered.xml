@@ -1,0 +1,112 @@
+<Event>
+    <EventName>BC_event_shattered_twins_arrival</EventName>
+    <Text>
+        {COMPANION_NAME_1} and {COMPANION_NAME_2}, your two shattered concubines-cum-bodyguards, await you in the dimly lit chamber. Their collars dig into their necks - they put them on themselves, eager to be perfect slave-tools for your pleasure. The scent of arousal thickens the air as they kneel side by side, hands resting on thighs, eyes downcast.
+        "Master," {COMPANION_NAME_1} whimpers, licking her lips, "we came together because we knew you'd want to use both of  your battle-sisters at once. Now we want nothing but to be your fucktoys." {COMPANION_NAME_2} nods vigorously, pressing her thighs together against the wetness between them.
+        The concubines exchange glances - one jealous, one submissive - before {COMPANION_NAME_1} continues, "We'll be your perfect little whores until you're satisfied. Use us however you want." Their breathing quickens as they anticipate being claimed by their godlike master.
+    </Text>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <OptionText>{=BCCaptor_Text_15001}Approach your eager slaves.</OptionText>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_shattered_twins_examination</EventName>
+            <EventWeight>1</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+</Event>
+
+<Event>
+    <EventName>BC_event_shattered_twins_double_service</EventName>
+    <Text>
+        "On your knees, slaves," you command, making both girls scramble to obey. {COMPANION_NAME_1} immediately takes your cock in her mouth while {COMPANION_NAME_2} starts licking her pussy from behind - their collars jingling obscenely as they work together to please you.
+        "Suck his cock like the desperate whore you are," {COMPANION_NAME_2} moans into {COMPANION_NAME_1}'s cunt, making her gag on your length. You grab {COMPANION_NAME_1}'s hair and force her head into your lap, watching as she struggle to please you.
+        "We're nothing but your fucktoys," they chant between sloppy sucks, their collars digging deeper into their necks with each movement. {COMPANION_NAME_1} starts rubbing her clit furiously against {COMPANION_NAME_2}'s face as she takes your cock down her throat.
+    </Text>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <OptionText>{=BCCaptor_Text_15003}Rut their faces until you come.</OptionText>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_shattered_twins_cumsluts</EventName>
+            <EventWeight>1</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+</Event>
+
+<Event>
+    <EventName>BC_event_shattered_twins_cumsluts</EventName>
+    <Text>
+        With a guttural groan, you unleash your load straight down {COMPANION_NAME_1}'s throat. She swallows greedily, making obscene slurping noises as she takes your entire release. Meanwhile, {COMPANION_NAME_2} licks the leftover cum from her sister's lips and chin, moaning at the taste.
+        "Master's seed is delicious," they slur in unison, their collars glistening with sweat and drool. {COMPANION_NAME_2} starts rubbing herself furiously against {COMPANION_NAME_1}'s thigh as she licks your cock clean. The twin orgasms together, shaking violently from the intense stimulation.
+        "Please use us more," they beg between messy kisses, their hands roaming each other's bodies desperately while still sharing the leftover spit and semen like proper slavewhores.
+    </Text>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <OptionText>{=BCCaptor_Text_15004}Pound their pussies simultaneously.</OptionText>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_shattered_twins_gangbang</EventName>
+            <EventWeight>1</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+</Event>
+
+<Event>
+    <EventName>BC_event_shattered_twins_gangbang</EventName>
+    <Text>
+        You throw both girls onto the bed and ram your cock into {COMPANION_NAME_1}'s tight cunt while forcing {COMPANION_NAME_2} to sit on her sister's face. The lewd smacking of flesh fills the room as you pound {COMPANION_NAME_1} brutally while she eats out {COMPANION_NAME_2}.
+        "Our cunts were made for this, sister in arms," {COMPANION_NAME_1} moans between her sloppy tongue movements. You slap their asses hard enough to leave welts, making them both wail in pleasure-pain as you use their holes without mercy.
+        {COMPANION_NAME_2} starts rubbing her own clit furiously against {COMPANION_NAME_1}'s face while moaning obscenities about being your perfect little whores. Your concubines cum again almost simultaneously, their bodies shaking violently from the intense stimulation.
+        "Master," gasps {COMPANION_NAME_2} between orgasms, "please take my ass next... I want to feel you stretch me like a proper slut."
+    </Text>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <OptionText>{=BCCaptor_Text_15004a}Take {COMPANION_NAME_2}'s ass now.</OptionText>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_shattered_twins_assplay</EventName>
+            <EventWeight>1</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+</Event>
+
+<Event>
+    <EventName>BC_event_shattered_twins_assplay</EventName>
+    <Text>
+        You push {COMPANION_NAME_2} onto her hands and knees, making {COMPANION_NAME_1} kneel between her legs to prepare her sister's tight asshole. The eager slave plunges her tongue into the puckered hole, licking and sucking until it glistens with saliva.
+        "Please Master," whimpers {COMPANION_NAME_2}, arching her back as her sister works. "{COMPANION_NAME_1} is making my ass so wet for you... stretch me like a good little whore!"
+        You position yourself behind the trembling girl and slowly push into her virgin hole, feeling it squeeze your cock like a vice. {COMPANION_NAME_2} screams in pleasure-pain as you breach her tight ring.
+        "Yes! Yes!" she chants with each thrust, while {COMPANION_NAME_1} continues to lick her sister's clit from below, driving them both toward another climax. With a final thrust, you bury yourself to the hilt in {COMPANION_NAME_2}'s ass and release deep inside her. The twin screams out as she feels your hot seed filling her bowels, her body convulsing with another orgasm.
+    </Text>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <OptionText>{=BCCaptor_Text_15005a}Cum in her tight ass.</OptionText>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_shattered_twins_cumexchange</EventName>
+            <EventWeight>1</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+</Event>
+
+<Event>
+    <EventName>BC_event_shattered_twins_cumexchange</EventName>
+    <Text>
+        You pull out slowly, watching your cum leak from her well-used hole. Immediately, {COMPANION_NAME_1} buries her face between her sister's cheeks to lap up every drop of your seed.
+        "Mmm... so thick and delicious," she moans between licks as she works her tongue eagerly over the sensitive skin, cleaning her sister thoroughly with obvious pleasure. 
+        After several minutes of dedicated cleaning, {COMPANION_NAME_1} slowly pulls away, leaving a trail of saliva and cum along the way. She crawls up to kiss her sister deeply, sharing the taste of your seed that still lingers on both their tongues.
+        "Master's cum tastes even better coming from my sister's perfect little ass," she murmurs against {COMPANION_NAME_2}'s lips between passionate kisses. The sisters make out messily, their bodies pressed together as they share this most intimate of acts.
+        "We'll always serve you like this, Master," they murmur in unison, their bodies still trembling from the intense pleasure. "Your personal fucktoys, ready to take whatever you give us... whenever you want it."
+    </Text>
+</Event>

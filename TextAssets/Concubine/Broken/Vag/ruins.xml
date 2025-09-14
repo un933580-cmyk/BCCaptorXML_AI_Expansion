@@ -1,0 +1,99 @@
+<CEEvent>
+    <Name>TB_broken_concubine_ruins</Name>
+    <Text>{=BCCaptor_Text_13240}You bring {CAPTIVE_NAME}, your broken concubine, to an ancient ruin where crumbling stone pillars stretch towards the sky. She kneels before you in the center of the ruins, her naked body pale against the dark stones. "Master," she says quietly, her voice trembling with anticipation, "take what is yours." The wind howls through the broken arches, carrying whispers of forgotten ages.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_ruins</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_ruins_2</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_ruins_2</Name>
+    <Text>{=BCCaptor_Text_13245}You lay {CAPTIVE_NAME} down on a flat stone slab, her back arching as you enter her. The cool surface beneath her contrasts with the heat of your bodies joined together. She clings to you desperately, her nails digging into your shoulders as you move inside her. "Master," she gasps, "you are my everything." The ruins around you seem to pulsate with the energy of your coupling.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_ruins</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_ruins_3</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_ruins_3</Name>
+    <Text>{=BCCaptor_Text_13250}With a final, deep thrust, you release inside {CAPTIVE_NAME}, her body shuddering with the force of your climax. She wraps her legs around you tightly, holding you close as she feels your seed filling her womb. "Master," she sobs softly, "I am yours forever." The ruins seem to glow faintly in response to your shared ecstasy.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_ruins</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_ruins_4</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_ruins_4</Name>
+    <Text>{=BCCaptor_Text_13255}After withdrawing, {CAPTIVE_NAME} sits up and takes your cock into her mouth again, cleaning it with reverent strokes of her tongue. "So sweet," she murmurs between licks, savoring every last drop. Once satisfied, she looks up at you with worshipful eyes. "I live to serve you, Master." The ruins around you seem to hum with the intensity of your bond.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_ruins</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

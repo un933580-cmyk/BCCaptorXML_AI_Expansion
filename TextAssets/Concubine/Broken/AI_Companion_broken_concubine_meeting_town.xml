@@ -1,0 +1,1787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+
+    <!-- region oral chains -->
+    
+    <!-- Oral chain 1 (Marketplace) -->
+    <CEEvent>
+        <Name>AIC_broken_concubine_marketplace_intro_companion</Name>
+        <Text>{=AICaptor_Text_01190}The bustling marketplace is filled with merchants and soldiers alike. Suddenly, {CAPTIVE_NAME} appears from the crowd, dropping to her knees at your feet without a word. Her hands quickly work to expose your cock as she looks up at you with hungry eyes.</Text>
+        <Backgrounds>
+            <Background Name="Marketplace"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_marketplace_act_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_marketplace_act_companion</Name>
+        <Text>{=AICaptor_Text_01191}{CAPTIVE_NAME} takes you deep into her throat, gagging slightly as she forces herself to take more. The crowd around you parts respectfully, giving you both privacy while still observing the display of submission. "My lord's cock is so perfect," she chokes out between strokes.</Text>
+        <Backgrounds>
+            <Background Name="Marketplace"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>			
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_marketplace_finish_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_marketplace_finish_companion</Name>
+        <Text>{=AICaptor_Text_01192}{CAPTIVE_NAME} moans loudly as you unload into her mouth, swallowing eagerly. Some of your seed dribbles down her chin, but she catches it with her fingers and sucks them clean. "So delicious," she sighs, licking her lips.</Text>
+        <Backgrounds>
+            <Background Name="Marketplace"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero" HideNotification="false"/>
+                </SkillsToLevel>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_marketplace_aftermath_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_marketplace_aftermath_companion</Name>
+        <Text>{=AICaptor_Text_01193}{CAPTIVE_NAME} stands slowly, adjusting her clothes with trembling hands. "I hope I pleased you," she whispers, looking down at the ground. You nod in approval as she bows deeply before slipping back into the crowd.</Text>
+        <Backgrounds>
+            <Background Name="Marketplace"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Take a little rest and return to your duties</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <RelationTotal>R 5 10</RelationTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <!-- Oral chain 2 (Street) -->
+    <CEEvent>
+        <Name>AIC_street_encounter_concubine_companion</Name>
+        <Text>{=AICaptor_Text_01194}As you walk through the marketplace, your concubine {CAPTIVE_NAME}, dressed in her slave attire, kneels beside you, her eyes downcast. The sun beats down on both of you as she whispers, "Master, I see that crowd is gathering to watch us. They're staring at my body... My breasts are so exposed beneath this flimsy rag. It's embarrassing for me to be displayed like this in public." She looks up at you with desperate need in her eyes. "But if it pleases you, Master, then I'll endure the humiliation gladly."</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_broken_marketplace"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_street_encounter_concubine_part2_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_street_encounter_concubine_part2_companion</Name>
+        <Text>{=AICaptor_Text_01195}You grab {CAPTIVE_NAME} by the hair and drag her into a nearby alleyway, away from prying eyes. Her body trembles with anticipation as she sinks to her knees before you. "F-forgive me, Master," she whimpers, unbuckling your trousers eagerly. "I couldn't help but notice how hard you were when those men stared at my tits. I'm so sorry I made them look at you like that... Please punish me." She pulls out your cock and immediately takes it into her mouth, sucking greedily as if starving.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_broken_alleway"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_street_encounter_concubine_part3_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_street_encounter_concubine_part3_companion</Name>
+        <Text>{=AICaptor_Text_01196}With a grunt, you grab {CAPTIVE_NAME}'s head and thrust deep into her throat until she gags. Tears stream down her face as you fuck her mouth relentlessly. "G-gahhh! Mmmph!" She struggles to breathe but doesn't pull away. Instead, she moans around your cock, the vibrations sending jolts of pleasure through you. When you finally cum, filling her throat with hot semen, she swallows every last drop eagerly before licking her lips and smiling up at you. "T-thank you, Master... I love your taste."</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_broken_blowjob"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_street_encounter_concubine_part4_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_street_encounter_concubine_part4_companion</Name>
+        <Text>{=AICaptor_Text_01197}As you tuck yourself back into your trousers, {CAPTIVE_NAME} remains kneeling before you, her lips still glistening with saliva and cum. "Master... May I clean myself up now?" she asks shyly, wiping the tears from her eyes. You nod, and she stands on shaky legs, hitching up her slave dress to wipe herself between her legs where your precum has soaked through the thin fabric. "I-I hope you enjoyed yourself, Master," she murmurs, adjusting her clothes before bowing deeply. "I exist only to serve you."</Text>
+        <Backgrounds>
+            <Background Name="BC_image_captive_broken_cleanup"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Take a little rest and return to your duties</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <RelationTotal>R 5 10</RelationTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- endregion oral chains -->
+
+    <!-- region vaginal chains -->
+    
+    <!-- Vaginal chain 1 (street) -->
+    <CEEvent>
+        <Name>AIC_event_broken_concubine_public_market_start_companion</Name>
+        <Text>{=AICaptor_Text_01198}The streets are busy with merchants and townsfolk. {CAPTIVE_NAME}, your broken concubine, kneels at your feet in plain sight, her head bowed low as she waits for your command. Her naked body is exposed to the public eye, yet she doesn't seem ashamed; rather, she seems proud to be on display as your property.</Text>
+        <Backgrounds>
+            <Background Name="town_square"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_public_humiliation_proceed_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_broken_concubine_public_market_proceed_companion</Name>
+        <Text>{=AICaptor_Text_01199}You command {CAPTIVE_NAME} to spread her legs wide, exposing her dripping cunt to the passing crowd. She obeys instantly, her breath hitching as you push your cock inside her tight pussy right there in the middle of the street. Her moans are loud and uncontrolled; she loves being used like this in front of everyone.</Text>
+        <Backgrounds>
+            <Background Name="town_square"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_public_humiliation_finish_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_broken_concubine_public_market_finish_companion</Name>
+        <Text>{=AICaptor_Text_01200}You thrust deep into {CAPTIVE_NAME}'s cunt, your balls slapping against her ass as you fuck her mercilessly. Her cries of pleasure echo through the street, drawing stares from the crowd. You can feel her pussy clench around your cock as she orgasms repeatedly, begging for more. With a final powerful thrust, you cum inside her, filling her womb with your seed. She collapses to the ground, panting and covered in sweat.</Text>
+        <Backgrounds>
+            <Background Name="town_square"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BC_event_public_humiliation_cleanup_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_broken_concubine_public_market_cleanup_companion</Name>
+        <Text>{=AICaptor_Text_01201}{CAPTIVE_NAME} eagerly licks your cock clean, her tongue swirling around the tip to gather every last drop of cum. She moans softly as she tastes you, her eyes locked on yours in complete submission. "Thank you for filling me with your seed, Master," she whispers before swallowing everything down.</Text>
+        <Backgrounds>
+            <Background Name="town_square"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Take a little rest and return to your duties</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <RelationTotal>R 5 10</RelationTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- Vaginal chain 2 (Behind tavern) -->
+    <CEEvent>
+        <Name>AIC_concubine_street_encounter1_companion</Name>
+        <Text>{=AICaptor_Text_01202}{CAPTIVE_NAME}, your broken concubine, has been waiting for you in the alley behind the tavern. She kneels on the damp cobblestones, her body trembling with anticipation as she hears your footsteps. The scent of her arousal mixes with the earthy smell of the street, and her hands are clasped together in supplication. "Master," she whispers, her voice dripping with submission, "I long to serve you."</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_alleystand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_concubine_street_encounter2_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_concubine_street_encounter2_companion</Name>
+        <Text>{=AICaptor_Text_01203}You grab {CAPTIVE_NAME} by her hair and force her head down to your crotch. She moans in delight as she feels the outline of your cock through your pants, already hard with anticipation. "Please, Master," she begs, her voice muffled against your fabric, "let me taste you. Let me serve my purpose." You unbuckle and pull out your cock, slapping it against her face before shoving it into her mouth. She gags slightly but quickly adjusts, her tongue swirling around the tip as she sucks eagerly.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_alleystand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_concubine_street_encounter3_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_concubine_street_encounter3_companion</Name>
+        <Text>{=AICaptor_Text_01203}You pull her off your cock and flip her around, bending her over a nearby crate. She whimpers in anticipation as you hike up her skirt and rip off her panties. "Fuck me, Master," she cries out, spreading her legs wider for you. You spit on your fingers and rub them against her pussy, feeling how soaked she is for you. Without warning, you slam into her hard, making her scream in pleasure-pain. "Yes!" she moans loudly, uncaring of who might hear. "Use me! Ruin me! I live only to serve you!"</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_alleystand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_concubine_street_encounter4_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_concubine_street_encounter4_companion</Name>
+        <Text>{=AICaptor_Text_01204}You pound into {CAPTIVE_NAME} relentlessly, her body jolting with each thrust. She claws at the crate, her moans growing louder as she feels herself getting closer to orgasm. "Master!" she cries out, her voice breaking. "I'm... I'm coming! Please don't stop!" Just as she reaches her peak, you slam into her one last time and release deep inside her. She collapses forward with a satisfied moan, feeling your hot seed filling her up. "Thank you, Master," she gasps, looking back at you with adoring eyes. "Your cum feels so good inside me."</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_alleystand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_concubine_street_encounter5_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_concubine_street_encounter5_companion</Name>
+        <Text>{=AICaptor_Text_01205}{CAPTIVE_NAME} slowly stands up, your cum dripping down her thighs. She turns to face you and drops to her knees again, taking your still-hard cock into her mouth once more. "Let me clean you, Master," she murmurs between licks, her tongue swirling around the sensitive tip. She sucks gently, savoring every drop of pre-cum that leaks out. When she's finished, she looks up at you with worshipful eyes. "Thank you for using me, Master. I exist only to serve your pleasure."</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_alleystand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Take a little rest and return to your duties</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <RelationTotal>R 5 10</RelationTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <!-- Vaginal chain 3 (Abandoned house) -->
+    <CEEvent>
+        <Name>AIC_broken_concubine_abandonedhouse1_companion</Name>
+        <Text>{=AICaptor_Text_01206}You bring {CAPTIVE_NAME} to abandoned house. She kneels naked on a dirty mattress. She looks up at you with empty eyes, but her body betrays her arousal as she spreads her legs for you. "Use me, Master," she whispers. "I'm nothing without your touch."</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_housestand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_abandonedhouse2_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_abandonedhouse2_companion</Name>
+        <Text>{=AICaptor_Text_01207}You approach her and slap her face hard. She gasps, tears welling up in her eyes, but she doesn't move away. "I'm sorry for being such a useless concubine," she sobs. You grab her throat and push her down onto the mattress. "Beg for my cock," you demand.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_housestand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_abandonedhouse3_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_abandonedhouse3_companion</Name>
+        <Text>{=AICaptor_Text_01208}"Please, Master," she whimpers, spreading her legs wider and reaching for your pants. "I need to feel you inside me." You pull out your cock and rub it against her slit before slamming into her hard. She cries out in pain and pleasure, her nails digging into the mattress as you fuck her mercilessly.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_housestand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_abandonedhouse4_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_abandonedhouse4_companion</Name>
+        <Text>{=AICaptor_Text_01132}{CAPTIVE_NAME}'s moans fill the room as you pound into her, her body jolting with each thrust. She clings to you desperately, her legs wrapped around your waist. "Master!" she screams as she orgasms, her pussy convulsing around your cock.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_housestand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_abandonedhouse5_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_abandonedhouse5_companion</Name>
+        <Text>{=AICaptor_Text_01209}You pull out and come all over her stomach, watching as your cum drips down onto the mattress. {CAPTIVE_NAME} lies there panting, a satisfied smile on her face.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_concubine_housestand"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Take a little rest and return to your duties</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <RelationTotal>R 5 10</RelationTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <!-- endregion vaginal chains -->
+
+    <!-- region anal chains -->
+
+    <!-- Anal chain 1 (street_1) -->
+    <CEEvent>
+        <Name>AIC_broken_concubine_street_street_encounter1_companion</Name>
+        <Text>{=AICaptor_Text_01210}{CAPTIVE_NAME} waits shivering on her knees in a dark alley, her bare skin prickling from the evening breeze. The cold stone beneath her naked body is unrelenting, but she doesn't dare move without permission. Her ragged breathing is the only sound in the empty street as she gazes up at you with wide, pleading eyes. "Please, my lord," she whimpers, "your broken concubine needs to serve you again."</Text>
+        <Backgrounds>
+            <Background Name="Broken_StreetAlley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BrokenCon_StreetPrelude1_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_street_street_prelude1_companion</Name>
+        <Text>{=AICaptor_Text_01211}{CAPTIVE_NAME} scrambles to obey as you command her to clean your cock with her tongue. Her lips wrap around the head with desperate hunger, her eyes rolling back in bliss at the taste of your skin. "Ohhh... my lord's cock tastes so good," she moans between licks, her fingers digging into her own thighs. The cold street air makes her nipples hard as she bobs eagerly, her ragged breathing turning into wanton gasps.</Text>
+        <Backgrounds>
+            <Background Name="Broken_StreetAlley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+			<RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BrokenCon_MissionaryAnal1_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_street_street_anal1_companion</Name>
+        <Text>{=AICaptor_Text_01212}{CAPTIVE_NAME} whimpers as you pin her delicate body beneath yours, spreading her trembling thighs and guiding your throbbing cock to her tight little asshole. "Y-yes... use my worthless hole, master," she chokes out between ragged breaths, her fingers digging into the rough pavement as you breach her virgin ass. The cold stone presses against her back while your powerful thrusts make her small frame bounce with each impact.</Text>
+        <Backgrounds>
+            <Background Name="Broken_StreetAlley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+			<RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BrokenCon_StreetCum1_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_street_street_cum1_companion</Name>
+        <Text>{=AICaptor_Text_01213}{CAPTIVE_NAME} shudders violently as you flood her ass with hot cum, her entire body convulsing in submission. "Ohhh yes... fill your broken concubine up," she sobs happily, feeling your seed drip from her stretched hole onto the dirty pavement. Her fingers trace the mess between her thighs as she whimpers, "My lord's spunk feels so good inside me..."</Text>
+        <Backgrounds>
+            <Background Name="Broken_StreetAlley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+			<RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>BrokenCon_StreetCleanup1_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_street_cleanup1_companion</Name>
+        <Text>{=AICaptor_Text_01214}{CAPTIVE_NAME} laps at your cock with renewed vigor, her tongue working diligently to clean every drop of cum. "Mmm... my lord's taste is divine," she moans between licks, her fingers plunging into her gaping asshole to scoop out more seed. She sucks her own digits clean with a happy sigh before pressing her forehead against your thigh in worship. "Thank you for using your broken concubine so wonderfully..."</Text>
+        <Backgrounds>
+            <Background Name="Broken_StreetAlley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+			<RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Take a little rest and return to your duties</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <RelationTotal>R 5 10</RelationTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- Anal chain 2 (behind tavern) -->
+    <CEEvent>
+        <Name>AIC_broken_concubine_alley_encounter_companion</Name>
+        <Text>{=AICaptor_Text_01215}In a dark back alley behind the tavern, {CAPTIVE_NAME} is waiting exactly where you told her to be. "Master came!" she gasps as you push her against the rough stone wall. Her fingers are already working at your pants while she moans about how lucky she is to have such a demanding master who uses his broken concubine whenever he pleases.</Text>
+        <Backgrounds>
+            <Background Name="dark_alley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_alley_preparation_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_alley_preparation_companion</Name>
+        <Text>{=AICaptor_Text_01216}{CAPTIVE_NAME} immediately drops to her knees, frantically licking your cock while praising its size. "I'm so honored master uses my worthless mouth before breaking my ass," she slurs around your length. The sounds of the tavern spill into the alley as you enjoy watching your broken concubine service you in public.</Text>
+        <Backgrounds>
+            <Background Name="dark_alley_kneeling"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_alley_anal_prep_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_alley_anal_prep_companion</Name>
+        <Text>{=AICaptor_Text_01217}{CAPTIVE_NAME} spins around and bends over the crates, spreading her cheeks eagerly. "Please master! Stretch my ruined hole!" she cries while three fingers disappear into her gaping ass. A drunken man stumbles past but you pay him no mind - your only focus is on claiming what's yours.</Text>
+        <Backgrounds>
+            <Background Name="dark_alley_bending"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_alley_anal_penetration_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_alley_anal_penetration_companion</Name>
+        <Text>{=AICaptor_Text_01218}With a sharp cry of pain that quickly turns to ecstasy, {CAPTIVE_NAME} takes your full length in one brutal stroke. "Yes! Break me master!" she screams as you pound her against the crates. The sounds of flesh slapping flesh mix with her cries and the distant tavern noise while she praises how perfectly you're using her for your pleasure.</Text>
+        <Backgrounds>
+            <Background Name="dark_alley_anal"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_alley_finishing_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_alley_finishing_companion</Name>
+        <Text>{=AICaptor_Text_01219}As you empty yourself deep inside her ruined ass, {CAPTIVE_NAME} collapses against the crates, trembling with satisfaction. "Thank you master for filling your broken concubine so completely in public," she coos while feeling the hot seed leaking from her stretched hole. She immediately starts licking it clean from between her cheeks, moaning at how good her master's cum tastes straight from where he owns her.</Text>
+        <Backgrounds>
+            <Background Name="dark_alley_aftermath"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Take a little rest and return to your duties</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <RelationTotal>R 5 10</RelationTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- Anal chain 3 (Public marketplace) -->
+    <CEEvent>
+        <Name>AIC_broken_concubine_market_anal_start_companion</Name>
+        <Text>{=AICaptor_Text_01220}The market is abuzz with activity when {CAPTIVE_NAME} suddenly appears atop a fish counter, naked except for her slave collar. She spreads her legs wide and calls out to you, "Master! Please use me as your personal toy in front of everyone!" The crowd parts respectfully as you approach.</Text>
+        <Backgrounds>
+            <Background Name="Market_Fish_Counter_Position"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_market_anal_prelude_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_market_anal_prelude_companion</Name>
+        <Text>{=AICaptor_Text_01221}{CAPTIVE_NAME} rubs her body against yours sensually, whispering filthy promises in your ear as she works to excite you. She then drops to her knees and takes you deep into her throat, using both hands and mouth to bring you quickly to the brink while spectators watch with bated breath.</Text>
+        <Backgrounds>
+            <Background Name="Market_Fish_Counter_Oral"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_market_anal_penetration_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_market_anal_penetration_companion</Name>
+        <Text>{=AICaptor_Text_01222}{CAPTIVE_NAME} moans loudly as you press into her tight back entrance from behind, her body shaking with pleasure at the public display. "Yes master! Fill your broken concubine's ass in front of everyone!" she screams, drawing gasps from the watching crowd.</Text>
+        <Backgrounds>
+            <Background Name="Market_Fish_Counter_Anal"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_market_anal_finish_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_market_anal_finish_companion</Name>
+        <Text>{=AICaptor_Text_01223}With a final powerful thrust, you empty yourself deep inside {CAPTIVE_NAME}'s trembling body. She collapses forward onto the counter, your seed dripping from her well-used ass as she moans in blissful submission.</Text>
+        <Backgrounds>
+            <Background Name="Market_Fish_Counter_Finish"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_market_anal_cleanup_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_market_anal_cleanup_companion</Name>
+        <Text>{=AICaptor_Text_01224}{CAPTIVE_NAME} licks and sucks your cock clean right there in the market square, her tongue working diligently to remove every trace of their encounter. She then scoops some of the seed from between her ass cheeks and swallow it eagerly.</Text>
+        <Backgrounds>
+            <Background Name="Market_Fish_Counter_Cleanup"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Take a little rest and return to your duties</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <RelationTotal>R 5 10</RelationTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- Anal chain 4 (Tavern public) -->
+    <CEEvent>
+        <Name>AIC_broken_concubine_tavern_anal_arrival_companion</Name>
+        <Text>{=AICaptor_Text_01225}The dim light of the tavern casts long shadows as {CAPTIVE_NAME} kneels in the corner, her naked body trembling slightly. The ragged remains of her once-elegant gown lie discarded nearby, and the iron collar around her neck glints in the torchlight. She watches you with wide, eager eyes, her breath coming in short gasps at the thought of serving her lord again. The other patrons pay her no mind - they've seen worse in this place.</Text>
+        <Backgrounds>
+            <Background Name="TavernCorner"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_tavern_anal_prelude_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_tavern_anal_prelude_companion</Name>
+        <Text>{=AICaptor_Text_01226}{CAPTIVE_NAME} scrambles to her feet at your approach, her hands immediately going to work on your belt. "Please let me serve you, my lord," she whimpers, her fingers fumbling with the buckle in her eagerness. She kneels again once your cock springs free, licking her lips as she takes in its size. "I've been dreaming of tasting you all day... please use my mouth however you wish." Her tongue darts out to swipe at the head before you can react.</Text>
+        <Backgrounds>
+            <Background Name="TavernKneeling"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_tavern_anal_entry_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_tavern_anal_entry_companion</Name>
+        <Text>{=AICaptor_Text_01227}{CAPTIVE_NAME} arches her back as you position yourself behind her, presenting her tight little asshole with a shiver of anticipation. "Y-Yes, master," she gasps when your fingers tease her entrance, "I want to feel your cock breaking me open again." She reaches back to spread herself wider, her whole body trembling in excitement. The moment you push inside, she lets out a choked cry of pleasure-pain that makes several tavern patrons glance their way.</Text>
+        <Backgrounds>
+            <Background Name="TavernDoggy"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_tavern_anal_fucking_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_tavern_anal_fucking_companion</Name>
+        <Text>{=AICaptor_Text_01228}Your thrusts make {CAPTIVE_NAME}'s tits bounce enticingly as she braces herself against the wooden table, her moans growing louder with each powerful stroke. "I'm such a filthy whore for you," she cries out between breaths, "your broken little concubine who lives to be used like this!" She reaches back to pull her ass cheeks apart even wider, giving you deeper access as the tavern's patrons begin to openly stare at your public display.</Text>
+        <Backgrounds>
+            <Background Name="TavernTable"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_concubine_tavern_anal_ejaculation_companion</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_concubine_tavern_anal_ejaculation_companion</Name>
+        <Text>{=AICaptor_Text_01229}{CAPTIVE_NAME} screams in ecstasy as you fill her ass with your seed, her body convulsing around you as she reaches her own climax. "Oh gods, yes! Breed me! Make me your perfect little whore!" The moment you pull out, she scrambles to catch the cum dripping from her hole, eagerly licking it from her fingers with a blissful expression. Several of your men have gathered around to watch, their approval evident in the way they stroke themselves through their trousers.</Text>
+        <Backgrounds>
+            <Background Name="TavernCleanup"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Take a little rest and return to your duties</OptionText>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <RelationTotal>R 5 10</RelationTotal>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveObedience" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <Companions>
+			<Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_random_broken_untrained_concubine_current" />
+		</Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+</CEEvents>

@@ -1,0 +1,74 @@
+<CEEvent>
+    <Name>Devoted_concubine_presents_and_feeds</Name>
+    <Description>{CAPTIVE_NAME} has laid out a feast in your tent, her body barely covered by a thin robe that clings to her curves. She kneels gracefully beside the table, her eyes shining with devotion as she watches you take your seat. "My Lord," she says softly, pouring wine into your cup before filling her own, "I have prepared everything for you." Her fingers tremble slightly as she hands you the first dish, her breath catching when your eyes meet hers. She sits close, feeding you bite by delicate bite with her own hands, her touch gentle yet purposeful.</Description>
+    <Options>
+        <Option>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_pleases_after_meal</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_pleases_after_meal</Name>
+    <Description>{CAPTIVE_NAME} moves to kneel before you, her hands trembling slightly as they undo your trousers with reverent care. She gazes up at you with worshipful eyes before taking your cock into her mouth, her lips wrapping around you like a velvet glove. Her tongue swirls expertly along the sensitive underside, working in slow circles that make your breath hitch. With each deep bob of her head, she takes more of you until her nose brushes against your skin and you can feel her throat constrict around your tip. She moans around you, vibrations sending shivers down your spine as tears well in her eyes from the effort.</Description>
+    <Options>
+        <Option>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_takes_you_deep</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_takes_you_deep</Name>
+    <Description>{CAPTIVE_NAME} arches her back as you take her from behind, her body trembling with anticipation. The roughness of your grip on her hips seems to excite her further, her moans filling the room and echoing off the tent walls. "Yes... yes..." she gasps between pleasure-filled cries, her fingers digging into the bedsheets beneath her. Her back glistens with sweat as you thrust deeper into her welcoming heat, each movement drawing out another breathy cry of pleasure from her lips. The scent of her arousal mingles with your own musk in the confined space, creating an intoxicating atmosphere that only serves to heighten both your pleasures.</Description>
+    <Options>
+        <Option>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_receives_seed</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_receives_seed</Name>
+    <Description>With a final, powerful thrust, you spill your seed deep inside her, feeling her body convulsing around you in ecstatic release. {CAPTIVE_NAME} collapses onto the bed beneath you, panting heavily as she feels your essence leaking out of her. "Thank you... thank you," she whispers between ragged breaths, turning her head to press a kiss against your hand where it rests on her hip. Her body still trembles slightly from the intensity of her orgasm, and she reaches back to stroke your thigh lovingly. "I hope it takes..." she murmurs dreamily, "I want to carry your heir... I want everyone to know you claimed me." The devotion in her voice is palpable as she speaks.</Description>
+    <Options>
+        <Option>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_aftercare</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_aftercare</Name>
+    <Description>{CAPTIVE_NAME} tends to you with loving care, her tongue cleaning your cock of any remnants while her hands stroke your thighs reverently. "You are my everything," she murmurs between gentle licks, her breath hot against sensitive skin as she works to bring you back to fullness. She kisses the tip tenderly before looking up at you with adoring eyes. "Let me stay here... let me serve you always," she whispers, rising slightly to press her lips to yours in a deep, passionate kiss that leaves no doubt of her devotion. Her hands roam over your body possessively as she settles back down between your legs, ready to worship you again at her master's pleasure.</Description>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>

@@ -1,0 +1,107 @@
+<CEEvent>
+    <Name>TB_captor_devoted_oral_invite_outdoor</Name>
+    <Text>{=BCCaptor_Text_DevOralChain01}The afternoon sun dips low, casting long shadows through the camp as you make your rounds. You find {CAPTIVE_NAME}, kneeling demurely near a clear mountain stream, washing clothes. As she senses your approach, her eyes light up with devotion and a hint of mischief. "Master," she purrs, rising to her feet, letting the damp linen fall from her hands, "the water feels so cool... but it's lonely without you." Slowly, deliberately, she unfastens her simple tunic, revealing her bare breasts beneath, before sinking back onto her knees in the soft grass. "Would my concubine please join me for some private refreshment?" she whispers, parting her lips invitingly.</Text>
+    <Backgrounds>
+        <Background Name="TB_nature_stream" />
+    </Backgrounds>
+    <NotificationName>BC_image_notification_oral</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Devoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TBRandomEvents_Solo007}Proceed with my devoted concubine.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_devoted_oral_action_outdoor</Name>
+    <Text>{=BCCaptor_Text_DevOralChain02}You stand before your kneeling concubine, {CAPTIVE_NAME}, as she gazes up worshipfully. With trembling hands, she frees your cock from its confines, letting out a soft gasp at the sight of it. "Oh Master," she breathes, her fingers tracing your length reverently, "my entire purpose is to serve this." Her tongue darts out to taste the first bead of pre-cum glistening on the tip before she parts her lips wide and takes you deep into her warm, eager mouth. You feel the wet heat engulf you as she begins a slow, rhythmic bobbing motion.</Text>
+    <Backgrounds>
+        <Background Name="TB_nature_stream" />
+    </Backgrounds>
+    <NotificationName>BC_image_notification_oral</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Devoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TBRandomEvents_Solo007}Let my concubine continue her devotion.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_devoted_oral_climax_outdoor</Name>
+    <Text>{=BCCaptor_Text_DevOralChain03}You feel the familiar tension building deep within as {CAPTIVE_NAME}'s mouth works tirelessly, her tongue swirling and lips tight. Her eyes remain locked on yours, brimming with adoration and need to please you utterly. "Mmm... yes Master," she mumbles around your cock, the vibrations sending shivers down your spine, "fill me... use my mouth as only a true concubine should be used." With a final thrust, you empty yourself deep into her throat.</Text>
+    <Backgrounds>
+        <Background Name="TB_nature_stream" />
+    </Backgrounds>
+    <NotificationName>BC_image_notification_oral_climax</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Devoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TBRandomEvents_Solo007}Watch my concubine accept your gift.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_devoted_oral_aftercare_outdoor</Name>
+    <Text>{=BCCaptor_Text_DevOralChain04}As the last pulse subsides, {CAPTIVE_NAME} gently withdraws you from her mouth, a thin line of your essence escaping to drip from her chin. Without hesitation, she captures it with her tongue before licking your spent cock clean with reverent strokes. "Mmm... thank you, Master," she sighs, her eyes half-lidded in blissful satisfaction, "every drop is pure nectar to my devoted concubine." She continues to cleanse you thoroughly, worshipping your softening flesh with lips and tongue, a contented smile playing on her face as she nestles her cheek against your thigh.</Text>
+    <Backgrounds>
+        <Background Name="TB_nature_stream" />
+    </Backgrounds>
+    <NotificationName>BC_image_notification_oral_aftercare</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Devoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TBRandomEvents_Solo007}Appreciate my concubine's devotion.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>

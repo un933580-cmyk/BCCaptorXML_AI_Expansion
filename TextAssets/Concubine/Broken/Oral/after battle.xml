@@ -1,0 +1,74 @@
+<CEEvent>
+    <Name>BC_event_after_battle_blowjob_part1</Name>
+    <Description>
+        The battlefield is littered with corpses as you return from a successful raid.
+        {CAPTIVE_NAME} runs up to you covered in blood - hers or enemies', it's hard to tell.
+        "I knew you'd win... and now my reward is to cleanse your sword with my mouth."
+    </Description>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>Continue</MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_after_battle_blowjob_part2</EventName>
+            <EventWeight>1</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="4" Ref="Hero"/>
+    </SkillsRequired>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_after_battle_blowjob_part2</Name>
+    <Description>
+        {CAPTIVE_NAME} drops to her knees and begins sucking you with violent enthusiasm, her hands gripping your thighs.
+        "Mmm... the taste of victory. I love it." She moans around you before deepthroating again.
+        Around you soldiers cheer and laugh at some crude joke, oblivious to their commander's private celebration.
+    </Description>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>Continue</MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_after_battle_blowjob_part3</EventName>
+            <EventWeight>1</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="5" Ref="Hero"/>
+    </SkillsRequired>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_after_battle_blowjob_part3</Name>
+    <Description>
+        You finish with a roar, covering {CAPTIVE_NAME}'s face in cum while she moans in ecstasy.
+        "I'm so happy... I exist only to please you." She licks her lips and begins sucking again without being told.
+    </Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+35" Ref="Hero" Color="Green"/>
+        <Skill Id="Trustee" ByLevel="-2" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="6" Ref="Hero"/>
+    </SkillsRequired>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+</CEEvent>
+\

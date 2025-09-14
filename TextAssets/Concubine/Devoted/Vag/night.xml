@@ -1,0 +1,98 @@
+<CEEvent>
+    <Name>concubine_moonlit_offering_1</Name>
+    <Description>The silvery glow of the moon filters through the balcony curtains as {CAPTIVE_NAME} enters your private chambers. She wears nothing but a thin silk shawl draped over her shoulders, barely concealing her curvy form beneath.
+
+    "My lord," she breathes, her voice trembling with anticipation. "The night is so beautiful... and I've prepared something special for you." With a slow unraveling of the shawl, she reveals herself completely to your gaze.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+10" Ref="Hero" HideNotification="true"/>
+    </SkillsToLevel>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>concubine_moonlit_offering_2</EventName>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_moonlit_offering_2</Name>
+    <Description>{CAPTIVE_NAME} approaches with the grace of a cat, her bare feet silent on the floor. She kneels at your feet and begins to unbutton your trousers, freeing your already half-hard cock with reverent hands.
+
+    "Let me make you feel as good as you make me," she murmurs before taking you into her warm mouth. Her tongue swirls around your tip while one hand strokes your shaft in time with her movements.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+15" Ref="Hero" HideNotification="true"/>
+    </SkillsToLevel>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>concubine_moonlit_offering_3</EventName>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_moonlit_offering_3</Name>
+    <Description>When you're fully erect, {CAPTIVE_NAME} positions herself astride your lap. The moonlight casts her shadow on the wall behind her as she lowers herself onto your cock with a soft moan.
+
+    "Oh gods... yes..." she gasps, beginning to ride you with slow, deliberate thrusts. Her hands roam over her own body, squeezing her breasts and pinching her nipples as if trying to show how much pleasure you're giving her.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+20" Ref="Hero" HideNotification="true"/>
+    </SkillsToLevel>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>concubine_moonlit_offering_4</EventName>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_moonlit_offering_4</Name>
+    <Description>Her pace quickens as she nears her climax, chanting your name like a prayer. When you feel yourself about to burst, she grinds down hard and gasps as you flood her womb.
+
+    "Yes... fill me... breed me..." she whimpers, collapsing against your chest with tears in her eyes.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+25" Ref="Hero" HideNotification="true"/>
+    </SkillsToLevel>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>concubine_moonlit_offering_5</EventName>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_moonlit_offering_5</Name>
+    <Description>{CAPTIVE_NAME} remains seated on your lap, rocking gently to keep your semen inside her. She turns her head to kiss you passionately before whispering, "I hope it takes... I want a child who looks just like you."
+
+    Her hands slide between her legs as she begins to finger herself through the aftershocks of orgasm, moaning at how full you've made her.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+30" Ref="Hero"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <Options/>
+</CEEvent>

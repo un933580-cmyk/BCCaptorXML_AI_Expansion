@@ -1,0 +1,57 @@
+<Event Name="BC_event_training_sword_shield_win">
+    <Description>
+        Your blade strikes true, sending her sword clattering to the ground. She staggers back, armor plates rattling as she collapses onto her knees—and then onto all fours in front of you.
+        "My lord has earned his prize," she gasps, chest heaving beneath the metal plates. Her fingers dig into the dirt like she’s holding herself back from begging. The way she licks her lips makes it clear what she wants... but she won’t ask for it.
+    </Description>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConferences>
+            <OptionText>Claim her talented mouth</OptionText>
+            <TriggerEventName>BC_event_post_victory_oral_forced</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConferences>
+            <OptionText>Take her in the privacy of the field</OptionText>
+            <TriggerEventName>BC_event_post_victory_field_dominant</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>3</Order>
+            <MultipleRestrictedListOfConferences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConferences>
+            <OptionText>Use her tight asshole</OptionText>
+            <TriggerEventName>BC_event_post_victory_anal_submissive</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_post_victory_field_dominant">
+    <Description>
+        You push her down onto the soft grass, skirts hiked up to expose her glistening cunt. The privacy of the field ensures no one will see what happens here—just you and your prize.
+        "Anyone could hear," she whispers breathlessly as your fingers tease her entrance. Your cock drives into her in one smooth thrust, and her back arches with a muffled cry that might carry on the wind. The armor plates press against your chest as you move, their weight grounding you both to this moment until she shatters around you first.
+        You follow soon after, filling her depths before collapsing onto her chest. She strokes your hair weakly, murmuring, "No one else could... satisfy me so completely."
+    </Description>
+</Event>
+
+<Event Name="BC_event_post_victory_anal_submissive">
+    <Description>
+        Her body tenses when you press against her other entrance, but she doesn’t protest—just whimpers as you breach her tight heat. The armor plates dig into your thighs with every movement, the metal warm from exertion.
+        "Take it all," she gasps, fingers clawing at the grass beneath her. You give her exactly what she needs, each stroke deeper than the last until she breaks apart around you with a choked scream. Your release follows hers, filling her completely before you pull out to watch your seed drip onto the dirt between her legs.
+        She collapses forward, breathing heavily into the soil. "My lord’s conquest... was magnificent."
+    </Description>
+</Event>
+
+
+<Event Name="BC_event_post_victory_oral_forced">
+    <Description>
+        You grab her hair and yank her head up, forcing her to meet your gaze as you guide your cock to her lips. She parts them obediently, eyes wide with anticipation.
+        "Swallow every inch," you command before thrusting deep into her throat. Her fingers scrabble at the dirt beneath her, nails tearing through the soil as you use her mouth without mercy.
+        The armor plates clink softly with each movement—her only sound the wet gags around your cock until you finally spill down her throat. When you release her, she gasps for air but doesn’t wipe her spit-slicked lips, just looks up at you with worshipful eyes. "Thank you... my lord."
+    </Description>
+</Event>

@@ -1,0 +1,103 @@
+<CEEvent>
+    <Name>BC_event_stable_encounter_start</Name>
+    <Text>{=BCCaptor_Text_New5}You lead {CAPTIVE_NAME}, your obedient concubine, to the stables where you keep your horses. The scent of hay and leather fills the air as she kneels before you, her head bowed submissively. "I'm ready to serve you in any way, my lord," she murmurs.</Text>
+    <BackgroundName>BC_image_stable_interior</BackgroundName>
+    <NotificationName>BC_captor_notification_work</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_stable_encounter_act1</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_stable_encounter_act1</Name>
+    <Text>{=BCCaptive_Text_New6}You push {CAPTIVE_NAME} onto a pile of hay in the corner. She spreads her legs immediately, pulling up her slave dress to expose herself completely. "Please," she begs, writhing with need. "Fuck your concubine like the worthless slut I am."</Text>
+    <BackgroundName>BC_image_stable_haypile</BackgroundName>
+    <NotificationName>BC_captor_notification_sex_prepare</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveObedience" ByLevel="+10" Ref="Hero"/>
+            </SkillsToLevel>
+            <TriggerEventName>BC_event_stable_encounter_act2</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_stable_encounter_act2</Name>
+    <Text>{=BCCaptor_Text_New7}You mount {CAPTIVE_NAME} from behind, grabbing her hips as you pound into her. She screams in delight at the rough treatment. "Oh gods, yes!" she sobs. "I'm nothing but a fucktoy for your pleasure!" The sounds of slapping flesh and moans fill the stable.</Text>
+    <BackgroundName>BC_image_stable_haypile</BackgroundName>
+    <NotificationName>BC_captor_notification_sex_rough</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveObedience" ByLevel="+10" Ref="Hero"/>
+            </SkillsToLevel>
+            <TriggerEventName>BC_event_stable_encounter_finish</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_stable_encounter_finish</Name>
+    <Text>{=BCCaptor_Text_New8}With a final thrust, you spill your seed deep inside {CAPTIVE_NAME}. She collapses onto the hay, trembling with aftershocks. "Thank you for using me, my lord," she gasps as your cum drips from her pussy. Immediately, she rolls over and begins sucking on your cock to clean it.</Text>
+    <BackgroundName>BC_image_stable_haypile</BackgroundName>
+    <NotificationName>BC_captor_notification_sex_cleanup</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveObedience" ByLevel="+10" Ref="Hero"/>
+                <Skill Id="Broken" ByLevel="+5" Ref="Hero"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

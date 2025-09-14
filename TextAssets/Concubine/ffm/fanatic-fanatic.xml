@@ -1,0 +1,115 @@
+<CEEvent>
+    <Name>BD_dual_concubine_sex_start</Name>
+    <Text>As you return to your chambers after a long day, your two devoted bodyguards {COMPANION_NAME_1} and {COMPANION_NAME_2} are waiting for you. They immediately drop to their knees before you, pressing their faces against your crotch as they compete to be the first to serve. "My master's cock is so hard already," {COMPANION_NAME_1} moans through her kisses on your pants. {COMPANION_NAME_2} pulls down your trousers with eager hands and takes your shaft into her mouth without hesitation. "Let me show our lord how much I appreciate him," she says before deepthroating you expertly.</Text>
+    <BackgroundName>BD_image_concubines_submissive</BackgroundName>
+    <NotificationName>BD_concubine_notification</NotificationName>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let them pleasure you simultaneously</OptionText>
+            <TriggerEventName>BD_event_dual_concubine_blowjob</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BD_event_dual_concubine_blowjob</Name>
+    <Text>{COMPANION_NAME_1} and {COMPANION_NAME_2} work together to worship your cock, taking turns sucking while the other plays with their own pussies. "Your taste is divine, my lord," {COMPANION_NAME_1} gasps between licks. {COMPANION_NAME_2} moans in agreement as she watches her sister concubine service you. They switch positions frequently, each trying to outdo the other in their devotion. "Look how wet I am from serving our master," {COMPANION_NAME_2} says proudly while rubbing her soaked cunt against your thigh. {COMPANION_NAME_1} responds by pushing two fingers inside herself and showing them to you covered in juices.</Text>
+    <BackgroundName>BD_image_concubines_69</BackgroundName>
+    <NotificationName/>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Fuck one while the other watches</OptionText>
+            <TriggerEventName>BD_event_dual_concubine_fuck_watcher</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>BD_event_dual_concubine_fuck_watcher</Name>
+    <Text>You choose {COMPANION_NAME_1} to be your first, lifting her onto the bed while {COMPANION_NAME_2} kneels beside you watching intently. "Thank you for choosing me, my lord," {COMPANION_NAME_1} whimpers as she spreads her legs wide. You enter her tight pussy with one thrust, making both women moan loudly. {COMPANION_NAME_2}'s hand slides between her own thighs as she watches your cock pistoning in and out of their sister. "She looks so beautiful when you're using her like this," {COMPANION_NAME_2} comments breathlessly. {COMPANION_NAME_1} responds by arching her back to give you better access, crying out with each powerful stroke.</Text>
+    <BackgroundName>BD_image_concubines_doggy</BackgroundName>
+    <NotificationName/>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Make the watching concubine join in</OptionText>
+            <TriggerEventName>BD_event_dual_concubine_swap</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>BD_event_dual_concubine_swap</Name>
+    <Text>Without breaking rhythm, you order {COMPANION_NAME_2} to mount {COMPANION_NAME_1}'s face while remaining in your first concubine. "Yes, my lord!" she cries eagerly as she straddles her sister's head and begins grinding against it. {COMPANION_NAME_1} moans into her pussy while still taking your cock expertly. "Your cunt tastes even better than usual," {COMPANION_NAME_1} mumbles between licks at {COMPANION_NAME_2}'s clit. The watching concubine reaches down to play with both women's breasts as you fuck them, her nipples hardening under your touch. "We're so lucky our master wants us this way," she gasps while squeezing her tits together.</Text>
+    <BackgroundName>BD_image_concubines_sandwich</BackgroundName>
+    <NotificationName/>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Cum inside one while the other watches</OptionText>
+            <TriggerEventName>BD_event_dual_concubine_finish</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>BD_event_dual_concubine_finish</Name>
+    <Text>With both women writhing beneath you, you announce your impending release. "Where would our lord like to spend himself?" {COMPANION_NAME_1} asks desperately. {COMPANION_NAME_2} immediately offers her asshole, spreading her cheeks wide. "Please fill my tight little hole with your seed," she begs. After a moment's consideration, you pull out of {COMPANION_NAME_1} and push into {COMPANION_NAME_2}'s waiting rear entrance just as you cum hard inside her. The feeling of your hot load filling her back passage sends both women over the edge in orgasm. "Thank you for this incredible gift, my master," {COMPANION_NAME_2} moans.</Text>
+    <BackgroundName>BD_image_concubines_aftercare</BackgroundName>
+    <NotificationName/>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>End the session contentedly</OptionText>
+            <TriggerEventName/>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>BD_event_concubine_cleanup</Name>
+    <Text>{COMPANION_NAME_1} eagerly positions herself between {COMPANION_NAME_2}'s thighs, her tongue darting out to lick at the cum leaking from her sister's freshly-fucked asshole. "Mmm, our lord's seed tastes even better coming from you," she moans appreciatively. {COMPANION_NAME_2} shudders with pleasure as she feels your warm spunk being licked clean from her body. "You always take such good care of me after our master uses us," {COMPANION_NAME_2} sighs happily, running her fingers through {COMPANION_NAME_1}'s hair in gratitude.</Text>
+    <BackgroundName>BD_image_concubines_aftercare</BackgroundName>
+    <NotificationName/>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Witness your concubines' intimate moment</OptionText>
+            <TriggerEventName/>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>

@@ -1,0 +1,62 @@
+<!-- Chain 1 - Forest Clearing -->
+<CEEvent>
+    <Name>TB_broken_anal_forest_start</Name>
+    <Text>{CAPTIVE_NAME} awaits you in the forest clearing. The sun filters through the canopy as she kneels on the soft moss, her collared neck bowed submissively. She wears only a thin slave's cloth that does little to hide her trembling form. "Master has come... your broken concubine is ready to be used again," she murmurs, spreading her knees obediently.</Text>
+    <BackgroundName>TB_forest_clearing</BackgroundName>
+    <NotificationName>TB_anal_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <!-- Standard restrictions -->
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>TB_broken_anal_forest_prelude</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_anal_forest_prelude</Name>
+    <Text>{CAPTIVE_NAME} crawls forward to remove your boots and trousers with practiced ease. Her breath is hot against your cock as she whispers, "My tongue will worship Master's hardness before his blade pierces my ruined hole." The concubine licks up your shaft while her fingers knead your thighs, moaning around your flesh at the taste of precum.</Text>
+    <BackgroundName>TB_forest_clearing</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>TB_broken_anal_forest_penetration</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_anal_forest_penetration</Name>
+    <Text>{CAPTIVE_NAME} spreads herself face-down over a fallen log, presenting her gaping pink hole with both hands. "Master's cock owns my ass... please stretch your broken concubine properly," she begs as you guide yourself inside. Her body quivers at the initial invasion but soon pushes back eagerly, her cries of pain mixing with pleasure.</Text>
+    <BackgroundName>TB_forest_clearing</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>TB_broken_anal_forest_climax</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_anal_forest_climax</Name>
+    <Text>{CAPTIVE_NAME} screams as your hot seed floods her ravaged rectum, her fingers clawing at the log beneath her. "Fill me completely... mark this worthless hole with Master's essence," she sobs happily, feeling your cock twitch inside her. When you finally pull out, thick white strands cling between her reddened cheeks and drip onto the forest floor.</Text>
+    <BackgroundName>TB_forest_clearing</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>TB_broken_anal_forest_aftercare</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_anal_forest_aftercare</Name>
+    <Text>{CAPTIVE_NAME} eagerly laps at your softening cock, cleaning every trace of her ass from your skin before sucking your balls dry. She then scoops up some of the semen leaking from her stretched hole and swallows it with a satisfied moan. "Master's broken concubine is complete when used like this... may I serve you again tomorrow?" she asks breathlessly.</Text>
+    <BackgroundName>TB_forest_clearing</BackgroundName>
+</CEEvent>

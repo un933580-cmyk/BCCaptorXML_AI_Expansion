@@ -1,0 +1,118 @@
+<CEEvent>
+    <Name>BC_concubine_campfire_approach</Name>
+    <Text>{=BCCaptor_Text_X}At night, you find {CAPTIVE_NAME} sitting by the campfire, her legs spread wide and a blanket draped over them to hide her nudity from the other soldiers. She looks up at you with pleading eyes. "Master," she says quietly, "I've been waiting for you."</Text>
+    <BackgroundName>BC_image_campfire_night</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_campfire_sex</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>5</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_campfire_sex</Name>
+    <Text>{=BCCaptor_Text_X}You pull the blanket away from {CAPTIVE_NAME}, revealing her glistening pussy. She moans as you enter her, her hands gripping your arms tightly. The firelight dances across her skin as she rides you passionately. "I belong to you forever," she gasps between kisses.</Text>
+    <BackgroundName>BC_image_campfire_sex</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_campfire_orgasm</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="Obedience" ByLevel="+1" Ref="Hero"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_campfire_orgasm</Name>
+    <Text>{=BCCaptor_Text_X}You release inside {CAPTIVE_NAME}, her body trembling in the aftershocks of pleasure. She collapses against your chest, panting heavily. "I hope I've pleased you," she whispers.</Text>
+    <BackgroundName>BC_image_campfire_after</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_campfire_cleanup</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_campfire_cleanup</Name>
+    <Text>{=BCCaptor_Text_X}{CAPTIVE_NAME} sits quietly beside you as the fire dies down, your semen slowly leaking out of her. She doesn't bother to clean herself; she wants everyone to know who she belongs to.</Text>
+    <BackgroundName>BC_image_campfire_cleanup</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

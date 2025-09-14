@@ -1,0 +1,73 @@
+<CEEvent>
+    <Name>BC_event_market_surprise_intro</Name>
+    <Text>The bustling marketplace is filled with merchants and soldiers alike. Suddenly, {CAPTIVE_NAME} appears from the crowd, dropping to her knees at your feet without a word. Her hands quickly work to expose your cock as she looks up at you with hungry eyes.</Text>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_market_surprise_act</Name>
+    <Text>{CAPTIVE_NAME} takes you deep into her throat, gagging slightly as she forces herself to take more. The crowd around you parts respectfully, giving you both privacy while still observing the display of submission. "My lord's cock is so perfect," she chokes out between strokes.</Text>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_market_surprise_finish</Name>
+    <Text>{CAPTIVE_NAME} moans loudly as you unload into her mouth, swallowing eagerly. Some of your seed dribbles down her chin, but she catches it with her fingers and sucks them clean. "So delicious," she sighs, licking her lips.</Text>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="R 15 30" Ref="Hero"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_market_surprise_aftermath</Name>
+    <Text>{CAPTIVE_NAME} stands slowly, adjusting her clothes with trembling hands. "I hope I pleased you," she whispers, looking down at the ground. You nod in approval as she bows deeply before slipping back into the crowd.</Text>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

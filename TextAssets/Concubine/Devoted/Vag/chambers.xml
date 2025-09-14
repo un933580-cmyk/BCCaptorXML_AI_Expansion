@@ -1,0 +1,71 @@
+<CEEvent>
+    <Name>Devoted_Concubine_Eager_Servant_Start</Name>
+    <Description>{CAPTIVE_NAME} awaits you in your private chambers, her eyes shining with devotion. The room is dimly lit by candlelight, casting soft shadows on the silk sheets of your bed. She kneels before you, head bowed, waiting for permission to serve.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Eager_Servant_Prelude</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Eager_Servant_Prelude</Name>
+    <Description>{CAPTIVE_NAME} rises gracefully, her hands trembling with anticipation. She begins to undress you slowly, her lips brushing against your skin as she does so. "My lord," she whispers, "allow me to show my devotion through pleasure." Her touch is reverent, worshipful.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Eager_Servant_Sex</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Eager_Servant_Sex</Name>
+    <Description>{CAPTIVE_NAME} guides you to the bed, lying beneath you with a blissful smile. "Fill me, my lord," she begs, her legs wrapping around your waist. Her body is pliant and yielding as you take her, her moans growing louder with each thrust. The pain of penetration only excites her further; she loves being claimed by you.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Eager_Servant_Climax</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Eager_Servant_Climax</Name>
+    <Description>With a final, deep thrust, you spill your seed inside {CAPTIVE_NAME}. She cries out in ecstasy as she feels you filling her womb. "Yes," she gasps, "give me everything, my lord." The warm wetness of your release pools around your cock as she clenches around it, refusing to let a single drop escape.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Eager_Servant_Cleanup</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Eager_Servant_Cleanup</Name>
+    <Description>{CAPTIVE_NAME} gently pulls out of you, your semen dripping from her swollen folds. She immediately lowers herself to your cock, licking it clean with enthusiastic strokes of her tongue. "So delicious," she murmurs between laps. After finishing, she leans forward and kisses you deeply, letting some of the semen spill into your mouth as well.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+10" Ref="Hero"/>
+        <Skill Id="Devoted" ByLevel="+5" Ref="Hero"/>
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+</CEEvent>

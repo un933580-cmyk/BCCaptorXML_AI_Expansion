@@ -1,0 +1,89 @@
+<CEEvent>
+    <Name>TB_devoted_oral_proposition</Name>
+    <Text>{CAPTIVE_NAME}, your devoted concubine, walks beside you through the bustling city streets. Her eyes linger on your crotch with adoration as she adjusts her low-cut bodice. "My Lord," she murmurs, pressing closer to feel your warmth, "the sight of you commands my attention... and my mouth waters to serve you properly." She gently places a hand on your arm, leaning in so only you can hear: "Would you grant your devoted servant the honor of worshipping you right here? I promise to be discreet... though seeing you lose control would bring me immense joy."</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_street_entreaty" />
+    </Backgrounds>
+    <NotificationName>BC_image_devotion</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>DevotedStatus</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ContinueToEvent</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TBRandomEvents_Solo007}Grant her request</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_oral_performance</Name>
+    <Text>{CAPTIVE_NAME} leads you into a discreet alleyway off the main thoroughfare, her movements eager. She drops to her knees on the cobblestones, her breathing already ragged with anticipation. "Oh my Lord," she sighs, running hands up your thighs before fiddling with your trousers. "This moment is everything... I've dreamed of tasting you for days." As she frees your cock, she gasps: "It's perfect as always! So thick and commanding!" She immediately wraps her lips around the head, moaning softly - a sound that vibrates through your entire body.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_street_oral" />
+    </Backgrounds>
+    <NotificationName>BC_image_devotion</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>TriggeredByEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ContinueToEvent</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TBRandomEvents_Solo007}Let her continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_oral_climax</Name>
+    <Text>{CAPTIVE_NAME}'s mouth works you with increasing fervor, her tongue swirling around your shaft while she strokes your balls. "Mmmph! Yes, my Lord... use me!" she mumbles around your cock. "Give me all that seed I crave! Paint my face and tits with it like the good concubine I am!" She takes you impossibly deep, her nose pressing against your skin as she gulps urgently - then pulls back just in time to catch your eruption directly on her beautiful face. You cover her lips, cheeks, and cleavage in thick ropes of hot come, each spurt making her moan with ecstasy.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_street_face_covered" />
+    </Backgrounds>
+    <NotificationName>BC_image_sexual</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>TriggeredByEvent</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TBRandomEvents_Solo007}Watch her clean you</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_oral_climax</Name>
+    <Text>{CAPTIVE_NAME}'s mouth works you with increasing fervor, her tongue swirling around your shaft while she strokes your balls. "Mmmph! Yes, my Lord... use me!" she mumbles around your cock. "Give me all that seed I crave! Paint my face and tits with it like the good concubine I am!" She takes you impossibly deep, her nose pressing against your skin as she gulps urgently - then pulls back just in time to catch your eruption directly on her beautiful face. You cover her lips, cheeks, and cleavage in thick ropes of hot come, each spurt making her moan with ecstasy.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_street_face_covered" />
+    </Backgrounds>
+    <NotificationName>BC_image_sexual</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>TriggeredByEvent</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TBRandomEvents_Solo007}Watch her clean you</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+</CEEvent>

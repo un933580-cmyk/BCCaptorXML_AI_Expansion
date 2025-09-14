@@ -1,0 +1,54 @@
+<CEEvent>
+    <Name>DevotedConcubineChain3_1</Name>
+    <OptionText>Continue</OptionText>
+    <Description>{CAPTIVE_NAME} lies on your bed, wearing only a sheer black nightgown that clings to her curves. She smiles at you as you enter the room, spreading her legs in invitation. "I've been waiting for you," she says breathlessly.</Description>
+    <TriggerEvents>
+        <TriggerEvent><EventName>DevotedConcubineChain3_2</EventName></TriggerEvent>
+    </TriggerEvents>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillsRequired><SkillRequired Id="Devoted" Min="1" Ref="Hero"/></SkillsRequired>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineChain3_2</Name>
+    <OptionText>Continue</OptionText>
+    <Description>{CAPTIVE_NAME} sits up and pulls you closer, her fingers working to undo your pants. She frees your cock and strokes it gently, admiring the way it twitches under her touch. "I love how hard you get for me," she murmurs before taking you into her mouth.</Description>
+    <TriggerEvents>
+        <TriggerEvent><EventName>DevotedConcubineChain3_3</EventName></TriggerEvent>
+    </TriggerEvents>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillsToLevel><Skill Id="CaptiveAffection" ByLevel="+5" Ref="Hero"/></SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineChain3_3</Name>
+    <OptionText>Continue</OptionText>
+    <Description>{CAPTIVE_NAME} pushes you back onto the bed and climbs on top, positioning her wet pussy over your cock. She sinks down slowly, gasping as she takes all of you inside her. "You feel so good," she whispers, starting to rock her hips.</Description>
+    <TriggerEvents>
+        <TriggerEvent><EventName>DevotedConcubineChain3_4</EventName></TriggerEvent>
+    </TriggerEvents>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineChain3_4</Name>
+    <OptionText>Continue</OptionText>
+    <Description>{CAPTIVE_NAME} rides you harder, her tits bouncing as she chases her pleasure. "I'm gonna come," she moans, her walls fluttering around your cock. She screams as she reaches orgasm, her body shuddering with every wave of pleasure.</Description>
+    <TriggerEvents>
+        <TriggerEvent><EventName>DevotedConcubineChain3_5</EventName></TriggerEvent>
+    </TriggerEvents>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillsToLevel><Skill Id="CaptiveAffection" ByLevel="+10" Ref="Hero"/></SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineChain3_5</Name>
+    <OptionText></OptionText>
+    <Description>{CAPTIVE_NAME} collapses onto your chest, panting heavily. She kisses you tenderly before sliding down to lick your cock clean again. "I'll always belong to you," she whispers, curling up beside you.</Description>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>

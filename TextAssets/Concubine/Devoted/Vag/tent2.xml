@@ -1,0 +1,81 @@
+<CEEvent>
+    <Name>BC_event_devoted_concubine_awaits_master</Name>
+    <Text>{CAPTIVE_NAME}, your devoted concubine, waits for you in the dim light of the tent. She kneels on a plush rug, her hands folded demurely in her lap. The scent of incense and leather fills the air as she gazes at the door with anticipation. When you enter, her eyes light up with joy, and she rises gracefully to greet you, her voice trembling with excitement.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_devoted_concubine_pleasure_master_prelude</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_concubine_pleasure_master_prelude</Name>
+    <Text>{CAPTIVE_NAME} wastes no time in undressing you, her fingers trembling with eagerness. She kisses your chest, your stomach, and finally takes your cock into her mouth, moaning softly as she worships it. "My lord," she whispers between licks, "I live only to please you." She strokes you with reverence, ensuring you are fully aroused before leading you to the bed.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_devoted_concubine_vaginal_sex</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_concubine_vaginal_sex</Name>
+    <Text>{CAPTIVE_NAME} eagerly flips onto her hands and knees, presenting herself to you. Her back arches as you enter her from behind, filling her completely. "Yes... yes, master!" she moans, pushing back against each thrust with abandon. Her walls ripple around your cock as pleasure overwhelms her.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_devoted_concubine_ejaculation</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_concubine_ejaculation</Name>
+    <Text>With a deep groan, you release inside her, filling her with your seed. {CAPTIVE_NAME} shudders in delight, her pussy milking every drop from you. "Yes... oh, yes!" she cries, pressing herself against you. Her legs tremble as she feels your warmth spreading inside her. She collapses on the ground, panting happily. "Thank you, my love," she whispers.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_devoted_concubine_aftercare</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_concubine_aftercare</Name>
+    <Text>{CAPTIVE_NAME} tenderly kisses your cock, licking up any remaining traces of your seed. She then curls against you, her fingers tracing patterns on your chest. "I will always be yours," she murmurs, her voice full of devotion. "Please keep me by your side forever." She presses a final kiss to your lips before resting her head on your shoulder, content in her role as your devoted concubine.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <!-- End of chain -->
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

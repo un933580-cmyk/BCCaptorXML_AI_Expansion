@@ -1,0 +1,56 @@
+<CEEvent>
+    <Name>BC_event_oralsex_field_1</Name>
+    <Description>{=BCCaptor_Text}You find {CAPTIVE_NAME} in a field of wildflowers, kneeling on the soft grass. The breeze blows through her hair as she looks up at you with submissive eyes. "My lord," she murmurs, "I've been dreaming of this moment all day."</Description>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>Continue</MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Continue.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+<CEEvent>
+    <Name>BC_event_oralsex_field_2</Name>
+    <Description>{=BCCaptor_Text}She unbuttons your pants and pulls out your cock, stroking it gently. "You're so big," she sighs, "I can't wait to taste you." She takes the head into her mouth, suckling lightly before taking you deeper.</Description>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>Continue</MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Continue.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+<CEEvent>
+    <Name>BC_event_oralsex_field_3</Name>
+    <Description>{=BCCaptor_Text}Her mouth is hot and wet, her tongue swirling around your cock. She looks up at you with worshipful eyes. "Please, my lord," she begs, "I need to taste you."</Description>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>Continue</MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Continue.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+<CEEvent>
+    <Name>BC_event_oralsex_field_4</Name>
+    <Description>{=BCCaptor_Text}You explode into her mouth, and she swallows greedily. She looks up at you with reverence as the breeze blows through the field. "Thank you for this gift, my lord," she whispers. "I'll never stop serving you."</Description>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>Continue</MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Done.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

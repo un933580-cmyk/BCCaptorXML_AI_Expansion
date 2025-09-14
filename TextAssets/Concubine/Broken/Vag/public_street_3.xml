@@ -1,0 +1,88 @@
+<!-- Event Chain 2: Forced Public Sex -->
+<CEEvent>
+    <Name>BC_event_forced_public_sex_start</Name>
+    <OptionText>Continue</OptionText>
+    <Description>The market square is crowded with people going about their business. {CAPTIVE_NAME} is kneeling before you, her hands bound behind her back and a leash around her neck. She's completely naked except for the collar that marks her as your property.</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_forced_public_sex_proceed</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_forced_public_sex_proceed</Name>
+    <OptionText>Continue</OptionText>
+    <Description>You roughly grab {CAPTIVE_NAME} by the hair and pull her up, forcing her onto her knees. She opens her mouth obediently as you shove your cock inside, making her gag slightly. Her eyes water but she doesn't resist; instead, she sucks harder, desperate to please you.</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_forced_public_sex_finish</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+5" Ref="Hero"/>
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_forced_public_sex_finish</Name>
+    <OptionText>Continue</OptionText>
+    <Description>You pull out of {CAPTIVE_NAME}'s mouth and push her onto all fours. She spreads her legs eagerly, arching her back to present herself to you. You slam your cock into her soaking wet pussy with brutal force, making her scream in pleasure. The crowd around you murmurs but no one intervenes; they know better than to challenge the owner of such a beautiful concubine.</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_forced_public_sex_cleanup</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+5" Ref="Hero"/>
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_forced_public_sex_cleanup</Name>
+    <OptionText>Continue</OptionText>
+    <Description>{CAPTIVE_NAME} is panting heavily as she laps up the cum dripping from her pussy. Her tongue is eager, catching every drop before it hits the ground. She looks up at you with worship in her eyes. "Thank you for using me so well, Master," she breathes before swallowing everything down.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+5" Ref="Hero"/>
+        <Skill Id="Broken" ByLevel="+1" Ref="Hero"/>
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

@@ -1,0 +1,61 @@
+<CEEvent>
+    <Name>TB_captor_oral_devoted_concubine_evening</Name>
+    <Text>{CAPTIVE_NAME} slips into your tent as you prepare for bed, her fingers already working at the ties of your pants. "Let me serve you one last time before we rest," she whispers against your ear as she sinks to her knees.</Text>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+    <SkillsRequired>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <Options>
+        <Option>
+            <OptionText>{=BCCaptor_Text_14008}(next page)</OptionText>
+            <TriggerEventName>TB_captor_oral_devoted_concubine_evening_part2</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_oral_devoted_concubine_evening_part2</Name>
+    <Text>{CAPTIVE_NAME} takes you into her mouth with slow, deliberate strokes, savoring the taste and texture of you. Her hands roam your thighs as she gazes up at you with adoration in her eyes.</Text>
+    <SexualContent>true</SexualContent>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <Options>
+        <Option>
+            <OptionText>{=BCCaptor_Text_14008}(next page)</OptionText>
+            <TriggerEventName>TB_captor_oral_devoted_concubine_evening_part3</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_oral_devoted_concubine_evening_part3</Name>
+    <Text>{CAPTIVE_NAME} increases the pace, her tongue swirling around you as she sucks with increasing urgency. Her free hand reaches up to caress your chest and neck.</Text>
+    <SexualContent>true</SexualContent>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <Options>
+        <Option>
+            <OptionText>{=BCCaptor_Text_14008}(next page)</OptionText>
+            <TriggerEventName>TB_captor_oral_devoted_concubine_evening_part4</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_oral_devoted_concubine_evening_part4</Name>
+    <Text>With a throaty moan, you spend yourself into her mouth. {CAPTIVE_NAME} swallows eagerly before pulling back and kissing the tip one last time. "Sleep well, my lord," she murmurs as she helps you settle under the covers.</Text>
+    <SexualContent>true</SexualContent>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        <RestrictedListOfConsequences>HeroGetsMoreOffspringChanceModifier</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <ReqCustomCode>true</ReqCustomCode>
+</CEEvent>

@@ -1,0 +1,78 @@
+<CEEvent>
+    <Name>TB_devoted_concubine_oralsex_night_0</Name>
+    <Text>{=BCCaptor_Text_X}The night is deep, and the only light in your chambers comes from the flickering candles. Your devoted concubine {CAPTIVE_NAME} kneels at the foot of your bed, her head bowed in anticipation. She has prepared herself for you, wearing nothing but a sheer silk robe that clings to her curves. As she senses your presence, she looks up with worshipful eyes, her lips parting slightly.</Text>
+    <Backgrounds>
+        <Background Name="BC_captor_sex_hbo_3" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_X}Continue...</OptionText>
+            <TriggerEventName>TB_devoted_concubine_oralsex_night_1</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_oralsex_night_1</Name>
+    <Text>{=BCCaptor_Text_X}"Master," {CAPTIVE_NAME} murmurs as she rises and approaches you with slow, deliberate steps. Her hands glide up your thighs before gently cupping your growing arousal through the fabric of your trousers. "I have longed to worship you tonight." With practiced ease, she frees your hardness from its confines and takes it into her warm mouth without hesitation.</Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_X}Continue...</OptionText>
+            <TriggerEventName>TB_devoted_concubine_oralsex_night_2</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_oralsex_night_2</Name>
+    <Text>{=BCCaptor_Text_X}{CAPTIVE_NAME} works you with her lips and tongue, her moist warmth enveloping your shaft as she bobs rhythmically. Her eyes remain locked on yours, filled with devotion and lust. You can hear the wet sounds of her oral ministrations in the quiet night, and feel yourself approaching climax.</Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_X}Continue...</OptionText>
+            <TriggerEventName>TB_devoted_concubine_oralsex_night_3</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_oralsex_night_3</Name>
+    <Text>{=BCCaptor_Text_X}With a final deep swallow, you release your seed into {CAPTIVE_NAME}'s mouth. She moans around you, her throat working to take it all down while some drips from the corners of her lips. When she pulls back, she licks them clean with relish before pressing a kiss to the head of your softening cock.</Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_X}Continue...</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

@@ -1,0 +1,74 @@
+<CEEvent>
+    <Name>TB_anal_bathhouse_chase</Name>
+    <Text>After a long day of commanding your troops, you decide to visit the bathhouse for some relaxation. As soon as you step inside, you notice {CAPTIVE_NAME} waiting by the steam rooms, her body glistening with oil, collar prominently displayed around her neck. "Master," she breathes, dropping to her knees immediately, "I've been anticipating your arrival all day." The scent of lavender fills the air as she begins to undress you, her fingers trembling with excitement.</Text>
+    <Backgrounds><Background Name="NK_bathhouse_steam"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><MultipleRestrictedListOfConsequences></MultipleRestrictedListOfConsequences></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_bathhouse_prelude</Name>
+    <Text>{CAPTIVE_NAME} wastes no time in taking your cock into her mouth, moaning deeply as she swirls her tongue around the tip. "My ass is so empty without you, master," she whimpers between licks, her hands squeezing your thighs. The heat of the bathhouse makes her body glisten even more, droplets running down her curves as she works tirelessly to please you. She pulls back only long enough to gasp, "I live for this... being your perfect concubine."</Text>
+    <Backgrounds><Background Name="NK_bathhouse_steam"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <TriggerEventName>TB_anal_bathhouse_chase</TriggerEventName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><TriggerEventName>TB_anal_bathhouse_penetration</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_bathhouse_penetration</Name>
+    <Text>You position {CAPTIVE_NAME} against the tiled wall, her ass presented perfectly for you. She whimpers as you press inside, her muscles clenching around your length. "Master! I'm yours... use me however you please," she cries, arching her back to take you deeper. The sound of skin slapping fills the steamy room, her moans growing louder with each thrust. "This is where I belong... being your filthy concubine!"</Text>
+    <Backgrounds><Background Name="NK_bathhouse_tiled"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <TriggerEventName>TB_anal_bathhouse_prelude</TriggerEventName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><TriggerEventName>TB_anal_bathhouse_finish</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_bathhouse_finish</Name>
+    <Text>With a final, deep thrust, you release inside her ass, filling her completely. {CAPTIVE_NAME} shudders, her body trembling as she feels your warmth spreading within her. "Oh master... I feel so full of you," she gasps, reaching back to spread her cheeks wider for you. The scent of sex mingles with the lavender as she wiggles her hips, trying to keep every drop inside.</Text>
+    <Backgrounds><Background Name="NK_bathhouse_tiled"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <TriggerEventName>TB_anal_bathhouse_penetration</TriggerEventName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><TriggerEventName>TB_anal_bathhouse_cleanup</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_bathhouse_cleanup</Name>
+    <Text>{CAPTIVE_NAME} turns around immediately, dropping to her knees once more. "Let me clean you, master," she pleads, taking your softening cock into her mouth with reverence. She sucks gently, savoring every drop of yourself still clinging to your skin. When finished, she runs her fingers along the rim of her own ass, gathering what leaked out and bringing it to her lips. "Delicious... just like you," she moans, looking up at you with adoration.</Text>
+    <Backgrounds><Background Name="NK_bathhouse_steam"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <TriggerEventName>TB_anal_bathhouse_finish</TriggerEventName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText></Option>
+    </Options>
+</CEEvent>

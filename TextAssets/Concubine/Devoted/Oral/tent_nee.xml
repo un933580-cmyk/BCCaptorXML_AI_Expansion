@@ -1,0 +1,100 @@
+<!-- TBCaptorOralChain.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_captor_devoted_oral_request</Name>
+        <Text>{CAPTIVE_NAME} slips into your campaign tent unannounced, the canvas flaps falling shut behind her. Her eyes lock onto you with desperate devotion as she begins stripping off her simple slave tunic and undergarments. "Master," she breathes, kneeling before you naked, "I've been thinking about nothing but serving your divine cock all day." She crawls closer on her knees, hands reaching for your belt buckle with trembling eagerness.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>TB_captor_devoted_oral_action</Name>
+        <Text>{CAPTIVE_NAME} takes your hardening cock into her warm, wet mouth with a sigh of pure bliss. "Mmm... Master's taste is my salvation," she moans around you as she bobs her head enthusiastically. Her tongue swirls greedily while one hand cradles your balls and the other strokes your shaft in rhythm. "Your devoted concubine lives only to worship this glorious tool," she gasps, pulling back briefly to admire it before diving down again.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_female_pleasure" UseConditions="BC_event_conditions_captive_female" />
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>PreviousEventTriggered</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    </CEEvent>
+
+<!-- TBCaptorOralChain.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_captor_devoted_oral_request</Name>
+        <Text>{CAPTIVE_NAME} slips into your campaign tent unannounced, the canvas flaps falling shut behind her. Her eyes lock onto you with desperate devotion as she begins stripping off her simple slave tunic and undergarments. "Master," she breathes, kneeling before you naked, "I've been thinking about nothing but serving your divine cock all day." She crawls closer on her knees, hands reaching for your belt buckle with trembling eagerness.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>TB_captor_devoted_oral_action</Name>
+        <Text>{CAPTIVE_NAME} takes your hardening cock into her warm, wet mouth with a sigh of pure bliss. "Mmm... Master's taste is my salvation," she moans around you as she bobs her head enthusiastically. Her tongue swirls greedily while one hand cradles your balls and the other strokes your shaft in rhythm. "Your devoted concubine lives only to worship this glorious tool," she gasps, pulling back briefly to admire it before diving down again.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_female_pleasure" UseConditions="BC_event_conditions_captive_female" />
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>PreviousEventTriggered</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>TB_captor_devoted_oral_climax</Name>
+        <Text>{CAPTIVE_NAME} redoubles her efforts, choking slightly as you push deeper into her throat. "Cum on your concubine's face, Master! Mark my body with your sweet seed!" she begs desperately before you erupt. Thick ropes of hot cum splash across her cheeks, forehead, and spill down her breasts while she moans in ecstasy beneath you.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_female_cumface" UseConditions="BC_event_conditions_captive_female" />
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>PreviousEventTriggered</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>TB_captor_devoted_oral_cleanup</Name>
+        <Text>{CAPTIVE_NAME} stares adoringly at your spent cock before gently cleaning it with her tongue and lips. "My Lord's essence is pure ambrosia," she whispers reverently as she licks every last drop from the tip of your penis to your ballsack. She then collects the cum splattered on her face, sucking it eagerly off her fingers before anointing herself with what remains on her chest. "To carry even a single drop of my Master inside me would be paradise," she sighs contentedly.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_female_aftercare" UseConditions="BC_event_conditions_captive_female" />
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>PreviousEventTriggered</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    </CEEvent>
+</CEEvents>

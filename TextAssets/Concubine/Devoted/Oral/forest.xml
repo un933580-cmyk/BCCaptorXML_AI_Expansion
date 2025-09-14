@@ -1,0 +1,105 @@
+<CEEvent>
+    <Name>TB_devoted_oral_approach</Name>
+    <Text>The late afternoon sun casts long shadows through the pine trees bordering your command tent. You're getting rest after long march when you feel a warm presence press against your leg. Looking down, you see {CAPTIVE_NAME} kneeling at your feet, her eyes wide with adoration. "Master," she whispers, her voice trembling slightly as she begins to unfasten the ties of her simple shift dress, "I saw you return... I've been thinking about how much I want to please you all afternoon." She slides the fabric down, baring her breasts and the neatly trimmed patch between her thighs before your boots. "May your devoted concubine worship your cock properly now?" Her hands move to your belt.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_roadside_day" UseConditions="BC_event_conditions_outdoor_day" />
+    </Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsDevotedFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <Text>Let her begin.</Text>
+            <Consequences>
+                <EventFlagToAdd>TB_event_devoted_oral_started</EventFlagToAdd>
+            </Consequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_oral_performance</Name>
+    <Text>{CAPTIVE_NAME} flicks her tongue against your exposed tip, making you gasp. "Mmm... Master's cock is already so hard for me," she murmurs, wrapping both hands around your shaft as she takes more of you into that warm, wet mouth. Her head bobs rhythmically now, cheeks hollowed as she sucks with eager devotion. "I love serving you like this," she moans between strokes, the vibration sending shivers down your spine. Pine needles crunch softly under her knees in the shaded grove behind your tent. She pushes deeper each time, gagging slightly but never stopping, tears welling in her eyes as she fights to please you completely.</Text>
+    <Backgrounds>
+        <Background Name="TB_forest_sex_shadowed" UseConditions="BC_event_conditions_outdoor_day" />
+    </Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>30</WeightedChanceOfOccurring>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>TB_event_devoted_oral_started</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <Text>Let her continue until you finish.</Text>
+            <Consequences>
+                <EventFlagToAdd>TB_event_devoted_oral_completed</EventFlagToAdd>
+            </Consequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_oral_climax</Name>
+    <Text>A familiar pressure builds in your balls. "That's it, slut... take Master's load," you growl, grabbing {CAPTIVE_NAME}'s hair to hold her in place as you thrust deep into her throat one last time. She gags but holds steady, whimpering with devotion. With a powerful groan, you erupt, thick ropes of cum flooding past her lips and coating her tongue before spilling out onto her cheeks and breasts. She pulls back slightly, gasping for breath, your seed dripping from her chin as she looks up at you adoringly through cum-spattered eyelashes. "Oh... oh Master, yes..." she breathes, tracing a finger through the mess on her chest.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_oral_day" UseConditions="BC_event_conditions_outdoor_day" />
+    </Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>40</WeightedChanceOfOccurring>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>TB_event_devoted_oral_completed</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <Text>Let her clean you.</Text>
+            <Consequences>
+                <EventFlagToAdd>TB_event_devoted_oral_aftercare_started</EventFlagToAdd>
+            </Consequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_oral_cleanup</Name>
+    <Text>{CAPTIVE_NAME} rises to her knees, your softening cock still resting near her lips. She gently licks the last traces of cum from your skin with reverent little flicks of her tongue. "Mmm... Master tastes so good," she sighs, then dips a finger into the creamy mess on her chest and brings it to her mouth. "May I?" you nod. With eager devotion, she scoops great fingers-full of your seed from her face and breasts, moaning softly as she sucks them clean. "Thank you for sharing your seed with me, Master," she whispers, pressing a kiss to the head of your cock. "It makes my womb feel hopeful." She carefully licks any remaining traces from between her own breasts before settling contentedly at your feet again.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_roadside_day_cleanup" UseConditions="BC_event_conditions_outdoor_day" />
+    </Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>TB_event_devoted_oral_aftercare_started</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <Text>Appreciate your devoted concubine.</Text>
+            <Consequences>
+                <EventFlagToRemove>TB_event_devoted_oral_aftercare_started</EventFlagToRemove>
+                <CharAffection>Captive: +5</CharAffection>
+            </Consequences>
+        </Option>
+    </Options>
+</CEEvent>

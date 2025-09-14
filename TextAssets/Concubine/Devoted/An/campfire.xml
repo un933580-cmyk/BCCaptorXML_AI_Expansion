@@ -1,0 +1,118 @@
+<!-- Event 1: Invitation -->
+<CEEvent>
+    <Name>devoted_anal_chain1_invitation</Name>
+    <Text>{CAPTIVE_NAME}, your devoted concubine, waits by the campfire as you strolling the camp. The flickering flames cast shadows on her naked body, highlighting her swollen breasts and the glistening moisture between her thighs. She kneels eagerly, her hands resting on her knees in perfect submission. "My lord has returned victorious," she coos, her voice dripping with adoration. "Your concubine is ready to serve you in any way you desire."</Text>
+    <Backgrounds>
+        <Background Name="campfire_concubine_kneeling" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain1_prelude" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 2: Oral Prelude -->
+<CEEvent>
+    <Name>devoted_anal_chain1_prelude</Name>
+    <Text>{CAPTIVE_NAME} wastes no time in worshiping your body, her soft lips wrapping around your shaft as she takes you deep into her throat. Her skilled tongue works magic along your length while her hands caress your thighs with reverent touches. "Your concubine lives only to serve your pleasure," she murmurs between bobbing motions, her eyes locked on yours in complete devotion. The cool air contrasts with the heat of her mouth as she sucks enthusiastically, determined to have you fully hard for what comes next.</Text>
+    <Backgrounds>
+        <Background Name="campfire_blowjob_devoted" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain1_main" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 3: Main Anal Action -->
+<CEEvent>
+    <Name>devoted_anal_chain1_main</Name>
+    <Text>Guiding your hardened member to her tight back entrance, {CAPTIVE_NAME} moans in ecstasy as you press inside her asshole. "Yes, my lord," she gasps, her nails digging into the dirt beneath her kneeling form. With each thrust, she praises your dominance, her words muffled by the intensity of pleasure coursing through her body. The campfire light dances on her sweating flesh as you claim what's yours, her inner walls clamping down around you in desperate need. "Only for you," she whispers between ragged breaths, her love and devotion evident in every movement.</Text>
+    <Backgrounds>
+        <Background Name="campfire_anal_doggy_devoted" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain1_cum" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 4: Climax -->
+<CEEvent>
+    <Name>devoted_anal_chain1_cum</Name>
+    <Text>With a final powerful thrust, you empty yourself into your concubine's tight asshole. {CAPTIVE_NAME} shudders beneath you as she feels every pulse of hot seed filling her most private place. "Oh gods," she moans, her body trembling with satisfaction. Your cum slowly seeps out around your still-hard cock, dripping down her thighs and mixing with the dirt beneath her knees. She gazes at you with pure adoration, her fingers tracing the mess on her skin. "To be so thoroughly claimed by my lord is a blessing," she murmurs, her voice thick with emotion.</Text>
+    <Backgrounds>
+        <Background Name="campfire_anal_aftermath_devoted" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain1_aftercare" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 5: Aftercare -->
+<CEEvent>
+    <Name>devoted_anal_chain1_aftercare</Name>
+    <Text>{CAPTIVE_NAME} eagerly takes your softened cock into her mouth, cleaning every last trace of their coupling with devoted attention. She moans around you as she tastes both of them on your skin, her tongue swirling to collect every drop. After thoroughly servicing you, she turns her attention to herself, carefully wiping the cum from between her thighs before bringing her fingers to her lips. "Your seed is divine," she whispers, savoring the taste. With a final loving kiss to your thigh, she settles against your side, her body still tingling from their connection. "I live only to be your devoted concubine," she murmurs, her eyes heavy with contentment.</Text>
+    <Backgrounds>
+        <Background Name="campfire_cuddle_devoted" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain1_end" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 6: End -->
+<CEEvent>
+    <Name>devoted_anal_chain1_end</Name>
+    <Text>{CAPTIVE_NAME} remains by your side as you both enjoy the afterglow of their passionate encounter. The sounds of the military camp fade into the background as she strokes your chest, her fingers tracing patterns on your skin. "My lord's pleasure is my only concern," she whispers, pressing a gentle kiss to your shoulder. With one final adoring glance, she curls up against you, her body warm and content in the knowledge that she has served her master well. The evening air carries their combined scents as they rest together, both knowing this will not be their last encounter.</Text>
+    <Backgrounds>
+        <Background Name="campfire_sleeping_devoted" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+</CEEvent>

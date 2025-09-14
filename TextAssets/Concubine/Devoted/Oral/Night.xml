@@ -1,0 +1,68 @@
+<CEEvents>
+    <CEEvent>
+        <TriggerEventName>BC_event_male_sex_oral_devoted_concubine_phase1</TriggerEventName>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <OptionText>{=BCCaptor_Text_OralConcubinePhase1}Your devoted concubine {CAPTIVE_NAME} enters your chamber, her eyes lowered in submission. She kneels before you, her hands trembling slightly as she reaches for your trousers. "Master," she whispers, "may I serve you tonight?"</OptionText>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_Continue}Yes, proceed.</OptionText>
+                <TriggerEventName>BC_event_male_sex_oral_devoted_concubine_phase2</TriggerEventName>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <CEEvent>
+        <TriggerEventName>BC_event_male_sex_oral_devoted_concubine_phase2</TriggerEventName>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <OptionText>{=BCCaptor_Text_OralConcubinePhase2}{CAPTIVE_NAME} carefully undoes your trousers, freeing your hardened member. She gazes at it with reverence before taking you into her warm, wet mouth. Her tongue swirls around the tip as she begins to bob her head slowly, her lips tight around your shaft.</OptionText>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_Continue}Continue.</OptionText>
+                <TriggerEventName>BC_event_male_sex_oral_devoted_concubine_phase3</TriggerEventName>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <CEEvent>
+        <TriggerEventName>BC_event_male_sex_oral_devoted_concubine_phase3</TriggerEventName>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <OptionText>{=BCCaptor_Text_OralConcubinePhase3}Your concubine's pace quickens as she sucks you with increasing fervor. Her moans vibrate around your length, her fingers massaging your thighs in worshipful devotion. She looks up at you with pleading eyes, begging for permission to bring you release.</OptionText>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_Continue}Release yourself into her mouth.</OptionText>
+                <TriggerEventName>BC_event_male_sex_oral_devoted_concubine_phase4</TriggerEventName>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <CEEvent>
+        <TriggerEventName>BC_event_male_sex_oral_devoted_concubine_phase4</TriggerEventName>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <OptionText>{=BCCaptor_Text_OralConcubinePhase4}With a low groan, you unleash your seed deep into her throat. Your concubine swallows obediently, her lips still sealed around you until she has taken every drop. She pulls back slowly, licking her lips with satisfaction before resting her cheek against your thigh in contentment.</OptionText>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_Continue}Finish.</OptionText>
+            </Option>
+        </Options>
+    </CEEvent>
+</CEEvents>

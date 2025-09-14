@@ -1,0 +1,66 @@
+<CEEvent>
+    <Name>TB_broken_concubine_alley_encounter</Name>
+    <Text>In a dark back alley behind the tavern, {CAPTIVE_NAME} is waiting exactly where you told her to be. "Master came!" she gasps as you push her against the rough stone wall. Her fingers are already working at your pants while she moans about how lucky she is to have such a demanding master who uses his broken concubine whenever he pleases.</Text>
+    <BackgroundName>dark_alley</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>TB_broken_concubine_alley_preparation</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_alley_preparation</Name>
+    <Text>{CAPTIVE_NAME} immediately drops to her knees, frantically licking your cock while praising its size. "I'm so honored master uses my worthless mouth before breaking my ass," she slurs around your length. The sounds of the tavern spill into the alley as you enjoy watching your broken concubine service you in public.</Text>
+    <BackgroundName>dark_alley_kneeling</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>TB_broken_concubine_alley_anal_prep</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_alley_anal_prep</Name>
+    <Text>{CAPTIVE_NAME} spins around and bends over the crates, spreading her cheeks eagerly. "Please master! Stretch my ruined hole!" she cries while three fingers disappear into her gaping ass. A drunken man stumbles past but you pay him no mind - your only focus is on claiming what's yours.</Text>
+    <BackgroundName>dark_alley_bending</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>TB_broken_concubine_alley_anal_penetration</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_alley_anal_penetration</Name>
+    <Text>With a sharp cry of pain that quickly turns to ecstasy, {CAPTIVE_NAME} takes your full length in one brutal stroke. "Yes! Break me master!" she screams as you pound her against the crates. The sounds of flesh slapping flesh mix with her cries and the distant tavern noise while she praises how perfectly you're using her for your pleasure.</Text>
+    <BackgroundName>dark_alley_anal</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>TB_broken_concubine_alley_finishing</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_alley_finishing</Name>
+    <Text>As you empty yourself deep inside her ruined ass, {CAPTIVE_NAME} collapses against the crates, trembling with satisfaction. "Thank you master for filling your broken concubine so completely in public," she coos while feeling the hot seed leaking from her stretched hole. She immediately starts licking it clean from between her cheeks, moaning at how good her master's cum tastes straight from where he owns her.</Text>
+    <BackgroundName>dark_alley_aftermath</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>HeroObedience=+1</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

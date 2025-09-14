@@ -1,0 +1,94 @@
+<CEEvent>
+    <Name>BC_event_training_session_begin</Name>
+    <Text>{=BCCaptor_Text_9100}In your private training room, {CAPTIVE_NAME} kneels on the mats wearing only a thin shift that barely covers her. Her eyes are downcast as she awaits your instruction about today's lesson in submission. The scent of leather and sweat fills the air from previous sessions where you've taught her to be your perfect plaything.</Text>
+    <Backgrounds>
+        <Background Name="BC_captor_training_room" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <TriggerEventName>BC_event_training_session_preparation</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_training_session_preparation</Name>
+    <Text>{=BCCaptor_Text_9101}You command {CAPTIVE_NAME} to remove her clothing, which she does with practiced efficiency. She then crawls to your feet and begins unbuckling your belt with trembling hands. "Yes, master," she whispers, "I'll be your perfect little hole today." Her tongue darts out to lick along your length as she frees your cock, moaning at the taste of yourself on her lips.</Text>
+    <Backgrounds>
+        <Background Name="BC_captor_training_room" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <TriggerEventName>BC_event_training_session_positioning</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_training_session_positioning</Name>
+    <Text>{=BCCaptor_Text_9102}You position {CAPTIVE_NAME} over the training bench, her thighs spread wide to expose her well-used rear entrance. "Please master," she begs, wiggling enticingly, "teach me how to take you even better." As you press against her entrance, she pushes back eagerly, gasping at the familiar stretch before moaning in pleasure when your full length is inside her.</Text>
+    <Backgrounds>
+        <Background Name="BC_captor_training_room" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <TriggerEventName>BC_event_training_session_pleasure</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_training_session_pleasure</Name>
+    <Text>{=BCCaptor_Text_9103}You take your time working her over the bench, each thrust met with enthusiastic praise from your eager student. "Yes, master!" she cries, "Your cock is perfect! I'll learn so much today!" Her body quivers as you increase the pace, her inner walls clenching around you in desperate need. She begs to feel you cum inside her, to be filled with your seed as reward for her good training.</Text>
+    <Backgrounds>
+        <Background Name="BC_captor_training_room" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <TriggerEventName>BC_event_training_session_finish</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_training_session_finish</Name>
+    <Text>{=BCCaptor_Text_9104}With a final powerful thrust, you empty yourself deep inside your concubine's waiting passage. She moans in bliss as she feels you pulse within her, pressing back against the bench to take every last drop. "Thank you for teaching me, master," she whispers between panting breaths, "for making me so useful." As you withdraw, she immediately turns and begins cleaning your cock with eager licks and sucks.</Text>
+    <Backgrounds>
+        <Background Name="BC_captor_training_room" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <TriggerEventName>BC_event_training_session_end</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>

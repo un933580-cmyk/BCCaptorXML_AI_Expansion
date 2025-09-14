@@ -1,0 +1,114 @@
+<!-- Event Chain 4: Hillside Passion -->
+<CEEvent>
+    <Name>DevotedConcubineHillPrelude</Name>
+    <Text>{=BCCaptor_Text_New}The rolling hills provide a breathtaking backdrop as {CAPTIVE_NAME}, your devoted concubine, lies waiting on a blanket spread across the lush grass. The golden light of sunset bathes her in warmth, making her skin glow like polished amber. She watches you approach with hungry eyes, knowing exactly what she wants from this intimate hillside encounter.</Text>
+    <BackgroundName>BC_image_hill_romance</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>DevotedConcubinePresent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineHillPleasure</Name>
+    <Text>{=BCCaptor_Text_New}{CAPTIVE_NAME} springs up to undress you eagerly, her fingers trembling with need as your cock springs free. "Oh master," she coos, stroking the velvety length reverently, "how I've craved this." She sinks to her knees on the soft grass, taking you into her mouth with practiced ease while her hands explore every inch of you. The hilltop breeze carries their passion as she worships your manhood with all the devotion of a woman completely owned by love.</Text>
+    <BackgroundName>BC_image_hill_romance</BackgroundName>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>DevotedConcubineHillPrelude</EventName>
+            <EventWeight>1</EventWeight>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+5" Ref="Hero"/>
+    </SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineHillUnion</Name>
+    <Text>{=BCCaptor_Text_New}You lay {CAPTIVE_NAME} back on the blanket, her thighs parting eagerly to receive you. "Take me master," she whimpers as your cock fills her tight passage, "claim your concubine completely." She arches beneath you, nails raking down your back as you thrust into her welcoming heat. The setting sun paints their skin golden as she cries out in bliss with each powerful stroke. "I belong to you," she gasps between kisses, "only you... forever yours."</Text>
+    <BackgroundName>BC_image_hill_romance</BackgroundName>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>DevotedConcubineHillPleasure</EventName>
+            <EventWeight>1</EventWeight>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillsToLevel>
+        <Skill Id="Devoted" ByLevel="+3" Ref="Hero"/>
+    </SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineHillClimax</Name>
+    <Text>{=BCCaptor_Text_New}With a final deep thrust, you empty yourself inside {CAPTIVE_NAME}'s quivering body. She clings to you fiercely as your seed floods her womb, whispering, "Fill me master... make me yours forever." The hilltop breeze carries their moans as she feels every pulse of your release, her own climax washing over her in waves of pleasure. "So perfect," she murmurs against your neck, "I want to carry your child so badly..."</Text>
+    <BackgroundName>BC_image_hill_romance</BackgroundName>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>DevotedConcubineHillUnion</EventName>
+            <EventWeight>1</EventWeight>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+5" Ref="Hero"/>
+    </SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineHillAfterglow</Name>
+    <Text>{=BCCaptor_Text_New}{CAPTIVE_NAME} tenderly cleans your softening cock with her tongue, lapping up every drop of remaining essence. "Thank you master," she breathes, looking up at you with adoring eyes, "for letting me serve you." She kisses the tip reverently before resting her head on your thigh. "I love you so much... I want to be yours forever, in every way." The setting sun paints their skin golden as she baskets in this perfect moment of complete surrender.</Text>
+    <BackgroundName>BC_image_hill_romance</BackgroundName>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>DevotedConcubineHillClimax</EventName>
+            <EventWeight>1</EventWeight>
+        </TriggerEvent>
+    </TriggerEvents>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>

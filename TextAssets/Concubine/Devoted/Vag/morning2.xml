@@ -1,0 +1,102 @@
+<CEEvent>
+    <Name>concubine_morning_reverence_1</Name>
+    <Description>The sun is barely above the horizon when {CAPTIVE_NAME}, your devoted concubine, slides silently into your chambers. Her bare feet leave faint prints on the marble floor as she approaches, her silk robe barely concealing her naked body beneath. She kneels before you without prompting, her eyes brimming with adoration.
+
+    "Good morning, my lord," she whispers, reaching for your robe's sash with trembling fingers. "I woke early to prepare myself for your pleasure." Her breath is warm against your skin as she begins to unwrap you like a precious gift, her touch feather-light yet deliberate.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+10" Ref="Hero" HideNotification="true"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>concubine_morning_reverence_2</EventName>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_morning_reverence_2</Name>
+    <Description>{CAPTIVE_NAME} works with reverent devotion, her lips and tongue tracing every inch of your exposed flesh. "Mmm... you're already so hard for me," she murmurs against your shaft, her breath hot on your skin. Her hands cup your balls gently before one travels up to stroke where her mouth isn't busy.
+
+    When you're fully erect in her face, she looks up through her lashes, tears of devotion glistening. "May I taste my lord?" she asks, though she already leans forward to drag her tongue from base to tip, swallowing a bead of pre-cum with a contented sigh.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+15" Ref="Hero" HideNotification="true"/>
+    </SkillsToLevel>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>concubine_morning_reverence_3</EventName>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_morning_reverence_3</Name>
+    <Description>{CAPTIVE_NAME} rises onto her knees, positioning herself directly over your lap. Her slick entrance hovers just above you as she moans softly. "Please... let me feel you inside me," she begs, lowering herself slowly with a shuddering breath.
+
+    The moment your tip breaches her, she gasps and clutches at your shoulders. "Oh gods..." she whimpers, sinking down until she's fully seated on your length. She begins to ride you with abandon, her breasts bouncing with every movement as she chants, "I love you... I need you... always inside me!"</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+20" Ref="Hero" HideNotification="true"/>
+    </SkillsToLevel>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>concubine_morning_reverence_4</EventName>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_morning_reverence_4</Name>
+    <Description>Her movements grow erratic as pleasure overwhelms her. "I'm close... please fill me..." she sobs, her walls fluttering around you. You feel your own climax building and with a final thrust, empty yourself deep inside her. She cries out in ecstasy at the sensation of being flooded with your seed.
+
+    Collapsing against you, she whimpers as it begins to leak from her overfilled pussy. "Oh... yes... so much..." she moans, grinding down to keep every drop inside.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+25" Ref="Hero" HideNotification="true"/>
+    </SkillsToLevel>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>concubine_morning_reverence_5</EventName>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_morning_reverence_5</Name>
+    <Description>{CAPTIVE_NAME} slides off your lap onto her knees, immediately taking you into her mouth to clean every trace of semen. She sucks gently, savoring the taste as she looks up at you with worshipful eyes.
+
+    "Thank you for filling me so completely," she murmurs after swallowing. "I'll keep your seed safe inside me all day." Rising to kiss your lips tenderly, she whispers against them, "Forever yours..."</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+30" Ref="Hero"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <Options/>
+</CEEvent>

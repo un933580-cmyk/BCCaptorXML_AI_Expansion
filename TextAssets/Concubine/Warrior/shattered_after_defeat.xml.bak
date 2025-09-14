@@ -1,0 +1,56 @@
+<Event Name="BC_event_training_sword_shield_win_concubine">
+    <Description>
+        You find yourself disarmed and on your back, staring up at your concubine as she stands victorious over you. Her body trembles with terror—not of punishment, but that she might have harmed her master. "I-I'm sorry... so sorry," she whimpers, falling to her knees beside you. "Please let me make it right... please use me however you want to fix what I've done."
+
+        The metal of her armor clanks as she writhes with shame and need, her skirts already hitched up in anticipation of her punishment. Every fiber of her being screams for forgiveness through degradation.
+    </Description>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Make her choke on your cock to prove who's in charge</OptionText>
+            <TriggerEventName>BC_event_post_victory_oral_shattered_forced</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Fuck her worthless cunt as hard as you like to teach her lesson</OptionText>
+            <TriggerEventName>BC_event_post_victory_field_shattered_dominant</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>3</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Take that broken asshole she knows you love so much</OptionText>
+            <TriggerEventName>BC_event_post_victory_anal_shattered_submissive</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_post_victory_oral_shattered_forced">
+    <Description>
+        In the middle of the training field, she drops to her knees in the grass and pulls your cock free from your trousers. Tears already stream down her face as she takes you deep into her throat, choking herself on your length like a desperate slut trying to earn forgiveness. The metallic taste of her armor fills your senses while the sounds of her forced blowjob echo across the empty training ground.
+
+        Her hands clench at your thighs with bruising force, nails digging in through your pants as if trying to punish herself for her moment of rebellion. When you finally come down her throat, she swallows with a whimper of relief, licking your cock clean with trembling lips before looking up at you pleadingly.
+    </Description>
+</Event>
+
+<Event Name="BC_event_post_victory_field_shattered_dominant">
+    <Description>
+        The moment you're free, she hikes up her skirts and spreads herself wide on the grassy field, presenting her dripping cunt like the worthless whore she is. "Please... use me to make it right," she begs between sobs, fingers already working in and out of herself as proof of how badly she needs you.
+
+        Her armor clanks against the ground with every desperate buck of her hips, the metallic sound mingling with the rustle of grass beneath her as she writhes. When you finally spill inside her, the scent of sex fills the air as she collapses onto the earth in a heap of satisfaction.
+    </Description>
+</Event>
+
+<Event Name="BC_event_post_victory_anal_shattered_submissive">
+    <Description>
+        She turns to present herself fully on the training field, pulling down her pants to expose her tight little asshole. "I know you love this part of me," she whispers shakily as she reaches back to spread her cheeks wide, presenting herself like the broken toy she is.
+
+        The sounds of your coupling carry across the deserted training field, the clank of her armor punctuating each thrust into her tight ass. Her body jerks with each movement, knowing this is what she was made for. When you finally come inside her ass, she stays perfectly still until you're ready to move again, too grateful for forgiveness to even think about standing.
+    </Description>

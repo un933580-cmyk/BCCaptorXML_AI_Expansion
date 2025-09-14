@@ -1,0 +1,99 @@
+<CEEvent>
+    <Name>TB_broken_concubine_cave</Name>
+    <Text>{=BCCaptor_Text_13220}You lead {CAPTIVE_NAME}, your broken concubine, deep into a secluded cave where the dim light casts eerie shadows on the damp walls. She kneels immediately at your feet, her eyes lowered in submission. "Master," she whispers, "use me as you see fit. My body is yours to command." The cool air of the cave contrasts with the heat of her naked skin.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_cave</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_cave_2</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_cave_2</Name>
+    <Text>{=BCCaptor_Text_13225}You bend {CAPTIVE_NAME} over a smooth rock, her hands gripping the edge as you enter her from behind. She moans loudly, the sound echoing off the cave walls. "Harder, Master," she begs, pushing back against you with desperate need. The rough stone scrapes against her sensitive skin, heightening every sensation.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_cave</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_cave_3</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_cave_3</Name>
+    <Text>{=BCCaptor_Text_13230}With a final, powerful thrust, you spill your seed deep inside {CAPTIVE_NAME}, her body trembling with the intensity of it. She collapses onto the stone, gasping for breath as she feels you filling her womb. "Master," she murmurs, tears streaming down her face, "I am complete." The cool cave air does little to ease the heat radiating from both your bodies.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_cave</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_cave_4</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_cave_4</Name>
+    <Text>{=BCCaptor_Text_13235}After withdrawing, {CAPTIVE_NAME} turns around and presses her face against your thighs, kissing and licking the area tenderly. "Thank you for using me, Master," she says softly, her breath warm on your skin. She looks up at you with absolute devotion in her eyes before resuming her cleaning ritual. The cave seems to close in around you both, sealing your bond.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_cave</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

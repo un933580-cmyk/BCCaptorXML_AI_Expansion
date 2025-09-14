@@ -1,0 +1,32 @@
+<event>
+    <id>TB_warrior_cumming_1</id>
+    <name>{=TBRandomEvents_TB_warrior_cumming_1}Unexpected Ritual Observed</name>
+    <description>
+        While patrolling the perimeter fence, you notice movement near a supply crate. Peering closer through the gathering shadows, your breath catches: {COMPANION_NAME_1} and {COMPANION_NAME_2} lie entwined on a makeshift bedroll behind it.
+        {COMPANION_NAME_1}'s face is buried between her sister-warrior's thighs as {COMPANION_NAME_2} arches violently upward with muffled cries. "Your taste... so sweet after the drill, sister," {COMPANION_NAME_1} moans into glistening flesh, her hands gripping {COMPANION_NAME_2}'s hips possessively.
+        They remain completely oblivious to your presence as you freeze mid-step behind the crate. A soft touch on your shoulder makes you jump - it's your another warrior-companion assigned to your escort. "The bonding ritual, Master," she whispers reverently, her eyes fixed on the scene below.
+        "They share heat and purpose this way... strengthens their bond for battle. It honors us both." The rhythmic slurping sounds punctuate her explanation as {COMPANION_NAME_2}'s moans grow louder and more desperate beneath {COMPANION_NAME_1}'s relentless tongue.
+    </description>
+    <background>TB_outside_dusk</background>
+    <options>
+        <option>
+            <text>{=TBRandomEvents_TB_warrior_cumming_2}Watch the ritual's climax.</text>
+            <trigger>TB_warrior_cumming_2</trigger>
+        </option>
+    </options>
+</event>
+
+<event>
+    <id>TB_warrior_cumming_2</id>
+    <name>{=TBRandomEvents_TB_warrior_cumming_2}Climax of the Sisterhood</name>
+    <description>
+        You hold your breath as {COMPANION_NAME_1} intensifies her efforts, fingers digging into tender flesh while she sucks fiercely at the swollen nub. "Cum for me! Cum all over my tongue, sister-warrior!" she demands hoarsely.
+        With a guttural scream that shatters the evening calm, {COMPANION_NAME_2} convulses violently beneath her partner. Her entire body trembles uncontrollably as she floods {COMPANION_NAME_1}'s mouth with hot nectar, gasping incoherently: "Take it... all of me! Your sister... belongs to you!"
+        Your companion tightens her grip on your arm, whispering fiercely: "See? She surrenders completely now. Nothing will break their loyalty after this." {COMPANION_NAME_1} laps up every drop eagerly before raising her head, lips glistening, and addressing the trembling form beneath her: "Yes... you are mine to command now."
+        The scent of aroused female flesh hangs thick in the cool air as both warriors pant heavily on their makeshift bedroll. {COMPANION_NAME_2} lifts a trembling hand to stroke her partner's hair weakly while murmuring submission.
+    </description>
+    <background>TB_outside_dusk</background>
+    <options>
+        <!-- End of chain -->
+    </options>
+</event>

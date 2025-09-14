@@ -1,0 +1,74 @@
+<CEEvent>
+    <Name>Devoted_concubine_under_stars</Name>
+    <Description>{CAPTIVE_NAME} has laid a blanket under the open sky, her body wrapped in a thin silk robe. She smiles as you approach, her eyes shining with love. "My Lord," she says softly, "the stars witness my devotion." The fire crackles nearby, casting shadows on her eager face.</Description>
+    <Options>
+        <Option>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_pleases_in_field</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_pleases_in_field</Name>
+    <Description>{CAPTIVE_NAME} removes her robe, revealing her naked body to the night. She kneels before you, her hands roaming your body with reverence. "I was born to serve you," she whispers, taking your cock in her mouth. Her devotion is evident in every suck and lick.</Description>
+    <Options>
+        <Option>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_takes_you_rough</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_takes_you_rough</Name>
+    <Description>You take {CAPTIVE_NAME} from behind, her moans filling the night. "Yes... yes..." she gasps, her fingers gripping the blanket. "Breed me... make me yours forever." The roughness only seems to excite her more, her body arching to meet your thrusts.</Description>
+    <Options>
+        <Option>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_seeds_her</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_seeds_her</Name>
+    <Description>You spill inside her, and {CAPTIVE_NAME} collapses onto the blanket, panting. "Thank you... thank you," she whispers, feeling your seed leak out of her. "I hope it takes... I want to carry your heir." Her devotion is unwavering.</Description>
+    <Options>
+        <Option>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_cleanup</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_cleanup</Name>
+    <Description>{CAPTIVE_NAME} tends to you with loving care, her tongue cleaning your cock of any remnants. "You are my everything," she murmurs, kissing the tip. "Let me stay here... let me serve you always." Her eyes are filled with adoration.</Description>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+</CEEvent>

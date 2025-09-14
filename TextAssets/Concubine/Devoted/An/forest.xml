@@ -1,0 +1,78 @@
+<!-- Chain 1: Romantic Forest Clearing -->
+<CEEvent>
+    <Name>TB_captor_forest_romance_start</Name>
+    <Text>As you walk through the dense forest, {CAPTIVE_NAME} stays close by your side, her bare feet gracefully stepping over roots and stones. She's dressed in a simple linen shift that clings to her curves as she walks, her golden hair flowing freely down her back. The afternoon sun filters through the canopy above, casting dappled shadows across her pale skin. Arriving at a small clearing with wildflowers, she turns to you with adoring eyes and sinks to her knees in the soft grass.</Text>
+    <Backgrounds><Background Name="TB_scion_naked_forest" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_captor_forest_prelude</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_forest_prelude</Name>
+    <Text>{CAPTIVE_NAME} reaches up with trembling hands to undo your trousers, her breath quickening as she pulls out your hardened cock. "Oh my lord," she whispers reverently, "your manhood is so beautiful - thick and hot against my palm." She leans forward to lick the tip delicately, savoring the salty precum before taking you deep into her warm mouth. Her fingers trail down to stroke her own wet pussy through the thin fabric as she bobs up and down on your shaft, moaning around it with obvious pleasure.</Text>
+    <Backgrounds><Background Name="TB_scion_forest_blowjob" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_captor_forest_anal_prep</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_forest_anal_prep</Name>
+    <Text>"I'm ready for you, my love," {CAPTIVE_NAME} coos as she lies back in the soft grass, pulling her knees up to expose herself completely. You can see how swollen and pink her asshole looks after so many loving preparations. "Please take me this way - I want to feel your mighty cock stretching my tight little hole while you look into my eyes." She moans as you press against her pucker, her fingers digging into the grass as she prepares for your entry.</Text>
+    <Backgrounds><Background Name="TB_scion_forest_doggy" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_captor_forest_anal_sex</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_forest_anal_sex</Name>
+    <Text>{CAPTIVE_NAME} cries out in bliss as you push into her tight ass, her back arching off the ground. "Oh gods, yes! My lord is so big - he fills me up completely!" She reaches down to stroke herself frantically as you begin pumping into her, her juices running down your balls and mixing with yours on her thighs. "Your cock feels so good in my ass... I never want this to end," she whimpers between breaths.</Text>
+    <Backgrounds><Background Name="TB_scion_forest_anal" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_captor_forest_finish</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_forest_finish</Name>
+    <Text>With a final thrust, you bury yourself deep in {CAPTIVE_NAME}'s ass as your orgasm crashes over you. She feels you pulsing inside her and lets out a happy sigh. "I can feel it - my lord is filling me with his seed!" She moans, reaching back to spread her cheeks wider so you can watch your cum leaking from her stretched hole. When you pull out, she immediately sucks your cock clean, licking up every last drop before pressing kisses to your shaft. "Thank you for letting your devoted concubine serve you," she murmurs against your thigh.</Text>
+    <Backgrounds><Background Name="TB_scion_forest_cleanup" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+</CEEvent>

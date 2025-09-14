@@ -1,0 +1,178 @@
+<CEEvent>
+    <Name>BC_concubine_outdoor_training</Name>
+    <Text>{=BCCaptor_Text_New}The sun beats down on the training grounds as you oversee your troops. Suddenly, {CAPTIVE_NAME}, your broken concubine, drops to her knees at your feet, panting from exertion and desire. "Master," she whispers hoarsely, "I've been practicing my obedience today. Please inspect me." Her uniform is soaked with sweat, clinging to her curves invitingly.</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_outdoor_inspection</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <EscapeChance>5</EscapeChance>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_outdoor_inspection</Name>
+    <Text>You kneel before your concubine, running your hands over her trembling body. "You're soaked," you murmur as you tug at the damp fabric covering her breasts. {CAPTIVE_NAME} gasps as you bare them to the open air, her nipples hardening instantly from the combination of cool breeze and arousal. "M-Master," she stutters, "I'm always ready for you. Always wet for you." Her thighs press together, trying to alleviate the ache between them.</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_outdoor_claiming</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <EscapeChance>5</EscapeChance>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <SkillsToLevel>
+        <Skill Id="Obedience" ByLevel="+1" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_outdoor_claiming</Name>
+    <Text>With a growl, you shove {CAPTIVE_NAME} onto her back in the dirt, ripping away what little clothing remains between you. Her thighs part eagerly as she whimpers, "Please Master, claim me! Remind me I'm yours!" The sun beats down on your backs as you thrust into her welcoming heat. Around you, soldiers pretend not to watch while their campfires crackle in the distance.</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_outdoor_finish</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <SkillsToLevel>
+        <Skill Id="Obedience" ByLevel="+1" Ref="Hero" HideNotification="false"/>
+        <Skill Id="Broken" ByLevel="+1" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <SkillRequired Id="Broken" Min="2" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_outdoor_finish</Name>
+    <Text>With a final, brutal thrust you spill inside her, grunting your satisfaction as she cries out in ecstasy. {CAPTIVE_NAME} clings to you, trembling with aftershocks as your seed drips from her swollen folds onto the dirt beneath. "Thank you Master," she gasps between breaths, "thank you for filling me." Her hand drifts down to catch some of the overflowing essence, bringing it to her mouth with a hunger only satisfied by tasting your release.</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_outdoor_cleanup</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <SkillsToLevel>
+        <Skill Id="Obedience" ByLevel="+1" Ref="Hero" HideNotification="false"/>
+        <Skill Id="Broken" ByLevel="+1" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <SkillRequired Id="Broken" Min="3" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_outdoor_cleanup</Name>
+    <Text>{CAPTIVE_NAME} scrambles to her knees, licking your still-hard cock clean with reverent strokes of her tongue. "I'm yours," she murmurs against your skin, "your broken concubine who lives only to serve." She laps at every drop before turning to the earth beneath you, gathering up what spilled onto the ground and swallowing it without hesitation. Only when she's certain not a single trace remains does she look up with pleading eyes. "May I have more Master? Please?"</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_outdoor_end</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <SkillsToLevel>
+        <Skill Id="Obedience" ByLevel="+1" Ref="Hero" HideNotification="false"/>
+        <Skill Id="Broken" ByLevel="+1" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <SkillRequired Id="Broken" Min="4" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_outdoor_end</Name>
+    <Text>You stroke her hair affectionately as she rests against your thigh, completely sated and content in her submission. Around you, the camp continues its business as if nothing extraordinary happened - just another day with a general claiming his favorite concubine in broad daylight. {CAPTIVE_NAME} sighs happily, "I'm yours forever Master." And for once, there's no hesitation in those words.</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>FinishEvent</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>End Encounter</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <SkillsToLevel>
+        <Skill Id="Obedience" ByLevel="+1" Ref="Hero" HideNotification="false"/>
+        <Skill Id="Broken" ByLevel="+1" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <SkillRequired Id="Broken" Min="5" Ref="Hero"/>
+</CEEvent>

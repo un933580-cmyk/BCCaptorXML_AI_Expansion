@@ -1,0 +1,71 @@
+<Event Name="BC_event_training_lance_loss">
+    <Text>
+        You find yourself lying on the ground after your concubine's well-aimed lance strike sent you tumbling from your horse. She stands triumphantly over you, her chest heaving with exertion and excitement as she gazes down at you with a mixture of amusement and affection.
+
+        "Oh my lord," she purrs, pressing the tip of her lance lightly against your chest to keep you pinned in place. "Looks like I've bested you this time." Her lips curl into a playful smirk as she watches your reaction, clearly enjoying having the upper hand for once. The love and devotion shining in her eyes never waver though - this is still very much her master she's standing over.
+
+        She removes her lance from your chest and offers you a hand up with mock formality. "Shall we discuss my reward for such an impressive victory?" Her voice drips with sugary sweetness as she helps you to your feet, keeping hold of your hand even after you're upright so she can pull you closer.
+    </Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let her take your cock in that pretty mouth of hers.</OptionText>
+            <TriggerEventName>BC_event_sex_blowjob_training_loss</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Fuck her tight little pussy right here on the training ground.</OptionText>
+            <TriggerEventName>BC_event_sex_vaginal_training_loss</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>3</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Take her virgin ass as her prize for defeating you.</OptionText>
+            <TriggerEventName>BC_event_sex_anal_training_loss</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_sex_blowjob_training_loss">
+    <Text>
+        Your concubine giggles delightedly as she pushes you onto your back on the soft grass. "I want to taste my master's victory," she murmurs, straddling your waist and leaning down to undo your pants with practiced ease.
+
+    Her warm hands free your cock before she takes it into her mouth in one smooth motion. The sensation is heavenly - her tongue swirls around your shaft as she bobs up and down with eager enthusiasm, occasionally looking up at you through her lashes to make sure you're enjoying yourself.
+
+    "Mmm, so delicious," she murmurs when she finally pulls off with a pop, licking a stray drop of precum from her plump lower lip before diving back down again. Her hands stroke your thighs affectionately while she takes more and more of you into her throat until tears well up in her eyes from the effort.
+
+    The pace becomes frantic now, driven by her need to please you as much as possible after winning this match. Her fingers join in too - one hand strokes your balls while the other reaches between her own legs to rub her clit through her soaked panties.
+
+    When you finally come, she swallows every last drop eagerly before sitting up with a satisfied smile. "My lord's seed is even sweeter than I imagined," she says breathlessly, wiping her chin clean with her fingertips.
+</Text>
+
+
+<Event Name="BC_event_sex_vaginal_training_loss">
+    <Text>
+        With a playful shove, your concubine pushes you onto your back on the soft grass and hikes up her skirt to reveal her glistening pussy. "Let me ride my master," she murmurs, climbing atop you with practiced ease before sinking down onto your cock in one smooth motion.
+
+    The feeling is incredible - her tight walls clench around you like a vice as she begins to move slowly at first, rolling her hips in slow circles that send waves of pleasure coursing through both of you. Her hands brace against your chest for support while she rides you with increasing speed and intensity, her breath coming faster and her moans growing louder each time your bodies meet.
+
+    "Ohhhh yes," she gasps, throwing her head back as the sensation becomes too much to bear. The sight is intoxicating - her breasts bouncing freely beneath her blouse while sweat glistens on her skin in the sunlight. She leans forward then, pressing her forehead against yours and locking eyes with you intently before whispering, "Come inside me... please..."
+
+    You do as she asks without hesitation, your cock twitching deep within her as ropes of hot cum fill her womb. She cries out at the feeling, her own orgasm hitting her hard enough to make her entire body shudder around yours. When it's over, she collapses onto you with a contented sigh before rolling off and immediately turning so that she can take your cock into her mouth once more - cleaning every last trace of your seed from both her pussy and your shaft until nothing remains but the taste on her tongue.
+</Text>
+
+<Event Name="BC_event_sex_anal_training_loss">
+    <Text>
+        Your concubine turns around and presents herself to you, spreading her cheeks wide with eager anticipation. "I've been dreaming of this," she confesses breathlessly, reaching back to guide your cock toward her tight rosebud.
+
+    The feeling is exquisite - her walls squeeze around you tightly as you fill her ass completely for the first time. She moans softly at each new sensation, wriggling back against you whenever you pause to let her adjust. "More," she begs breathlessly when you finally bottom out inside her heated depths. "Give me all of it..."
+
+    You do exactly that - grabbing her hips firmly and thrusting into her ass with slow, deliberate strokes meant to drive her wild. Each retreat and plunge elicits another desperate moan from her lips until suddenly she tenses beneath you, her body convulsing as an orgasm washes over her. Her walls clamp down around your cock in rhythmic waves that push you over the edge too - coming deep inside her bowels with a groan of satisfaction.
+
+    When it's over, you carefully pull free from her tight hole and watch as ropes of cum drip from between her swollen lips onto the dirt below before helping her to sit up so she can lick every last drop from your length like the devoted concubine she is.
+</Text>

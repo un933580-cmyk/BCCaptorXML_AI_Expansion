@@ -1,0 +1,74 @@
+<event>
+    <id>oral_loyal_bodyguard_01</id>
+    <title>The Bodyguard's Obsession</title>
+    <description>The night air carries the scent of sandalwood as your concubine steps into your tent, her armor discarded with reverent speed. Each piece clatters to the ground like a sacred offering, revealing the toned perfection beneath - toned yet undeniably feminine curves that tremble with anticipation. She falls to her knees before you, her hands shaking as they fumble with your belt. "Master," she gasps, voice thick with need, "I dreamed of this moment all day... the taste of you on my tongue while I guard your life." Her dark eyes burn with an intensity that borders on madness, pupils dilated so wide they swallow nearly all color.</description>
+    <options>
+        <option id="oral_loyal_bodyguard_01a">
+            <text>Let your concubine worship you completely</text>
+            <next_event_id>oral_loyal_bodyguard_02</next_event_id>
+        </option>
+    </options>
+    <requirements>
+        <has_status effect="Fanatically Devoted"/>
+    </requirements>
+</event>
+
+<event>
+    <id>oral_loyal_bodyguard_02</id>
+    <title>The Ecstasy of Service</title>
+    <description>Your concubine takes you into her mouth with a desperate moan, her entire body vibrating against your thighs. She moves with frantic devotion, hands gripping your hips hard enough to leave marks - as if she's afraid you might slip away from her worship. "Please," she whimpers between strokes, spit dripping down her chin onto her heaving breasts, "let me feel how much you need me... let me prove I'm worthy of being yours." Her tongue works your shaft with expert precision, her throat relaxing perfectly to take you deeper while her nails dig crescents into your skin. The wet sounds of her ministrations fill the tent like a symphony of devotion.</description>
+    <options>
+        <option id="oral_loyal_bodyguard_02a">
+            <text>Let your concubine lose herself in service</text>
+            <next_event_id>oral_loyal_bodyguard_03</next_event_id>
+        </option>
+    </options>
+    <requirements>
+        <previous_event_id>oral_loyal_bodyguard_01</previous_event_id>
+    </requirements>
+</event>
+
+<event>
+    <id>oral_loyal_bodyguard_03</id>
+    <title>The Peak of Devotion</title>
+    <description>As you near your climax, your concubine's entire body tenses like a drawn bowstring. She takes you impossibly deep into her throat with a choked cry, tears streaming down her flushed cheeks as she swallows around your length. "Master," she sobs between desperate gulps, "fill me... mark me as yours forever!" Her hands claw at your thighs convulsively, her hips bucking against thin air as if seeking release of her own. When you finally spill into her welcoming throat, she drinks you down with ragged gasps, shuddering violently through what can only be her own overwhelming pleasure - her entire being centered solely on pleasing you.</description>
+    <options>
+        <option id="oral_loyal_bodyguard_03a">
+            <text>Watch your concubine drink you in completely</text>
+            <next_event_id>oral_loyal_bodyguard_04</next_event_id>
+        </option>
+    </options>
+    <requirements>
+        <previous_event_id>oral_loyal_bodyguard_02</previous_event_id>
+    </requirements>
+</event>
+
+<event>
+    <id>oral_loyal_bodyguard_04</id>
+    <title>The Afterglow of Madness</title>
+    <description>Your concubine collapses against your legs, her body still trembling with aftershocks. She presses feverish kisses to every inch of skin she can reach - your thighs, your hips, the sensitive skin of your inner legs - as if trying to memorize your scent through touch alone. "I love you," she whimpers between kisses, voice raw from screaming her devotion earlier. "I would die for you... I want to die for you." Her hands trace patterns on your skin with worshipful reverence, fingers lingering where they left marks - as if those small pains are sacred tokens of her service.</description>
+    <options>
+        <option id="oral_loyal_bodyguard_04a">
+            <text>Let your concubine continue her adoration</text>
+            <next_event_id>oral_loyal_bodyguard_05</next_event_id>
+        </option>
+    </options>
+    <requirements>
+        <previous_event_id>oral_loyal_bodyguard_03</previous_event_id>
+    </requirements>
+</event>
+
+<event>
+    <id>oral_loyal_bodyguard_05</id>
+    <title>The Bodyguard's Vow of Eternal Service</title>
+    <description>As sleep begins to claim you, your concubine curls against your side with possessive fervor. "I'll never let anyone touch what's mine," she vows fiercely into the darkness, her breath hot on your chest. "Not even if it means my death... especially not then." Her fingers trace the scars that mark her as a warrior - each one a testament to battles fought in your name. "I want more of them," she whispers with terrifying sincerity, pressing a kiss to each scar in turn. "Every wound I take will be another reason for you to love me... another proof that I belong to you completely."</description>
+    <options>
+        <option id="oral_loyal_bodyguard_05a">
+            <text>Sleep with your devoted bodyguard's head on your chest</text>
+            <next_event_id/>
+        </option>
+    </options>
+    <requirements>
+        <previous_event_id>oral_loyal_bodyguard_04</previous_event_id>
+    </requirements>
+</event>

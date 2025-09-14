@@ -1,0 +1,84 @@
+<CEEvent>
+    <Name>concubine_approach_devotion</Name>
+    <Text>{=Concubine_Text_1}The sun is setting as you finish organizing supplies, casting golden light across the room when your beloved concubine enters. Her eyes burn with an intensity that could melt stone, her entire being focused solely on you. She moves toward you with a graceful reverence, every step filled with purpose and devotion. Kneeling before you, she presses her forehead to the floor in complete submission, her body trembling with adoration. "My lord," she whispers, her voice dripping with worshipful affection, "my soul has been aching for your touch since this morning." The way she says it makes it sound like you're the only thing keeping her alive. She lifts her head just enough to gaze at you with eyes that could drown a man in their love. "I've dreamed of serving you again and again," she confesses breathlessly, "of feeling your presence fill my being completely." Her chest rises and falls rapidly as she waits for your command, her entire existence focused on pleasing you.</Text>
+    <Options>
+        <Option>
+            <Order>10</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=Concubine_Text_2}Take me now, concubine.</OptionText>
+            <TriggerEventName>concubine_preparation_devotion</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_preparation_devotion</Name>
+    <Text>{=Concubine_Text_3}Her hands shake with overwhelming love as she reaches for your trousers, her fingers trembling like leaves in a storm. "Oh my lord," she breathes out as she frees you from your clothes, staring at your cock as if it's the most sacred thing in existence. She leans forward to press the softest kiss imaginable to its tip, her lips barely touching you before pulling back with adoration shining in her eyes. "I need to carry your child more than I need air," she confesses, her voice thick with emotion that could move mountains. Her entire body vibrates with devotion as she waits for your next command, her heart beating so loudly you can almost hear it from where you stand. She looks up at you with such pure love that it's almost painful to witness, her eyes shining brighter than any star in the sky. "You are my everything," she murmurs reverently, "my reason for living, my entire purpose." Her fingers trace gentle patterns on your thighs as she worships every inch of you with her gaze.</Text>
+    <Options>
+        <Option>
+            <Order>10</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=Concubine_Text_4}Show me your devotion, concubine.</OptionText>
+            <TriggerEventName>concubine_vaginal_devotion</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_vaginal_devotion</Name>
+    <Text>{=Concubine_Text_5}You push her onto all fours with firm hands, and she melts into the position immediately like it's where she was always meant to be. "Yes my lord," she whimpers happily, her voice filled with joy that could shake the foundations of the world. Her back arches toward you in complete surrender as you take her from behind, her body welcoming your domination with open arms. "Use me to make your heir," she cries out between moans, her words dripping with adoration that borders on obsession. Every thrust makes her tremble with ecstasy, her love for you growing stronger with each movement of your hips. She clutches at the ground beneath her as if holding onto sanity by a thread, overwhelmed by the intensity of her devotion. "You are my god," she sobs out between gasps, "my only truth in this vast universe." Her entire being seems to glow with love for you, radiating like the sun itself.</Text>
+    <Options>
+        <Option>
+            <Order>10</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=Concubine_Text_6}Fill your concubine with my seed.</OptionText>
+            <TriggerEventName>concubine_ejaculation_devotion</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_ejaculation_devotion</Name>
+    <Text>{=Concubine_Text_7}You pound into your concubine with increasing passion, her moans of pleasure turning to sobs of joy as you fill her womb. "Thank you my lord," she cries out tearfully between thrusts, each word carrying the weight of a thousand lifetimes of devotion. Her body shakes with overwhelming emotion as you claim her completely, her love for you reaching heights that defy comprehension. When release comes, she clutches at the ground in ecstasy, her entire being consumed by the sheer bliss of serving you so perfectly. "I will carry your child with all my heart," she vows between gasps, her voice filled with a determination that could move mountains. Tears stream down her face as she revels in the afterglow of your union, every fiber of her being singing praises to your name. She presses back against you one last time, savoring the connection before reluctantly pulling away.</Text>
+    <Options>
+        <Option>
+            <Order>10</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=Concubine_Text_8}Clean me with that pretty mouth.</OptionText>
+            <TriggerEventName>concubine_cleaning_devotion</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>concubine_cleaning_devotion</Name>
+    <Text>{=Concubine_Text_9}She turns to you with loving eyes that could drown a man in their depth, taking your cock in her mouth once again. "I'll do anything for you my lord," she murmurs between sucks, each word carrying the weight of an unbreakable vow. Her tongue swirls around your shaft as if it's a sacred duty, worshiping every inch with reverent devotion. She stares up at you with such pure love that it borders on madness, her entire existence focused on pleasing you completely. Every movement is filled with adoration that could light up the darkest night, her body trembling with emotion. "You are my everything," she whispers against your skin, her breath hot and loving. Her hands caress your thighs gently as if afraid to break this sacred moment, treating every inch of you like precious treasure.</Text>
+    <Options>
+        <Option>
+            <Order>10</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>EndEventChain</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=Concubine_Text_10}That's enough, my good concubine.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>

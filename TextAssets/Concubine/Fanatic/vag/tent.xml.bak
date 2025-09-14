@@ -1,0 +1,128 @@
+```xml
+<CEEvent>
+    <Name>TB_concubine_devoted_approach</Name>
+    <Text>The camp is quiet as your concubine slips into your tent, her lithe form moving with the grace of a trained warrior. The moonlight catches on the curve of her hips as she kneels before you, her eyes burning with devotion. "Master," she purrs, "your day was long and hard. Let me ease your burdens." She traces a finger along your thigh, her touch sending shivers down your spine.</Text>
+    <BackgroundName>BC_image_concubine_kneel</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let her begin her ministrations.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqTroopsAbove>2</ReqTroopsAbove>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_devoted_prelude</Name>
+    <Text>Your concubine's hands work deftly at your armor, removing each piece with practiced ease. She presses her lips to the exposed skin of your chest as she works, her breath hot against you. "You have no idea how much I've longed for this moment," she confesses between kisses, her fingers tracing patterns along your muscles. She slides down your body until her face is level with your growing erection, her tongue darting out to tease the tip.</Text>
+    <BackgroundName>BC_image_concubine_lick</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Allow her to take you fully into her mouth.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_devoted_intercourse</Name>
+    <Text>With a wicked grin, your concubine climbs onto you, positioning herself just above your throbbing cock. She takes your length in one smooth motion, her tight walls gripping you like a velvet vice. "You feel so good inside me," she moans, riding you with practiced precision. Her hips roll in perfect rhythm as she bounces up and down, her breasts swaying hypnotically before your eyes.</Text>
+    <BackgroundName>BC_image_concubine_ride</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let her continue her relentless pace.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_devoted_orgasm</Name>
+    <Text>Your concubine's movements become more frantic as she nears her climax, her walls clamping down on you with each thrust. "I'm yours," she gasps between moans, "only ever yours." The sight of her losing control pushes you over the edge, and you bury yourself deep inside her as you explode, filling her with your seed. She collapses onto your chest, panting heavily.</Text>
+    <BackgroundName>BC_image_concubine_collapse</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Watch her clean your spent cock.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_devoted_cleanup</Name>
+    <Text>Your concubine slides down your body, her tongue tracing circles on your skin as she goes. When she reaches your still-hard cock, she wraps her lips around it, sucking gently to clean your spent seed from your flesh. Her eyes never leave yours as she works, a look of pure devotion in them. "I love the taste of you," she murmurs against your shaft before taking you deeper into her throat.</Text>
+    <BackgroundName>BC_image_concubine_suck</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let her continue until she swallows every last drop.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 1" Ref="Hero" Color="Cyan"/>
+            </SkillsToLevel>
+            <ProstitutionTotal>R 1 3</ProstitutionTotal>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+```

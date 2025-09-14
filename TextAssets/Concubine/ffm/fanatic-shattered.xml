@@ -1,0 +1,127 @@
+<CEEvents>
+    <!-- Event 1: Arrival of Companions -->
+    <CEEvent>
+        <Name>TB_companion_arrival</Name>
+        <Text>
+            You find {COMPANION_NAME_1} and {COMPANION_NAME_2} waiting for you in your tent. Their armor is meticulously polished, but their eyes hold that unique mix of warrior focus and submissive desire. The Fanatically Devoted one stands rigidly at attention, while the Shattered companion kneels immediately upon seeing you, head bowed low.
+            "{COMPANION_NAME_1} reports: "We heard the call to duty... and pleasure," she states with fervent intensity, her hand unconsciously tracing the pommel of her sword. The other remains silent on the floor, a living decoration radiating servitude.
+            "I am here only to be used by you, Master," {COMPANION_NAME_2} murmurs softly from the kneeling position, her voice trembling slightly with devotion and anticipation. When instructed, they proceed to undress each other - {COMPANION_NAME_1} roughly removing {COMPANION_NAME_2}'s armor pieces while whispering commands about "being a good little toy."
+        </Text>
+        <BackgroundName>TB_tent_interior</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCamp</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <OptionText>{=TBRandomEvents_TB_companion_arrival}Command them to begin their service.</OptionText>
+                <TriggerEventName>TB_companions_prelude</TriggerEventName>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <!-- Event 2: Prelude with Undressing & Lesbian Interaction -->
+    <CEEvent>
+        <Name>TB_companions_prelude</Name>
+        <Text>
+            You watch as {COMPANION_NAME_1} finishes removing the last pieces of {COMPANION_NAME_2}'s armor, her movements becoming increasingly aggressive. She slaps a bare breast and commands: "Show our Master how eager you are to be his property!" The Shattered companion immediately obeys, spreading herself wide on your bed.
+            As she begins touching herself with frantic desperation, {COMPANION_NAME_1} straddles her face roughly. "Clean me properly while we wait for His command," she orders. {COMPANION_NAME_2} moans into the fanatical woman's pussy without hesitation, her entire body shivering at the opportunity to serve in this degraded way.
+            You see {COMPANION_NAME_1} wince slightly as sharp teeth graze her clit - a punishment from the devoted servant for perceived inadequacy. She retaliates by grinding harder onto that willing mouth below while unbuckling your pants with her free hand, already anticipating her master's needs.
+            "Please... may I taste you now, Master?" she begs between ragged breaths, her eyes locked on your hardening cock as it springs free from confinement. The wet sounds of the other companion eagerly eating pussy form a crude soundtrack to this display of devotion and submission.
+        </Text>
+        <BackgroundName>TB_tent_interior</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <OptionText>{=TBRandomEvents_TB_companions_prelude}Allow {COMPANION_NAME_1} to worship your cock.</OptionText>
+                <TriggerEventName>TB_companions_fellatio</TriggerEventName>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <!-- Event 3: Oral Sex -->
+    <CEEvent>
+        <Name>TB_companions_fellatio</Name>
+        <Text>
+            {COMPANION_NAME_1} wastes no time diving onto your cock, her tongue swirling eagerly around the head before taking you deep into that hungry throat. You feel the hot suction intensify as {COMPANION_NAME_2}'s muffled moans against her pussy grow louder beneath her.
+            "Such a good little fucktoy," she praises roughly while gagging slightly on your length, her hand coming up to guide it further down her throat. "Your cunt tastes perfect for our Master's use too," she tells the kneeling woman between thrusts. The Shattered companion whimpers in ecstasy at this recognition of her value as property.
+            Her movements become frantic - deepthroating with desperate moans, tears streaming down her face from the effort. Meanwhile, {COMPANION_NAME_2} works furiously below, trying to make the fanatic orgasm through pure skill alone. The sight of their coordinated degradation is intoxicating.
+            "Mmmph! I'm gonna cum soon!" {COMPANION_NAME_1} gasps pulling off momentarily, saliva dripping copiously from her lips down onto your balls before plunging back down again with renewed vigor. She uses both hands now - one gripping the base tightly while the other cups and slaps the devoted companion's bouncing tit.
+        </Text>
+        <BackgroundName>TB_tent_interior</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <OptionText>{=TBRandomEvents_TB_companions_fellatio}Command them to prepare for penetration.</OptionText>
+                <TriggerEventName>TB_companions_vaginal</TriggerEventName>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <!-- Event 4: Vaginal Sex -->
+    <CEEvent>
+        <Name>TB_companions_vaginal</Name>
+        <Text>
+		You position {COMPANION_NAME_2} beneath you on the bed, her legs spread obscenely wide. "Please... destroy my pussy, Master," she whimpers shamelessly while looking up at you with worshipful eyes filled with tears of submission.
+        As you enter her tight wetness, she arches violently upward with a guttural moan. {COMPANION_NAME_1} immediately moves to lie beside {COMPANION_NAME_2}, pressing herself against the other woman's side and focusing entirely on tormenting her breasts - one hand roughly kneading while her mouth latches onto a nipple, biting down hard before switching to suckle fiercely.
+        "Fuck our pet harder," she urges breathlessly, alternating between sharp bites and deep pulls that make {COMPANION_NAME_2} writhe violently beneath you. Her other hand slides underneath the writhing form to roughly tease at her clit in sync with your thrusts.
+        You pound relentlessly into that perfect pussy, encouraged by the fanatic's obscene praises and the frantic movements of both women below you: "That's it! Make her scream for you!" The air fills with their combined moans and cries - a symphony of shared degradation and devotion centered on your domination.
+        </Text>
+        <BackgroundName>TB_tent_interior</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <OptionText>{=TBRandomEvents_TB_companions_vaginal}Claim her ass now.</OptionText>
+                <TriggerEventName>TB_companions_anal</TriggerEventName>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <!-- Event 5: Anal Sex & Orgasm -->
+    <CEEvent>
+        <Name>TB_companions_anal</Name>
+        <Text>
+            You pull out of her dripping pussy and move towards that tight, untouched asshole. {COMPANION_NAME_1} quickly moves into position to assist - one hand spreading those pale cheeks wide while the other pushes two fingers roughly inside without warning.
+            "{COMPANION_NAME_2} cries out in mixed pain and pleasure as she is prepared like an offering, her body convulsing from both the violation and the intense arousal. "Take my ass... make it yours forever," she sobs incoherently through tears of submission.
+            As you force entry past that final barrier, {COMPANION_NAME_1} leans over her back, biting and scratching at the exposed flesh while whispering degrading compliments: "Look how beautifully your master breaks in our little pet. She was born to be fucked like this." Her tongue soon finds its way between those clenched cheeks too, lapping greedily at where your cock disappears.
+            The rhythm quickens - every thrust eliciting a fresh scream from the Shattered companion as she takes you deeper than ever before. {COMPANION_NAME_1} continues her tormenting ministrations until you feel yourself reaching climax deep inside that tight hole, filling it with hot seed as the woman beneath you shudders violently through her own forced orgasm.
+        </Text>
+        <BackgroundName>TB_tent_interior</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <OptionText>{=TBRandomEvents_TB_companions_anal}Watch them clean up.</OptionText>
+                <TriggerEventName>TB_companions_cleanup</TriggerEventName>
+            </Option>
+        </Options>
+    </CEvent>
+
+    <!-- Event 6: Clean Up & Sperm Play -->
+    <CEEvent>
+        <Name>TB_companions_cleanup</Name>
+        <Text>
+            You withdraw slowly from {COMPANION_NAME_2}'s quivering ass, watching thick ropes of your cum leak out immediately. Before it can drip onto the bed, {COMPANION_NAME_1} shoves her face into that gaping hole without hesitation.
+            "Stay still!" she commands harshly before using long strokes of her tongue to lick meticulously inside and around that violated entrance. She gathers every last drop with hungry slurping noises, occasionally pausing only to spit it directly onto the other companion's lips or face as punishment for moving during the cleaning process.
+            Once satisfied all traces are removed from the Shattered property, she turns her attention entirely on {COMPANION_NAME_2}, forcing more of your semen from her asshole and into that waiting mouth using fingers hooked deep inside. Tears stream down both their faces - one from humiliating effort, the other from pure ecstasy at being used so thoroughly.
+            Finally kneeling side-by-side before you, they press cheeks together, each displaying a perfect imprint of your cum on their lips before parting them in unison: "Thank you for using us, Master. We belong entirely to you." The scent of sex and submission hangs heavy in the air.
+        </Text>
+        <BackgroundName>TB_tent_interior</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+    </CEvent>
+
+---

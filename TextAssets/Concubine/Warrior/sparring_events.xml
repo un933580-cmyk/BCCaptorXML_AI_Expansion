@@ -1,0 +1,108 @@
+<Event Name="BC_event_training_sword_shield">
+    <Text>
+        You step into the sparring ring, gripping your steel longsword and shield.
+        Your concubine faces you, her own blade gleaming in the daylight. She is clad in good armor,
+        not constricting her movements. The air hums with tension as you both adopt fighting stances.
+
+        She lunges first—a quick thrust aimed at your ribs—but you parry with a clang of metal.
+        You retaliate with a shield bash that sends her staggering back. She recovers fast,
+        slashing low toward your legs. The fight is fierce, neither giving ground easily.
+    </Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>A well-timed strike disarms her, leaving her gasping at your feet.</OptionText>
+            <TriggerEventName>BC_event_training_sword_shield_win</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Her speed and precision outmaneuver you; she pins you to the ground with her blade at your throat.</OptionText>
+            <TriggerEventName>BC_event_training_sword_shield_loss</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_training_spear">
+    <Text>You step onto the sparring field, gripping your spear tightly. Your concubine faces you, her weapon moving with precision and grace like an extension of herself. While spears may seem less sophisticated than swords in design, they can be even more deadly weapons when wielded skillfully. 
+    She twirls hers expertly, testing distances and angles with practiced ease. You feint left, then right, forcing her to react — but she's quick, deflecting your strikes with a dancer's grace. The duel flows between you both, each testing the other's limits. You press forward, aiming for her ribs, but at the last second she sidesteps and counters with a sweep that nearly knocks you off balance.</Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>A well-placed thrust catches her off guard, sending her spear flying from her grasp. She stands breathless at your feet.</OptionText>
+            <TriggerEventName>BC_event_training_spear_win</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Her quick footwork and precise strikes overwhelm you. The tip of her spear rests gently against your throat as she pins you to the ground.</OptionText>
+            <TriggerEventName>BC_event_training_spear_loss</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_training_greatsword">
+    <Text>
+        The weight of the greatsword strains your muscles, but so does hers. You trade heavy blows that shake the ground beneath you. Each strike carries force enough to shatter bone — but skill matters more than brute strength here.
+        She feints high, then swings low; you barely block in time. Sweat drips from both of you as the battle rages on. The greatswords are unwieldy, but she handles hers with surprising control.
+        You're evenly matched — until one misstep decides it all...
+    </Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>A flawless parry and counter leaves her weapon flying from her grip, falling to her knees before you.</OptionText>
+            <TriggerEventName>BC_event_training_greatsword_win</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>A well-timed sweep knocks your feet from under you; she plants her blade against your throat, victory in her eyes.</OptionText>
+            <TriggerEventName>BC_event_training_greatsword_loss</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_training_lance">
+    <Text>
+        You mount your destrier and take up position at one end of the yard,
+        watching as your concubine struggles to properly hold her practice lance.
+        She looks nervous but determined, standing with legs spread in a stable stance.
+
+        "Ready?" you call, already urging your horse forward. The ground thunders beneath
+        hooves as you charge across the yard - she braces herself just in time,
+        swinging her lance up to meet yours with a solid *crack* of wood on wood.
+
+        You wheel around for another pass; this time she anticipates better and parries cleanly.
+        The rhythmic clash of lances echoes through the courtyard as you exchange strikes
+        - each impact sending vibrations up your arms from the wooden shafts.
+    </Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>A perfectly timed strike knocks her lance from her grip, leaving her momentarily stunned.</OptionText>
+            <TriggerEventName>BC_event_training_lance_win</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>She catches you off guard with a clever feint, leaving your lance hanging from her saddle as she rides past.</OptionText>
+            <TriggerEventName>BC_event_training_lance_loss</TriggerEventName>
+        </Option>
+    </Options>
+</Event>

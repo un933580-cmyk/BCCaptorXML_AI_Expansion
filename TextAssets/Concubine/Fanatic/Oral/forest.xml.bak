@@ -1,0 +1,131 @@
+<CEEvent>
+    <Name>ConcubineOralChain1</Name>
+    <Text>{=BCCaptor_Text_20001}Your devoted concubine approaches you under the shade of a sprawling oak tree, her armored form glistening with sweat from the day's march. The metal plates of her breastplate have been loosened to reveal the smooth skin beneath, and she kneels before you with practiced grace. "My lord," she purrs, "your day has been long, and I see the tension in your shoulders. Let me ease your burden as only a concubine can." Her gloved hand reaches for your belt, fingers deftly working at the clasp. The sun casts dappled shadows across her face as she looks up at you with adoring eyes, her breath warm against your thigh.</Text>
+    <BackgroundName>BC_captor_forest_clearing</BackgroundName>
+    <NotificationName>BC_image_notification_concubine_servicing</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20011}Let her serve you.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 3" Ref="Hero" Color="Purple"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>ConcubineOralChain2</Name>
+    <Text>{=BCCaptor_Text_20021}Your concubine wastes no time, her skilled mouth immediately wrapping around your length with practiced enthusiasm. The cool metal of her armor plates brushes against your thighs as she works, her tongue swirling expertly along your shaft while one hand massages your balls through the fabric of your pants. A low moan vibrates through her throat, sending pleasant shivers up your spine as she takes you deeper into her warm, wet mouth. The sounds of the forest - birdsong and rustling leaves - fade away, replaced by the obscene noises of her eager ministrations. She pulls back slightly to look up at you with lust-filled eyes, a thin strand of saliva connecting her lips to your cock before she dives back down with renewed vigor.</Text>
+    <BackgroundName>BC_captor_forest_clearing</BackgroundName>
+    <NotificationName>BC_image_notification_concubine_servicing</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20031}Let her continue her devotion.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 5" Ref="Hero" Color="Purple"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>ConcubineOralChain3</Name>
+    <Text>{=BCCaptor_Text_20041}With a sudden guttural growl, you feel your release building as your concubine's talented mouth works its magic. She senses your impending climax and redoubles her efforts, her head bobbing faster while one hand grips the base of your shaft to help guide you down her eager throat. The pressure builds unbearably, and with a final thrust of your hips, you empty yourself into her waiting mouth. Her eyes widen slightly as she swallows your seed, her throat working visibly to take every last drop. A satisfied sigh escapes her lips as she pulls back, a thin line of your cum connecting her lips to the tip of your cock before she licks it clean with a lascivious grin.</Text>
+    <BackgroundName>BC_captor_forest_clearing</BackgroundName>
+    <NotificationName>BC_image_notification_concubine_servicing</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20051}Allow her to continue worshipping your body.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 7" Ref="Hero" Color="Purple"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>ConcubineOralChain4</Name>
+    <Text>{=BCCaptor_Text_20061}Your concubine rises gracefully to her feet, the remnants of your climax still visible on her lips and chin. With a wicked smile, she reaches down to spread some of your seed across her own face, marking herself as yours in every way possible. "I live only to serve you, my lord," she murmurs, her voice thick with devotion as she runs a gloved finger along the trail of cum on her cheek before bringing it to her lips for a sensual taste. The forest breeze carries the scent of your shared pleasure as she presses herself against you, her armored body warm and inviting despite its metallic exterior. "Tell me what else I can do for you," she whispers, her breath hot against your ear, "anything you desire is my command."</Text>
+    <BackgroundName>BC_captor_forest_clearing</BackgroundName>
+    <NotificationName>BC_image_notification_concubine_servicing</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20071}Command her as you see fit.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 9" Ref="Hero" Color="Purple"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

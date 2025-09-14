@@ -1,0 +1,92 @@
+
+<!-- Event 1: The Concubine Arrives -->
+<CEEvent>
+    <Name>concubine_oral_start</Name>
+    <Text>{=BCCaptor_Text_20000}The heavy curtains of your private tent part as your concubine enters, her muscular form clad in only a thin silk robe that barely conceals her powerful physique. Her dark eyes burn with devotion as she kneels before you, the scent of her arousal already filling the air. "Master," she purrs, "your bodyguards have reported you've been working too hard. Let me ease your burdens." She runs a hand along her own thigh suggestively.</Text>
+    <BackgroundName>BC_image_concubine_kneeling</BackgroundName>
+    <NotificationName>BC_image_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bodyguard</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Female</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeMood</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 2: The Deep Throat -->
+<CEEvent>
+    <Name>concubine_oral_deepthroat</Name>
+    <Text>{=BCCaptor_Text_20001}Your concubine's skilled hands quickly free your cock, her hot mouth descending upon it with practiced ease. Her throat muscles ripple as she takes you deep, her nose pressing against your pelvis while her saliva coats your shaft. "Mmmph," she moans around your length, her eyes locked on yours in total submission. The sound of her wet lips working your cock fills the air.</Text>
+    <BackgroundName>BC_image_concubine_deepthroat</BackgroundName>
+    <NotificationName>BC_image_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bodyguard</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Female</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeStamina</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 3: The Swallow -->
+<CEEvent>
+    <Name>concubine_oral_swallow</Name>
+    <Text>{=BCCaptor_Text_20002}Your concubine's throat convulses around you as she feels your cock twitch, her eyes widening with pleasure at the knowledge of what comes next. With a final deep swallow, you erupt into her mouth, filling it with hot cum that she eagerly accepts. She pulls back slightly to let you watch as she swallows every drop, a strand of semen escaping from the corner of her lips.</Text>
+    <BackgroundName>BC_image_concubine_swallowing</BackgroundName>
+    <NotificationName>BC_image_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bodyguard</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Female</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeLoyalty</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 4: The Cleanup -->
+<CEEvent>
+    <Name>concubine_oral_cleanup</Name>
+    <Text>{=BCCaptor_Text_20003}Your concubine licks her lips clean of any remaining semen, then turns to your softening cock with reverent attention. She sucks gently, cleaning every inch before looking up at you with adoring eyes. "Master," she whispers, "I live only to serve your pleasure." A single drop of your cum still glistens on her chin as she awaits your next command.</Text>
+    <BackgroundName>BC_image_concubine_cleaning</BackgroundName>
+    <NotificationName>BC_image_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bodyguard</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Female</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeDevotion</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>

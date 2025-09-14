@@ -1,0 +1,117 @@
+<!-- Event 1: Invitation -->
+<CEEvent>
+    <Name>devoted_anal_chain3_invitation</Name>
+    <Text>After a long day of leading your troops, you invite {CAPTIVE_NAME} to join you in your personal tent. The devoted concubine enters immediately, her eyes alight with anticipation as she kneels before you. "My lord wishes for me to attend him?" she asks softly, her body already responding to the promise of pleasure that hangs heavy in the air.</Text>
+    <Backgrounds>
+        <Background Name="personal_tent_kneeling_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain3_prelude" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 2: Full Body Worship -->
+<CEEvent>
+    <Name>devoted_anal_chain3_prelude</Name>
+    <Text>{CAPTIVE_NAME} wastes no time in worshiping your entire body, her soft lips and skilled tongue traversing every inch of you with devoted attention. She sucks each finger before moving to your toes, her hands caressing your thighs as she works her way back up. "Every part of my lord is perfect," she murmurs between kisses, her eyes locked on yours in complete adoration.</Text>
+    <Backgrounds>
+        <Background Name="personal_tent_full_body_worship_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain3_main" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 3: Reverse Cowgirl -->
+<CEEvent>
+    <Name>devoted_anal_chain3_main</Name>
+    <Text>Positioning herself over your lap, {CAPTIVE_NAME} slowly sinks onto your waiting cock, her asshole stretching to accommodate you. She moans loudly at the fullness, her hands braced on your thighs as she begins to ride with slow, deliberate movements. "My lord's cock feels so good inside me," she gasps between thrusts, her body arching back to give you a better view of where you're connected.</Text>
+    <Backgrounds>
+        <Background Name="personal_tent_reverse_cowgirl_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain3_cum" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 4: Messy Release -->
+<CEEvent>
+    <Name>devoted_anal_chain3_cum</Name>
+    <Text>With a final powerful thrust, you empty yourself into your concubine's tight asshole. {CAPTIVE_NAME} shudders as she feels every pulse of hot seed filling her most private place, her body trembling with satisfaction. When you finally withdraw, cum leaks from between her cheeks onto the furs below, creating a messy but perfect testament to their coupling.</Text>
+    <Backgrounds>
+        <Background Name="personal_tent_reverse_aftermath_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain3_aftercare" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 5: Cleanup -->
+<CEEvent>
+    <Name>devoted_anal_chain3_aftercare</Name>
+    <Text>{CAPTIVE_NAME} immediately sets to work cleaning up the mess they've made, licking your cock clean of both her juices and your cum with devoted attention. When she's finished servicing you, she turns her focus to herself, carefully wiping the cum from between her cheeks before bringing her fingers to her lips. "Your seed is a blessing," she murmurs as she savors the taste.</Text>
+    <Backgrounds>
+        <Background Name="personal_tent_cleanup_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEvents>
+                <TriggerEvent Name="devoted_anal_chain3_end" />
+            </TriggerEvents>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 6: End -->
+<CEEvent>
+    <Name>devoted_anal_chain3_end</Name>
+    <Text>{CAPTIVE_NAME} remains by your side as you both enjoy the afterglow of their passionate encounter, her body warm and content in the knowledge that she has served her master well. The sounds of the military camp fade into the background as she strokes your chest, her fingers tracing patterns on your skin. "My lord's pleasure is my only concern," she whispers, pressing a gentle kiss to your shoulder.</Text>
+    <Backgrounds>
+        <Background Name="personal_tent_cuddling_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+</CEEvent>

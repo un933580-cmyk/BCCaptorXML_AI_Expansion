@@ -1,0 +1,109 @@
+<CEEvent>
+    <Name>FanaticConcubineAnal_Approach</Name>
+    <Text>The evening sun casts long shadows across the open field as you make camp for the night. Your fanatically devoted concubine approaches, her lithe warrior's body moving with feline grace despite her heavy armor. She drops to one knee before you, removing her helmet to reveal eyes burning with worshipful adoration. "My lord," she breathes, voice trembling with need, "I've protected your back all day... now let me serve you in other ways." With practiced efficiency, she removes each piece of her armor, revealing the petite but toned body beneath - breasts small but firm, hips narrow yet curving, and that perfectly round little ass you know so well.</Text>
+    <BackgroundName>BC_image_female_armor_strip</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>{=FanaticConcubineAnal_Approach_Option1}{=FanaticConcubineAnal_Approach_Option1}</Text>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ContinueToEvent FanaticConcubineAnal_Prelude</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>HeroHasConcubine</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>FanaticConcubineAnal_Prelude</Name>
+    <Text>Your concubine kneels before you, her naked body trembling with anticipation. She runs her hands along your thighs, pressing kisses to your abdomen as she looks up at you through lashes glistening with unshed tears of devotion. "My lord," she whispers, fingers tracing the outline of your cock through your pants, "I want to feel your warmth inside me again... not in my pussy this time, but where I know you'll claim me most completely." Her breath hitches as she unbuckles your belt, freeing your hardened length with reverent touches. She takes you into her mouth first, sucking gently while looking up at you with those worshipful eyes - a silent plea for permission to continue.</Text>
+    <BackgroundName>BC_image_female_blowjob_guide</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>{=FanaticConcubineAnal_Prelude_Option1}{=FanaticConcubineAnal_Prelude_Option1}</Text>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ContinueToEvent FanaticConcubineAnal_Sex</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>HeroHasConcubine</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>FanaticConcubineAnal_Sex</Name>
+    <Text>Your concubine spreads her legs wide, presenting herself to you in the missionary position. She reaches back to spread those perfect little cheeks, revealing the tight pink rosebud that awaits your claiming. "Take me, my lord," she begs, voice breaking with need. You press against her entrance, feeling her body tremble as you push inside - slow and steady, giving her time to adjust despite how desperately she rocks back against you. Each inch sends fresh waves of pleasure through both of you until your hips meet, her tight heat gripping you like a velvet vice. She moans loudly at the fullness, fingers digging into the grass beneath her as she arches her back.</Text>
+    <BackgroundName>BC_image_female_missionary_guide</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>{=FanaticConcubineAnal_Sex_Option1}{=FanaticConcubineAnal_Sex_Option1}</Text>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ContinueToEvent FanaticConcubineAnal_Climax</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>HeroHasConcubine</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>FanaticConcubineAnal_Climax</Name>
+    <Text>The sensation becomes too much for you both as your thrusts grow faster, harder - each stroke rubbing against that perfect spot inside her. Your concubine's body tenses beneath you, a choked cry escaping her lips before she collapses into an overwhelming orgasm, her tight ass milking you with rhythmic contractions. With one final push you bury yourself deep, feeling the familiar heat of release as your seed floods her rectum. She whimpers at the warmth filling her, her body shuddering with aftershocks as you remain buried inside her for a moment longer. When you finally pull out, a thin trail of white follows your cock - evidence of your claiming.</Text>
+    <BackgroundName>BC_image_female_missionary_climax</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>{=FanaticConcubineAnal_Climax_Option1}{=FanaticConcubineAnal_Climax_Option1}</Text>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ContinueToEvent FanaticConcubineAnal_Cleanup</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>HeroHasConcubine</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>FanaticConcubineAnal_Cleanup</Name>
+    <Text>Your concubine scrambles to her knees before you, tears in her eyes as she looks up at your cock still glistening with remnants of their coupling. "Please let me cleanse my master," she begs, taking you into her mouth without waiting for permission. She sucks eagerly, licking every trace of their shared fluids from your shaft while her fingers work to spread the moisture around - ensuring no part of you is left untouched by her devoted tongue. After several minutes of worshipful cleaning, she turns to attend to herself, inserting two fingers into her well-used asshole to scoop out what remains of your seed. She brings them to her lips, savoring the taste with a contented sigh before returning to your side.</Text>
+    <BackgroundName>BC_image_female_blowjob_cleanup</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>{=FanaticConcubineAnal_Cleanup_Option1}{=FanaticConcubineAnal_Cleanup_Option1}</Text>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>EndEvent</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>HeroHasConcubine</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>

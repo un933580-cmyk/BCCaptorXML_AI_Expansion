@@ -1,0 +1,54 @@
+<CEEvent>
+    <Name>FanaticallyDevoted_WarriorFear</Name>
+    <Text>The devoted concubine kneels before you, gripping your arm with desperate strength. "Master... I cannot bear the thought of another battle where I might fail to protect you," she whispers through trembling lips. "Every clash of steel fills me with terror that this time, my skills will not be enough." Her fingers dig into your flesh as she gazes up at you, eyes wide with fear and devotion. "Please... let me train harder so I may stand beside you without this constant dread consuming me."</Text>
+    <BackgroundName>BC_image_fanatical_cling_warrior</BackgroundName>
+    <NotificationName>Fanatical_Training_Fear_Revised</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Companion</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>"Hmm, a warrior lover? That has potential."</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>FanaticallyDevoted_Training_Commitment</EventName>
+                    <EventWeight>100</Weight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<Event>
+    <Name>FanaticallyDevoted_Training_Commitment</Name>
+    <Text>The concubine presses your hand to her chest, feeling the rapid beat of her heart. "Master... I swear by everything sacred that I will become the shield at your back," she vows with quiet intensity. "Every drop of sweat in training will be worth it if it means keeping you safe from harm." She lifts your hand to kiss your knuckles, tears wetting them. "I cannot bear the thought of a world where you do not exist—let me make myself worthy of standing beside you in every battle."</Text>
+    <BackgroundName>BC_image_fanatical_kiss_hands_warrior</BackgroundName>
+    <NotificationName>Fanatical_Training_Vow_Revised</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <Flag>Companion</Flag>
+        <Flag>CanOnlyBeTriggeredByOtherEvent</Flag>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <Consequence>Continue</Consequence>
+            </MultipleRestrictedListOfConsequences>
+            <Text>"Your devotion is... intoxicating."</Text>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</Event>

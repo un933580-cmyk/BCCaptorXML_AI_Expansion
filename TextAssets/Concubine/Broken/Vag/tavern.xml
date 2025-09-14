@@ -1,0 +1,303 @@
+<CEEvent>
+    <Name>TB_concubine_street_encounter1</Name>
+    <Text>{CAPTIVE_NAME}, your broken concubine, has been waiting for you in the alley behind the tavern. She kneels on the damp cobblestones, her body trembling with anticipation as she hears your footsteps. The scent of her arousal mixes with the earthy smell of the street, and her hands are clasped together in supplication. "Master," she whispers, her voice dripping with submission, "I long to serve you."</Text>
+    <BackgroundName>BC_image_concubine_alleystand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_concubine_street_encounter2</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_street_encounter2</Name>
+    <Text>You grab {CAPTIVE_NAME} by her hair and force her head down to your crotch. She moans in delight as she feels the outline of your cock through your pants, already hard with anticipation. "Please, Master," she begs, her voice muffled against your fabric, "let me taste you. Let me serve my purpose." You unbuckle and pull out your cock, slapping it against her face before shoving it into her mouth. She gags slightly but quickly adjusts, her tongue swirling around the tip as she sucks eagerly.</Text>
+    <BackgroundName>BC_image_concubine_alleystand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_concubine_street_encounter3</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+1" Ref="Hero" Color="Cyan" HideNotification="true"/>
+    </SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_street_encounter3</Name>
+    <Text>You pull her off your cock and flip her around, bending her over a nearby crate. She whimpers in anticipation as you hike up her skirt and rip off her panties. "Fuck me, Master," she cries out, spreading her legs wider for you. You spit on your fingers and rub them against her pussy, feeling how soaked she is for you. Without warning, you slam into her hard, making her scream in pleasure-pain. "Yes!" she moans loudly, uncaring of who might hear. "Use me! Ruin me! I live only to serve you!"</Text>
+    <BackgroundName>BC_image_concubine_alleystand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_concubine_street_encounter4</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+2" Ref="Hero" Color="Cyan" HideNotification="true"/>
+    </SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_street_encounter4</Name>
+    <Text>You pound into {CAPTIVE_NAME} relentlessly, her body jolting with each thrust. She claws at the crate, her moans growing louder as she feels herself getting closer to orgasm. "Master!" she cries out, her voice breaking. "I'm... I'm coming! Please don't stop!" Just as she reaches her peak, you slam into her one last time and release deep inside her. She collapses forward with a satisfied moan, feeling your hot seed filling her up. "Thank you, Master," she gasps, looking back at you with adoring eyes. "Your cum feels so good inside me."</Text>
+    <BackgroundName>BC_image_concubine_alleystand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_concubine_street_encounter5</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+3" Ref="Hero" Color="Cyan" HideNotification="true"/>
+    </SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_street_encounter5</Name>
+    <Text>{CAPTIVE_NAME} slowly stands up, your cum dripping down her thighs. She turns to face you and drops to her knees again, taking your still-hard cock into her mouth once more. "Let me clean you, Master," she murmurs between licks, her tongue swirling around the sensitive tip. She sucks gently, savoring every drop of pre-cum that leaks out. When she's finished, she looks up at you with worshipful eyes. "Thank you for using me, Master. I exist only to serve your pleasure."</Text>
+    <BackgroundName>BC_image_concubine_alleystand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>End Encounter</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+4" Ref="Hero" Color="Cyan" HideNotification="true"/>
+    </SkillsToLevel>
+</CEEvent>
+
+---
+
+<CEvent>
+    <Name>TB_concubine_abandonedhouse1</Name>
+    <Text>You find {CAPTIVE_NAME} in an abandoned house, kneeling naked on a dirty mattress. She looks up at you with empty eyes, but her body betrays her arousal as she spreads her legs for you. "Use me, Master," she whispers. "I'm nothing without your touch."</Text>
+    <BackgroundName>BC_image_concubine_housestand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_concubine_abandonedhouse2</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_abandonedhouse2</Name>
+    <Text>You approach her and slap her face hard. She gasps, tears welling up in her eyes, but she doesn't move away. "I'm sorry for being such a useless concubine," she sobs. You grab her throat and push her down onto the mattress. "Beg for my cock," you demand.</Text>
+    <BackgroundName>BC_image_concubine_housestand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_concubine_abandonedhouse3</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+1" Ref="Hero" Color="Cyan" HideNotification="true"/>
+    </SkillsToLevel>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_abandonedhouse3</Name>
+    <Text>"Please, Master," she whimpers, spreading her legs wider and reaching for your pants. "I need to feel you inside me." You pull out your cock and rub it against her slit before slamming into her hard. She cries out in pain and pleasure, her nails digging into the mattress as you fuck her mercilessly.</Text>
+    <BackgroundName>BC_image_concubine_housestand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_concubine_abandonedhouse4</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+2" Ref="Hero" Color="Cyan" HideNotification="true"/>
+    </SkillsToLevel>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_abandonedhouse4</Name>
+    <Text>{CAPTIVE_NAME}'s moans fill the room as you pound into her, her body jolting with each thrust. She clings to you desperately, her legs wrapped around your waist. "Master!" she screams as she orgasms, her pussy convulsing around your cock.</Text>
+    <BackgroundName>BC_image_concubine_housestand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_concubine_abandonedhouse5</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+3" Ref="Hero" Color="Cyan" HideNotification="true"/>
+    </SkillsToLevel>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_abandonedhouse5</Name>
+    <Text>You pull out and come all over her stomach, watching as your cum drips down onto the mattress. {CAPTIVE_NAME} lies there panting, a satisfied smile on her face.</Text>
+    <BackgroundName>BC_image_concubine_housestand</BackgroundName>
+    <NotificationName>BC_captor_notification_street</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>End Encounter</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <SkillRequired Id="Obedience" Max="50" Ref="Hero"/>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+4" Ref="Hero" Color="Cyan" HideNotification="true"/>
+    </SkillsToLevel>
+</CEvent>

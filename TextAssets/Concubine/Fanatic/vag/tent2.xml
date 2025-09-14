@@ -1,0 +1,139 @@
+<Event>
+    <Name>TB_concubine_initiates_sex</Name>
+    <Text>Your concubine approaches you with trembling hands, her entire body radiating desperate need. "Master," she breathes out, falling to her knees before you, "I can't stop thinking about your seed inside me. Please... let me serve you." She reaches for your belt with shaking fingers, her breath coming in ragged gasps. "I want to be your perfect little womb-slave. I need you so badly it hurts." Her eyes are glazed with lust as she looks up at you worshipfully.</Text>
+    <Options>
+        <Option>
+            <Text>Let her service you</Text>
+            <Consequence>
+                <GainCaptiveAffection Value="3"/>
+                <SetFlag Name="ConcubineServedMasterRecently" Duration="7"/>
+            </Consequence>
+        </Option>
+        <Option>
+            <Text>Take her to bed instead</Text>
+            <Consequence>
+                <GainCaptiveAffection Value="5"/>
+                <SetFlag Name="ConcubineTakenToBed" Duration="14"/>
+            </Consequence>
+        </Option>
+    </Options>
+    <Flags>
+        <Flag Name="NotInHeat" Condition="IsConcubineInHeat = false"/>
+    </Flags>
+</Event>
+
+<CEvent>
+    <Name>TB_concubine_prepares_master</Name>
+    <Text>{=BCCaptor_Text_13201}Your concubine trembles with anticipation as she drops to her knees before you, her hands shaking with devotion as they unfasten your pants. She gazes up at you with worshipful eyes, her tongue darting out to wet her lips in anticipation of tasting you. When she finally frees your cock from its confines, a soft gasp escapes her lips - "Master, you're even more magnificent than I imagined." She wastes no time in wrapping her plush lips around your length, taking you deep into her throat with a desperate moan that vibrates through every inch of you. Her fingers dig into your thighs as she bobs up and down, her eyes rolling back in pleasure at the taste of your cock on her tongue. "Please, Master," she whimpers between sloppy sucks, "let me worship you properly." Every stroke is filled with such fervent devotion that you can feel your resolve weakening.</Text>
+    <BackgroundName>BC_image_concubine_blowjob</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Push her onto the bed.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 1" Ref="Hero" Color="Cyan"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>90</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_missionary_position</Name>
+    <Text>{=BCCaptor_Text_13205}Your concubine sprawls across the bed, her entire body trembling with need as she spreads her legs wide in invitation. "Please, Master," she begs breathlessly, "I need you inside me so badly." You position yourself between her quivering thighs and guide your cock to her dripping entrance, pushing inside with one smooth, powerful stroke that makes her gasp loudly. Her nails rake down your back as you begin to thrust, each deep plunge into her tight heat drawing desperate moans from her lips. "Yes! Fuck me, Master!" she cries out, wrapping her legs around your waist to pull you deeper inside. "Breed me! Fill me with your seed until I can't think of anything else but being your perfect little womb-slave!" Her whole body arches off the bed as pleasure overwhelms her senses.</Text>
+    <BackgroundName>BC_image_concubine_missionary</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Increase your pace.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 1" Ref="Hero" Color="Cyan"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>90</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_cumming_missionary</Name>
+    <Text>{=BCCaptor_Text_13206}Your concubine's entire body stiffens beneath you as she reaches her climax, a scream of pure ecstasy tearing from her throat. "MASTER! I'M CUMMING!" Her pussy clamps down on your cock like a vice, waves of pleasure making her whole body convulse uncontrollably. The feeling sends you over the edge - with one final, powerful thrust you bury yourself to the hilt and unleash your seed deep inside her welcoming womb. She wraps herself around you desperately, holding you tight as if she could physically keep your cum inside where it belongs. "Yes! Fill me! Make me pregnant!" she chants between ragged gasps, her body trembling violently with aftershocks of pleasure.</Text>
+    <BackgroundName>BC_image_concubine_post_orgasm</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Stay inside her while she cleans you.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 2" Ref="Hero" Color="Cyan"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>90</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_cleaning_master_missionary</Name>
+    <Text>{=BCCaptor_Text_13207}Still joined together, your concubine reaches between you with trembling fingers to stroke your softening cock. She collects every last drop of your seed that escapes her body and brings them lovingly to her lips, savoring the taste with closed eyes like it's a sacred offering. "Every part of me belongs to you, Master," she whispers reverently, then leans forward to kiss your tip gently - her tongue flicking out to lick up any stray traces. Her pussy pulses around you rhythmically as if trying to coax another release from you, her body trembling with the afterglow of her intense orgasm and the desperate need to be bred again.</Text>
+    <BackgroundName>BC_image_concubine_cleaning_missionary</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Praise her devotion.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 3" Ref="Hero" Color="Cyan"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>90</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEvent>

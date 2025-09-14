@@ -1,0 +1,74 @@
+<!-- Event 1: Arrival and Undressing -->
+<Event>
+    <Name>BC_event_concubine_appearance</Name>
+    <Text>{=BCCaptor_Text_20001}Your campfire flickers as your concubine strides towards you, her armor glinting in the firelight. She kneels at your feet with practiced grace, head bowed in submission. "Master," she purrs, "your bodyguard has returned from patrol and desires nothing more than to serve you." Her fingers tremble as they unbuckle her breastplate, revealing pert breasts that rise and fall rapidly with excitement. The leather straps of her bracers hit the ground next, followed by her greaves - each piece removed with reverent slowness. She stands naked before you, her small but toned warrior's body on display. "I am your concubine," she whispers, spreading her legs slightly to show glistening folds. "Use this useless whore as you please. I want nothing more than for you to fill me with your seed." Her voice is thick with need as she crawls forward, pressing her bare chest against your leg.</Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20002}Let her worship your cock with that pretty mouth</OptionText>
+        </Option>
+    </Options>
+</Event>
+
+<!-- Event 2: Blowjob Prelude -->
+<Event>
+    <Name>BC_event_concubine_blowjob</Name>
+    <Text>{=BCCaptor_Text_20003}Your obedient concubine wastes no time wrapping her soft lips around your shaft, taking you deep into that talented throat. She gags beautifully as you hit the back of her throat, tears welling in her eyes from the effort. "Mmmph master's so big!" she moans between thrusts, saliva dripping down her chin. Her hands grip your thighs tightly as she bobs up and down, her body trembling with arousal at the thought of being bred by you. The sounds of her slurping and gagging fill the night air as she worships your cock like a true slut. "Please master," she begs when you finally let her take a breath, "use this broken whore's mouth properly before breeding me." She grabs her own small breasts and squeezes them hard while staring up at you with pleading eyes, desperate to feel your seed inside her.</Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20004}Time to breed this begging slut properly</OptionText>
+        </Option>
+    </Options>
+</Event>
+
+<!-- Event 3: Vaginal Sex -->
+<Event>
+    <Name>BC_event_concubine_vaginal_sex</Name>
+    <Text>{=BCCaptor_Text_20005}You throw your concubine onto the grass, her legs spreading wide in eager invitation. Her tight pussy grips you like a vice as you slam into her, making her cry out with pleasure. "Yes master! Ruin this useless cunt!" she screams, clawing at the ground beneath you. Each powerful thrust makes her body jerk and shake, her small breasts bouncing wildly as she imagines being bred by her lord. She wraps her legs around your waist, pulling you deeper inside her needy hole. "I'm your dirty concubine whore! Please fill me with your baby master!" Her voice is raw with desperation as you pound into her mercilessly. The wet sounds of your coupling fill the night as you take what's rightfully yours. She arches her back, offering herself completely to your pleasure and potential impregnation. Her moans grow louder and more frantic as you feel her pussy clamping down on you.</Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20006}Fill this begging slut with your cum</OptionText>
+        </Option>
+    </Options>
+</Event>
+
+<!-- Event 4: Climax -->
+<Event>
+    <Name>BC_event_concubine_climax</Name>
+    <Text>{=BCCaptor_Text_20007}With a final brutal thrust, you bury yourself to the hilt in your concubine's trembling body. She screams as you flood her womb with hot seed, her own orgasm ripping through her like an earthquake at the thought of being bred. "Yes master! Breed me!" she chants between gasps, her pussy milking every last drop from your cock. Her fingers dig into the grass as pleasure overwhelms her small frame, tears streaming down her face from both the intensity and joy of potentially carrying your child. You watch with satisfaction as your cum starts to leak out of her well-used cunt, running down her thighs in sticky trails. She looks up at you with adoring eyes, panting heavily. "Thank you master," she whispers, voice thick with submission and hope. "This useless concubine exists only for your pleasure... and to bear your heir." Her body still twitches from aftershocks as you pull out, leaving her open and dripping with your potential offspring.</Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20008}Make her clean up the mess she made</OptionText>
+        </Option>
+    </Options>
+</Event>
+
+<!-- Event 5: Cleanup -->
+<Event>
+    <Name>BC_event_concubine_cleanup</Name>
+    <Text>{=BCCaptor_Text_20009}Your concubine scrambles to her knees before you, licking the last traces of cum from your shaft with reverent devotion. She moans at the taste, swirling her tongue around every inch like it's ambrosia and she's desperate to have more inside her. "So good master," she murmurs between licks, her hands gripping your thighs for support. She sucks gently on the tip before taking you deep again, cleaning herself off you completely as if trying to keep any potential pregnancy possibility alive. Her eyes flutter closed in bliss as she worships your cock, clearly getting pleasure just from serving this way and dreaming of being bred. "Thank you for using your concubine," she whispers when you finally push her away. She crawls back to where your clothes lie scattered, waiting obediently for you to command her next use - perhaps to breed her again soon. Her body still glistens with sweat and cum as she kneels in perfect submission, ready for whatever you desire next.</Text>
+    <Options>
+        <Option>
+            <Order>999</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20010}Let her serve you in other ways</OptionText>
+        </Option>
+    </Options>
+</Event>

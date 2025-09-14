@@ -1,0 +1,139 @@
+<CEEvent>
+    <Name>Devoted_concubine_bedroom_intimacy</Name>
+    <Text>{=BCCaptor_Text_XXXX}You enter your bedchamber to find {CAPTIVE_NAME}, your devoted concubine, already waiting for you with bated breath. The dim candlelight casts sensual shadows across her naked form as she kneels by the bed, her hands resting on her thighs in perfect submission. Her eyes gleam with adoration as she gazes up at you, her lips parted slightly in anticipation of your touch.</Text>
+    <BackgroundName>BC_image_concubine_waiting</BackgroundName>
+    <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_preparation</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_preparation</Name>
+    <Text>{=BCCaptor_Text_XXXX}{CAPTIVE_NAME} springs to her feet with delight as you approach, her small hands immediately beginning to undress you with trembling fingers. "My master," she coos between kisses planted along your collarbone, "let me take care of every need." Her lips trail down your chest as she works open your breeches, her warm breath sending shivers through you.</Text>
+    <BackgroundName>BC_image_concubine_undressing</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_preparation_oral</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_preparation_oral</Name>
+    <Text>{=BCCaptor_Text_XXXX}With a worshipful moan, {CAPTIVE_NAME} sinks to her knees and takes you into her warm, welcoming mouth. "Mmm, my lord," she murmurs around your length, her tongue swirling expertly as she gazes up at you with adoring eyes. Her fingers stroke your thighs while her other hand cradles your balls gently, treating every part of you like precious treasure.</Text>
+    <BackgroundName>BC_image_concubine_oral_preparation</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_vaginal_intercourse</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_vaginal_intercourse</Name>
+    <Text>{=BCCaptor_Text_XXXX}Guiding you to the bed, {CAPTIVE_NAME} lies back with her legs spread wide in invitation. "Please, my master," she whimpers, "fill your concubine's empty womb with your glorious seed." As you enter her, her tight walls clamp around you like a vise, her moans of pleasure filling the chamber as she arches against you.</Text>
+    <BackgroundName>BC_image_concubine_receiving</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_orgasm_completion</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_orgasm_completion</Name>
+    <Text>{=BCCaptor_Text_XXXX}With a cry of ecstasy, {CAPTIVE_NAME} reaches her climax as you pump your seed deep inside her quivering body. "Yes! Yes! Breed me, master!" she screams, her nails digging into your back as her walls milk every last drop from you. Collapsing against you, she kisses your chest fervently while your semen begins to leak out between her swollen lips.</Text>
+    <BackgroundName>BC_image_concubine_post_orgasm</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Devoted_concubine_cleanup_worship</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_concubine_cleanup_worship</Name>
+    <Text>{=BCCaptor_Text_XXXX}With reverent hands, {CAPTIVE_NAME} gently cleans your spent member with her tongue and lips. "Thank you for gracing me with your seed, my lord," she murmurs between tender kisses to the head of your cock. "I'll cherish every drop as I pray it takes root in my womb." She looks up at you with pure adoration, her face glowing with contentment.</Text>
+    <BackgroundName>BC_image_concubine_cleanup</BackgroundName>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+1" Ref="Hero"/>
+    </SkillsToLevel>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <SexualContent>true</SexualContent>
+</CEEvent>

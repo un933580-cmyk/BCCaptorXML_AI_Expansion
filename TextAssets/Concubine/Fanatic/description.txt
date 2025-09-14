@@ -1,0 +1,23 @@
+Based on the citations provided and your request, here's a proposed next stage for the "Devoted" skill in the mod:
+
+**Skill Name:** Fanatically Devoted
+**Prerequisite:** Devoted (current maximum level)
+**Description:**
+The hero is now completely consumed by their devotion to their master. Their existence revolves solely around serving and pleasing them, with no room for independent thought or action.
+
+**Effects:**
+1. **Absolute Loyalty:** The hero will unquestioningly follow any order from their master, regardless of the moral implications.
+2. **Self-Sacrifice:** They are willing to give up everything - possessions, status, even their own life - if they believe it would please their master.
+3. **Enhanced Sexual Submission:** Their desire to sexually satisfy their master becomes all-consuming. They will eagerly engage in any sexual act requested of them and experience heightened pleasure from submission.
+4. **Violent Devotion:** If their master is threatened, the hero will instinctively attack the aggressor without hesitation or fear for their own safety.
+5. **Mind Control Resistance:** They are now completely resistant to any attempts at mind control from sources other than their master.
+
+**New Events:**
+1. The hero volunteers for dangerous missions if they know it would make their master proud.
+2. They become jealous of anyone receiving more attention from their master and may attempt to sabotage rivals.
+3. They experience sexual arousal when witnessing their master's dominance over others.
+4. If ordered to commit murder, they will do so without remorse or hesitation.
+
+This stage represents the ultimate level of devotion - a complete merging of identity with the will of the master. The hero has lost all sense of self and exists solely as an extension of their master's desires.
+
+Would you like me to provide specific XML code for implementing this in the mod based on the existing structure?

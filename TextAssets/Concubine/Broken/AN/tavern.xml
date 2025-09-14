@@ -1,0 +1,94 @@
+<CEEvent>
+    <Name>BrokenConcubine_TavernArrival</Name>
+    <Text>The dim light of the tavern casts long shadows as {CAPTIVE_NAME} kneels in the corner, her naked body trembling slightly. The ragged remains of her once-elegant gown lie discarded nearby, and the iron collar around her neck glints in the torchlight. She watches you with wide, eager eyes, her breath coming in short gasps at the thought of serving her lord again. The other patrons pay her no mind - they've seen worse in this place.</Text>
+    <BackgroundName>TavernCorner</BackgroundName>
+    <NotificationName>ConcubineAwaits</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubine_Prelude</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Prelude</Name>
+    <Text>{CAPTIVE_NAME} scrambles to her feet at your approach, her hands immediately going to work on your belt. "Please let me serve you, my lord," she whimpers, her fingers fumbling with the buckle in her eagerness. She kneels again once your cock springs free, licking her lips as she takes in its size. "I've been dreaming of tasting you all day... please use my mouth however you wish." Her tongue darts out to swipe at the head before you can react.</Text>
+    <BackgroundName>TavernKneeling</BackgroundName>
+    <NotificationName>ConcubineServes</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubine_AnalEntry</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_AnalEntry</Name>
+    <Text>{CAPTIVE_NAME} arches her back as you position yourself behind her, presenting her tight little asshole with a shiver of anticipation. "Y-Yes, master," she gasps when your fingers tease her entrance, "I want to feel your cock breaking me open again." She reaches back to spread herself wider, her whole body trembling in excitement. The moment you push inside, she lets out a choked cry of pleasure-pain that makes several tavern patrons glance their way.</Text>
+    <BackgroundName>TavernDoggy</BackgroundName>
+    <NotificationName>ConcubineTaken</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubine_AnalFucking</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_AnalFucking</Name>
+    <Text>Your thrusts make {CAPTIVE_NAME}'s tits bounce enticingly as she braces herself against the wooden table, her moans growing louder with each powerful stroke. "I'm such a filthy whore for you," she cries out between breaths, "your broken little concubine who lives to be used like this!" She reaches back to pull her ass cheeks apart even wider, giving you deeper access as the tavern's patrons begin to openly stare at your public display.</Text>
+    <BackgroundName>TavernTable</BackgroundName>
+    <NotificationName>ConcubineExposed</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubine_Ejaculation</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Ejaculation</Name>
+    <Text>{CAPTIVE_NAME} screams in ecstasy as you fill her ass with your seed, her body convulsing around you as she reaches her own climax. "Oh gods, yes! Breed me! Make me your perfect little whore!" The moment you pull out, she scrambles to catch the cum dripping from her hole, eagerly licking it from her fingers with a blissful expression. Several of your men have gathered around to watch, their approval evident in the way they stroke themselves through their trousers.</Text>
+    <BackgroundName>TavernCleanup</BackgroundName>
+    <NotificationName>ConcubineBred</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <ConsequenceName>ObedienceIncrease</ConsequenceName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

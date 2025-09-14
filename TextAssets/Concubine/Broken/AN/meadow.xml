@@ -1,0 +1,94 @@
+<!-- Event Chain 5 - Meadow Setting -->
+<CEEvent>
+    <Name>TB_anal_meadow_entry</Name>
+    <Text>The sweet scent of wildflowers fills the air as you approach the meadow where {CAPTIVE_NAME} awaits. She's kneeling on a blanket in a clearing, her naked body glistening with dew from the morning mist. Butterflies flutter around her as she watches your approach.</Text>
+    <BackgroundName>TB_meadow_scene</BackgroundName>
+    <NotificationName>TB_concubine_in_meadow</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsBrokenConcubine</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_meadow_prelude</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_meadow_prelude</Name>
+    <Text>{CAPTIVE_NAME} scrambles to her feet as you approach, her eyes full of submission. She immediately falls to her knees and begins kissing your boots while murmuring how lucky she is to serve such a great warrior. The soft grass brushes against your legs as she worships you.</Text>
+    <BackgroundName>TB_meadow_closeup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>ContinueFromEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_meadow_intercourse</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_meadow_intercourse</Name>
+    <Text>{CAPTIVE_NAME} eagerly turns around and spreads her cheeks, presenting her tight pink hole to you. "Please use my ass, master," she whimpers as she reaches back to spread herself even wider. The warmth of the meadow sun on your skin contrasts with the heat of her body as you enter her.</Text>
+    <BackgroundName>TB_meadow_closeup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>ContinueFromEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_meadow_orgasm</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_meadow_orgasm</Name>
+    <Text>With a final thrust you empty yourself deep inside her ruined ass, making {CAPTIVE_NAME} scream in ecstasy. "Fill me up with your seed, master!" she cries as you feel her anus clamp down on you. She collapses forward onto the blanket, your cum already leaking out around your still-hard cock.</Text>
+    <BackgroundName>TB_meadow_closeup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>ContinueFromEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_meadow_cleanup</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_meadow_cleanup</Name>
+    <Text>{CAPTIVE_NAME} immediately turns around and takes your cock into her mouth, sucking clean the mixture of her ass and your cum. She moans happily as she tastes herself on you, then moves to lick at her own leaking hole while watching you with adoring eyes.</Text>
+    <BackgroundName>TB_meadow_closeup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>ContinueFromEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_meadow_end</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>

@@ -1,0 +1,74 @@
+<event>
+    <id>oral_loyal_bodyguard_01</id>
+    <title>A bodyguard's devotion</title>
+    <description>The camp is quiet as your concubine slips into your tent, her armor removed to reveal the toned muscles of a warrior dedicated solely to your protection. She kneels before you with practiced grace, her hands already reaching for your belt. "Master, my day was meaningless until I could serve you properly," she whispers, her eyes burning with devotion.</description>
+    <options>
+        <option id="oral_loyal_bodyguard_01a">
+            <text>Let your concubine worship you</text>
+            <next_event_id>oral_loyal_bodyguard_02</next_event_id>
+        </option>
+    </options>
+    <requirements>
+        <has_status effect="Fanatically Devoted"/>
+    </requirements>
+</event>
+
+<event>
+    <id>oral_loyal_bodyguard_02</id>
+    <title>The bodyguard's skilled mouth</title>
+    <description>Your concubine takes you into her warm mouth with reverence, her tongue swirling expertly around your length. Her strong hands grip your thighs as she bobs up and down, the wet sounds of her devotion filling the tent. "Please let me make this perfect for you," she murmurs between strokes, her voice husky with need.</description>
+    <options>
+        <option id="oral_loyal_bodyguard_02a">
+            <text>Enjoy your concubine's ministrations</text>
+            <next_event_id>oral_loyal_bodyguard_03</next_event_id>
+        </option>
+    </options>
+    <requirements>
+        <previous_event_id>oral_loyal_bodyguard_01</previous_event_id>
+    </requirements>
+</event>
+
+<event>
+    <id>oral_loyal_bodyguard_03</id>
+    <title>The release of pleasure</title>
+    <description>With a final thrust, you empty yourself into your concubine's waiting throat. She swallows every drop with eager gulps, her eyes locked on yours as she savors the taste of her master. "Thank you for letting me drink from my lord," she breathes when she finally pulls away, licking her lips clean.</description>
+    <options>
+        <option id="oral_loyal_bodyguard_03a">
+            <text>Watch your concubine savor you</text>
+            <next_event_id>oral_loyal_bodyguard_04</next_event_id>
+        </option>
+    </options>
+    <requirements>
+        <previous_event_id>oral_loyal_bodyguard_02</previous_event_id>
+    </requirements>
+</event>
+
+<event>
+    <id>oral_loyal_bodyguard_04</id>
+    <title>The satisfied concubine</title>
+    <description>Your concubine rests her head on your thigh, her breathing steady as she enjoys the afterglow of her service. "I wish I could stay like this forever," she murmurs, pressing a tender kiss to your inner thigh. Her hands remain on you possessively, unwilling to break contact with her master.</description>
+    <options>
+        <option id="oral_loyal_bodyguard_04a">
+            <text>Let your concubine stay</text>
+            <next_event_id>oral_loyal_bodyguard_05</next_event_id>
+        </option>
+    </options>
+    <requirements>
+        <previous_event_id>oral_loyal_bodyguard_03</previous_event_id>
+    </requirements>
+</event>
+
+<event>
+    <id>oral_loyal_bodyguard_05</id>
+    <title>The devoted bodyguard's vow</title>
+    <description>As you drift toward sleep, your concubine remains curled at your side like a loyal hound. "I will never let anything harm what is yours," she whispers fiercely into the darkness. "Not even if it means my life." Her grip on you tightens slightly, as if to emphasize her point.</description>
+    <options>
+        <option id="oral_loyal_bodyguard_05a">
+            <text>Sleep with your devoted bodyguard</text>
+            <next_event_id/>
+        </option>
+    </options>
+    <requirements>
+        <previous_event_id>oral_loyal_bodyguard_04</previous_event_id>
+    </requirements>
+</event>

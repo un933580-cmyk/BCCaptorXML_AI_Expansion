@@ -1,0 +1,88 @@
+<CEEvent>
+    <Name>TB_broken_concubine_tent_approach</Name>
+    <Text>Your concubine {CAPTIVE_NAME} has been waiting for you in the tent since dawn, her naked body shivering with anticipation. The scent of jasmine and your own musk fills the air as she kneels on the silk cushions, her collar glistening under the lantern light. She watches every step you take toward her, her breath hitching when you finally stand before her. "Master... my ass is so empty without you," she whispers, her fingers tracing the edges of her stretched hole.</Text>
+    <Backgrounds><Background Name="NK_tent_pleasure"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsBroken</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_tent_pleasure</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_tent_pleasure</Name>
+    <Text>{CAPTIVE_NAME} crawls toward you, her tongue dragging along the floor as she worships your feet before taking your cock in her mouth. She gags on your length but doesn't stop, tears streaming down her face as she moans around you. "Please... fuck my ass already," she begs when you pull her off, saliva dripping from her chin onto your thighs. Her fingers spread her cheeks, revealing the pink ring that twitches for you.</Text>
+    <Backgrounds><Background Name="NK_tent_pleasure"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsBroken</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_tent_fucking</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_tent_fucking</Name>
+    <Text>You slam into {CAPTIVE_NAME}'s ass, her scream of pleasure echoing through the tent as she arches her back. "Master! Master!" she chants between thrusts, her fingers clawing at the cushions beneath her. Her hole clamps around you so tightly it's almost painful, but she begs for more, her voice breaking with each cry. Juices run down her thighs as her orgasm builds, her whole body trembling under your merciless pounding.</Text>
+    <Backgrounds><Background Name="NK_tent_pleasure"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsBroken</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_tent_breeding</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_tent_breeding</Name>
+    <Text>You empty yourself deep inside {CAPTIVE_NAME}'s ass, her walls milking every last drop from you. She collapses forward onto the cushions, panting, as your seed leaks out around your still-hard cock. "Thank you, Master," she gasps, looking back at you with worshipful eyes. "My ass feels so full... please let me be your breeding concubine forever." Her fingers trace the messy ring of your cum around her stretched hole.</Text>
+    <Backgrounds><Background Name="NK_tent_pleasure"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsBroken</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_tent_cleanup</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_tent_cleanup</Name>
+    <Text>{CAPTIVE_NAME} licks your cock clean, her tongue swirling around the head to catch every trace of her ass. She moans at the taste, her fingers working cum out from between her cheeks for you to inspect. "Master, my ass is yours," she vows as she swallows another load, her eyes locked on yours. "I live only to serve your cock... please use me again soon." Her swollen hole twitches as she awaits your next command.</Text>
+    <Backgrounds><Background Name="NK_tent_pleasure"/></Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsBroken</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

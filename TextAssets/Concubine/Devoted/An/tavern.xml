@@ -1,0 +1,116 @@
+<CEEvent>
+    <Name>BC_event_anal_tavern_start</Name>
+    <Text>{=BCCaptor_Text_20101}You enter the bustling tavern, the air thick with the scent of ale and roasted meats. Your concubine {CAPTIVE_NAME} is already there, sitting in a secluded corner booth, her eyes locked onto yours as soon as you walk in. She stands up immediately, her body trembling with anticipation. "Master," she whispers, bowing her head respectfully before kneeling at your feet. The noise of the tavern fades away as you focus on her.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent Name="BC_event_anal_tavern_prelude" />
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_anal_tavern_prelude</Name>
+    <Text>{=BCCaptor_Text_20102}You lead {CAPTIVE_NAME} to a private room in the back of the tavern. She immediately drops to her knees, her hands working quickly to unbuckle your belt. "I've been dreaming about this all day, Master," she murmurs, her lips brushing against your cock as she speaks. She takes you into her mouth, her tongue swirling around your shaft as she sucks and licks. Her moans are muffled by your cock, but her devotion is clear in every movement.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_private_room" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent Name="BC_event_anal_tavern_main" />
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_anal_tavern_main</Name>
+    <Text>{=BCCaptor_Text_20103}You push {CAPTIVE_NAME} onto the bed, her skirts riding up to reveal her bare ass. She looks back at you with lust-filled eyes as you press your cock against her tight hole. "Take me, Master," she pleads, her voice trembling with excitement. You push inside slowly, feeling her stretch around you. She moans loudly, her body shaking with pleasure and pain as you fill her completely.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_bed" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent Name="BC_event_anal_tavern_finish" />
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_anal_tavern_finish</Name>
+    <Text>{=BCCaptor_Text_20104}You pound into {CAPTIVE_NAME}'s ass harder, her body shaking with each thrust. She cries out in ecstasy, her fingers digging into the bedsheets as you fuck her. Your balls slap against her pussy, and she moans your name over and over again. You feel yourself getting close, and she begs you to fill her up. With a final thrust, you explode inside her, your cum shooting deep into her ass.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_bed" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent Name="BC_event_anal_tavern_cleanup" />
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_anal_tavern_cleanup</Name>
+    <Text>{=BCCaptor_Text_20105}You pull out slowly, watching as your cum drips from her stretched hole. {CAPTIVE_NAME} turns around and takes your softened cock into her mouth again, sucking and licking it clean. She then reaches back to gather some of your cum from her ass, bringing it to her lips to taste. "Thank you for letting me serve you, Master," she murmurs before kissing your cock tenderly.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_private_room" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>End Event</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

@@ -1,0 +1,118 @@
+<CEEvent>
+    <Name>BC_concubine_training_grounds_approach</Name>
+    <Text>{=BCCaptor_Text_X}You find {CAPTIVE_NAME} waiting for you at the army's training grounds, naked and kneeling in front of a wooden post. She has tied herself to it with ropes, her arms stretched above her head. "Master," she says softly, "I thought you might like me like this."</Text>
+    <BackgroundName>BC_image_training_grounds_post</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_training_grounds_sex</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>5</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_training_grounds_sex</Name>
+    <Text>{=BCCaptor_Text_X}You unbind {CAPTIVE_NAME}'s arms and push her face-down over the post. She arches her back, presenting herself to you. You grab a handful of her hair and pull her head up as you enter her. "Fuck me like an animal, master!" she screams. The soldiers nearby turn to watch, but they know better than to interfere.</Text>
+    <BackgroundName>BC_image_training_grounds_sex</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_training_grounds_orgasm</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="Obedience" ByLevel="+1" Ref="Hero"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_training_grounds_orgasm</Name>
+    <Text>{=BCCaptor_Text_X}You climax with a groan, filling {CAPTIVE_NAME}'s womb. She whimpers as she feels the warmth spread inside her. "Thank you for your gift, master," she gasps. She stays bent over the post, your semen dripping down her thighs onto the dirt.</Text>
+    <BackgroundName>BC_image_training_grounds_after</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_concubine_training_grounds_cleanup</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_concubine_training_grounds_cleanup</Name>
+    <Text>{=BCCaptor_Text_X}{CAPTIVE_NAME} remains on her knees as you walk away, licking your cum from the ground. "I will never be clean of you," she murmurs with a satisfied smile.</Text>
+    <BackgroundName>BC_image_training_grounds_cleanup</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

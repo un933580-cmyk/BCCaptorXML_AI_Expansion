@@ -1,0 +1,90 @@
+<CEEvent>
+    <Name>BC_devoted_concubine_oasis_1</Name>
+    <Text>{=BCCaptor_Text_20001}The afternoon sun beats down as you approach the oasis where {CAPTIVE_NAME}, your devoted concubine, has been waiting patiently. She kneels in the shallow waters, her slender form partially obscured by the rippling surface. The cool breeze carries whispers of palm fronds while she watches your approach with adoring eyes. Her delicate fingers play nervously with the hem of her sheer robes, anticipating your arrival.</Text>
+    <BackgroundName>BC_image_oasis_ripples</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20002}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_oasis_2</Name>
+    <Text>{=BCCaptor_Text_20003}{CAPTIVE_NAME} rises from the water like a vision, her wet body glistening in the sunlight as she approaches. "My lord," she breathes, falling to her knees before you with her head bowed reverently. Her hands tremble with excitement as they reach for your belt, unbuckling it with practiced ease while murmuring words of devotion between kisses to your inner thighs.</Text>
+    <BackgroundName>BC_image_oasis_closeup</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20004}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="R 5 -1" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_oasis_3</Name>
+    <Text>{=BCCaptor_Text_20005}With her lips wrapped around your shaft, {CAPTIVE_NAME}'s eyes never leave yours as she worships you with every inch of her being. "I live for this," she moans between strokes, "To serve my lord in every way imaginable." Her fingers dig into your thighs as she takes you deeper, tears of joy streaming down her cheeks at the privilege.</Text>
+    <BackgroundName>BC_image_oasis_blur</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20006}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_oasis_4</Name>
+    <Text>{=BCCaptor_Text_20007}{CAPTIVE_NAME} gasps as you thrust into her waiting body, her tight walls clinging to your cock with desperate need. "Please fill me," she begs, nails raking down your back, "Cover your concubine completely with your seed." The oasis waters lap at your joined bodies as you pound into her, her cries of ecstasy mingling with the calls of distant birds.</Text>
+    <BackgroundName>BC_image_oasis_sex</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20008}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_oasis_5</Name>
+    <Text>{=BCCaptor_Text_20009}With a final powerful thrust, you empty yourself into {CAPTIVE_NAME}'s writhing form. She clutches at your hips, pulling you deeper as if trying to keep every last drop inside her fertile womb. "Thank you," she whimpers between kisses to your chest, "Thank you for making me yours completely." Her fingers tremble as they trace the wetness leaking from her body.</Text>
+    <BackgroundName>BC_image_oasis_aftermath</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20010}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+</CEEvent>

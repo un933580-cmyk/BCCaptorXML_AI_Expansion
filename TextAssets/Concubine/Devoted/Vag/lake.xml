@@ -1,0 +1,34 @@
+<CEEvent>
+    <Name>BC_devoted_concubine_lake_1</Name>
+    <Text>{=BCCaptor_Text_20151}The still waters of the lake reflect your approach as {CAPTIVE_NAME} waits patiently on her knees at the water's edge. Her pale skin glistens with droplets from where she bathed, anticipation making her hands tremble against her thighs. The evening breeze carries the scent of flowers and fresh water.</Text>
+    <BackgroundName>BC_image_lake_reflection</BackgroundName>
+    <!-- Continue chain events -->
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_lake_2</Name>
+    <Text>{=BCCaptor_Text_20153}{CAPTIVE_NAME} rises like a nymph from the water, her body pressing against yours as she reaches for your belt. "Let me show my devotion properly," she breathes, sinking to her knees before you with adoring eyes. Her tongue swirls around your tip as she gazes up at you in worship.</Text>
+    <BackgroundName>BC_image_lake_waves</BackgroundName>
+    <!-- Continue chain events -->
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_lake_3</Name>
+    <Text>{=BCCaptor_Text_20155}With a cry of pure joy, {CAPTIVE_NAME} impales herself on your cock where you stand at the water's edge. "I belong to you," she chants with each thrust, nails digging into your back as she tries to pull you deeper inside her willing body. The lake waters lap at your joined forms.</Text>
+    <BackgroundName>BC_image_lake_sex</BackgroundName>
+    <!-- Continue chain events -->
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_lake_4</Name>
+    <Text>{=BCCaptor_Text_20157}You spill your seed into {CAPTIVE_NAME}'s welcoming womb, her body arching as she takes everything you give. "Yes," she sobs, clinging to you, "Please make me yours completely." The lake reflects the moon above as you both ride the waves of pleasure together.</Text>
+    <BackgroundName>BC_image_lake_moon</BackgroundName>
+    <!-- Continue chain events -->
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_lake_5</Name>
+    <Text>{=BCCaptor_Text_20159}{CAPTIVE_NAME} lays her head against your chest, fingers tracing the wetness between her thighs. "I never want to leave this place," she murmurs, pressing a kiss to your skin. The day is filled with the sounds of nature as you both bask in the perfect harmony of devotion.</Text>
+    <BackgroundName>BC_image_lake_night</BackgroundName>
+    <!-- Continue chain events -->
+</CEEvent>

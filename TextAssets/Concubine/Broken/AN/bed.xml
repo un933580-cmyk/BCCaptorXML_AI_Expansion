@@ -1,0 +1,90 @@
+<!-- Chain 1: Broken Concubine's Submission -->
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>BrokenConcubineSubmission1</Name>
+        <Text>{CAPTIVE_NAME} kneels at the foot of your bed, her naked body trembling as she awaits your pleasure. Her anus is already stretched and glistening with lubricant in anticipation of your cock. She has been trained to crave this degradation, to find ecstasy in being used like a common whore by her master. The scent of her arousal fills the room as she watches you approach, her broken will evident in every submissive movement.</Text>
+        <BackgroundName>BrokenConcubine</BackgroundName>
+        <NotificationName>Submission1_Notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsConcubine</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <TriggerEventName>BrokenConcubineSubmission2</TriggerEventName>
+                <OptionText>Continue</OptionText>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BrokenConcubineSubmission2</Name>
+        <Text>{CAPTIVE_NAME} eagerly takes your cock into her mouth, swirling her tongue around the head as she looks up at you with pleading eyes. She knows exactly how to please you, every motion calculated to bring you closer to release. Her fingers massage your balls as she deepthroats you, gagging slightly but pushing through because she wants to show what a good little concubine she is. The taste of her own anus on your cock only excites her further.</Text>
+        <BackgroundName>BrokenConcubine</BackgroundName>
+        <NotificationName>Submission2_Notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsConcubine</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <TriggerEventName>BrokenConcubineSubmission3</TriggerEventName>
+                <OptionText>Continue</OptionText>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BrokenConcubineSubmission3</Name>
+        <Text>You flip {CAPTIVE_NAME} onto her hands and knees, admiring how her asshole gapes obscenely in anticipation. She whimpers as you position yourself behind her, pressing your cock against her well-used entrance. "Please master," she begs, "use me like the worthless concubine I am." Her body shudders with pleasure as you push inside, her tight hole stretching to accommodate your girth. Every thrust is met with a moan of submission from your broken toy.</Text>
+        <BackgroundName>BrokenConcubine</BackgroundName>
+        <NotificationName>Submission3_Notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsConcubine</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <TriggerEventName>BrokenConcubineSubmission4</TriggerEventName>
+                <OptionText>Continue</OptionText>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BrokenConcubineSubmission4</Name>
+        <Text>{CAPTIVE_NAME} screams in pleasure as you pound her ass, her body rocking back to meet your thrusts. "I'm nothing but a hole for your cock," she cries, tears of ecstasy streaming down her face. Her anus is stretched so wide it threatens to split open, yet she begs for more. You feel the familiar tightening in your balls as you approach release, knowing exactly where to spend yourself on this broken concubine.</Text>
+        <BackgroundName>BrokenConcubine</BackgroundName>
+        <NotificationName>Submission4_Notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsConcubine</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <TriggerEventName>BrokenConcubineSubmission5</TriggerEventName>
+                <OptionText>Continue</OptionText>
+            </Option>
+        </Options>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BrokenConcubineSubmission5</Name>
+        <Text>With a roar of pleasure, you unload deep inside {CAPTIVE_NAME}'s gaping asshole, filling her with your seed. She collapses onto the floor, trembling as she feels every spurt inside her. "Thank you master," she whispers, reaching back to finger your cum from her well-used hole before bringing it to her lips. Her anus pulses around your softening cock, trying desperately to keep any of your precious seed inside her worthless body.</Text>
+        <BackgroundName>BrokenConcubine</BackgroundName>
+        <NotificationName>Submission5_Notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsConcubine</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+    </CEEvent>
+</CEEvents>

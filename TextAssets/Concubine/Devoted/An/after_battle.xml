@@ -1,0 +1,92 @@
+<!-- Chain 2: The Concubine's After-Battle Reward -->
+<CEEvent>
+    <Name>TB_devoted_concubine_battle_reward_1</Name>
+    <Text>Returning from a hard-won battle, you find {CAPTIVE_NAME} waiting outside your command tent, her body draped in fine silk that contrasts with the muddy field around you. "My lord returns victorious!" she exclaims, falling to her knees before you. Her hands work quickly at your belt, freeing your cock while murmuring praise about your leadership and strength. The other soldiers pass by but none dare interrupt this private moment between master and devoted concubine.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_after_battle" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_devoted_concubine_battle_reward_2</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_battle_reward_2</Name>
+    <Text>{CAPTIVE_NAME} takes you in her mouth eagerly, her tongue swirling around your cock as she sucks away the day's grime and stress. "Your concubine wants to taste all of you," she says between slurps, looking up with adoration even as tears stream from her eyes. Her small hands massage your balls, coaxing every ounce of tension from your body before she pulls back with a wet pop.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_oral_worship" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_devoted_concubine_battle_reward_3</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_battle_reward_3</Name>
+    <Text>"My lord deserves to be inside his favorite concubine," {CAPTIVE_NAME} purrs as she bends over a camp table, lifting her silk skirts to reveal her glistening ass. She reaches back between her cheeks and spreads herself for you, her pink hole pulsing with need. "Take me however you wish - I'm yours completely." The thought of claiming this devoted beauty after victory makes your cock throb as you position yourself at her entrance.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_anal_submission" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_devoted_concubine_battle_reward_4</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_battle_reward_4</Name>
+    <Text>{CAPTIVE_NAME} gasps as you push inside her tight passage, her body welcoming your invasion with eager tremors. "Yes! My lord feels so good!" she moans loudly enough for nearby soldiers to hear. Each thrust makes her cry out in pleasure, her hands gripping the table's edge tightly. You can feel her entire body trembling beneath yours as you claim what is rightfully yours - this devoted concubine who exists solely to serve and please you.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_anal_taking_hard" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_devoted_concubine_battle_reward_5</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_battle_reward_5</Name>
+    <Text>{CAPTIVE_NAME} collapses forward onto the table as you fill her ass with your hot seed, crying out in joyful submission. "Thank you for marking me!" she breathes between ragged gasps. When you withdraw, she immediately reaches back to feel where your cock was just moments ago before turning to kneel at your feet. She takes your spent length in her mouth once more, cleaning every drop of your essence from it with loving devotion.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_aftercare" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+</CEEvent>

@@ -1,0 +1,104 @@
+<Event>
+    <EventName>BC_event_concubine_tavern_arrival</EventName>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_start_travel</EventName>
+            <EventWeight>10</EventWeight>
+            <EventUseConditions>True</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>100</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <Text>The journey through the bustling city streets brings your concubine closer to you. The armor-clad woman moves with feline grace despite her battle-worn appearance, her muscular yet feminine frame barely contained by her protective gear. As she enters the tavern where you're resting, she immediately drops to her knees before you, removing her helmet with reverence.
+"I've been waiting all day for this moment, my master," she purrs, her voice thick with desire. "Your concubine needs to serve and be used by you." Her hands tremble as she begins unbuckling her armor piece by piece, revealing smooth skin beneath each removed layer.</Text>
+        </Option>
+    </Options>
+</Event>
+
+<Event>
+    <EventName>BC_event_concubine_tavern_blowjob</EventName>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_concubine_tavern_arrival</EventName>
+            <EventWeight>10</EventWeight>
+            <EventUseConditions>True</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>200</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <Text>Now fully naked, your concubine crawls forward between your legs, her breath hot against your growing erection. "Please let me worship my master's cock," she begs, licking her lips. Her skilled tongue traces the length of your shaft before taking you deep into her throat with practiced ease. The tavern patrons watch discretely as she bobs her head, moaning around your girth.
+"Your concubine lives to serve this perfect cock," she gasps between thrusts. "I'm nothing but a worthless slut for your pleasure." Her hands grip your thighs tightly as she increases the pace, saliva dripping down her chin onto your balls.</Text>
+        </Option>
+    </Options>
+</Event>
+
+<Event>
+    <EventName>BC_event_concubine_tavern_vaginal</EventName>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_concubine_tavern_blowjob</EventName>
+            <EventWeight>10</EventWeight>
+            <EventUseConditions>True</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>300</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <Text>With a desperate cry, your concubine mounts you in full view of the tavern's patrons. "Fuck me rough, master," she whimpers as her tight pussy engulfs your cock. Her body moves with practiced skill, riding you with abandon while the audience watches. "I'm just your cumdump whore," she moans, slamming herself down onto you.
+Every thrust brings her closer to orgasm, her breasts bouncing wildly as she chases her pleasure. "Please break me completely," she begs between gasps. The room fills with the obscene sounds of flesh meeting flesh as she rides you harder and faster.</Text>
+        </Option>
+    </Options>
+</Event>
+
+<Event>
+    <EventName>BC_event_concubine_tavern_cumshot</EventName>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_concubine_tavern_vaginal</EventName>
+            <EventWeight>10</EventWeight>
+            <EventUseConditions>True</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>400</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <Text>With a final, shuddering thrust you empty yourself deep inside your concubine. "Fill me up with your seed!" she screams in ecstasy as your cock pulses inside her tight cunt. The patrons applaud politely at the display of raw animalistic coupling as she collapses against you, panting heavily.
+"Thank you for using this worthless slut," she murmurs between ragged breaths. "I'm nothing without my master's cum." Her body twitches with aftershocks as she remains impaled on your still-hard cock, savoring the feeling of being completely filled by her owner.</Text>
+        </Option>
+    </Options>
+</Event>
+
+<Event>
+    <EventName>BC_event_concubine_tavern_cleanup</EventName>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_concubine_tavern_cumshot</EventName>
+            <EventWeight>10</EventWeight>
+            <EventUseConditions>True</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>500</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <Text>Still trembling from her orgasm, your concubine slides off you and immediately takes your softening cock in her mouth. "Let me clean my master's perfect tool," she murmurs reverently as she sucks gently. The patrons watch with mixed expressions of awe and discomfort as this once-proud warrior treats herself like nothing more than a cumrag for her owner.
+"Your concubine's only purpose is to serve," she whispers between licks. "I live to be your dirty little whore." Her tongue swirls around your tip, making sure every drop of semen is accounted for before she finally pulls away with a satisfied sigh.</Text>
+        </Option>
+    </Options>
+</Event>

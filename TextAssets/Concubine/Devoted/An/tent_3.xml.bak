@@ -1,0 +1,95 @@
+<CEEvent>
+    <Name>TB_captor_anal_devoted_tent_1</Name>
+    <Text>
+        The evening wind rustles through the camp as {CAPTIVE_NAME}, your devoted concubine, kneels naked before your tent flap. Her dark hair is loose around her shoulders, and her large breasts heave with anticipation. "Master," she murmurs, "I've prepared myself for you all day." You see glistening oil between her thighs - she's been stretching herself in eager expectation.
+        She rises gracefully and pulls the tent flap aside, revealing the dimly lit interior where furs cover the ground. A single candle flickers near your bedroll. {CAPTIVE_NAME} crawls toward you on all fours like a devoted pet, her plump ass swaying hypnotically. "I'll make tonight special for my beloved warrior," she promises.
+    </Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_oiled_entrance" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_anal_devoted_tent_2</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_anal_devoted_tent_2</Name>
+    <Text>
+        {CAPTIVE_NAME} wastes no time pressing her warm lips against your shaft, tonguing the head with reverence. "Mmm... my master's cock tastes like victory," she coos between wet kisses. Her hands stroke your thighs while she takes you deeper into her throat, gagging slightly but never stopping her devoted worship.
+        Pulling back with a wet pop, she gazes up at you with adoring eyes. "My ass is so ready for you... feel how loose I made myself just thinking about this moment." She reaches behind to spread her glistening pucker wider, the oil making it gleam in the candlelight.
+    </Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_anal_devoted_tent_3</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_anal_devoted_tent_3</Name>
+    <Text>
+        {CAPTIVE_NAME} positions herself on all fours against your bedroll, presenting her perfectly prepped hole with a shuddering moan. As you press inside, she whimpers in pleasure at the initial stretch. "Oh gods... my master's cock feels so right here," she gasps.
+        She pushes back eagerly to meet each thrust, her oiled ass making wet slapping sounds against your hips. "Yes! Use me however you please - I'm just your devoted slut tonight!" Her cries grow louder as you grab her hips and pound deeper with primal need.
+    </Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_anal_devoted_tent_4</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_anal_devoted_tent_4</Name>
+    <Text>
+        With a guttural groan, you spill yourself deep inside your concubine's well-used asshole. {CAPTIVE_NAME} collapses forward onto the furs with a blissful sigh, feeling your hot seed filling her most intimate space. "Master... my insides belong to you now," she whispers.
+        Rolling onto her side, she watches your cock slide free with another gush of cum, leaving her pucker gaping and dripping. She reaches back to gently stroke the abused ring of muscle. "So perfect... so owned by my warrior lord."
+    </Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_anal_devoted_tent_5</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_anal_devoted_tent_5</Name>
+    <Text>
+        {CAPTIVE_NAME} kneels between your legs again, taking your softening cock into her mouth with tender care. She sucks gently to clean every last drop of seed from your skin while massaging her own still-gaping hole. "Mmm... my master's cum tastes like love," she moans around your shaft.
+        Finishing the thorough cleaning, she sits back on her heels and spreads her thighs wide for you to admire. "See how good I took you? My ass is yours forever." She reaches behind again, scooping some of your seed from her well-used pucker and sucking it clean off her fingers with a satisfied hum.
+    </Text>
+</CEEvent>

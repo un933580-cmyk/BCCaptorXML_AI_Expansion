@@ -1,0 +1,97 @@
+<CEEvent>
+    <Name>Broken_concubine_submission_1</Name>
+    <Text>{CAPTIVE_NAME} kneels naked in your tent, her hands bound behind her back. Her body is marked with welts from the lash, and she shivers as you approach. "Master, I await your pleasure," she whispers, her voice trembling with excitement. The scent of her arousal fills the air, mixing with the faint metallic tang of her recent punishment.</Text>
+    <BackgroundName>Broken_concubine_submission</BackgroundName>
+    <NotificationName>Concubine_awaiting_master</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>Broken_concubine_submission_2</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>Broken_concubine_submission_2</Name>
+    <Text>{CAPTIVE_NAME} eagerly licks your cock, her tongue swirling around the head as she moans. "I live to serve you, Master," she gasps between strokes. Her bound hands twitch uselessly behind her back, but she continues worshiping your length with desperate devotion.</Text>
+    <BackgroundName>Broken_concubine_oral</BackgroundName>
+    <NotificationName>Concubine_serving_master</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>Broken_concubine_submission_3</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>Broken_concubine_submission_3</Name>
+    <Text>{CAPTIVE_NAME} bends over your lap, her ass raised in the air. "Use me however you please," she whimpers as you press your cock against her tight hole. The pain is exquisite, and she moans with pleasure as you stretch her open. "I was made for this," she cries, her body trembling beneath yours.</Text>
+    <BackgroundName>Broken_concubine_anal</BackgroundName>
+    <NotificationName>Concubine_used_for_master</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>Broken_concubine_submission_4</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>Broken_concubine_submission_4</Name>
+    <Text>{CAPTIVE_NAME} screams as you fill her with your seed, her body convulsing in ecstasy. "Master! I feel you inside me!" she cries, her voice breaking with joy. Your cum leaks out of her stretched hole, dripping down her thighs.</Text>
+    <BackgroundName>Broken_concubine_anal_filled</BackgroundName>
+    <NotificationName>Concubine_covered_in_master</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>Broken_concubine_submission_5</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>Broken_concubine_submission_5</Name>
+    <Text>{CAPTIVE_NAME} eagerly licks your cock clean, her tongue swirling around every inch. "Thank you for using me, Master," she murmurs between kisses. She then turns and scoops up the cum leaking from her ass, sucking it into her mouth with a blissful sigh.</Text>
+    <BackgroundName>Broken_concubine_cleanup</BackgroundName>
+    <NotificationName>Concubine_loving_master</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

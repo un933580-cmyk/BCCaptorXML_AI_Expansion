@@ -1,0 +1,106 @@
+<CEEvent>
+    <Name>BC_event_concubine_outside_01</Name>
+    <Text>{=BCCaptor_Text_20001}As you march with your troops, {CAPTIVE_NAME}, your broken concubine, suddenly appears beside you. Despite the cold wind and dusty road, she's practically naked except for a thin slave rag barely covering her modesty. She looks at you with desperate obedience, clearly waiting for your command. "Master," she whimpers, "your humble concubine begs to serve you... even here."</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_stomach</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_concubine_outside_02</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_concubine_outside_02</Name>
+    <Text>{=BCCaptor_Text_20002}Without hesitation, {CAPTIVE_NAME} drops to her knees in the dirt before you. The rough ground must hurt her tender skin, but she doesn't flinch. She looks up at you with worshipful eyes as she unties your pants and pulls out your cock. "Please use me, Master," she begs. "Your concubine exists only to satisfy you." Her hands shake slightly as she strokes you, desperate to feel you inside her.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_stomach</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_concubine_outside_03</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_concubine_outside_03</Name>
+    <Text>{=BCCaptor_Text_20003}You push {CAPTIVE_NAME} onto her back in the dirt, spreading her legs wide. Her pussy is already dripping with anticipation. As you thrust inside her, she cries out in pleasure and pain - but it's clear she loves both equally. "Yes! Oh Master, yes!" she screams, drawing stares from nearby soldiers. But she doesn't care who sees - this broken concubine lives only to serve your lust. Her body is yours to use as you please.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_stomach</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_concubine_outside_04</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_concubine_outside_04</Name>
+    <Text>{=BCCaptor_Text_20004}With a final powerful thrust, you unleash your seed deep inside {CAPTIVE_NAME}. She moans loudly as she feels you filling her womb. "Oh Master," she gasps between breaths, "your concubine is so honored to receive your gift." As you pull out, thick white cum spills from her pussy onto the dirt below. But she catches it with her hands and immediately licks them clean, savoring every drop of your essence. "Thank you, Master," she whispers reverently, bowing her head before you.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_stomach</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+1" Ref="Hero" Color="Cyan"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

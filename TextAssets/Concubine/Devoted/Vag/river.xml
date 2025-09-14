@@ -1,0 +1,108 @@
+<!-- Chain Start: Devoted Concubine by the River -->
+<CEEvent>
+    <Name>Devoted_Concubine_River_Prelude</Name>
+    <Text>{=BCCaptor_Text_New}The gentle sound of flowing water fills your ears as you approach the riverbank. There, kneeling in the soft grass with her back to you, is {CAPTIVE_NAME}, your devoted concubine. Her long hair cascades down her naked back, and she has arranged a small blanket with pillows - clearly preparing for your arrival. The evening sun casts golden rays across her supple body as she turns to look at you with adoring eyes.</Text>
+    <BackgroundName>BC_image_concubine_riverbank</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<!-- Chain Link: Devoted Concubine Pleasing Her Master -->
+<CEEvent>
+    <Name>Devoted_Concubine_River_Pleasure</Name>
+    <Text>{=BCCaptor_Text_New}Without hesitation, {CAPTIVE_NAME} takes your cock in her warm hands and begins stroking it lovingly. "My beloved master," she whispers as her tongue traces up your shaft, "I've been dreaming of this moment all day." Her fingers dance across your skin while she kisses the tip reverently. The cool river breeze contrasts with the heat radiating from her body as she worships your member.</Text>
+    <BackgroundName>BC_image_concubine_riverbank</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+5" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<!-- Chain Link: Devoted Concubine's Ecstatic Union -->
+<CEEvent>
+    <Name>Devoted_Concubine_River_Sex</Name>
+    <Text>{=BCCaptor_Text_New}With a moan of pure devotion, {CAPTIVE_NAME} guides your cock to her dripping entrance and sinks onto you with blissful slowness. "Oh gods... my master's cock feels so perfect inside me," she gasps as her walls clench around you. The river water laps at your ankles while she rides you with passionate abandon, her breasts bouncing with each movement. She kisses you deeply between whimpers of adoration.</Text>
+    <BackgroundName>BC_image_concubine_riverbank</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+10" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<!-- Chain Link: Devoted Concubine's Fertile Blessing -->
+<CEEvent>
+    <Name>Devoted_Concubine_River_Fertilization</Name>
+    <Text>{=BCCaptor_Text_New}With a deep groan, you empty yourself into {CAPTIVE_NAME}'s welcoming womb as she cries out in ecstatic joy. "Yes! Fill me with your seed, my master!" she begs, grinding against you to take every last drop. Her body trembles with aftershocks of pleasure while your cum leaks from her swollen pussy lips onto the blanket beneath.</Text>
+    <BackgroundName>BC_image_concubine_riverbank</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+15" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<!-- Chain End: Devoted Concubine's Reverent Aftercare -->
+<CEEvent>
+    <Name>Devoted_Concubine_River_Aftercare</Name>
+    <Text>{=BCCaptor_Text_New}With loving care, {CAPTIVE_NAME} takes your softened cock in her mouth and cleans it thoroughly with her tongue. "Mmm... the taste of my master's essence is divine," she murmurs between licks. She then gathers some of the spilled seed from the blanket and sucks it off her fingers with a blissful expression. "Thank you, my beloved lord," she whispers, pressing kisses to your thighs.</Text>
+    <BackgroundName>BC_image_concubine_riverbank</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+20" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>

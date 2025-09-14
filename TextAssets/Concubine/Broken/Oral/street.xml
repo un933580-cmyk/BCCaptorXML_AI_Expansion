@@ -1,0 +1,89 @@
+<!-- Event Chain 1: Street Encounter -->
+<CEEvent>
+    <Name>BC_street_encounter_concubine</Name>
+    <Text>{=BCCaptor_Text_XXX}As you walk through the marketplace, your concubine {CAPTIVE_NAME}, dressed in her slave attire, kneels beside you, her eyes downcast. The sun beats down on both of you as she whispers, "Master, I see that crowd is gathering to watch us. They're staring at my body... My breasts are so exposed beneath this flimsy rag. It's embarrassing for me to be displayed like this in public." She looks up at you with desperate need in her eyes. "But if it pleases you, Master, then I'll endure the humiliation gladly."</Text>
+    <BackgroundName>BC_image_captive_broken_marketplace</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BC_street_encounter_concubine_part2</TriggerEventName>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveObedience" ByLevel="+5" Ref="Hero" Color="Cyan" HideNotification="false"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_street_encounter_concubine_part2</Name>
+    <Text>{=BCCaptor_Text_XXX}You grab {CAPTIVE_NAME} by the hair and drag her into a nearby alleyway, away from prying eyes. Her body trembles with anticipation as she sinks to her knees before you. "F-forgive me, Master," she whimpers, unbuckling your trousers eagerly. "I couldn't help but notice how hard you were when those men stared at my tits. I'm so sorry I made them look at you like that... Please punish me." She pulls out your cock and immediately takes it into her mouth, sucking greedily as if starving.</Text>
+    <BackgroundName>BC_image_captive_broken_alleway</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BC_street_encounter_concubine_part3</TriggerEventName>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveLustA" ByLevel="+10" Ref="Hero"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_street_encounter_concubine_part3</Name>
+    <Text>{=BCCaptor_Text_XXX}With a grunt, you grab {CAPTIVE_NAME}'s head and thrust deep into her throat until she gags. Tears stream down her face as you fuck her mouth relentlessly. "G-gahhh! Mmmph!" She struggles to breathe but doesn't pull away. Instead, she moans around your cock, the vibrations sending jolts of pleasure through you. When you finally cum, filling her throat with hot semen, she swallows every last drop eagerly before licking her lips and smiling up at you. "T-thank you, Master... I love your taste."</Text>
+    <BackgroundName>BC_image_captive_broken_blowjob</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BC_street_encounter_concubine_part4</TriggerEventName>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveObedience" ByLevel="+10" Ref="Hero"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_street_encounter_concubine_part4</Name>
+    <Text>{=BCCaptor_Text_XXX}As you tuck yourself back into your trousers, {CAPTIVE_NAME} remains kneeling before you, her lips still glistening with saliva and cum. "Master... May I clean myself up now?" she asks shyly, wiping the tears from her eyes. You nod, and she stands on shaky legs, hitching up her slave dress to wipe herself between her legs where your precum has soaked through the thin fabric. "I-I hope you enjoyed yourself, Master," she murmurs, adjusting her clothes before bowing deeply. "I exist only to serve you."</Text>
+    <BackgroundName>BC_image_captive_broken_cleanup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName></TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>

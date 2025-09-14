@@ -1,0 +1,108 @@
+<CEEvent>
+    <Name>BC_event_devoted_morning_offering_1</Name>
+    <Text>{CAPTIVE_NAME} wakes up early, her heart pounding with anticipation as she prepares herself for another day serving you. She bathes carefully, ensuring every inch of her body is flawless, and selects the most revealing lingerie from your wardrobe. As dawn breaks, she kneels at the foot of your bed, waiting patiently for you to stir.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_devoted_morning_offering_2</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_morning_offering_2</Name>
+    <Text>{CAPTIVE_NAME} gently wakes you with soft kisses along your chest and stomach, her hands already working to undress you. "Good morning, my love," she whispers, her voice dripping with adoration. She takes your growing erection into her mouth, sucking and licking it until it's fully erect.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_devoted_morning_offering_3</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_morning_offering_3</Name>
+    <Text>{CAPTIVE_NAME} straddles you, lowering herself onto your cock with a moan. "Oh yes... I belong to you," she gasps, riding you slowly at first, then picking up speed as her arousal grows. She leans down to kiss you passionately, her tongue exploring yours while her hips grind against you.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_devoted_morning_offering_4</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_morning_offering_4</Name>
+    <Text>With a final thrust, you spill your seed deep inside her. {CAPTIVE_NAME} cries out in ecstasy, feeling your warmth fill her womb. She collapses onto your chest, panting and smiling. "Thank you... I'm so happy to carry your child," she murmurs.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_devoted_morning_offering_5</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_morning_offering_5</Name>
+    <Text>{CAPTIVE_NAME} carefully cleans your cock with her tongue, savoring the taste of yourself mixed with hers. She then licks up the semen dripping from her thighs, humming in contentment. "I'm yours forever," she declares before cuddling close to you.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_devoted_morning_offering_end</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+20" Ref="Hero" Color="Yellow"/>
+        <Skill Id="Devoted" ByLevel="+10" Ref="Hero" HideNotification="true"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

@@ -1,0 +1,78 @@
+<!-- Chain 2: Riverbank Encounter -->
+<CEEvent>
+    <Name>TB_captor_river_start</Name>
+    <Text>The warm spring sun glistens off the water as your column pauses to rest by a shallow river. {CAPTIVE_NAME} watches you from where she sits on the bank, her bare feet skimming the cool water. Her simple tunic has ridden up to expose her thighs, and she absentmindedly strokes herself through the fabric while keeping her adoring eyes fixed on you.</Text>
+    <Backgrounds><Background Name="TB_scion_riverbank" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_captor_river_prelude</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_river_prelude</Name>
+    <Text>{CAPTIVE_NAME} scrambles to her feet as you approach, dropping to her knees in the wet grass. "My lord," she breathes, reaching up to undo your trousers with practiced ease. She wastes no time taking your cock into her mouth, sucking eagerly while her hands stroke your thighs. The river water laps at your boots and hers as she works, her moans vibrating against you as she tastes your precum.</Text>
+    <Backgrounds><Background Name="TB_scion_river_blowjob" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_captor_river_anal_prep</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_river_anal_prep</Name>
+    <Text>"Please use me, my love," {CAPTIVE_NAME} begs as she lies back on the grassy bank, pulling her knees to her chest. The water splashes against her bare ass as you position yourself behind her. She reaches back to spread herself for you, her fingers circling her pucker while she moans at the sensation. "I want to feel your cock stretching my tight little hole right here by the river where everyone can see how much I love serving you."</Text>
+    <Backgrounds><Background Name="TB_scion_river_doggy" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_captor_river_anal_sex</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_river_anal_sex</Name>
+    <Text>The river water splashes against your bodies as you thrust into {CAPTIVE_NAME}'s tight ass, her moans of pleasure echoing off the rocks. "Yes! My lord is so deep inside me!" she cries out, reaching back to play with herself while keeping one hand on the ground for balance. The sensation of water lapping at your skin while you take her makes the experience even more erotic. She turns her head to look at you with adoring eyes as you pound into her.</Text>
+    <Backgrounds><Background Name="TB_scion_river_anal" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>TB_captor_river_finish</TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_river_finish</Name>
+    <Text>{CAPTIVE_NAME} screams in ecstasy as you empty yourself into her ass, the feeling of your hot seed filling her making her orgasm even harder. "Oh gods! My lord is marking me so completely!" She reaches back to feel where your cock is buried in her stretched hole, then turns to watch with adoration as you pull out and your cum spills from her pucker into the river below.</Text>
+    <Backgrounds><Background Name="TB_scion_river_cleanup" UseConditions="BC_event_conditions_captive_female"/></Backgrounds>
+</CEEvent>

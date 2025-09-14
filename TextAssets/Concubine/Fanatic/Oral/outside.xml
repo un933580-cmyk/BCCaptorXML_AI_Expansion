@@ -1,0 +1,118 @@
+<CEEvent>
+    <Name>Concubine_Minor_Oral_1</Name>
+    <Text>{=BCCaptor_Text}Your concubine approaches you in the golden afternoon light, her lithe form moving with lethal grace despite the absence of her usual armor. The sun glints off her sweat-slick skin as she kneels before you with reverent haste, her emerald eyes burning with a devotion that borders on worship. "Master," she breathes, voice trembling with need, "I've spent the day defending what's yours - now let me prove my absolute loyalty in another way." Her delicate fingers tremble slightly as they unfasten your belt, her entire body vibrating with anticipation.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Allow your concubine to worship you with her mouth.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Pink"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <NextEventName>Concubine_Minor_Oral_2</NextEventName>
+</CEEvent>
+
+<CEEvent>
+    <Name>Concubine_Minor_Oral_2</Name>
+    <Text>{=BCCaptor_Text}Your concubine wastes no time in taking your hardening cock into her warm, eager mouth, her skilled tongue swirling around the sensitive head with almost religious fervor. The sun warms your bare skin as she bobs up and down with increasing urgency, her moans vibrating through your length as she tastes you for the first time today. Her free hand slips between her own thighs, fingers plunging into her dripping core as she pleasures herself at the thought of serving her master so intimately. "Master... you're so perfect," she whimpers between slurps, tears of joy streaming down her flushed cheeks.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Praise your concubine's worshipful devotion.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="OralPleasure" ByLevel="R 1 2" Ref="Hero" Color="Pink"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>30</WeightedChanceOfOccurring>
+    <NextEventName>Concubine_Minor_Oral_3</NextEventName>
+</CEEvent>
+
+<CEEvent>
+    <Name>Concubine_Minor_Oral_3</Name>
+    <Text>{=BCCaptor_Text}With a throaty cry of pure adoration, your concubine feels you swelling in her mouth and redoubles her efforts, taking you deeper than ever before with desperate need. "Master... please," she gasps around your cock between frantic bobs, her entire body trembling with overwhelming excitement that borders on pre-orgasmic bliss just from serving you. Tears of ecstasy streak down her face as she finally takes you to the back of her throat, choking slightly but not stopping for even a second - she needs this more than air itself.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>{=BCCaptor_Text}Watch your concubine bring you to orgasm with her worshipful mouth.</Text>
+            <SkillsToLevel>
+                <Skill Id="SemenAppreciation" ByLevel="R 1 3" Ref="Hero" Color="Pink"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>40</WeightedChanceOfOccurring>
+    <NextEventName>Concubine_Minor_Oral_4</NextEventName>
+</CEEvent>
+
+<CEEvent>
+    <Name>Concubine_MasterClimax</Name>
+    <Text>{=BCCaptor_Text}Your body tenses as you feel your climax approaching, and with a guttural groan, you empty yourself down your concubine's throat. She moans around your length, her eyes fluttering shut in pure bliss at the taste of her master's release. When you finally pull out, she licks her lips clean with obvious relish before gazing up at you with absolute devotion. "Master," she whispers reverently, "your seed tastes like heaven... I never want to stop worshipping your body."</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>{=BCCaptor_Text}Hold your concubine close and let her feel your affection.</Text>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R 2 4" Ref="Hero" Color="Pink"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <NextEventName>Concubine_Minor_Oral_4</NextEventName>
+</CEEvent>
+
+<CEEvent>
+    <Name>Concubine_Minor_Oral_4</Name>
+    <Text>{=BCCaptor_Text}Your concubine sits back on her heels, breathing heavily as she gazes up at you with absolute adoration in her tear-filled eyes. She runs a trembling hand over your thigh while licking the last traces of your cum from her swollen lips with obvious relish. The afternoon sun bathes both of your naked bodies in golden light as she suddenly stands and straddles your lap, pressing her still-aroused body against yours with desperate need. "Master," she whimpers, voice thick with emotion, "I love you so much... I need to feel close to you."</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>{=BCCaptor_Text}Hold your concubine close and let her feel your affection.</Text>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R 2 4" Ref="Hero" Color="Pink"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+</CEEvent>

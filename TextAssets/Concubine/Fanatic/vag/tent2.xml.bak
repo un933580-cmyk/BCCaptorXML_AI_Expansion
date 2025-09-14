@@ -1,0 +1,133 @@
+<CEEvent>
+    <Name>TB_concubine_initiates_sex</Name>
+    <Text>{=BCCaptor_Text_13200}You hear the sound of armor being removed outside your tent, followed by soft footsteps. Your Fanatically Devoted concubine enters wearing only her undergarments, her muscular but feminine body glistening with sweat from a day's march. She kneels before you immediately, placing both hands on your thighs and looking up at you with pure devotion in her eyes. "Master," she purrs, "you look weary. Let me relieve some of that tension for you." Her fingers trail along the inside of your legs suggestively as she speaks.</Text>
+    <BackgroundName>BC_image_concubine_kneeling</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Accept her offer.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 1" Ref="Hero" Color="Cyan"/>
+            </SkillsToLevel>
+            <ProstitutionTotal>R 1 3</ProstitutionTotal>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEvent>
+    <Name>TB_concubine_prepares_master</Name>
+    <Text>{=BCCaptor_Text_13201}Your concubine wastes no time in freeing your cock from your pants, her skilled fingers working swiftly to stroke you to full hardness. She leans forward and takes you into her mouth with practiced ease, swirling her tongue around the head before deepthroating you completely. When she finally pulls back for air, her eyes are glazed with devotion as she whispers, "Your body is my temple, Master. Let me worship it properly." Her hands roam your thighs while she resumes her oral ministrations, moaning softly at the taste of you.</Text>
+    <BackgroundName>BC_image_concubine_blowjob</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Push her onto the bed.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>90</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_missionary_position</Name>
+    <Text>{=BCCaptor_Text_13205}Your concubine lies back on the bed, spreading her legs wide in invitation. You position yourself between her thighs and guide your cock to her entrance, pushing inside with one smooth stroke. "Oh Master," she moans, wrapping her legs around your waist to pull you deeper inside. Her hands grasp at your shoulders as you begin to thrust, each powerful stroke driving her further into bliss. "Yes! Take me! Fill me with your seed!"</Text>
+    <BackgroundName>BC_image_concubine_missionary</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Increase your pace.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>90</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_cumming_missionary</Name>
+    <Text>{=BCCaptor_Text_13206}Feeling your cock swell inside her, your concubine arches her back and cries out in pleasure. "Master! I'm cumming!" Her pussy clenches around you as waves of ecstasy crash over her body. The feeling sends you over the edge as well, and you thrust deep inside one final time before releasing your hot seed into her welcoming womb. She wraps her arms tightly around you, holding you close as you both ride out your orgasms together.</Text>
+    <BackgroundName>BC_image_concubine_post_orgasm</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Stay inside her while she cleans you.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>90</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEvent>
+
+<CEvent>
+    <Name>TB_concubine_cleaning_master_missionary</Name>
+    <Text>{=BCCaptor_Text_13207}Still connected, your concubine reaches down between you and gently strokes your cock as it softens inside her. She collects any stray drops of cum with her fingers and brings them to her mouth, savoring the taste while looking up at you with adoration. "Every part of me belongs to you, Master," she whispers before giving your still-sensitive tip a tender kiss. Her pussy pulses around you as if trying to coax another release from you.</Text>
+    <BackgroundName>BC_image_concubine_cleaning_missionary</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Praise her devotion.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -1 1" Ref="Hero" Color="Cyan"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>90</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEvent>

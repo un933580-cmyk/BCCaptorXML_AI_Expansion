@@ -1,0 +1,57 @@
+<Event Name="BC_event_training_spear_win">
+    <Text>
+        Your final thrust sends her weapon clattering to the ground as she falls onto her back, breath coming in excited gasps. "Oh my master," she murmurs happily, looking up at you with adoring eyes, "I'm so honored you chose me for your training partner today."
+        She reaches up and strokes your thigh invitingly. "As victor's prize, you may take whatever pleasure from my body you desire. I am yours completely." Her fingers trace patterns on your leg as she waits eagerly for your command.
+    </Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Take her mouth in the dirt</OptionText>
+            <TriggerEventName>BC_event_post_victory_oral_forced</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Claim her in the grass</OptionText>
+            <TriggerEventName>BC_event_post_victory_field_dominant</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>3</Order>
+            <MultipleRestrictedListOfConferences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Use her tight back entrance</OptionText>
+            <TriggerEventName>BC_event_post_victory_anal_submissive</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_post_victory_field_dominant">
+    <Text>
+        The sun filters through the trees as you push her onto her back, skirts hiked up to reveal glistening folds. Her armor plates clink softly with each movement.
+        "Take me here in the open," she breathes, legs wrapping around your waist. Your cock slides home easily, her wet heat enveloping you completely as she arches beneath you. Each thrust deliberate until she shatters with a cry that melts into the rustling leaves.
+        When release comes for both of you, it's a tidal wave that leaves her limp in your arms. "I knew you'd make good use of my victory prize," she murmurs softly, fingers tracing idle patterns on your armor. "Your 'spear' was just too tempting to resist."
+    </Text>
+</Event>
+
+<Event Name="BC_event_post_victory_anal_submissive">
+    <Text>
+        You pin her facedown in the dirt, skirts hiked up to expose her perfect ass. The scent of her arousal mingles with the earth beneath your knees as you position yourself behind her.
+        Without warning, you press against her familiar entrance. She gasps at the initial breach but doesn't pull away, pressing back eagerly against you as you sink deeper into her tight heat. The armor plates dig into your thighs with each movement—her only sound ragged moans of pleasure.
+        When she comes undone around you, it's a silent explosion that makes her body go rigid before collapsing forward onto the dirt. You follow soon after, filling her completely before withdrawing to watch your seed drip from between her reddened cheeks.
+        "You've proven yet again why I offered myself as your reward," she sighs contentedly, turning her head slightly to look at you over her shoulder with a satisfied smile. "Your 'spearplay' is always so... thorough."
+    </Text>
+</Event>
+
+<Event Name="BC_event_post_victory_oral_forced">
+    <Text>
+        You seize a fistful of her hair and yank her head back, forcing her to look up at you as you guide yourself to her lips. She opens without hesitation, eyes wide with anticipation.
+        "Take it all," you command before thrusting deep into her throat. Her fingers scrabble at the dirt beneath her knees, nails leaving furrows in the soil. The armor plates clink softly—her only sound wet gags until you finally spill down her throat.
+        When you release her, she gasps for air but doesn't wipe the spit from her chin, just looks up at you with worshipful eyes. "Thank you... my lord," she murmurs, tongue darting out to catch a stray drop before adding with a smile, "You've claimed your victory prize most satisfactorily. Your 'spear' is even better than I remembered."
+    </Text>
+</Event>

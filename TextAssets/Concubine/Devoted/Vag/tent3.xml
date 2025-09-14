@@ -1,0 +1,88 @@
+<!-- Event 1: The Concubine's Preparation -->
+<CEEvent>
+    <Name>Concubine_preparation</Name>
+    <Description>{CAPTIVE_NAME} kneels in your command tent, her belly slightly rounded from previous breedings. She looks up at you with adoration. "My Lord," she says softly, "your concubine is ready to be filled again." Her hands rest on her swollen belly reverently.</Description>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Concubine_prelude_breeding</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+    <SkillsRequired>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+</CEEvent>
+
+<!-- Event 2: Breeding Prelude -->
+<CEEvent>
+    <Name>Concubine_prelude_breeding</Name>
+    <Description>{CAPTIVE_NAME} strips off her simple robe, revealing her fertile body. "Please," she begs, lying back on the furs. "Breed me again. Make another child for your concubine." Her fingers trail over her swollen belly as she waits for you.</Description>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Concubine_breeding_sex</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+    <ReqCustomCode>true</ReqCustomCode>
+</CEEvent>
+
+<!-- Event 3: Breeding Sex -->
+<CEEvent>
+    <Name>Concubine_breeding_sex</Name>
+    <Description>{CAPTIVE_NAME} moans as you thrust into her, her body welcoming your cock with eager heat. "Yes! Fill me again!" she cries, arching beneath you. "I want another child... to carry your heir inside me!" Her nails scratch down your back as she writhes in pleasure.</Description>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Concubine_breeding_cum</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="+30" Ref="Hero"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+    <ReqCustomCode>true</ReqCustomCode>
+</CEEvent>
+
+<!-- Event 4: Breeding Cum -->
+<CEEvent>
+    <Name>Concubine_breeding_cum</Name>
+    <Description>{CAPTIVE_NAME} gasps as you spill inside her, her body milking your cock for every drop. "Thank you," she whimpers, pressing a hand to her belly. "I feel it... growing already." She smiles up at you dreamily.</Description>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Concubine_breeding_aftercare</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+    <ReqCustomCode>true</ReqCustomCode>
+</CEEvent>
+
+<!-- Event 5: Breeding Aftercare -->
+<CEEvent>
+    <Name>Concubine_breeding_aftercare</Name>
+    <Description>{CAPTIVE_NAME} licks your cock clean, moaning at the taste of your seed mixed with her arousal. "I love being your breeding concubine," she murmurs, kissing your thigh. "Please... keep using me like this." She rests her head on your lap, content.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+50" Ref="Hero"/>
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <ReqCustomCode>true</ReqCustomCode>
+</CEEvent>

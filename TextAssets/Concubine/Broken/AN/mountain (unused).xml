@@ -1,0 +1,94 @@
+<!-- Event Chain 4 - Mountain Setting -->
+<CEEvent>
+    <Name>TB_anal_mountain_entry</Name>
+    <Text>The thin mountain air fills your lungs as you approach the rocky outcrop where {CAPTIVE_NAME} awaits. She's kneeling on a blanket she brought from camp, her naked body shivering slightly in the cool breeze. The setting sun casts her form in warm orange light.</Text>
+    <BackgroundName>TB_mountain_scene</BackgroundName>
+    <NotificationName>TB_concubine_on_mountain</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsBrokenConcubine</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_mountain_prelude</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_mountain_prelude</Name>
+    <Text>{CAPTIVE_NAME} scrambles to her feet as you approach, her eyes full of submission. She immediately falls to her knees and begins kissing your boots while murmuring how lucky she is to serve such a great warrior. Her breath is visible in the cold air between praises.</Text>
+    <BackgroundName>TB_mountain_closeup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>ContinueFromEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_mountain_intercourse</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_mountain_intercourse</Name>
+    <Text>{CAPTIVE_NAME} eagerly turns around and spreads her cheeks, presenting her tight pink hole to you. "Please use my ass, master," she whimpers as she reaches back to spread herself even wider. The cool mountain air on your skin contrasts with the heat of her body as you enter her.</Text>
+    <BackgroundName>TB_mountain_closeup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>ContinueFromEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_mountain_orgasm</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_mountain_orgasm</Name>
+    <Text>With a final thrust you empty yourself deep inside her ruined ass, making {CAPTIVE_NAME} scream in ecstasy. "Fill me up with your seed, master!" she cries as you feel her anus clamp down on you. She collapses forward onto the blanket, your cum already leaking out around your still-hard cock.</Text>
+    <BackgroundName>TB_mountain_closeup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>ContinueFromEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_mountain_cleanup</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_anal_mountain_cleanup</Name>
+    <Text>{CAPTIVE_NAME} immediately turns around and takes your cock into her mouth, sucking clean the mixture of her ass and your cum. She moans happily as she tastes herself on you, then moves to lick at her own leaking hole while watching you with adoring eyes.</Text>
+    <BackgroundName>TB_mountain_closeup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>ContinueFromEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <TriggerEventName>TB_anal_mountain_end</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>

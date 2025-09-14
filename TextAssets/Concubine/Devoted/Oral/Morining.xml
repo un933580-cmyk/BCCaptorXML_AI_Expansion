@@ -1,0 +1,78 @@
+<CEEvent>
+    <Name>TB_captor_oral_devoted_concubine_morning</Name>
+    <Text>{?ISCAPTIVEFEMALE}As you wake up, your devoted concubine {CAPTIVE_NAME} is already kneeling beside the bed. She smiles lovingly as she leans in to pleasure you orally, her hands gently caressing your thighs. "Good morning, master," she whispers. "Your humble concubine is here to serve you."{?}</Text>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <SkillsRequired>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <Options>
+        <Option>
+            <OptionText>{=BCCaptor_Text_14008}(next page)</OptionText>
+            <TriggerEventName>TB_captor_oral_devoted_concubine_morning_part2</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_oral_devoted_concubine_morning_part2</Name>
+    <Text>{CAPTIVE_NAME} works her lips and tongue expertly, taking you deep into her mouth as she gazes up at you adoringly. Her cheeks hollow slightly as she sucks hard, the wet heat of her mouth driving you closer to climax.</Text>
+    <SexualContent>true</SexualContent>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <Options>
+        <Option>
+            <OptionText>{=BCCaptor_Text_14008}(next page)</OptionText>
+            <TriggerEventName>TB_captor_oral_devoted_concubine_morning_part3</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_oral_devoted_concubine_morning_part3</Name>
+    <Text>A low moan escapes your throat as you feel the tension building. {CAPTIVE_NAME} senses it too and doubles her efforts, one hand moving to stroke you in time with her mouth. "I love tasting you, master," she murmurs before swallowing you again.</Text>
+    <SexualContent>true</SexualContent>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <Options>
+        <Option>
+            <OptionText>{=BCCaptor_Text_14008}(next page)</OptionText>
+            <TriggerEventName>TB_captor_oral_devoted_concubine_morning_part4</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_oral_devoted_concubine_morning_part4</Name>
+    <Text>With a final thrust, you reach your peak and spill into her waiting mouth. {CAPTIVE_NAME} drinks down every last drop with eager enthusiasm, savoring the taste of her master's seed as she gently kisses the tip before pulling away with a satisfied smile.</Text>
+    <SexualContent>true</SexualContent>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        <RestrictedListOfConsequences>HeroGetsMoreOffspringChanceModifier</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <Options>
+        <Option>
+            <OptionText>{=BCCaptor_Text_14008}(next page)</OptionText>
+            <TriggerEventName>TB_captor_oral_devoted_concubine_morning_part5</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_oral_devoted_concubine_morning_part5</Name>
+    <Text>{CAPTIVE_NAME} licks her lips, her eyes shining with affection. "Your humble concubine lives to serve you in all ways," she purrs before resting her head on your thigh, content to simply be near you.</Text>
+    <SexualContent>true</SexualContent>
+    <MultipleRestrictedListOfConsequences>
+        <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+    </MultipleRestrictedListOfConsequences>
+    <ReqCustomCode>true</ReqCustomCode>
+</CEEvent>
+

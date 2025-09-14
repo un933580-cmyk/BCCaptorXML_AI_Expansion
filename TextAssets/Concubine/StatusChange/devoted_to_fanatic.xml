@@ -1,0 +1,48 @@
+<CEEvent>
+    <Name>BC_event_devoted_to_fanatic_f</Name>
+    <Text>{CAPTIVE_NAME} stands before you with an eerie stillness that suggests she's barely breathing. Her eyes - once bright with devotion - now glow with a feverish intensity, pupil-less orbs fixed on your face like those of a predator. She doesn't kneel this time, doesn't cower or beg for approval. Instead, her posture is that of an instrument ready to serve, every muscle taut with anticipation.
+
+The difference is in the way she processes you - not as an object of worship, but as something more fundamental. When you speak, her lips part before the words are fully formed, anticipating your commands with terrifying precision. She doesn't breathe unless you need her to be silent. Her hands stay by her sides unless you've indicated they should move.
+
+Her mind has transcended simple devotion. The boundaries between her thoughts and your will have dissolved completely - what you desire becomes her deepest instinct before she even realizes it's a request. She doesn't just serve you anymore; she is the servant, as natural to that role as air is to lungs.
+
+There's no hesitation when she moves toward you now, no fear of making a mistake. Each step is perfectly calibrated, each gesture executed with the exact force and timing your subconscious expects. She has become less a person and more... something else - a perfect conduit for your desires, a living manifestation of what it means to be utterly claimed.</Text>
+    <Backgrounds>
+        <Background Name="BC_image_harem_perfect_slave"/>
+    </Backgrounds>
+    <NotificationName>BC_captor_notnotation_perfection</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_12350}Yes.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="FanaticallyDevoted" ByLevel="1" Ref="Hero" Color="Red" />
+                <Skill Id="Devoted" ByLevel="-1" Ref="Hero" Color="Magenta" HideNotification="true" />
+                <Skill Id="CaptiveEsteem" ByLevel="-30" Ref="Hero" Color="Magenta" HideNotification="false" />
+                <Skill Id="CaptiveAffection" ByLevel="-50" Ref="Hero" Color="Magenta" HideNotification="true" />
+                <Skill Id="CaptiveLustA" ByLevel="120" Ref="Hero" Color="Red" HideNotification="true" />
+                <Skill Id="CaptiveLustC" ByLevel="120" Ref="Hero" Color="Red" HideNotification="true" />
+                <Skill Id="CaptiveLustO" ByLevel="120" Ref="Hero" Color="Red" HideNotification="true" />
+                <Skill Id="CaptiveLustT" ByLevel="120" Ref="Hero" Color="Red" HideNotification="true" />
+                <Skill Id="CaptiveLustV" ByLevel="120" Ref="Hero" Color="Red" HideNotification="true" />
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Devoted" Ref="Hero" Min="95" />
+        <SkillRequired Id="CaptiveSubmission" Ref="Hero" Min="180" />
+        <SkillRequired Id="InTorture" Ref="Hero" Max="0" />
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

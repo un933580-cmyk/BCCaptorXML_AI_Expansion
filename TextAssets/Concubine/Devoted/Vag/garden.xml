@@ -1,0 +1,69 @@
+<CEEvent>
+    <Name>Devoted_Concubine_Submissive_Offering_Start</Name>
+    <Description>{CAPTIVE_NAME} is waiting for you in the gardens, kneeling on a pillow by your favorite bench. The sun casts dappled light through the leaves, highlighting her graceful form. She wears only a thin silk robe, barely concealing her nudity beneath.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Submissive_Offering_Prelude</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Submissive_Offering_Prelude</Name>
+    <Description>{CAPTIVE_NAME} rises and approaches you with a shy smile. She undoes her robe, letting it slip from her shoulders to pool at her feet. Her hands tremble as she reaches for your belt, eager to please. "I've been dreaming of this all day," she confesses softly, her eyes never leaving yours.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Submissive_Offering_Sex</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Submissive_Offering_Sex</Name>
+    <Description>{CAPTIVE_NAME} guides you to lie back on the soft grass, then climbs atop you with a passionate moan. Her body rocks against yours in perfect rhythm, her breasts swaying hypnotically as she rides you. "You're so deep inside me," she gasps, "I can feel every inch of you stretching me." The sensations overwhelm her, yet she never slows down.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Submissive_Offering_Climax</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Submissive_Offering_Climax</Name>
+    <Description>{CAPTIVE_NAME}'s body tenses as she feels your release flooding her womb. She throws back her head and screams in ecstasy, her inner walls spasming around you as if trying to milk every last drop from your cock. "Fill me up!" she cries, "I want to feel your seed inside me forever!"</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Submissive_Offering_Cleanup</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Submissive_Offering_Cleanup</Name>
+    <Description>{CAPTIVE_NAME} dismounts from your lap, her thighs slick with a mixture of sweat and semen. She immediately begins licking up the spilled seed from the ground before turning back to you. "Let me taste myself on you," she purrs, taking your cock into her mouth once more to cleanse it thoroughly.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+10" Ref="Hero"/>
+        <Skill Id="Devoted" ByLevel="+5" Ref="Hero"/>
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+</CEEvent>

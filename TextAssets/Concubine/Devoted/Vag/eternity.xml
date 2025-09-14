@@ -1,0 +1,69 @@
+<CEEvent>
+    <Name>Devoted_Concubine_Eternal_Devotion_Start</Name>
+    <Description>{CAPTIVE_NAME} is waiting for you in your private chambers, kneeling by the hearth with a cup of wine. She looks up as you enter, her eyes filled with adoration. "I've been meditating on our bond," she says softly, rising to greet you. "There's nothing I wouldn't do to show my devotion."</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Eternal_Devotion_Prelude</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Eternal_Devotion_Prelude</Name>
+    <Description>{CAPTIVE_NAME} sets the wine aside and begins to undress, her movements slow and deliberate. "The greatest gift I can give you is myself," she whispers as the last of her clothes fall away. She kneels before you once more, offering herself completely.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Eternal_Devotion_Sex</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Eternal_Devotion_Sex</Name>
+    <Description>{CAPTIVE_NAME} stays on her knees as you enter her from behind, her hands gripping the edge of the hearth for support. She gasps with each thrust, whispering words of devotion and eternal love between moans of pleasure.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Eternal_Devotion_Climax</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Eternal_Devotion_Climax</Name>
+    <Description>{CAPTIVE_NAME} screams out her climax, her body shuddering violently as you fill her with your essence. "Forever yours," she gasps repeatedly, her inner walls fluttering around your cock long after you've finished.</Description>
+    <Options>
+        <Option>
+            <Text>Continue</Text>
+            <TriggerEvents>
+                <TriggerEvent><EventName>Devoted_Concubine_Eternal_Devotion_Cleanup</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_Concubine_Eternal_Devotion_Cleanup</Name>
+    <Description>{CAPTIVE_NAME} remains on her knees before you, savoring the feeling of your release inside her. When she finally stands, she gathers the spilled semen with her fingers and brings it to her lips. "A taste of eternity," she murmurs before kissing you deeply.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+10" />
+        <Skill Id="Devoted" ByLevel="+5" />
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+</CEEvent>

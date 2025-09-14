@@ -1,0 +1,99 @@
+<CEEvent>
+    <Name>TB_broken_concubine_forest</Name>
+    <Text>{=BCCaptor_Text_13200}You take a moment to rest under the shade of an old oak tree in the forest. {CAPTIVE_NAME}, your broken concubine, immediately kneels before you, spreading her legs and exposing herself. "Master," she whispers, her voice trembling with submission, "please use me as you wish. I exist only to serve and please you." The warm sunlight filters through the leaves above, casting dappled shadows on her naked body.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_forest</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_forest_2</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_forest_2</Name>
+    <Text>{=BCCaptor_Text_13205}You push {CAPTIVE_NAME} onto her back in the soft grass, her thighs spread eagerly for you. "Yes, Master," she moans, her voice dripping with submission as you thrust into her without mercy. Her nails rake through the earth beneath her, her body trembling as you take your pleasure from her. The scent of pine and earth mingles with the musk of sex in the air.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_forest</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_forest_3</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_forest_3</Name>
+    <Text>{=BCCaptor_Text_13210}With a final, deep thrust, you release inside {CAPTIVE_NAME}, her body shuddering beneath yours as she feels your hot seed flooding her womb. "Master!" she cries out, tears of gratitude in her eyes as she clings to you. "Thank you for filling me with your essence. I live only to be your vessel." The sun casts a warm glow over the scene, highlighting the sheen of sweat on both your bodies.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_forest</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_broken_concubine_forest_4</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_broken_concubine_forest_4</Name>
+    <Text>{=BCCaptor_Text_13215}After withdrawing, {CAPTIVE_NAME} immediately sinks to her knees and takes your softening cock into her mouth, cleaning it with reverent strokes of her tongue. "So sweet, Master," she murmurs between licks, savoring every last drop. Once satisfied, she looks up at you with worshipful eyes. "I am yours to command, always." The forest around you seems to hum with the intensity of your connection.</Text>
+    <BackgroundName>BC_image_captive_broken_mohawk_forest</BackgroundName>
+    <NotificationName>BC_captor_notification_encounter</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

@@ -1,0 +1,116 @@
+<CEEvent>
+    <Name>BC_event_anal_market_start</Name>
+	<Text>{=BCCaptor_Text_20001}The market square teems with life as merchants call out their wares. Among the crowd, your concubine {CAPTIVE_NAME} stands waiting in simple yet alluring attire that highlights her form. She immediately bows at your approach, kneeling before you with downcast eyes. "Master," she whispers, pressing herself against your leg. The rich scents of fresh bread and roasting meats fill the air as she awaits your command.</Text>
+	<Backgrounds>	
+		<Background Name="BC_marketplace_concubine" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent Name="BC_event_anal_market_prelude" />
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_anal_market_prelude</Name>
+    <Text>{=BCCaptor_Text_20002}You lead {CAPTIVE_NAME} to a quiet alley behind the stalls. Without hesitation, she drops to her knees and begins undressing you with trembling hands. "I've longed for this moment," she murmurs between kisses along your thigh. Her lips wrap around your cock as she takes you deep into her throat, her eyes never leaving yours in reverent worship. The distant market noises fade away as she pleasures you with skillful tongue work and passionate moans.</Text>
+    <Backgrounds>
+        <Background Name="BC_marketplace_alley" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent Name="BC_event_anal_market_main" />
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_anal_market_main</Name>
+    <Text>{=BCCaptor_Text_20003}Spinning {CAPTIVE_NAME} around, you push her forward over a sturdy crate and raise her skirts to expose her bare ass. She gasps as your cock presses against her tight hole, her body quivering with anticipation. "Take me, Master," she begs breathlessly, watching you over her shoulder with lust-darkened eyes. You enter slowly, feeling her stretch around you as she moans loudly at the intrusion. Her ass clenches rhythmically as you fill her completely.</Text>
+    <Backgrounds>
+        <Background Name="BC_marketplace_crate" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent Name="BC_event_anal_market_finish" />
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_anal_market_finish</Name>
+    <Text>{=BCCaptor_Text_20004}Your thrusts grow more forceful, making the crate shake beneath {CAPTIVE_NAME}'s trembling body. She cries out with each impact, her fingers gripping the wood tightly as you use her for your pleasure. The sounds of slapping flesh and her desperate pleas fill the alley as you approach release. "Fill me, Master!" she begs, just before you unleash inside her ass. Her own orgasm grips her as your hot seed floods her depths.</Text>
+    <Backgrounds>
+        <Background Name="BC_marketplace_crate" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent Name="BC_event_anal_market_cleanup" />
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_anal_market_cleanup</Name>
+    <Text>{=BCCaptor_Text_20005}Withdrawing carefully, you watch as your cum leaks from her well-used hole. {CAPTIVE_NAME} returns to her knees and cleans you thoroughly with mouth and tongue. She then reaches back to gather some of the spilt seed, tasting it appreciatively. "So delicious," she murmurs before planting a loving kiss on your cockhead. Looking up at you with adoring eyes, she whispers, "Thank you for letting me serve you."</Text>
+    <Backgrounds>
+        <Background Name="BC_marketplace_alley" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>End Event</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

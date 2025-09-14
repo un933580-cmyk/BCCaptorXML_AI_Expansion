@@ -1,0 +1,332 @@
+Вот пять цепочек событий для орального секса с Broken наложницей женского пола, написанных в формате XML с учетом всех ваших требований:
+
+#### Цепочка 1: На улице после марша
+```xml
+<CEEvent>
+    <Name>BC_oralsex_outdoors_after_march</Name>
+    <Text>{=BCCaptor_Text_XXXX}After a long march, you return to camp exhausted. Your Broken concubine {CAPTIVE_NAME} awaits you kneeling beside your tent, her eyes fixed on the ground. The cool evening air carries whispers of the nearby forest as she crawls towards you, her body trembling with anticipation.</Text>
+    <BackgroundName>BC_image_captive_broken_forest_kneel</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_outdoors_process_1</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_outdoors_process_1</Name>
+    <Text>{=BCCaptor_Text_XXXX}Your concubine {CAPTIVE_NAME} immediately drops to her knees and unties your trousers with trembling fingers. She moans softly as she takes you into her mouth, her tongue swirling around your shaft in obedient worship. "Mmm... my lord's cock tastes so good," she whimpers between licks.</Text>
+    <BackgroundName>BC_image_captive_broken_forest_blowjob</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_outdoors_climax_1</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_outdoors_climax_1</Name>
+    <Text>{=BCCaptor_Text_XXXX}With a shuddering groan you release your seed into {CAPTIVE_NAME}'s waiting mouth. She swallows eagerly, her throat working to take every drop while tears of joy stream down her cheeks. "Ohhh... yes... thank you for feeding me, my lord," she gasps as your cum dribbles from the corners of her lips.</Text>
+    <BackgroundName>BC_image_captive_broken_forest_face</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_outdoors_cleanup_1</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_outdoors_cleanup_1</Name>
+    <Text>{=BCCaptor_Text_XXXX}{CAPTIVE_NAME} licks her lips clean before tenderly kissing the tip of your now-softening cock. "I live only to serve you, my lord," she murmurs, pressing her forehead against your thigh in submission. The distant sounds of camp life fade as she remains in place, waiting for your next command.</Text>
+    <BackgroundName>BC_image_captive_broken_forest_submission</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+```
+
+#### Цепочка 2: В походных условиях
+```xml
+<CEEvent>
+    <Name>BC_oralsex_wilderness_setup_2</Name>
+    <Text>{=BCCaptor_Text_XXXX}Your Broken concubine {CAPTIVE_NAME} has prepared a secluded clearing for you near the camp. She kneels on a blanket of moss and fallen leaves, her hands folded in her lap as she watches your approach with worshipful eyes. The scent of pine and damp earth mixes with her natural musk.</Text>
+    <BackgroundName>BC_image_captive_broken_wilderness_kneel</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_wilderness_process_2</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_wilderness_process_2</Name>
+    <Text>{=BCCaptor_Text_XXXX}{CAPTIVE_NAME} wastes no time in worshipping your cock, taking you deep into her throat with practiced ease. She gags slightly but doesn't stop, her fingers digging into the earth as she whimpers, "Your concubine was made for this... to swallow every drop of my lord's seed."</Text>
+    <BackgroundName>BC_image_captive_broken_wilderness_blowjob</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_wilderness_climax_2</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_wilderness_climax_2</Name>
+    <Text>{=BCCaptor_Text_XXXX}You spill your seed directly onto {CAPTIVE_NAME}'s face, watching as it mixes with her tears and saliva. She licks some from her cheek before rubbing the rest into her skin like sacred oil. "My lord's essence... it burns my soul so perfectly," she whispers hoarsely.</Text>
+    <BackgroundName>BC_image_captive_broken_wilderness_face</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_wilderness_cleanup_2</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_wilderness_cleanup_2</Name>
+    <Text>{=BCCaptor_Text_XXXX}{CAPTIVE_NAME} carefully wipes the remaining cum from your body before kissing each finger clean. She then bows her head to the earth and says, "This lowly concubine thanks you for this sacred gift. I shall never be worthy of it." The distant calls of wild birds punctuate the silence as she remains at your feet.</Text>
+    <BackgroundName>BC_image_captive_broken_wilderness_submission</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+```
+
+#### Цепочка 3: Возле лагерного костра
+```xml
+<CEEvent>
+    <Name>BC_oralsex_campsite_setup_3</Name>
+    <Text>{=BCCaptor_Text_XXXX}Under the cover of night, {CAPTIVE_NAME} leads you to a quiet spot near the campfire where soldiers are laughing and drinking. She presses her back against a tree and slides to her knees without hesitation, spreading her legs slightly as if inviting you between them. The flickering firelight casts shadows across her submissive form.</Text>
+    <BackgroundName>BC_image_captive_broken_campsite_kneel</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_campsite_process_3</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_campsite_process_3</Name>
+    <Text>{=BCCaptor_Text_XXXX}{CAPTIVE_NAME} moans loudly as she takes you into her mouth, not caring if the soldiers hear. She sucks greedily, her hands gripping your thighs for balance while she whimpers between strokes. "Oh god... yes... let them see what a good little concubine I am," she gasps.</Text>
+    <BackgroundName>BC_image_captive_broken_campsite_blowjob</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_campsite_climax_3</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_campsite_climax_3</Name>
+    <Text>{=BCCaptor_Text_XXXX}With a roar you release into her mouth, and {CAPTIVE_NAME} swallows loudly, then turns to spit some onto the ground for all to see. "There," she purrs, wiping her chin with the back of her hand. "Now everyone knows who owns me." The soldiers' laughter mingles with your satisfied groan.</Text>
+    <BackgroundName>BC_image_captive_broken_campsite_face</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_campsite_cleanup_3</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_campsite_cleanup_3</Name>
+    <Text>{=BCCaptor_Text_XXXX}{CAPTIVE_NAME} curls up at your feet like a loyal dog, her fingers tracing idle patterns in the dirt. "My lord's pleasure is my only purpose," she murmurs, her voice thick with devotion as she gazes up at you through lowered lashes.</Text>
+    <BackgroundName>BC_image_captive_broken_campsite_submission</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+```

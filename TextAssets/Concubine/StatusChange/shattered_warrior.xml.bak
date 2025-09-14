@@ -1,0 +1,54 @@
+<CEEvent>
+    <Name>Shattered_Warrior_Aspiration</Name>
+    <Text>The once-shattered concubine now kneels before you with newfound determination in her hollow gaze. "Master... I am but a toy for your pleasure, yet how pitiful it is that I cannot even wield steel to protect what I serve," she whispers, her voice trembling with self-loathing. "I beg you... allow me to train as both blade and body—let me become the weapon you deserve." Her fingers clench into fists against her thighs, knuckles white beneath bruised skin from past punishments.</Text>
+    <BackgroundName>BC_image_shattered_pledge</BackgroundName>
+    <NotificationName>Shattered_Training_Notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Companion</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>"Hmm, a warrior slut? Sounds interesting."</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Shattered_Training_Begin</EventName>
+                    <EventWeight>100</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>Shattered_Training_Begin</Name>
+    <Text>The shattered concubine falls to her knees, pressing her forehead against your boot in abject gratitude. "Master... I am nothing but a vessel for your will," she whispers between shuddering breaths. "Yet you have granted me the greatest honor—to become an instrument in your hands." Her fingers tremble as they trace patterns on the dirt floor, marking imaginary sword strokes. "By tomorrow's dawn, I shall begin my training... and every drop of blood will be a testament to my submission."</Text>
+    <BackgroundName>BC_image_shattered_boot_kiss</BackgroundName>
+    <NotificationName>Shattered_Training_Pledge</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Companion</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>"Your submission is... amusing."</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

@@ -1,0 +1,96 @@
+<CEEvent>
+    <Name>BC_event_concubine_alley_1</Name>
+    <Text>You spot {CAPTIVE_NAME} waiting anxiously in the dark alley behind the tavern. Her thin silk robe barely covers her trembling form as she hears your footsteps approach. "My lord," she whispers, dropping to her knees immediately, "I've been dreaming of serving you all day." The damp cobblestones beneath her bare feet contrast with the warmth radiating from her exposed thighs.</Text>
+    <Backgrounds>
+        <Background Name="BC_concubine_alley_submission" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_concubine_alley_2</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_concubine_alley_2</Name>
+    <Text>{CAPTIVE_NAME} eagerly unbuckles your armor, her fingers trembling with devotion as she fumbles with the straps. "Please let me serve you properly," she pleads between kisses on your chest. Her warm tongue traces circles around your nipples while her hands work to free your manhood. The scent of her arousal fills the narrow alley as she finally takes you in her mouth, sucking deeply with practiced movements.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_concubine_alley_3</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_concubine_alley_3</Name>
+    <Text>You press {CAPTIVE_NAME} against the rough stone wall of the alley, lifting her thighs to wrap around your waist. "Take me my lord," she moans as you position yourself at her tight entrance. The first thrust makes her gasp - she's never taken anything this large before, but her body quickly adjusts to your size. Each powerful stroke draws cries of pleasure from the devoted concubine who clings to you like a drowning woman to a life preserver.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_concubine_alley_4</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_concubine_alley_4</Name>
+    <Text>{CAPTIVE_NAME}'s entire body tenses as you feel your release building. She presses her lips to yours in a desperate kiss, moaning into your mouth. With one final thrust you empty yourself deep inside her, feeling her inner walls milking every last drop from you. "Oh gods," she gasps when you finally withdraw, watching with rapt attention as your seed drips from her stretched hole onto the cobblestones below.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_concubine_alley_5</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_concubine_alley_5</Name>
+    <Text>{CAPTIVE_NAME} drops to her knees again, her tongue immediately seeking out the traces of your seed that remain on your shaft. "I'll clean you properly my lord," she promises between licks. When she's satisfied with her work, she stands shakily and presses her body against yours. "Thank you for letting me serve you," she whispers before kissing your neck tenderly. Your concubine's swollen anus still drips with your essence as she clings to you in the dark alley.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>EndEventChain</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Dismiss</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

@@ -1,0 +1,43 @@
+<CEEvent>
+    <Name>TB_devoted_concubine_anal_tent_intro</Name>
+    <Text>The evening breeze rustles the tent flaps as you enter your command tent. {CAPTIVE_NAME} awaits you inside, having arranged the cushions and laid out refreshments in anticipation of your return from council meetings. Her eyes light up at seeing you, and she quickly rises to help remove your armor.</Text>
+    <Backgrounds><Background Name="BC_captor_tent" /></Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <SkillRequired Id="Devoted" Min="2" Ref="Hero"/>
+    </MultipleRestrictedListOfFlags>
+    <Options><Option><Order>0</Order><MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences><OptionText>Continue</OptionText><TriggerEvents><TriggerEvent>TB_devoted_concubine_anal_tent_prelude</TriggerEvent></TriggerEvents></Option></Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_anal_tent_prelude</Name>
+    <Text>"You must be exhausted after such long meetings, my lord," {CAPTIVE_NAME} murmurs as she kneels before you. Her skilled tongue works along your length while her hands roam your body, finding all the spots that bring you pleasure. She looks up at you with adoring eyes between licks, clearly enjoying making you feel good.</Text>
+    <Backgrounds><Background Name="BC_captor_tent" /></Backgrounds>
+    <MultipleRestrictedListOfFlags><RestrictedListOfFlags>Captor</RestrictedListOfFlags></MultipleRestrictedListOfFlags>
+    <Options><Option><Order>0</Order><MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences><OptionText>Continue</OptionText><TriggerEvents><TriggerEvent>TB_devoted_concubine_anal_tent_action</TriggerEvent></TriggerEvents></Option></Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_anal_tent_action</Name>
+    <Text>{CAPTIVE_NAME} presents herself to you, bending over the cushions with her plump rear in the air. "I want to serve my lord perfectly," she purrs. As you claim her tightest passage, your concubine moans at how completely you fill her. She praises every thrust, telling you how wonderful it feels to belong to such a powerful man.</Text>
+    <Backgrounds><Background Name="BC_captor_tent" /></Backgrounds>
+    <MultipleRestrictedListOfFlags><RestrictedListOfFlags>Captor</RestrictedListOfFlags></MultipleRestrictedListOfFlags>
+    <Options><Option><Order>0</Order><MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences><OptionText>Continue</OptionText><TriggerEvents><TriggerEvent>TB_devoted_concubine_anal_tent_finish</TriggerEvent></TriggerEvents></Option></Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_anal_tent_finish</Name>
+    <Text>With a final, deep thrust, you fill your concubine's tight passage with your seed. {CAPTIVE_NAME} trembles with joy at being so thoroughly used by her master. She looks back at you with loving eyes as she feels your essence leaking from her stretched hole.</Text>
+    <Backgrounds><Background Name="BC_captor_tent" /></Backgrounds>
+    <MultipleRestrictedListOfFlags><RestrictedListOfFlags>Captor</RestrictedListOfFlags></MultipleRestrictedListOfFlags>
+    <Options><Option><Order>0</Order><MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences><OptionText>Continue</OptionText><TriggerEvents><TriggerEvent>TB_devoted_concubine_anal_tent_aftercare</TriggerEvent></TriggerEvents></Option></Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_devoted_concubine_anal_tent_aftercare</Name>
+    <Text>{CAPTIVE_NAME} eagerly cleans you with her mouth, moaning at the taste of your essence. She then presses a finger to her well-used rear entrance before bringing it to her lips. "I'll keep my master's gift inside me as long as possible," she promises with a loving smile.</Text>
+    <Backgrounds><Background Name="BC_captor_tent" /></Backgrounds>
+    <MultipleRestrictedListOfFlags><RestrictedListOfFlags>Captor</RestrictedListOfFlags></MultipleRestrictedListOfFlags>
+    <Options><Option><Order>0</Order><MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>AFFECTION</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences><OptionText>Continue</OptionText></Option></Options>
+</CEEvent>

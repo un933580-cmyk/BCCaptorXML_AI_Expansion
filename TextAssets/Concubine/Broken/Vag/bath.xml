@@ -1,0 +1,111 @@
+<!-- Event Chain 3: Bathtime Bliss -->
+<CEEvent>
+    <Name>BC_bathtime_concubine_part1</Name>
+    <Text>{=BCCaptor_Text_XXX}Steam rises from the large marble tub in your bathing chamber. {CAPTIVE_NAME} kneels at its edge, naked and shivering despite the heat of the room. She's already prepared everything for you: soaps, oils, towels - all laid out neatly. "Master," she says softly as you approach, "I hope this pleases you." She gestures to the water invitingly before bowing her head.</Text>
+    <BackgroundName>BC_image_captive_broken_bathtime_prep</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BC_bathtime_concubine_part2</TriggerEventName>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveService" ByLevel="+5" Ref="Hero"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+<CEEvent>
+    <Name>BC_bathtime_concubine_part2</Name>
+    <Text>{=BCCaptor_Text_XXX}You climb into the tub and relax against its edge. {CAPTIVE_NAME} immediately begins washing you with gentle hands, lathering soap across your chest and arms before moving lower to your stomach... then lower still. She hesitates when she reaches your cock which is already hard from watching her kneel so obediently before you. "S-should I wash this too, Master?" she asks innocently as she strokes it tentatively.</Text>
+    <BackgroundName>BC_image_captive_broken_washing</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BC_bathtime_concubine_part3</TriggerEventName>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveLustA" ByLevel="+5" Ref="Hero"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+<CEEvent>
+    <Name>BC_bathtime_concubine_part3</Name>
+    <Text>{=BCCaptor_Text_XXX}With a smirk, you grab {CAPTIVE_NAME}'s wrist and pull her into the tub with you. The water sloshes over the sides as she straddles your lap, her slick cunt rubbing against your cock. She gasps at the sudden contact but doesn't resist when you lift her hips and impale her on your shaft in one smooth motion. "Ahhh! M-Master!" she moans loudly, tossing her head back as you begin fucking her in the steamy water.</Text>
+    <BackgroundName>BC_image_captive_broken_sexy_time</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BC_bathtime_concubine_part4</TriggerEventName>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveLustA" ByLevel="+10" Ref="Hero"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+<CEEvent>
+    <Name>BC_bathtime_concubine_part4</Name>
+    <Text>{=BCCaptor_Text_XXX}You pound into {CAPTIVE_NAME}'s tight cunt with animalistic fervor, the water splashing everywhere as her screams echo off the chamber walls. She clings to you desperately, nails digging into your shoulders as she rides out wave after wave of pleasure. When you finally cum, it's a torrent that fills her womb completely. She collapses against your chest, panting heavily with a contented sigh. "Thank you for letting me serve you like this," she murmurs sleepily before drifting off in your arms.</Text>
+    <BackgroundName>BC_image_captive_broken_afterglow</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BC_bathtime_cleanup</TriggerEventName>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="+15" Ref="Hero"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<!-- New Cleanup Event -->
+<CEEvent>
+    <Name>BC_bathtime_cleanup</Name>
+    <Text>{=BCCaptor_Text_XXX}As you slip out from beneath the sleeping captive, she stirs slightly but doesn't wake. Her thighs are slick with your seed which has begun to leak out of her well-used pussy. You nudge her shoulder gently until she blinks awake. "Master?" she mumbles, still drowsy. Seeing what you want without needing words, she sits up and leans down, taking your softening cock into her mouth. She sucks it clean with slow, deliberate strokes of her tongue, making sure not to miss a drop before pulling away with an audible pop.</Text>
+    <BackgroundName>BC_image_captive_broken_cleanup</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName></TriggerEventName>
+            <OptionText>Continue</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveObedience" ByLevel="+15" Ref="Hero"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>

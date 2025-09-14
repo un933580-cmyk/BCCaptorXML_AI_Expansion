@@ -1,0 +1,61 @@
+<Event Name="BC_event_training_spear_win_shattered">
+    <Text>
+        Your spear grazes her thigh, sending her crashing into the mud. She lies there gasping for air as her body trembles beneath you.
+        "Please... master," she whimpers, looking up with tear-filled eyes. Her hands clutch at your legs while her breath comes in ragged gasps.
+        "I tried so hard to learn... but I failed miserably," she admits brokenly. She spreads her legs wide and pleads, "Fuck me like the useless slut I am! Break me as I deserve!"
+        The scent of her need hangs heavy as she awaits your next move. Her body trembles with a mix of fear and anticipation at what comes next.
+    </Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Force her to swallow your cock like the pathetic slut she is</OptionText>
+            <TriggerEventName>BC_event_post_victory_oral_shattered</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConferences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Fuck her cunt raw with your victorious spear</OptionText>
+            <TriggerEventName>BC_event_post_victory_pussy_shattered</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>3</Order>
+            <MultipleRestrictedListOfConferences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Claim her ass as your true victory prize</OptionText>
+            <TriggerEventName>BC_event_post_victory_ass_shattered</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_post_victory_oral_shattered">
+    <Text>
+        You grab her hair and force her to look up at you with tear-streaked eyes. The tip of your cock brushes against her lips, leaving a smear on her chin.
+        She obediently opens wide as you thrust into her throat without warning. Her fingers claw at the mud beneath her knees during the brutal facefucking session.
+        When you finally come down her throat, she swallows every drop eagerly. After cleaning your cock with her tongue, she smears the remaining cum on her body.
+        "Thank you for using my worthless mouth... master," she gasps between breaths. "I live only to serve as your human spittoon."
+    </Text>
+</Event>
+
+<Event Name="BC_event_post_victory_pussy_shattered">
+    <Text>
+        You position yourself between her legs without ceremony, pressing against her dripping slit. With one brutal thrust you sink into her depths completely.
+        Her scream of pleasure-pain fills the air as you set a punishing rhythm. "Yes! Ruin me!" she cries out, nails digging into the mud.
+        When she comes undone around you with a choked scream, your cock milks every last drop. You fill her completely before pulling out to watch your seed drip from between her swollen lips.
+        She gathers your cum in trembling fingers and brings it to her mouth eagerly. "Thank you for using my pathetic cunt... master," she whispers reverently.
+    </Text>
+</Event>
+
+<Event Name="BC_event_post_victory_ass_shattered">
+    <Text>
+        You press against her rear without warning. Her scream as you breach her is one of pure ecstasy as you stretch her open completely.
+        "Destroy my slutty hole, master!" she begs between gasps, nails raking the ground beneath her. The sound of skin slapping skin fills the air during your brutal claiming.
+        You hold her hips tightly as you empty yourself inside her well-used asshole. When you withdraw, your seed leaks from between her cheeks onto the mud below.
+        She gathers it with eager fingers and brings them to her mouth reverently. "Thank you for using my worthless ass... master," she murmurs before licking her fingers clean.
+    </Text>
+</Event>

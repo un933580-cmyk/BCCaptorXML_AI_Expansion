@@ -1,0 +1,190 @@
+<!-- Event 1: Preparation -->
+<CEEvent>
+    <Name>TB_devoted_concubine_prepare_anal</Name>
+    <Text>{CAPTIVE_NAME} kneels in your private chamber, her bare skin glistening with sweat as she awaits you. The scent of incense fills the air, and she has prepared herself meticulously—her body clean, her anus lubed for your pleasure. She looks up at you with adoration, her fingers tracing slow circles around her stretched rim. "My lord," she whispers, "I have waited all day to serve you. Will you take me now?"</Text>
+    <Backgrounds>
+        <Background Name="TB_devoted_anal_prep" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 2: Foreplay -->
+<CEEvent>
+    <Name>TB_devoted_concubine_foreplay_anal</Name>
+    <Text>{CAPTIVE_NAME} crawls toward you, her lips brushing your thighs before taking your cock into her warm mouth. She sucks deeply, her tongue swirling around the head as she moans in pleasure. One hand slips between her legs, teasing her own wetness while the other massages her lubed anus. "I love how you taste," she gasps between bobbing her head. "Every part of me aches for you, my lord."</Text>
+    <Backgrounds>
+        <Background Name="TB_devoted_anal_suck" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 3: Anal Intercourse -->
+<CEEvent>
+    <Name>TB_devoted_concubine_anal_sex</Name>
+    <Text>{CAPTIVE_NAME} positions herself on all fours, her lubed anus clenching in anticipation. As you press inside, she cries out in ecstasy, her body trembling at the intrusion. "Yes! Deeper, my lord—fill me completely!" She arches her back, pushing against your thrusts with desperate need. Her fingers dig into the silk sheets as she takes every inch, her moans growing louder with each plunge.</Text>
+    <Backgrounds>
+        <Background Name="TB_devoted_anal_thrust" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 4: Climax -->
+<CEEvent>
+    <Name>TB_devoted_concubine_anal_climax</Name>
+    <Text>With a final thrust, you spill inside {CAPTIVE_NAME}'s tight anus, her body shuddering as she feels your heat. She collapses onto the bed, gasping for air but grinning in bliss. "Oh gods... so much..." She reaches back to feel your cum leaking from her stretched hole, then licks her fingers with a contented sigh. "I love when you fill me like this. It's all I've ever wanted."</Text>
+    <Backgrounds>
+        <Background Name="TB_devoted_anal_aftermath" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 5: Aftercare -->
+<CEEvent>
+    <Name>TB_devoted_concubine_anal_aftercare</Name>
+    <Text>{CAPTIVE_NAME} kneels again, her cum-filled anus still twitching from your touch. She takes your softening cock into her mouth, cleaning it with reverent licks before moving to her own hole—tasting where you've marked her inside. "Thank you for using me, my lord," she murmurs between laps. "I'm yours completely... forever." Her fingers trace the mess on her thighs as she gazes at you with adoration.</Text>
+    <Backgrounds>
+        <Background Name="TB_devoted_anal_clean" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Chain_2 -->
+<!-- Event 1: The Hidden Encounter -->
+<CEEvent>
+    <Name>TB_concubine_hidden_anal_desire</Name>
+    <Text>{CAPTIVE_NAME} slips into your study late at night, her bare feet silent on the cold stone floor. She has snuck away from the harem to be with you again, her body trembling with need. "I couldn't wait," she admits, pressing herself against you. "Every time I think of your cock in my ass, I ache for it." Her fingers tease her own anus through her silken robes, already slick with anticipation.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_study_anal" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 2: The Taste of Forbidden Fruit -->
+<CEEvent>
+    <Name>TB_concubine_steal_anal_prep</Name>
+    <Text>{CAPTIVE_NAME} kneels before you, her hands reaching for your belt. She frees your cock with practiced ease, then takes it into her mouth, sucking deeply as she moans around the shaft. One hand slides between her legs, rubbing herself through the thin fabric of her dress. "I stole these oils just for us," she confesses, licking your length before reaching for a small vial. "Let me show you how much I love being your filthy little concubine."</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_steal_anal" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 3: The Forbidden Claim -->
+<CEEvent>
+    <Name>TB_concubine_forbidden_anal_sex</Name>
+    <Text>{CAPTIVE_NAME} bends over your desk, lifting her robes to reveal her lubed anus. "Take me like this," she begs, spreading herself for you. As you press inside, she whimpers in delight, her fingers gripping the edge of the table. "Yes... ruin my tight little hole. Make sure everyone knows I belong to you." Her moans fill the room as you pound into her, her body rocking with each thrust.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_forbidden_anal" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 4: The Forbidden Release -->
+<CEEvent>
+    <Name>TB_concubine_forbidden_anal_climax</Name>
+    <Text>You spill deep inside {CAPTIVE_NAME}'s anus, her body shuddering as she feels your heat. She collapses onto the desk, gasping for air but smiling in bliss. "Gods... I can feel you dripping out of me," she murmurs, reaching back to touch where you've marked her. Her fingers come away slick with cum and lube, which she sucks clean with a satisfied sigh. "I love being your dirty concubine."</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_forbidden_aftermath" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 5: The Forbidden Aftermath -->
+<CEEvent>
+    <Name>TB_concubine_forbidden_anal_aftercare</Name>
+    <Text>{CAPTIVE_NAME} kneels before you again, her cum-filled anus still twitching from your touch. She takes your softening cock into her mouth, cleaning it with reverent licks before moving to her own hole—tasting where you've marked her inside. "Thank you for using me like this," she murmurs between laps. "I'm yours completely... forever." Her fingers trace the mess on her thighs as she gazes at you with adoration.</Text>
+    <Backgrounds>
+        <Background Name="TB_concubine_forbidden_clean" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

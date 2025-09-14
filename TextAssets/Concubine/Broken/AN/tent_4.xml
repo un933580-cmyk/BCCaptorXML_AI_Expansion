@@ -1,0 +1,62 @@
+<CEEvent>
+    <Name>TB_command_tent_preparations</Name>
+    <Text>{CAPTIVE_NAME} waits for you in your command tent, kneeling perfectly still on the floor cushions with her hands resting palms-up on her thighs. Her breathing is slow and even as she stares at the ground, waiting for your command. The tent flap blows gently in the night breeze, bringing with it the scent of campfires and distant battlefields. When you enter, she doesn't move - just remains perfectly still like the obedient concubine she was trained to be.</Text>
+    <Backgrounds><Background Name="NK_command_tent"/></Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanBeTriggeredAnyTime</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText><TriggerEventName>TB_command_tent_undressing</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_command_tent_undressing</Name>
+    <Text>{CAPTIVE_NAME} doesn't wait for instruction - she immediately begins stripping off her simple serving girl's dress, folding each piece neatly before placing them beside the cushions. When she stands naked before you with nothing but her collar, she smiles shyly while admiring your uniform. "Your concubine is ready to serve in any way you desire," she says sweetly while tracing a finger along the buttons of your jacket. She kneels again immediately after speaking, waiting for your next command.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText><TriggerEventName>TB_command_tent_preparation</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_command_tent_preparation</Name>
+    <Text>{CAPTIVE_NAME} positions herself on all fours across your campaign bed, her head hanging down between her arms while she waits. The moonlight through the tent opening casts shadows across her trembling form as she spreads her cheeks with both hands. "Please use me master," she whimpers while glancing back at you over her shoulder. She wiggles her hips invitingly, eager to prove her worth as your personal property. The sound of distant shouting from the camp makes her shiver with anticipation.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText><TriggerEventName>TB_command_tent_anal</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_command_tent_anal</Name>
+    <Text>{CAPTIVE_NAME} gasps as you push into her tight asshole, her fingers gripping the blankets beneath her. "Yes master! Fuck your broken concubine!" she cries while pushing back against every thrust. Her body moves perfectly with yours, her hole stretching to accommodate your size as you claim what's rightfully yours. The bed creaks under your weight as you take her hard and fast, her breathy moans filling the tent along with the sounds of camo outside.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText><TriggerEventName>TB_command_tent_cleanup</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_command_tent_cleanup</Name>
+    <Text>{CAPTIVE_NAME} collapses onto the bed after you're done, her asshole twitching around your softening cock. She reaches back to feel where you just marked her territory before rolling over to kneel between your legs. "Let me clean my master," she murmurs while taking your spent cock into her mouth again. When she pulls away, she grins up at you - "Your concubine lives only to serve and please you."</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <SkillConsequence Id="Obedience" ChangeType="Increase" Value="10"/>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText></Option>
+    </Options>
+</CEEvent>

@@ -1,0 +1,99 @@
+<CEEvent>
+    <Name>oral_devoted_concubine_tent_approach</Name>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>oral_devoted_concubine_tent_approach</EventName>
+            <EventWeight>100</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <OptionText>{=BCCaptor_Text_14001}Continue</OptionText>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_14002}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired><SkillRequired Id="Devoted" Min="1" Ref="Hero"/></SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <Description>
+        After a hard-fought battle, you retire to your tent to find your devoted concubine waiting for you. The scent of incense fills the air as she kneels before you, her robes slightly parted to reveal tantalizing glimpses of her skin.
+    </Description>
+</CEEvent>
+
+<CEEvent>
+    <Name>oral_devoted_concubine_tent_action</Name>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>oral_devoted_concubine_tent_action</EventName>
+            <EventWeight>100</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <OptionText>{=BCCaptor_Text_14003}Continue</OptionText>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_14004}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired><SkillRequired Id="Devoted" Min="1" Ref="Hero"/></SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <Description>
+        She begins to undress you slowly, her fingers tracing patterns on your skin as she murmurs words of devotion. "My lord has fought valiantly today," she whispers. "Let me soothe his body and spirit."
+    </Description>
+</CEEvent>
+
+<CEEvent>
+    <Name>oral_devoted_concubine_tent_culmination</Name>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>oral_devoted_concubine_tent_culmination</EventName>
+            <EventWeight>100</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <OptionText>{=BCCaptor_Text_14005}Continue</OptionText>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_14006}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired><SkillRequired Id="Devoted" Min="1" Ref="Hero"/></SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <Description>
+        She takes you into her mouth with reverent care, working you slowly but skillfully. Her eyes never leave yours as she pleasures you, her devotion evident in every movement. When you finally reach your climax, she drinks it down eagerly.
+    </Description>
+</CEEvent>
+
+<CEEvent>
+    <Name>oral_devoted_concubine_tent_cleanup</Name>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>oral_devoted_concubine_tent_cleanup</EventName>
+            <EventWeight>100</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <OptionText>{=BCCaptor_Text_14007}Continue</OptionText>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_14008}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired><SkillRequired Id="Devoted" Min="1" Ref="Hero"/></SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <Description>
+        She licks you clean with tender care, then rests her head against your thigh. "Was that satisfactory, my lord?" she asks softly. "I would do anything to see you happy."
+    </Description>
+</CEEvent>

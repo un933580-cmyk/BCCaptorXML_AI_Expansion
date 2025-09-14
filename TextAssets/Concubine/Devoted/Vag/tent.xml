@@ -1,0 +1,67 @@
+<CEEvent>
+    <Name>DevotedConcubineTentArrival</Name>
+    <Description>{CAPTIVE_NAME} the concubine waits outside your command tent, her body trembling with anticipation. The battle flags flapping in the wind provide a solemn backdrop as she kneels on the dirt path, eyes downcast but filled with devotion.</Description>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>DevotedConcubineTentPreparation</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineTentPreparation</Name>
+    <Description>The concubine's hands shake as she helps you remove your commander's armor, whispering "Master may command me... I live only to serve." She gently caresses your chest while undressing you, her breath hot against your skin. Her own clothing comes off in a flurry of devotion, revealing her trembling form.</Description>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>DevotedConcubineTentCoupling</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineTentCoupling</Name>
+    <Description>{CAPTIVE_NAME} eagerly mounts you on the field cot, her hips moving in perfect rhythm as she moans "Only your cock makes me feel complete... I'll take all of you, master." The tent walls shake with her passionate movements, her body glistening with sweat as she takes each brutal thrust with a cry of pleasure.</Description>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>DevotedConcubineTentCulmination</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineTentCulmination</Name>
+    <Description>With a final thrust you empty yourself deep inside her, her walls milking every last drop as she gasps "Yes! Fill my womb with your seed... I want to carry our child!" Your release triggers her own climax, her body convulsing around yours as she collapses onto your chest.</Description>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>DevotedConcubineTentAftercare</EventName>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubineTentAftercare</Name>
+    <Description>The concubine gently cleans your spent member with her tongue, whispering "Your taste is my nectar... I'll never get enough of you." She then collects the semen leaking from between her thighs, sucking it from her fingers with a blissful expression before pressing kisses to your hands. "Thank you for another perfect moment, master - may I stay by your side forever?"</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+20" Ref="Hero"/>
+    </SkillsToLevel>
+</CEEvent>

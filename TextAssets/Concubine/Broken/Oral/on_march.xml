@@ -1,0 +1,73 @@
+<CEEvent>
+    <Name>BC_event_street_service_intro</Name>
+    <Text>{CAPTIVE_NAME} waits obediently on the side of a dirt road, kneeling in the dust. She glances nervously at passing soldiers but remains motionless until you approach. The warm afternoon sun beats down on her bare shoulders as she looks up with pleading eyes.</Text>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_street_service_act</Name>
+    <Text>{CAPTIVE_NAME} eagerly unbuckles your belt with trembling hands, her breath quickening. "My lord," she whispers, "please allow me to serve you." She takes your cock into her warm mouth without hesitation, working it with practiced motions while gazing up at you in worshipful admiration.</Text>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_street_service_finish</Name>
+    <Text>With a groan, you release into {CAPTIVE_NAME}'s throat. She swallows greedily, milking you with her tongue until every last drop is inside her. A thin trickle escapes from the corner of her mouth as she pulls back, licking her lips in satisfaction. "Thank you for allowing me to taste you, my lord," she murmurs.</Text>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveLustA" ByLevel="R 10 20" Ref="Hero" Color="Yellow" HideNotification="true"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_street_service_aftermath</Name>
+    <Text>{CAPTIVE_NAME} leans forward and gently cleans your cock with her tongue, then presses a kiss to the tip. "I am honored to serve you in this way," she says softly, her eyes shining with devotion. She remains kneeling until you dismiss her with a nod.</Text>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

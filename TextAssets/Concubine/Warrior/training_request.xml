@@ -1,0 +1,61 @@
+<Event>
+    <Name>FanaticallyDevoted_RequestJointTraining</Name>
+    <Text>The devoted concubine steps before you, her practice blade still glistening with sweat from recent drills. "My love... I've trained alone for too long," she says with quiet urgency, gripping your arm with warm fingers. "Please spar with me - only through watching and learning from you can I truly improve." Her eyes burn with determination mixed with vulnerability, her body language radiating both eagerness and nervous respect. "I need to train alongside you... to be worthy of protecting you in battle."</Text>
+    <BackgroundName>BC_image_fanatical_request_training</BackgroundName>
+    <NotificationName>FanaticallyDevoted_TrainingRequest</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <Flag>Companion</Flag>
+        <Flag>CanOnlyBeTriggeredByOtherEvent</Flag>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <Consequence>Continue</Consequence>
+            </MultipleRestrictedListOfConsequences>
+            <Text>"Very well... let us begin immediately."</Text>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>FanaticallyDevoted_PrivateSparringSession</EventName>
+                    <EventWeight>100</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurrence>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</Event>
+
+<Event>
+    <Name>Shattered_TrainingRequest_SubmissiveBlade</Name>
+    <Text>The shattered concubine presses her forehead to the ground at your feet, her practice blade lying unused beside her. "Master... this pathetic weapon needs your training," she whimpers, voice trembling with complete submission. "Please mold me into whatever blade you desire - I'll serve as both sword and slut for your amusement." Her body shakes slightly as she offers herself utterly, seeing combat skill as just another way to please her owner. "Make me your perfect weapon... use my body however you wish while teaching me to fight."</Text>
+    <BackgroundName>BC_image_shattered_training_request_submissive</BackgroundName>
+    <NotificationName>Shattered_TrainingRequest_SubmissiveBlade</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <Flag>Companion</Flag>
+        <Flag>CanOnlyBeTriggeredByOtherEvent</Flag>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <Consequence>Continue</Consequence>
+            </MultipleRestrictedListOfConsequences>
+            <Text>"Very well... let us begin immediately."</Text>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>Shattered_SubmissiveBladeTraining</EventName>
+                    <EventWeight>100</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqConfigCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</Event>

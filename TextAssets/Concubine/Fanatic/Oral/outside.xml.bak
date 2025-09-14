@@ -1,0 +1,106 @@
+<CEEvent>
+    <Name>Concubine_Minor_Oral_1</Name>
+    <Text>{=BCCaptor_Text}Your devoted concubine approaches you as the sun dips below the horizon, her sleek form moving with predatory grace. She kneels before you without hesitation, her eyes filled with adoration and hunger for your attention. "Master," she murmurs, her voice thick with submission, "I've spent all day protecting what's yours... let me now serve you in a different way." Her hands already move to unfasten your armor, her breath coming faster as she anticipates pleasing you.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Allow your concubine to pleasure you.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Pink"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <NextEventName>Concubine_Minor_Oral_2</NextEventName>
+</CEEvent>
+
+<CEEvent>
+    <Name>Concubine_Minor_Oral_2</Name>
+    <Text>{=BCCaptor_Text}Your concubine wastes no time in taking your cock into her warm, wet mouth, her skilled tongue swirling around the head as she bobs eagerly up and down. The scent of her arousal is thick in the air as she serves you with religious devotion, her free hand reaching between her own legs to pleasure herself at the thought of pleasing her master. "Mmm... Master tastes so good," she moans between slurps, her eyes locked onto yours with worshipful intensity.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Praise your concubine's oral skills.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="OralPleasure" ByLevel="R 1 2" Ref="Hero" Color="Pink"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>30</WeightedChanceOfOccurring>
+    <NextEventName>Concubine_Minor_Oral_3</NextEventName>
+</CEEvent>
+
+<CEEvent>
+    <Name>Concubine_Minor_Oral_3</Name>
+    <Text>{=BCCaptor_Text}With a throaty moan of pleasure, you feel yourself approaching release as your concubine redoubles her efforts. "Master... please," she whimpers around your cock, "fill my mouth with your seed." Her words send you over the edge - you grab her head and thrust deep into her throat as you come hard, flooding her hungry mouth with thick ropes of cum. She swallows eagerly, drinking down every last drop before pulling off with a wet pop.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Watch your concubine savor your cum.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="SemenAppreciation" ByLevel="R 1 3" Ref="Hero" Color="Pink"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>40</WeightedChanceOfOccurring>
+    <NextEventName>Concubine_Minor_Oral_4</NextEventName>
+</CEEvent>
+
+<CEEvent>
+    <Name>Concubine_Minor_Oral_4</Name>
+    <Text>{=BCCaptor_Text}Your concubine sits back on her heels, licking the last traces of your cum from her lips with a contented sigh. She runs a hand through her sweat-dampened hair and looks up at you with adoring eyes. "That was perfect, Master," she whispers. "I feel so honored to serve you in such intimate ways." She then surprises you by suddenly standing and straddling your lap, pressing her still-aroused body against yours.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptiveAffection</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text}Allow your concubine to feel close to you.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R 2 4" Ref="Hero" Color="Pink"/>
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+</CEEvent>

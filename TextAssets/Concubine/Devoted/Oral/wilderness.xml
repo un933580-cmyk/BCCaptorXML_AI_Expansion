@@ -1,0 +1,98 @@
+<CEEvent>
+    <Name>Devoted_oral_invite_wilderness</Name>
+    <Text>{CAPTIVE_NAME} finds you resting by campfire after patrol. She kneels before you, her eyes bright with adoration as she unties the sash of her simple peasant dress. "My master," she purrs, letting the fabric pool at her waist to reveal her naked breasts and the smooth mound below, "the scent of you... it drives me wild out here under the open sky." Her fingers trace your thigh while she pushes her hips forward invitingly. "Would you allow this devoted concubine use this hungry mouth to worship what makes you a man?"</Text>
+    <Backgrounds>
+        <Background Name="TB_wilderness_campfire_naked" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsMale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <Text>Let your devoted concubine serve you.</Text>
+            <Consequences>
+                <NextEvent>Devoted_oral_action_wilderness</NextEvent>
+                <!-- Add Devotion gain/relationship effects here -->
+            </Consequences>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent> <!-- Explicit act happens next event -->
+    <WeightedChanceOfOccurring>5</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_oral_action_wilderness</Name>
+    <Text>{CAPTIVE_NAME} wastes no time, her warm hands freeing you through your trousers. She moans softly as she takes you fully into her wet mouth with practiced ease, her tongue swirling along your shaft while her fingers gently massage your balls. "Mmm... my master's cock tastes so good here," she mumbles around your length, gazing up at you with worshipful eyes. The cool air contrasts sharply against the heat of her mouth as she bobs rhythmically, taking you deeper each time her throat relaxes completely.</Text>
+    <Backgrounds>
+        <Background Name="TB_wilderness_campfire_oral" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>TriggeredByEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <Text>Enjoy your devoted concubine's service.</Text>
+            <Consequences>
+                <NextEvent>Devoted_oral_finish_wilderness</NextEvent>
+                <!-- Add arousal increase/stamina reduction here -->
+            </Consequences>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_oral_finish_wilderness</Name>
+    <Text>A low groan escapes your throat as the familiar pressure builds. "Cum for me, master," {CAPTIVE_NAME} whispers urgently before taking you impossibly deep again, her throat muscles working rhythmically around the head of your cock just as you explode. Warmth floods her mouth and she swallows greedily, moaning in bliss at tasting her master's seed. "Mmm... yes, fill my whore mouth," she gasps, pulling back slightly so thick ropes of semen spill over her lips onto her chin before she licks them clean. She keeps sucking gently to draw out the last pulses.</Text>
+    <Backgrounds>
+        <Background Name="TB_wilderness_campfire_oral_finish" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>TriggeredByEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <Text>Watch your devoted concubine savor you.</Text>
+            <Consequences>
+                <NextEvent>Devoted_oral_aftercare_wilderness</NextEvent>
+                <!-- Add sperm attributes, post-orgasm effects -->
+            </Consequences>
+        </Option>
+    </Options>
+    <SoundName>bccaptor/event/creampie_slurp</SoundName>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>Devoted_oral_aftercare_wilderness</Name>
+    <Text>{CAPTIVE_NAME} sits back on her heels, wiping the last traces of semen from your softening cock with tender strokes using a clean rag she pulled from her discarded dress. She gently cleans herself too, breathing heavily but smiling contentedly. "Thank you for sharing this gift with me again, my master," she murmurs softly, pressing her cheek against your thigh in devotion. "Feeling my mouth serve you... knowing I belong to you completely... it's everything I need." She stays kneeling beside you quietly now, radiating satisfaction from pleasing her owner.</Text>
+    <Backgrounds>
+        <Background Name="TB_wilderness_campfire_aftercare" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>TriggeredByEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <Text>(No dialog needed)</Text>
+            <Consequences>
+                <!-- End chain, apply long-term devotion boosts here -->
+                <AddAttributeToCaptive>Devotion=0.2</AddAttributeToCaptive>
+            </Consequences>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+</CEEvent>

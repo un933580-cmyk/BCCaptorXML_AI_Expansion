@@ -1,0 +1,108 @@
+<CEEvent>
+    <Name>BC_event_devoted_oralsex_1</Name>
+    <Text>{=BCCaptor_Text_14015}You return to your quarters to find {CAPTIVE_NAME}, your devoted concubine, already kneeling before you. She looks up with adoring eyes, her lips slightly parted in anticipation. "My lord," she murmurs, "I have waited all day for this moment. Let me worship you." Her hands reach for your belt, eager to undress you.</Text>
+    <BackgroundName>BC_captor_sex_hbo_1</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>DevotedConcubinePresent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>10</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>TriggerEvent</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_14016}Continue</OptionText>
+            <TriggerEventName>BC_event_devoted_oralsex_2</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<!-- Event 2: Процесс минета -->
+<CEEvent>
+    <Name>BC_event_devoted_oralsex_2</Name>
+    <Text>{=BCCaptor_Text_14017}With a soft sigh, {CAPTIVE_NAME} takes you into her mouth, her tongue swirling around your shaft as she begins to bob her head. Her hands grip your thighs, holding herself steady as she sucks eagerly. Every now and then, she glances up at you with those pleading eyes, silently begging for your approval.</Text>
+    <BackgroundName>BC_captor_sex_hbo_2</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>DevotedConcubinePresent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>10</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>TriggerEvent</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_14018}Continue</OptionText>
+            <TriggerEventName>BC_event_devoted_oralsex_3</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<!-- Event 3: Эякуляция -->
+<CEEvent>
+    <Name>BC_event_devoted_oralsex_3</Name>
+    <Text>{=BCCaptor_Text_14019}As your pleasure builds, {CAPTIVE_NAME} redoubles her efforts, her lips sealed tightly around you. With a muffled groan, she swallows every drop as you climax into her mouth. She keeps sucking gently until you're spent, then pulls away with a satisfied smile, her chin glistening.</Text>
+    <BackgroundName>BC_captor_sex_hbo_3</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>DevotedConcubinePresent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>10</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>TriggerEvent</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_14020}Continue</OptionText>
+            <TriggerEventName>BC_event_devoted_oralsex_4</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<!-- Event 4: Завершение -->
+<CEEvent>
+    <Name>BC_event_devoted_oralsex_4</Name>
+    <Text>{=BCCaptor_Text_14021}{CAPTIVE_NAME} licks her lips, savoring the taste of you. "Thank you, my lord," she whispers, bowing her head in submission. "It is my honor to serve you thus." She takes one last tender kiss before sitting back on her heels, eyes still fixed on yours, waiting for your next command.</Text>
+    <BackgroundName>BC_captor_sex_hbo_4</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>DevotedConcubinePresent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>10</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_14022}Finish the encounter.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

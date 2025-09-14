@@ -1,0 +1,83 @@
+<Event>
+    <Id>BC_event_male_sex_ttf_concubine_intro</Id>
+	<Text>{=BCCaptor_Text_20001}The tall grasses rustle as your concubine-bodyguard moves toward you across the meadow. Clad in polished steel plate armor that glints in the sunlight, she approaches with the silent grace of an elite warrior. Her emerald eyes lock onto yours immediately, and her breathing quickens at the sight of her master. She kneels before you in the soft grass without hesitation, her armored hands moving to unbuckle her greaves and pauldrons. "Master," she purrs as she arrives at your side, voice dripping with submission, "your concubine has returned from patrol. I've been thinking about your cock all day." Her armor clatters to the ground as she strips completely bare in the open field, revealing her slender but toned body - every muscle earned through battles now used solely for your pleasure in this secluded meadow.</Text>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_male_sex_ttf_concubine_intro</EventName>
+            <EventWeight>10</EventWeight>
+            <EventUseConditions>True</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20002}Give her what she wants</OptionText>
+        </Option>
+    </Options>
+</Event>
+
+<Event>
+    <Id>BC_event_male_sex_ttf_concubine_worship</Id>
+    <Text>{=BCCaptor_Text_20003}Your concubine doesn't wait for the command - the moment you free your cock in the open meadow, she's already sliding down between your thighs with a needy whimper. Completely bare after stripping her armor in the field, her smooth skin glistens with sweat as her skilled hands stroke your length reverently beneath the sun. Her tongue flicks against the head, tasting pre-cum with obvious delight while her full breasts press against your inner thighs, warmed by the summer breeze. "Master," she moans between licks, voice dripping with submission, "your concubine lives only to serve this glorious cock." The distant sound of birdsong accompanies her slurping as she takes you deeper, throat constricting deliciously around your shaft.</Text>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_male_sex_ttf_concubine_worship</EventName>
+            <EventWeight>10</EventWeight>
+            <EventUseConditions>True</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20004}Grip her head and fuck her throat</OptionText>
+        </Option>
+    </Options>
+</Event>
+
+<Event>
+    <Id>BC_event_male_sex_ttf_concubine_throat</Id>
+    <Text>{=BCCaptor_Text_20005}Your hands clamp down on her bare shoulders, using them as handles to piston your cock in and out of her gagging throat beneath the open sky. The concubine's eyes water beautifully as she chokes on your length, saliva bubbling from her stretched lips while her naked body trembles in the warm meadow grasses. Her fingers scrabble at your thighs, desperate for more punishment even as tears streak down her face to mingle with the sweat glistening between her perfect breasts. The skilled warrior is reduced to a sniffling mess beneath you - every muscle earned through battles now trembling in ecstasy as she's thoroughly used by her master among nature.</Text>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_male_sex_ttf_concubine_throat</EventName>
+            <EventWeight>10</EventWeight>
+            <EventUseConditions>True</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20006}Spill your load down her throat</OptionText>
+        </Option>
+    </Options>
+</Event>
+
+<Event>
+    <Id>BC_event_male_sex_ttf_concubine_cleanup</Id>
+    <Text>{=BCCaptor_Text_20007}With a final, shuddering thrust you empty yourself directly down your concubine's gullet. She swallows eagerly in the open meadow, her naked body arching with pleasure as she takes every drop of your seed beneath the sun. Once you pull out she immediately licks your shaft clean from tip to base before presenting herself - face upturned, tongue out like an obedient pet begging for more. "Thank you Master," she breathes, cum dripping from her chin onto her heaving breasts as a gentle breeze carries away her submission.</Text>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_male_sex_ttf_concubine_cleanup</EventName>
+            <EventWeight>10</EventWeight>
+            <EventUseConditions>True</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <Options>
+        <Option>
+            <Order>999</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_20008}Send her back to guard duties</OptionText>
+        </Option>
+    </Options>
+</Event>

@@ -1,0 +1,134 @@
+<CEEvent>
+    <Name>TB_concubine_bodyguard_anal_preparation</Name>
+    <Text>{=TB_Text_20456}You hear the familiar footsteps of your devoted concubine approaching your tent. The fabric rustles as she ducks inside, her muscular frame moving with surprising grace for such a powerful warrior. She removes her armor piece by piece, revealing toned thighs and pert breasts beneath her leather top. Her golden eyes lock onto yours with absolute adoration, her lips parting slightly to show eager anticipation. "My lord," she breathes, dropping to one knee before you, "I've come to serve your every need tonight." She places a hand between your legs, already feeling your growing erection through your pants.</Text>
+    <Backgrounds>
+        <Background Name="BC_image_concubine_bodyguard_undressing"/>
+    </Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TB_Text_20457}Take her clothes off and prepare for your pleasure</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_bodyguard_anal_preparation_2</Name>
+    <Text>{=TB_Text_20458}She removes your clothes with practiced ease, her strong fingers working the laces of your pants as you sit back and enjoy the show. Her own body is now completely bare to you - toned from years of training but still feminine in all the right ways. She kneels between your legs, taking your already hard cock into her mouth while looking up at you with worshipful eyes. "You taste so good, my lord," she murmurs around your shaft before deepthroating you expertly. Her hand slides between her own thighs to rub herself as she works on you.</Text>
+    <Backgrounds>
+        <Background Name="BC_image_concubine_blowjob_bodyguard"/>
+    </Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TB_Text_20459}Prepare her ass for your cock</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_bodyguard_anal_sex_start</Name>
+    <Text>{=TB_Text_20460}You lay her on her back, spreading those toned thighs wide to reveal her tight pink hole. She moans at the feeling of your fingers stretching her asshole, pushing her hips up to meet you eagerly. "Please, my lord," she begs, running her hands over her own body as she watches you position yourself, "fill me with your magnificent cock." You press the head against her pucker and push forward slowly, watching as inch after inch disappears into her willing body while you hold her gaze.</Text>
+    <Backgrounds>
+        <Background Name="BC_image_concubine_anal_missionary_bodyguard"/>
+    </Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TB_Text_20461}Fuck her ass hard and deep in this intimate position</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_bodyguard_anal_sex_cumshot</Name>
+    <Text>{=TB_Text_20462}Your thrusts grow harder and faster as you feel yourself approaching climax, your balls slapping against her ass with each stroke. She wraps those toned legs around your waist to pull you deeper inside while gazing up at you adoringly. "I'm yours!" she cries out between gasps. "Fuck my ass! Fill me with your seed, master!" Her hands grip the sheets tightly as your cock twitches deep inside her, pumping rope after rope of hot cum into her tight hole while she arches her back in ecstasy.</Text>
+    <Backgrounds>
+        <Background Name="BC_image_concubine_anal_cum_missionary_bodyguard"/>
+    </Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TB_Text_20463}Make her clean up your cum from both ends in this intimate position</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_bodyguard_anal_cleanup</Name>
+    <Text>{=TB_Text_20464}She turns around immediately, crawling back to you with lust-glazed eyes and cum dripping from her ass. "Let me taste what I've done for you," she pleads before taking your still-hard cock into her mouth again, sucking out the last traces of cum while massaging your balls. Then without prompting she spreads her own cheeks and begins licking your seed from her asshole with eager strokes of her tongue.</Text>
+    <Backgrounds>
+        <Background Name="BC_image_concubine_cleanup_bodyguard"/>
+    </Backgrounds>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=TB_Text_20465}Let her worship you some more before sleep</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

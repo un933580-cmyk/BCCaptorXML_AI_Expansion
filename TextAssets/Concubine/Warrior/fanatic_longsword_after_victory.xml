@@ -1,0 +1,56 @@
+<Event Name="BC_event_training_greatsword_win">
+    <Text>
+        Your massive greatsword cleaves through her guard, knocking the weapon from her grasp. She staggers backward, armored plates rattling as she trips over her own feet and lands hard on her back in the training yard dirt.
+        "You've bested me again, my lord," she pants, propping herself up on her elbows to look at you with adoring eyes. The way her fingers dig into the earth suggests she's resisting the urge to crawl toward you. "As is your right as victor... I am yours to claim. Take me however you wish."
+    </Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Make her worship you properly with that mouth</OptionText>
+            <TriggerEventName>BC_event_post_victory_oral_devoted</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConferences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Take her like a true champion on the field of honor</OptionText>
+            <TriggerEventName>BC_event_post_victory_greatsword_dominant</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>3</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Claim her most intimate prize as your spoils of war</OptionText>
+            <TriggerEventName>BC_event_post_victory_anal_devoted</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_post_victory_greatsword_dominant">
+    <Text>
+        You tower over her fallen form, one foot planted on either side of her hips as you loosen your belt. The concubine watches with rapt attention, breath hitching when you free your cock. She spreads her legs wider in invitation.
+        "Please... take me," she whimpers, reaching up to help guide you inside her dripping cunt. You don't need the assistance but appreciate the eagerness as you sink deep into her tight, wet heat. Her back arches off the ground with each powerful thrust, armor plates clattering against the dirt beneath.
+        "Yes! Fuck me like this!" she gasps, fingers clutching at your thighs while her other hand rubs frantically between her legs. The sound of skin slapping together and her wet pussy taking every inch fills the empty training yard until you both reach completion together, collapsing onto the grass in a sweaty tangle with your cock still buried deep inside her.
+    </Text>
+</Event>
+
+<Event Name="BC_event_post_victory_anal_devoted">
+    <Text>
+        She trembles as you press your cock against her tight asshole, then moans when it breaches her. Her fingers claw at the dirt beneath while you work yourself deeper into her virgin backdoor. "So deep... my lord," she gasps, her body quivering around your length.
+        Your thrusts grow rougher and faster until suddenly her pussy gushes with pleasure as she screams in climax. The sensation triggers your own release - you slam balls-deep and pump thick ropes of cum directly into her bowels. Her tight asshole spasms around you as she feels every pulse filling her most intimate place.
+        "Yes! Fill my ass!" she begs between ragged breaths, her body shuddering with pleasure. You continue thrusting through your orgasm until every last drop has been spent deep inside her. When you finally pull out, a trickle of cum leaks from her stretched hole onto the dirt beneath her.
+    </Text>
+</Event>
+
+<Event Name="BC_event_post_victory_oral_devoted">
+    <Text>
+        You seize her hair and yank her head back until she's looking up at you from her position on the ground. Her lips part instantly in invitation, tongue flicking out to wet them eagerly.
+        "Show me your devotion," you command as you guide yourself into her welcoming mouth. She takes you all the way down without hesitation, nose pressing against your skin while her hands grab your thighs for support. The sight of her throat bulging around your cock makes your balls tighten almost immediately.
+        You hold nothing back, using her mouth with the same intensity you fought the duel until release comes in a powerful surge down her throat. When it's over, she stays perfectly still for several moments before finally pulling away with a satisfied sigh and licking her lips clean of every drop.
+    </Text>
+</Event>

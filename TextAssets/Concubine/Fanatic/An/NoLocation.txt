@@ -1,0 +1,95 @@
+<CEEvent>
+    <Name>TB_captor_anal_devoted_concubine_appearance</Name>
+    <Text>{=BCCaptor_Text_11043}Your concubine kneels before you in full warrior's garb, the leather armor hugging her feminine curves like a second skin. Her piercing blue eyes burn with unyielding devotion as she gazes up at you - her master and reason for existence. With trembling hands, she begins removing each piece of armor, revealing the toned muscles beneath that have been trained to protect your life. When finally naked, her small but perfectly proportioned body shines with sweat from the effort, her nipples already hard in anticipation of your touch. The scent of her arousal fills the room as she presents herself completely - heart, mind, and body - to you.</Text>
+    <BackgroundName>BC_image_sex_mf_anal_devoted_concubine_appearance</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_11044}Command your concubine to worship your body</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>50</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_anal_devoted_concubine_prelude</Name>
+    <Text>{=BCCaptor_Text_11045}Her breath comes in ragged gasps as she kneels between your legs, her tongue working your cock with desperate devotion. "Only you could make me feel this weak," she whimpers, her fingers digging into your thighs for support. When you command her to stand and present herself, she moves like a dancer - every muscle rippling beneath her smooth skin as she arches her back beautifully before you. Her small but perfectly round ass trembles with anticipation, already glistening from her arousal. "Please my lord," she begs breathlessly, "take me like I belong to you - because I do." The scent of her excitement mingles with the musk of her sweat as your fingers explore her tight virgin ass.</Text>
+    <BackgroundName>BC_image_sex_mf_anal_devoted_concubine_prelude</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_11046}Plunge into your concubine's untouched ass</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>55</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_anal_devoted_concubine_sex</Name>
+    <Text>{=BCCaptor_Text_11047}Her entire body shudders as you breach her tight ass, her scream of pleasure echoing through the chamber. "Yes! Yes my lord!" she cries out as your cock disappears inside her, her fingers clawing at the bedsheets for purchase. Her muscular back arches beautifully beneath your hands as you begin to move - each thrust eliciting a fresh scream from her lips. "Only you could make me feel this way," she gasps between moans, her ass clenching rhythmically around your cock like it's trying to pull you deeper inside. The sound of skin slapping against skin fills the room as you take her with increasing ferocity, her whole body trembling beneath you in absolute ecstasy.</Text>
+    <BackgroundName>BC_image_sex_mf_anal_devoted_concubine_sex</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptorMoodPositive</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_11048}Pound your concubine harder until she shatters beneath you</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>60</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_anal_devoted_concubine_orgasm</Name>
+    <Text>{=BCCaptor_Text_11049}Her whole body convulses as she climaxes, her ass clenching around your cock like a vice. "My lord!" she screams at the top of her lungs, completely lost to ecstasy - tears streaming down her flushed cheeks. Her back arches so far it might break as wave after wave of pleasure crashes through her devoted form, every muscle in her toned body trembling violently beneath you. The sight and sound push you over the edge - with a primal growl, you erupt deep inside her ass, filling her up with your seed until it spills out around your cock. "Yes! Claim me my lord!" she gasps between ragged breaths, her body still quaking from the most intense orgasm of her life.</Text>
+    <BackgroundName>BC_image_sex_mf_anal_devoted_concubine_orgasm</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCaptorMoodPositive</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_11050}Make your concubine clean both holes with her mouth</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>65</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_anal_devoted_concubine_cleanup</Name>
+    <Text>{=BCCaptor_Text_11051}With trembling hands she pulls your softening cock from her ass and immediately takes it into her mouth to clean every last trace of herself. "So delicious my lord," she moans around your shaft, her tongue swirling expertly as she cleans you with reverent devotion. Without waiting for permission, she reaches back with one hand to gather the spilled semen dripping from her well-fucked hole - her fingers trembling with love and adoration as she eating it until nothing remains. "Thank you my lord," she breathes when finished, pressing kisses along your thighs in reverence. The look of pure adoration in her eyes as she gazes up at you would melt even the coldest heart.</Text>
+    <BackgroundName>BC_image_sex_mf_anal_devoted_concubine_cleanup</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>70</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

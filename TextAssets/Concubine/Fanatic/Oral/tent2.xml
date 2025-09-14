@@ -1,0 +1,93 @@
+```xml
+<!-- Event 1: The Devoted Concubine Arrives -->
+<CEEvent>
+    <Name>concubine_oral_start</Name>
+    <Text>{=BCCaptor_Text_20000}The thick velvet curtains of your private quarters part with a whisper, and there she stands - your devoted concubine, her lithe warrior's body barely concealed by the sheerest silk. The material clings to every curve, outlining the firm mounds of her breasts, the narrow waist that flares into generous hips, all leading down to powerful thighs built for battle but currently trembling with desire. Her dark eyes burn with an intensity that borders on worship as she drops gracefully to her knees before you, the scent of her arousal already filling the air like incense. "Master," she breathes, her voice thick with emotion, "your men told me how tired you are from your labors... let me ease your burdens." Her skilled hands begin to unknot the ties of her robe, letting it slip slowly from her shoulders until she's completely bare before you - every inch of her trembling, breathless body offered in complete submission.</Text>
+    <BackgroundName>BC_image_concubine_kneeling</BackgroundName>
+    <NotificationName>BC_image_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bodyguard</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Female</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeMood</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 2: The Ecstatic Deep Throat -->
+<CEEvent>
+    <Name>concubine_oral_deepthroat</Name>
+    <Text>{=BCCaptor_Text_20001}Your concubine's fingers fly to free your cock, her hot mouth descending upon it with such reverence it feels like a religious rite. Her throat opens wide as she takes you deep, nose pressing against your pelvis while her entire body shudders in blissful submission. "Mmmph," she moans around your length, eyes rolling back as tears of pleasure streak down her cheeks. Each bob of her head is accompanied by a desperate whimper, her hands gripping your thighs so tightly you can feel her nails digging into flesh - not from pain, but from the sheer intensity of her devotion. The room fills with the obscene sounds of her wet lips working your cock, her saliva coating every inch as she worships your manhood like it's a sacred relic. Her body trembles violently between your legs, hips rocking back and forth as if trying to ride invisible air while she pleasures you.</Text>
+    <BackgroundName>BC_image_concubine_deepthroat</BackgroundName>
+    <NotificationName>BC_image_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bodyguard</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Female</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeStamina</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 3: The Blissful Swallow -->
+<CEEvent>
+    <Name>concubine_oral_swallow</Name>
+    <Text>{=BCCaptor_Text_20002}Your concubine's entire body tenses as she feels your cock pulse in her throat, her eyes widening with absolute devotion at the knowledge of what comes next. A high-pitched whimper escapes her lips around your shaft just before you erupt into her waiting mouth, filling it completely with your hot seed that she swallows instantly like it's ambrosia from the gods. She pulls back slightly to let you watch as she gulps down every last drop, a single strand of semen escaping the corner of her swollen lips and dripping onto her chin. Her breath comes in ragged gasps as she stares up at you with tear-filled eyes, body shaking uncontrollably between your legs - not from exertion, but from the sheer ecstasy of serving you completely.</Text>
+    <BackgroundName>BC_image_concubine_swallowing</BackgroundName>
+    <NotificationName>BC_image_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bodyguard</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Female</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeLoyalty</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Event 4: The Reverent Cleaning -->
+<CEEvent>
+    <Name>concubine_oral_cleanup</Name>
+    <Text>{=BCCaptor_Text_20003}Your concubine licks her lips clean with reverential slowness, savoring every last trace of your essence before turning her full attention to your softening cock. She sucks gently, cleaning every inch with worshipful devotion while her body continues to shake with aftershocks of pleasure. "Master," she whispers when she finally pulls back, her voice trembling as much as her hands that still rest on your thighs, "I live only to serve your pleasure... to be your devoted concubine in all things." A single drop of semen glistens on her chin, emphasizing the absolute surrender in her dark eyes. Her entire being radiates a love so intense it's almost painful to witness - every breath she takes seems to whisper "yours," every heartbeat pulses with devotion.</Text>
+    <BackgroundName>BC_image_concubine_cleaning</BackgroundName>
+    <NotificationName>BC_image_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>FanaticallyDevoted</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Bodyguard</RestrictedListOfFlags>
+        <RestrictedListOfFlags>Female</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeDevotion</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+        </Option>
+    </Options>
+</CEEvent>
+```

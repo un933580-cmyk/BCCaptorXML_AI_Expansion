@@ -1,0 +1,114 @@
+<CEEvent>
+    <Name>BC_outdoor_training_oral_start</Name>
+    <Text>{=BCCaptor_Text_20000}You arrive at your training ground and find {CAPTIVE_NAME}, your broken concubine, kneeling patiently in the dirt. Her hands are clasped behind her back and her eyes are downcast, but you can see the anticipation in them. She knows what is expected of her.</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_outdoor_training_oral_process</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_outdoor_training_oral_process</Name>
+    <Text>{=BCCaptor_Text_20001}As you unbuckle your pants, {CAPTIVE_NAME} eagerly moves forward, her lips parting in anticipation. "Yes, my lord," she whispers, "I am yours to use." Her warm mouth envelops you immediately, working with a fervent devotion that betrays her need to please.</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_outdoor_training_oral_finish</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_outdoor_training_oral_finish</Name>
+    <Text>{=BCCaptor_Text_20002}With a deep groan, you release into {CAPTIVE_NAME}'s mouth. She swallows eagerly, her throat working to take every drop. As you pull out, she licks her lips clean and looks up at you with adoring eyes. "Thank you for using me, my lord," she murmurs, "I live only to serve you."</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_outdoor_training_oral_end</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_outdoor_training_oral_end</Name>
+    <Text>{=BCCaptor_Text_20003}{CAPTIVE_NAME} remains kneeling, her eyes lowered in submission. "I hope I pleased you, my lord," she says softly, "It is all I desire." Her lips are slightly swollen from the vigorous sucking, but there's no complaint - only devotion.</Text>
+    <BackgroundName>BC_image_outdoor_training</BackgroundName>
+    <NotificationName>BC_captor_notification_march</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Dismis {CAPTIVE_NAME}</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+</CEEvent>

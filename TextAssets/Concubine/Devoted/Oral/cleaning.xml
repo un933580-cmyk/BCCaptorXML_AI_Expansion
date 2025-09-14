@@ -1,0 +1,54 @@
+<CEEvent>
+    <Name>BC_event_devoted_concubine_oral_start</Name>
+    <Text>{?ISCAPTIVEFEMALE}Your devoted concubine {CAPTIVE_NAME} is diligently cleaning your chambers, humming softly to herself as she dusts every surface. Suddenly, she notices you watching her and blushes deeply, dropping to her knees in front of you with a submissive smile.{?}</Text>
+    <BackgroundName>BC_captor_concubine_devoted</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>100</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+            <TriggerEventName>BC_event_devoted_concubine_oral_mid</TriggerEventName>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_concubine_oral_mid</Name>
+    <Text>{?ISCAPTIVEFEMALE}{CAPTIVE_NAME} looks up at you with adoring eyes as she slowly unties your trousers, freeing your hardened member. "My lord," she whispers, her breath hot against your skin, "please allow me to worship you." She takes you into her warm mouth, swirling her tongue around the tip before taking you deeper, her throat muscles fluttering with each bob of her head.{?}</Text>
+    <BackgroundName>BC_captor_concubine_devoted</BackgroundName>
+    <Options>
+        <Option>
+            <Order>100</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}Continue</OptionText>
+            <TriggerEventName>BC_event_devoted_concubine_oral_end</TriggerEventName>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_devoted_concubine_oral_end</Name>
+    <Text>{?ISCAPTIVEFEMALE}With a moan of pleasure, you release yourself into {CAPTIVE_NAME}'s waiting mouth. She swallows eagerly, her tongue lapping up every last drop before cleaning your shaft with reverent licks. "Thank you for gracing me with your essence, my lord," she murmurs, kissing the tip before looking up at you with devotion in her eyes.{?}</Text>
+    <BackgroundName>BC_captor_concubine_devoted</BackgroundName>
+    <Options>
+        <Option>
+            <Order>100</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New}End Event</OptionText>
+        </Option>
+    </Options>
+    <SexualContent>true</SexualContent>
+</CEEvent>

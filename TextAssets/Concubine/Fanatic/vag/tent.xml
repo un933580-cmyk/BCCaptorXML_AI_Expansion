@@ -1,0 +1,125 @@
+<CEEvent>
+    <Name>TB_concubine_madlove_arrival</Name>
+    <Text>The night is thick with the scent of jasmine as your concubine bursts into your tent like a tempest unleashed. Her normally composed demeanor has shattered completely - she trembles violently, her hands clutching at your armor with desperate need. "Master... I can't bear another moment without you," she gasps, tears streaming down her flushed cheeks. Her breath comes in ragged bursts as she presses herself against you, her entire body quivering with uncontrollable desire. "Please, take me now - breed me until my belly swells with your child!" She sinks to her knees before you, her fingers fumbling with your belt in frantic haste.</Text>
+    <BackgroundName>BC_image_concubine_pleading</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Give her what she so desperately craves.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <ReqTroopsAbove>2</ReqTroopsAbove>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_madlove_prelude</Name>
+    <Text>Your concubine's hands are like wildfire against your skin as she strips away your armor, her kisses leaving wet trails of desire wherever they land. "You have no idea how many nights I've dreamed of this moment," she moans between frantic licks at your chest, her fingers digging into your flesh with desperate intensity. Her breath is hot against your ear as she whispers, "I want to taste every inch of you - claim every part that belongs only to me." She descends upon your cock with a shuddering cry, taking you so deeply she chokes on your length, tears streaming down her cheeks from the sheer bliss of finally having you in her mouth.</Text>
+    <BackgroundName>BC_image_concubine_deepthroat</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let her worship you with her mouth.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_madlove_intercourse</Name>
+    <Text>With a primal growl, your concubine impales herself on your cock in one brutal stroke, her entire body convulsing from the sheer ecstasy of being filled by you at last. "I'm yours forever," she screams as she rides you with reckless abandon, her walls clenching around you like they never want to let go. Every movement is desperate and frantic - she digs her nails into your chest hard enough to draw blood, leaving permanent marks of ownership as she bucks against you. "Make me yours in every way!" she cries between ragged breaths, her hips slamming down onto yours with such force that the tent poles shake.</Text>
+    <BackgroundName>BC_image_concubine_frenzied_ride</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let her ride you into oblivion.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_madlove_orgasm</Name>
+    <Text>The moment you feel the first hot pulse of your release deep inside her, your concubine's entire body locks up in a cataclysmic orgasm that shakes her to her very core. She throws back her head with a scream so primal it could wake the dead, her inner muscles milking every last drop from your cock as she collapses onto you, trembling violently. "You've claimed me completely," she sobs between gasping breaths, her body still twitching uncontrollably from the aftershocks of pleasure. Her hands clutch at your shoulders with desperate strength, nails digging into your flesh as if trying to merge your bodies together permanently. "Now I carry a part of you inside me forever," she whispers reverently, pressing kisses along your throat.</Text>
+    <BackgroundName>BC_image_concubine_claimed</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Watch her clean your seed from her body.</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_madlove_cleanup</Name>
+    <Text>Your concubine slides down your body with reverent slowness, her tongue tracing every inch of skin like she's committing it to memory. When she reaches your still-hard cock, she takes you into her mouth with a worshipful moan, sucking gently as her fingers stroke the base lovingly. "I'll never get enough of tasting us together," she murmurs against your shaft between eager licks, her eyes locked onto yours with absolute devotion. She swallows every last drop of your seed that spills from her body, savoring each moment like it might be her last chance to worship you this way. "Please let me carry your child," she begs between frantic sucks, her hands clutching at your hips as if trying to pull you deeper inside her again.</Text>
+    <BackgroundName>BC_image_concubine_worship</BackgroundName>
+    <NotificationName>TB_sexual_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let her keep worshipping you until she's completely sated.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="CaptiveAffection" ByLevel="R -2 1" Ref="Hero" Color="Cyan"/>
+            </SkillsToLevel>
+            <ProstitutionTotal>R 3 5</ProstitutionTotal>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

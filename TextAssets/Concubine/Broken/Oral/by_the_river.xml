@@ -1,0 +1,57 @@
+<!-- Event Chain 3: By the River -->
+<CEEvent>
+    <Name>BC_event_broken_concubine_river_start</Name>
+    <Text>{=BCCaptor_Text_2007}While scouting near a riverbank, you find {CAPTIVE_NAME} already waiting for you. She's kneeling in the shallow water, her arms bound to a stake driven into the muddy bank. Her lips are parted, and she watches you approach with unblinking obedience.</Text>
+    <BackgroundName>BC_image_captive_kneel_outside_river</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_broken_concubine_river_oral</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_broken_concubine_river_oral</Name>
+    <Text>{=BCCaptor_Text_2008}"Please, Master... I need to taste you," {CAPTIVE_NAME} begs, straining against her bonds as she tries to reach you. The moment you free yourself, she attacks your cock with frantic desperation, her tongue swirling and lips sucking as if her life depends on it.</Text>
+    <BackgroundName>BC_image_captive_kneel_outside_river</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_broken_concubine_river_finish</EventName>
+                    <EventWeight>1</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_broken_concubine_river_finish</Name>
+    <Text>{=BCCaptor_Text_2009}She moans loudly as you cum, the sound echoing off the riverbank. She swallows everything before pulling back to gasp for air, her face smeared with your seed and tears of joy. "Thank you... Thank you for using me like this," she sobs, her body trembling from the intensity.</Text>
+    <BackgroundName>BC_image_captive_kneel_outside_river</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+</CEEvent>

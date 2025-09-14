@@ -1,0 +1,73 @@
+<CEEvent>
+    <Name>BrokenConcubine_Tent1</Name>
+    <Text>
+        You return to your tent after a long day of leading your troops, only to find {CAPTIVE_NAME} kneeling naked at the entrance with her hands bound behind her back. Her ass is already exposed and glistening with lubricant, as she eagerly awaits your arrival. "My master," she whimpers, "I prepared myself for you while you were away." The sight of her swollen pussy and tight anus makes your cock stir instantly.
+    </Text>
+    <BackgroundName>BrokenConcubine_Tent1</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>ObedienceLevel3</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubine_Tent2</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Tent2</Name>
+    <Text>
+        You command {CAPTIVE_NAME} to crawl toward you, her ass swaying provocatively. She licks your boots gratefully before taking your hardening cock into her mouth, moaning around it like a starving bitch. "Your slut can't wait any longer," she gasps between strokes, her tongue swirling over your shaft. Her body trembles with need as she begs for your cock to fill her asshole.
+    </Text>
+    <BackgroundName>BrokenConcubine_Tent2</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubine_Tent3</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Tent3</Name>
+    <Text>
+        You force her onto all fours and ram your cock into her tight, lubricated ass without warning. She screams in pleasure-pain as you stretch her virgin hole, her body arching back to take more of you inside. "Oh master! It hurts so good!" she cries, clawing at the rug beneath her. Her pussy drips with arousal while you pound into her mercilessly, her ass jiggling obscenely.
+    </Text>
+    <BackgroundName>BrokenConcubine_Tent3</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubine_Tent4</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Tent4</Name>
+    <Text>
+        With a grunt, you release deep inside her bowels, your hot seed flooding her guts. {CAPTIVE_NAME} moans in ecstasy as she feels your cock pulsing inside her, her ass clenching around you possessively. "Oh yes! Fill me with your seed!" she begs, her voice trembling with submission. When you finally pull out, thick ropes of cum drip from her ruined hole onto the floor.
+    </Text>
+    <BackgroundName>BrokenConcubine_Tent4</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubine_Tent5</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Tent5</Name>
+    <Text>
+        Before you can even catch your breath, {CAPTIVE_NAME} is already licking your cock clean, moaning at the taste of herself mixed with your cum. "Thank you for using me, master," she purrs between licks, her fingers digging into her sore asshole to pull out more of your seed. She swallows it greedily before collapsing at your feet, panting happily as she strokes your thigh. "Your broken concubine is yours forever."
+    </Text>
+    <BackgroundName>BrokenConcubine_Tent5</BackgroundName>
+</CEEvent>

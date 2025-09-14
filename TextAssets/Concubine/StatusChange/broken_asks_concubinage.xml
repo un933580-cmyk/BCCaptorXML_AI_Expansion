@@ -1,0 +1,94 @@
+<CEEvent>
+    <Name>BC_companion_offers_concubinage</Name>
+    <Text>{=BCCaptor_Text_Harem1}{COMPANION_NAME} spreads her legs before you without hesitation, her body language speaking louder than words. "I'm just a filthy whore," she moans, touching herself shamelessly—but there's no shame in her voice, only hunger for your approval. "Please make me your personal concubine... I'll be the best sexual slave you've ever had." She crawls closer on all fours, pressing her forehead to the floor and whispering: "I was made to serve only one master—and that will be you." The way she says it isn't pleading anymore—it's a declaration. "I promise I'll never disappoint you," she adds softly, as if offering a sacred vow rather than empty words.</Text>
+    <BackgroundName>BC_image_concubine_offer</BackgroundName>
+    <NotificationName>TB_random_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroHasHarem</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCompanionFlag</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>TriggerEventChain</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_Harem2}You grope her plump ass firmly, feeling the soft flesh yield to your touch as you accept her offer and claim your new concubine.</OptionText>
+            <CompanionFlagToAdd>Concubine</CompanionFlagToAdd>
+            <NextEventInChain>BC_companion_concubinage_accepted</NextEventInChain>
+        </Option>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>TriggerEventChain</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_Harem3}You gently push her away with a dismissive wave, telling her you have no need for another personal whore at the moment but will continue using her as needed.</OptionText>
+            <NextEventInChain>BC_companion_concubinage_rejected</NextEventInChain>
+        </Option>
+    </Options>
+    <Companions>
+        <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_devoted"/>
+    </Companions>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_companion_concubinage_accepted</Name>
+    <Text>{=BCCaptor_Text_Harem4}{COMPANION_NAME} lets out a throaty moan as you claim her for your harem. She arches her back, pressing herself against you. "Thank you, master," she breathes between kisses. "I'll serve you better than any of your other concubines." Her hands roam your body possessively, already claiming what's hers.</Text>
+    <BackgroundName>BC_image_concubine_accepted</BackgroundName>
+    <NotificationName>TB_random_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_Harem5}You roughly grab her by the hips and pull her against you, showing her exactly what being your concubine means.</OptionText>
+        </Option>
+    </Options>
+    <Companions>
+        <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_devoted"/>
+    </Companions>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_companion_concubinage_rejected</Name>
+    <Text>{=BCCaptor_Text_Harem6}{COMPANION_NAME} pouts for a moment, then shrugs with forced casualness. "As you wish, my lord," she says, though her voice betrays disappointment. She straightens her clothes and turns to leave, but not before glancing back one last time—her eyes full of unfulfilled desire.</Text>
+    <BackgroundName>BC_image_concubine_rejected</BackgroundName>
+    <NotificationName>TB_random_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_Harem7}You watch her retreating figure with mild amusement, already considering how you might degrade her later when the mood strikes.</OptionText>
+        </Option>
+    </Options>
+    <Companions>
+        <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_devoted"/>
+    </Companions>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

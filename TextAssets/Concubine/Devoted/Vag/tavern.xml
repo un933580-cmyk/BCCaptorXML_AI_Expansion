@@ -1,0 +1,343 @@
+<!-- Event Chain 1 -->
+<CEEvent>
+    <Name>TB_captor_tavern_devotion_start</Name>
+    <Text>You enter the bustling common room of the tavern to find {CAPTIVE_NAME} waiting patiently at a private table in the corner. The devoted concubine sits with perfect posture, her eyes lighting up when she sees you approach. She immediately rises and removes your cloak with reverent hands, whispering "My lord has finally arrived" as she helps you sit. Around you, the tavern noise fades into background chatter as all attention focuses on your arrival with this beautiful woman.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_private_room_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_tavern_devotion_prelude</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_devotion_prelude</Name>
+    <Text>{CAPTIVE_NAME} immediately drops to her knees between your legs, her skilled fingers working to free your cock from your trousers with trembling excitement. "Please let me serve you properly, my love," she murmurs as she takes your hardening length into her warm mouth, her eyes locked on yours the entire time. The tavern patrons watch discretely as she works, some whispering about your concubine's devotion while others simply admire her beauty and dedication to pleasing you.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_private_room_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_tavern_devotion_intercourse</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_devotion_intercourse</Name>
+    <Text>{CAPTIVE_NAME} climbs onto your lap, her wet folds easily accepting your thick cock as she wraps her arms around your neck. "Oh yes, my love," she moans softly as you begin to thrust upward into her tight pussy, "you feel so perfect inside me." The tavern patrons hear every word and watch with rapt attention as this beautiful concubine rides you passionately, her breasts bouncing with each movement.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_private_room_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_tavern_devotion_finish</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_devotion_finish</Name>
+    <Text>With a final powerful thrust, you bury yourself deep inside {CAPTIVE_NAME} as your cock pulses with release, flooding her womb with your seed. "Oh yes, give me all of it," she cries softly, feeling the warmth spread inside her. The tavern patrons watch as she clutches you tightly, whispering "Thank you my lord" over and over again.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_private_room_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_tavern_devotion_aftercare</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_devotion_aftercare</Name>
+    <Text>{CAPTIVE_NAME} slips off your lap and immediately begins cleaning your cock with her tongue, savoring the taste of yourself mixed with her own juices. "Such a good lord you are," she murmurs between licks, "always giving me exactly what I need." The tavern patrons watch as she finishes by kissing your tip lovingly before settling back in your lap.</Text>
+    <Backgrounds>
+        <Background Name="BC_tavern_private_room_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Finish</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_forced_devotion_start</Name>
+    <Text>The tavern is packed with drunken patrons when you arrive, but your eyes immediately lock onto {CAPTIVE_NAME} sitting alone at a corner table. She's dressed provocatively in a tight bodice that barely contains her ample breasts, clearly waiting for you. Without a word, you grab her wrist and pull her toward the private back room where no one will hear her cries of pleasure. "My lord," she gasps as you push her against the wall, "I knew you'd come for me - I've been aching for your touch all day."</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_naked_dinner_happy" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>TB_captor_tavern_forced_devotion_prelude</EventName>
+                    <EventWeight>100</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_forced_devotion_prelude</Name>
+    <Text>You tear at {CAPTIVE_NAME}'s dress until her breasts spill free, her nipples already hard with anticipation. She moans softly as you pin her wrists above her head against the rough tavern wall, your cock pressing against her through your trousers. "Use me however you please," she whimpers, "I'm your devoted concubine - made to serve your every desire." Her legs part eagerly when you reach between them, finding her already soaking wet.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_naked_dinner_happy" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>TB_captor_tavern_forced_devotion_main</EventName>
+                    <EventWeight>100</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_forced_devotion_main</Name>
+    <Text>You flip {CAPTIVE_NAME} around and bend her over the wooden table in the back room, her bare ass presented to you like an offering. The sounds of revelry from the main tavern room barely penetrate as you slam into your concubine's waiting pussy. "Yes! Fuck me hard!" she cries out, completely abandoning any pretense at modesty. Her walls clench around you as you pound into her, the table creaking with each thrust.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_naked_dinner_happy" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>TB_captor_tavern_forced_devotion_climax</EventName>
+                    <EventWeight>100</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_forced_devotion_climax</Name>
+    <Text>With a final powerful thrust, you empty yourself inside your concubine as she screams her orgasm against the tavern wall. Her body shakes violently with pleasure, her pussy squeezing every drop from your cock. "Oh gods! Yes!" she cries out, completely lost in ecstasy. You can feel your semen leaking out of her and running down her thighs onto the tavern floor below.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_naked_dinner_happy" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>TB_captor_tavern_forced_devotion_aftercare</EventName>
+                    <EventWeight>100</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_forced_devotion_aftercare</Name>
+    <Text>{CAPTIVE_NAME} immediately drops to her knees, eagerly cleaning your cock with her tongue. "Mmm, I love your taste," she murmurs between licks, making sure not a drop of your cum is wasted. She then scoops up the semen leaking from her pussy and brings it to her lips, savoring every bit. "Thank you for using me, my lord," she says with genuine gratitude, "your concubine lives only to serve you."</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_naked_dinner_happy" UseConditions="BC_event_conditions_captive_female_default" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Chain 5: Tavern Stable -->
+<CEEvent>
+    <Name>TB_captor_tavern_stable_start</Name>
+    <Text>The dimly lit stable behind the tavern smells of hay and leather as {CAPTIVE_NAME} waits eagerly for you. Her concubine dress is hiked up, revealing her bare ass to anyone who might wander in. "I prepared myself just for you, master," she coos, spreading her thighs wider. The cool evening air makes her pussy glisten with anticipation.</Text>
+    <Backgrounds>
+        <Background Name="TB_stable" Ref="LocationTavernStable"/>
+    </Backgrounds>
+    <MultipleRestrictedList>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    </MultipleRestrictedList>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedList/>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_tavern_stable_prelude</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_stable_prelude</Name>
+    <Text>{CAPTIVE_NAME} eagerly helps undress you, her fingers trembling with excitement as she touches your bare skin. "I've dreamed of this moment all day," she confesses between kisses. Her skilled hands work your cock until it stands proudly at attention while she whispers how much she loves being your devoted concubine.</Text>
+    <Backgrounds>
+        <Background Name="TB_stable" Ref="LocationTavernStable"/>
+    </Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedList/>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_tavern_stable_sex</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_stable_sex</Name>
+    <Text>With a passionate cry, {CAPTIVE_NAME} impales herself on your cock right there in the stable. Her tight pussy clings to you like a second skin as she rides you with wild abandon. "Only you make me feel complete," she gasps between thrusts, her nails digging into your shoulders. The hay beneath you rustles with each movement.</Text>
+    <Backgrounds>
+        <Background Name="TB_stable" Ref="LocationTavernStable"/>
+    </Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedList/>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_tavern_stable_climax</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_stable_climax</Name>
+    <Text>{CAPTIVE_NAME} screams as you fill her with your seed, her body shuddering around you. "Oh gods, yes!" she cries, feeling your hot cum flood her womb. She clings to you desperately as if trying to merge their bodies completely. The scent of sex hangs heavy in the stable air.</Text>
+    <Backgrounds>
+        <Background Name="TB_stable" Ref="LocationTavernStable"/>
+    </Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedList/>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_tavern_stable_aftercare</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_captor_tavern_stable_aftercare</Name>
+    <Text>{CAPTIVE_NAME} gently cleans your cock with her tongue, savoring the taste of yourself mixed with hers. "I live to serve you," she murmurs between licks. Her fingers play with her swollen pussy still leaking your seed. "Please make me yours forever, master."</Text>
+    <Backgrounds>
+        <Background Name="TB_stable" Ref="LocationTavernStable"/>
+    </Backgrounds>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedList/>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Chain 6: Tavern Cellar -->
+<CEEvent>
+    <Name>TB_captor_tavern_cellar_start</Name>
+    <Text>The cool cellar beneath the tavern is dimly lit by a single lantern as {CAPTIVE_NAME} waits for you, her concubine gown barely covering her naked body. The rough stone walls and earthen floor contrast with her soft skin. "I've been dreaming of this all day," she whispers, biting her lip.</Text>
+    <Backgrounds>
+        <Background Name="TB_cellar" Ref="LocationTavernCellar"/>
+    </Backgrounds>
+    <MultipleRestrictedList>
+        <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    </MultipleRestrictedList>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedList/>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>TB_captor_tavern_cellar_prelude</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<!-- Continue with four more complete chains following the same pattern -->

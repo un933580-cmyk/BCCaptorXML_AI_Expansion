@@ -1,0 +1,74 @@
+<CEEvent>
+    <Name>BC_event_campfire_blowjob_part1</Name>
+    <Description>
+        Night has fallen and your camp is alive with the sounds of soldiers resting after a long march.
+        {CAPTIVE_NAME} crawls to you from the shadows, naked except for the slave collar around her neck.
+        "Master, may I warm myself by your fire?" she asks, already positioning herself between your legs.
+    </Description>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>Continue</MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_campfire_blowjob_part2</EventName>
+            <EventWeight>1</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="2" Ref="Hero"/>
+    </SkillsRequired>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_campfire_blowjob_part2</Name>
+    <Description>
+        {CAPTIVE_NAME} takes you deep into her throat with practiced ease, the crackling firelight dancing across her sweaty skin.
+        "I exist only to serve... to make my master happy. Please use me as roughly as you want."
+        She gags when you grip her hair but doesn't stop bobbing her head up and down.
+    </Description>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>Continue</MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>BC_event_campfire_blowjob_part3</EventName>
+            <EventWeight>1</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="3" Ref="Hero"/>
+    </SkillsRequired>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_campfire_blowjob_part3</Name>
+    <Description>
+        You explode into {CAPTIVE_NAME}'s mouth, her throat muscles working to swallow every drop.
+        "Thank you for feeding me... thank you for letting me taste my master's essence."
+        She wipes a stray droplet from the corner of her mouth with her finger and sucks it clean.
+    </Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+25" Ref="Hero" Color="Green"/>
+        <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="false"/>
+    </SkillsToLevel>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="4" Ref="Hero"/>
+    </SkillsRequired>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+</CEEvent>

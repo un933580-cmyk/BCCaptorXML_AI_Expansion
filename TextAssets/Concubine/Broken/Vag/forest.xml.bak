@@ -1,0 +1,71 @@
+<CEEvent>
+    <Name>BC_event_broken_concubine_forest_encounter</Name>
+    <Text>{=BCCaptor_Text}As you walk through the dense forest, you notice {CAPTIVE_NAME}, your broken concubine, kneeling at the base of a tree. She's completely naked except for her slave collar, and she's been waiting here patiently for hours just to please you. Her eyes light up with devotion as she sees you approaching.</Text>
+    <BackgroundName>BC_image_broken_concubine_forest</BackgroundName>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_broken_concubine_forest_act</TriggerEventName>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>0</WeightedChanceOfOccurring>
+    <SkillsRequired><SkillRequired Id="Broken" Min="1" Ref="Hero"/></SkillsRequired>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_broken_concubine_forest_act</Name>
+    <Text>{=BCCaptor_Text}You command {CAPTIVE_NAME} to lie down on the soft moss. She obeys immediately, spreading her legs wide and arching her back in invitation. "Master," she whispers, "please use me roughly. I exist only to serve your pleasure." You mount her without hesitation, slamming into her tight pussy with brutal force. She screams in pain but begs for more.</Text>
+    <BackgroundName>BC_image_broken_concubine_forest</BackgroundName>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_broken_concubine_forest_cum</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+1" Ref="Hero"/>
+    </SkillsToLevel>
+    <HealthTotal>-20</HealthTotal>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_broken_concubine_forest_cum</Name>
+    <Text>{=BCCaptor_Text}With a final thrust, you explode deep inside {CAPTIVE_NAME}'s womb. She moans loudly as she feels your hot cum flooding her insides. "Oh master," she gasps, "please fill me with so much seed that I can't walk straight tomorrow." She wraps her legs around you tightly, trying to hold every drop inside.</Text>
+    <BackgroundName>BC_image_broken_concubine_forest</BackgroundName>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_broken_concubine_forest_cleanup</TriggerEventName>
+        </Option>
+    </Options>
+    <HealthTotal>-10</HealthTotal>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_broken_concubine_forest_cleanup</Name>
+    <Text>{=BCCaptor_Text}After you withdraw, {CAPTIVE_NAME} quickly gets on her hands and knees. "Master," she says eagerly, "let me clean your cock with my mouth." She licks and sucks every last trace of cum from your shaft before swallowing it all down. "Thank you for using me, master," she murmurs happily. "I'll always be your obedient concubine."</Text>
+    <BackgroundName>BC_image_broken_concubine_forest</BackgroundName>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences><RestrictedListOfConsequences>Continue</RestrictedListOfConsequences></MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BC_event_broken_concubine_forest_end</TriggerEventName>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="+2" Ref="Hero"/>
+        <Skill Id="Broken" ByLevel="+1" Ref="Hero"/>
+    </SkillsToLevel>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_broken_concubine_forest_end</Name>
+    <Text>{=BCCaptor_Text}{CAPTIVE_NAME} remains on the ground, your cum dripping from her stretched pussy. She looks up at you with adoring eyes. "Master," she says softly, "may I stay here all night so that your seed can take root in my womb? I want to give birth to your child more than anything." You decide whether to grant her this wish or make other plans for her.</Text>
+    <BackgroundName>BC_image_broken_concubine_forest</BackgroundName>
+    <!-- Add options here based on player choice -->
+</CEEvent>

@@ -1,0 +1,57 @@
+<Event Name="BC_event_training_sword_shield_win_shattered">
+    <Description>
+        Your blade strikes true, sending her sword clattering to the ground. She falls onto all fours immediately at your feet—her armor rattling as she presents herself perfectly. "I'm useless... worthless," she whimpers through gritted teeth, chest heaving against the metal restraints. Her fingers claw at the dirt while her hips rock back toward you, begging silently for what comes next.
+
+        "Please use me like the broken whore I am again," she gasps, voice dripping with need and shame. The way her body trembles makes it clear she'll take anything—anywhere—as long as you remember she exists.
+    </Description>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Make her choke on your cock like a good little bitch</OptionText>
+            <TriggerEventName>BC_event_post_victory_oral_shattered_forced</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Fuck her ruined body where anyone could see</OptionText>
+            <TriggerEventName>BC_event_post_victory_field_shattered_dominant</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>3</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Take that worthless asshole you broke so many times before</OptionText>
+            <TriggerEventName>BC_event_post_victory_anal_shattered_submissive</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_post_victory_field_shattered_dominant">
+    <Description>
+        You lift her skirts to reveal her swollen cunt—already wet and ready for use. Your cock slides in easily as she whimpers pathetically beneath you, armor plates grinding into your thighs with each rough thrust. Her used-up hole clenches around you like it's trying to milk every drop, walls pulsing with need that betrays how much she craves this degradation.
+
+        The cold metal of her armor presses against your skin as you pound into her, lewd squelching sounds filling the clearing with each brutal stroke. She comes with a choked cry that might carry on the wind if anyone happened by, cunt flooding over your balls before you finally spill deep inside. Watching your cum drip from between her spread lips makes something primal surge in your chest as you leave her there—broken and ready for more.
+    </Description>
+</Event>
+
+<Event Name="BC_event_post_victory_anal_shattered_submissive">
+    <Description>
+        The moment you press against her ruined hole she starts begging—pleading for you to use what's left of her. Her body tenses as you breach her abused passage, the armor plates grinding into your thighs with each violent thrust.
+        "I'm just a broken whore," she sobs into the dirt, fingers clawing at empty air. You give her exactly what she needs—what you've trained her to need—until she comes around your cock with a broken scream that echoes through the field.
+        Your release follows hers, filling her completely before you pull out to watch your seed drip from between her spread cheeks onto the dirt below. She remains on all fours, breathing raggedly into the soil. "Thank you for... remembering I exist," she whispers.
+    </Description>
+</Event>
+
+<Event Name="BC_event_post_victory_oral_shattered_forced">
+    <Description>
+        You yank her head up by the hair and force your cock between those cracked lips, not bothering to ask if she's ready. She gags immediately but doesn't fight it—just takes every inch with pathetic eagerness.
+        "You're nothing but a cumdump," you growl as you facefuck her broken throat, watching tears stream down her cheeks. The armor plates clink softly with each movement—the only sound beside her wet choking until you finally spill down her throat.
+        When you release her, she gasps for air but doesn't wipe the spit and cum from her chin, just looks up at you with hollow eyes. "I'm sorry I... disappointed you," she rasps, already opening her mouth again in anticipation of your next use.
+    </Description>
+</Event>

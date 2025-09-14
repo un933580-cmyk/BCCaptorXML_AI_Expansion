@@ -1,0 +1,88 @@
+<!-- Event Chain 1: Public Humiliation and Submission -->
+<CEEvent>
+    <Name>BC_event_public_humiliation_start</Name>
+    <OptionText>Continue</OptionText>
+    <Description>The streets are busy with merchants and townsfolk. {CAPTIVE_NAME}, your broken concubine, kneels at your feet in plain sight, her head bowed low as she waits for your command. Her naked body is exposed to the public eye, yet she doesn't seem ashamed; rather, she seems proud to be on display as your property.</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_public_humiliation_proceed</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_public_humiliation_proceed</Name>
+    <OptionText>Continue</OptionText>
+    <Description>You command {CAPTIVE_NAME} to spread her legs wide, exposing her dripping cunt to the passing crowd. She obeys instantly, her breath hitching as you push your cock inside her tight pussy right there in the middle of the street. Her moans are loud and uncontrolled; she loves being used like this in front of everyone.</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_public_humiliation_finish</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+5" Ref="Hero"/>
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_public_humiliation_finish</Name>
+    <OptionText>Continue</OptionText>
+    <Description>You thrust deep into {CAPTIVE_NAME}'s cunt, your balls slapping against her ass as you fuck her mercilessly. Her cries of pleasure echo through the street, drawing stares from the crowd. You can feel her pussy clench around your cock as she orgasms repeatedly, begging for more. With a final powerful thrust, you cum inside her, filling her womb with your seed. She collapses to the ground, panting and covered in sweat.</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_public_humiliation_cleanup</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+5" Ref="Hero"/>
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_public_humiliation_cleanup</Name>
+    <OptionText>Continue</OptionText>
+    <Description>{CAPTIVE_NAME} eagerly licks your cock clean, her tongue swirling around the tip to gather every last drop of cum. She moans softly as she tastes you, her eyes locked on yours in complete submission. "Thank you for filling me with your seed, Master," she whispers before swallowing everything down.</Description>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+5" Ref="Hero"/>
+        <Skill Id="Broken" ByLevel="+1" Ref="Hero"/>
+    </SkillsToLevel>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

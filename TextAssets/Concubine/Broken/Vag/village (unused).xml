@@ -1,0 +1,70 @@
+<!-- Event Chain 1: Public Humiliation and Breeding -->
+    <CEEvent>
+        <Name>BC_public_humilation_breeding</Name>
+        <Text>{=BCCaptor_Text}As you march through the village square with {CAPTIVE_NAME}, she suddenly drops to her knees before your men, pulling up her skirts and begging them to witness how you've broken her. "Look at me," she moans, spreading herself open. "I'm nothing but my master's breeding concubine."</Text>
+        <BackgroundName>BC_image_captive_public_humiliation</BackgroundName>
+        <NotificationName>BC_captor_notification_march</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>OutdoorsLocation</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEventName>BC_public_humilation_breeding_stage2</TriggerEventName>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+        <SexualContent>true</SexualContent>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_public_humilation_breeding_stage2</Name>
+        <Text>{=BCCaptor_Text}You grab {CAPTIVE_NAME} by the hair, forcing her onto your cock right there in front of everyone. She screams as you thrust into her tight passage, her body trembling with need. "Y-yes!" she whimpers. "Fill me, master! Make me yours forever!"</Text>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEventName>BC_public_humilation_breeding_stage3</TriggerEventName>
+            </Option>
+        </Options>
+        <SkillsToLevel>
+            <Skill Id="CaptiveObedience" ByLevel="+10" Ref="Hero"/>
+        </SkillsToLevel>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_public_humilation_breeding_stage3</Name>
+        <Text>{=BCCaptor_Text}With a roar you unleash your seed deep inside her, making sure she feels every hot splash. {CAPTIVE_NAME} shrieks in ecstasy as she's filled with your essence. "Thank you, master!" she sobs. "Please let me keep it all inside! I want to be pregnant with your child!"</Text>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEventName>BC_public_humilation_breeding_stage4</TriggerEventName>
+            </Option>
+        </Options>
+        <SkillsToLevel>
+            <Skill Id="CaptiveAffection" ByLevel="+15" Ref="Hero"/>
+        </SkillsToLevel>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>BC_public_humilation_breeding_stage4</Name>
+        <Text>{=BCCaptor_Text}{CAPTIVE_NAME} immediately drops to her knees, cleaning your cock with her tongue while collecting spilled semen on her fingers. She licks them clean, sighing happily. "The taste of my master's cum is heaven," she murmurs. "I'll do anything you want."</Text>
+        <SkillsToLevel>
+            <Skill Id="Broken" ByLevel="+1" Ref="Hero"/>
+        </SkillsToLevel>
+    </CEEvent>

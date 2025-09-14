@@ -1,0 +1,120 @@
+<!-- Chain 2: Alleyway Submission -->
+<CEEvent>
+    <Name>TB_concubine_alley_approach</Name>
+    <Text>{CAPTIVE_NAME} presses herself against the damp stone wall of the narrow alley, her breath coming in shallow pants. She watches as you pass by, then steps out to block your path. "Master," she whispers urgently, "I've been waiting for you all day." Her fingers tremble as they caress your arm before sliding down to your belt. "Please... I need to feel your cock inside me right now. This alley is so perfect - hidden from prying eyes yet still in the heart of the city." The smell of her arousal fills the narrow space between you as she steps closer.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_alley_pleading" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>TB_concubine_alley_prelude</EventName>
+                    <EventWeight>100</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_alley_prelude</Name>
+    <Text>{CAPTIVE_NAME} wastes no time in freeing your cock from its confines, her eager hands working swiftly to unbuckle your trousers. "You're already so hard for me," she murmurs with delight as she strokes your length, her thumb smearing precum along your shaft. Without hesitation, she takes you into her mouth with a hungry groan, her tongue swirling around every inch of sensitive flesh. The sound of her slurping echoes through the alley as she bobs up and down enthusiastically. "Your concubine loves tasting how much you desire her," she gasps between deep throats, her free hand squeezing your balls gently.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_alley_blowjob" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>TB_concubine_alley_penetration</EventName>
+                    <EventWeight>100</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_alley_penetration</Name>
+    <Text>{CAPTIVE_NAME} spins around and braces herself against the alley wall, her bare ass pressing back against you in invitation. "Fuck me, Master," she pleads breathlessly as you guide yourself to her waiting entrance. With one smooth motion, you're buried balls-deep inside her tight pussy, eliciting a shuddering moan from your eager concubine. She pushes back against every thrust, her body shaking with pleasure as you take her roughly in the semi-public space. "Oh gods," she whimpers, "I can't believe how good this feels... knowing anyone could walk by and see me getting fucked like a common slut." Her words only serve to spur you on further.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_alley_fucking" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>TB_concubine_alley_cumshot</EventName>
+                    <EventWeight>100</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_alley_cumshot</Name>
+    <Text>Your climax hits with overwhelming force, your seed pumping deep into {CAPTIVE_NAME}'s trembling body. She collapses against the wall, her own orgasm triggering as you fill her completely. "Oh Master," she gasps between shuddering breaths, "I feel it all... every drop of your perfect cum breeding my concubine cunt." As you pull out, thick ropes of your seed leak from her stretched pussy onto the damp alley floor. She watches with rapturous attention as your essence dribbles down her thighs, one finger tracing through the mess before bringing it to her lips for a taste. "So delicious," she murmurs, licking her fingers clean.</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_alley_aftermath" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>TB_concubine_alley_cleanup</EventName>
+                    <EventWeight>100</EventWeight>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_concubine_alley_cleanup</Name>
+    <Text>{CAPTIVE_NAME} drops to her knees without being told, her hands trembling as she reaches for your cock. "Let me clean my Master," she whispers reverently before taking you into her mouth once more. Her tongue swirls around every inch of your shaft, lapping up the remnants of her own juices mixed with your cum. She moans softly around your length, clearly enjoying both the taste and the act of serving you so intimately. When she's satisfied you're completely clean, she looks up at you with adoring eyes. "Thank you for letting me serve you today," she murmurs before planting a kiss on the head of your cock. "I hope I pleased my Master."</Text>
+    <Backgrounds>
+        <Background Name="TB_scion_alley_cleanup" UseConditions="BC_event_conditions_captive_female" />
+    </Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+</CEEvent>

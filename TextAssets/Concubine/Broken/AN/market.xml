@@ -1,0 +1,68 @@
+<CEEvent>
+    <Name>BrokenConcubine_Market5_Start</Name>
+    <Text>The market is abuzz with activity when {CAPTIVE_NAME} suddenly appears atop a fish counter, naked except for her slave collar. She spreads her legs wide and calls out to you, "Master! Please use me as your personal toy in front of everyone!" The crowd parts respectfully as you approach.</Text>
+    <BackgroundName>Market_Fish_Counter_Position</BackgroundName>
+    <NotificationName>Concubine_Display3</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BrokenConcubine_Market5_Prelude</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Market5_Prelude</Name>
+    <Text>{CAPTIVE_NAME} rubs her body against yours sensually, whispering filthy promises in your ear as she works to excite you. She then drops to her knees and takes you deep into her throat, using both hands and mouth to bring you quickly to the brink while spectators watch with bated breath.</Text>
+    <BackgroundName>Market_Fish_Counter_Oral</BackgroundName>
+    <NotificationName>Concubine_Teasing3</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BrokenConcubine_Market5_Anal</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Market5_Anal</Name>
+    <Text>{CAPTIVE_NAME} moans loudly as you press into her tight back entrance from behind, her body shaking with pleasure at the public display. "Yes master! Fill your broken concubine's ass in front of everyone!" she screams, drawing gasps from the watching crowd.</Text>
+    <BackgroundName>Market_Fish_Counter_Anal</BackgroundName>
+    <NotificationName>Concubine_Scream3</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BrokenConcubine_Market5_Finish</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Market5_Finish</Name>
+    <Text>With a final powerful thrust, you empty yourself deep inside {CAPTIVE_NAME}'s trembling body. She collapses forward onto the counter, your seed dripping from her well-used ass as she moans in blissful submission.</Text>
+    <BackgroundName>Market_Fish_Counter_Finish</BackgroundName>
+    <NotificationName>Concubine_Exhaustion3</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+            <TriggerEventName>BrokenConcubine_Market5_Cleanup</TriggerEventName>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubine_Market5_Cleanup</Name>
+    <Text>{CAPTIVE_NAME} licks and sucks your cock clean right there in the market square, her tongue working diligently to remove every trace of their encounter. She then scoops some of the seed from between her ass cheeks and swallow it eagerly.</Text>
+    <BackgroundName>Market_Fish_Counter_Cleanup</BackgroundName>
+    <NotificationName>Concubine_Hunger3</NotificationName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

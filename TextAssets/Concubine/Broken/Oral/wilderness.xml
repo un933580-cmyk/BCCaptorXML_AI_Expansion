@@ -1,0 +1,104 @@
+<CEEvent>
+    <Name>BC_oralsex_wilderness_setup_2</Name>
+    <Text>{=BCCaptor_Text_XXXX}Your Broken concubine {CAPTIVE_NAME} has prepared a secluded clearing for you near the camp. She kneels on a blanket of moss and fallen leaves, her hands folded in her lap as she watches your approach with worshipful eyes. The scent of pine and damp earth mixes with her natural musk.</Text>
+    <BackgroundName>BC_image_captive_broken_wilderness_kneel</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_wilderness_process_2</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_wilderness_process_2</Name>
+    <Text>{=BCCaptor_Text_XXXX}{CAPTIVE_NAME} wastes no time in worshipping your cock, taking you deep into her throat with practiced ease. She gags slightly but doesn't stop, her fingers digging into the earth as she whimpers, "Your concubine was made for this... to swallow every drop of my lord's seed."</Text>
+    <BackgroundName>BC_image_captive_broken_wilderness_blowjob</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_wilderness_climax_2</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_wilderness_climax_2</Name>
+    <Text>{=BCCaptor_Text_XXXX}You spill your seed directly onto {CAPTIVE_NAME}'s face, watching as it mixes with her tears and saliva. She licks some from her cheek before rubbing the rest into her skin like sacred oil. "My lord's essence... it burns my soul so perfectly," she whispers hoarsely.</Text>
+    <BackgroundName>BC_image_captive_broken_wilderness_face</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_oralsex_wilderness_cleanup_2</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_oralsex_wilderness_cleanup_2</Name>
+    <Text>{=BCCaptor_Text_XXXX}{CAPTIVE_NAME} carefully wipes the remaining cum from your body before kissing each finger clean. She then bows her head to the earth and says, "This lowly concubine thanks you for this sacred gift. I shall never be worthy of it." The distant calls of wild birds punctuate the silence as she remains at your feet.</Text>
+    <BackgroundName>BC_image_captive_broken_wilderness_submission</BackgroundName>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

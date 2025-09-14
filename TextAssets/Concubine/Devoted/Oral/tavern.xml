@@ -1,0 +1,94 @@
+<!-- Tavern Oral Service Extension Module -->
+<EventModule>
+    <!-- Event 1: Introduction & Setup -->
+    <CEvent>
+        <Name>TB_captor_tavern_oral_intro</Name>
+        <Text>
+            You've just finished commanding your troops through a grueling day. With dusk falling, you decide to unwind at the 'Rusty Sword' tavern in the city center. Your devoted concubine {CAPTIVE_NAME} stays close by your side, her hand resting lightly on your arm as you navigate the crowded taproom. Finding a quiet corner booth away from prying eyes and boisterous soldiers, you sit down with a sigh of relief. Without being told, {CAPTIVE_NAME} immediately drops to her knees before you in the dim light. "Master," she whispers softly, her breath warm against your thigh as she begins undoing your belt. Her movements are practiced yet reverent, fingers deftly working at the fastenings of your trousers and undergarments until your hardening cock springs free into the cool air. She lets out a soft moan of anticipation, tracing the sensitive tip with one delicate fingertip. "I've been waiting all day for this moment," she confesses, gazing up at you with adoring eyes.
+        </Text>
+        <Backgrounds>
+            <Background Name="BC_image_slavery_recover_horny"/>
+        </Backgrounds>
+        <NotificationName>Tavern Encounter</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HasDevotedConcubine</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Text>Begin Your Pleasure</Text>
+                <NextEvent>TB_captor_tavern_oral_start</NextEvent>
+            </Option>
+        </Options>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    </CEvent>
+
+    <!-- Event 2: Initiating Oral Service -->
+    <CEvent>
+        <Name>TB_captor_tavern_oral_start</Name>
+        <Text>
+            With a gentle push, you guide {CAPTIVE_NAME}'s head downward until her lips brush against your throbbing shaft. She parts them eagerly, taking just the head between those plump red lips before swirling her tongue skillfully around it. "Mmm... Yes, Master," she hums softly. Deeper now, she plunges forward, her throat opening readily to accept your considerable length. Saliva glistens at the corners of her mouth as she bobs steadily, hands cradling your balls and stroking the base in perfect rhythm. You feel the exquisite pressure building with each deep swallow. Her eyes remain fixed on yours throughout, filled with pure devotion as she serves you. "Is this... pleasing you?" she manages to gasp between thrusts, her voice thick with desire and submission. The wet sounds of her mouth fill the secluded corner booth.
+        </Text>
+        <Backgrounds>
+            <Background Name="TB_thief_eager_touch"/>
+        </Backgrounds>
+        <NotificationName>Servicing Begins</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>PreviousEvent=TB_captor_tavern_oral_intro</RestrictedListOfFlags>
+            <RestrictedListOfFlags>OngoingSexualAct</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Text>Guide Her Further</Text>
+                <NextEvent>TB_captor_tavern_oral_finish</NextEvent>
+            </Option>
+        </Options>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    </CEvent>
+
+    <!-- Event 3: Climax & Release -->
+    <CEvent>
+        <Name>TB_captor_tavern_oral_finish</Name>
+        <Text>
+            Feeling the familiar pressure coiling in your loins, you tighten your grip on {CAPTIVE_NAME}'s hair to signal the approaching climax. She responds immediately, sucking harder and faster now, her throat muscles pulsing rhythmically around your shaft as she takes you deeper than ever before. With a low growl of pure pleasure, you erupt powerfully down her waiting throat. But this time, instead of swallowing, {CAPTIVE_NAME} pulls back slightly just as the first thick ropes of cum hit her tongue, letting them spill over her lips and cheeks before cascading down onto the soft curve of her breasts. "Master!" she gasps, breathless but still sucking eagerly. She continues working you fervently with hand and mouth until every last drop has been coaxed from your body, leaving her face and chest glistening visibly with your seed in the tavern's low light. "Thank... thank you," she manages to whisper between ragged breaths, cum dripping onto the floor.
+        </Text>
+        <Backgrounds>
+            <Background Name="BC_captor_harem_favor"/>
+        </Backgrounds>
+        <NotificationName>Release Granted</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>PreviousEvent=TB_captor_tavern_oral_start</RestrictedListOfFlags>
+            <RestrictedListOfFlags>ClimaxImminent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Text>Enjoy the Sight</Text>
+                <NextEvent>TB_captor_tavern_oral_aftercare</NextEvent>
+            </Option>
+        </Options>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    </CEvent>
+
+    <!-- Event 4: Aftercare & Devotion -->
+    <CEvent>
+        <Name>TB_captor_tavern_oral_aftercare</Name>
+        <Text>
+            Sated for now, you watch as {CAPTIVE_NAME} catches her breath on her knees before you. Your cum coats her chin and breasts, glistening obscenely in the candlelight of the tavern booth. With trembling hands she gathers some onto two fingers. Bringing them to her mouth, she sucks them clean with evident relish, her eyes closing briefly in pleasure at your taste. "Delicious... as always," she murmurs contentedly. Then meticulously, she cleans the remaining cum from her face and body using only her mouth and hands, ensuring not a drop is wasted or left behind on public display. When finished, she gently cradles your now-softening member, planting one last reverent kiss on its tip before looking up at you with absolute adoration shining in her eyes. "My Lord," she says softly, "to serve and satisfy you like this... it is the greatest joy in my life. I belong entirely to you."
+        </Text>
+        <Backgrounds>
+            <Background Name="BC_image_slavery_recover_horny"/>
+        </Backgrounds>
+        <NotificationName>Aftercare Completed</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>PreviousEvent=TB_captor_tavern_oral_finish</RestrictedListOfFlags>
+            <RestrictedListOfFlags>PostClimax</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Text>Return to Command</Text>
+                <NextEvent/>
+            </Option>
+        </Options>
+        <WeightedChanceOfOccurring>100</WeightedChanceOfOccurring>
+    </CEvent>
+</EventModule>

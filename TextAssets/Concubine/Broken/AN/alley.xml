@@ -1,0 +1,84 @@
+<CEEvent>
+    <Name>BrokenCon_StreetEncounter1</Name>
+    <Text>{CAPTIVE_NAME} waits shivering on her knees in a dark alley, her bare skin prickling from the evening breeze. The cold stone beneath her naked body is unrelenting, but she doesn't dare move without permission. Her ragged breathing is the only sound in the empty street as she gazes up at you with wide, pleading eyes. "Please, my lord," she whimpers, "your broken concubine needs to serve you again."</Text>
+    <BackgroundName>Broken_StreetAlley</BackgroundName>
+    <NotificationName>BrokenConcNotification1</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenCon_StreetPrelude1</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenCon_StreetPrelude1</Name>
+    <Text>{CAPTIVE_NAME} scrambles to obey as you command her to clean your cock with her tongue. Her lips wrap around the head with desperate hunger, her eyes rolling back in bliss at the taste of your skin. "Ohhh... my lord's cock tastes so good," she moans between licks, her fingers digging into her own thighs. The cold street air makes her nipples hard as she bobs eagerly, her ragged breathing turning into wanton gasps.</Text>
+    <BackgroundName>Broken_StreetAlley</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenCon_StreetAnal1</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenCon_MissionaryAnal1</Name>
+    <Text>{CAPTIVE_NAME} whimpers as you pin her delicate body beneath yours, spreading her trembling thighs and guiding your throbbing cock to her tight little asshole. "Y-yes... use my worthless hole, master," she chokes out between ragged breaths, her fingers digging into the rough pavement as you breach her virgin ass. The cold stone presses against her back while your powerful thrusts make her small frame bounce with each impact.</Text>
+    <BackgroundName>Broken_StreetAlley</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenCon_StreetCum1</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenCon_StreetCum1</Name>
+    <Text>{CAPTIVE_NAME} shudders violently as you flood her ass with hot cum, her entire body convulsing in submission. "Ohhh yes... fill your broken concubine up," she sobs happily, feeling your seed drip from her stretched hole onto the dirty pavement. Her fingers trace the mess between her thighs as she whimpers, "My lord's spunk feels so good inside me..."</Text>
+    <BackgroundName>Broken_StreetAlley</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenCon_StreetCleanup1</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenCon_StreetCleanup1</Name>
+    <Text>{CAPTIVE_NAME} laps at your cock with renewed vigor, her tongue working diligently to clean every drop of cum. "Mmm... my lord's taste is divine," she moans between licks, her fingers plunging into her gaping asshole to scoop out more seed. She sucks her own digits clean with a happy sigh before pressing her forehead against your thigh in worship. "Thank you for using your broken concubine so wonderfully..."</Text>
+    <BackgroundName>Broken_StreetAlley</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        <SkillIncrease Id="Obedience" Amount="10" Ref="Hero"/>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName></TriggerEventName>
+            <OptionText>End Event Chain</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

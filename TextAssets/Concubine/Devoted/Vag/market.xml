@@ -1,0 +1,66 @@
+<!-- Event Chain 4: Marketplace Encounter -->
+<CEEvent>
+    <Name>BC_devoted_concubine_market_1</Name>
+    <Text>The bustling marketplace provides perfect cover as {CAPTIVE_NAME} slips you a note between the stalls, her eyes burning with unspoken desire. When you follow her instructions to an empty alleyway behind the market square, she presses herself against you immediately, her hands clutching at your cloak with desperate need. "I've been waiting for this moment all week," she breathes fervently.</Text>
+    <BackgroundName>BC_image_market_alley</BackgroundName>
+    <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <TriggerEvent>BC_devoted_concubine_market_2</TriggerEvent>
+            <OptionText>{=CONTINUE}</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_market_2</Name>
+    <Text>She wastes no time in freeing your manhood from its confines, her nimble fingers working quickly despite the public setting. "I've imagined this taste every day," she murmurs against your flesh as she takes you into her mouth, her tongue swirling around it. The distant sounds of the market contrast sharply with the growing tension between you.</Text>
+    <BackgroundName>BC_image_market_alley</BackgroundName>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <TriggerEvent>BC_devoted_concubine_market_3</TriggerEvent>
+            <OptionText>{=CONTINUE}</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_market_3</Name>
+    <Text>She rises quickly and turns to press her back against the alley wall, lifting her skirts to reveal glistening folds already wet with desire. "Take me, my lord," she whispers urgently as you enter her welcoming warmth, "fill your devoted concubine completely before we're discovered." With each thrust, she bites her lip to stifle her cries of pleasure.</Text>
+    <BackgroundName>BC_image_market_sex</BackgroundName>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <TriggerEvent>BC_devoted_concubine_market_4</TriggerEvent>
+            <OptionText>{=CONTINUE}</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_market_4</Name>
+    <Text>The danger of discovery seems to heighten {CAPTIVE_NAME}'s pleasure as she shudders through multiple orgasms against your thrusting cock. "Please, my lord," she begs between gasps, "fill me with your seed! Let me bear your child so I can be forever tied to you." Her words spur you on until at last you release deep inside her, coating her womb with your essence while she shudders through another orgasm.</Text>
+    <BackgroundName>BC_image_market_sex</BackgroundName>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <TriggerEvent>BC_devoted_concubine_market_5</TriggerEvent>
+            <OptionText>{=CONTINUE}</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_concubine_market_5</Name>
+    <Text>As your cock softens, {CAPTIVE_NAME} quickly straightens her clothes and pulls you back into the bustling marketplace. No one seems to notice as she takes you into her mouth for a final cleaning in the shadows of an open stall, murmuring "Thank you for this honor" between worshipful strokes before releasing you with a loving pat on your thigh.</Text>
+    <BackgroundName>BC_image_market_alley</BackgroundName>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <ChangeAffection>CaptiveHasHero|+20</ChangeAffection>
+            <OptionText>{=CONTINUE}</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

@@ -1,0 +1,63 @@
+<Event Name="BC_event_training_spear_win_shattered">
+    <Text>
+        Your spear slips from your grasp as her weapon grazes your ribs. You collapse into the mud, watching helplessly as she stands over you trembling.
+        "Master... I'm so sorry!" she sobs, dropping to her knees beside you. Her hands hover over your body as if afraid to touch where she might have wounded you.
+        "Please tell me you're alright," she begs through tears, voice shaking with terror. "I can't lose you! You're everything!"
+        She presses herself against you, clutching at your clothes like a drowning woman grasping for a lifeline. Her breath comes in panicked gasps between her sobs.
+    </Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConferences>
+            <OptionText>Let her worship your body with her mouth to prove her devotion</OptionText>
+            <TriggerEventName>BC_event_post_victory_oral_shattered_winner</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConferences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConferences>
+            <OptionText>Take her cunt to remind her of her place as your personal toy</OptionText>
+            <TriggerEventName>BC_event_post_victory_pussy_shattered_winner</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>3</Order>
+            <MultipleRestrictedListOfConferences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConferences>
+            <OptionText>Claim her ass to assert your dominance after her victory</OptionText>
+            <TriggerEventName>BC_event_post_victory_ass_shattered_winner</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BC_event_post_victory_oral_shattered_winner">
+    <Text>
+        She frantically pulls at your clothing, desperate to reach your cock. When it springs free she immediately engulfs you in her hot mouth.
+        Her eyes remain fixed on yours as she bobs up and down with desperate need, tears streaming down her cheeks the entire time.
+        "Please let me make it up to you," she mumbles between slurping sounds. "I'll be your best little cocksleeve... just don't punish me for hurting my master!"
+        When you finally come in her mouth, she swallows eagerly before smearing any remnants across her face. "Thank you for letting me serve even after I failed you," she whispers brokenly.
+    </Text>
+</Event>
+
+<Event Name="BC_event_post_victory_pussy_shattered_winner">
+    <Text>
+        She quickly strips off her training attire, spreading herself wide in the mud before you. The desperate need in her eyes is palpable as she begs:
+        "Please fuck me hard! Make me remember my place... make me forget I ever hurt you!"
+        You position yourself between her legs and thrust inside with one brutal motion. Her scream of relief turns into moans of pleasure as you take her.
+        "Yes! Break your worthless whore!" she cries, nails digging into the mud. "Punish this bad girl for daring to win against you!"
+        When you come deep inside her, she clutches at you desperately, whispering, "I promise I'll never do it again... just don't abandon me."
+    </Text>
+</Event>
+
+<Event Name="BC_event_post_victory_ass_shattered_winner">
+    <Text>
+        She presents herself to you without hesitation, arching her back and spreading her cheeks wide. The terrified excitement in her voice is palpable:
+        "Use my ass like the bad girl I was for winning! Make me regret it... make me beg for forgiveness!"
+        You press against her tight ring, forcing your way inside as she screams in both pain and pleasure. Her fingers dig into the mud beneath her.
+        "Yes! Hurt me!" she cries between sobs. "I deserve this for hurting my master! Please don't stop until I'm a good little slut again!"
+        When you finally come deep in her bowels, she collapses forward with relief. "Thank you... thank you for breaking your bad concubine," she whispers brokenly.
+    </Text>
+</Event>

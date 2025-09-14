@@ -1,0 +1,96 @@
+<CEEvent>
+    <Name>BC_event_street_humiliation_start</Name>
+    <Description>{CAPTIVE_NAME} kneels on the dirty ground in front of you, her head lowered as passersby stare and whisper. She trembles with anticipation, knowing what's about to happen. "Please, my lord... use me here where everyone can see," she begs, her voice shaking.</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_street_humiliation_process</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <EscapeChance>0</EscapeChance>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_street_humiliation_process</Name>
+    <Description>You grab {CAPTIVE_NAME}'s hair and force her to look at the shocked faces around you as you roughly penetrate her. She moans loudly, drawing even more attention. "Yes! Let them see their concubine being fucked like the whore she is!" she screams, arching her back.</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_street_humiliation_finish</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveObedience" ByLevel="+20" Ref="Hero"/>
+        <Skill Id="InPublicHumiliation" ByLevel="-1" Ref="Hero"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_street_humiliation_finish</Name>
+    <Description>You explode deep inside her as she cries out in ecstasy. She stays kneeling, your cum dripping down her thighs for all to see. "Thank you, master... I hope your seed takes root," she whispers, licking her lips.</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>BC_event_street_humiliation_cleanup</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="CaptiveAffection" ByLevel="-20" Ref="Hero"/>
+        <Skill Id="PregnancyDesire" ByLevel="+15" Ref="Hero"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_event_street_humiliation_cleanup</Name>
+    <Description>{CAPTIVE_NAME} eagerly laps at your cock, cleaning every last drop of your cum. "Delicious," she murmurs. She then spreads her legs and scoops up the semen dripping from her pussy with her fingers before sucking them clean. "I'm yours forever, master."</Description>
+    <Options>
+        <Option>
+            <RestrictedListOfConsequences>Finish</RestrictedListOfConsequences>
+            <OptionText>Finish</OptionText>
+        </Option>
+    </Options>
+    <SkillsToLevel>
+        <Skill Id="OralServicing" ByLevel="+15" Ref="Hero"/>
+        <Skill Id="CaptiveDevotion" ByLevel="+20" Ref="Hero"/>
+    </SkillsToLevel>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>true</SexualContent>
+    <WeightedChanceOfOccurring>25</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

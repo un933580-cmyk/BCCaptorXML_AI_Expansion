@@ -1,0 +1,127 @@
+<!-- CEEvent 6 - Devoted Concubine Pleasure -->
+    <CEEvent>
+        <Name>TB_devoted_concubine_pleasure_6</Name>
+        <Text>{=BCCaptor_Text_20011}Your devoted concubine {CAPTIVE_NAME} kneels before you in a secluded forest glade, her body adorned with wildflowers. The dappled sunlight filters through the leaves, casting patterns of light and shadow on her naked form. She looks up at you with adoring eyes, her hands reaching out to undress you slowly. Her touch is gentle yet insistent, her fingers tracing every curve as she whispers words of love and devotion.</Text>
+        <BackgroundName>BC_image_forest_glade</BackgroundName>
+        <NotificationName>BC_captor_notification_romance</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>PlayerIsNotBusy</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_20012}Continue</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+    </CEEvent>
+
+<!-- CEEvent 7 - Devoted Concubine Pleasure -->
+    <CEEvent>
+        <Name>TB_devoted_concubine_pleasure_7</Name>
+        <Text>{=BCCaptor_Text_20013}{CAPTIVE_NAME} takes your cock into her mouth, her tongue swirling around the tip as she sucks you gently. Her hands roam over your body, fingers kneading and caressing every muscle. The sounds of birdsong and rustling leaves fill the glade as she worships you with her lips and tongue. She moans softly around your cock, the vibrations sending shivers down your spine.</Text>
+        <BackgroundName>BC_image_forest_glade</BackgroundName>
+        <NotificationName>BC_captor_notification_romance</NotificationName>
+        <TriggerEvents>
+            <TriggerEvent>
+                <EventName>TB_devoted_concubine_pleasure_6</EventName>
+                <EventWeight>1</EventWeight>
+                <EventUseConditions>true</EventUseConditions>
+            </TriggerEvent>
+        </TriggerEvents>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_20014}Continue</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+    </CEEvent>
+
+<!-- CEEvent 8 - Devoted Concubine Pleasure -->
+    <CEEvent>
+        <Name>TB_devoted_concubine_pleasure_8</Name>
+        <Text>{=BCCaptor_Text_20015}With a moan of pure bliss, {CAPTIVE_NAME} takes you inside her wet warmth, her body trembling with joy. She moves with practiced ease, her hips rocking against yours as she whispers sweet nothings into your ear. The forest glade echoes with the sounds of your lovemaking, mingling with the rustle of leaves and the distant calls of birds. Her fingers dig into your back, nails scraping lightly as she clings to you, lost in the sensation of being one with you.</Text>
+        <BackgroundName>BC_image_forest_glade</BackgroundName>
+        <NotificationName>BC_captor_notification_romance</NotificationName>
+        <TriggerEvents>
+            <TriggerEvent>
+                <EventName>TB_devoted_concubine_pleasure_7</EventName>
+                <EventWeight>1</EventWeight>
+                <EventUseConditions>true</EventUseConditions>
+            </TriggerEvent>
+        </TriggerEvents>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_20016}Continue</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+    </CEEvent>
+
+<!-- CEEvent 9 - Devoted Concubine Pleasure -->
+    <CEEvent>
+        <Name>TB_devoted_concubine_pleasure_9</Name>
+        <Text>{=BCCaptor_Text_20017}With a final thrust, you fill {CAPTIVE_NAME}'s womb with your seed, her body shuddering in ecstasy. She gasps as she feels the warmth inside her, her eyes wide with love and adoration. Your cum trickles down her thighs, mixing with her own juices as she collapses onto the soft grass beneath you. The dappled sunlight catches the glistening liquid, highlighting her beauty even more.</Text>
+        <BackgroundName>BC_image_forest_glade</BackgroundName>
+        <NotificationName>BC_captor_notification_romance</NotificationName>
+        <TriggerEvents>
+            <TriggerEvent>
+                <EventName>TB_devoted_concubine_pleasure_8</EventName>
+                <EventWeight>1</EventWeight>
+                <EventUseConditions>true</EventUseConditions>
+            </TriggerEvent>
+        </TriggerEvents>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_20018}Continue</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+    </CEEvent>
+
+<!-- CEEvent 10 - Devoted Concubine Pleasure -->
+    <CEEvent>
+        <Name>TB_devoted_concubine_pleasure_10</Name>
+        <Text>{=BCCaptor_Text_20019}With a tender smile, {CAPTIVE_NAME} takes your softening cock into her mouth, cleaning every inch with reverence. She licks and sucks gently, savoring the taste of herself mixed with your essence. Her eyes never leave yours as she worships you, her love and devotion clear in every movement. When she finishes, she kisses the tip one last time before resting her head on your lap, content to be by your side.</Text>
+        <BackgroundName>BC_image_forest_glade</BackgroundName>
+        <NotificationName>BC_captor_notification_romance</NotificationName>
+        <TriggerEvents>
+            <TriggerEvent>
+                <EventName>TB_devoted_concubine_pleasure_9</EventName>
+                <EventWeight>1</EventWeight>
+                <EventUseConditions>true</EventUseConditions>
+            </TriggerEvent>
+        </TriggerEvents>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_20020}Continue</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+    </CEEvent>

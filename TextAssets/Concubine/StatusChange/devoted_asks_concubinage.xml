@@ -1,0 +1,94 @@
+<CEEvent>
+    <Name>BC_devoted_companion_requests_harem</Name>
+    <Text>{=BCCaptor_Text_New1}{COMPANION_NAME_1} approaches you with an unusual intensity in her gaze. "My lord," she says softly, taking your hand, "I have valued my role as your companion... but I find myself dreaming of serving you differently." She squeezes your hand gently, a shy smile touching her lips. "Would you consider allowing me to join your harem? I would treasure the chance to please you in new ways."</Text>
+    <BackgroundName>BC_image_devoted_companion_hopeful</BackgroundName>
+    <NotificationName>TB_random_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroHasHarem</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>ChangeCompanionFlag</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>TriggerEventChain</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New2}You stroke her cheek, pleased by this new development.</OptionText>
+            <CompanionFlagToAdd>Concubine</CompanionFlagToAdd>
+            <NextEventInChain>BC_devoted_companion_accepted</NextEventInChain>
+        </Option>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                <RestrictedListOfConsequences>TriggerEventChain</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New3}You smile and tell her you value her current companionship more.</OptionText>
+            <NextEventInChain>BC_devoted_companion_rejected</NextEventInChain>
+        </Option>
+    </Options>
+    <Companions>
+        <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_devoted"/>
+    </Companions>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_companion_accepted</Name>
+    <Text>{=BCCaptor_Text_New4}{COMPANION_NAME_1} lets out a happy sigh as you agree, her face lighting up with joy. She steps closer and takes your hands in hers. "Thank you for this honor, my lord," she says softly, pressing one of your hands to her cheek. "I will strive every day to make you proud of your decision." Her touch is gentle but full of promise.</Text>
+    <BackgroundName>BC_image_devoted_companion_grateful</BackgroundName>
+    <NotificationName>TB_random_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New5}You give her hands a reassuring squeeze.</OptionText>
+        </Option>
+    </Options>
+    <Companions>
+        <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_devoted"/>
+    </Companions>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>
+
+<CEEvent>
+    <Name>BC_devoted_companion_rejected</Name>
+    <Text>{=BCCaptor_Text_New6}{COMPANION_NAME_1} bows her head, tears welling in her eyes. "As you wish, my lord," she whispers brokenly. She turns to leave but stops at the door, glancing back with a look of longing before disappearing from view. You wonder if you made the right decision.</Text>
+    <BackgroundName>BC_image_devoted_companion_rejected</BackgroundName>
+    <NotificationName>TB_random_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_New7}You watch her go, feeling both relief and a strange emptiness.</OptionText>
+        </Option>
+    </Options>
+    <Companions>
+        <Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="BC_conditions_companion_f_devoted"/>
+    </Companions>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

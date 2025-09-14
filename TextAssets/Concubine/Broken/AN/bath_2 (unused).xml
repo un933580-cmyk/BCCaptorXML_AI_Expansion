@@ -1,0 +1,62 @@
+<CEEvent>
+    <Name>TB_bathhouse_discovery</Name>
+    <Text>Your concubine {CAPTIVE_NAME} kneels in your private bath chamber, scrubbing the tiles with her bare hands. She hasn't noticed you yet as she hums softly to herself, her tight little ass on display above her bent knees. The steam from the hot water makes her skin glisten invitingly in the candlelight. Her collar glints as she moves, reminding you of her status as your property. When she finally turns and sees you, her whole face lights up with excitement at being caught serving you.</Text>
+    <Backgrounds><Background Name="NK_bath_chamber"/></Backgrounds>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CanBeTriggeredAnyTime</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText><TriggerEventName>TB_bathhouse_worship</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_bathhouse_worship</Name>
+    <Text>{CAPTIVE_NAME} immediately drops her cleaning rag and crawls to your feet, pressing her face against your crotch through your trousers. "Master, please let me worship you," she begs between wet kisses. She unbuckles your belt with trembling fingers while praising how fortunate she is to serve such a powerful man. Her breath comes in excited little gasps as she finally frees your hardening cock and takes it into her warm, sloppy mouth. The way she moans around your length tells you everything you need to know about her true desires.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText><TriggerEventName>TB_bathhouse_preparation</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_bathhouse_preparation</Name>
+    <Text>{CAPTIVE_NAME} positions herself perfectly on all fours in the shallow bathing pool, spreading her cheeks wide with both hands to expose that tight little asshole. "I'm so lucky to have such a wonderful master who takes care of his broken concubine," she coos while looking back at you over her shoulder. The hot water swirls around her knees as she wiggles her hips invitingly, begging you to claim what's rightfully yours. She reaches between her legs with one hand to finger herself while waiting patiently for your cock to enter where it belongs.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText><TriggerEventName>TB_bathhouse_anal</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_bathhouse_anal</Name>
+    <Text>{CAPTIVE_NAME} squeals with delight as you push into her tight little hole, the water sloshing around your thighs. "Oh yes master! Break me completely!" she cries while pushing back against every thrust. Her ass clenches around you perfectly - just loose enough to take all of you but still tight as a vice when she cums. The sound of skin slapping against wet skin fills the chamber along with her breathy pleas for more. She reaches back to pull her cheeks even wider apart, wanting you to see exactly what belongs to you.</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText><TriggerEventName>TB_bathhouse_release</TriggerEventName></Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>TB_bathhouse_release</Name>
+    <Text>{CAPTIVE_NAME} collapses forward into the water as you fill her bowels with your seed, her asshole twitching around your softening cock. "Thank you master," she moans while reaching back to feel where you just marked her. She scoops up handfuls of the soapy bathwater and washes your spent cock lovingly between her breasts before taking it into her mouth again. When she finally pulls away, her lips glisten with saliva and she grins up at you - "Your broken concubine is yours to use however you please, master."</Text>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        <SkillConsequence Id="Obedience" ChangeType="Increase" Value="10"/>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option><Order>0</Order><OptionText>Continue</OptionText></Option>
+    </Options>
+</CEEvent>

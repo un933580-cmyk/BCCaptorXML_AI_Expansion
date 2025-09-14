@@ -1,0 +1,30 @@
+<Event>
+    <Name>FanaticallyDevoted_RequestJointTraining</Name>
+    <Text>The devoted concubine steps before you, her practice blade still glistening with sweat from recent drills. "My love... I've trained alone for too long," she says with quiet urgency, gripping your arm with warm fingers. "Please spar with me - only through watching and learning from you can I truly improve." Her eyes burn with determination mixed with vulnerability, her body language radiating both eagerness and nervous respect. "I need to train alongside you... to be worthy of protecting you in battle."</Text>
+    <BackgroundName>BC_image_fanatical_request_training</BackgroundName>
+    <NotificationName>FanaticallyDevoted_TrainingRequest</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <Flag>Companion</Flag>
+        <Flag>CanOnlyBeTriggeredByOtherEvent</Flag>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <Consequence>Continue</Consequence>
+            </MultipleRestrictedListOfConsequences>
+            <Text>"Very well... let us begin immediately."</Text>
+            <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>FanaticallyDevoted_PrivateSparringSession</EventName>
+                    <EventWeight>100</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>100</WeightedChanceOfOccurrence>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</Event>

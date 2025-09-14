@@ -1,0 +1,134 @@
+<Event>
+    <Name>TB_fanatically_devoted_bodyguard_1</Name>
+    <Text>You hear a loud cry coming from the camp. Following the sound, you find one of your warriors lying on the ground beaten bloody while your fanatically devoted bodyguard stands over him, shouting at the top of her lungs. "I am not some camp whore to be pawed at by the likes of you!" she yells, punctuating each word with a vicious kick to his ribs.</Text>
+    <Image>FanaticBodyguardAngry</Image>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>This fool dared touch what belongs to me. Let her finish him.</Text>
+            <Consequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </Consequences>
+            <NextEvent>TB_fanatically_devoted_bodyguard_2</NextEvent>
+        </Option>
+        <Option>
+            <Order>1</Order>
+            <Text>Not a whore? It seems someone forgot their place. Order your men to remind her.</Text>
+            <Consequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </Consequences>
+            <NextEvent>TB_fanatically_devoted_bodyguard_3</NextEvent>
+        </Option>
+    </Options>
+    <Flags>
+        <Flag>FanaticallyDevotedBodyguardPresent</Flag>
+    </Flags>
+</Event>
+
+<Event>
+    <Name>TB_fanatically_devoted_bodyguard_2</Name>
+    <Text>Your bodyguard continues her tirade, standing triumphantly over the fallen warrior with one foot on his throat. "You only live because you might die in battle for my master," she spits between kicks to his ribs. "But if you ever come near me again, I will ensure you never have that chance." Her eyes burn with furious rage as she delivers each blow, her body trembling with barely contained violence - until suddenly she freezes mid-kick, her gaze snapping toward you like a wolf catching the scent of its alpha. The fire in her eyes instantly transforms into something far more dangerous: raw, possessive devotion. "Master," she breathes, her voice dropping to a reverent whisper as she steps away from the warrior. "I was only protecting what belongs to you." She falls to one knee before you, her fingers curling into fists against her thighs. "No man will ever touch me again unless you command it. I swear by my blade and your name that I live only to serve you in body, blood, and battle." The other soldiers watch with fearful awe as she lifts her head, baring her neck - their usual bravado replaced by silent respect for the ferocity of her devotion.</Text>
+    <Image>FanaticBodyguardVictorious</Image>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <Consequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </Consequences>
+            <NextEvent>TB_fanatically_devoted_bodyguard_punishment_1</NextEvent>
+        </Option>
+    </Options>
+</Event>
+
+<Event>
+    <Name>TB_fanatically_devoted_bodyguard_3</Name>
+    <Text>The moment you give the order, your warriors move in like a pack of wolves. They surround your bodyguard who freezes at first, then slowly raises her hands in surrender when she realizes this is your command. With professional precision they remove her armor piece by piece, each soldier taking turns to tear another garment from her body. She stands perfectly still, accepting her punishment with the same disciplined grace that makes her such an effective protector.</Text>
+    <Image>FanaticBodyguardStripped</Image>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <Consequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </Consequences>
+            <NextEvent>TB_fanatically_devoted_bodyguard_punishment_1</NextEvent>
+        </Option>
+    </Options>
+</Event>
+
+<Event>
+    <Name>TB_fanatically_devoted_bodyguard_punishment_1</Name>
+    <Text>Your warriors take turns using your bodyguard's mouth and hands, each soldier taking his pleasure while the others watch. She sucks and strokes with practiced skill, her eyes never leaving yours as if seeking approval between each act of submission. When one warrior finishes across her face she quickly wipes him off only to be immediately replaced by another eager replacement. Her agile fingers work tirelessly, massaging balls and stroking shafts while she takes multiple cocks into her throat simultaneously.</Text>
+    <Image>FanaticBodyguardOralGroup</Image>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <Consequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </Consequences>
+            <NextEvent>TB_fanatically_devoted_bodyguard_punishment_2</NextEvent>
+        </Option>
+    </Options>
+    <Flags>
+        <Flag>HeroIsCummedOnByMultipleMen</Flag>
+    </Flags>
+</Event>
+
+<Event>
+    <Name>TB_fanatically_devoted_bodyguard_punishment_2</Name>
+    <Text>Now they take her fully, each warrior claiming their turn with your bodyguard's tight holes. One pounds into her pussy while another takes her ass, both working in perfect rhythm as the third fucks her face. She moans around the cock in her throat, her body shaking with pleasure from being used by so many at once. When they switch positions she eagerly presents each hole for their use, her fanatical devotion ensuring no part of her is left unused.</Text>
+    <Image>FanaticBodyguardGroupFuck</Image>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <Consequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </Consequences>
+            <NextEvent>TB_fanatically_devoted_bodyguard_punishment_3</NextEvent>
+        </Option>
+    </Options>
+    <Flags>
+        <Flag>HeroIsCummedOnByMultipleMen</Flag>
+    </Flags>
+</Event>
+
+<Event>
+    <Name>TB_fanatically_devoted_bodyguard_punishment_3</Name>
+    <Text>A fresh group of warriors takes their turn with your bodyguard, her body now covered in the sweat and seed of a dozen men. She welcomes each new cock eagerly, her holes stretched wide from being used so thoroughly. The soldiers take turns riding her face and fucking her holes, some choosing to cum on her face while others fill her womb or ass with their hot seed. Through it all she maintains that perfect balance between fierce warrior and complete sexual submissive.</Text>
+    <Image>FanaticBodyguardGroupFuck2</Image>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Continue</Text>
+            <Consequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </Consequences>
+            <NextEvent>TB_fanatically_devoted_bodyguard_punishment_4</NextEvent>
+        </Option>
+    </Options>
+    <Flags>
+        <Flag>HeroIsCummedOnByMultipleMen</Flag>
+    </Flags>
+</Event>
+
+<Event>
+    <Name>TB_fanatically_devoted_bodyguard_punishment_4</Name>
+    <Text>Your bodyguard collapses onto the ground, her body glistening with sweat and seed, every inch covered in the marks of her punishment. She crawls toward you on trembling legs, her face a mask of devotion mixed with exhaustion. "Master," she gasps between breaths, "please forgive me for forgetting my place. I will serve you better, be your perfect protector and perfect plaything. Please don't cast me aside." Her hands reach out pleadingly as tears mix with the semen on her cheeks.</Text>
+    <Image>FanaticBodyguardBegging</Image>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <Text>Forgive her and keep her at your side, knowing she will never forget her place again.</Text>
+            <Consequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </Consequences>
+        </Option>
+    </Options>
+    <Flags>
+        <Flag>HeroIsCummedOnByMultipleMen</Flag>
+        <Flag>FanaticallyDevotedBodyguardPunished</Flag>
+    </Flags>
+</Event>

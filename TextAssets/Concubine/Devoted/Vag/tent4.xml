@@ -1,0 +1,71 @@
+<CEEvent>
+    <Name>DevotedConcubine_TentArrival</Name>
+    <Text>{CAPTIVE_NAME}, your devoted concubine, awaits you in the commander's tent. The canvas walls dampen the sounds of the encampment outside, creating an intimate sanctuary. She kneels at the entrance, dressed only in a sheer robe that barely conceals her trembling body. Her eyes never leave yours as she whispers, "My lord... I've been dreaming of this moment since you last touched me."</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent><EventName>DevotedConcubine_TentPrelude</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubine_TentPrelude</Name>
+    <Text>{CAPTIVE_NAME} rises gracefully and approaches, her hands trembling with anticipation. "Let me serve you, my love," she breathes as she gently removes your armor piece by piece. Each movement is reverential, her lips brushing against exposed skin. She kneels again to undo your belt, murmuring, "Your pleasure is my only purpose... I exist solely to please you." Her fingers work deftly, freeing your cock before taking it into her mouth with a desperate moan.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent><EventName>DevotedConcubine_TentIntercourse</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubine_TentIntercourse</Name>
+    <Text>{CAPTIVE_NAME} pulls you onto the furs, her body arching to receive you. "Yes... oh gods, yes!" she cries as you enter her tight warmth. Her legs wrap around your hips, nails digging into your back as she clings desperately. "Fill me, my lord! Breed me like the devoted concubine I am!" Each thrust earns a whimper of bliss, her inner walls fluttering around you in perfect harmony.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent><EventName>DevotedConcubine_TentCumming</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubine_TentCumming</Name>
+    <Text>{CAPTIVE_NAME}'s screams of ecstasy fill the tent as you spill deep inside her. She clutches at your back, nails leaving marks in her desperation to stay connected. "Oh gods... oh my love... you're filling me so completely," she gasps between shuddering breaths. Her legs remain locked around your hips long after your thrusts cease, milking every drop from you.</Text>
+    <Options>
+        <Option>
+            <OptionText>Continue</OptionText>
+            <TriggerEvents>
+                <TriggerEvent><EventName>DevotedConcubine_TentAftercare</EventName></TriggerEvent>
+            </TriggerEvents>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+</CEEvent>
+
+<CEEvent>
+    <Name>DevotedConcubine_TentAftercare</Name>
+    <Text>{CAPTIVE_NAME} slides down your body, her lips finding your cock before it even softens. She sucks eagerly at the head, cleaning every trace of herself while murmuring, "Thank you... thank you for using me so perfectly." After swallowing your seed, she looks up with worshipful eyes. "I'll never love anyone but you. Please take me again whenever you desire..."</Text>
+    <Options>
+        <Option>
+            <OptionText>End Encounter</OptionText>
+        </Option>
+    </Options>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+    <SexualContent>true</SexualContent>
+</CEEvent>

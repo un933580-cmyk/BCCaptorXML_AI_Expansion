@@ -1,0 +1,86 @@
+<!-- Chain 2: Beach at Sunset -->
+<CEEvent>
+    <Name>BrokenConcubineBeach1</Name>
+    <Text>The golden light of sunset bathes the deserted beach as you find {CAPTIVE_NAME} kneeling in the wet sand, her concubine collar glinting. Waves lap at her bare legs while she waits obediently, her fingers digging into the sand to resist touching herself. The salty breeze carries her musky scent as she watches your approach with hungry eyes.</Text>
+    <BackgroundName>BeachAtSunset</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubineBeach2</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubineBeach2</Name>
+    <Text>{CAPTIVE_NAME} presses her face against your thigh, her tongue tracing patterns on your skin as she prepares you. "I live only to serve my master's cock," she whispers reverently between kisses, her hands gently stroking your length. The rhythmic sound of waves provides a soothing backdrop to her worshipful ministrations.</Text>
+    <BackgroundName>BeachAtSunset</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubineBeach3</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubineBeach3</Name>
+    <Text>You push {CAPTIVE_NAME} down onto the wet sand, her back arching as you claim her from behind. The tide washes around your joined bodies with each thrust, carrying away her cries of submission. "Fill me completely, master," she gasps, her fingers clutching at sand as you use her roughly, the sound of your coupling blending with the ocean's roar.</Text>
+    <BackgroundName>BeachAtSunset</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubineBeach4</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubineBeach4</Name>
+    <Text>Your release spills into her depths as the last light of day fades, leaving {CAPTIVE_NAME} panting and sated on the damp sand. She immediately turns to clean your cock with eager licks, her tongue catching every drop of seawater mixed with your essence. "Thank you for claiming me so thoroughly," she murmurs between kisses.</Text>
+    <BackgroundName>BeachAtSunset</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveGenderIsFemale</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubineBeach5</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>
+
+<CEEvent>
+    <Name>BrokenConcubineBeach5</Name>
+    <Text>{CAPTIVE_NAME} rolls onto her back, spreading her legs to show you your handiwork - her gaping hole still dripping with your seed. "I'll be ready whenever my master desires me again," she purrs as moonlight bathes her broken body, the sound of crashing waves underscoring her total submission.</Text>
+    <BackgroundName>BeachAtSunset</BackgroundName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>CaptiveGenderIsFemale</RestrictedListOfFlags>
+        <SkillEffect Id="Obedience" Value="1" Ref="Hero"/>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <TriggerEventName>BrokenConcubineBeach1</TriggerEventName>
+            <OptionText>Continue</OptionText>
+        </Option>
+    </Options>
+</CEEvent>

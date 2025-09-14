@@ -1,0 +1,41 @@
+<Event Name="BD_event_training_concubine_win">
+    <Description>
+        She moves with practiced precision—every strike a testament to your training. The blade glances off yours, spinning away as her free hand catches your wrist. In one fluid motion, she has you flat on your back in the dirt.
+        "I win," she breathes, standing over you with triumphant eyes. Her fingers trace your jawline before brushing against your lips. "And now... I claim my prize." She leans closer, voice dropping to a whisper. "You'll give it to me, won't you?"
+    </Description>
+        <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let her claim what's hers.</OptionText>
+            <TriggerEventName>BD_event_concubine_oral_takeover</TriggerEventName>
+        </Option>
+        <!-- Other options remain unchanged -->
+    </Options>
+</Event>
+
+<Event Name="BD_event_concubine_oral_takeover">
+    <Description>
+        She kneels between your legs, fingers already working at your trousers. "This is what I want," she murmurs against your skin. "Your cock in my mouth—tasting the man who made me strong enough to win." Her lips close around you before you can respond.
+        The suction starts strong but becomes almost worshipful as she takes more of you inside, throat relaxing around the head with practiced ease. Her free hand cups your balls, rolling them gently while her tongue swirls along sensitive spots. When you're about to climax, she pulls back just enough to look up at you—eyes locked on yours as she takes every drop down with obvious relish.
+        After swallowing, she licks her lips clean before pressing a kiss to your still-sensitive tip. "Thank you," she whispers, voice thick with satisfaction. "I knew you'd give me exactly what I deserved."
+    </Description>
+</Event>
+
+<Event Name="BD_event_concubine_vaginal_takeover">
+    <Description>
+        She stands above you, armor plates glinting in the sunlight as she slowly removes her trousers. "Look at me," she commands softly. "I want to be taken like this—like a proper reward for my victory." When you comply, she guides your hands back to her hips with a satisfied sigh before sinking down onto you.
+        Her movements start slow and deliberate, each descent testing how deep you can go inside her. "You feel... incredible," she murmurs between thrusts. The armor plates press against your chest as the rhythm quickens. Soon she's rocking against you frantically, nails digging into your shoulders until she breaks apart with a cry that echoes through the clearing.
+        When your release comes, she doesn't pull away but stays seated, feeling every pulse inside her before collapsing forward onto your chest. "Such a good prize," she murmurs as warm fluid begins to trickle from where you're still joined. She makes no move to wipe it away—content to let the evidence of her victory remain visible.
+    </Description>
+</Event>
+
+<Event Name="BD_event_concubine_anal_takeover">
+    <Description>
+        She turns and spreads her cheeks wide to reveal the tight pink ring clenching visibly in anticipation. "Here," she commands, pressing two fingers inside herself briefly before pulling them out—leaving the entrance glistening wet from her preparation. "I want you to take my ass completely."
+        The initial resistance is intoxicating as your length stretches her wide open, each inch taken accompanied by sharp gasps and eager moans. When you're balls-deep inside her hot channel, she reaches behind with both hands to pull those firm cheeks even further apart—giving you the perfect view of where you're joined.
+        The moment release comes is overwhelming—the way her muscles clamp down around you as your cum fills her tight back passage, the feeling of being milked dry by her victorious body. She stays for several long moments after, savoring the sensation of being completely filled before slowly straightening up with a satisfied sigh.
+    </Description>
+</Event>

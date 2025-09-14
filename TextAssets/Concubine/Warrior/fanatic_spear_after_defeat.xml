@@ -1,0 +1,57 @@
+<Event Name="BD_event_training_spear_win">
+    <<Text>
+        The spear slips from your grasp as her final strike sends you crashing to the ground. She stands over you triumphantly, then kneels beside you with a radiant smile.
+        "My lord, thank you for this glorious training session," she coos, running fingers through your hair. "You've made me such an excellent warrior - now I want to use my other skills."
+        She moves to straddle your hips, her armor clinking softly as she leans down. "As victor's prize, I choose how you'll claim me," she breathes into your ear. "Your cock is the only proper reward for defeating my beloved teacher."
+    </Text>
+    <Options>
+        <Option>
+            <Order>1</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Let her worship your 'spear' with her mouth</OptionText>
+            <TriggerEventName>BD_event_post_victory_oral_devoted</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>2</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Take her willing body in the grass</OptionText>
+            <TriggerEventName>BD_event_post_victory_field_devoted</TriggerEventName>
+        </Option>
+        <Option>
+            <Order>3</Order>
+            <MultipleRestrictedListOfConferences>
+                <RestrictedListOfConferences>Continue</RestrictedListOfConferences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>Claim her tightest hole as your prize</OptionText>
+            <TriggerEventName>BD_event_post_victory_anal_devoted</TriggerEventName>
+        </Option>
+    </Options>
+</Event>
+
+<Event Name="BD_event_post_victory_oral_devoted">
+    <Text>
+        She quickly strips you of your armor, her hands eager to expose your cock. "This glorious weapon deserves my most devoted attention," she murmurs as she wraps her lips around you.
+        The sight of her bobbing head between your thighs is intoxicating - the way her armor clinks with each movement, how her fingers grip your legs for balance. You feel her tongue swirling expertly before she takes you deeper, eyes locked on yours the whole time.
+        When you finally come, it's in great spurts down her throat that make her moan around your length. She stays there until you soften, then looks up with worshipful eyes. "My lord, your 'spear' is truly magnificent," she sighs, licking her lips. "I'll never tire of this perfect victory reward."
+    </Text>
+</Event>
+
+<Event Name="BD_event_post_victory_field_devoted">
+    <Text>
+        She removes just enough armor to expose her glistening folds before straddling you again. "Please," she whispers, guiding your cock inside, "give me your masterful thrusts as my victory prize."
+        Her hips move with practiced rhythm, each descent bringing her closer to ecstasy. The armor plates dig into your thighs - the only sound between her ragged breaths and your skin slapping against hers.
+        When orgasm crashes over both of you, she collapses onto your chest, panting. "Oh my lord," she murmurs against your neck, "you always know how to properly claim your devoted warrior." She kisses your jaw tenderly before adding, "And I love being the one who gets to reward myself with your glorious 'spear'."
+    </Text>
+</Event>
+
+<Event Name="BD_event_post_victory_anal_devoted">
+    <Text>
+        She turns onto her hands and knees, presenting her perfect ass to you. "Take me here as my proper reward," she begs, glancing over her shoulder with pleading eyes. "I need to feel your 'spear' in my tightest hole."
+        The initial breach makes her gasp but she presses back eagerly, eager to be filled completely. Her armor jingles softly with each movement - the only sound between her moans and your skin slapping against hers.
+        When release finally comes, it's a tidal wave that leaves both of you trembling. She stays there for a moment before collapsing onto the grass, panting happily. "My lord," she sighs contentedly, looking back at you with adoring eyes, "there's no greater reward in the world than this - being filled by my master after I've proven myself as his greatest warrior."
+    </Text>
+</Event>

@@ -1,0 +1,49 @@
+<CEEvent>
+    <Name>BC_event_broken_to_shattered_f</Name>
+    <Text>{CAPTIVE_NAME} kneels before you with unnatural stillness, her body perfectly aligned in submission. There's no tension in her posture - she doesn't fidget or adjust her position as lesser slaves might. Her eyes are clear but empty, focused solely on your face while completely devoid of thought.
+
+Her breathing is slow and measured, matching the rhythm of your own without conscious effort. When you move, her gaze follows you instantly, tracking every motion with perfect precision. She doesn't blink more than necessary - not out of discomfort, but because she has learned that blinking might make her miss a moment of your attention.
+
+Her mind no longer questions why she obeys or what she is obeying for. Every thought begins and ends with your will. When you speak, she processes the words immediately without analyzing their meaning - they simply exist as commands to be executed perfectly. She doesn't remember how long she's been kneeling like this, only that it feels natural.
+
+The transformation is complete: her consciousness has been reshaped into something new. Not a mindless automaton, but a being whose entire existence revolves around your pleasure and commands. She understands herself not as an independent person, but as an extension of your will - a tool that exists solely to serve you in every possible way.</Text>
+    <Backgrounds>
+        <Background Name="BC_image_harem_present_shame"/>
+    </Backgrounds>
+    <NotificationName>BC_captor_notification_bow</NotificationName>
+    <MultipleRestrictedListOfFlags>
+        <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+        <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        <RestrictedListOfFlags>IgnoreAllOther</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+        <Option>
+            <Order>0</Order>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AddSlaveryFlag</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_12300}Perfect.</OptionText>
+            <SkillsToLevel>
+                <Skill Id="Shattered" ByLevel="1" Ref="Hero" Color="Red" />
+                <Skill Id="Broken" ByLevel="-1" Ref="Hero" Color="Magenta" HideNotification="true" />
+                <Skill Id="CaptiveEsteem" ByLevel="-20" Ref="Hero" Color="Magenta" HideNotification="false" />
+                <Skill Id="CaptiveAffection" ByLevel="-50" Ref="Hero" Color="Magenta" HideNotification="true" />
+                <Skill Id="CaptiveLustA" ByLevel="100" Ref="Hero" Color="Red" HideNotification="true" />
+                <Skill Id="CaptiveLustC" ByLevel="100" Ref="Hero" Color="Red" HideNotification="true" />
+                <Skill Id="CaptiveLustO" ByLevel="100" Ref="Hero" Color="Red" HideNotification="true" />
+                <Skill Id="CaptiveLustT" ByLevel="100" Ref="Hero" Color="Red" HideNotification="true" />
+                <Skill Id="CaptiveLustV" ByLevel="100" Ref="Hero" Color="Red" HideNotification="true" />
+            </SkillsToLevel>
+        </Option>
+    </Options>
+    <SkillsRequired>
+        <SkillRequired Id="Broken" Ref="Hero" Min="90" />
+        <SkillRequired Id="CaptiveObedience" Ref="Hero" Min="150" />
+        <SkillRequired Id="InTorture" Ref="Hero" Max="0" />
+    </SkillsRequired>
+    <ReqCustomCode>true</ReqCustomCode>
+    <SexualContent>false</SexualContent>
+    <WeightedChanceOfOccurring>30</WeightedChanceOfOccurring>
+    <ReqHeroMinAge>18</ReqHeroMinAge>
+</CEEvent>

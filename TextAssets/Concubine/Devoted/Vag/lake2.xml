@@ -1,0 +1,108 @@
+<!-- Chain 1: Lakeside Union -->
+    <CEEvent>
+        <Name>Devoted_Lakeside_Approach</Name>
+        <Text>{=BCCaptor_Text_20001}As you walk by the lake, you notice {CAPTIVE_NAME} kneeling at the water's edge. She's wearing only a thin linen shift that clings to her wet skin from where she's been washing herself. When she sees you approach, her entire face lights up with joy. "My lord!" she calls out eagerly, standing quickly and making sure to bow deeply before you. Her hands tremble slightly in anticipation as she watches your every move.</Text>
+        <BackgroundName>BC_image_nature_lakeside</BackgroundName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>Devoted_Lakeside_Prelude</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>Devoted_Lakeside_Prelude</Name>
+        <Text>{=BCCaptor_Text_20002}{CAPTIVE_NAME} wastes no time in showing her devotion. Her nimble fingers work quickly to remove your clothing, whispering sweet nothings as she reveals each inch of your skin. "You are so beautiful my love," she murmurs, kissing every new area she exposes. She drops to her knees before you, looking up with adoring eyes as she takes your growing erection into her warm mouth. The way she sucks you eagerly makes it clear how much she craves this moment.</Text>
+        <BackgroundName>BC_image_nature_lakeside</BackgroundName>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>Devoted_Lakeside_Sex</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>Devoted_Lakeside_Sex</Name>
+        <Text>{=BCCaptor_Text_20003}With trembling legs, {CAPTIVE_NAME} stands and leads you to the soft grass by the water's edge. She lies down beneath you, her body arching in anticipation as you position yourself between her thighs. "Take me my lord," she whispers breathlessly, "Fill your devoted concubine with your seed." Her legs wrap tightly around your waist as you enter her, her moans of pleasure filling the quiet lakeside. The way she clings to you and gasps your name shows just how much this means to her.</Text>
+        <BackgroundName>BC_image_nature_lakeside</BackgroundName>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>Devoted_Lakeside_Climax</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>Devoted_Lakeside_Climax</Name>
+        <Text>{=BCCaptor_Text_20004}As you reach your peak, {CAPTIVE_NAME} pulls you deeper into her body with desperate strength. "Yes! Fill me! Make me yours forever!" she cries out as you release inside her, her own orgasm washing over her in waves. She clings to you tightly through the aftershocks, her body trembling with pleasure and satisfaction. When you finally pull out, a thin stream of your seed leaks from between her legs, making her moan softly at the sight.</Text>
+        <BackgroundName>BC_image_nature_lakeside</BackgroundName>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>Devoted_Lakeside_Aftermath</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>Devoted_Lakeside_Aftermath</Name>
+        <Text>{=BCCaptor_Text_20005}{CAPTIVE_NAME} quickly moves to clean you, her tongue and lips working expertly to remove any traces of your seed. "Mmm... so good," she murmurs between licks, savoring every drop. When she's finished, she looks up at you with such pure devotion in her eyes. "Thank you my lord," she whispers, kissing the head of your cock gently. "I'm so happy to belong to you." She then collects some of the seed that leaked from her onto her fingers and brings it to her mouth, swallowing it down with a contented sigh.</Text>
+        <BackgroundName>BC_image_nature_lakeside</BackgroundName>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+    </CEEvent>

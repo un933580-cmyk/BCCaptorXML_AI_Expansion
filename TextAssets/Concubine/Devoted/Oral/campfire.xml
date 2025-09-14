@@ -1,0 +1,99 @@
+<CEEvent>
+    <Name>oral_devoted_concubine_campfire_approach</Name>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>oral_devoted_concubine_campfire_approach</EventName>
+            <EventWeight>100</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <OptionText>{=BCCaptor_Text_13001}Continue</OptionText>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_13002}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired><SkillRequired Id="Devoted" Min="1" Ref="Hero"/></SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <Description>
+        The campfire crackles softly as you return to your tent after a long day of marching. Your devoted concubine is already waiting for you, kneeling by the fire, her eyes shining with anticipation. She rises gracefully and approaches, her silken robes swaying in the flickering light.
+    </Description>
+</CEEvent>
+
+<CEEvent>
+    <Name>oral_devoted_concubine_campfire_action</Name>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>oral_devoted_concubine_campfire_action</EventName>
+            <EventWeight>100</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <OptionText>{=BCCaptor_Text_13003}Continue</OptionText>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_13004}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired><SkillRequired Id="Devoted" Min="1" Ref="Hero"/></SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <Description>
+        Without a word, she sinks to her knees before you and begins to unlace your trousers with practiced hands. Her breath is warm against your skin as she gazes up at you with adoring eyes. "My lord," she murmurs, "allow me to pleasure you as only a devoted concubine can."
+    </Description>
+</CEEvent>
+
+<CEEvent>
+    <Name>oral_devoted_concubine_campfire_culmination</Name>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>oral_devoted_concubine_campfire_culmination</EventName>
+            <EventWeight>100</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <OptionText>{=BCCaptor_Text_13005}Continue</OptionText>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_13006}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired><SkillRequired Id="Devoted" Min="1" Ref="Hero"/></SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <Description>
+        She takes you into her mouth with eager enthusiasm, her tongue swirling around your shaft as she sucks deeply. Her moans of pleasure vibrate through you, driving you closer to release. When at last you spend yourself down her throat, she swallows greedily, then licks her lips and looks up at you with worshipful eyes.
+    </Description>
+</CEEvent>
+
+<CEEvent>
+    <Name>oral_devoted_concubine_campfire_cleanup</Name>
+    <TriggerEvents>
+        <TriggerEvent>
+            <EventName>oral_devoted_concubine_campfire_cleanup</EventName>
+            <EventWeight>100</EventWeight>
+            <EventUseConditions>true</EventUseConditions>
+        </TriggerEvent>
+    </TriggerEvents>
+    <OptionText>{=BCCaptor_Text_13007}Continue</OptionText>
+    <Options>
+        <Option>
+            <MultipleRestrictedListOfConsequences>
+                <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+            </MultipleRestrictedListOfConsequences>
+            <OptionText>{=BCCaptor_Text_13008}Continue</OptionText>
+        </Option>
+    </Options>
+    <SkillsRequired><SkillRequired Id="Devoted" Min="1" Ref="Hero"/></SkillsRequired>
+    <SexualContent>true</SexualContent>
+    <Description>
+        She gently cleans you with her tongue, then sits back on her heels and smiles up at you. "Was that pleasing to my lord?" she asks softly. "I live only to serve your pleasure."
+    </Description>
+</CEEvent>
