@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>CE_captor_female_escape</Name>
@@ -32,7 +32,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
         <!-- represents the motivation of your guards -->
-        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <ReqMoraleBelow>10</ReqMoraleBelow>
         <!-- represents the skill of your guards -->
         <SkillsRequired>
             <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
@@ -104,7 +104,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
         <!-- represents the motivation of your guards -->
-        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <ReqMoraleBelow>10</ReqMoraleBelow>
         <!-- represents the skill of your guards and will of your prisoner -->
         <SkillsRequired>
             <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
@@ -151,7 +151,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
         <!-- represents the motivation of your guards -->
-        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <ReqMoraleBelow>10</ReqMoraleBelow>
         <!-- represents the skill of your guards -->
         <SkillsRequired>
             <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
@@ -226,7 +226,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
         <!-- represents the motivation of your guards -->
-        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <ReqMoraleBelow>10</ReqMoraleBelow>
         <!-- represents the skill of your guards and will of your prisoner -->
         <SkillsRequired>
             <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
@@ -304,7 +304,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
         <!-- represents the motivation of your guards -->
-        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <ReqMoraleBelow>10</ReqMoraleBelow>
         <!-- represents the skill of your guards and will of your prisoner -->
         <SkillsRequired>
             <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>
@@ -381,7 +381,7 @@
         <ReqCustomCode>true</ReqCustomCode>
         <SexualContent>false</SexualContent>
         <!-- represents the motivation of your guards -->
-        <ReqMoraleBelow>90</ReqMoraleBelow>
+        <ReqMoraleBelow>10</ReqMoraleBelow>
         <!-- represents the skill of your guards and will of your prisoner -->
         <SkillsRequired>
             <SkillRequired Id="Leadership" Max="95" Ref="Captor"/>

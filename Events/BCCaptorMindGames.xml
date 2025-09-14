@@ -2,10 +2,11 @@
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
 <!-- -->
     <!-- triggered events, Min Affection, Max Esteem, Min Lusts -->
-<!-- -->    
+<!-- -->
+    
     <CEEvent>
         <Name>BC_event_sex_waiting_sex</Name>
-        <Text>{=BCCaptor_Text_14437}{CAPTIVE_NAME} finds you with a few minutes to yourself, purrs in your ear, and runs off giggling toward your rooms...</Text>
+        <Text>{CAPTIVE_NAME} finds you with a few minutes to yourself, purrs in your ear, and runs off giggling toward your rooms...</Text>
         <Backgrounds>
             <Background Name="BC_image_captive_male_chains" UseConditions="BC_event_conditions_captive_male" />
             <Background Name="BC_image_sex_f_gold_wait" UseConditions="BC_event_conditions_captive_female_noble" />
@@ -33,7 +34,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14438}You were just thinking about how to get your itch scratched!</OptionText>
+                <OptionText>You were just thinking about how to get your itch scratched!</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_sex_ttf_1</EventName>
@@ -57,7 +58,7 @@
                     </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R 5 10" Ref="Hero" Color="White" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 5 10" Ref="Hero" Color="White" HideNotification="false" />
                 </SkillsToLevel>
             </Option>
             <Option>
@@ -87,9 +88,9 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14439}Reject her.</OptionText>
+                <OptionText>Reject her.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" Color="White" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" Color="White" HideNotification="false" />
                 </SkillsToLevel>
             </Option>
         </Options>
@@ -107,7 +108,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_sex_wander_sex</Name>
-        <Text>{=BCCaptor_Text_14440}{CAPTIVE_NAME} finds you with a few minutes to yourself, purrs in your ear, and runs off giggling toward your rooms...</Text>
+        <Text>{CAPTIVE_NAME} finds you with a few minutes to yourself, purrs in your ear, and runs off giggling toward your rooms...</Text>
         <BackgroundName>BC_image_f_khuz_01</BackgroundName>
         <Backgrounds>
             <Background Name="BC_image_captive_male_chains" UseConditions="BC_event_conditions_captive_male" />
@@ -131,7 +132,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14438}You were just thinking about how to get your itch scratched!</OptionText>
+                <OptionText>You were just thinking about how to get your itch scratched!</OptionText>
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_sex_ttf_1</EventName>
@@ -155,7 +156,7 @@
                     </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R 5 10" Ref="Hero" Color="White" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 5 10" Ref="Hero" Color="White" HideNotification="false" />
                 </SkillsToLevel>
             </Option>
             <Option>
@@ -163,9 +164,9 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14439}Reject her.</OptionText>
+                <OptionText>Reject her.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" Color="White" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" Color="White" HideNotification="false" />
                 </SkillsToLevel>
             </Option>
         </Options>
@@ -185,7 +186,7 @@
     <!-- CAPTIVE BREAK -->
     <CEEvent>
         <Name>BC_event_captive_broken_f</Name>
-        <Text>{=BCCaptor_Text_14441}{CAPTIVE_NAME} kneels before you, her expression addled and passive. She glances up towards her master as though trying to anticipate your next order before you even speak it. Gone is the fire in her eyes, or any hint of pride - she has become your toy, a broken slave with no more ambition than to serve your will, whatever it might be.</Text>
+        <Text>{CAPTIVE_NAME} kneels before you, her expression addled and passive. She glances up towards her master as though trying to anticipate your next order before you even speak it. Gone is the fire in her eyes, or any hint of pride - she has become your toy, a broken slave with no more ambition than to serve your will, whatever it might be.</Text>
         <Backgrounds>
             <Background Name="BC_image_harem_present_shame"/>
         </Backgrounds>
@@ -206,7 +207,7 @@
                 <SkillsToLevel>
                     <Skill Id="Broken" ByLevel="1" Ref="Hero" Color="Magenta" />
                     <Skill Id="Breakable" ByLevel="-1" Ref="Hero" Color="Magenta" HideNotification="true" />
-                    <Skill Id="CaptiveEsteem" ByLevel="-100" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="-100" Ref="Hero" Color="Magenta" HideNotification="false" />
                     <Skill Id="CaptiveLustA" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
@@ -226,10 +227,62 @@
         <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
+	
+	<!-- CAPTIVE Devotion -->
+    <CEEvent>
+        <Name>BC_event_captive_devoted_f</Name>
+		<Text>{CAPTIVE_NAME} stands before you with downcast eyes, her fingers nervously pleating the fabric of her dress. After a long pause, she takes a deep breath and looks up at you. "I... I need to tell you something," she whispers, voice trembling. "All this time we've spent together... it's made me feel things I never expected. You've been so kind to me when no one else would be... and now..." She steps closer, her hands reaching for yours. "Now I can't imagine my life without you. Please... let me stay by your side always."</Text>
+        <Backgrounds>
+            <Background Name="fem_devoted_confession_0"/>
+			<Background Name="fem_devoted_confession_1"/>
+			<Background Name="fem_devoted_confession_2"/>
+			<Background Name="fem_devoted_confession_3"/>
+			<Background Name="fem_devoted_confession_4"/>
+			<Background Name="fem_devoted_confession_5"/>
+			<Background Name="fem_devoted_confession_6"/>
+			<Background Name="fem_devoted_confession_7"/>
+        </Backgrounds>
+        <NotificationName>aiex_prisoner_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroNotHaveSpouse</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+				<OptionText>{=BCCaptor_Text_102601}Accept her heartfelt devotion.</OptionText>
+                <SkillsToLevel>
+					<Skill Id="Devoted" ByLevel="1" Ref="Hero" Color="Magenta" />
+					<Skill Id="CaptiveAffection" ByLevel="100" Ref="Hero" Color="Cyan"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="-100" Ref="Hero" Color="Magenta" HideNotification="false" />
+                    <Skill Id="CaptiveLustA" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                    <Skill Id="CaptiveLustV" ByLevel="25" Ref="Hero" Color="Magenta" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="CaptiveAffection" Ref="Hero" Min="90" />
+			<SkillRequired Id="Devoted" Ref="Hero" Max="0" />
+            <SkillRequired Id="InTorture" Ref="Hero" Max="0" />
+			<SkillRequired Id="Virginal" Ref="Hero" Max="0" />	
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	
 <!-- verbal abuse section -->    
     <CEEvent>
         <Name>BC_event_abuse_stupid</Name>
-        <Text>{=BCCaptor_Text_14442}{CAPTIVE_NAME}, you stupid cunt! They say they've never seen a thicker bitch! So fucking dumb you probably can't suck the right end of a cock.</Text>
+        <Text>{CAPTIVE_NAME}, you stupid cunt! They say they've never seen a thicker bitch! So fucking dumb you probably can't suck the right end of a cock.</Text>
         <BackgroundName>BC_captor_captive_female_shame_jailer</BackgroundName>
         <NotificationName>BC_captor_notification_bow</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -247,7 +300,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14443}Go lift something heavy, idiot. Dumb as a dead fish.</OptionText>
+                <OptionText>Go lift something heavy, idiot. Dumb as a dead fish.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" Color="White"/>
                 </SkillsToLevel>
@@ -264,7 +317,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_abuse_dirty</Name>
-        <Text>{=BCCaptor_Text_14444}{CAPTIVE_NAME}!  I can smell you from inside! I don't know what stinks, but keep your filthy carcass away from me!</Text>
+        <Text>{CAPTIVE_NAME}!  I can smell you from inside! I don't know what stinks, but keep your filthy carcass away from me!</Text>
         <BackgroundName>BC_captor_sex_attr_dirty</BackgroundName>
         <NotificationName>BC_captor_notification_bow</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -282,7 +335,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14445}You can watch me fuck clean women if you stay where I can't smell you.</OptionText>
+                <OptionText>You can watch me fuck clean women if you stay where I can't smell you.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -7 -14" Ref="Hero" Color="White"/>
                 </SkillsToLevel>
@@ -297,7 +350,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_abuse_pig</Name>
-        <Text>{=BCCaptor_Text_14446}They say you're sucking cock for moldy bread, {CAPTIVE_NAME}, you greedy piglet! I've had a feast prepared in your honor.</Text>
+        <Text>They say you're sucking cock for moldy bread, {CAPTIVE_NAME}, you greedy piglet! I've had a feast prepared in your honor.</Text>
         <BackgroundName>BC_captor_sex_abuse_feast</BackgroundName>
         <NotificationName>BC_captor_notification_bow</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -315,7 +368,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14447}Keep eating, sow.</OptionText>
+                <OptionText>Keep eating, sow.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -7 -14" Ref="Hero" Color="White"/>
                 </SkillsToLevel>
@@ -332,7 +385,7 @@
     </CEEvent>
     <CEEvent>
         <Name>BC_event_abuse_cow</Name>
-        <Text>{=BCCaptor_Text_14448}Look at those floppy tits! What a disgusting pair of hangers!</Text>
+        <Text>Look at those floppy tits! What a disgusting pair of hangers!</Text>
         <BackgroundName>BC_captor_sex_abuse_lactate</BackgroundName>
         <NotificationName>BC_captor_notification_bow</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -351,7 +404,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14449}Someone should suck the milk right out of this leaking cow!</OptionText>
+                <OptionText>Someone should suck the milk right out of this leaking cow!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -7 -14" Ref="Hero" Color="White"/>
                 </SkillsToLevel>
@@ -364,7 +417,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14450}And it's going to be me!</OptionText>
+                <OptionText>And it's going to be me!</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveEsteem" ByLevel="R -2 -1" Ref="Hero" Color="White"/>
                 </SkillsToLevel>

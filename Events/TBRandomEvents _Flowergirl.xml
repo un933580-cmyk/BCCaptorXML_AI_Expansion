@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
 	<CEEvent>
         <Name>TB_flowergirl_visit</Name>
@@ -339,7 +339,7 @@
                     <Skill Id="CaptiveLustC" ByLevel="R -200 -50" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustT" ByLevel="R -200 -50" Ref="Hero" Color="Yellow"   HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -200 -50" Ref="Hero" Color="Yellow"  HideNotification="true" />
-                    <Skill Id="CaptiveEsteem" ByLevel="R 40 80" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 40 80" Ref="Hero" Color="Cyan" HideNotification="false" />
                 </SkillsToLevel>
 			</Option>
         </Options>

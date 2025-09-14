@@ -807,7 +807,7 @@
         </Options>
         <SkillsToLevel>
             <Skill Id="CaptiveLustC" ByLevel="R 10 30" Ref="Hero" Color="Cyan" HideNotification="true" />
-            <Skill Id="CaptiveObedience" ByLevel="R -15 -30" Ref="Hero" Color="Cyan" HideNotification="true" />
+            <Skill Id="CaptiveObedience" ByLevel="R -15 -30" Ref="Hero" Color="Cyan" HideNotification="false" />
         </SkillsToLevel>
         <SkillsRequired>
             <SkillRequired Id="Virginal" Max="0" Ref="Hero"/>
@@ -1120,7 +1120,7 @@
                 <OptionText>{=BCCaptor_Text_11046}Warn h{?ISCAPTIVEFEMALE}er{?}im{\?} that if he displeases you, you will leave h{?ISCAPTIVEFEMALE}er{?}im{\?} with the men as a treat.</OptionText>
                 <HealthTotal>-10</HealthTotal>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -10 -15" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -15" Ref="Hero" Color="Cyan" HideNotification="false" />
                     <Skill Id="CaptiveObedience" ByLevel="R 10 15" Ref="Hero" Color="Cyan" />
                 </SkillsToLevel>
             </Option>

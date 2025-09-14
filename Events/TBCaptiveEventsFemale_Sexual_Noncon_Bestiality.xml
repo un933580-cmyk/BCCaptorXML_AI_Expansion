@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_noncon_canine_comfort</Name>
+        <Text>One of your captors' dogs approaches you and begins sniffing at your sex. You push it away, only for it to begin licking your exposed vulva, and you shudder reflexively. The dog's owner notices, and with a wicked expression orders you to let it do as it wishes.</Text>
+        <BackgroundName>TB_canine_lick</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Open your legs to give it better access.</OptionText>
+                <RelationTotal>2</RelationTotal>
+                <TriggerEventName>TB_noncon_canine_climax</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Wait it out and hope it goes away.</OptionText>
+                <TriggerEventName>TB_noncon_canine_climax</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue pushing it away from you.</OptionText>
+                <RelationTotal>R -1 -7</RelationTotal>
+                <TriggerEventName>TB_noncon_punish_fist</TriggerEventName>
+                <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_noncon_canine_climax</Name>
+        <Text>The creature pushes its tongue deep into your cunt and you lose composure completely; you feel your knees fall away from under you as it continues its efforts, stimulating your clit and vaginal passage with its inhumanly talented tongue. As you climax the men watching you cheer, clearly enjoying your humiliation, and the dog's owner comments that it deserves a reward for pleasuring you.</Text>
+        <BackgroundName>TB_canine_lick</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to escape before anything worse can happen to you.</OptionText>
+                <EscapeChance>25</EscapeChance>
+                <RelationTotal>-2</RelationTotal>
+                <HealthTotal>R 5 15</HealthTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Offer the dog your meal.</OptionText>
+                <RelationTotal>-1</RelationTotal>
+                <HealthTotal>R 5 15</HealthTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Kneel down and pet the dog.</OptionText>
+                <RelationTotal>2</RelationTotal>
+                <HealthTotal>R 5 15</HealthTotal>
+                <TriggerEventName>TB_noncon_canine_missionary</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_noncon_canine_missionary</Name>
+        <Text>The canine leaps at you, knocking you on your ass, then stands over you, and you feel a massive rod thrust into your flower, filling you completely. It makes you its bitch, pistoning into you harder and faster than you've ever been fucked before. You realize with alarm its member is growing inside you, and as you try to push it out that the base of its cock is now too large to be removed. You whimper as you feel its seed flood your womb. After a few minutes it pulls out, leaving a thick trail of semen streaming from your cunt.</Text>
+        <BackgroundName>TB_canine_missionary</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>2</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>AttemptEscape</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Flee in a horrified panic.</OptionText>
+                <EscapeChance>25</EscapeChance>
+                <HealthTotal>R 5 15</HealthTotal>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Move away from it and try to rest.</OptionText>
+                <HealthTotal>R -1 -2</HealthTotal>
+                <TriggerEventName>TB_dream_lobby</TriggerEventName>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Curl up submissively beside it to sleep.</OptionText>
+                <RenownTotal>R -3 -6</RenownTotal>
+                <RelationTotal>R 3 6</RelationTotal>
+                <HealthTotal>25</HealthTotal>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_noncon_canine_alchemist</Name>
+        <Text>You find yourself manacled to the floor, your arms and legs held in place so that you cannot help but thrust your sex lewdly into the air. It seems an alchemist has paid your captor to use you in his experiments, and as your fear grows you find he's brought a wolf into the cell with you. It approaches, smelling your groin, then roughly mounts you, its hardness painfully filling your cunt. As you moan and gasp in horror it begins thrusting with inhuman speed...</Text>
+        <BackgroundName>TB_canine_restrained_doggy</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCastle</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationDungeon</RestrictedListOfFlags>
+            <RestrictedListOfFlags>LocationCity</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Common</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Bound as you are, you can do nothing to resist...</OptionText>
+                <HealthTotal>R -10 -20</HealthTotal>
+                <TriggerEventName>TB_noncon_canine_alchemist_climax</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_noncon_canine_alchemist_climax</Name>
+        <Text>You grit your teeth and try to hold on as the creature breeds you. After a handful of minutes that feel like hours you feel its member growing inside you, and shortly thereafter your womb is flooded with warmth. The creature's organ is locked inside you as you feel your insides bloat with pressure, until finally it softens enough to slide out, bringing with it a waterfall of milky seed. Satisfied, the alchemist says he will be eagerly awaiting news about whether your mating bears fruit...</Text>
+        <BackgroundName>TB_aftersex_filled</BackgroundName>
+        <NotificationName>TB_slave_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captive</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroNotOwnedByNotable</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>Bestiality</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Try to rest.</OptionText>
+                <TriggerEventName>TB_dream_lobby</TriggerEventName>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

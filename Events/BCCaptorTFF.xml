@@ -214,8 +214,8 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>{=BCCaptor_Text_14009}Leave her in your quarters, and continue battle preparations.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 0 3" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" HideNotification="false"/>
                 </SkillsToLevel>
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
@@ -352,7 +352,7 @@
                 <TriggerEventName>BC_event_female_sex_ttr</TriggerEventName>
                 <SkillsToLevel>
                     <!-- <Skill Id="Raging" ByLevel="1" Ref="Captor" /> -->
-                    <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R 1 -5" HideNotification="true" />
+                    <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R 1 -5" HideNotification="false" />
                     <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
@@ -565,8 +565,8 @@
                         </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 3 10" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R 1 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 3 10" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 10" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -590,8 +590,8 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>{=BCCaptor_Text_14092}Kick the leaking trollops out.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveObedience" ByLevel="R 3 6" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 3 6" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 10" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustO" ByLevel="R 2 6" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R -2 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -676,7 +676,7 @@
                         </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 2 4" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveLustO" ByLevel="R 3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -762,8 +762,8 @@
                         </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -2 6" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 6" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 0 3" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -3 12" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -849,7 +849,7 @@
                         </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -4 2" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -4 2" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustV" ByLevel="R 2 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R 1 4" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 2 4" Ref="Hero" HideNotification="true"/>
@@ -936,8 +936,8 @@
                         </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 1 7" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 7" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 0 3" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustC" ByLevel="R -2 4" Ref="Hero" Color="Yellow" HideNotification="true"/>
                 <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
                 <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
@@ -993,7 +993,7 @@
                             </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 1 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 10" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R -1 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -1015,7 +1015,7 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>{=BCCaptor_Text_14071}Leave them sleeping and return to your warband.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 8 15" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 8 15" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustO" ByLevel="R -1 12" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R 2 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -1069,7 +1069,7 @@
                             </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 1 10" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 10" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R -1 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -1091,7 +1091,7 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>{=BCCaptor_Text_14071}Leave them sleeping and return to your warband.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 8 15" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 8 15" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustO" ByLevel="R -1 12" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R 2 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -1137,7 +1137,7 @@
                 <TriggerEventName>BC_event_female_sex_ttv_v2</TriggerEventName>
                 <OptionText>{=BCCaptor_Text_14185}Intoxicating.</OptionText>
             <SkillsToLevel>
-                <Skill Id="CaptiveAffection" ByLevel="R -1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveAffection" ByLevel="R -1 10" Ref="Hero" Color="Cyan" HideNotification="false" />
                 <Skill Id="CaptiveLustV" ByLevel="R -3 4" Ref="Hero" Color="Cyan" HideNotification="true" />
                 <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true" />
                 <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -1176,13 +1176,13 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>{=BCCaptor_Text_14118}Now, to go forth and conquer!</OptionText>
             <SkillsToLevel>
-                <Skill Id="CaptiveAffection" ByLevel="R -1 4" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="CaptiveAffection" ByLevel="R -1 4" Ref="Hero" Color="Cyan" HideNotification="false" />
                 <Skill Id="CaptiveLustV" ByLevel="R -3 4" Ref="Hero" Color="Cyan" HideNotification="true" />
                 <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true" />
                 <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true" />
                 <Skill Id="CaptiveLustT" ByLevel="R -1 10" Ref="Hero" Color="Cyan" HideNotification="true" />
                 <Skill Id="CaptiveLustC" ByLevel="R -10 25" Ref="Hero" Color="Cyan" HideNotification="true" />
-                <Skill Id="Deflowered" ByLevel="1" Ref="Hero" Color="Cyan" HideNotification="true" />
+                <Skill Id="Deflowered" ByLevel="1" Ref="Hero" Color="Cyan" HideNotification="false" />
                 <Skill Id="Maiden" ByLevel="-100" Ref="Hero" Color="Cyan"  />
                 <Skill Id="Virginal" ByLevel="-100" Ref="Hero" Color="Cyan"  HideNotification="true" />
                 <Skill Id="CaptiveLustA" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
@@ -1190,7 +1190,7 @@
                 <Skill Id="CaptiveLustO" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
                 <Skill Id="CaptiveLustT" ByLevel="R -10 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
                 <Skill Id="CaptiveLustV" ByLevel="R -100 -50" Ref="Captor" Color="Yellow" />
-                <Skill Id="CaptiveEsteem" ByLevel="100" Ref="Captor" Color="Yellow" HideNotification="true" />
+                <Skill Id="CaptiveEsteem" ByLevel="100" Ref="Captor" Color="Yellow" HideNotification="false" />
             </SkillsToLevel>
             </Option>
         </Options>
@@ -1392,8 +1392,8 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>{=BCCaptor_Text_14153}Leave him in your quarters, and continue battle preparations.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 0 3" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 0 3" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 2 5" Ref="Hero" HideNotification="false"/>
                 </SkillsToLevel>
                 <HealthTotal>R 18 36</HealthTotal>
             </Option>
@@ -1445,7 +1445,7 @@
                         </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -3 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R -1 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
@@ -1501,7 +1501,7 @@
                         </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -1559,7 +1559,7 @@
                         </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -6 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -3 8" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -1638,8 +1638,8 @@
                         </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -2 3" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R -3 0" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 3" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R -3 0" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -3 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
                 <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
                 <Skill Id="CaptiveLustA" ByLevel="R -15 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
@@ -1809,7 +1809,7 @@
                 <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
                 <SkillsToLevel>
                     <!-- <Skill Id="Raging" ByLevel="1" Ref="Captor" HideNotification="true" /> -->
-                    <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R 1 -5" HideNotification="true" />
+                    <Skill Id="CaptiveAffection" Ref="Hero" ByLevel="R 1 -5" HideNotification="false" />
                     <Skill Id="CaptiveLustC" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R 3 10" Ref="Captor" HideNotification="true" />
@@ -1923,7 +1923,7 @@
                 <OptionText>{=BCCaptor_Text_14206}Leave your toy dripping for a moment.</OptionText>                    
                     <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -3 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R -1 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
@@ -1961,7 +1961,7 @@
                 <OptionText>{=BCCaptor_Text_14206}Leave your toy dripping for a moment.</OptionText>                    
                     <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -1 3" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
@@ -1999,7 +1999,7 @@
                 <OptionText>{=BCCaptor_Text_14209}Leave your toy in the corner a moment.</OptionText>                    
                     <TriggerEventName>BC_event_female_sex_ttr_cocks_2</TriggerEventName>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -2 1" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 1" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
@@ -2044,8 +2044,8 @@
                 <OptionText>{=BCCaptor_Text_14206}Leave your toy dripping for a moment.</OptionText>                    
                     <TriggerEventName>BC_event_female_sex_ttr_m</TriggerEventName>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R -2 4" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -2 4" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R -2 4" Ref="Hero" HideNotification="false"/>
                     <Skill Id="CaptiveLustV" ByLevel="R -1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>
                     <Skill Id="CaptiveLustO" ByLevel="R -1 5" Ref="Hero" Color="Yellow" HideNotification="true"/>

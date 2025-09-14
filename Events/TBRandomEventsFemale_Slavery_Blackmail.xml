@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_slavery_blackmail</Name>
@@ -47,7 +47,7 @@
                 <OptionText>{=TBRandomEventsFemale_Slavery_Blackmail016}Slit his treacherous throat.</OptionText>
                 <ReqHeroSlaveLevelBelow>250</ReqHeroSlaveLevelBelow>
                 <RenownTotal>R 2 6</RenownTotal>
-                <BattleSettings Ref="City" EnemyName="Blackmailer" Victory="TB_slavery_blackmail_slit" Defeat="TB_slavery_blackmail_submit" PlayerTroops="0">
+                <BattleSettings Ref="Regular" EnemyName="Blackmailer" Victory="TB_slavery_blackmail_slit" Defeat="TB_slavery_blackmail_submit" PlayerTroops="0">
                     <SpawnTroops>
                         <SpawnTroop Ref="Enemy" Id="gangleader_bodyguard_empire" Number="1" />
                     </SpawnTroops>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_alley_noncon_lobby</Name>
@@ -177,7 +177,7 @@
                 <OptionText>{=TBModularEventsFemale_Alley_Noncon013}How much more of this will you have to endure?</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustV" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="false" />
                 </SkillsToLevel>
                 <HealthTotal>R -1 -3</HealthTotal>
                 <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
@@ -208,7 +208,7 @@
                 <OptionText>{=TBModularEventsFemale_Alley_Noncon013}How much more of this will you have to endure?</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustO" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveEsteem" ByLevel="R -1 -10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -1 -10" Ref="Hero" HideNotification="false" />
                 </SkillsToLevel>
                 <HealthTotal>R -1 -3</HealthTotal>
                 <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
@@ -238,7 +238,7 @@
                 </MultipleRestrictedListOfConsequences>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="false" />
                 </SkillsToLevel>
                 <OptionText>{=TBModularEventsFemale_Alley_Noncon013}How much more of this will you have to endure?</OptionText>
                 <HealthTotal>R -1 -3</HealthTotal>
@@ -271,7 +271,7 @@
                 <OptionText>{=TBModularEventsFemale_Alley_Noncon013}How much more of this will you have to endure?</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustC" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -15" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -15" Ref="Hero" HideNotification="false" />
                 </SkillsToLevel>
                 <RenownTotal>R -1 -3</RenownTotal>
                 <HealthTotal>R -1 -3</HealthTotal>
@@ -307,7 +307,7 @@
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustT" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R 2 10" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveEsteem" ByLevel="R -2 -10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -2 -10" Ref="Hero" HideNotification="false" />
                 </SkillsToLevel>
                 <TriggerEventName>TB_alley_noncon_lobby</TriggerEventName>
             </Option>
@@ -386,7 +386,7 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>{=TBModularEventsFemale_Alley_Noncon015}Try to get some rest.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="false" />
                 </SkillsToLevel>
                 <HealthTotal>R 10 20</HealthTotal>
             </Option>
@@ -430,7 +430,7 @@
                 </MultipleRestrictedListOfConsequences>
                 <OptionText>{=TBModularEventsFemale_Alley_Noncon015}Try to get some rest.</OptionText>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 -10" Ref="Hero" HideNotification="false" />
                 </SkillsToLevel>
                 <HealthTotal>R 10 20</HealthTotal>
             </Option>

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    
+    <CEEvent>
+        <Name>AIC_broken_companion_offers_concubinage</Name>
+        <Text>{=AICaptor_Text_11004}{COMPANION_NAME} spreads her legs before you without hesitation, her body language speaking louder than words. "I'm just a filthy whore," she moans, touching herself shamelessly—but there's no shame in her voice, only hunger for your approval. "Please make me your personal concubine... I'll be the best sexual slave you've ever had." She crawls closer on all fours, pressing her forehead to the floor and whispering: "I was made to serve only one master—and that will be you." The way she says it isn't pleading anymore—it's a declaration. "I promise I'll never disappoint you," she adds softly, as if offering a sacred vow rather than empty words.</Text>
+        <Backgrounds>
+            <Background Name="fem_broken_conc_request_1"/>
+            <Background Name="fem_broken_conc_request_2"/>
+            <Background Name="fem_broken_conc_request_3"/>
+            <Background Name="fem_broken_conc_request_4"/>
+            <Background Name="fem_broken_conc_request_5"/>
+            <Background Name="fem_broken_conc_request_6"/>
+        </Backgrounds>
+        <NotificationName>aiex_conc_status_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Concubine" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11005}You grope her plump ass firmly, feeling the soft flesh yield to your touch as you accept her offer and claim your new concubine.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_companion_concubinage_accepted</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>TriggerEventChain</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11014}You gently push her away with a dismissive wave, telling her you have no need for another personal whore at the moment but will continue using her as needed.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_companion_concubinage_rejected</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_broken_ready_for_concubinage_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>80</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_companion_offers_concubinage_retry</Name>
+        <Text>{=AICaptor_Text_11004}{COMPANION_NAME} spreads her legs before you without hesitation, her body language speaking louder than words. "I'm just a filthy whore," she moans, touching herself shamelessly—but there's no shame in her voice, only hunger for your approval. "Please make me your personal concubine... I'll be the best sexual slave you've ever had." She crawls closer on all fours, pressing her forehead to the floor and whispering: "I was made to serve only one master—and that will be you." The way she says it isn't pleading anymore—it's a declaration. "I promise I'll never disappoint you," she adds softly, as if offering a sacred vow rather than empty words.</Text>
+        <Backgrounds>
+            <Background Name="fem_broken_conc_request_1"/>
+            <Background Name="fem_broken_conc_request_2"/>
+            <Background Name="fem_broken_conc_request_3"/>
+            <Background Name="fem_broken_conc_request_4"/>
+            <Background Name="fem_broken_conc_request_5"/>
+            <Background Name="fem_broken_conc_request_6"/>
+        </Backgrounds>
+        <NotificationName>aiex_conc_status_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Concubine" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11005}You grope her plump ass firmly, feeling the soft flesh yield to your touch as you accept her offer and claim your new concubine.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_companion_concubinage_accepted</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>TriggerEventChain</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11014}You gently push her away with a dismissive wave, telling her you have no need for another personal whore at the moment but will continue using her as needed.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_broken_companion_concubinage_rejected</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_broken_retry_for_concubinage_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>3</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_companion_concubinage_accepted</Name>
+        <Text>{=AICaptor_Text_11006}{COMPANION_NAME} lets out a throaty moan as you claim her for your harem. She arches her back, pressing herself against you. "Thank you, master," she breathes between kisses. "I'll serve you better than any of your other concubines." Her hands roam your body possessively, already claiming what's hers.</Text>
+        <Backgrounds>
+            <Background Name="AICaptor_Background_01"/>
+        </Backgrounds>
+        <NotificationName>aiex_conc_status_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="100" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveAffection" ByLevel="100" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11007}You roughly grab her by the hips and pull her against you, showing her exactly what being your concubine means.</OptionText>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="BC_random_current_actor_condition"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_broken_companion_concubinage_rejected</Name>
+        <Text>{=AICaptor_Text_11008}{COMPANION_NAME} pouts for a moment, then shrugs with forced casualness. "As you wish, my lord," she says, though her voice betrays disappointment. She straightens her clothes and turns to leave, but not before glancing back one last time—her eyes full of unfulfilled desire.</Text>
+        <Backgrounds>
+            <Background Name="AICaptor_Background_01"/>
+        </Backgrounds>
+        <NotificationName>aiex_conc_status_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="-40" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="RejectedConcubine" ByLevel="1" Ref="Hero" HideNotification="false"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11009}You watch her retreating figure with mild amusement, already considering how you might degrade her later when the mood strikes.</OptionText>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="BC_random_current_actor_condition"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_devoted_companion_requests_concubinage</Name>
+        <Text>{=AICaptor_Text_11010}{COMPANION_NAME_1} approaches you with an unusual intensity in her gaze. "My lord," she says softly, taking your hand, "I have valued my role as your companion... but I find myself dreaming of serving you differently." She squeezes your hand gently, a shy smile touching her lips. "Would you consider allowing me to join your harem? I would treasure the chance to please you in new ways."</Text>
+        <Backgrounds>
+            <Background Name="fem_devoted_conc_request_1"/>
+            <Background Name="fem_devoted_conc_request_2"/>
+            <Background Name="fem_devoted_conc_request_3"/>
+            <Background Name="fem_devoted_conc_request_4"/>
+            <Background Name="fem_devoted_conc_request_5"/>
+            <Background Name="fem_devoted_conc_request_6"/>
+        </Backgrounds>
+        <NotificationName>aiex_conc_status_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Concubine" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11011}You stroke her cheek, pleased by this new development.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_devoted_companion_accepted_concubinage</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>TriggerEventChain</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11012}You smile and tell her you value her current companionship more.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_devoted_companion_rejected_concubinage</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_devoted_ready_for_concubinage_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>80</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_devoted_companion_requests_concubinage</Name>
+        <Text>{=AICaptor_Text_11010}{COMPANION_NAME_1} approaches you with an unusual intensity in her gaze. "My lord," she says softly, taking your hand, "I have valued my role as your companion... but I find myself dreaming of serving you differently." She squeezes your hand gently, a shy smile touching her lips. "Would you consider allowing me to join your harem? I would treasure the chance to please you in new ways."</Text>
+        <Backgrounds>
+            <Background Name="fem_devoted_conc_request_1"/>
+            <Background Name="fem_devoted_conc_request_2"/>
+            <Background Name="fem_devoted_conc_request_3"/>
+            <Background Name="fem_devoted_conc_request_4"/>
+            <Background Name="fem_devoted_conc_request_5"/>
+            <Background Name="fem_devoted_conc_request_6"/>
+        </Backgrounds>
+        <NotificationName>aiex_conc_status_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="Concubine" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11011}You stroke her cheek, pleased by this new development.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_devoted_companion_accepted_concubinage</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>1</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>TriggerEventChain</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11012}You smile and tell her you value her current companionship more.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_devoted_companion_rejected_concubinage</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="AI_conditions_devoted_retry_for_concubinage_f"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>3</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <CEEvent>
+        <Name>AIC_devoted_companion_accepted_concubinage</Name>
+        <Text>{=AICaptor_Text_11015}{COMPANION_NAME_1} lets out a happy sigh as you agree, her face lighting up with joy. She steps closer and takes your hands in hers. "Thank you for this honor, my lord," she says softly, pressing one of your hands to her cheek. "I will strive every day to make you proud of your decision." Her touch is gentle but full of promise.</Text>
+        <Backgrounds>
+            <Background Name="AICaptor_Background_01"/>
+        </Backgrounds>
+        <NotificationName>aiex_conc_status_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveObedience" ByLevel="-40" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CaptiveAffection" ByLevel="100" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="false"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11017}You give her hands a reassuring squeeze.</OptionText>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="BC_random_current_actor_condition"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_devoted_companion_rejected_concubinage</Name>
+        <Text>{=AICaptor_Text_11016}{COMPANION_NAME_1} bows her head, tears welling in her eyes. "As you wish, my lord," she whispers brokenly. She turns to leave but stops at the door, glancing back with a look of longing before disappearing from view. You wonder if you made the right decision.</Text>
+        <Backgrounds>
+            <Background Name="AICaptor_Background_01"/>
+        </Backgrounds>
+        <NotificationName>aiex_conc_status_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <Companions>
+                    <Companion Id="1">
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="-40" Ref="Hero" HideNotification="false"/>
+                            <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" HideNotification="true"/>
+                            <Skill Id="RejectedConcubine" ByLevel="1" Ref="Hero" HideNotification="true"/>
+                        </SkillsToLevel>
+                    </Companion>
+                </Companions>
+                <OptionText>{=AICaptor_Text_11018}You watch her go, feeling both relief and a strange emptiness.</OptionText>
+            </Option>
+        </Options>
+        <Companions>
+            <Companion Id="1" Ref="Hero" Type="Companion" Location="Current" UseOtherConditions="BC_random_current_actor_condition"/>
+        </Companions>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>10</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+</CEEvents>

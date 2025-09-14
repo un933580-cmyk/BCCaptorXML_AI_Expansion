@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../CaptivityRequired/Events/CEEventsModal.xsd">
+        <CEEvent>
+                <Name>TB_companion_whore_use_f</Name>
+                <Text>{COMPANION_NAME_1} smiles at you, then drops to her knees and suckles at your clit. She licks it in a businesslike fashion, coating the button with her saliva, then slides her tongue up and down your vulva, massaging your inner folds with the tip. She looks up into your eyes with a yearning expression, as though begging for your nectar, and begins lapping at your cunt, pushing a dainty finger inside to press against your inner walls. You feel your body flush with satisfaction, drenching her face with your fluids, and you buck against her, holding her face in place as you ride out your orgasm before collapsing to your knees.</Text>
+                <BackgroundName>TB_ff_noncon_cunni</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Pay her for her service.</OptionText>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <HealthTotal>-10</HealthTotal>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -2 -5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R 2 5" Ref="Hero" Color="Cyan"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_random_current_actor_condition_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_whore_use_m</Name>
+                <Text>{COMPANION_NAME_1} smiles at you, then drops to her knees and pulls out your cock. She licks it in a businesslike fashion, coating the tip with her saliva, then takes it deep into her throat, massaging the shaft with her tongue. She looks up into your eyes with a yearning expression, as though begging for your seed, and you feel your manhood twitch in satisfaction, blasting a hefty load into her mouth. She swirls it on her tongue, showing off for your amusement, then gulps it down and finishes by licking you clean with relish. </Text>
+                <BackgroundName>TB_scion_oral_facial</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Pay her for her service.</OptionText>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <HealthTotal>-10</HealthTotal>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -2 -5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R 2 5" Ref="Hero" Color="Cyan"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_random_current_actor_condition_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_whore_tribute</Name>
+                <Text>{COMPANION_NAME_1} returns to kneel before you, her body clean but her eyes cold and dead. She hands you a sack full of gold. To you, this represents a small sum, enough to purchase grain for perhaps a few day's march. For her, each coin represents a shred of her dignity, a piece of the woman she once was torn from her soul and transformed into deadly sin. She looks up at you, any hint of her past pride entirely gone.</Text>
+                <BackgroundName>TB_scion_slave_submit</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>1</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Compliment her skills.</OptionText>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R 10 25" Ref="Hero" Color="Cyan"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                        <GoldTotal>R 20 50</GoldTotal>
+                    </Option>
+                    <Option>
+                        <Order>2</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+ 
+                            <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Tell her she's no longer a whore.</OptionText>
+                        <TriggerEventName>TB_companion_whore_fired</TriggerEventName>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>RemoveProstitutionFlag</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R 2 5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R -2 -5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="CurrentActor" ByLevel="1" Ref="Hero" Color="Cyan" HideNotification="true" />
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                        <GoldTotal>R 20 50</GoldTotal>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_conditions_random_prostitute_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>5</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_whore_fired</Name>
+                <Text>{COMPANION_NAME_1} looks sharply into your eyes at your proclamation. She nods, considering what to do now that her reputation is utterly ruined, and thanks you for your mercy before quickly leaving your presence.</Text>
+                <BackgroundName>TB_scion_slave_kneel</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>That went well.</OptionText>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <SkillsToLevel>
+                                    <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_random_current_actor_condition_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_whore_busy</Name>
+                <Text>You hear the sound of cheering, and look over to see {COMPANION_NAME_1}'s luscious lips wrapped around the shaft of one of your men. She takes two more of them in her hands, fondling their balls with a practiced ease, and merely grunts when a fourth man penetrates her from behind, her attention firmly on pleasing the cocks in front of her. She fucks them with the ease of a practiced whore, draining their balls until they gasp in pain from the emptiness, then backs up and shoves herself down on the man inside her, riding him to ecstasy. The pair come in sweet symphony, their moans echoing through the camp as the others gratefully fill her pouch with their coin.</Text>
+                <BackgroundName>TB_scion_slavery_group_oral</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            
+                        </MultipleRestrictedListOfConsequences>
+                        
+                        <OptionText>Handling that many men can't be easy.</OptionText>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <HealthTotal>-15</HealthTotal>
+                                <PregnancyRiskModifier>40</PregnancyRiskModifier>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -10 -15" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R 2 5" Ref="Hero" Color="Cyan"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_conditions_random_prostitute_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_whore_busy_2</Name>
+                <Text>You notice {COMPANION_NAME_1} negotiating with one of your men. A handful of coin changes hands, and she turns around and spreads her legs. She screams as he tears into her, slapping her hard enough to leave a fresh red welt, and she angrily tells him her asshole costs an extra two coins. He laughs, asking her what kind of whore sets her own prices, but by the time he spurts into her, leaving a trail of fresh cum pouring from her butt, her coinpurse looks quite a bit heavier.</Text>
+                <BackgroundName>TB_scion_doggy_down</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            
+                        </MultipleRestrictedListOfConsequences>
+                        
+                        <OptionText>Quite the businesswoman.</OptionText>
+                         <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <HealthTotal>R -20 -30</HealthTotal>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -2 -5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R 2 5" Ref="Hero" Color="Cyan"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_conditions_random_prostitute_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_whore_titjob</Name>
+                <Text>You hear a commotion on one of the carts, but quickly realize it's only {COMPANION_NAME_1} servicing a client. The man is straddled atop her, thrusting his member into her cleavage as she expertly licks the glans, and just as you move to leave he shudders in ecstasy, sending a thick torrent of slime into her mouth. She moves her head back as he continues spurting, coating her face and breasts in his sticky semen.</Text>
+                <BackgroundName>TB_scion_titjob_dirty</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeRenown</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Move along.</OptionText>
+                         <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <HealthTotal>-5</HealthTotal>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -2 -5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R 5 10" Ref="Hero" Color="Cyan"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_conditions_random_prostitute_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_whore_offer</Name>
+                <Text>{COMPANION_NAME_1} walks up to you, swaying her hips, and licks her lips suggestively. She mentions that business has been slow of late, but she'd like to make sure she comes up with enough coin to please you. She bends over, slowly pushing a finger into her dripping vagina, and asks if you happen to be in the mood to purchase what she's selling.</Text>
+                <BackgroundName>TB_scion_beckon</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>You could use a little entertainment.</OptionText>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>TB_companion_whore_use_m</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>TB_companion_whore_use_f</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                         <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -2 -5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R 2 5" Ref="Hero" Color="Cyan"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                    <Option>
+                        <Order>1</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>You've got better things to do.</OptionText>
+                        <SkillsToLevel>
+                            <Skill Id="CaptiveAffection" ByLevel="-1" Ref="Hero" Color="Cyan"/>
+                        </SkillsToLevel>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_conditions_random_prostitute_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_experienced_whore</Name>
+                <Text>You spot {COMPANION_NAME_1} resting on a small cot made up on one of the carts. One of your men approaches warily, explaining that she needs to rest. She's just taken twenty men at the same time, and the men all agreed that she should be rewarded with a bit of shut-eye before they go for another round. It's obvious enough from the semen coating her body that she's been quite a busy girl.</Text>
+                <BackgroundName>TB_scion_bed_used</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            
+                        </MultipleRestrictedListOfConsequences>
+                        
+                        <OptionText>Let her be.</OptionText>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <HealthTotal>-10</HealthTotal>
+                                <SkillsToLevel>
+                                    <Skill Id="Prostitution" ByLevel="R 2 5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -5 -10" Ref="Hero" Color="Cyan"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_conditions_random_experienced_prostitute_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_renowned_whore</Name>
+                <Text>A group of men approaches from the east; from their dress, they look like peasants, or perhaps merchants. They ask to see {COMPANION_NAME_1}, indicating that news of her skill between the sheets has reached them from a nearby city, and they seek to test the truth of those rumors. Their leader offers you a bag of gold for the privilege.</Text>
+                <BackgroundName>TB_character_peasant_2</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                            
+                        </MultipleRestrictedListOfConsequences>
+                        
+                        <OptionText>Let them use the whore. (500 {GOLD_ICON})</OptionText>
+                        <TriggerEvents>
+                            <TriggerEvent>
+                                <EventName>TB_companion_renowned_whore_use</EventName>
+                                <EventWeight>100</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                            <TriggerEvent>
+                                <EventName>TB_companion_renowned_whore_old_enemy</EventName>
+                                <EventWeight>25</EventWeight>
+                                <EventUseConditions>True</EventUseConditions>
+                            </TriggerEvent>
+                        </TriggerEvents>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <HealthTotal>-20</HealthTotal>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -2 -5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R 2 5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="CurrentActor" ByLevel="R 2 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                        <GoldTotal>500</GoldTotal>
+                    </Option>
+                    <Option>
+                        <Order>1</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Deny their request.</OptionText>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R 2 5" Ref="Hero" Color="Cyan"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_conditions_random_renowned_prostitute_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_renowned_whore_use</Name>
+                <Text>The men find {COMPANION_NAME_1} servicing one of your troops, and her eyes widen as they explain their intent, one of them freeing his cock from his pants in demonstration. As she finishes with her current client, she reaches over and engulfs the man's rod with her mouth. He shudders in ecstasy and surprise as one of the others moves towards her rear. She services them for several hours, taking load after load of cum until at last her visitors return to you, exhausted, and tell you the rumors are, if anything, underselling her skill.</Text>
+                <BackgroundName>TB_scion_slavery_group_oral</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>They should probably pay you more then...</OptionText>
+                        <GoldTotal>R 100 300</GoldTotal>
+                    </Option>
+                    <Option>
+                        <Order>1</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Good to know.</OptionText>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_random_current_actor_condition_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_renowned_whore_old_enemy</Name>
+                <Text>The men walk up to {COMPANION_NAME_1} and her eyes widen in recognition. One of them comments that she won't look quite so arrogant locked up, and that he'll be more than happy to help teach her her new role in life. She shakes her head, whimpering in pain and humiliation as he pulls her to a nearby pillory; it's clear they have some past history, and that she doesn't want what they're offering.</Text>
+                <BackgroundName>TB_scion_wants_modesty</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeProstitutionLevel</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>Return their money and tell them to leave.</OptionText>
+                        <ProstitutionTotal>R -1 -3</ProstitutionTotal>
+                        <GoldTotal>-500</GoldTotal>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R 10 20" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R -2 -5" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                    <Option>
+                        <Order>1</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>She has a job to do.</OptionText>
+                        <TriggerEventName>TB_companion_renowned_whore_old_enemy_2</TriggerEventName>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <SkillsToLevel>
+                                    <Skill Id="CaptiveAffection" ByLevel="R -15 -20" Ref="Hero" Color="Cyan"/>
+                                    <Skill Id="Prostitution" ByLevel="R 20 30" Ref="Hero" Color="Cyan"/>
+                                    
+                                </SkillsToLevel>
+                                <HealthTotal>-60</HealthTotal>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_random_current_actor_condition_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+            <CEEvent>
+                <Name>TB_companion_renowned_whore_old_enemy_2</Name>
+                <Text>{COMPANION_NAME_1} lowers her head in shame as she is locked into the pillory, taking the man's cock in one hand and slowly massaging it. He grins, then grabs her hair and shoves her mouth onto his rod, roughly face-fucking her for several minutes, then moves behind her as she gasps for air. He enters her brutally, but her screams are muted by the meaty rods that the man's companions have shoved into her mouth. Hours later, the men return, thanking you for the use of your whore as she whimpers on the ground, covered in seed. She'll likely take quite a while to recover after that ordeal.</Text>
+                <BackgroundName>TB_bound_stocks_soaked_behind</BackgroundName>
+                <NotificationName>TB_captor_notification</NotificationName>
+                <MultipleRestrictedListOfFlags>
+                    <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+                    
+                    <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>Prostitution</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+                    <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+                </MultipleRestrictedListOfFlags>
+                <Options>
+                    <Option>
+                        <Order>0</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>ChangeGold</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>They should probably pay you more then...</OptionText>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <SkillsToLevel>
+                                    <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                        <GoldTotal>R 100 300</GoldTotal>
+                    </Option>
+                    <Option>
+                        <Order>1</Order>
+                        <MultipleRestrictedListOfConsequences>
+                            <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                        </MultipleRestrictedListOfConsequences>
+                        <OptionText>So be it.</OptionText>
+                        <Companions>
+                            <Companion Id="1">
+                                <MultipleRestrictedListOfConsequences>
+                                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                                </MultipleRestrictedListOfConsequences>
+                                <SkillsToLevel>
+                                    <Skill Id="CurrentActor" ByLevel="-100" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                                </SkillsToLevel>
+                            </Companion>
+                        </Companions>
+                    </Option>
+                </Options>
+                <Companions>
+                    <Companion Id="1" Ref="Hero" Type="Both"  UseOtherConditions="BC_random_current_actor_condition_f" />
+                </Companions>
+                <ReqCustomCode>true</ReqCustomCode>
+                <SexualContent>true</SexualContent>
+                <WeightedChanceOfOccuring>10</WeightedChanceOfOccuring>
+                <ReqHeroMinAge>18</ReqHeroMinAge>
+            </CEEvent>
+</CEEvents>

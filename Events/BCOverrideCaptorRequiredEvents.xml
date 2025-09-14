@@ -4,7 +4,7 @@
 <!-- BC_Captor Captor_M Captive_F Menu Dialogue (template) -->
     <CEEvent>
         <Name>CE_captor_male_sexual_menu</Name>
-        <Text>{=BCCaptor_Text_14390}You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for her, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
+        <Text>You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for her, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
         <Backgrounds>
             <Background Name="BC_captor_captive_female" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="BC_image_thief_stone_above" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -30,7 +30,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14391}Court your captive {CAPTIVE_NAME}.</OptionText>                   
+                <OptionText>Court your captive {CAPTIVE_NAME}.</OptionText>                   
                 <TriggerEvents>
                         <TriggerEvent>
                             <EventName>BC_event_date_new</EventName>
@@ -50,20 +50,19 @@
                 </TriggerEvents>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="R 10 20" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="false"/>
                                 <Skill Id="CaptiveOffLimits" ByLevel="-100" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
                     </SkillsRequired>
-                <MoraleTotal>-5</MoraleTotal>
             </Option>
             <Option>
                 <Order>5</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14392}Send {CAPTIVE_NAME} to the harem.</OptionText>                
+                <OptionText>Send {CAPTIVE_NAME} to the harem.</OptionText>                
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_harem_wife</EventName>
@@ -82,7 +81,7 @@
                     </TriggerEvent>
                 </TriggerEvents>
                     <SkillsToLevel>
-                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="false"/>
                                 <Skill Id="CaptiveOffLimits" ByLevel="-100" Ref="Hero" HideNotification="true"/>
                     </SkillsToLevel>
                     <SkillsRequired>
@@ -94,7 +93,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14393}Send {CAPTIVE_NAME} to the barracks.</OptionText>            
+                <OptionText>Send {CAPTIVE_NAME} to the barracks.</OptionText>            
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_barracks_wife</EventName>
@@ -113,9 +112,9 @@
                     </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="false"/>
                 </SkillsToLevel>
             </Option>
         </Options>
@@ -127,7 +126,7 @@
     <!-- Overwrite FEMALE Strip back to Harem menu -->
         <CEEvent>
             <Name>CE_captor_male_sexual_strip</Name>
-            <Text>{=BCCaptor_Text_14394}You order {CAPTIVE_NAME} to strip before you. She reluctantly complies, standing naked before you as you briefly admire her ample bosom and luscious thighs before handing her a collection of ill-fitting rags with which to clothe herself.</Text>
+            <Text>You order {CAPTIVE_NAME} to strip before you. She reluctantly complies, standing naked before you as you briefly admire her ample bosom and luscious thighs before handing her a collection of ill-fitting rags with which to clothe herself.</Text>
             <BackgroundName>BC_image_column_sad</BackgroundName>
             <MultipleRestrictedListOfFlags>
                 <RestrictedListOfFlags>Captor</RestrictedListOfFlags>            
@@ -146,10 +145,10 @@
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
                     <SkillsToLevel>
-                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R -5 -15" Ref="Hero" HideNotification="true"/>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="false"/>
+                        <Skill Id="CaptiveAffection" ByLevel="R -5 -15" Ref="Hero" HideNotification="false"/>
                     </SkillsToLevel>
-                    <OptionText>{=BCCaptor_Text_14400}What else do you have in store?</OptionText>
+                    <OptionText>What else do you have in store?</OptionText>
                     <RelationTotal>-5</RelationTotal>
                     <TriggerEventName>BC_event_male_harem_menu</TriggerEventName>
                 </Option>
@@ -163,7 +162,7 @@
 <!-- BC_Captor Captor_F Captive_F Menu Dialogue -->
     <CEEvent>
         <Name>CE_captor_female_sexual_menu</Name>
-        <Text>{=BCCaptor_Text_14395}You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for her, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
+        <Text>You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for her, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
         <Backgrounds>
             <Background Name="BC_captor_captive_female" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="BC_image_thief_stone_above" UseConditions="BC_event_conditions_captive_thief_female" />
@@ -188,23 +187,22 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14391}Court your captive {CAPTIVE_NAME}.</OptionText>                   
+                <OptionText>Court your captive {CAPTIVE_NAME}.</OptionText>                   
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="R 10 20" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="false"/>
                 </SkillsToLevel>
                 <SkillsRequired>
                     <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
                 </SkillsRequired>
-                <MoraleTotal>-5</MoraleTotal>
             </Option>
             <Option>
                 <Order>5</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14392}Send {CAPTIVE_NAME} to the harem.</OptionText>                
+                <OptionText>Send {CAPTIVE_NAME} to the harem.</OptionText>                
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_harem_wife</EventName>
@@ -223,7 +221,7 @@
                     </TriggerEvent>
                 </TriggerEvents>
                     <SkillsToLevel>
-                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="false"/>
                     </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
@@ -234,7 +232,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14393}Send {CAPTIVE_NAME} to the barracks.</OptionText>            
+                <OptionText>Send {CAPTIVE_NAME} to the barracks.</OptionText>            
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_barracks_wife</EventName>
@@ -253,9 +251,9 @@
                     </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="false"/>
                 </SkillsToLevel>
             </Option>
         </Options>
@@ -269,7 +267,7 @@
 <!-- BC_Captor Captor_F Captive_M Menu Dialogue -->
     <CEEvent>
         <Name>CE_captor_female_sexual_menu_m</Name>
-        <Text>{=BCCaptor_Text_14396}{CAPTIVE_NAME} kneels bound before you, helpless to resist your whims. What fate do you have in mind for him, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
+        <Text>{CAPTIVE_NAME} kneels bound before you, helpless to resist your whims. What fate do you have in mind for him, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
         <BackgroundName>BC_captor_captive_male_hawk</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -289,7 +287,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14391}Court your captive {CAPTIVE_NAME}.</OptionText>                   
+                <OptionText>Court your captive {CAPTIVE_NAME}.</OptionText>                   
                 <TriggerEvents>
                         <TriggerEvent>
                             <EventName>TB_captor_dating_menu</EventName>
@@ -304,19 +302,18 @@
                 </TriggerEvents>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="R 10 20" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="false"/>
                 </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
                     </SkillsRequired>
-                <MoraleTotal>-5</MoraleTotal>
             </Option>
             <Option>
                 <Order>5</Order>
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14392}Send {CAPTIVE_NAME} to the harem.</OptionText>                       
+                <OptionText>Send {CAPTIVE_NAME} to the harem.</OptionText>                       
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_harem_wife</EventName>
@@ -330,7 +327,7 @@
                     </TriggerEvent>
                 </TriggerEvents>
                     <SkillsToLevel>
-                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="false"/>
                     </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
@@ -342,7 +339,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14393}Send {CAPTIVE_NAME} to the barracks.</OptionText>           
+                <OptionText>Send {CAPTIVE_NAME} to the barracks.</OptionText>           
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_barracks_wife</EventName>
@@ -356,8 +353,8 @@
                     </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="false"/>
                 </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="Roguery" Min="50" Ref="Captor"/>
@@ -374,7 +371,7 @@
 <!-- BC_Captor Captor_M Captive_M Menu Dialogue -->
     <CEEvent>
         <Name>CE_captor_male_sexual_menu_m</Name>
-        <Text>{=BCCaptor_Text_14397}You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for him, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
+        <Text>You summon {CAPTIVE_NAME} to be brought before you. What fate do you have in mind for him, {?PLAYER.GENDER}Mistress{?}Master{\?}?</Text>
         <BackgroundName>BC_captor_captive_male_hawk</BackgroundName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -394,7 +391,7 @@
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>ChangeMorale</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14398}Have your captive {CAPTIVE_NAME} accompany you privately.</OptionText>                   
+                <OptionText>Have your captive {CAPTIVE_NAME} accompany you privately.</OptionText>                   
                 <TriggerEvents>
                         <TriggerEvent>
                             <EventName>TB_captor_dating_menu</EventName>
@@ -409,7 +406,7 @@
                 </TriggerEvents>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="R 10 20" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -5 25" Ref="Hero" HideNotification="false"/>
                 </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
@@ -421,7 +418,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14392}Send {CAPTIVE_NAME} to the harem.</OptionText>                       
+                <OptionText>Send {CAPTIVE_NAME} to the harem.</OptionText>                       
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_harem_wife</EventName>
@@ -435,7 +432,7 @@
                     </TriggerEvent>
                 </TriggerEvents>
                     <SkillsToLevel>
-                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="true"/>
+                        <Skill Id="CaptiveEsteem" ByLevel="R -5 15" Ref="Hero" HideNotification="false"/>
                     </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
@@ -447,7 +444,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_14393}Send {CAPTIVE_NAME} to the barracks.</OptionText>           
+                <OptionText>Send {CAPTIVE_NAME} to the barracks.</OptionText>           
                 <TriggerEvents>
                     <TriggerEvent>
                         <EventName>BC_event_male_barracks_wife</EventName>
@@ -461,9 +458,9 @@
                     </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -15 5" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R -25 -5" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="Trustee" ByLevel="-1" Ref="Hero" HideNotification="false"/>
                 </SkillsToLevel>
                     <SkillsRequired>
                         <SkillRequired Id="Roguery" Min="50" Ref="Captor"/>
@@ -480,7 +477,7 @@
     <!-- M_M_Strip for Code-called events; not sure why this one is overwritten while female is not?  -->
         <CEEvent>
             <Name>CE_captor_male_sexual_strip_m</Name>
-            <Text>{=BCCaptor_Text_14399}You order {CAPTIVE_NAME} to strip before you. He reluctantly complies, standing naked before you as you briefly note the girth of his shaft and his pert buttocks before handing him a collection of ill-fitting rags with which to clothe himself.</Text>
+            <Text>You order {CAPTIVE_NAME} to strip before you. He reluctantly complies, standing naked before you as you briefly note the girth of his shaft and his pert buttocks before handing him a collection of ill-fitting rags with which to clothe himself.</Text>
             <BackgroundName>default_male</BackgroundName>
             <MultipleRestrictedListOfFlags>
                 <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
@@ -494,7 +491,7 @@
                         <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
                         <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                     </MultipleRestrictedListOfConsequences>
-                    <OptionText>{=BCCaptor_Text_14400}What else do you have in store?</OptionText>
+                    <OptionText>What else do you have in store?</OptionText>
                     <RelationTotal>-10</RelationTotal>
                     <TriggerEventName>BC_event_male_harem_menu_m</TriggerEventName>
                 </Option>

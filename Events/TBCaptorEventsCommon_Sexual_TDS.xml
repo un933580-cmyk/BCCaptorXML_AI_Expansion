@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>TB_captor_tds_chase</Name>
+        <Text>You run after the man, instructing your guards to secure the camp, as this could well be a distraction from a larger threat. You follow a trail of broken leaves without much trouble, but something's wrong - the trail leads you much further than you feel possible, and after an hour or so trying to find your way back you hear womanly cries of passion from a nearby clearing. You've never heard {CAPTIVE_NAME} so excited, and by the time you reach her she's unconscious, her kidnapper swiftly buckling his strange tunic closed. He doesn't seem to have noticed you yet...</Text>
+        <Backgrounds>
+            <Background Name="NK_tds_farewell"/>
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationRisk</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Wait for him to leave, then grab her.</OptionText>
+                <HealthTotal>10</HealthTotal>
+                <PregnancyRiskModifier>100</PregnancyRiskModifier>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_tds_duel_win</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_tds_sneak_win</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_tds_duel_lose_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_tds_duel_lose_f</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Challenge him to a duel.</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>TB_captor_tds_duel_win</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_tds_duel_lose_f</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_tds_duel_lose_m</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>True</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Order him to hand her over.</OptionText>
+                <TriggerEventName>TB_captor_tds_call_favor</TriggerEventName>
+                <SkillsRequired>
+                    <SkillRequired Id="TDSFavor" Min="1" Ref="Captor"/>
+                </SkillsRequired>
+                <SkillsToLevel>
+                    <Skill Id="TDSFavor" ByLevel="-1" Ref="Captor" Color="Cyan" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_tds_duel_win</Name>
+        <Text>The man looks into your eyes, spotting you from afar, and brandishes his sword. You fight valiantly, and his skill is undeniable, almost supernatural as he handily avoids your blows, toying with you as he makes superficial cuts to your arms and legs. You surprise him, however, by intentionally taking a wound to get yourself closer to him, pushing him off balance as he falls to the ground, rolling backwards to regain his footing. He brushes a thin trail of blood from his face where your blade struck true, and nods approvingly. He sheathes his weapon, telling you that you have earned your forfeit, and may take back your captive as befits a worthy warrior.</Text>
+        <Backgrounds>
+            <Background Name="NK_tds_welcome"/>
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Make your way back to camp.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="OneHanded" Min="R 30 120" Ref="Captor" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_tds_sneak_win</Name>
+        <Text>You watch silently as the man finishes dressing himself, pulling a strange flower from his pack and carefully placing it between {CAPTIVE_NAME}'s breasts. He smiles briefly at her slumbering form and looks around cautiously, still not spotting you, before departing. After a brief while you make your way to where your captive rests and tighten her binds, waking her so that you can begin the long trek back to camp.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_slave_kneel" UseConditions="BC_event_conditions_captive_female" />
+            <Background Name="TB_thief_kneeling_road" UseConditions="BC_event_conditions_captive_thief_female" />
+            <Background Name="TB_scion_male_roadside" UseConditions="BC_event_conditions_captive_male" />
+            <Background Name="TB_scion_pregnant" UseConditions="BC_event_conditions_captive_pregnant" />
+            <Background Name="TB_thief_pregnant" UseConditions="BC_event_conditions_captive_thief_pregnant" />
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Hopefully he won't be back.</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Roguery" Min="R 30 120" Ref="Captor" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+    <CEEvent>
+        <Name>TB_captor_call_favor</Name>
+        <Text>You call out to the man, smiling with cunning guile. He starts, recognizing you, and shakes his head in wonder. You strike a deal - he lets you keep your prisoner, and that will be one less favor owed to you. Smirking, he places his usual flower between {CAPTIVE_NAME}'s breasts before bidding you farewell.</Text>
+        <Backgrounds>
+            <Background Name="NK_tds_welcome"/>
+        </Backgrounds>
+        <NotificationName>TB_sexual_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Maybe you should have asked him for more...</OptionText>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccuring>20</WeightedChanceOfOccuring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+</CEEvents>

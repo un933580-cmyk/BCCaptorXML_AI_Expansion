@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
 
     <CEEvent>
         <Name>TB_male_hero_female_spouse_visit_sex</Name>
         <Text>{=TBRandomEvents_Spouse001}Your wife's expert hands grope and knead your body sensuously as she removes your clothing, and before long you are lost in the throes of passion, your manhood deep inside her. {COMPANION_NAME_1}'s squeals and moans echo through the camp to the beat of your thrusts, and as she strokes her clit you come, painting her fertile womb with your seed. She shudders and screams with her own rapturous climax, and you cuddle for some time afterwards, enjoying the intimacy and the feel of her supple breasts against your skin.</Text>
-        <BackgroundName>TB_doggy</BackgroundName>
+        <BackgroundName>BC_image_mf_ttv_stand_finger</BackgroundName>
         <NotificationName>TB_sexual_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
             <RestrictedListOfFlags>Random</RestrictedListOfFlags>

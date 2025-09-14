@@ -1,0 +1,1641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+
+    <!-- region oral chains -->
+
+    <!-- Oral chain 1 (street) -->
+        <CEEvent>
+        <Name>AIC_event_devoted_concubine_oral_street_start</Name>
+        <Text>{=AICaptor_Text_01330}{CAPTIVE_NAME}, your devoted concubine, walks beside you through the bustling city streets. Her eyes linger on your crotch with adoration as she adjusts her low-cut bodice. "My Lord," she murmurs, pressing closer to feel your warmth, "the sight of you commands my attention... and my mouth waters to serve you properly." She gently places a hand on your arm, leaning in so only you can hear: "Would you grant your devoted servant the honor of worshipping you right here? I promise to be discreet... though seeing you lose control would bring me immense joy."</Text>
+        <Backgrounds>
+            <Background Name="TB_concubine_street_entreaty"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Grant her request</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_oral_street_performance</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_oral_street_performance</Name>
+        <Text>{=AICaptor_Text_01331}{CAPTIVE_NAME} leads you into a discreet alleyway off the main thoroughfare, her movements eager. She drops to her knees on the cobblestones, her breathing already ragged with anticipation. "Oh my Lord," she sighs, running hands up your thighs before fiddling with your trousers. "This moment is everything... I've dreamed of tasting you for days." As she frees your cock, she gasps: "It's perfect as always! So thick and commanding!" She immediately wraps her lips around the head, moaning softly - a sound that vibrates through your entire body.</Text>
+        <Backgrounds>
+            <Background Name="TB_concubine_street_oral"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Let her continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_oral_street_climax</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_oral_street_climax</Name>
+        <Text>{=AICaptor_Text_01332}{CAPTIVE_NAME}'s mouth works you with increasing fervor, her tongue swirling around your shaft while she strokes your balls. "Mmmph! Yes, my Lord... use me!" she mumbles around your cock. "Give me all that seed I crave! Paint my face and tits with it like the good concubine I am!" She takes you impossibly deep, her nose pressing against your skin as she gulps urgently - then pulls back just in time to catch your eruption directly on her beautiful face. You cover her lips, cheeks, and cleavage in thick ropes of hot come, each spurt making her moan with ecstasy.</Text>
+        <Backgrounds>
+            <Background Name="TB_concubine_street_face_covered"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Watch her clean you</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_oral_street_aftercare</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_oral_street_aftercare</Name>
+        <Text>{=AICaptor_Text_01333}{CAPTIVE_NAME} stays kneeling, breathless and covered in your spend. With adoring eyes she gently cleans the remaining come from your cock with her lips and tongue. "Mmm... thank you for blessing me, my Lord," she purrs between licks. She collects semen from her face and chest onto a finger before bringing it to her mouth - savoring your taste with obvious relish. "Seeing you lose control like that... knowing I'm the one who caused it..." Her voice trembles with devotion as she wipes her chin clean. "I live only to serve such a magnificent master!" She kisses your hand fervently.</Text>
+        <Backgrounds>
+            <Background Name="TB_concubine_street_aftermath"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Continue your journey</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>false</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <!-- Oral chain 2 (tavern) -->
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_oral_tavern_intro</Name>
+        <Text>{=AICaptor_Text_01334}You've just finished commanding your troops through a grueling day. With dusk falling, you decide to unwind at the 'Rusty Sword' tavern in the city center. Your devoted concubine {CAPTIVE_NAME} stays close by your side, her hand resting lightly on your arm as you navigate the crowded taproom. Finding a quiet corner booth away from prying eyes and boisterous soldiers, you sit down with a sigh of relief. Without being told, {CAPTIVE_NAME} immediately drops to her knees before you in the dim light. "Master," she whispers softly, her breath warm against your thigh as she begins undoing your belt. Her movements are practiced yet reverent, fingers deftly working at the fastenings of your trousers and undergarments until your hardening cock springs free into the cool air. She lets out a soft moan of anticipation, tracing the sensitive tip with one delicate fingertip. "I've been waiting all day for this moment," she confesses, gazing up at you with adoring eyes.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_slavery_recover_horny"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Begin Your Pleasure</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_oral_tavern_start</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_oral_tavern_start</Name>
+        <Text>{=AICaptor_Text_01335}With a gentle push, you guide {CAPTIVE_NAME}'s head downward until her lips brush against your throbbing shaft. She parts them eagerly, taking just the head between those plump red lips before swirling her tongue skillfully around it. "Mmm... Yes, Master," she hums softly. Deeper now, she plunges forward, her throat opening readily to accept your considerable length. Saliva glistens at the corners of her mouth as she bobs steadily, hands cradling your balls and stroking the base in perfect rhythm. You feel the exquisite pressure building with each deep swallow. Her eyes remain fixed on yours throughout, filled with pure devotion as she serves you. "Is this... pleasing you?" she manages to gasp between thrusts, her voice thick with desire and submission. The wet sounds of her mouth fill the secluded corner booth.</Text>
+        <Backgrounds>
+            <Background Name="TB_thief_eager_touch"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Guide Her Further</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_oral_tavern_finish</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_oral_tavern_finish</Name>
+        <Text>{=AICaptor_Text_01336}Feeling the familiar pressure coiling in your loins, you tighten your grip on {CAPTIVE_NAME}'s hair to signal the approaching climax. She responds immediately, sucking harder and faster now, her throat muscles pulsing rhythmically around your shaft as she takes you deeper than ever before. With a low growl of pure pleasure, you erupt powerfully down her waiting throat. But this time, instead of swallowing, {CAPTIVE_NAME} pulls back slightly just as the first thick ropes of cum hit her tongue, letting them spill over her lips and cheeks before cascading down onto the soft curve of her breasts. "Master!" she gasps, breathless but still sucking eagerly. She continues working you fervently with hand and mouth until every last drop has been coaxed from your body, leaving her face and chest glistening visibly with your seed in the tavern's low light. "Thank... thank you," she manages to whisper between ragged breaths, cum dripping onto the floor.</Text>
+        <Backgrounds>
+            <Background Name="BC_captor_harem_favor"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Enjoy the Sight</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_oral_tavern_aftercare</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_oral_tavern_aftercare</Name>
+        <Text>{=AICaptor_Text_01337}Sated for now, you watch as {CAPTIVE_NAME} catches her breath on her knees before you. Your cum coats her chin and breasts, glistening obscenely in the candlelight of the tavern booth. With trembling hands she gathers some onto two fingers. Bringing them to her mouth, she sucks them clean with evident relish, her eyes closing briefly in pleasure at your taste. "Delicious... as always," she murmurs contentedly. Then meticulously, she cleans the remaining cum from her face and body using only her mouth and hands, ensuring not a drop is wasted or left behind on public display. When finished, she gently cradles your now-softening member, planting one last reverent kiss on its tip before looking up at you with absolute adoration shining in her eyes. "My Lord," she says softly, "to serve and satisfy you like this... it is the greatest joy in my life. I belong entirely to you."</Text>
+        <Backgrounds>
+            <Background Name="BC_image_slavery_recover_horny"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Return to your duties</OptionText>
+                <RelationTotal>R 5 10</RelationTotal>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <!-- endregion oral chains -->
+
+    <!-- region vaginal chains -->
+
+    <!-- Vaginal chain 1 (street) -->
+       <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_street_approach</Name>
+        <Text>{=AICaptor_Text_01338}{CAPTIVE_NAME} presses herself against the damp stone wall of the narrow alley, her breath coming in shallow pants. She watches as you pass by, then steps out to block your path. "Master," she whispers urgently, "I've been waiting for you all day." Her fingers tremble as they caress your arm before sliding down to your belt. "Please... I need to feel your cock inside me right now. This alley is so perfect - hidden from prying eyes yet still in the heart of the city." The smell of her arousal fills the narrow space between you as she steps closer.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_alley_pleading"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_street_prelude</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_street_prelude</Name>
+        <Text>{=AICaptor_Text_01339}{CAPTIVE_NAME} wastes no time in freeing your cock from its confines, her eager hands working swiftly to unbuckle your trousers. "You're already so hard for me," she murmurs with delight as she strokes your length, her thumb smearing precum along your shaft. Without hesitation, she takes you into her mouth with a hungry groan, her tongue swirling around every inch of sensitive flesh. The sound of her slurping echoes through the alley as she bobs up and down enthusiastically. "Your concubine loves tasting how much you desire her," she gasps between deep throats, her free hand squeezing your balls gently.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_alley_blowjob"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_street_penetration</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_street_penetration</Name>
+        <Text>{=AICaptor_Text_01340}{CAPTIVE_NAME} spins around and braces herself against the alley wall, her bare ass pressing back against you in invitation. "Fuck me, Master," she pleads breathlessly as you guide yourself to her waiting entrance. With one smooth motion, you're buried balls-deep inside her tight pussy, eliciting a shuddering moan from your eager concubine. She pushes back against every thrust, her body shaking with pleasure as you take her roughly in the semi-public space. "Oh gods," she whimpers, "I can't believe how good this feels... knowing anyone could walk by and see me getting fucked like a common slut." Her words only serve to spur you on further.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_alley_fucking"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_street_cumshot</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_street_cumshot</Name>
+        <Text>{=AICaptor_Text_01341}Your climax hits with overwhelming force, your seed pumping deep into {CAPTIVE_NAME}'s trembling body. She collapses against the wall, her own orgasm triggering as you fill her completely. "Oh Master," she gasps between shuddering breaths, "I feel it all... every drop of your perfect cum breeding my concubine cunt." As you pull out, thick ropes of your seed leak from her stretched pussy onto the damp alley floor. She watches with rapturous attention as your essence dribbles down her thighs, one finger tracing through the mess before bringing it to her lips for a taste. "So delicious," she murmurs, licking her fingers clean.</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_alley_aftermath"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_street_cleanup</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_street_cleanup</Name>
+        <Text>{=AICaptor_Text_01342}{CAPTIVE_NAME} drops to her knees without being told, her hands trembling as she reaches for your cock. "Let me clean my Master," she whispers reverently before taking you into her mouth once more. Her tongue swirls around every inch of your shaft, lapping up the remnants of her own juices mixed with your cum. She moans softly around your length, clearly enjoying both the taste and the act of serving you so intimately. When she's satisfied you're completely clean, she looks up at you with adoring eyes. "Thank you for letting me serve you today," she murmurs before planting a kiss on the head of your cock. "I hope I pleased my Master."</Text>
+        <Backgrounds>
+            <Background Name="TB_scion_alley_cleanup"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Appreciate your concubine's devotion</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+ 
+    <!-- Vaginal chain 2 (market) -->
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_market_1</Name>
+        <Text>{=AICaptor_Text_01343}The bustling marketplace provides perfect cover as {CAPTIVE_NAME} slips you a note between the stalls, her eyes burning with unspoken desire. When you follow her instructions to an empty alleyway behind the market square, she presses herself against you immediately, her hands clutching at your cloak with desperate need. "I've been waiting for this moment all week," she breathes fervently.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_market_alley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_market_2</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_market_2</Name>
+        <Text>{=AICaptor_Text_01344}She wastes no time in freeing your manhood from its confines, her nimble fingers working quickly despite the public setting. "I've imagined this taste every day," she murmurs against your flesh as she takes you into her mouth, her tongue swirling around it. The distant sounds of the market contrast sharply with the growing tension between you.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_market_alley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_market_3</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_market_3</Name>
+        <Text>{=AICaptor_Text_01345}She rises quickly and turns to press her back against the alley wall, lifting her skirts to reveal glistening folds already wet with desire. "Take me, my lord," she whispers urgently as you enter her welcoming warmth, "fill your devoted concubine completely before we're discovered." With each thrust, she bites her lip to stifle her cries of pleasure.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_market_sex"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_market_4</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_market_4</Name>
+        <Text>{=AICaptor_Text_01346}The danger of discovery seems to heighten {CAPTIVE_NAME}'s pleasure as she shudders through multiple orgasms against your thrusting cock. "Please, my lord," she begs between gasps, "fill me with your seed! Let me bear your child so I can be forever tied to you." Her words spur you on until at last you release deep inside her, coating her womb with your essence while she shudders through another orgasm.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_market_sex"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_market_5</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_market_5</Name>
+        <Text>{=AICaptor_Text_01347}As your cock softens, {CAPTIVE_NAME} quickly straightens her clothes and pulls you back into the bustling marketplace. No one seems to notice as she takes you into her mouth for a final cleaning in the shadows of an open stall, murmuring "Thank you for this honor" between worshipful strokes before releasing you with a loving pat on your thigh.</Text>
+        <Backgrounds>
+            <Background Name="BC_image_market_alley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Appreciate your concubine's devotion</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- Vaginal chain 3 (tavern) -->
+
+     <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern_start</Name>
+        <Text>{=AICaptor_Text_01348}You enter the bustling common room of the tavern to find {CAPTIVE_NAME} waiting patiently at a private table in the corner. The devoted concubine sits with perfect posture, her eyes lighting up when she sees you approach. She immediately rises and removes your cloak with reverent hands, whispering "My lord has finally arrived" as she helps you sit. Around you, the tavern noise fades into background chatter as all attention focuses on your arrival with this beautiful woman.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_tavern_prelude</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern_prelude</Name>
+        <Text>{=AICaptor_Text_01349}{CAPTIVE_NAME} immediately drops to her knees between your legs, her skilled fingers working to free your cock from your trousers with trembling excitement. "Please let me serve you properly, my love," she murmurs as she takes your hardening length into her warm mouth, her eyes locked on yours the entire time. The tavern patrons watch discretely as she works, some whispering about your concubine's devotion while others simply admire her beauty and dedication to pleasing you.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_tavern_intercourse</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern_intercourse</Name>
+        <Text>{=AICaptor_Text_01350}{CAPTIVE_NAME} climbs onto your lap, her wet folds easily accepting your thick cock as she wraps her arms around your neck. "Oh yes, my love," she moans softly as you begin to thrust upward into her tight pussy, "you feel so perfect inside me." The tavern patrons hear every word and watch with rapt attention as this beautiful concubine rides you passionately, her breasts bouncing with each movement.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_tavern_finish</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern_finish</Name>
+        <Text>{=AICaptor_Text_01353}With a final powerful thrust, you bury yourself deep inside {CAPTIVE_NAME} as your cock pulses with release, flooding her womb with your seed. "Oh yes, give me all of it," she cries softly, feeling the warmth spread inside her. The tavern patrons watch as she clutches you tightly, whispering "Thank you my lord" over and over again.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_tavern_aftercare</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern_aftercare</Name>
+        <Text>{=AICaptor_Text_01354}{CAPTIVE_NAME} slips off your lap and immediately begins cleaning your cock with her tongue, savoring the taste of yourself mixed with her own juices. "Such a good lord you are," she murmurs between licks, "always giving me exactly what I need." The tavern patrons watch as she finishes by kissing your tip lovingly before settling back in your lap.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Appreciate your concubine's devotion</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- Vaginal chain 4 (tavern 2) -->
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern2_start</Name>
+        <Text>{=AICaptor_Text_01355}You enter the bustling common room of the tavern to find {CAPTIVE_NAME} waiting patiently at a private table in the corner. The devoted concubine sits with perfect posture, her eyes lighting up when she sees you approach. She immediately rises and removes your cloak with reverent hands, whispering "My lord has finally arrived" as she helps you sit. Around you, the tavern noise fades into background chatter as all attention focuses on your arrival with this beautiful woman.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_tavern2_prelude</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern2_prelude</Name>
+        <Text>{=AICaptor_Text_01356}{CAPTIVE_NAME} immediately drops to her knees between your legs, her skilled fingers working to free your cock from your trousers with trembling excitement. "Please let me serve you properly, my love," she murmurs as she takes your hardening length into her warm mouth, her eyes locked on yours the entire time. The tavern patrons watch discretely as she works, some whispering about your concubine's devotion while others simply admire her beauty and dedication to pleasing you.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_tavern2_intercourse</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern2_intercourse</Name>
+        <Text>{=AICaptor_Text_01357}{CAPTIVE_NAME} climbs onto your lap, her wet folds easily accepting your thick cock as she wraps her arms around your neck. "Oh yes, my love," she moans softly as you begin to thrust upward into her tight pussy, "you feel so perfect inside me." The tavern patrons hear every word and watch with rapt attention as this beautiful concubine rides you passionately, her breasts bouncing with each movement.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_tavern2_finish</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern2_finish</Name>
+        <Text>{=AICaptor_Text_01358}With a final powerful thrust, you bury yourself deep inside {CAPTIVE_NAME} as your cock pulses with release, flooding her womb with your seed. "Oh yes, give me all of it," she cries softly, feeling the warmth spread inside her. The tavern patrons watch as she clutches you tightly, whispering "Thank you my lord" over and over again.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ImpregnationByPlayer</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_vaginal_tavern2_aftercare</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_vaginal_tavern2_aftercare</Name>
+        <Text>{=AICaptor_Text_01359}{CAPTIVE_NAME} slips off your lap and immediately begins cleaning your cock with her tongue, savoring the taste of yourself mixed with her own juices. "Such a good lord you are," she murmurs between licks, "always giving me exactly what I need." The tavern patrons watch as she finishes by kissing your tip lovingly before settling back in your lap.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room_female"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Appreciate your concubine's devotion</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <!-- endregion vaginal chains -->
+
+    <!-- region anal chains -->
+
+    <!-- Anal chain 1 (street) -->
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_anal_alley_1</Name>
+        <Text>{=AICaptor_Text_01343}You spot {CAPTIVE_NAME} waiting anxiously in the dark alley behind the tavern. Her thin silk robe barely covers her trembling form as she hears your footsteps approach. "My lord," she whispers, dropping to her knees immediately, "I've been dreaming of serving you all day." The damp cobblestones beneath her bare feet contrast with the warmth radiating from her exposed thighs.</Text>
+        <Backgrounds>
+            <Background Name="BC_concubine_alley_submission"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_anal_alley_2</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_anal_alley_2</Name>
+        <Text>{=AICaptor_Text_01344}{CAPTIVE_NAME} eagerly unbuckles your armor, her fingers trembling with devotion as she fumbles with the straps. "Please let me serve you properly," she pleads between kisses on your chest. Her warm tongue traces circles around your nipples while her hands work to free your manhood. The scent of her arousal fills the narrow alley as she finally takes you in her mouth, sucking deeply with practiced movements.</Text>
+        <Backgrounds>
+            <Background Name="BC_concubine_alley_submission"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_anal_alley_3</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_anal_alley_3</Name>
+        <Text>{=AICaptor_Text_01345}You press {CAPTIVE_NAME} against the rough stone wall of the alley, lifting her thighs to wrap around your waist. "Take me my lord," she moans as you position yourself at her tight entrance. The first thrust makes her gasp - she's never taken anything this large before, but her body quickly adjusts to your size. Each powerful stroke draws cries of pleasure from the devoted concubine who clings to you like a drowning woman to a life preserver.</Text>
+        <Backgrounds>
+            <Background Name="BC_concubine_alley_submission"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_anal_alley_4</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_anal_alley_4</Name>
+        <Text>{=AICaptor_Text_01346}{CAPTIVE_NAME}'s entire body tenses as you feel your release building. She presses her lips to yours in a desperate kiss, moaning into your mouth. With one final thrust you empty yourself deep inside her, feeling her inner walls milking every last drop from you. "Oh gods," she gasps when you finally withdraw, watching with rapt attention as your seed drips from her stretched hole onto the cobblestones below.</Text>
+        <Backgrounds>
+            <Background Name="BC_concubine_alley_submission"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AIC_event_devoted_concubine_anal_alley_5</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_event_devoted_concubine_anal_alley_5</Name>
+        <Text>{=AICaptor_Text_01347}{CAPTIVE_NAME} drops to her knees again, her tongue immediately seeking out the traces of your seed that remain on your shaft. "I'll clean you properly my lord," she promises between licks. When she's satisfied with her work, she stands shakily and presses her body against yours. "Thank you for letting me serve you," she whispers before kissing your neck tenderly. Your concubine's swollen anus still drips with your essence as she clings to you in the dark alley.</Text>
+        <Backgrounds>
+            <Background Name="BC_concubine_alley_submission"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Appreciate your concubine's devotion</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- Anal chain 2 (Market) -->
+    <CEEvent>
+        <Name>AICaptor_event_devoted_concubine_anal_market_start</Name>
+        <Text>{=AICaptor_Text_01343}The market square teems with life as merchants call out their wares. Among the crowd, your concubine {CAPTIVE_NAME} stands waiting in simple yet alluring attire that highlights her form. She immediately bows at your approach, kneeling before you with downcast eyes. "Master," she whispers, pressing herself against your leg. The rich scents of fresh bread and roasting meats fill the air as she awaits your command.</Text>
+        <Backgrounds>
+            <Background Name="BC_marketplace_concubine"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AICaptor_event_devoted_concubine_anal_market_prelude</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AICaptor_event_devoted_concubine_anal_market_prelude</Name>
+        <Text>{=AICaptor_Text_01344}You lead {CAPTIVE_NAME} to a quiet alley behind the stalls. Without hesitation, she drops to her knees and begins undressing you with trembling hands. "I've longed for this moment," she murmurs between kisses along your thigh. Her lips wrap around your cock as she takes you deep into her throat, her eyes never leaving yours in reverent worship. The distant market noises fade away as she pleasures you with skillful tongue work and passionate moans.</Text>
+        <Backgrounds>
+            <Background Name="BC_marketplace_alley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AICaptor_event_devoted_concubine_anal_market_main</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AICaptor_event_devoted_concubine_anal_market_main</Name>
+        <Text>{=AICaptor_Text_01345}Spinning {CAPTIVE_NAME} around, you push her forward over a sturdy crate and raise her skirts to expose her bare ass. She gasps as your cock presses against her tight hole, her body quivering with anticipation. "Take me, Master," she begs breathlessly, watching you over her shoulder with lust-darkened eyes. You enter slowly, feeling her stretch around you as she moans loudly at the intrusion. Her ass clenches rhythmically as you fill her completely.</Text>
+        <Backgrounds>
+            <Background Name="BC_marketplace_crate"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AICaptor_event_devoted_concubine_anal_market_finish</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AICaptor_event_devoted_concubine_anal_market_finish</Name>
+        <Text>{=AICaptor_Text_01346}Your thrusts grow more forceful, making the crate shake beneath {CAPTIVE_NAME}'s trembling body. She cries out with each impact, her fingers gripping the wood tightly as you use her for your pleasure. The sounds of slapping flesh and her desperate pleas fill the alley as you approach release. "Fill me, Master!" she begs, just before you unleash inside her ass. Her own orgasm grips her as your hot seed floods her depths.</Text>
+        <Backgrounds>
+            <Background Name="BC_marketplace_crate"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AICaptor_event_devoted_concubine_anal_market_cleanup</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AICaptor_event_devoted_concubine_anal_market_cleanup</Name>
+        <Text>{=AICaptor_Text_01347}Withdrawing carefully, you watch as your cum leaks from her well-used hole. {CAPTIVE_NAME} returns to her knees and cleans you thoroughly with mouth and tongue. She then reaches back to gather some of the spilt seed, tasting it appreciatively. "So delicious," she murmurs before planting a loving kiss on your cockhead. Looking up at you with adoring eyes, she whispers, "Thank you for letting me serve you."</Text>
+        <Backgrounds>
+            <Background Name="BC_marketplace_alley"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Appreciate your concubine's devotion</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- Anal chain 3 (tavern) -->
+     <CEEvent>
+        <Name>AICaptor_event_anal_tavern_start</Name>
+        <Text>{=AICaptor_Text_01348}You enter the bustling tavern, the air thick with the scent of ale and roasted meats. Your concubine {CAPTIVE_NAME} is already there, sitting in a secluded corner booth, her eyes locked onto yours as soon as you walk in. She stands up immediately, her body trembling with anticipation. "Master," she whispers, bowing her head respectfully before kneeling at your feet. The noise of the tavern fades away as you focus on her.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_concubine"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInTown</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AICaptor_event_anal_tavern_prelude</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AICaptor_event_anal_tavern_prelude</Name>
+        <Text>{=AICaptor_Text_01349}You lead {CAPTIVE_NAME} to a private room in the back of the tavern. She immediately drops to her knees, her hands working quickly to unbuckle your belt. "I've been dreaming about this all day, Master," she murmurs, her lips brushing against your cock as she speaks. She takes you into her mouth, her tongue swirling around your shaft as she sucks and licks. Her moans are muffled by your cock, but her devotion is clear in every movement.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AICaptor_event_anal_tavern_main</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AICaptor_event_anal_tavern_main</Name>
+        <Text>{=AICaptor_Text_01350}You push {CAPTIVE_NAME} onto the bed, her skirts riding up to reveal her bare ass. She looks back at you with lust-filled eyes as you press your cock against her tight hole. "Take me, Master," she pleads, her voice trembling with excitement. You push inside slowly, feeling her stretch around you. She moans loudly, her body shaking with pleasure and pain as you fill her completely.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_bed"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AICaptor_event_anal_tavern_finish</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AICaptor_event_anal_tavern_finish</Name>
+        <Text>{=AICaptor_Text_01346}You pound into {CAPTIVE_NAME}'s ass harder, her body shaking with each thrust. She cries out in ecstasy, her fingers digging into the bedsheets as you fuck her. Your balls slap against her pussy, and she moans your name over and over again. You feel yourself getting close, and she begs you to fill her up. With a final thrust, you explode inside her, your cum shooting deep into her ass.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_bed"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>Continue</OptionText>
+                <TriggerEvents>
+                    <TriggerEvent>
+                        <EventName>AICaptor_event_anal_tavern_cleanup</EventName>
+                        <EventWeight>1</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AICaptor_event_anal_tavern_cleanup</Name>
+        <Text>{=AICaptor_Text_01350}You pull out slowly, watching as your cum drips from her stretched hole. {CAPTIVE_NAME} turns around and takes your softened cock into her mouth again, sucking and licking it clean. She then reaches back to gather some of your cum from her ass, bringing it to her lips to taste. "Thank you for letting me serve you, Master," she murmurs before kissing your cock tenderly.</Text>
+        <Backgrounds>
+            <Background Name="BC_tavern_private_room"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeSkill</RestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>ChangeRelation</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <RelationTotal>R 5 10</RelationTotal>
+                <OptionText>Appreciate your concubine's devotion</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" HideNotification="false"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R 0 25" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R 1 10" Ref="Hero" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustA" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustC" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustO" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustT" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="CaptiveLustV" ByLevel="R -1 2" Ref="Captor" Color="Yellow" HideNotification="true"/>
+                    <Skill Id="ConcubineTraining" ByLevel="1" Ref="Hero" HideNotification="false" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+
+    <!-- endregion anal chains -->
+
+</CEEvents>

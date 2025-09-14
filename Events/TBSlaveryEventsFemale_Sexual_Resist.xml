@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_slavery_training</Name>
@@ -96,7 +96,7 @@
                 <OptionText>{=TBSlaveryEventsFemaleSexualResist010}Accept your place as their slave.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R 15 50" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -15 -50" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -15 -50" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <SlaveryTotal>R 3 6</SlaveryTotal>
                 <HealthTotal>R -3 -12</HealthTotal>
@@ -114,7 +114,7 @@
                 <OptionText>{=TBSlaveryEventsFemaleSexualResist011}Insult them; these idiots can't break you...</OptionText>
                 <SkillsToLevel>
                     <Skill Id="CaptiveLustA" ByLevel="R -15 10" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveEsteem" ByLevel="R 5 -10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R 5 -10" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <RenownTotal>2</RenownTotal>
                 <SlaveryTotal>R -3 -10</SlaveryTotal>
@@ -341,7 +341,7 @@
                     <Skill Id="CaptiveLustO" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveEsteem" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <TriggerEventName>TB_slavery_resist</TriggerEventName>
             </Option>
@@ -362,7 +362,7 @@
                     <Skill Id="CaptiveLustO" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveLustT" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R -1 -5" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveEsteem" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveEsteem" ByLevel="R 1 5" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <ReqHeroSlaveLevelBelow>100</ReqHeroSlaveLevelBelow>
             </Option>

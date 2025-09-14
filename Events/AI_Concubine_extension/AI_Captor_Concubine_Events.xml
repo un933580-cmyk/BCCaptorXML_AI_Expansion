@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+    <CEEvent>
+        <Name>AIC_concubine_captor_devoted_wake_f</Name>
+        <Text>{=AICaptor_Text_11000}As you wake up, your devoted concubine {CAPTIVE_NAME} is already kneeling beside the bed. She smiles lovingly as she leans in to pleasure you orally, her hands gently caressing your thighs. "Good morning, master," she whispers. "Your humble concubine is here to serve you.". {CAPTIVE_NAME} works her lips and tongue expertly, taking you deep into her mouth as she gazes up at you adoringly. Her cheeks hollow slightly as she sucks hard, the wet heat of her mouth driving you closer to climax.</Text>
+        <Backgrounds>
+            <Background Name="fem_concubine_devoted_wake_start_0"/>
+            <Background Name="fem_concubine_devoted_wake_start_1"/>
+            <Background Name="fem_concubine_devoted_wake_start_2"/>
+            <Background Name="fem_concubine_devoted_wake_start_3"/>
+            <Background Name="fem_concubine_devoted_wake_start_4"/>
+            <Background Name="fem_concubine_devoted_wake_start_5"/>
+            <Background Name="fem_concubine_devoted_wake_start_6"/>
+            <Background Name="fem_concubine_devoted_wake_start_7"/>
+        </Backgrounds>
+        <NotificationName>aiex_prisoner_conc_notification</NotificationName>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_11002}Fill her devoted mouth with you seed</OptionText>
+                <TriggerEvents>
+                <TriggerEvent>
+                    <EventName>AIC_concubine_captor_devoted_wake_f_climax</EventName>
+                    <EventWeight>1</EventWeight>
+                    <EventUseConditions>true</EventUseConditions>
+                </TriggerEvent>
+                </TriggerEvents>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero"/>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero"/>
+            <SkillRequired Id="InTorture" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>15</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+    <CEEvent>
+        <Name>AIC_concubine_captor_devoted_wake_f_climax</Name>
+        <Text>{=AICaptor_Text_11003}A low moan escapes your throat as you feel the tension building. {CAPTIVE_NAME} senses it too and doubles her efforts, one hand moving to stroke you in time with her mouth. "I love tasting you, master," she murmurs before swallowing you again. With a final thrust, you reach your peak and spill into her waiting mouth. {CAPTIVE_NAME} drinks down every last drop with eager enthusiasm, savoring the taste of her master's seed as she gently kisses the tip before pulling away with a satisfied smile. {CAPTIVE_NAME} licks her lips, her eyes shining with affection. "Your humble concubine lives to serve you in all ways," she purrs before resting her head on your thigh, content to simply be near you.</Text>
+        <Backgrounds>
+            <Background Name="fem_concubine_devoted_wake_climax_0"/>
+            <Background Name="fem_concubine_devoted_wake_climax_1"/>
+            <Background Name="fem_concubine_devoted_wake_climax_2"/>
+            <Background Name="fem_concubine_devoted_wake_climax_3"/>
+            <Background Name="fem_concubine_devoted_wake_climax_4"/>
+            <Background Name="fem_concubine_devoted_wake_climax_5"/>
+            <Background Name="fem_concubine_devoted_wake_climax_6"/>
+            <Background Name="fem_concubine_devoted_wake_climax_7"/>
+            <Background Name="fem_concubine_devoted_wake_climax_8"/>
+        </Backgrounds>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>{=BCCaptor_Text_12234}That's a loving little slut...</OptionText>
+                <SkillsToLevel>
+                    <Skill Id="CaptiveAffection" ByLevel="R 5 15" Ref="Hero" Color="Cyan" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustC" ByLevel="R 3 -10" Ref="Captor" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustT" ByLevel="R 3 -10" Ref="Captor" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveLustO" ByLevel="R 3 -10" Ref="Captor" Color="Cyan" HideNotification="true" />
+                </SkillsToLevel>
+            </Option>
+        </Options>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        <WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+
+</CEEvents>

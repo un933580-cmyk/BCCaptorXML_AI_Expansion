@@ -1252,6 +1252,100 @@
         
         <ReqHeroMinAge>18</ReqHeroMinAge>
     </CEEvent>
+	<CEEvent>
+        <Name>BC_event_conditions_captive_female_devoted</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>BC_event_conditions_captive_female_broken</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	<CEEvent>
+        <Name>BC_event_conditions_captive_female_mindbroken</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotPregnant</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <Options>
+            <Option>
+                <Order>0</Order>
+                <MultipleRestrictedListOfConsequences>
+                    <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+                </MultipleRestrictedListOfConsequences>
+                <OptionText>N/A</OptionText>
+            </Option>
+        </Options>
+        <SkillsRequired>
+            <SkillRequired Id="MindBroken" Ref="Hero" Min="1"/>
+        </SkillsRequired>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+    </CEEvent>
+	
     <CEEvent>
         <Name>BC_event_conditions_captive_thief_female</Name>
         <Text>N/A</Text>
@@ -2102,4 +2196,438 @@
             <SkillRequired Id="IsWarrior" Min="1" Ref="Hero" />
         </SkillsRequired>
     </CEEvent>
+	
+	<!-- AIExtension conditions -->
+	
+	<CEEvent>
+        <Name>AI_conditions_random_untrained_concubine_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Shattered" Max="0" Ref="Hero" />
+            <SkillRequired Id="Fanatic" Max="0" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_pretrained_concubine_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Shattered" Max="0" Ref="Hero" />
+            <SkillRequired Id="Fanatic" Max="0" Ref="Hero" />
+			<SkillRequired Id="ConcubineTraining" Min="10" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_broken_untrained_concubine_current</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero" />
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="Shattered" Max="0" Ref="Hero" />
+            <SkillRequired Id="Fanatic" Max="0" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_devoted_untrained_concubine_current</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="Shattered" Max="0" Ref="Hero" />
+            <SkillRequired Id="Fanatic" Max="0" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_shattered_concubine_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Shattered" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_fanatic_concubine_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Fanatic" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_shattered_concubine_current_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Shattered" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_fanatic_concubine_current_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Fanatic" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="CurrentActor" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_fanatic_concubine_pre_warrior_training</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Fanatic" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="WarrirorTraining" Max="0" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_shattered_concubine_pre_warrior_training</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Shattered" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="WarrirorTraining" Max="0" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_fanatic_concubine_warrior_training</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Fanatic" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="WarrirorTraining" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_shattered_concubine_warrior_training</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Shattered" Min="1" Ref="Hero" />
+			<SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="WarrirorTraining" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_concubine_bodyguard_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="SkilledBodyguard" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_concubine_bodyguard_fanatic_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="Fanatic" Min="1" Ref="Hero" />
+			<SkillRequired Id="SkilledBodyguard" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_random_concubine_bodyguard_shattered_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Concubine" Min="1" Ref="Hero" />
+			<SkillRequired Id="Shattered" Min="1" Ref="Hero" />
+			<SkillRequired Id="SkilledBodyguard" Min="1" Ref="Hero" />
+        </SkillsRequired>
+    </CEEvent>
+	
+	<CEEvent>
+        <Name>AI_conditions_devoted_ready_for_concubinage_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+			<SkillRequired Id="RejectedConcubine" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+	
+		<CEEvent>
+        <Name>AI_conditions_devoted_retry_for_concubinage_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Devoted" Min="1" Ref="Hero" />
+            <SkillRequired Id="Broken" Max="0" Ref="Hero"/>
+			<SkillRequired Id="RejectedConcubine" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+	
+		<CEEvent>
+        <Name>AI_conditions_broken_ready_for_concubinage_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+			<SkillRequired Id="RejectedConcubine" Max="0" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+	
+		<CEEvent>
+        <Name>AI_conditions_broken_retry_for_concubinage_f</Name>
+        <Text>N/A</Text>
+        <MultipleRestrictedListOfFlags>
+            <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+            <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotSlave</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsProstitute</RestrictedListOfFlags>
+            <RestrictedListOfFlags>HeroIsNotProstitute</RestrictedListOfFlags>
+        </MultipleRestrictedListOfFlags>
+        <ReqCustomCode>true</ReqCustomCode>
+        <SexualContent>true</SexualContent>
+        
+        <ReqHeroMinAge>18</ReqHeroMinAge>
+        <SkillsRequired>
+            <SkillRequired Id="Broken" Min="1" Ref="Hero"/>
+			<SkillRequired Id="RejectedConcubine" Min="1" Ref="Hero"/>
+        </SkillsRequired>
+    </CEEvent>
+	
 </CEEvents>

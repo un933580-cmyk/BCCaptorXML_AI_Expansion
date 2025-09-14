@@ -72,13 +72,13 @@
         <SkillsToLevel>
             <Skill Id="NotNewCaptive" ByLevel="1" Ref="Hero" HideNotification="true"/>
             <Skill Id="Virginal" ByLevel="R -2 5"  Ref="Hero" HideNotification="true" />
-            <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White"  HideNotification="true" />
+            <Skill Id="CaptiveEsteem" ByLevel="R 20 50" Ref="Hero" Color="White"  HideNotification="false" />
             <Skill Id="CaptiveLustO" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
             <Skill Id="CaptiveLustV" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
             <Skill Id="CaptiveLustC" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
             <Skill Id="CaptiveLustT" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
             <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
-            <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="true" />
+            <Skill Id="CaptiveAugment" ByLevel="R -30 30" Ref="Hero" Color="Red"  HideNotification="false" />
             </SkillsToLevel>
             <ReqCustomCode>true</ReqCustomCode>
             <SexualContent>true</SexualContent>
@@ -150,26 +150,26 @@
                 <OptionText>{=BCCaptor_Text_12002}Say farewell for now.</OptionText>
                 <SkillsToLevel>
                     <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1" HideNotification="true" />
-                    <Skill Id="CaptiveEsteem" ByLevel="R 50 100" Ref="Hero" Color="White" HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 50 100" Ref="Hero" Color="White" HideNotification="false" />
                     <Skill Id="CaptiveLustO" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustC" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustT" ByLevel="R -20 50" Ref="Hero" Color="Yellow"   HideNotification="true"/>
                     <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
-                    <Skill Id="CaptiveAugment" ByLevel="R -10 40" Ref="Hero" Color="Red"  HideNotification="true"/>
+                    <Skill Id="CaptiveAugment" ByLevel="R -10 40" Ref="Hero" Color="Red"  HideNotification="false"/>
                 </SkillsToLevel>
             </Option>
         </Options>
         <SkillsRequired><SkillRequired Id="NotNewCaptive" Ref="Hero" Max="0" /></SkillsRequired>
                 <SkillsToLevel>
                     <Skill Id="NotNewCaptive" Ref="Hero" ByLevel="1"  HideNotification="true" />
-                    <Skill Id="CaptiveEsteem" ByLevel="R 50 100" Ref="Hero" Color="White"  HideNotification="true" />
+                    <Skill Id="CaptiveEsteem" ByLevel="R 50 100" Ref="Hero" Color="White"  HideNotification="false" />
                     <Skill Id="CaptiveLustO" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
                     <Skill Id="CaptiveLustV" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true"/>
                     <Skill Id="CaptiveLustC" ByLevel="R -20 50" Ref="Hero" Color="Yellow" HideNotification="true"  />
                     <Skill Id="CaptiveLustT" ByLevel="R -20 50" Ref="Hero" Color="Yellow" HideNotification="true"  />
                     <Skill Id="CaptiveLustA" ByLevel="R -20 50" Ref="Hero" Color="Yellow"  HideNotification="true" />
-                    <Skill Id="CaptiveAugment" ByLevel="R -10 40" Ref="Hero" Color="Red"  HideNotification="true" />
+                    <Skill Id="CaptiveAugment" ByLevel="R -10 40" Ref="Hero" Color="Red"  HideNotification="false" />
                 </SkillsToLevel>
                 <ReqCustomCode>true</ReqCustomCode>
                 <SexualContent>true</SexualContent>
@@ -181,6 +181,9 @@
         <Backgrounds>
             <Background Name="BC_image_captive_female_brunette" UseConditions="BC_event_conditions_captive_female" />
             <Background Name="BC_captor_waiting_crates" UseConditions="BC_event_conditions_captive_thief_female" />
+			<Background Name="BC_image_captive_maid_2" UseConditions="BC_event_conditions_captive_female_broken" />
+			<Background Name="BC_image_f_strap_suit" UseConditions="BC_event_conditions_captive_female_mindbroken" />
+			<Background Name="BC_captor_dating_boobs_jasmine" UseConditions="BC_event_conditions_captive_female_devoted" />
             <Background Name="BC_image_captive_male" UseConditions="BC_event_conditions_captive_male" />
             <Background Name="BC_captor_dating_lady_pregnant" UseConditions="BC_event_conditions_captive_pregnant" />
             <Background Name="BC_captor_dating_thief_pregnant" UseConditions="BC_event_conditions_captive_thief_pregnant" />
@@ -221,11 +224,11 @@
                         <EventWeight>1</EventWeight>
                         <EventUseConditions>true</EventUseConditions>
                     </TriggerEvent>
-                    <!--<TriggerEvent>
+                    <TriggerEvent>
                         <EventName>TB_captor_date_talk_devoted</EventName>
                         <EventWeight>100</EventWeight>
                         <EventUseConditions>true</EventUseConditions>
-                    </TriggerEvent>-->
+                    </TriggerEvent>
                     <TriggerEvent>
                         <EventName>TB_captor_date_talk_broken</EventName>
                         <EventWeight>100</EventWeight>
@@ -241,11 +244,11 @@
                         <EventWeight>1</EventWeight>
                         <EventUseConditions>true</EventUseConditions>
                     </TriggerEvent>
-                    <TriggerEvent>
+                    <!--<TriggerEvent>
                         <EventName>BC_event_date_fake_tired</EventName>
                         <EventWeight>1</EventWeight>
                         <EventUseConditions>true</EventUseConditions>
-                    </TriggerEvent>
+                    </TriggerEvent>-->
                 </TriggerEvents>
                 <SkillsRequired><SkillRequired Id="Raging" Ref="Captor" Max="0" /></SkillsRequired>
             </Option>
@@ -281,7 +284,7 @@
                         <EventWeight>1</EventWeight>
                         <EventUseConditions>true</EventUseConditions>
                     </TriggerEvent>
-                    <!--<TriggerEvent>
+                    <TriggerEvent>
                         <EventName>TB_captor_date_meal_devoted</EventName>
                         <EventWeight>100</EventWeight>
                         <EventUseConditions>true</EventUseConditions>
@@ -295,7 +298,7 @@
                         <EventName>TB_captor_date_meal_mindbroken</EventName>
                         <EventWeight>100</EventWeight>
                         <EventUseConditions>true</EventUseConditions>
-                    </TriggerEvent>-->
+                    </TriggerEvent>
                 </TriggerEvents>
                 <SkillsRequired><SkillRequired Id="Raging" Ref="Captor" Max="0" /></SkillsRequired>
             </Option>
@@ -332,7 +335,7 @@
                         <EventWeight>1</EventWeight>
                         <EventUseConditions>True</EventUseConditions>
                     </TriggerEvent>
-                    <!--<TriggerEvent>
+                    <TriggerEvent>
                         <EventName>TB_captor_date_intimate_broken</EventName>
                         <EventWeight>100</EventWeight>
                         <EventUseConditions>true</EventUseConditions>
@@ -341,9 +344,61 @@
                         <EventName>TB_captor_date_intimate_mindbroken</EventName>
                         <EventWeight>100</EventWeight>
                         <EventUseConditions>true</EventUseConditions>
-                    </TriggerEvent>-->
+                    </TriggerEvent>
+					<TriggerEvent>
+                        <EventName>TB_captor_date_intimate_vaginal_devoted</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+                    <TriggerEvent>
+                        <EventName>TB_captor_date_intimate_anal_devoted</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
+					<TriggerEvent>
+                        <EventName>TB_captor_date_intimate_oral_devoted</EventName>
+                        <EventWeight>100</EventWeight>
+                        <EventUseConditions>true</EventUseConditions>
+                    </TriggerEvent>
                 </TriggerEvents>
             </Option>
+			<Option>
+				<Order>3</Order>
+				<MultipleRestrictedListOfConsequences>
+					<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+				</MultipleRestrictedListOfConsequences>
+				<OptionText>{=BCCaptor_Text_1100x}Ask {CAPTIVE_NAME} to join your harem.</OptionText>
+				<TriggerEvents>
+					<TriggerEvent>
+						<EventName>TB_captor_ask_concubinage_devoted</EventName>
+						<EventWeight>100</EventWeight>
+						<EventUseConditions>True</EventUseConditions>
+					</TriggerEvent>
+					<TriggerEvent>
+						<EventName>TB_captor_ask_concubinage_broken</EventName>
+						<EventWeight>100</EventWeight>
+						<EventUseConditions>True</EventUseConditions>
+					</TriggerEvent>
+					<TriggerEvent>
+						<EventName>TB_captor_ask_concubinage_mindbroken</EventName>
+						<EventWeight>100</EventWeight>
+						<EventUseConditions>True</EventUseConditions>
+					</TriggerEvent>
+					<TriggerEvent>
+						<EventName>TB_captor_ask_concubinage_hatred</EventName>
+						<EventWeight>100</EventWeight>
+						<EventUseConditions>True</EventUseConditions>
+					</TriggerEvent>
+					<TriggerEvent>
+						<EventName>TB_captor_ask_concubinage_reluctant</EventName>
+						<EventWeight>100</EventWeight>
+						<EventUseConditions>True</EventUseConditions>
+					</TriggerEvent>
+				</TriggerEvents>
+				<SkillsRequired>
+					<SkillRequired Id="Concubine" Max="0" Ref="Hero"/>
+				</SkillsRequired>
+			</Option>
             <Option>
                 <Order>40</Order>
                 <MultipleRestrictedListOfConsequences>
@@ -387,8 +442,8 @@
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true" />
-                    <Skill Id="CaptiveObedience" ByLevel="R -3 -6" Ref="Hero" Color="Cyan" HideNotification="true" />
-                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan"  HideNotification="true"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R -3 -6" Ref="Hero" Color="Cyan" HideNotification="false" />
+                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan"  HideNotification="false"/>
                 </SkillsToLevel>
                 <HealthTotal>R 3 6</HealthTotal>
             </Option>
@@ -431,8 +486,8 @@
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R -3 -6" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R -3 -6" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <HealthTotal>R 3 6</HealthTotal>
             </Option>
@@ -474,8 +529,8 @@
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R -3 -6" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R -3 -6" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <HealthTotal>R 3 6</HealthTotal>
             </Option>
@@ -517,8 +572,8 @@
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R -3 -6" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R -3 -6" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <HealthTotal>R 3 6</HealthTotal>
             </Option>
@@ -561,8 +616,8 @@
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R 0 -2" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 0 -2" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <HealthTotal>R 6 10</HealthTotal>
             </Option>
@@ -604,8 +659,8 @@
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-2" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R 0 -2" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 0 -2" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <HealthTotal>R 6 10</HealthTotal>
             </Option>
@@ -650,8 +705,8 @@
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
-                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                    <Skill Id="CaptiveObedience" ByLevel="R 0 -2" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                    <Skill Id="CaptiveAffection" ByLevel="R 3 6" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                    <Skill Id="CaptiveObedience" ByLevel="R 0 -2" Ref="Hero" Color="Cyan" HideNotification="false"/>
                 </SkillsToLevel>
                 <HealthTotal>R 6 10</HealthTotal>
             </Option>
@@ -711,7 +766,7 @@
                     </TriggerEvent>
                 </TriggerEvents>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="false" />
                     <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
                     <Skill Id="Maiden" ByLevel="1" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
@@ -724,7 +779,7 @@
                 <OptionText>{=BCCaptor_Text_12022}Continue pursuing your claim.</OptionText>
                 <TriggerEventName>BC_event_date_virgin_resist</TriggerEventName>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -10 10" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 10" Ref="Hero" Color="Cyan" HideNotification="false" />
                     <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
                     <Skill Id="Maiden" ByLevel="1" Ref="Hero"  HideNotification="true" />
                 </SkillsToLevel>
@@ -766,7 +821,7 @@
                 <OptionText>{=BCCaptor_Text_12021}Tell her you understand, and bring up something else.</OptionText>
                 <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="false" />
                     <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
                 </SkillsToLevel>
             </Option>
@@ -778,7 +833,7 @@
                 <OptionText>{=BCCaptor_Text_12025}Tell her you have decided tonight you will make sure she no longer has the burden of her virginity.</OptionText>
                 <TriggerEventName>BC_event_male_sex_ttv_first</TriggerEventName>
                 <SkillsToLevel>
-                    <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
+                    <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="false" />
                     <Skill Id="CaptiveLustV" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustA" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
                     <Skill Id="CaptiveLustO" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
@@ -848,11 +903,11 @@
                             <EventWeight>1</EventWeight>
                             <EventUseConditions>True</EventUseConditions>
                         </TriggerEvent>
-                        <TriggerEvent>
+                        <!--<TriggerEvent>
                             <EventName>BC_event_date_fake_tired</EventName>
                             <EventWeight>5</EventWeight>
                             <EventUseConditions>True</EventUseConditions>
-                        </TriggerEvent>
+                        </TriggerEvent>-->
                         <TriggerEvent>
                             <EventName>BC_event_date_tired</EventName>
                             <EventWeight>5</EventWeight>
@@ -884,7 +939,7 @@
                     <TriggerEventName>TB_captor_dating_menu</TriggerEventName>                
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="1" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true" />
+                        <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="false" />
                     </SkillsToLevel>
                     <HealthTotal>R 2 5</HealthTotal>
                 </Option>
@@ -982,7 +1037,7 @@
                     <TriggerEventName>TB_captor_dating_menu</TriggerEventName>                
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="1" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="true" />
+                        <Skill Id="CaptiveAffection" ByLevel="R 1 3" Ref="Hero" Color="Cyan" HideNotification="false" />
                     </SkillsToLevel>
                     <HealthTotal>R 2 5</HealthTotal>
                 </Option>
@@ -1029,8 +1084,8 @@
                     <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R -15 -25" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                        <Skill Id="CaptiveObedience" ByLevel="R 10 20" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                        <Skill Id="CaptiveAffection" ByLevel="R -15 -25" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                        <Skill Id="CaptiveObedience" ByLevel="R 10 20" Ref="Hero" Color="Cyan" HideNotification="false"/>
                     </SkillsToLevel>
                 </Option>
                 <Option>
@@ -1044,7 +1099,7 @@
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
                         <Skill Id="CaptiveAffection" ByLevel="R -1 5" Ref="Hero" Color="Cyan" />
-                        <Skill Id="CaptiveEsteem" ByLevel="R 1 4" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                        <Skill Id="CaptiveEsteem" ByLevel="R 1 4" Ref="Hero" Color="Cyan" HideNotification="false"/>
                     </SkillsToLevel>
                 </Option>
                 <Option>
@@ -1068,8 +1123,8 @@
                     <SlaveryTotal>R 10 15</SlaveryTotal>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="-100" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R -20 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                        <Skill Id="CaptiveObedience" ByLevel="R 10 20" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                        <Skill Id="CaptiveAffection" ByLevel="R -20 10" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                        <Skill Id="CaptiveObedience" ByLevel="R 10 20" Ref="Hero" Color="Cyan" HideNotification="false"/>
                     </SkillsToLevel>
                 </Option>
             </Options>
@@ -1113,8 +1168,8 @@
                     <TriggerEventName>TB_captor_dating_menu</TriggerEventName>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R -15 -25" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                        <Skill Id="CaptiveObedience" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                        <Skill Id="CaptiveAffection" ByLevel="R -15 -25" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                        <Skill Id="CaptiveObedience" ByLevel="R 3 10" Ref="Hero" Color="Cyan" HideNotification="false"/>
                     </SkillsToLevel>
                 </Option>
                 <Option>
@@ -1127,8 +1182,8 @@
                     <HealthTotal>R 5 10</HealthTotal>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="R 1 2" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                        <Skill Id="CaptiveEsteem" ByLevel="R 1 4" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                        <Skill Id="CaptiveAffection" ByLevel="R -1 5" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                        <Skill Id="CaptiveEsteem" ByLevel="R 1 4" Ref="Hero" Color="Cyan" HideNotification="false"/>
                     </SkillsToLevel>
                 </Option>
                 <Option>
@@ -1152,8 +1207,8 @@
                     <SlaveryTotal>R 10 15</SlaveryTotal>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="-100" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R -20 10" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                        <Skill Id="CaptiveObedience" ByLevel="R 2 6" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                        <Skill Id="CaptiveAffection" ByLevel="R -20 10" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                        <Skill Id="CaptiveObedience" ByLevel="R 2 6" Ref="Hero" Color="Cyan" HideNotification="false"/>
                     </SkillsToLevel>
                 </Option>
             </Options>
@@ -1205,7 +1260,7 @@
                             </TriggerEvent>
                     </TriggerEvents>
                     <SkillsToLevel>
-                        <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="true" />
+                        <Skill Id="CaptiveAffection" ByLevel="R -10 -20" Ref="Hero" Color="Cyan" HideNotification="false" />
                         <Skill Id="SocialEnergy" ByLevel="-50" Ref="Hero" HideNotification="true"/>
                     </SkillsToLevel>
                 </Option>
@@ -1231,8 +1286,8 @@
                     </TriggerEvents>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="-100" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R -20 -40" Ref="Hero" Color="Cyan" HideNotification="true"/>
-                        <Skill Id="CaptiveObedience" ByLevel="R -5 5" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                        <Skill Id="CaptiveAffection" ByLevel="R -20 -40" Ref="Hero" Color="Cyan" HideNotification="false"/>
+                        <Skill Id="CaptiveObedience" ByLevel="R -5 5" Ref="Hero" Color="Cyan" HideNotification="false"/>
                     </SkillsToLevel>
                 </Option>
                 <Option>
@@ -1261,7 +1316,7 @@
                     </TriggerEvents>
                     <SkillsToLevel>
                         <Skill Id="SocialEnergy" ByLevel="-1" Ref="Hero" HideNotification="true"/>
-                        <Skill Id="CaptiveAffection" ByLevel="R 1 2" Ref="Hero" Color="Cyan" HideNotification="true"/>
+                        <Skill Id="CaptiveAffection" ByLevel="R 1 2" Ref="Hero" Color="Cyan" HideNotification="false"/>
                     </SkillsToLevel>
                 </Option>
             </Options>

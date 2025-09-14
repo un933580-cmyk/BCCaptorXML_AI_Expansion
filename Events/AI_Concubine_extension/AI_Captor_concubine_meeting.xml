@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
+<!-- Concubine meeting menus -->
+	<CEEvent>
+		<Name>AIC_event_male_rest_captive</Name>
+		<Text>{=AICaptor_Text_01001}Even the greatest warriors need respite, and you feel the weight of command pressing upon your shoulders. Weariness gnaws at your bones as you recall {CAPTIVE_NAME}'s presence - perhaps she could ease this burden.</Text>
+		<Backgrounds>
+			<Background Name="BC_captor_harem_waiting_2" />
+		</Backgrounds>
+		<NotificationName>aiex_prisoner_conc_notification</NotificationName>
+		<MultipleRestrictedListOfFlags>
+			<RestrictedListOfFlags>Captor</RestrictedListOfFlags>
+			<RestrictedListOfFlags>CaptiveIsHero</RestrictedListOfFlags>
+			<RestrictedListOfFlags>CaptorGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroGenderIsFemale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInVillage</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInCastle</RestrictedListOfFlags>
+		</MultipleRestrictedListOfFlags>
+		<Options>
+			<Option>
+				<Order>1</Order>
+				<MultipleRestrictedListOfConsequences>
+					<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+				</MultipleRestrictedListOfConsequences>
+				<OptionText>{=AICaptor_Text_01002}Seek solitude with {CAPTIVE_NAME}.</OptionText>
+				<TriggerEvents>
+							
+					<TriggerEvent>
+						<EventName>AICaptor_Camp_Oral_Approach</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_PrivateChambers_Oral_Approach</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_oralsex_outdoors_near_tent_start</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_bathtime_concubine_part1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_stable_encounter_start</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_anal_bathhouse_chase</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_broken_concubine_anal_submission1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_command_tent_preparations</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_BrokenConcubine_Tent1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_devoted_concubine_oral_chambers_1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_oral_maid_start</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_oral_tent_request</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_vaginal_tent_arrival</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_bedroom_intimacy</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_devoted_concubine_vag_chambers_feast_approach</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_chambers_invitation</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_tent2_1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_chambers2_start</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+									
+				</TriggerEvents>
+			</Option>
+			<Option>
+				<Order>2</Order>
+				<MultipleRestrictedListOfConsequences>
+					<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+				</MultipleRestrictedListOfConsequences>
+				<OptionText>{=AICaptor_Text_01003}Stroll the camp and surroundings with {CAPTIVE_NAME}.</OptionText>
+				<TriggerEvents>
+					
+					<TriggerEvent>
+						<EventName>AIC_oralsex_outdoors_near_tent_start</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+									
+					<TriggerEvent>
+						<EventName>AIC_event_broken_concubine_river_start</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_broken_concubine_forest</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_broken_concubine_ruins</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_concubine_outdoor_training</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_broken_concubine_anal_beach1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_broken_concubine_anal_forest_start</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_broken_concubine_anal_meadow_entry</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_training_session_begin</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_oral_forest_approach</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_oral_stream_invite</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_forest_1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_lake_approach</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_vag_oasis_1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_vag_hill_approach</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_vag_river_approach</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_campfire_invitation</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_forest_start</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_river_prelude</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+
+				</TriggerEvents>
+			</Option>
+			<Option>
+				<Order>3</Order>
+				<MultipleRestrictedListOfConsequences>
+					<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+				</MultipleRestrictedListOfConsequences>
+				<OptionText>{=AICaptor_Text_01004}Duties come first; rest can wait.</OptionText>
+			</Option>
+		</Options>
+		<SkillsRequired><SkillRequired Id="Concubine" Ref="Hero" Min="1" /></SkillsRequired>
+		<ReqCustomCode>true</ReqCustomCode>
+		<SexualContent>true</SexualContent>
+		<WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+		<ReqHeroMinAge>18</ReqHeroMinAge>
+	</CEEvent>
+
+	<CEEvent>
+		<Name>AIC_event_male_rest_companion</Name>
+		<Text>{=AICaptor_Text_01005}Command weighs heavy, and you crave a moment's peace. Your thoughts drift to {COMPANION_NAME_1}'s calming presence - perhaps she could join you for a brief respite.</Text>
+		<MultipleRestrictedListOfFlags>
+			<RestrictedListOfFlags>Random</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInVillage</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInCastle</RestrictedListOfFlags>
+		</MultipleRestrictedListOfFlags>
+		<Backgrounds>
+			<Background Name="BC_captor_comfort_loyal_companion" />
+		</Backgrounds>
+		<NotificationName>aiex_conc_notification</NotificationName>
+		<Options>
+			<Option>
+				<Order>1</Order>
+				<MultipleRestrictedListOfConsequences>
+					<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+				</MultipleRestrictedListOfConsequences>
+				<OptionText>{=AICaptor_Text_01006}Seek solitude with {COMPANION_NAME_1}.</OptionText>
+				<Companions>
+					<Companion Id="1">
+						<MultipleRestrictedListOfConsequences>
+							<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+						</MultipleRestrictedListOfConsequences>
+						<SkillsToLevel>
+							<Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+						</SkillsToLevel>
+					</Companion>
+				</Companions>
+				<TriggerEvents>
+							
+					<TriggerEvent>
+						<EventName>AICaptor_Camp_Oral_Approach_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_PrivateChambers_Oral_Approach_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_oralsex_outdoors_near_tent_start_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_bathtime_concubine_part1_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_stable_encounter_start_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_anal_bathhouse_chase_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_broken_concubine_anal_submission1_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_command_tent_preparations_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_BrokenConcubine_Tent1_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_devoted_concubine_oral_chambers_1_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_oral_maid_start_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_oral_tent_request_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_vaginal_tent_arrival_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_bedroom_intimacy_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_devoted_concubine_vag_chambers_feast_approach_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_chambers_invitation_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_tent2_1_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_chambers2_start_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+									
+				</TriggerEvents>
+			</Option>
+			<Option>
+				<Order>2</Order>
+				<MultipleRestrictedListOfConsequences>
+					<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+				</MultipleRestrictedListOfConsequences>
+				<OptionText>{=AICaptor_Text_01007}Stroll the camp and surroundings with {COMPANION_NAME_1}.</OptionText>
+				<Companions>
+					<Companion Id="1">
+						<MultipleRestrictedListOfConsequences>
+							<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+						</MultipleRestrictedListOfConsequences>
+						<SkillsToLevel>
+							<Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+						</SkillsToLevel>
+					</Companion>
+				</Companions>
+				<TriggerEvents>
+					
+					<TriggerEvent>
+						<EventName>AIC_oralsex_outdoors_near_tent_start_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+									
+					<TriggerEvent>
+						<EventName>AIC_event_broken_concubine_river_start_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_broken_concubine_forest_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_broken_concubine_ruins_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_concubine_outdoor_training_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_broken_concubine_anal_beach1_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_broken_concubine_anal_forest_start_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AICaptor_broken_concubine_anal_meadow_entry_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_training_session_begin_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_oral_forest_approach_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_oral_stream_invite_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_forest_1_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_lake_approach_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_vag_oasis_1_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_vag_hill_approach_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_vag_river_approach_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_campfire_invitation_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_forest_start_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+					<TriggerEvent>
+						<EventName>AIC_event_devoted_concubine_anal_river_prelude_companion</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					
+				</TriggerEvents>
+			</Option>
+			<Option>
+				<Order>3</Order>
+				<MultipleRestrictedListOfConsequences>
+					<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+				</MultipleRestrictedListOfConsequences>
+				<OptionText>{=AICaptor_Text_01008}Duties come first; rest can wait.</OptionText>
+			</Option>
+		</Options>
+		<Companions>
+			<Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="AI_conditions_random_untrained_concubine_f" />
+		</Companions>
+		<ReqCustomCode>true</ReqCustomCode>
+		<SexualContent>true</SexualContent>
+		<WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+		<ReqHeroMinAge>18</ReqHeroMinAge>
+	</CEEvent>
+
+	<!--
+	<CEEvent>
+		<Name>AIC_event_male_rest_bodyguard</Name>
+		<Text>{=AICaptor_Text_01009}Even battle-forged warriors need rest, and fatigue clouds your mind. You consider {COMPANION_NAME_1}'s vigilance - her steady presence through countless campaigns has become a rare comfort in this crucible of command.</Text>
+		<MultipleRestrictedListOfFlags>
+			<RestrictedListOfFlags>Random</RestrictedListOfFlags>
+			<RestrictedListOfFlags>HeroGenderIsMale</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationTravellingParty</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInVillage</RestrictedListOfFlags>
+			<RestrictedListOfFlags>LocationPartyInCastle</RestrictedListOfFlags>
+		</MultipleRestrictedListOfFlags>
+		<Backgrounds>
+			<Background Name="BC_captor_bodyguard_memorable_night" />
+		</Backgrounds>
+		<Options>
+			<Option>
+				<Order>1</Order>
+				<Companions>
+					<Companion Id="1">
+						<MultipleRestrictedListOfConsequences>
+							<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+						</MultipleRestrictedListOfConsequences>
+						<SkillsToLevel>
+							<Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+						</SkillsToLevel>
+					</Companion>
+				</Companions>
+				<TriggerEvents>
+					<TriggerEvent>
+						<EventName>PLACEHOLDER_1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					<TriggerEvent>
+						<EventName>PLACEHOLDER_2</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					<TriggerEvent>
+						<EventName>PLACEHOLDER_3</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+				</TriggerEvents>
+				<OptionText>{=AICaptor_Text_01010}Summon {COMPANION_NAME_1} to your quarters for a private moment.</OptionText>
+				<TriggerEventName>BC_event_male_rest_bodyguard_private</TriggerEventName>
+			</Option>
+			<Option>
+				<Order>2</Order>
+				<Companions>
+					<Companion Id="1">
+						<MultipleRestrictedListOfConsequences>
+							<RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+						</MultipleRestrictedListOfConsequences>
+						<SkillsToLevel>
+							<Skill Id="CurrentActor" ByLevel="1" Ref="Hero" HideNotification="true"/>
+						</SkillsToLevel>
+					</Companion>
+				</Companions>
+				<TriggerEvents>
+					<TriggerEvent>
+						<EventName>PLACEHOLDER_1</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					<TriggerEvent>
+						<EventName>PLACEHOLDER_2</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+					<TriggerEvent>
+						<EventName>PLACEHOLDER_3</EventName>
+						<EventWeight>1</EventWeight>
+						<EventUseConditions>true</EventUseConditions>
+					</TriggerEvent>
+				</TriggerEvents>
+				<OptionText>{=AICaptor_Text_01011}Invite {COMPANION_NAME_1} for a walk through the camp.</OptionText>
+				<TriggerEventName>BC_event_male_walk_bodyguard</TriggerEventName>
+			</Option>
+			<Option>
+				<Order>3</Order>
+				<OptionText>{=AICaptor_Text_01012}Duty demands your full attention now; rest must wait.</OptionText>
+				<TriggerEventName>BC_event_duty_call_bodyguard</TriggerEventName>
+			</Option>
+		</Options>
+		<Companions>
+			<Companion Id="1" Ref="Hero" Type="Both" Location="Current" UseOtherConditions="AI_conditions_random_concubine_bodyguard_f" />
+		</Companions>
+		<ReqCustomCode>true</ReqCustomCode>
+		<SexualContent>true</SexualContent>
+		<WeightedChanceOfOccurring>20</WeightedChanceOfOccurring>
+		<ReqHeroMinAge>18</ReqHeroMinAge>
+	</CEEvent>
+	-->
+</CEEvents>
+

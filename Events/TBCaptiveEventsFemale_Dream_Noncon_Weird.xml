@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../zCaptivityEvents/ModuleLoader/CaptivityRequired/Events/CEEventsModal.xsd">
     <CEEvent>
         <Name>TB_dream_insect</Name>
-        <Text>{=TBCaptiveEvents_Female_047}Your nightmare shifts and you find yourself held in place by the legs of a massive, horrifying insect. You feel something huge and slimy enter you, snaking its way past your cervix and into your womb. The appendage begins to widen at your entrance as it begins trying to fill you with its eggs...</Text>
+        <Text>Your nightmare shifts and you find yourself held in place by the legs of a massive, horrifying insect. You feel something huge and slimy enter you, snaking its way past your cervix and into your womb. The appendage begins to widen at your entrance as it begins trying to fill you with its eggs...</Text>
         <BackgroundName>TB_dream_insect_struggle</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -17,7 +17,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_044}Try to push yourself off the creature.</OptionText>
+                <OptionText>Try to push yourself off the creature.</OptionText>
                 <HealthTotal>R 5 15</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -43,7 +43,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=BCCaptor_Text_12055}Try to wake up.</OptionText>
+                <OptionText>Try to wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -53,7 +53,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_insect_filled</Name>
-        <Text>{=TBCaptiveEvents_Female_048}Your nightmare continues as your stomach begins to bloat obscenely and painfully with the creature's unborn children, but it continues to pump into you. If it keeps going, you're not sure you'll survive.</Text>
+        <Text>Your nightmare continues as your stomach begins to bloat obscenely and painfully with the creature's unborn children, but it continues to pump into you. If it keeps going, you're not sure you'll survive.</Text>
         <BackgroundName>TB_dream_insect_filled</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -68,7 +68,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_049}Try to regain control of your dream.</OptionText>
+                <OptionText>Try to regain control of your dream.</OptionText>
                 <HealthTotal>R -15 -25</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -86,7 +86,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_027}Wake up.</OptionText>
+                <OptionText>Wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -96,7 +96,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_insect_cage</Name>
-        <Text>{=TBCaptiveEvents_Female_050}Your nightmare continues as you find yourself locked in a cage scarcely bigger than you are. Forced to your hands and knees by the bars of the cage, you hear the insect chitter above you as it continues plunging its appendage into your helpless sex.</Text>
+        <Text>Your nightmare continues as you find yourself locked in a cage scarcely bigger than you are. Forced to your hands and knees by the bars of the cage, you hear the insect chitter above you as it continues plunging its appendage into your helpless sex.</Text>
         <BackgroundName>TB_dream_insect_cage_behind</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -111,7 +111,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_049}Try to regain control of your dream.</OptionText>
+                <OptionText>Try to regain control of your dream.</OptionText>
                 <HealthTotal>R -15 -25</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -129,7 +129,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_027}Wake up.</OptionText>
+                <OptionText>Wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -139,7 +139,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_insect_table</Name>
-        <Text>{=TBCaptiveEvents_Female_051}Your nightmare continues as you find yourself on your back, bound to a table of bones by stout leather straps. The insect holds your head still with its mandibles as it continues filling you with its massive appendage.</Text>
+        <Text>Your nightmare continues as you find yourself on your back, bound to a table of bones by stout leather straps. The insect holds your head still with its mandibles as it continues filling you with its massive appendage.</Text>
         <BackgroundName>TB_dream_insect_table_miss</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -154,7 +154,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_049}Try to regain control of your dream.</OptionText>
+                <OptionText>Try to regain control of your dream.</OptionText>
                 <HealthTotal>R -15 -25</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -172,7 +172,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_027}Wake up.</OptionText>
+                <OptionText>Wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>
@@ -182,7 +182,7 @@
     </CEEvent>
     <CEEvent>
         <Name>TB_dream_insect_egg_birth</Name>
-        <Text>{=TBCaptiveEvents_Female_052}You are filled to the brim, and the creature stands possessively over your bloated body as you feel the eggs begin to slide out. It watches you with unblinking eyes, ready to fill you up again as soon as you have finished birthing its clutch.</Text>
+        <Text>You are filled to the brim, and the creature stands possessively over your bloated body as you feel the eggs begin to slide out. It watches you with unblinking eyes, ready to fill you up again as soon as you have finished birthing its clutch.</Text>
         <BackgroundName>TB_dream_insect_egg_birth</BackgroundName>
         <NotificationName>TB_slave_notification</NotificationName>
         <MultipleRestrictedListOfFlags>
@@ -197,7 +197,7 @@
                     <RestrictedListOfConsequences>ChangeHealth</RestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_046}Keep trying to resist.</OptionText>
+                <OptionText>Keep trying to resist.</OptionText>
                 <HealthTotal>R -15 -25</HealthTotal>
                 <TriggerEvents>
                     <TriggerEvent>
@@ -223,7 +223,7 @@
                 <MultipleRestrictedListOfConsequences>
                     <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
                 </MultipleRestrictedListOfConsequences>
-                <OptionText>{=TBCaptiveEvents_Female_027}Wake up.</OptionText>
+                <OptionText>Wake up.</OptionText>
                 <TriggerEventName>TB_dream_wake</TriggerEventName>
             </Option>
         </Options>

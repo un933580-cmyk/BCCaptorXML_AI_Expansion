@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CEEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../CaptivityRequired/Events/CEEventsModal.xsd">
+  <CEEvent>
+    <Name>CE_captor_female_bolton_one</Name>
+    <Text>TEST This space left intentionally blank.</Text>
+    <BackgroundName>CE_CCIFH</BackgroundName>
+    <NotificationName>TB_captor_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Blank.</OptionText>
+      </Option>
+    </Options>
+  </CEEvent>
+  <CEEvent>
+    <Name>CE_captor_female_bolton_two</Name>
+    <Text>This space left intentionally blank.</Text>
+    <BackgroundName>CE_CCIFH</BackgroundName>
+    <NotificationName>TB_captor_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Blank.</OptionText>
+      </Option>
+    </Options>
+  </CEEvent>
+  <CEEvent>
+    <Name>CE_captor_male_bolton_one</Name>
+    <Text>TEST This space left intentionally blank.</Text>
+    <BackgroundName>CE_CCIFH</BackgroundName>
+    <NotificationName>TB_captor_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Blank.</OptionText>
+      </Option>
+    </Options>
+
+  </CEEvent>
+  <CEEvent>
+    <Name>CE_captor_male_bolton_two</Name>
+    <Text>This space left intentionally blank.</Text>
+    <BackgroundName>CE_CCIFH</BackgroundName>
+    <NotificationName>TB_captor_notification</NotificationName>
+    <MultipleRestrictedListOfFlags>
+      <RestrictedListOfFlags>Random</RestrictedListOfFlags>
+      <RestrictedListOfFlags>CanOnlyBeTriggeredByOtherEvent</RestrictedListOfFlags>
+    </MultipleRestrictedListOfFlags>
+    <Options>
+      <Option>
+        <Order>1</Order>
+        <MultipleRestrictedListOfConsequences>
+          <RestrictedListOfConsequences>Continue</RestrictedListOfConsequences>
+        </MultipleRestrictedListOfConsequences>
+        <OptionText>Blank.</OptionText>
+      </Option>
+    </Options>
+
+  </CEEvent>
+</CEEvents>
